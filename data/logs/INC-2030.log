@@ -1,0 +1,166 @@
+2026-06-25 15:02:00.000  INFO 1 --- [orders-consumer-4] c.k.orders.consumer.EventHandler         : Processed PaymentCaptured orderId=ORD-37039250 partition=7 offset=1872915
+2026-06-25 15:02:37.016  INFO 1 --- [orders-consumer-7] c.k.orders.consumer.EventHandler         : Processed PaymentCaptured orderId=ORD-11127723 partition=2 offset=2587953
+2026-06-25 15:03:10.636  INFO 1 --- [orders-consumer-3] c.k.orders.consumer.EventHandler         : Processed PaymentCaptured orderId=ORD-62028054 partition=9 offset=3254797
+2026-06-25 15:04:03.408  INFO 1 --- [orders-consumer-5] c.k.orders.consumer.EventHandler         : Processed PaymentCaptured orderId=ORD-54204996 partition=8 offset=5101382
+2026-06-25 15:05:07.756  INFO 1 --- [orders-consumer-2] c.k.orders.consumer.EventHandler         : Processed PaymentCaptured orderId=ORD-84974603 partition=4 offset=2515358
+2026-06-25 15:06:18.297  INFO 1 --- [orders-consumer-1] c.k.orders.consumer.EventHandler         : Processed PaymentCaptured orderId=ORD-95840023 partition=9 offset=2730071
+2026-06-25 15:07:04.350  INFO 1 --- [orders-consumer-6] c.k.orders.consumer.EventHandler         : Processed PaymentCaptured orderId=ORD-76097573 partition=5 offset=5573547
+2026-06-25 15:07:45.404  INFO 1 --- [orders-consumer-11] c.k.orders.consumer.EventHandler         : Processed PaymentCaptured orderId=ORD-32384473 partition=4 offset=5896106
+2026-06-25 15:08:25.690  INFO 1 --- [orders-consumer-3] c.k.orders.consumer.EventHandler         : Processed PaymentCaptured orderId=ORD-83223484 partition=3 offset=3528962
+2026-06-25 15:09:11.196  INFO 1 --- [orders-consumer-0] c.k.orders.consumer.EventHandler         : Processed PaymentCaptured orderId=ORD-21915926 partition=0 offset=3749280
+2026-06-25 15:09:44.187  INFO 1 --- [orders-consumer-2] c.k.orders.consumer.EventHandler         : Processed PaymentCaptured orderId=ORD-47657841 partition=0 offset=5289423
+2026-06-25 15:10:31.607  INFO 1 --- [orders-consumer-6] c.k.orders.consumer.EventHandler         : Processed PaymentCaptured orderId=ORD-23392059 partition=7 offset=6296650
+2026-06-25 15:11:30.424  INFO 1 --- [orders-consumer-9] c.k.orders.consumer.EventHandler         : Processed PaymentCaptured orderId=ORD-68039354 partition=9 offset=7984026
+2026-06-25 15:11:56.533  INFO 1 --- [orders-consumer-1] c.k.orders.consumer.EventHandler         : Processed PaymentCaptured orderId=ORD-97552174 partition=7 offset=5033667
+2026-06-25 15:12:21.578  INFO 1 --- [orders-consumer-8] c.k.orders.consumer.EventHandler         : Processed PaymentCaptured orderId=ORD-32807572 partition=8 offset=2453936
+2026-06-25 15:13:07.801  INFO 1 --- [orders-consumer-1] c.k.orders.consumer.EventHandler         : Processed PaymentCaptured orderId=ORD-39340840 partition=5 offset=4206327
+2026-06-25 15:13:45.260  INFO 1 --- [orders-consumer-4] c.k.orders.consumer.EventHandler         : Processed PaymentCaptured orderId=ORD-99072274 partition=7 offset=4458705
+2026-06-25 15:14:46.562  INFO 1 --- [orders-consumer-0] c.k.orders.consumer.EventHandler         : Processed PaymentCaptured orderId=ORD-79068070 partition=6 offset=1281276
+2026-06-25 15:15:12.521  INFO 1 --- [orders-consumer-6] c.k.orders.consumer.EventHandler         : Processed PaymentCaptured orderId=ORD-54719053 partition=9 offset=2321199
+2026-06-25 15:16:11.718  INFO 1 --- [orders-consumer-3] c.k.orders.consumer.EventHandler         : Processed PaymentCaptured orderId=ORD-18947753 partition=7 offset=3261814
+2026-06-25 15:16:41.650  INFO 1 --- [orders-consumer-8] c.k.orders.consumer.EventHandler         : Processed PaymentCaptured orderId=ORD-64789117 partition=6 offset=7288737
+2026-06-25 15:17:13.052  INFO 1 --- [orders-consumer-5] c.k.orders.consumer.EventHandler         : Processed PaymentCaptured orderId=ORD-92531237 partition=4 offset=5488243
+2026-06-25 15:17:40.490  INFO 1 --- [orders-consumer-10] c.k.orders.consumer.EventHandler         : Processed PaymentCaptured orderId=ORD-77705430 partition=4 offset=6890956
+2026-06-25 15:18:23.481 ERROR 1 --- [orders-consumer-7] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 412
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.PaymentCaptured, expecting com.kartly.events.PaymentCaptured, missing required field settlementBatchId
+2026-06-25 15:18:47.228  WARN 1 --- [orders-consumer-10] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-10, groupId=orders-service] Seeking to offset 2938158 for partition payments.captured.v1-4
+ts=2026-06-25T09:49:13.473Z level=warn exporter=kafka-lag-exporter group=orders-service topic=payments.captured.v1 partition=7 lag=8462
+ts=2026-06-25T09:49:47.290Z level=warn exporter=kafka-lag-exporter group=orders-service topic=payments.captured.v1 partition=9 lag=9579
+ts=2026-06-25T09:50:11.130Z level=warn exporter=kafka-lag-exporter group=orders-service topic=payments.captured.v1 partition=9 lag=19955
+2026-06-25 15:20:45.176  WARN 1 --- [orders-consumer-5] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-5, groupId=orders-service] Seeking to offset 8690144 for partition payments.captured.v1-0
+ts=2026-06-25T09:51:10.609Z level=warn exporter=kafka-lag-exporter group=orders-service topic=payments.captured.v1 partition=6 lag=18690
+2026-06-25 15:21:33.979  WARN 1 --- [orders-consumer-0] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-0, groupId=orders-service] Seeking to offset 4418711 for partition payments.captured.v1-1
+ts=2026-06-25T09:52:13.968Z level=warn exporter=kafka-lag-exporter group=orders-service topic=payments.captured.v1 partition=3 lag=4572
+2026-06-25 15:22:55.091  WARN 1 --- [orders-consumer-5] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-5, groupId=orders-service] Seeking to offset 8627105 for partition payments.captured.v1-0
+2026-06-25 15:23:39.205  WARN 1 --- [orders-consumer-11] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-11, groupId=orders-service] Seeking to offset 8012370 for partition payments.captured.v1-9
+2026-06-25 15:24:11.107  WARN 1 --- [orders-consumer-6] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-6, groupId=orders-service] Seeking to offset 3716127 for partition payments.captured.v1-2
+ts=2026-06-25T09:54:50.886Z level=warn exporter=kafka-lag-exporter group=orders-service topic=payments.captured.v1 partition=5 lag=14578
+ts=2026-06-25T09:55:17.158Z level=warn exporter=kafka-lag-exporter group=orders-service topic=payments.captured.v1 partition=3 lag=14439
+ts=2026-06-25T09:55:39.559Z level=warn exporter=kafka-lag-exporter group=orders-service topic=payments.captured.v1 partition=6 lag=12690
+2026-06-25 15:26:14.993 ERROR 1 --- [orders-consumer-6] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 412
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.PaymentCaptured, expecting com.kartly.events.PaymentCaptured, missing required field settlementBatchId
+ts=2026-06-25T09:56:59.022Z level=warn exporter=kafka-lag-exporter group=orders-service topic=payments.captured.v1 partition=1 lag=17783
+ts=2026-06-25T09:57:25.402Z level=warn exporter=kafka-lag-exporter group=orders-service topic=payments.captured.v1 partition=2 lag=7153
+2026-06-25 15:27:59.090  WARN 1 --- [orders-consumer-9] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-9, groupId=orders-service] Seeking to offset 1710679 for partition payments.captured.v1-0
+ts=2026-06-25T09:58:36.834Z level=warn exporter=kafka-lag-exporter group=orders-service topic=payments.captured.v1 partition=6 lag=12152
+2026-06-25 15:29:21.253  WARN 1 --- [orders-consumer-5] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-5, groupId=orders-service] Seeking to offset 9454387 for partition payments.captured.v1-8
+2026-06-25 15:29:49.438  WARN 1 --- [orders-consumer-10] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-10, groupId=orders-service] Seeking to offset 9004171 for partition payments.captured.v1-3
+2026-06-25 15:30:19.867  WARN 1 --- [orders-consumer-8] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-8, groupId=orders-service] Seeking to offset 4801938 for partition payments.captured.v1-0
+ts=2026-06-25T10:00:52.953Z level=warn exporter=kafka-lag-exporter group=orders-service topic=payments.captured.v1 partition=6 lag=13664
+2026-06-25 15:31:25.139  WARN 1 --- [orders-consumer-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-1, groupId=orders-service] Seeking to offset 4273579 for partition payments.captured.v1-2
+2026-06-25 15:32:05.672  WARN 1 --- [orders-consumer-2] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-2, groupId=orders-service] Seeking to offset 7357773 for partition payments.captured.v1-7
+2026-06-25 15:32:37.852  WARN 1 --- [orders-consumer-5] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-5, groupId=orders-service] Seeking to offset 7410013 for partition payments.captured.v1-5
+ts=2026-06-25T10:03:15.415Z level=warn exporter=kafka-lag-exporter group=orders-service topic=payments.captured.v1 partition=9 lag=15171
+2026-06-25 15:33:54.726  WARN 1 --- [orders-consumer-9] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-9, groupId=orders-service] Seeking to offset 9341867 for partition payments.captured.v1-2
+2026-06-25 15:34:34.238 ERROR 1 --- [orders-consumer-1] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 412
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.PaymentCaptured, expecting com.kartly.events.PaymentCaptured, missing required field settlementBatchId
+2026-06-25 15:35:15.163  WARN 1 --- [orders-consumer-0] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-0, groupId=orders-service] Seeking to offset 3336683 for partition payments.captured.v1-6
+2026-06-25 15:35:43.414  WARN 1 --- [orders-consumer-4] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-4, groupId=orders-service] Seeking to offset 7662082 for partition payments.captured.v1-7
+ts=2026-06-25T10:06:06.165Z level=warn exporter=kafka-lag-exporter group=orders-service topic=payments.captured.v1 partition=1 lag=19878
+2026-06-25 15:36:39.635 ERROR 1 --- [orders-consumer-3] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 412
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.PaymentCaptured, expecting com.kartly.events.PaymentCaptured, missing required field settlementBatchId
+2026-06-25 15:37:14.883 ERROR 1 --- [orders-consumer-3] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 412
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.PaymentCaptured, expecting com.kartly.events.PaymentCaptured, missing required field settlementBatchId
+2026-06-25 15:37:52.450  WARN 1 --- [orders-consumer-4] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-4, groupId=orders-service] Seeking to offset 2878869 for partition payments.captured.v1-1
+ts=2026-06-25T10:08:41.189Z level=warn exporter=kafka-lag-exporter group=orders-service topic=payments.captured.v1 partition=8 lag=15445
+2026-06-25 15:39:06.135  WARN 1 --- [orders-consumer-4] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-4, groupId=orders-service] Seeking to offset 5501760 for partition payments.captured.v1-5
+2026-06-25 15:39:50.403 ERROR 1 --- [orders-consumer-1] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 412
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.PaymentCaptured, expecting com.kartly.events.PaymentCaptured, missing required field settlementBatchId
+2026-06-25 15:40:23.270  WARN 1 --- [orders-consumer-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-1, groupId=orders-service] Seeking to offset 6091819 for partition payments.captured.v1-9
+2026-06-25 15:40:49.260 ERROR 1 --- [orders-consumer-11] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 412
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.PaymentCaptured, expecting com.kartly.events.PaymentCaptured, missing required field settlementBatchId
+2026-06-25 15:41:26.402  WARN 1 --- [orders-consumer-4] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-4, groupId=orders-service] Seeking to offset 2448391 for partition payments.captured.v1-7
+2026-06-25 15:41:56.103 ERROR 1 --- [orders-consumer-7] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 412
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.PaymentCaptured, expecting com.kartly.events.PaymentCaptured, missing required field settlementBatchId
+2026-06-25 15:42:27.792 ERROR 1 --- [orders-consumer-0] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 412
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.PaymentCaptured, expecting com.kartly.events.PaymentCaptured, missing required field settlementBatchId
+ts=2026-06-25T10:13:04.194Z level=warn exporter=kafka-lag-exporter group=orders-service topic=payments.captured.v1 partition=5 lag=6962
+2026-06-25 15:43:52.524 ERROR 1 --- [orders-consumer-5] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 412
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.PaymentCaptured, expecting com.kartly.events.PaymentCaptured, missing required field settlementBatchId
+ts=2026-06-25T10:14:22.516Z level=warn exporter=kafka-lag-exporter group=orders-service topic=payments.captured.v1 partition=3 lag=6522
+2026-06-25 15:45:07.298  WARN 1 --- [orders-consumer-11] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-11, groupId=orders-service] Seeking to offset 6439424 for partition payments.captured.v1-6
+2026-06-25 15:45:46.903 ERROR 1 --- [orders-consumer-11] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 412
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.PaymentCaptured, expecting com.kartly.events.PaymentCaptured, missing required field settlementBatchId
+ts=2026-06-25T10:16:25.245Z level=warn exporter=kafka-lag-exporter group=orders-service topic=payments.captured.v1 partition=5 lag=13176
+2026-06-25 15:47:04.154 ERROR 1 --- [orders-consumer-7] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 412
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.PaymentCaptured, expecting com.kartly.events.PaymentCaptured, missing required field settlementBatchId
+ts=2026-06-25T10:17:52.697Z level=warn exporter=kafka-lag-exporter group=orders-service topic=payments.captured.v1 partition=3 lag=5046
+2026-06-25 15:48:24.242 ERROR 1 --- [orders-consumer-3] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 412
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.PaymentCaptured, expecting com.kartly.events.PaymentCaptured, missing required field settlementBatchId
+2026-06-25 15:48:56.222  WARN 1 --- [orders-consumer-3] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-3, groupId=orders-service] Seeking to offset 7162602 for partition payments.captured.v1-6
+2026-06-25 15:49:25.165  WARN 1 --- [orders-consumer-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-1, groupId=orders-service] Seeking to offset 7596583 for partition payments.captured.v1-7
+2026-06-25 15:50:06.317 ERROR 1 --- [orders-consumer-8] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 412
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.PaymentCaptured, expecting com.kartly.events.PaymentCaptured, missing required field settlementBatchId
+2026-06-25 15:50:44.822  WARN 1 --- [orders-consumer-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-1, groupId=orders-service] Seeking to offset 1994969 for partition payments.captured.v1-1
+2026-06-25 15:51:33.684  WARN 1 --- [orders-consumer-0] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-0, groupId=orders-service] Seeking to offset 5968712 for partition payments.captured.v1-0
+2026-06-25 15:52:11.676  WARN 1 --- [orders-consumer-6] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-6, groupId=orders-service] Seeking to offset 4375641 for partition payments.captured.v1-9
+2026-06-25 15:52:46.633 ERROR 1 --- [orders-consumer-0] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 412
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.PaymentCaptured, expecting com.kartly.events.PaymentCaptured, missing required field settlementBatchId
+2026-06-25 15:53:14.332  WARN 1 --- [orders-consumer-8] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-8, groupId=orders-service] Seeking to offset 9697657 for partition payments.captured.v1-8
+2026-06-25 15:53:48.596 ERROR 1 --- [orders-consumer-1] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 412
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.PaymentCaptured, expecting com.kartly.events.PaymentCaptured, missing required field settlementBatchId
+2026-06-25 15:54:25.159 ERROR 1 --- [orders-consumer-9] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 412
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.PaymentCaptured, expecting com.kartly.events.PaymentCaptured, missing required field settlementBatchId
+ts=2026-06-25T10:25:04.399Z level=warn exporter=kafka-lag-exporter group=orders-service topic=payments.captured.v1 partition=2 lag=15274
+2026-06-25 15:55:46.710 ERROR 1 --- [orders-consumer-8] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 412
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.PaymentCaptured, expecting com.kartly.events.PaymentCaptured, missing required field settlementBatchId
+2026-06-25 15:56:28.727 ERROR 1 --- [orders-consumer-0] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 412
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.PaymentCaptured, expecting com.kartly.events.PaymentCaptured, missing required field settlementBatchId
+2026-06-25 15:56:52.362 ERROR 1 --- [orders-consumer-3] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 412
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.PaymentCaptured, expecting com.kartly.events.PaymentCaptured, missing required field settlementBatchId
+ts=2026-06-25T10:27:39.984Z level=warn exporter=kafka-lag-exporter group=orders-service topic=payments.captured.v1 partition=7 lag=6075
+2026-06-25 15:58:08.375  WARN 1 --- [orders-consumer-4] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-4, groupId=orders-service] Seeking to offset 7629239 for partition payments.captured.v1-0
+2026-06-25 15:58:42.035 ERROR 1 --- [orders-consumer-1] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 412
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.PaymentCaptured, expecting com.kartly.events.PaymentCaptured, missing required field settlementBatchId
+2026-06-25 15:59:17.558 ERROR 1 --- [orders-consumer-1] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 412
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.PaymentCaptured, expecting com.kartly.events.PaymentCaptured, missing required field settlementBatchId
+ts=2026-06-25T10:29:41.199Z level=warn exporter=kafka-lag-exporter group=orders-service topic=payments.captured.v1 partition=5 lag=9880
+ts=2026-06-25T10:30:05.728Z level=warn exporter=kafka-lag-exporter group=orders-service topic=payments.captured.v1 partition=0 lag=11920
+2026-06-25 16:00:28.355  WARN 1 --- [orders-consumer-2] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-2, groupId=orders-service] Seeking to offset 5092001 for partition payments.captured.v1-5
+2026-06-25 16:00:58.875 ERROR 1 --- [orders-consumer-7] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 412
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.PaymentCaptured, expecting com.kartly.events.PaymentCaptured, missing required field settlementBatchId
+2026-06-25 16:01:32.524 ERROR 1 --- [orders-consumer-4] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 412
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.PaymentCaptured, expecting com.kartly.events.PaymentCaptured, missing required field settlementBatchId
+2026-06-25 16:01:56.413 ERROR 1 --- [orders-consumer-6] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 412
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.PaymentCaptured, expecting com.kartly.events.PaymentCaptured, missing required field settlementBatchId
+2026-06-25 16:02:29.000  INFO 1 --- [orders-consumer-9] c.k.orders.consumer.EventHandler         : Processed PaymentCaptured orderId=ORD-51248050 partition=5 offset=3403037
+ts=2026-06-25T10:32:50.000Z level=info exporter=kafka-lag-exporter group=orders-service topic=payments.captured.v1 partition=5 lag=0
+2026-06-25 16:03:38.000  INFO 1 --- [orders-consumer-1] c.k.orders.consumer.EventHandler         : Processed PaymentCaptured orderId=ORD-72378682 partition=8 offset=1213652
+2026-06-25 16:04:58.000  INFO 1 --- [orders-consumer-6] c.k.orders.consumer.EventHandler         : Processed PaymentCaptured orderId=ORD-10160711 partition=2 offset=6288564
+2026-06-25 16:06:57.000  INFO 1 --- [orders-consumer-7] c.k.orders.consumer.EventHandler         : Processed PaymentCaptured orderId=ORD-79562346 partition=7 offset=7782104
+2026-06-25 16:07:58.000  INFO 1 --- [orders-consumer-8] c.k.orders.consumer.EventHandler         : Processed PaymentCaptured orderId=ORD-28697795 partition=9 offset=4861813
+2026-06-25 16:09:51.000  INFO 1 --- [orders-consumer-3] c.k.orders.consumer.EventHandler         : Processed PaymentCaptured orderId=ORD-69210489 partition=6 offset=7640022
+2026-06-25 16:11:18.000  INFO 1 --- [orders-consumer-5] c.k.orders.consumer.EventHandler         : Processed PaymentCaptured orderId=ORD-60401886 partition=8 offset=4728232
+2026-06-25 16:13:11.000  INFO 1 --- [orders-consumer-9] c.k.orders.consumer.EventHandler         : Processed PaymentCaptured orderId=ORD-29746603 partition=9 offset=3083144
+2026-06-25 16:14:23.000  INFO 1 --- [orders-consumer-6] c.k.orders.consumer.EventHandler         : Processed PaymentCaptured orderId=ORD-43983443 partition=2 offset=2151843
+2026-06-25 16:16:18.000  INFO 1 --- [orders-consumer-4] c.k.orders.consumer.EventHandler         : Processed PaymentCaptured orderId=ORD-24813032 partition=3 offset=4188057
+2026-06-25 16:17:56.000  INFO 1 --- [orders-consumer-4] c.k.orders.consumer.EventHandler         : Processed PaymentCaptured orderId=ORD-63851549 partition=6 offset=8773971
+2026-06-25 16:19:28.000  INFO 1 --- [orders-consumer-5] c.k.orders.consumer.EventHandler         : Processed PaymentCaptured orderId=ORD-86051980 partition=4 offset=7461638
+2026-06-25 16:21:12.000  INFO 1 --- [orders-consumer-6] c.k.orders.consumer.EventHandler         : Processed PaymentCaptured orderId=ORD-41934739 partition=0 offset=8017798
+2026-06-25 16:22:44.000  INFO 1 --- [orders-consumer-5] c.k.orders.consumer.EventHandler         : Processed PaymentCaptured orderId=ORD-81989241 partition=8 offset=9668003
+2026-06-25 16:23:53.000  INFO 1 --- [orders-consumer-4] c.k.orders.consumer.EventHandler         : Processed PaymentCaptured orderId=ORD-72133529 partition=3 offset=3027024

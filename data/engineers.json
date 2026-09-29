@@ -1,0 +1,84 @@
+[
+  {
+    "id": "priya",
+    "name": "Priya Sharma",
+    "role": "Staff Engineer",
+    "team": "Payments",
+    "joined": "2021-03-15",
+    "slack": "@priya.sharma",
+    "preference": "Wants the most likely root cause first, then exact commands."
+  },
+  {
+    "id": "arjun",
+    "name": "Arjun Mehta",
+    "role": "Senior Software Engineer",
+    "team": "Orders & Checkout",
+    "joined": "2022-07-01",
+    "slack": "@arjun.mehta",
+    "preference": "Prefers copy-paste kubectl commands over dashboard links."
+  },
+  {
+    "id": "neha",
+    "name": "Neha Iyer",
+    "role": "Software Engineer II",
+    "team": "Identity & Notifications",
+    "joined": "2023-01-09",
+    "slack": "@neha.iyer",
+    "preference": "Likes short numbered steps."
+  },
+  {
+    "id": "rohan",
+    "name": "Rohan Das",
+    "role": "Software Engineer I",
+    "team": "Payments",
+    "joined": "2026-08-03",
+    "slack": "@rohan.das",
+    "preference": "New to on-call; wants a one-line explanation of *why* for each step."
+  },
+  {
+    "id": "fatima",
+    "name": "Fatima Khan",
+    "role": "Senior SRE",
+    "team": "Platform",
+    "joined": "2020-11-02",
+    "slack": "@fatima.khan",
+    "preference": "Prefers Grafana panels and hard numbers."
+  },
+  {
+    "id": "vikram",
+    "name": "Vikram Rao",
+    "role": "Software Engineer II",
+    "team": "Search & Discovery",
+    "joined": "2022-02-14",
+    "slack": "@vikram.rao",
+    "preference": "Wants concise answers, no fluff."
+  },
+  {
+    "id": "karthik",
+    "name": "Karthik Nair",
+    "role": "SRE",
+    "team": "Platform",
+    "joined": "2024-06-10",
+    "slack": "@karthik.nair",
+    "preference": "Likes seeing the evidence (log lines, metrics) behind every suggestion."
+  },
+  {
+    "id": "ananya",
+    "name": "Ananya Gupta",
+    "role": "Software Engineer II",
+    "team": "Orders & Checkout",
+    "joined": "2025-02-17",
+    "slack": "@ananya.gupta",
+    "preference": "Prefers a short summary first, details on request."
+  },
+  {
+    "id": "sameer",
+    "name": "Sameer Joshi",
+    "role": "Principal SRE",
+    "team": "Platform",
+    "joined": "2019-08-01",
+    "left": "2026-05-31",
+    "slack": "@sameer.joshi",
+    "preference": "Left Kartly on 2026-05-31. Was the go-to person for database and Kubernetes problems."
+  }
+]

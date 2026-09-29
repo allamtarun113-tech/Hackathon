@@ -1,0 +1,108 @@
+2026-09-08 02:27:00.000  INFO 1 --- [scheduling-1] c.k.payments.recon.ReconJobLauncher      : recon-job started batchSize=20000 window=T-1
+2026-09-08 02:27:17.000  INFO 1 --- [http-nio-8080-exec-103] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-40250981 amount=349.00 INR gateway=razorpay latencyMs=63
+2026-09-08 02:28:07.444 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=50, active=11, idle=39, waiting=0)
+2026-09-08 02:28:34.237  INFO 1 --- [http-nio-8080-exec-194] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-46090278 amount=199.00 INR gateway=razorpay latencyMs=299
+2026-09-08 02:29:24.346  INFO 1 --- [http-nio-8080-exec-138] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-30253243 amount=12999.00 INR gateway=razorpay latencyMs=279
+2026-09-08 02:30:34.967  INFO 1 --- [http-nio-8080-exec-7] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-89265568 amount=899.00 INR gateway=razorpay latencyMs=151
+2026-09-08 02:31:23.063 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=50, active=11, idle=39, waiting=0)
+2026-09-08 02:32:07.854 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=50, active=11, idle=39, waiting=0)
+2026-09-08 02:33:09.744 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=50, active=11, idle=39, waiting=0)
+2026-09-08 02:34:10.565 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=50, active=11, idle=39, waiting=0)
+2026-09-08 02:34:40.532  INFO 1 --- [http-nio-8080-exec-193] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-63932519 amount=24999.00 INR gateway=razorpay latencyMs=194
+2026-09-08 02:35:48.882 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=50, active=11, idle=39, waiting=0)
+2026-09-08 02:36:47.726 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=50, active=11, idle=39, waiting=0)
+2026-09-08 02:37:18.115  INFO 1 --- [http-nio-8080-exec-87] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-46959544 amount=899.00 INR gateway=razorpay latencyMs=242
+2026-09-08 02:37:54.761 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=50, active=11, idle=39, waiting=0)
+2026-09-08 02:38:56.716  INFO 1 --- [http-nio-8080-exec-38] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-47262627 amount=349.00 INR gateway=razorpay latencyMs=278
+2026-09-08 02:40:07.271 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=50, active=11, idle=39, waiting=0)
+2026-09-08 02:40:33.028 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=50, active=11, idle=39, waiting=0)
+2026-09-08 02:41:10.967 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=50, active=11, idle=39, waiting=0)
+2026-09-08 02:41:58.617  INFO 1 --- [http-nio-8080-exec-81] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-42224016 amount=24999.00 INR gateway=razorpay latencyMs=327
+2026-09-08 02:42:32.709  INFO 1 --- [http-nio-8080-exec-49] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-20458256 amount=3999.00 INR gateway=razorpay latencyMs=284
+2026-09-08 02:43:30.838  WARN 1 --- [http-nio-8080-exec-8] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Connection is not available, request timed out after 30000ms.
+2026-09-08 02:43:41.797 ERROR 1 --- [http-nio-8080-exec-19] o.h.engine.jdbc.spi.SqlExceptionHelper   : HikariPool-1 - Connection is not available, request timed out after 30000ms.
+2026-09-08 02:43:57.206 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=50, active=50, idle=0, waiting=265)
+2026-09-08 02:44:15.020 ERROR 1 --- [http-nio-8080-exec-107] o.s.web.servlet.DispatcherServlet        : Request processing failed: org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction traceId=5a112f0ccaa9de37
+2026-09-08 02:44:33.052 ERROR 1 --- [http-nio-8080-exec-116] c.k.payments.api.ChargeController      : Charge failed orderId=ORD-70707601 status=503 reason=DB_UNAVAILABLE traceId=62777e4d82fc5a55
+10.42.2.9 - - [08/Sep/2026:02:44:53 +0530] "POST /v1/charges HTTP/1.1" 503 187 "-" "checkout-web/7.3" upstream_response_time=30.002
+2026-09-08 02:45:09.816  INFO 1 --- [recon-worker-8] c.k.payments.recon.ReconJobLauncher      : recon-job processed 5677405 rows, holding connection for settlement batch
+2026-09-08 02:45:18.980 ERROR 1 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Request processing failed: org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction traceId=2a670f03b13ab86c
+2026-09-08 02:45:31.642  WARN 1 --- [http-nio-8080-exec-185] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Connection is not available, request timed out after 30000ms.
+2026-09-08 02:45:48.342 ERROR 1 --- [http-nio-8080-exec-56] o.h.engine.jdbc.spi.SqlExceptionHelper   : HikariPool-1 - Connection is not available, request timed out after 30000ms.
+2026-09-08 02:46:10.305 ERROR 1 --- [http-nio-8080-exec-177] o.h.engine.jdbc.spi.SqlExceptionHelper   : HikariPool-1 - Connection is not available, request timed out after 30000ms.
+2026-09-08 02:46:19.719 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=50, active=50, idle=0, waiting=265)
+2026-09-08 02:46:38.085 ERROR 1 --- [http-nio-8080-exec-144] c.k.payments.api.ChargeController      : Charge failed orderId=ORD-93224283 status=503 reason=DB_UNAVAILABLE traceId=f0baac9fa15c7703
+2026-09-08 02:46:59.556 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=50, active=50, idle=0, waiting=265)
+2026-09-08 02:47:14.837 ERROR 1 --- [http-nio-8080-exec-68] c.k.payments.api.ChargeController      : Charge failed orderId=ORD-15834202 status=503 reason=DB_UNAVAILABLE traceId=c31891d23f86ceb4
+2026-09-08 02:47:28.298 ERROR 1 --- [http-nio-8080-exec-118] c.k.payments.api.ChargeController      : Charge failed orderId=ORD-84547130 status=503 reason=DB_UNAVAILABLE traceId=7324fde5e2b08991
+2026-09-08 02:47:37.870 ERROR 1 --- [http-nio-8080-exec-45] c.k.payments.api.ChargeController      : Charge failed orderId=ORD-89871512 status=503 reason=DB_UNAVAILABLE traceId=5033fc6cbc4545f4
+2026-09-08 02:47:53.623  INFO 1 --- [recon-worker-5] c.k.payments.recon.ReconJobLauncher      : recon-job processed 7755074 rows, holding connection for settlement batch
+2026-09-08 02:48:12.228  INFO 1 --- [recon-worker-5] c.k.payments.recon.ReconJobLauncher      : recon-job processed 4408227 rows, holding connection for settlement batch
+2026-09-08 02:48:34.174  INFO 1 --- [recon-worker-6] c.k.payments.recon.ReconJobLauncher      : recon-job processed 6228230 rows, holding connection for settlement batch
+2026-09-08 02:48:47.866  WARN 1 --- [http-nio-8080-exec-16] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Connection is not available, request timed out after 30000ms.
+2026-09-08 02:49:10.769  WARN 1 --- [http-nio-8080-exec-169] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Connection is not available, request timed out after 30000ms.
+2026-09-08 02:49:27.203 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=50, active=50, idle=0, waiting=265)
+10.42.7.196 - - [08/Sep/2026:02:49:44 +0530] "POST /v1/charges HTTP/1.1" 503 187 "-" "checkout-web/7.3" upstream_response_time=30.008
+2026-09-08 02:50:03.573  WARN 1 --- [http-nio-8080-exec-161] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Connection is not available, request timed out after 30000ms.
+2026-09-08 02:50:13.456 ERROR 1 --- [http-nio-8080-exec-103] o.s.web.servlet.DispatcherServlet        : Request processing failed: org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction traceId=c74b317d0c9a7be2
+2026-09-08 02:50:26.719 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=50, active=50, idle=0, waiting=265)
+2026-09-08 02:50:36.841 ERROR 1 --- [http-nio-8080-exec-177] o.h.engine.jdbc.spi.SqlExceptionHelper   : HikariPool-1 - Connection is not available, request timed out after 30000ms.
+2026-09-08 02:50:47.327  INFO 1 --- [recon-worker-6] c.k.payments.recon.ReconJobLauncher      : recon-job processed 1381581 rows, holding connection for settlement batch
+2026-09-08 02:51:08.175 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=50, active=50, idle=0, waiting=265)
+2026-09-08 02:51:19.437 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=50, active=50, idle=0, waiting=265)
+10.42.8.249 - - [08/Sep/2026:02:51:36 +0530] "POST /v1/charges HTTP/1.1" 503 187 "-" "checkout-web/7.3" upstream_response_time=30.007
+2026-09-08 02:51:53.486  INFO 1 --- [recon-worker-8] c.k.payments.recon.ReconJobLauncher      : recon-job processed 4955553 rows, holding connection for settlement batch
+2026-09-08 02:52:06.159  INFO 1 --- [recon-worker-3] c.k.payments.recon.ReconJobLauncher      : recon-job processed 6732172 rows, holding connection for settlement batch
+2026-09-08 02:52:23.658  WARN 1 --- [http-nio-8080-exec-195] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Connection is not available, request timed out after 30000ms.
+10.42.1.118 - - [08/Sep/2026:02:52:38 +0530] "POST /v1/charges HTTP/1.1" 503 187 "-" "checkout-web/7.3" upstream_response_time=30.008
+2026-09-08 02:53:01.049 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=50, active=50, idle=0, waiting=265)
+2026-09-08 02:53:20.680  INFO 1 --- [recon-worker-5] c.k.payments.recon.ReconJobLauncher      : recon-job processed 5155963 rows, holding connection for settlement batch
+2026-09-08 02:53:36.784  WARN 1 --- [http-nio-8080-exec-45] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Connection is not available, request timed out after 30000ms.
+10.42.11.69 - - [08/Sep/2026:02:53:51 +0530] "POST /v1/charges HTTP/1.1" 503 187 "-" "checkout-web/7.3" upstream_response_time=30.008
+2026-09-08 02:54:12.344 ERROR 1 --- [http-nio-8080-exec-85] o.s.web.servlet.DispatcherServlet        : Request processing failed: org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction traceId=d0eb9b7c85a80dbf
+2026-09-08 02:54:27.957  INFO 1 --- [recon-worker-6] c.k.payments.recon.ReconJobLauncher      : recon-job processed 8738496 rows, holding connection for settlement batch
+2026-09-08 02:54:45.084 ERROR 1 --- [http-nio-8080-exec-69] o.h.engine.jdbc.spi.SqlExceptionHelper   : HikariPool-1 - Connection is not available, request timed out after 30000ms.
+2026-09-08 02:54:57.769  WARN 1 --- [http-nio-8080-exec-89] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Connection is not available, request timed out after 30000ms.
+10.42.2.99 - - [08/Sep/2026:02:55:11 +0530] "POST /v1/charges HTTP/1.1" 503 187 "-" "checkout-web/7.3" upstream_response_time=30.001
+2026-09-08 02:55:23.846 ERROR 1 --- [http-nio-8080-exec-115] o.h.engine.jdbc.spi.SqlExceptionHelper   : HikariPool-1 - Connection is not available, request timed out after 30000ms.
+2026-09-08 02:55:46.185 ERROR 1 --- [http-nio-8080-exec-115] c.k.payments.api.ChargeController      : Charge failed orderId=ORD-94955761 status=503 reason=DB_UNAVAILABLE traceId=6458406058ce2b07
+2026-09-08 02:55:56.064  WARN 1 --- [http-nio-8080-exec-70] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Connection is not available, request timed out after 30000ms.
+2026-09-08 02:56:07.505  WARN 1 --- [http-nio-8080-exec-113] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Connection is not available, request timed out after 30000ms.
+2026-09-08 02:56:24.923 ERROR 1 --- [http-nio-8080-exec-131] o.h.engine.jdbc.spi.SqlExceptionHelper   : HikariPool-1 - Connection is not available, request timed out after 30000ms.
+2026-09-08 02:56:44.946 ERROR 1 --- [http-nio-8080-exec-25] o.h.engine.jdbc.spi.SqlExceptionHelper   : HikariPool-1 - Connection is not available, request timed out after 30000ms.
+2026-09-08 02:56:56.512 ERROR 1 --- [http-nio-8080-exec-165] c.k.payments.api.ChargeController      : Charge failed orderId=ORD-82421110 status=503 reason=DB_UNAVAILABLE traceId=7f7d07f2dd195d89
+10.42.12.144 - - [08/Sep/2026:02:57:09 +0530] "POST /v1/charges HTTP/1.1" 503 187 "-" "checkout-web/7.3" upstream_response_time=30.009
+2026-09-08 02:57:23.256  WARN 1 --- [http-nio-8080-exec-77] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Connection is not available, request timed out after 30000ms.
+2026-09-08 02:57:39.885  WARN 1 --- [http-nio-8080-exec-116] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Connection is not available, request timed out after 30000ms.
+2026-09-08 02:57:52.598 ERROR 1 --- [http-nio-8080-exec-70] o.h.engine.jdbc.spi.SqlExceptionHelper   : HikariPool-1 - Connection is not available, request timed out after 30000ms.
+2026-09-08 02:58:08.984  WARN 1 --- [http-nio-8080-exec-17] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Connection is not available, request timed out after 30000ms.
+2026-09-08 02:58:18.476  WARN 1 --- [http-nio-8080-exec-161] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Connection is not available, request timed out after 30000ms.
+2026-09-08 02:58:38.038 ERROR 1 --- [http-nio-8080-exec-15] o.s.web.servlet.DispatcherServlet        : Request processing failed: org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction traceId=a36dacfb2c938149
+2026-09-08 02:58:51.912  WARN 1 --- [http-nio-8080-exec-21] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Connection is not available, request timed out after 30000ms.
+2026-09-08 02:59:11.947 ERROR 1 --- [http-nio-8080-exec-182] o.s.web.servlet.DispatcherServlet        : Request processing failed: org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction traceId=097fa20d3c04d030
+10.42.12.62 - - [08/Sep/2026:02:59:24 +0530] "POST /v1/charges HTTP/1.1" 503 187 "-" "checkout-web/7.3" upstream_response_time=30.000
+10.42.2.112 - - [08/Sep/2026:02:59:38 +0530] "POST /v1/charges HTTP/1.1" 503 187 "-" "checkout-web/7.3" upstream_response_time=30.008
+2026-09-08 02:59:53.270 ERROR 1 --- [http-nio-8080-exec-137] c.k.payments.api.ChargeController      : Charge failed orderId=ORD-41301883 status=503 reason=DB_UNAVAILABLE traceId=3a4a000eb4c96bc6
+2026-09-08 03:00:13.437  INFO 1 --- [recon-worker-9] c.k.payments.recon.ReconJobLauncher      : recon-job processed 4360443 rows, holding connection for settlement batch
+2026-09-08 03:00:27.392 ERROR 1 --- [http-nio-8080-exec-75] o.h.engine.jdbc.spi.SqlExceptionHelper   : HikariPool-1 - Connection is not available, request timed out after 30000ms.
+2026-09-08 03:00:38.841 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=50, active=50, idle=0, waiting=265)
+10.42.7.132 - - [08/Sep/2026:03:00:56 +0530] "POST /v1/charges HTTP/1.1" 503 187 "-" "checkout-web/7.3" upstream_response_time=30.000
+2026-09-08 03:01:07.047  WARN 1 --- [http-nio-8080-exec-22] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Connection is not available, request timed out after 30000ms.
+2026-09-08 03:01:21.193 ERROR 1 --- [http-nio-8080-exec-23] o.s.web.servlet.DispatcherServlet        : Request processing failed: org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction traceId=99d0308e3a8cb1ec
+2026-09-08 03:01:37.979 ERROR 1 --- [http-nio-8080-exec-129] c.k.payments.api.ChargeController      : Charge failed orderId=ORD-86903530 status=503 reason=DB_UNAVAILABLE traceId=ea0a9db1b0227056
+2026-09-08 03:01:54.092 ERROR 1 --- [http-nio-8080-exec-154] c.k.payments.api.ChargeController      : Charge failed orderId=ORD-50427134 status=503 reason=DB_UNAVAILABLE traceId=2e22bad6759a9394
+2026-09-08 03:02:05.629 ERROR 1 --- [http-nio-8080-exec-135] c.k.payments.api.ChargeController      : Charge failed orderId=ORD-38096325 status=503 reason=DB_UNAVAILABLE traceId=29d1eeff4cad59a8
+2026-09-08 03:02:08.000  INFO 1 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed. maximumPoolSize=150
+2026-09-08 03:02:50.000 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=150, active=24, idle=126, waiting=0)
+2026-09-08 03:03:20.000  INFO 1 --- [http-nio-8080-exec-14] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-32734644 amount=899.00 INR gateway=razorpay latencyMs=360
+2026-09-08 03:03:40.000  INFO 1 --- [http-nio-8080-exec-54] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-18678565 amount=7499.00 INR gateway=razorpay latencyMs=275
+2026-09-08 03:05:34.000  INFO 1 --- [http-nio-8080-exec-126] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-24794747 amount=12999.00 INR gateway=razorpay latencyMs=269
+2026-09-08 03:06:25.000 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=50, active=11, idle=39, waiting=0)
+2026-09-08 03:07:56.000 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=50, active=11, idle=39, waiting=0)
+2026-09-08 03:08:41.000 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=50, active=11, idle=39, waiting=0)
+2026-09-08 03:10:33.000  INFO 1 --- [http-nio-8080-exec-197] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-88891287 amount=12999.00 INR gateway=razorpay latencyMs=203
+2026-09-08 03:12:04.000  INFO 1 --- [http-nio-8080-exec-65] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-90486178 amount=2499.00 INR gateway=razorpay latencyMs=77
+2026-09-08 03:13:03.000 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=50, active=11, idle=39, waiting=0)
+2026-09-08 03:14:11.000  INFO 1 --- [http-nio-8080-exec-165] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-70499162 amount=3999.00 INR gateway=razorpay latencyMs=346
+2026-09-08 03:15:47.000 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=50, active=11, idle=39, waiting=0)
+2026-09-08 03:16:57.000  INFO 1 --- [http-nio-8080-exec-30] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-50292636 amount=899.00 INR gateway=razorpay latencyMs=337

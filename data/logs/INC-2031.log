@@ -1,0 +1,133 @@
+2026-06-26T12:50:00.000Z INFO  [checkout-web] POST /api/checkout 200 176ms cart=28865856
+2026-06-26T12:51:07.970Z INFO  [checkout-web] POST /api/checkout 200 169ms cart=58391784
+2026-06-26T12:52:11.837Z INFO  [checkout-web] POST /api/checkout 200 286ms cart=73450604
+2026-06-26T12:53:07.408Z INFO  [checkout-web] POST /api/checkout 200 294ms cart=69110825
+2026-06-26T12:53:36.710Z INFO  [checkout-web] POST /api/checkout 200 238ms cart=41319099
+2026-06-26T12:54:17.969Z INFO  [checkout-web] POST /api/checkout 200 277ms cart=38618315
+2026-06-26T12:54:48.568Z INFO  [checkout-web] POST /api/checkout 200 125ms cart=13669153
+2026-06-26T12:55:15.143Z INFO  [checkout-web] POST /api/checkout 200 307ms cart=67739718
+2026-06-26T12:56:07.360Z INFO  [checkout-web] POST /api/checkout 200 320ms cart=17681785
+2026-06-26T12:57:06.984Z INFO  [checkout-web] POST /api/checkout 200 151ms cart=31007398
+2026-06-26T12:58:04.885Z INFO  [checkout-web] POST /api/checkout 200 217ms cart=84091622
+2026-06-26T12:58:45.080Z INFO  [checkout-web] POST /api/checkout 200 65ms cart=44296990
+2026-06-26T12:59:12.796Z INFO  [checkout-web] POST /api/checkout 200 247ms cart=40418969
+2026-06-26T12:59:50.653Z INFO  [checkout-web] POST /api/checkout 200 349ms cart=59652474
+2026-06-26T13:00:25.112Z INFO  [checkout-web] POST /api/checkout 200 158ms cart=25830884
+2026-06-26T13:01:33.765Z INFO  [checkout-web] POST /api/checkout 200 64ms cart=26523608
+2026-06-26T13:02:02.919Z INFO  [checkout-web] POST /api/checkout 200 376ms cart=25670081
+2026-06-26T13:02:45.186Z INFO  [checkout-web] POST /api/checkout 200 116ms cart=54488332
+2026-06-26T13:03:12.538Z INFO  [checkout-web] POST /api/checkout 200 310ms cart=10496724
+2026-06-26T13:04:12.984Z INFO  [checkout-web] POST /api/checkout 200 290ms cart=62119269
+2026-06-26T13:04:45.415Z INFO  [checkout-web] POST /api/checkout 200 115ms cart=41675185
+2026-06-26T13:05:40.090Z INFO  [checkout-web] POST /api/checkout 200 326ms cart=23267054
+2026-06-26T13:06:05.122Z INFO  [unleash] Toggle 'new_checkout_flow' updated: enabled=true strategy=gradualRollout rollout=100% by growth-team
+2026-06-26T13:06:18.695Z ERROR [checkout-web] TypeError: Cannot read properties of undefined (reading 'lineItems')
+    at NewCheckoutFlow.buildOrder (/app/.next/server/chunks/8812.js:1:40641)
+2026-06-26T13:06:35.934Z ERROR [checkout-web] POST /api/checkout 500 249ms cart=11407240
+10.42.13.163 - - [26/Jun/2026:18:37:07 +0530] "POST /api/checkout HTTP/2.0" 500 64 "https://www.kartly.in/cart" "Mozilla/5.0"
+2026-06-26T13:07:34.255Z ERROR [checkout-web] POST /api/checkout 500 313ms cart=82968378
+2026-06-26T13:07:49.084Z INFO  [unleash] Toggle 'new_checkout_flow' updated: enabled=true strategy=gradualRollout rollout=100% by growth-team
+2026-06-26T13:08:02.984Z ERROR [checkout-web] TypeError: Cannot read properties of undefined (reading 'lineItems')
+    at NewCheckoutFlow.buildOrder (/app/.next/server/chunks/8812.js:1:20252)
+10.42.15.202 - - [26/Jun/2026:18:38:32 +0530] "POST /api/checkout HTTP/2.0" 500 64 "https://www.kartly.in/cart" "Mozilla/5.0"
+2026-06-26T13:08:54.448Z ERROR [checkout-web] TypeError: Cannot read properties of undefined (reading 'lineItems')
+    at NewCheckoutFlow.buildOrder (/app/.next/server/chunks/8812.js:1:4688)
+2026-06-26T13:09:18.848Z INFO  [unleash] Toggle 'new_checkout_flow' updated: enabled=true strategy=gradualRollout rollout=100% by growth-team
+2026-06-26T13:09:37.303Z ERROR [checkout-web] TypeError: Cannot read properties of undefined (reading 'lineItems')
+    at NewCheckoutFlow.buildOrder (/app/.next/server/chunks/8812.js:1:53492)
+2026-06-26T13:09:55.388Z INFO  [unleash] Toggle 'new_checkout_flow' updated: enabled=true strategy=gradualRollout rollout=100% by growth-team
+2026-06-26T13:10:17.336Z ERROR [checkout-web] TypeError: Cannot read properties of undefined (reading 'lineItems')
+    at NewCheckoutFlow.buildOrder (/app/.next/server/chunks/8812.js:1:77930)
+2026-06-26T13:10:32.236Z INFO  [unleash] Toggle 'new_checkout_flow' updated: enabled=true strategy=gradualRollout rollout=100% by growth-team
+2026-06-26T13:10:49.371Z ERROR [checkout-web] TypeError: Cannot read properties of undefined (reading 'lineItems')
+    at NewCheckoutFlow.buildOrder (/app/.next/server/chunks/8812.js:1:59269)
+2026-06-26T13:11:17.022Z ERROR [checkout-web] TypeError: Cannot read properties of undefined (reading 'lineItems')
+    at NewCheckoutFlow.buildOrder (/app/.next/server/chunks/8812.js:1:37029)
+2026-06-26T13:11:38.313Z INFO  [unleash] Toggle 'new_checkout_flow' updated: enabled=true strategy=gradualRollout rollout=100% by growth-team
+2026-06-26T13:12:02.933Z ERROR [checkout-web] POST /api/checkout 500 345ms cart=64115438
+10.42.12.168 - - [26/Jun/2026:18:42:29 +0530] "POST /api/checkout HTTP/2.0" 500 64 "https://www.kartly.in/cart" "Mozilla/5.0"
+2026-06-26T13:12:42.803Z ERROR [checkout-web] TypeError: Cannot read properties of undefined (reading 'lineItems')
+    at NewCheckoutFlow.buildOrder (/app/.next/server/chunks/8812.js:1:65004)
+2026-06-26T13:13:13.630Z ERROR [checkout-web] POST /api/checkout 500 204ms cart=71040846
+2026-06-26T13:13:36.245Z ERROR [checkout-web] TypeError: Cannot read properties of undefined (reading 'lineItems')
+    at NewCheckoutFlow.buildOrder (/app/.next/server/chunks/8812.js:1:74627)
+2026-06-26T13:13:54.188Z INFO  [unleash] Toggle 'new_checkout_flow' updated: enabled=true strategy=gradualRollout rollout=100% by growth-team
+2026-06-26T13:14:19.521Z ERROR [checkout-web] POST /api/checkout 500 114ms cart=42276342
+2026-06-26T13:14:50.686Z INFO  [unleash] Toggle 'new_checkout_flow' updated: enabled=true strategy=gradualRollout rollout=100% by growth-team
+2026-06-26T13:15:10.469Z ERROR [checkout-web] POST /api/checkout 500 246ms cart=79702326
+10.42.10.179 - - [26/Jun/2026:18:45:41 +0530] "POST /api/checkout HTTP/2.0" 500 64 "https://www.kartly.in/cart" "Mozilla/5.0"
+2026-06-26T13:16:03.626Z ERROR [checkout-web] POST /api/checkout 500 197ms cart=91046098
+10.42.2.166 - - [26/Jun/2026:18:46:25 +0530] "POST /api/checkout HTTP/2.0" 500 64 "https://www.kartly.in/cart" "Mozilla/5.0"
+2026-06-26T13:16:39.445Z ERROR [checkout-web] TypeError: Cannot read properties of undefined (reading 'lineItems')
+    at NewCheckoutFlow.buildOrder (/app/.next/server/chunks/8812.js:1:81450)
+2026-06-26T13:16:58.713Z ERROR [checkout-web] TypeError: Cannot read properties of undefined (reading 'lineItems')
+    at NewCheckoutFlow.buildOrder (/app/.next/server/chunks/8812.js:1:43638)
+2026-06-26T13:17:28.893Z ERROR [checkout-web] TypeError: Cannot read properties of undefined (reading 'lineItems')
+    at NewCheckoutFlow.buildOrder (/app/.next/server/chunks/8812.js:1:97466)
+2026-06-26T13:17:48.877Z ERROR [checkout-web] POST /api/checkout 500 336ms cart=44103144
+2026-06-26T13:18:19.106Z ERROR [checkout-web] POST /api/checkout 500 47ms cart=23535935
+2026-06-26T13:18:35.126Z ERROR [checkout-web] POST /api/checkout 500 364ms cart=75284187
+2026-06-26T13:19:04.706Z ERROR [checkout-web] TypeError: Cannot read properties of undefined (reading 'lineItems')
+    at NewCheckoutFlow.buildOrder (/app/.next/server/chunks/8812.js:1:24131)
+2026-06-26T13:19:26.843Z ERROR [checkout-web] TypeError: Cannot read properties of undefined (reading 'lineItems')
+    at NewCheckoutFlow.buildOrder (/app/.next/server/chunks/8812.js:1:36992)
+2026-06-26T13:19:40.253Z ERROR [checkout-web] TypeError: Cannot read properties of undefined (reading 'lineItems')
+    at NewCheckoutFlow.buildOrder (/app/.next/server/chunks/8812.js:1:58438)
+2026-06-26T13:20:09.935Z ERROR [checkout-web] TypeError: Cannot read properties of undefined (reading 'lineItems')
+    at NewCheckoutFlow.buildOrder (/app/.next/server/chunks/8812.js:1:9289)
+2026-06-26T13:20:40.374Z ERROR [checkout-web] TypeError: Cannot read properties of undefined (reading 'lineItems')
+    at NewCheckoutFlow.buildOrder (/app/.next/server/chunks/8812.js:1:32539)
+10.42.8.226 - - [26/Jun/2026:18:51:00 +0530] "POST /api/checkout HTTP/2.0" 500 64 "https://www.kartly.in/cart" "Mozilla/5.0"
+10.42.8.113 - - [26/Jun/2026:18:51:13 +0530] "POST /api/checkout HTTP/2.0" 500 64 "https://www.kartly.in/cart" "Mozilla/5.0"
+2026-06-26T13:21:42.368Z ERROR [checkout-web] TypeError: Cannot read properties of undefined (reading 'lineItems')
+    at NewCheckoutFlow.buildOrder (/app/.next/server/chunks/8812.js:1:51605)
+10.42.5.46 - - [26/Jun/2026:18:52:05 +0530] "POST /api/checkout HTTP/2.0" 500 64 "https://www.kartly.in/cart" "Mozilla/5.0"
+2026-06-26T13:22:25.517Z ERROR [checkout-web] TypeError: Cannot read properties of undefined (reading 'lineItems')
+    at NewCheckoutFlow.buildOrder (/app/.next/server/chunks/8812.js:1:33850)
+10.42.13.182 - - [26/Jun/2026:18:52:38 +0530] "POST /api/checkout HTTP/2.0" 500 64 "https://www.kartly.in/cart" "Mozilla/5.0"
+2026-06-26T13:22:57.438Z INFO  [unleash] Toggle 'new_checkout_flow' updated: enabled=true strategy=gradualRollout rollout=100% by growth-team
+10.42.6.118 - - [26/Jun/2026:18:53:24 +0530] "POST /api/checkout HTTP/2.0" 500 64 "https://www.kartly.in/cart" "Mozilla/5.0"
+2026-06-26T13:23:40.635Z ERROR [checkout-web] TypeError: Cannot read properties of undefined (reading 'lineItems')
+    at NewCheckoutFlow.buildOrder (/app/.next/server/chunks/8812.js:1:16828)
+2026-06-26T13:23:54.103Z ERROR [checkout-web] POST /api/checkout 500 58ms cart=21611864
+2026-06-26T13:24:12.290Z INFO  [unleash] Toggle 'new_checkout_flow' updated: enabled=true strategy=gradualRollout rollout=100% by growth-team
+2026-06-26T13:24:25.589Z INFO  [unleash] Toggle 'new_checkout_flow' updated: enabled=true strategy=gradualRollout rollout=100% by growth-team
+10.42.2.240 - - [26/Jun/2026:18:54:48 +0530] "POST /api/checkout HTTP/2.0" 500 64 "https://www.kartly.in/cart" "Mozilla/5.0"
+2026-06-26T13:25:18.593Z ERROR [checkout-web] TypeError: Cannot read properties of undefined (reading 'lineItems')
+    at NewCheckoutFlow.buildOrder (/app/.next/server/chunks/8812.js:1:41936)
+2026-06-26T13:25:46.811Z ERROR [checkout-web] POST /api/checkout 500 301ms cart=53499703
+2026-06-26T13:26:09.706Z INFO  [unleash] Toggle 'new_checkout_flow' updated: enabled=true strategy=gradualRollout rollout=100% by growth-team
+2026-06-26T13:26:36.062Z INFO  [unleash] Toggle 'new_checkout_flow' updated: enabled=true strategy=gradualRollout rollout=100% by growth-team
+2026-06-26T13:26:52.100Z ERROR [checkout-web] POST /api/checkout 500 314ms cart=14961255
+2026-06-26T13:27:19.874Z ERROR [checkout-web] POST /api/checkout 500 93ms cart=87524958
+2026-06-26T13:27:51.534Z ERROR [checkout-web] TypeError: Cannot read properties of undefined (reading 'lineItems')
+    at NewCheckoutFlow.buildOrder (/app/.next/server/chunks/8812.js:1:17052)
+2026-06-26T13:28:22.948Z INFO  [unleash] Toggle 'new_checkout_flow' updated: enabled=true strategy=gradualRollout rollout=100% by growth-team
+2026-06-26T13:28:53.760Z ERROR [checkout-web] POST /api/checkout 500 207ms cart=41544492
+2026-06-26T13:29:20.499Z ERROR [checkout-web] POST /api/checkout 500 338ms cart=10798963
+2026-06-26T13:29:41.691Z INFO  [unleash] Toggle 'new_checkout_flow' updated: enabled=true strategy=gradualRollout rollout=100% by growth-team
+2026-06-26T13:29:56.875Z ERROR [checkout-web] POST /api/checkout 500 271ms cart=96885150
+2026-06-26T13:30:28.507Z INFO  [unleash] Toggle 'new_checkout_flow' updated: enabled=true strategy=gradualRollout rollout=100% by growth-team
+10.42.13.131 - - [26/Jun/2026:19:00:50 +0530] "POST /api/checkout HTTP/2.0" 500 64 "https://www.kartly.in/cart" "Mozilla/5.0"
+2026-06-26T13:31:12.235Z ERROR [checkout-web] POST /api/checkout 500 241ms cart=34798972
+2026-06-26T13:31:38.056Z INFO  [unleash] Toggle 'new_checkout_flow' updated: enabled=true strategy=gradualRollout rollout=100% by growth-team
+2026-06-26T13:32:02.506Z INFO  [unleash] Toggle 'new_checkout_flow' updated: enabled=true strategy=gradualRollout rollout=100% by growth-team
+10.42.1.177 - - [26/Jun/2026:19:02:23 +0530] "POST /api/checkout HTTP/2.0" 500 64 "https://www.kartly.in/cart" "Mozilla/5.0"
+2026-06-26T13:32:44.408Z ERROR [checkout-web] POST /api/checkout 500 64ms cart=49842137
+2026-06-26T13:33:12.377Z ERROR [checkout-web] TypeError: Cannot read properties of undefined (reading 'lineItems')
+    at NewCheckoutFlow.buildOrder (/app/.next/server/chunks/8812.js:1:47690)
+2026-06-26T13:33:29.366Z ERROR [checkout-web] POST /api/checkout 500 325ms cart=57750571
+2026-06-26T13:33:34.000Z INFO  [unleash] Toggle 'new_checkout_flow' updated: enabled=false by @arjun.mehta
+2026-06-26T13:34:07.000Z INFO  [checkout-web] POST /api/checkout 200 199ms cart=54910058
+2026-06-26T13:34:57.000Z INFO  [checkout-web] POST /api/checkout 200 373ms cart=99880295
+2026-06-26T13:36:18.000Z INFO  [checkout-web] POST /api/checkout 200 134ms cart=80247725
+2026-06-26T13:37:08.000Z INFO  [checkout-web] POST /api/checkout 200 371ms cart=51095982
+2026-06-26T13:39:07.000Z INFO  [checkout-web] POST /api/checkout 200 126ms cart=39254360
+2026-06-26T13:40:20.000Z INFO  [checkout-web] POST /api/checkout 200 229ms cart=12692475
+2026-06-26T13:41:16.000Z INFO  [checkout-web] POST /api/checkout 200 151ms cart=83137809
+2026-06-26T13:42:48.000Z INFO  [checkout-web] POST /api/checkout 200 48ms cart=30506698
+2026-06-26T13:44:10.000Z INFO  [checkout-web] POST /api/checkout 200 228ms cart=78343182
+2026-06-26T13:45:33.000Z INFO  [checkout-web] POST /api/checkout 200 58ms cart=89218141
+2026-06-26T13:46:55.000Z INFO  [checkout-web] POST /api/checkout 200 253ms cart=82529921
+2026-06-26T13:48:12.000Z INFO  [checkout-web] POST /api/checkout 200 274ms cart=73794787
+2026-06-26T13:49:42.000Z INFO  [checkout-web] POST /api/checkout 200 179ms cart=85837015

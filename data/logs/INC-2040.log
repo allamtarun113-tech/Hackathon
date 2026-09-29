@@ -1,0 +1,113 @@
+{"level":"info","ts":"2026-07-22T14:40:00.000Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"sms","template":"order_shipped","user_id":"u_6152083"}
+{"level":"info","ts":"2026-07-22T14:41:02.042Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"sms","template":"order_shipped","user_id":"u_5220321"}
+{"level":"info","ts":"2026-07-22T14:42:02.059Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"sms","template":"order_shipped","user_id":"u_4002712"}
+{"level":"info","ts":"2026-07-22T14:42:55.413Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"sms","template":"order_shipped","user_id":"u_3995399"}
+{"level":"info","ts":"2026-07-22T14:44:06.396Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"sms","template":"order_shipped","user_id":"u_9475229"}
+{"level":"info","ts":"2026-07-22T14:44:56.472Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"sms","template":"order_shipped","user_id":"u_1047049"}
+{"level":"info","ts":"2026-07-22T14:46:06.574Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"sms","template":"order_shipped","user_id":"u_7424289"}
+{"level":"info","ts":"2026-07-22T14:47:05.006Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"sms","template":"order_shipped","user_id":"u_1233366"}
+{"level":"info","ts":"2026-07-22T14:47:42.891Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"sms","template":"order_shipped","user_id":"u_2589355"}
+{"level":"info","ts":"2026-07-22T14:48:30.004Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"sms","template":"order_shipped","user_id":"u_7801662"}
+{"level":"info","ts":"2026-07-22T14:49:34.266Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"sms","template":"order_shipped","user_id":"u_2027481"}
+{"level":"info","ts":"2026-07-22T14:50:21.862Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"sms","template":"order_shipped","user_id":"u_6357057"}
+{"level":"info","ts":"2026-07-22T14:50:55.647Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"sms","template":"order_shipped","user_id":"u_3707142"}
+{"level":"info","ts":"2026-07-22T14:51:24.028Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"sms","template":"order_shipped","user_id":"u_3180725"}
+{"level":"info","ts":"2026-07-22T14:51:52.759Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"sms","template":"order_shipped","user_id":"u_7649064"}
+{"level":"info","ts":"2026-07-22T14:52:34.290Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"sms","template":"order_shipped","user_id":"u_9173638"}
+{"level":"info","ts":"2026-07-22T14:53:01.218Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"sms","template":"order_shipped","user_id":"u_6309720"}
+{"level":"info","ts":"2026-07-22T14:53:34.700Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"sms","template":"order_shipped","user_id":"u_7592158"}
+{"level":"info","ts":"2026-07-22T14:54:16.582Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"sms","template":"order_shipped","user_id":"u_3235568"}
+{"level":"info","ts":"2026-07-22T14:54:44.349Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"sms","template":"order_shipped","user_id":"u_1153216"}
+{"level":"info","ts":"2026-07-22T14:55:48.444Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"sms","template":"order_shipped","user_id":"u_8952594"}
+{"level":"error","ts":"2026-07-22T14:56:48.321Z","caller":"sms/provider.go:77","msg":"sms send failed","status":429,"error":"429 Too Many Requests: account rate limit 300/s exceeded"}
+{"level":"info","ts":"2026-07-22T14:57:01.439Z","caller":"campaign/runner.go:31","msg":"campaign batch","campaign":"freedom-sale-teaser","sent":5000}
+{"level":"info","ts":"2026-07-22T14:57:22.476Z","caller":"campaign/runner.go:31","msg":"campaign batch","campaign":"freedom-sale-teaser","sent":5000}
+{"level":"error","ts":"2026-07-22T14:57:42.574Z","caller":"sms/provider.go:77","msg":"sms send failed","status":429,"error":"429 Too Many Requests: account rate limit 300/s exceeded"}
+{"level":"info","ts":"2026-07-22T14:57:55.485Z","caller":"campaign/runner.go:31","msg":"campaign batch","campaign":"freedom-sale-teaser","sent":5000}
+{"level":"error","ts":"2026-07-22T14:58:08.319Z","caller":"sms/provider.go:77","msg":"sms send failed","status":429,"error":"429 Too Many Requests: account rate limit 300/s exceeded"}
+{"level":"error","ts":"2026-07-22T14:58:29.957Z","caller":"sms/provider.go:77","msg":"sms send failed","status":429,"error":"429 Too Many Requests: account rate limit 300/s exceeded"}
+{"level":"error","ts":"2026-07-22T14:58:45.746Z","caller":"sms/provider.go:77","msg":"sms send failed","status":429,"error":"429 Too Many Requests: account rate limit 300/s exceeded"}
+{"level":"error","ts":"2026-07-22T14:59:00.831Z","caller":"sms/provider.go:77","msg":"sms send failed","status":429,"error":"429 Too Many Requests: account rate limit 300/s exceeded"}
+{"level":"error","ts":"2026-07-22T14:59:13.423Z","caller":"sms/provider.go:77","msg":"sms send failed","status":429,"error":"429 Too Many Requests: account rate limit 300/s exceeded"}
+{"level":"info","ts":"2026-07-22T14:59:30.280Z","caller":"campaign/runner.go:31","msg":"campaign batch","campaign":"freedom-sale-teaser","sent":5000}
+{"level":"error","ts":"2026-07-22T14:59:44.538Z","caller":"sms/provider.go:77","msg":"sms send failed","status":429,"error":"429 Too Many Requests: account rate limit 300/s exceeded"}
+{"level":"error","ts":"2026-07-22T15:00:01.304Z","caller":"sms/provider.go:77","msg":"sms send failed","status":429,"error":"429 Too Many Requests: account rate limit 300/s exceeded"}
+{"level":"error","ts":"2026-07-22T15:00:12.922Z","caller":"sms/provider.go:77","msg":"sms send failed","status":429,"error":"429 Too Many Requests: account rate limit 300/s exceeded"}
+{"level":"info","ts":"2026-07-22T15:00:37.689Z","caller":"campaign/runner.go:31","msg":"campaign batch","campaign":"freedom-sale-teaser","sent":5000}
+{"level":"info","ts":"2026-07-22T15:00:56.553Z","caller":"campaign/runner.go:31","msg":"campaign batch","campaign":"freedom-sale-teaser","sent":5000}
+{"level":"info","ts":"2026-07-22T15:01:15.631Z","caller":"campaign/runner.go:31","msg":"campaign batch","campaign":"freedom-sale-teaser","sent":5000}
+{"level":"info","ts":"2026-07-22T15:01:41.459Z","caller":"campaign/runner.go:31","msg":"campaign batch","campaign":"freedom-sale-teaser","sent":5000}
+{"level":"error","ts":"2026-07-22T15:02:03.127Z","caller":"sms/provider.go:77","msg":"sms send failed","status":429,"error":"429 Too Many Requests: account rate limit 300/s exceeded"}
+{"level":"info","ts":"2026-07-22T15:02:25.897Z","caller":"campaign/runner.go:31","msg":"campaign batch","campaign":"freedom-sale-teaser","sent":5000}
+{"level":"info","ts":"2026-07-22T15:02:39.918Z","caller":"campaign/runner.go:31","msg":"campaign batch","campaign":"freedom-sale-teaser","sent":5000}
+{"level":"error","ts":"2026-07-22T15:03:01.976Z","caller":"sms/provider.go:77","msg":"sms send failed","status":429,"error":"429 Too Many Requests: account rate limit 300/s exceeded"}
+{"level":"info","ts":"2026-07-22T15:03:23.353Z","caller":"campaign/runner.go:31","msg":"campaign batch","campaign":"freedom-sale-teaser","sent":5000}
+{"level":"info","ts":"2026-07-22T15:03:37.698Z","caller":"campaign/runner.go:31","msg":"campaign batch","campaign":"freedom-sale-teaser","sent":5000}
+{"level":"info","ts":"2026-07-22T15:03:50.975Z","caller":"campaign/runner.go:31","msg":"campaign batch","campaign":"freedom-sale-teaser","sent":5000}
+{"level":"info","ts":"2026-07-22T15:04:08.870Z","caller":"campaign/runner.go:31","msg":"campaign batch","campaign":"freedom-sale-teaser","sent":5000}
+{"level":"info","ts":"2026-07-22T15:04:35.369Z","caller":"campaign/runner.go:31","msg":"campaign batch","campaign":"freedom-sale-teaser","sent":5000}
+{"level":"info","ts":"2026-07-22T15:04:53.163Z","caller":"campaign/runner.go:31","msg":"campaign batch","campaign":"freedom-sale-teaser","sent":5000}
+{"level":"error","ts":"2026-07-22T15:05:10.637Z","caller":"sms/provider.go:77","msg":"sms send failed","status":429,"error":"429 Too Many Requests: account rate limit 300/s exceeded"}
+{"level":"error","ts":"2026-07-22T15:05:33.763Z","caller":"sms/provider.go:77","msg":"sms send failed","status":429,"error":"429 Too Many Requests: account rate limit 300/s exceeded"}
+{"level":"error","ts":"2026-07-22T15:05:50.073Z","caller":"sms/provider.go:77","msg":"sms send failed","status":429,"error":"429 Too Many Requests: account rate limit 300/s exceeded"}
+{"level":"error","ts":"2026-07-22T15:06:08.957Z","caller":"sms/provider.go:77","msg":"sms send failed","status":429,"error":"429 Too Many Requests: account rate limit 300/s exceeded"}
+{"level":"info","ts":"2026-07-22T15:06:35.097Z","caller":"campaign/runner.go:31","msg":"campaign batch","campaign":"freedom-sale-teaser","sent":5000}
+{"level":"info","ts":"2026-07-22T15:06:53.384Z","caller":"campaign/runner.go:31","msg":"campaign batch","campaign":"freedom-sale-teaser","sent":5000}
+{"level":"error","ts":"2026-07-22T15:07:05.066Z","caller":"sms/provider.go:77","msg":"sms send failed","status":429,"error":"429 Too Many Requests: account rate limit 300/s exceeded"}
+{"level":"error","ts":"2026-07-22T15:07:17.211Z","caller":"sms/provider.go:77","msg":"sms send failed","status":429,"error":"429 Too Many Requests: account rate limit 300/s exceeded"}
+{"level":"error","ts":"2026-07-22T15:07:41.148Z","caller":"sms/provider.go:77","msg":"sms send failed","status":429,"error":"429 Too Many Requests: account rate limit 300/s exceeded"}
+{"level":"error","ts":"2026-07-22T15:08:02.674Z","caller":"sms/provider.go:77","msg":"sms send failed","status":429,"error":"429 Too Many Requests: account rate limit 300/s exceeded"}
+{"level":"info","ts":"2026-07-22T15:08:25.145Z","caller":"campaign/runner.go:31","msg":"campaign batch","campaign":"freedom-sale-teaser","sent":5000}
+{"level":"error","ts":"2026-07-22T15:08:43.410Z","caller":"sms/provider.go:77","msg":"sms send failed","status":429,"error":"429 Too Many Requests: account rate limit 300/s exceeded"}
+{"level":"error","ts":"2026-07-22T15:09:04.560Z","caller":"sms/provider.go:77","msg":"sms send failed","status":429,"error":"429 Too Many Requests: account rate limit 300/s exceeded"}
+{"level":"info","ts":"2026-07-22T15:09:31.029Z","caller":"campaign/runner.go:31","msg":"campaign batch","campaign":"freedom-sale-teaser","sent":5000}
+{"level":"error","ts":"2026-07-22T15:09:56.415Z","caller":"sms/provider.go:77","msg":"sms send failed","status":429,"error":"429 Too Many Requests: account rate limit 300/s exceeded"}
+{"level":"info","ts":"2026-07-22T15:10:12.988Z","caller":"campaign/runner.go:31","msg":"campaign batch","campaign":"freedom-sale-teaser","sent":5000}
+{"level":"error","ts":"2026-07-22T15:10:37.531Z","caller":"sms/provider.go:77","msg":"sms send failed","status":429,"error":"429 Too Many Requests: account rate limit 300/s exceeded"}
+{"level":"error","ts":"2026-07-22T15:10:49.451Z","caller":"sms/provider.go:77","msg":"sms send failed","status":429,"error":"429 Too Many Requests: account rate limit 300/s exceeded"}
+{"level":"info","ts":"2026-07-22T15:11:07.448Z","caller":"campaign/runner.go:31","msg":"campaign batch","campaign":"freedom-sale-teaser","sent":5000}
+{"level":"error","ts":"2026-07-22T15:11:29.084Z","caller":"sms/provider.go:77","msg":"sms send failed","status":429,"error":"429 Too Many Requests: account rate limit 300/s exceeded"}
+{"level":"error","ts":"2026-07-22T15:11:44.079Z","caller":"sms/provider.go:77","msg":"sms send failed","status":429,"error":"429 Too Many Requests: account rate limit 300/s exceeded"}
+{"level":"info","ts":"2026-07-22T15:12:02.975Z","caller":"campaign/runner.go:31","msg":"campaign batch","campaign":"freedom-sale-teaser","sent":5000}
+{"level":"error","ts":"2026-07-22T15:12:21.664Z","caller":"sms/provider.go:77","msg":"sms send failed","status":429,"error":"429 Too Many Requests: account rate limit 300/s exceeded"}
+{"level":"info","ts":"2026-07-22T15:12:36.008Z","caller":"campaign/runner.go:31","msg":"campaign batch","campaign":"freedom-sale-teaser","sent":5000}
+{"level":"info","ts":"2026-07-22T15:13:01.580Z","caller":"campaign/runner.go:31","msg":"campaign batch","campaign":"freedom-sale-teaser","sent":5000}
+{"level":"info","ts":"2026-07-22T15:13:26.231Z","caller":"campaign/runner.go:31","msg":"campaign batch","campaign":"freedom-sale-teaser","sent":5000}
+{"level":"error","ts":"2026-07-22T15:13:44.640Z","caller":"sms/provider.go:77","msg":"sms send failed","status":429,"error":"429 Too Many Requests: account rate limit 300/s exceeded"}
+{"level":"info","ts":"2026-07-22T15:13:56.371Z","caller":"campaign/runner.go:31","msg":"campaign batch","campaign":"freedom-sale-teaser","sent":5000}
+{"level":"info","ts":"2026-07-22T15:14:12.022Z","caller":"campaign/runner.go:31","msg":"campaign batch","campaign":"freedom-sale-teaser","sent":5000}
+{"level":"info","ts":"2026-07-22T15:14:32.587Z","caller":"campaign/runner.go:31","msg":"campaign batch","campaign":"freedom-sale-teaser","sent":5000}
+{"level":"info","ts":"2026-07-22T15:14:52.413Z","caller":"campaign/runner.go:31","msg":"campaign batch","campaign":"freedom-sale-teaser","sent":5000}
+{"level":"error","ts":"2026-07-22T15:15:18.345Z","caller":"sms/provider.go:77","msg":"sms send failed","status":429,"error":"429 Too Many Requests: account rate limit 300/s exceeded"}
+{"level":"info","ts":"2026-07-22T15:15:31.437Z","caller":"campaign/runner.go:31","msg":"campaign batch","campaign":"freedom-sale-teaser","sent":5000}
+{"level":"error","ts":"2026-07-22T15:15:49.164Z","caller":"sms/provider.go:77","msg":"sms send failed","status":429,"error":"429 Too Many Requests: account rate limit 300/s exceeded"}
+{"level":"info","ts":"2026-07-22T15:16:07.786Z","caller":"campaign/runner.go:31","msg":"campaign batch","campaign":"freedom-sale-teaser","sent":5000}
+{"level":"info","ts":"2026-07-22T15:16:21.529Z","caller":"campaign/runner.go:31","msg":"campaign batch","campaign":"freedom-sale-teaser","sent":5000}
+{"level":"error","ts":"2026-07-22T15:16:38.923Z","caller":"sms/provider.go:77","msg":"sms send failed","status":429,"error":"429 Too Many Requests: account rate limit 300/s exceeded"}
+{"level":"info","ts":"2026-07-22T15:17:00.800Z","caller":"campaign/runner.go:31","msg":"campaign batch","campaign":"freedom-sale-teaser","sent":5000}
+{"level":"error","ts":"2026-07-22T15:17:22.098Z","caller":"sms/provider.go:77","msg":"sms send failed","status":429,"error":"429 Too Many Requests: account rate limit 300/s exceeded"}
+{"level":"error","ts":"2026-07-22T15:17:48.035Z","caller":"sms/provider.go:77","msg":"sms send failed","status":429,"error":"429 Too Many Requests: account rate limit 300/s exceeded"}
+{"level":"error","ts":"2026-07-22T15:18:09.257Z","caller":"sms/provider.go:77","msg":"sms send failed","status":429,"error":"429 Too Many Requests: account rate limit 300/s exceeded"}
+{"level":"info","ts":"2026-07-22T15:18:35.385Z","caller":"campaign/runner.go:31","msg":"campaign batch","campaign":"freedom-sale-teaser","sent":5000}
+{"level":"info","ts":"2026-07-22T15:18:55.183Z","caller":"campaign/runner.go:31","msg":"campaign batch","campaign":"freedom-sale-teaser","sent":5000}
+{"level":"info","ts":"2026-07-22T15:19:16.000Z","caller":"campaign/runner.go:44","msg":"campaign throttled","campaign":"freedom-sale-teaser","rate_per_sec":120}
+{"level":"info","ts":"2026-07-22T15:19:41.000Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"sms","template":"order_shipped","user_id":"u_5945481"}
+{"level":"info","ts":"2026-07-22T15:21:26.000Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"sms","template":"order_shipped","user_id":"u_6933210"}
+{"level":"info","ts":"2026-07-22T15:22:35.000Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"sms","template":"order_shipped","user_id":"u_7757340"}
+{"level":"info","ts":"2026-07-22T15:23:37.000Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"sms","template":"order_shipped","user_id":"u_7851855"}
+{"level":"info","ts":"2026-07-22T15:25:21.000Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"sms","template":"order_shipped","user_id":"u_3780867"}
+{"level":"info","ts":"2026-07-22T15:26:12.000Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"sms","template":"order_shipped","user_id":"u_7226313"}
+{"level":"info","ts":"2026-07-22T15:27:59.000Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"sms","template":"order_shipped","user_id":"u_7227536"}
+{"level":"info","ts":"2026-07-22T15:29:22.000Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"sms","template":"order_shipped","user_id":"u_1692476"}
+{"level":"info","ts":"2026-07-22T15:30:26.000Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"sms","template":"order_shipped","user_id":"u_6540284"}
+{"level":"info","ts":"2026-07-22T15:31:48.000Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"sms","template":"order_shipped","user_id":"u_9966882"}
+{"level":"info","ts":"2026-07-22T15:32:35.000Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"sms","template":"order_shipped","user_id":"u_5656566"}
+{"level":"info","ts":"2026-07-22T15:33:32.000Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"sms","template":"order_shipped","user_id":"u_9027021"}
+{"level":"info","ts":"2026-07-22T15:35:24.000Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"sms","template":"order_shipped","user_id":"u_8147850"}
+{"level":"info","ts":"2026-07-22T15:36:29.000Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"sms","template":"order_shipped","user_id":"u_8046765"}
+{"level":"info","ts":"2026-07-22T15:37:10.000Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"sms","template":"order_shipped","user_id":"u_2895137"}
+{"level":"info","ts":"2026-07-22T15:38:29.000Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"sms","template":"order_shipped","user_id":"u_9971412"}
+{"level":"info","ts":"2026-07-22T15:39:31.000Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"sms","template":"order_shipped","user_id":"u_8433515"}
+{"level":"info","ts":"2026-07-22T15:41:08.000Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"sms","template":"order_shipped","user_id":"u_3330487"}
+{"level":"info","ts":"2026-07-22T15:42:22.000Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"sms","template":"order_shipped","user_id":"u_8933189"}
+{"level":"info","ts":"2026-07-22T15:44:16.000Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"sms","template":"order_shipped","user_id":"u_2427068"}

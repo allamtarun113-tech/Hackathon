@@ -1,0 +1,111 @@
+{"level":"info","ts":"2026-06-03T05:40:00.000Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_5670525","latency_ms":297}
+{"level":"info","ts":"2026-06-03T05:40:31.637Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_4437730","latency_ms":276}
+{"level":"info","ts":"2026-06-03T05:41:09.530Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_1540472","latency_ms":267}
+{"level":"info","ts":"2026-06-03T05:42:13.973Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_9701785","latency_ms":87}
+{"level":"info","ts":"2026-06-03T05:43:19.928Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_4147916","latency_ms":353}
+{"level":"info","ts":"2026-06-03T05:44:05.926Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_7586483","latency_ms":236}
+{"level":"info","ts":"2026-06-03T05:44:55.733Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_5456946","latency_ms":173}
+{"level":"info","ts":"2026-06-03T05:45:58.992Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_1277673","latency_ms":151}
+{"level":"info","ts":"2026-06-03T05:46:26.686Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_3019449","latency_ms":219}
+{"level":"info","ts":"2026-06-03T05:47:08.646Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_1794585","latency_ms":160}
+{"level":"info","ts":"2026-06-03T05:48:04.644Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_2293767","latency_ms":321}
+{"level":"info","ts":"2026-06-03T05:48:57.460Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_5013131","latency_ms":204}
+{"level":"info","ts":"2026-06-03T05:49:26.945Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_8651209","latency_ms":380}
+{"level":"info","ts":"2026-06-03T05:50:15.363Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_9302359","latency_ms":325}
+{"level":"info","ts":"2026-06-03T05:51:20.619Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_4411977","latency_ms":221}
+{"level":"info","ts":"2026-06-03T05:51:56.993Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_8167789","latency_ms":78}
+{"level":"info","ts":"2026-06-03T05:52:29.750Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_3413611","latency_ms":294}
+{"level":"info","ts":"2026-06-03T05:53:31.755Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_4443595","latency_ms":55}
+{"level":"info","ts":"2026-06-03T05:54:36.522Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_6451841","latency_ms":81}
+{"level":"info","ts":"2026-06-03T05:55:32.296Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_4814572","latency_ms":127}
+{"level":"error","ts":"2026-06-03T05:56:31.455Z","caller":"oauth/google.go:77","msg":"token exchange failed","error":"oauth2: \"invalid_client\" \"The OAuth client secret has expired.\""}
+{"level":"info","ts":"2026-06-03T05:56:47.021Z","caller":"http/login.go:61","msg":"login ok","provider":"otp","user_id":"u_9963341","latency_ms":321}
+{"level":"error","ts":"2026-06-03T05:57:16.289Z","caller":"oauth/google.go:77","msg":"token exchange failed","error":"oauth2: \"invalid_client\" \"The OAuth client secret has expired.\""}
+{"level":"error","ts":"2026-06-03T05:57:35.856Z","caller":"oauth/google.go:77","msg":"token exchange failed","error":"oauth2: \"invalid_client\" \"The OAuth client secret has expired.\""}
+{"level":"error","ts":"2026-06-03T05:58:02.378Z","caller":"oauth/google.go:77","msg":"token exchange failed","error":"oauth2: \"invalid_client\" \"The OAuth client secret has expired.\""}
+{"level":"info","ts":"2026-06-03T05:58:34.658Z","caller":"http/login.go:61","msg":"login ok","provider":"otp","user_id":"u_8438632","latency_ms":310}
+{"level":"info","ts":"2026-06-03T05:59:00.362Z","caller":"http/login.go:61","msg":"login ok","provider":"otp","user_id":"u_6095649","latency_ms":143}
+{"level":"error","ts":"2026-06-03T05:59:19.460Z","caller":"oauth/google.go:77","msg":"token exchange failed","error":"oauth2: \"invalid_client\" \"The OAuth client secret has expired.\""}
+{"level":"info","ts":"2026-06-03T05:59:40.685Z","caller":"http/login.go:61","msg":"login ok","provider":"otp","user_id":"u_1953606","latency_ms":315}
+{"level":"info","ts":"2026-06-03T06:00:10.384Z","caller":"http/login.go:61","msg":"login ok","provider":"otp","user_id":"u_5626408","latency_ms":356}
+{"level":"error","ts":"2026-06-03T06:00:27.862Z","caller":"oauth/google.go:77","msg":"token exchange failed","error":"oauth2: \"invalid_client\" \"The OAuth client secret has expired.\""}
+{"level":"error","ts":"2026-06-03T06:00:42.079Z","caller":"oauth/google.go:77","msg":"token exchange failed","error":"oauth2: \"invalid_client\" \"The OAuth client secret has expired.\""}
+{"level":"info","ts":"2026-06-03T06:01:11.453Z","caller":"http/login.go:61","msg":"login ok","provider":"otp","user_id":"u_4006055","latency_ms":52}
+{"level":"error","ts":"2026-06-03T06:01:43.670Z","caller":"oauth/google.go:77","msg":"token exchange failed","error":"oauth2: \"invalid_client\" \"The OAuth client secret has expired.\""}
+{"level":"info","ts":"2026-06-03T06:02:12.545Z","caller":"http/login.go:61","msg":"login ok","provider":"otp","user_id":"u_7401046","latency_ms":376}
+{"level":"info","ts":"2026-06-03T06:02:36.897Z","caller":"http/login.go:61","msg":"login ok","provider":"otp","user_id":"u_5420122","latency_ms":198}
+{"level":"error","ts":"2026-06-03T06:03:09.828Z","caller":"oauth/google.go:77","msg":"token exchange failed","error":"oauth2: \"invalid_client\" \"The OAuth client secret has expired.\""}
+{"level":"info","ts":"2026-06-03T06:03:37.213Z","caller":"http/login.go:61","msg":"login ok","provider":"otp","user_id":"u_6051224","latency_ms":53}
+{"level":"error","ts":"2026-06-03T06:03:51.810Z","caller":"oauth/google.go:77","msg":"token exchange failed","error":"oauth2: \"invalid_client\" \"The OAuth client secret has expired.\""}
+{"level":"info","ts":"2026-06-03T06:04:19.449Z","caller":"http/login.go:61","msg":"login ok","provider":"otp","user_id":"u_1682121","latency_ms":351}
+{"level":"info","ts":"2026-06-03T06:04:45.627Z","caller":"http/login.go:61","msg":"login ok","provider":"otp","user_id":"u_2417315","latency_ms":377}
+{"level":"info","ts":"2026-06-03T06:05:10.816Z","caller":"http/login.go:61","msg":"login ok","provider":"otp","user_id":"u_2324133","latency_ms":295}
+{"level":"error","ts":"2026-06-03T06:05:27.636Z","caller":"oauth/google.go:77","msg":"token exchange failed","error":"oauth2: \"invalid_client\" \"The OAuth client secret has expired.\""}
+{"level":"info","ts":"2026-06-03T06:05:54.442Z","caller":"http/login.go:61","msg":"login ok","provider":"otp","user_id":"u_9111642","latency_ms":163}
+{"level":"info","ts":"2026-06-03T06:06:24.372Z","caller":"http/login.go:61","msg":"login ok","provider":"otp","user_id":"u_3527162","latency_ms":280}
+{"level":"info","ts":"2026-06-03T06:06:56.669Z","caller":"http/login.go:61","msg":"login ok","provider":"otp","user_id":"u_4970141","latency_ms":57}
+{"level":"info","ts":"2026-06-03T06:07:20.106Z","caller":"http/login.go:61","msg":"login ok","provider":"otp","user_id":"u_2497967","latency_ms":66}
+{"level":"error","ts":"2026-06-03T06:07:53.368Z","caller":"oauth/google.go:77","msg":"token exchange failed","error":"oauth2: \"invalid_client\" \"The OAuth client secret has expired.\""}
+{"level":"error","ts":"2026-06-03T06:08:13.161Z","caller":"oauth/google.go:77","msg":"token exchange failed","error":"oauth2: \"invalid_client\" \"The OAuth client secret has expired.\""}
+{"level":"error","ts":"2026-06-03T06:08:27.635Z","caller":"oauth/google.go:77","msg":"token exchange failed","error":"oauth2: \"invalid_client\" \"The OAuth client secret has expired.\""}
+{"level":"info","ts":"2026-06-03T06:08:46.622Z","caller":"http/login.go:61","msg":"login ok","provider":"otp","user_id":"u_4662735","latency_ms":75}
+{"level":"error","ts":"2026-06-03T06:09:07.388Z","caller":"oauth/google.go:77","msg":"token exchange failed","error":"oauth2: \"invalid_client\" \"The OAuth client secret has expired.\""}
+{"level":"error","ts":"2026-06-03T06:09:37.129Z","caller":"oauth/google.go:77","msg":"token exchange failed","error":"oauth2: \"invalid_client\" \"The OAuth client secret has expired.\""}
+{"level":"info","ts":"2026-06-03T06:10:04.232Z","caller":"http/login.go:61","msg":"login ok","provider":"otp","user_id":"u_2252878","latency_ms":254}
+{"level":"error","ts":"2026-06-03T06:10:25.272Z","caller":"oauth/google.go:77","msg":"token exchange failed","error":"oauth2: \"invalid_client\" \"The OAuth client secret has expired.\""}
+{"level":"error","ts":"2026-06-03T06:10:48.303Z","caller":"oauth/google.go:77","msg":"token exchange failed","error":"oauth2: \"invalid_client\" \"The OAuth client secret has expired.\""}
+{"level":"info","ts":"2026-06-03T06:11:05.150Z","caller":"http/login.go:61","msg":"login ok","provider":"otp","user_id":"u_6222169","latency_ms":214}
+{"level":"error","ts":"2026-06-03T06:11:20.666Z","caller":"oauth/google.go:77","msg":"token exchange failed","error":"oauth2: \"invalid_client\" \"The OAuth client secret has expired.\""}
+{"level":"info","ts":"2026-06-03T06:11:48.319Z","caller":"http/login.go:61","msg":"login ok","provider":"otp","user_id":"u_6031031","latency_ms":48}
+{"level":"info","ts":"2026-06-03T06:12:13.558Z","caller":"http/login.go:61","msg":"login ok","provider":"otp","user_id":"u_5502414","latency_ms":131}
+{"level":"error","ts":"2026-06-03T06:12:35.679Z","caller":"oauth/google.go:77","msg":"token exchange failed","error":"oauth2: \"invalid_client\" \"The OAuth client secret has expired.\""}
+{"level":"error","ts":"2026-06-03T06:12:52.014Z","caller":"oauth/google.go:77","msg":"token exchange failed","error":"oauth2: \"invalid_client\" \"The OAuth client secret has expired.\""}
+{"level":"info","ts":"2026-06-03T06:13:13.750Z","caller":"http/login.go:61","msg":"login ok","provider":"otp","user_id":"u_7207549","latency_ms":190}
+{"level":"error","ts":"2026-06-03T06:13:35.950Z","caller":"oauth/google.go:77","msg":"token exchange failed","error":"oauth2: \"invalid_client\" \"The OAuth client secret has expired.\""}
+{"level":"info","ts":"2026-06-03T06:14:04.122Z","caller":"http/login.go:61","msg":"login ok","provider":"otp","user_id":"u_2941431","latency_ms":254}
+{"level":"info","ts":"2026-06-03T06:14:34.567Z","caller":"http/login.go:61","msg":"login ok","provider":"otp","user_id":"u_3221756","latency_ms":181}
+{"level":"info","ts":"2026-06-03T06:14:50.953Z","caller":"http/login.go:61","msg":"login ok","provider":"otp","user_id":"u_6261203","latency_ms":83}
+{"level":"info","ts":"2026-06-03T06:15:07.041Z","caller":"http/login.go:61","msg":"login ok","provider":"otp","user_id":"u_3505784","latency_ms":282}
+{"level":"error","ts":"2026-06-03T06:15:28.265Z","caller":"oauth/google.go:77","msg":"token exchange failed","error":"oauth2: \"invalid_client\" \"The OAuth client secret has expired.\""}
+{"level":"info","ts":"2026-06-03T06:15:52.767Z","caller":"http/login.go:61","msg":"login ok","provider":"otp","user_id":"u_7731173","latency_ms":72}
+{"level":"error","ts":"2026-06-03T06:16:10.202Z","caller":"oauth/google.go:77","msg":"token exchange failed","error":"oauth2: \"invalid_client\" \"The OAuth client secret has expired.\""}
+{"level":"error","ts":"2026-06-03T06:16:26.313Z","caller":"oauth/google.go:77","msg":"token exchange failed","error":"oauth2: \"invalid_client\" \"The OAuth client secret has expired.\""}
+{"level":"error","ts":"2026-06-03T06:16:57.946Z","caller":"oauth/google.go:77","msg":"token exchange failed","error":"oauth2: \"invalid_client\" \"The OAuth client secret has expired.\""}
+{"level":"error","ts":"2026-06-03T06:17:25.722Z","caller":"oauth/google.go:77","msg":"token exchange failed","error":"oauth2: \"invalid_client\" \"The OAuth client secret has expired.\""}
+{"level":"error","ts":"2026-06-03T06:17:53.184Z","caller":"oauth/google.go:77","msg":"token exchange failed","error":"oauth2: \"invalid_client\" \"The OAuth client secret has expired.\""}
+{"level":"info","ts":"2026-06-03T06:18:09.972Z","caller":"http/login.go:61","msg":"login ok","provider":"otp","user_id":"u_7639920","latency_ms":338}
+{"level":"error","ts":"2026-06-03T06:18:35.434Z","caller":"oauth/google.go:77","msg":"token exchange failed","error":"oauth2: \"invalid_client\" \"The OAuth client secret has expired.\""}
+{"level":"error","ts":"2026-06-03T06:18:50.893Z","caller":"oauth/google.go:77","msg":"token exchange failed","error":"oauth2: \"invalid_client\" \"The OAuth client secret has expired.\""}
+{"level":"info","ts":"2026-06-03T06:19:22.906Z","caller":"http/login.go:61","msg":"login ok","provider":"otp","user_id":"u_7369539","latency_ms":339}
+{"level":"error","ts":"2026-06-03T06:19:39.770Z","caller":"oauth/google.go:77","msg":"token exchange failed","error":"oauth2: \"invalid_client\" \"The OAuth client secret has expired.\""}
+{"level":"error","ts":"2026-06-03T06:19:56.454Z","caller":"oauth/google.go:77","msg":"token exchange failed","error":"oauth2: \"invalid_client\" \"The OAuth client secret has expired.\""}
+{"level":"error","ts":"2026-06-03T06:20:28.658Z","caller":"oauth/google.go:77","msg":"token exchange failed","error":"oauth2: \"invalid_client\" \"The OAuth client secret has expired.\""}
+{"level":"error","ts":"2026-06-03T06:20:53.981Z","caller":"oauth/google.go:77","msg":"token exchange failed","error":"oauth2: \"invalid_client\" \"The OAuth client secret has expired.\""}
+{"level":"error","ts":"2026-06-03T06:21:22.197Z","caller":"oauth/google.go:77","msg":"token exchange failed","error":"oauth2: \"invalid_client\" \"The OAuth client secret has expired.\""}
+{"level":"error","ts":"2026-06-03T06:21:43.231Z","caller":"oauth/google.go:77","msg":"token exchange failed","error":"oauth2: \"invalid_client\" \"The OAuth client secret has expired.\""}
+{"level":"error","ts":"2026-06-03T06:22:09.586Z","caller":"oauth/google.go:77","msg":"token exchange failed","error":"oauth2: \"invalid_client\" \"The OAuth client secret has expired.\""}
+{"level":"error","ts":"2026-06-03T06:22:42.221Z","caller":"oauth/google.go:77","msg":"token exchange failed","error":"oauth2: \"invalid_client\" \"The OAuth client secret has expired.\""}
+{"level":"error","ts":"2026-06-03T06:23:12.354Z","caller":"oauth/google.go:77","msg":"token exchange failed","error":"oauth2: \"invalid_client\" \"The OAuth client secret has expired.\""}
+{"level":"info","ts":"2026-06-03T06:23:31.271Z","caller":"http/login.go:61","msg":"login ok","provider":"otp","user_id":"u_6859283","latency_ms":258}
+{"level":"info","ts":"2026-06-03T06:23:48.670Z","caller":"http/login.go:61","msg":"login ok","provider":"otp","user_id":"u_7514330","latency_ms":123}
+{"level":"error","ts":"2026-06-03T06:24:08.336Z","caller":"oauth/google.go:77","msg":"token exchange failed","error":"oauth2: \"invalid_client\" \"The OAuth client secret has expired.\""}
+{"level":"info","ts":"2026-06-03T06:24:41.837Z","caller":"http/login.go:61","msg":"login ok","provider":"otp","user_id":"u_4576605","latency_ms":352}
+{"level":"error","ts":"2026-06-03T06:25:01.856Z","caller":"oauth/google.go:77","msg":"token exchange failed","error":"oauth2: \"invalid_client\" \"The OAuth client secret has expired.\""}
+{"level":"error","ts":"2026-06-03T06:25:16.711Z","caller":"oauth/google.go:77","msg":"token exchange failed","error":"oauth2: \"invalid_client\" \"The OAuth client secret has expired.\""}
+{"level":"error","ts":"2026-06-03T06:25:39.667Z","caller":"oauth/google.go:77","msg":"token exchange failed","error":"oauth2: \"invalid_client\" \"The OAuth client secret has expired.\""}
+{"level":"info","ts":"2026-06-03T06:26:08.000Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_6332900","latency_ms":108}
+{"level":"info","ts":"2026-06-03T06:26:39.000Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_1253770","latency_ms":136}
+{"level":"info","ts":"2026-06-03T06:28:09.000Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_4103610","latency_ms":369}
+{"level":"info","ts":"2026-06-03T06:30:02.000Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_3295338","latency_ms":252}
+{"level":"info","ts":"2026-06-03T06:31:39.000Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_4872256","latency_ms":171}
+{"level":"info","ts":"2026-06-03T06:33:17.000Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_5117407","latency_ms":325}
+{"level":"info","ts":"2026-06-03T06:35:13.000Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_9607364","latency_ms":188}
+{"level":"info","ts":"2026-06-03T06:36:48.000Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_7374835","latency_ms":156}
+{"level":"info","ts":"2026-06-03T06:38:04.000Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_3102955","latency_ms":234}
+{"level":"info","ts":"2026-06-03T06:39:06.000Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_5029353","latency_ms":226}
+{"level":"info","ts":"2026-06-03T06:40:12.000Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_9782005","latency_ms":107}
+{"level":"info","ts":"2026-06-03T06:41:47.000Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_3898029","latency_ms":85}
+{"level":"info","ts":"2026-06-03T06:43:15.000Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_4369799","latency_ms":297}
+{"level":"info","ts":"2026-06-03T06:43:57.000Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_9119971","latency_ms":316}
+{"level":"info","ts":"2026-06-03T06:44:59.000Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_2250559","latency_ms":311}
+{"level":"info","ts":"2026-06-03T06:46:41.000Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_7764061","latency_ms":236}

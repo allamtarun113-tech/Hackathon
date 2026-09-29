@@ -1,0 +1,3382 @@
+[
+  {
+    "id": "DEP-10001",
+    "service": "checkout-web",
+    "version": "v7.0.1",
+    "previous_version": "v7.0.0",
+    "type": "deploy",
+    "at": "2026-01-05T10:05:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Cart page performance"
+  },
+  {
+    "id": "DEP-10002",
+    "service": "payments-api",
+    "version": "v4.9.1",
+    "previous_version": "v4.9.0",
+    "type": "deploy",
+    "at": "2026-01-05T13:00:00+05:30",
+    "deployed_by": "Priya Sharma",
+    "change_summary": "Upgrade Spring Boot patch"
+  },
+  {
+    "id": "DEP-10003",
+    "service": "auth-service",
+    "version": "v3.20.1",
+    "previous_version": "v3.20.0",
+    "type": "deploy",
+    "at": "2026-01-06T10:30:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "OTP rate limiting tweaks"
+  },
+  {
+    "id": "DEP-10004",
+    "service": "checkout-web",
+    "version": "v7.0.2",
+    "previous_version": "v7.0.1",
+    "type": "deploy",
+    "at": "2026-01-06T11:45:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "A/B test: express checkout button"
+  },
+  {
+    "id": "DEP-10005",
+    "service": "search-service",
+    "version": "v5.2.1",
+    "previous_version": "v5.2.0",
+    "type": "deploy",
+    "at": "2026-01-06T16:20:00+05:30",
+    "deployed_by": "Vikram Rao",
+    "change_summary": "Filter facet caching"
+  },
+  {
+    "id": "DEP-10006",
+    "service": "orders-service",
+    "version": "v3.20.1",
+    "previous_version": "v3.20.0",
+    "type": "deploy",
+    "at": "2026-01-07T10:40:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Cancellation reason codes"
+  },
+  {
+    "id": "DEP-10007",
+    "service": "auth-service",
+    "version": "v3.20.2",
+    "previous_version": "v3.20.1",
+    "type": "deploy",
+    "at": "2026-01-07T13:30:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "OTP rate limiting tweaks"
+  },
+  {
+    "id": "DEP-10008",
+    "service": "orders-service",
+    "version": "v3.20.2",
+    "previous_version": "v3.20.1",
+    "type": "deploy",
+    "at": "2026-01-08T10:45:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Return window rules update"
+  },
+  {
+    "id": "DEP-10009",
+    "service": "search-service",
+    "version": "v5.2.2",
+    "previous_version": "v5.2.1",
+    "type": "deploy",
+    "at": "2026-01-09T12:45:00+05:30",
+    "deployed_by": "Vikram Rao",
+    "change_summary": "Spell correction improvements"
+  },
+  {
+    "id": "DEP-10010",
+    "service": "payments-api",
+    "version": "v4.9.2",
+    "previous_version": "v4.9.1",
+    "type": "deploy",
+    "at": "2026-01-09T12:50:00+05:30",
+    "deployed_by": "Priya Sharma",
+    "change_summary": "Upgrade Spring Boot patch"
+  },
+  {
+    "id": "DEP-10011",
+    "service": "orders-service",
+    "version": "v3.20.3",
+    "previous_version": "v3.20.2",
+    "type": "deploy",
+    "at": "2026-01-12T11:30:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Cancellation reason codes"
+  },
+  {
+    "id": "DEP-10012",
+    "service": "checkout-web",
+    "version": "v7.0.3",
+    "previous_version": "v7.0.2",
+    "type": "deploy",
+    "at": "2026-01-12T17:00:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Cart page performance"
+  },
+  {
+    "id": "DEP-10013",
+    "service": "payments-api",
+    "version": "v4.9.3",
+    "previous_version": "v4.9.2",
+    "type": "deploy",
+    "at": "2026-01-12T17:40:00+05:30",
+    "deployed_by": "Priya Sharma",
+    "change_summary": "Add payment method metrics"
+  },
+  {
+    "id": "DEP-10014",
+    "service": "auth-service",
+    "version": "v3.20.3",
+    "previous_version": "v3.20.2",
+    "type": "deploy",
+    "at": "2026-01-13T10:05:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Session cookie SameSite fix"
+  },
+  {
+    "id": "DEP-10015",
+    "service": "search-service",
+    "version": "v5.2.3",
+    "previous_version": "v5.2.2",
+    "type": "deploy",
+    "at": "2026-01-14T12:40:00+05:30",
+    "deployed_by": "Vikram Rao",
+    "change_summary": "Spell correction improvements"
+  },
+  {
+    "id": "DEP-10016",
+    "service": "checkout-web",
+    "version": "v7.0.4",
+    "previous_version": "v7.0.3",
+    "type": "deploy",
+    "at": "2026-01-14T16:00:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Coupon UI polish"
+  },
+  {
+    "id": "DEP-10017",
+    "service": "checkout-web",
+    "version": "v7.0.5",
+    "previous_version": "v7.0.4",
+    "type": "deploy",
+    "at": "2026-01-15T15:20:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Payment options reorder"
+  },
+  {
+    "id": "DEP-10018",
+    "service": "search-service",
+    "version": "v5.2.4",
+    "previous_version": "v5.2.3",
+    "type": "deploy",
+    "at": "2026-01-15T15:45:00+05:30",
+    "deployed_by": "Vikram Rao",
+    "change_summary": "Spell correction improvements"
+  },
+  {
+    "id": "DEP-10019",
+    "service": "payments-api",
+    "version": "v4.9.4",
+    "previous_version": "v4.9.3",
+    "type": "deploy",
+    "at": "2026-01-15T18:40:00+05:30",
+    "deployed_by": "Priya Sharma",
+    "change_summary": "Gateway error mapping cleanup"
+  },
+  {
+    "id": "DEP-10020",
+    "service": "payments-api",
+    "version": "v4.10.0",
+    "previous_version": "v4.9.4",
+    "type": "deploy",
+    "at": "2026-01-16T14:00:00+05:30",
+    "deployed_by": "Priya Sharma",
+    "change_summary": "EMI eligibility rules update"
+  },
+  {
+    "id": "DEP-10021",
+    "service": "inventory-service",
+    "version": "v2.28.1",
+    "previous_version": "v2.28.0",
+    "type": "deploy",
+    "at": "2026-01-19T13:40:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Batch stock import endpoint"
+  },
+  {
+    "id": "DEP-10022",
+    "service": "search-service",
+    "version": "v5.2.5",
+    "previous_version": "v5.2.4",
+    "type": "deploy",
+    "at": "2026-01-19T16:05:00+05:30",
+    "deployed_by": "Vikram Rao",
+    "change_summary": "Upgrade Lucene patch"
+  },
+  {
+    "id": "DEP-10023",
+    "service": "checkout-web",
+    "version": "v7.0.6",
+    "previous_version": "v7.0.5",
+    "type": "deploy",
+    "at": "2026-01-20T17:30:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "A/B test: express checkout button"
+  },
+  {
+    "id": "DEP-10024",
+    "service": "payments-api",
+    "version": "v4.10.1",
+    "previous_version": "v4.10.0",
+    "type": "deploy",
+    "at": "2026-01-21T15:40:00+05:30",
+    "deployed_by": "Priya Sharma",
+    "change_summary": "Refund status polling improvements"
+  },
+  {
+    "id": "DEP-10025",
+    "service": "orders-service",
+    "version": "v3.20.2",
+    "previous_version": "v3.20.3",
+    "type": "rollback",
+    "at": "2026-01-22T12:59:17+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Rollback during INC-2003: v3.20.3 -> v3.20.2"
+  },
+  {
+    "id": "DEP-10026",
+    "service": "search-service",
+    "version": "v5.2.6",
+    "previous_version": "v5.2.5",
+    "type": "deploy",
+    "at": "2026-01-22T14:05:00+05:30",
+    "deployed_by": "Vikram Rao",
+    "change_summary": "Ranking model v12"
+  },
+  {
+    "id": "DEP-10027",
+    "service": "checkout-web",
+    "version": "v7.0.7",
+    "previous_version": "v7.0.6",
+    "type": "deploy",
+    "at": "2026-01-22T14:50:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Fix mobile Safari layout"
+  },
+  {
+    "id": "DEP-10028",
+    "service": "payments-api",
+    "version": "v4.11.0",
+    "previous_version": "v4.10.1",
+    "type": "deploy",
+    "at": "2026-01-22T18:20:00+05:30",
+    "deployed_by": "Priya Sharma",
+    "change_summary": "Add payment method metrics"
+  },
+  {
+    "id": "DEP-10029",
+    "service": "orders-service",
+    "version": "v3.20.4",
+    "previous_version": "v3.20.2",
+    "type": "deploy",
+    "at": "2026-01-23T11:30:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Fix-forward release after rollback in INC-2003"
+  },
+  {
+    "id": "DEP-10030",
+    "service": "orders-service",
+    "version": "v3.20.5",
+    "previous_version": "v3.20.4",
+    "type": "deploy",
+    "at": "2026-01-23T17:20:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Improve PENDING order sweeper"
+  },
+  {
+    "id": "DEP-10031",
+    "service": "inventory-service",
+    "version": "v2.28.2",
+    "previous_version": "v2.28.1",
+    "type": "deploy",
+    "at": "2026-01-28T17:45:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "SKU bundle support"
+  },
+  {
+    "id": "DEP-10032",
+    "service": "auth-service",
+    "version": "v3.20.4",
+    "previous_version": "v3.20.3",
+    "type": "deploy",
+    "at": "2026-01-29T11:45:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "OTP rate limiting tweaks"
+  },
+  {
+    "id": "DEP-10033",
+    "service": "search-service",
+    "version": "v5.2.7",
+    "previous_version": "v5.2.6",
+    "type": "deploy",
+    "at": "2026-01-29T14:00:00+05:30",
+    "deployed_by": "Vikram Rao",
+    "change_summary": "Spell correction improvements"
+  },
+  {
+    "id": "DEP-10034",
+    "service": "notification-service",
+    "version": "v2.11.1",
+    "previous_version": "v2.11.0",
+    "type": "deploy",
+    "at": "2026-01-29T16:30:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Upgrade Go patch"
+  },
+  {
+    "id": "DEP-10035",
+    "service": "search-service",
+    "version": "v5.2.8",
+    "previous_version": "v5.2.7",
+    "type": "deploy",
+    "at": "2026-01-30T15:00:00+05:30",
+    "deployed_by": "Vikram Rao",
+    "change_summary": "Ranking model v12"
+  },
+  {
+    "id": "DEP-10036",
+    "service": "orders-service",
+    "version": "v3.20.6",
+    "previous_version": "v3.20.5",
+    "type": "deploy",
+    "at": "2026-02-02T13:00:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Add order source tagging"
+  },
+  {
+    "id": "DEP-10037",
+    "service": "checkout-web",
+    "version": "v7.0.8",
+    "previous_version": "v7.0.7",
+    "type": "deploy",
+    "at": "2026-02-02T18:45:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Upgrade Next.js patch"
+  },
+  {
+    "id": "DEP-10038",
+    "service": "orders-service",
+    "version": "v3.20.7",
+    "previous_version": "v3.20.6",
+    "type": "deploy",
+    "at": "2026-02-03T14:40:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Add order source tagging"
+  },
+  {
+    "id": "DEP-10039",
+    "service": "orders-service",
+    "version": "v3.20.8",
+    "previous_version": "v3.20.7",
+    "type": "deploy",
+    "at": "2026-02-04T12:05:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Return window rules update"
+  },
+  {
+    "id": "DEP-10040",
+    "service": "search-service",
+    "version": "v5.2.9",
+    "previous_version": "v5.2.8",
+    "type": "deploy",
+    "at": "2026-02-04T18:10:00+05:30",
+    "deployed_by": "Vikram Rao",
+    "change_summary": "Ranking model v12"
+  },
+  {
+    "id": "DEP-10041",
+    "service": "auth-service",
+    "version": "v3.20.5",
+    "previous_version": "v3.20.4",
+    "type": "deploy",
+    "at": "2026-02-04T18:50:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Upgrade Go patch"
+  },
+  {
+    "id": "DEP-10042",
+    "service": "search-service",
+    "version": "v5.2.10",
+    "previous_version": "v5.2.9",
+    "type": "deploy",
+    "at": "2026-02-05T12:50:00+05:30",
+    "deployed_by": "Vikram Rao",
+    "change_summary": "Ranking model v12"
+  },
+  {
+    "id": "DEP-10043",
+    "service": "checkout-web",
+    "version": "v7.0.9",
+    "previous_version": "v7.0.8",
+    "type": "deploy",
+    "at": "2026-02-05T15:40:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Coupon UI polish"
+  },
+  {
+    "id": "DEP-10044",
+    "service": "orders-service",
+    "version": "v3.20.9",
+    "previous_version": "v3.20.8",
+    "type": "deploy",
+    "at": "2026-02-05T16:50:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Upgrade Spring Kafka"
+  },
+  {
+    "id": "DEP-10045",
+    "service": "checkout-web",
+    "version": "v7.0.10",
+    "previous_version": "v7.0.9",
+    "type": "deploy",
+    "at": "2026-02-09T15:50:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Fix mobile Safari layout"
+  },
+  {
+    "id": "DEP-10046",
+    "service": "search-service",
+    "version": "v5.2.11",
+    "previous_version": "v5.2.10",
+    "type": "deploy",
+    "at": "2026-02-10T13:10:00+05:30",
+    "deployed_by": "Vikram Rao",
+    "change_summary": "Spell correction improvements"
+  },
+  {
+    "id": "DEP-10047",
+    "service": "payments-api",
+    "version": "v4.11.1",
+    "previous_version": "v4.11.0",
+    "type": "deploy",
+    "at": "2026-02-10T15:05:00+05:30",
+    "deployed_by": "Priya Sharma",
+    "change_summary": "Refund status polling improvements"
+  },
+  {
+    "id": "DEP-10048",
+    "service": "orders-service",
+    "version": "v3.20.10",
+    "previous_version": "v3.20.9",
+    "type": "deploy",
+    "at": "2026-02-10T15:20:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Upgrade Spring Kafka"
+  },
+  {
+    "id": "DEP-10049",
+    "service": "checkout-web",
+    "version": "v7.0.11",
+    "previous_version": "v7.0.10",
+    "type": "deploy",
+    "at": "2026-02-10T18:00:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "New address form"
+  },
+  {
+    "id": "DEP-10050",
+    "service": "notification-service",
+    "version": "v2.11.2",
+    "previous_version": "v2.11.1",
+    "type": "deploy",
+    "at": "2026-02-11T11:10:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Upgrade Go patch"
+  },
+  {
+    "id": "DEP-10051",
+    "service": "checkout-web",
+    "version": "v7.0.12",
+    "previous_version": "v7.0.11",
+    "type": "deploy",
+    "at": "2026-02-12T14:30:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Fix mobile Safari layout"
+  },
+  {
+    "id": "DEP-10052",
+    "service": "orders-service",
+    "version": "v3.20.11",
+    "previous_version": "v3.20.10",
+    "type": "deploy",
+    "at": "2026-02-12T18:45:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Order timeline API pagination"
+  },
+  {
+    "id": "DEP-10053",
+    "service": "payments-api",
+    "version": "v4.11.2",
+    "previous_version": "v4.11.1",
+    "type": "deploy",
+    "at": "2026-02-16T12:45:00+05:30",
+    "deployed_by": "Priya Sharma",
+    "change_summary": "Refund status polling improvements"
+  },
+  {
+    "id": "DEP-10054",
+    "service": "checkout-web",
+    "version": "v7.0.13",
+    "previous_version": "v7.0.12",
+    "type": "deploy",
+    "at": "2026-02-16T13:20:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Accessibility fixes"
+  },
+  {
+    "id": "DEP-10055",
+    "service": "inventory-service",
+    "version": "v2.28.3",
+    "previous_version": "v2.28.2",
+    "type": "deploy",
+    "at": "2026-02-16T14:50:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Stock threshold alerts"
+  },
+  {
+    "id": "DEP-10056",
+    "service": "notification-service",
+    "version": "v2.11.3",
+    "previous_version": "v2.11.2",
+    "type": "deploy",
+    "at": "2026-02-16T17:10:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Email bounce handling"
+  },
+  {
+    "id": "DEP-10057",
+    "service": "auth-service",
+    "version": "v3.20.4",
+    "previous_version": "v3.20.5",
+    "type": "rollback",
+    "at": "2026-02-17T10:45:53+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Rollback during INC-2008: v3.20.5 -> v3.20.4"
+  },
+  {
+    "id": "DEP-10058",
+    "service": "search-service",
+    "version": "v5.2.12",
+    "previous_version": "v5.2.11",
+    "type": "deploy",
+    "at": "2026-02-17T13:05:00+05:30",
+    "deployed_by": "Vikram Rao",
+    "change_summary": "Seller boost rules"
+  },
+  {
+    "id": "DEP-10059",
+    "service": "orders-service",
+    "version": "v3.20.12",
+    "previous_version": "v3.20.11",
+    "type": "deploy",
+    "at": "2026-02-17T17:10:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Return window rules update"
+  },
+  {
+    "id": "DEP-10060",
+    "service": "auth-service",
+    "version": "v3.20.6",
+    "previous_version": "v3.20.4",
+    "type": "deploy",
+    "at": "2026-02-18T11:30:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Fix-forward release after rollback in INC-2008"
+  },
+  {
+    "id": "DEP-10061",
+    "service": "checkout-web",
+    "version": "v7.0.14",
+    "previous_version": "v7.0.13",
+    "type": "deploy",
+    "at": "2026-02-18T14:10:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Cart page performance"
+  },
+  {
+    "id": "DEP-10062",
+    "service": "orders-service",
+    "version": "v3.20.13",
+    "previous_version": "v3.20.12",
+    "type": "deploy",
+    "at": "2026-02-18T17:50:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Return window rules update"
+  },
+  {
+    "id": "DEP-10063",
+    "service": "auth-service",
+    "version": "v3.20.7",
+    "previous_version": "v3.20.6",
+    "type": "deploy",
+    "at": "2026-02-19T12:10:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Login audit events"
+  },
+  {
+    "id": "DEP-10064",
+    "service": "checkout-web",
+    "version": "v7.0.15",
+    "previous_version": "v7.0.14",
+    "type": "deploy",
+    "at": "2026-02-19T14:20:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Fix mobile Safari layout"
+  },
+  {
+    "id": "DEP-10065",
+    "service": "checkout-web",
+    "version": "v7.0.16",
+    "previous_version": "v7.0.15",
+    "type": "deploy",
+    "at": "2026-02-23T15:30:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Upgrade Next.js patch"
+  },
+  {
+    "id": "DEP-10066",
+    "service": "notification-service",
+    "version": "v2.11.4",
+    "previous_version": "v2.11.3",
+    "type": "deploy",
+    "at": "2026-02-24T18:30:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Quiet hours for push"
+  },
+  {
+    "id": "DEP-10067",
+    "service": "orders-service",
+    "version": "v3.20.14",
+    "previous_version": "v3.20.13",
+    "type": "deploy",
+    "at": "2026-02-25T18:05:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Order search index tweaks"
+  },
+  {
+    "id": "DEP-10068",
+    "service": "checkout-web",
+    "version": "v7.0.17",
+    "previous_version": "v7.0.16",
+    "type": "deploy",
+    "at": "2026-02-25T18:20:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Coupon UI polish"
+  },
+  {
+    "id": "DEP-10069",
+    "service": "inventory-service",
+    "version": "v2.28.4",
+    "previous_version": "v2.28.3",
+    "type": "deploy",
+    "at": "2026-02-25T18:20:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Reservation expiry tuning"
+  },
+  {
+    "id": "DEP-10070",
+    "service": "search-service",
+    "version": "v5.3.0",
+    "previous_version": "v5.2.12",
+    "type": "deploy",
+    "at": "2026-02-27T12:05:00+05:30",
+    "deployed_by": "Vikram Rao",
+    "change_summary": "Upgrade Lucene patch"
+  },
+  {
+    "id": "DEP-10071",
+    "service": "notification-service",
+    "version": "v2.11.5",
+    "previous_version": "v2.11.4",
+    "type": "deploy",
+    "at": "2026-02-27T12:05:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Template renderer client retries"
+  },
+  {
+    "id": "DEP-10072",
+    "service": "checkout-web",
+    "version": "v7.0.18",
+    "previous_version": "v7.0.17",
+    "type": "deploy",
+    "at": "2026-03-02T10:00:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Cart page performance"
+  },
+  {
+    "id": "DEP-10073",
+    "service": "search-service",
+    "version": "v5.3.1",
+    "previous_version": "v5.3.0",
+    "type": "deploy",
+    "at": "2026-03-02T13:30:00+05:30",
+    "deployed_by": "Vikram Rao",
+    "change_summary": "Spell correction improvements"
+  },
+  {
+    "id": "DEP-10074",
+    "service": "notification-service",
+    "version": "v2.11.6",
+    "previous_version": "v2.11.5",
+    "type": "deploy",
+    "at": "2026-03-02T16:30:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Email bounce handling"
+  },
+  {
+    "id": "DEP-10075",
+    "service": "search-service",
+    "version": "v5.3.2",
+    "previous_version": "v5.3.1",
+    "type": "deploy",
+    "at": "2026-03-04T12:20:00+05:30",
+    "deployed_by": "Vikram Rao",
+    "change_summary": "Upgrade Lucene patch"
+  },
+  {
+    "id": "DEP-10076",
+    "service": "checkout-web",
+    "version": "v7.0.19",
+    "previous_version": "v7.0.18",
+    "type": "deploy",
+    "at": "2026-03-04T14:30:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Payment options reorder"
+  },
+  {
+    "id": "DEP-10077",
+    "service": "inventory-service",
+    "version": "v2.28.5",
+    "previous_version": "v2.28.4",
+    "type": "hotfix",
+    "at": "2026-03-04T16:33:10+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Hotfix during INC-2010: Deployed hotfix v2.28.5 with optimistic locking on reservations"
+  },
+  {
+    "id": "DEP-10078",
+    "service": "auth-service",
+    "version": "v3.20.8",
+    "previous_version": "v3.20.7",
+    "type": "deploy",
+    "at": "2026-03-04T18:40:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Device fingerprint v2"
+  },
+  {
+    "id": "DEP-10079",
+    "service": "orders-service",
+    "version": "v3.20.15",
+    "previous_version": "v3.20.14",
+    "type": "deploy",
+    "at": "2026-03-05T18:20:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Return window rules update"
+  },
+  {
+    "id": "DEP-10080",
+    "service": "auth-service",
+    "version": "v3.20.9",
+    "previous_version": "v3.20.8",
+    "type": "deploy",
+    "at": "2026-03-06T16:30:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Upgrade Go patch"
+  },
+  {
+    "id": "DEP-10081",
+    "service": "auth-service",
+    "version": "v3.20.10",
+    "previous_version": "v3.20.9",
+    "type": "deploy",
+    "at": "2026-03-09T10:10:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Login audit events"
+  },
+  {
+    "id": "DEP-10082",
+    "service": "inventory-service",
+    "version": "v2.28.6",
+    "previous_version": "v2.28.5",
+    "type": "deploy",
+    "at": "2026-03-10T13:45:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Reservation expiry tuning"
+  },
+  {
+    "id": "DEP-10083",
+    "service": "search-service",
+    "version": "v5.3.3",
+    "previous_version": "v5.3.2",
+    "type": "deploy",
+    "at": "2026-03-10T15:30:00+05:30",
+    "deployed_by": "Vikram Rao",
+    "change_summary": "Spell correction improvements"
+  },
+  {
+    "id": "DEP-10084",
+    "service": "auth-service",
+    "version": "v3.20.11",
+    "previous_version": "v3.20.10",
+    "type": "deploy",
+    "at": "2026-03-10T17:30:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Login audit events"
+  },
+  {
+    "id": "DEP-10085",
+    "service": "orders-service",
+    "version": "v3.20.16",
+    "previous_version": "v3.20.15",
+    "type": "deploy",
+    "at": "2026-03-12T13:00:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Order search index tweaks"
+  },
+  {
+    "id": "DEP-10086",
+    "service": "checkout-web",
+    "version": "v7.0.20",
+    "previous_version": "v7.0.19",
+    "type": "deploy",
+    "at": "2026-03-12T18:30:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Coupon UI polish"
+  },
+  {
+    "id": "DEP-10087",
+    "service": "auth-service",
+    "version": "v3.21.0",
+    "previous_version": "v3.20.11",
+    "type": "deploy",
+    "at": "2026-03-16T16:30:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Session cookie SameSite fix"
+  },
+  {
+    "id": "DEP-10088",
+    "service": "auth-service",
+    "version": "v3.21.1",
+    "previous_version": "v3.21.0",
+    "type": "deploy",
+    "at": "2026-03-17T11:00:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Login audit events"
+  },
+  {
+    "id": "DEP-10089",
+    "service": "inventory-service",
+    "version": "v2.28.7",
+    "previous_version": "v2.28.6",
+    "type": "deploy",
+    "at": "2026-03-18T15:45:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Stock threshold alerts"
+  },
+  {
+    "id": "DEP-10090",
+    "service": "inventory-service",
+    "version": "v2.28.8",
+    "previous_version": "v2.28.7",
+    "type": "deploy",
+    "at": "2026-03-23T16:20:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "SKU bundle support"
+  },
+  {
+    "id": "DEP-10091",
+    "service": "search-service",
+    "version": "v5.3.4",
+    "previous_version": "v5.3.3",
+    "type": "deploy",
+    "at": "2026-03-23T17:45:00+05:30",
+    "deployed_by": "Vikram Rao",
+    "change_summary": "Upgrade Lucene patch"
+  },
+  {
+    "id": "DEP-10092",
+    "service": "notification-service",
+    "version": "v2.11.7",
+    "previous_version": "v2.11.6",
+    "type": "deploy",
+    "at": "2026-03-23T18:20:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Upgrade Go patch"
+  },
+  {
+    "id": "DEP-10093",
+    "service": "auth-service",
+    "version": "v3.21.2",
+    "previous_version": "v3.21.1",
+    "type": "deploy",
+    "at": "2026-03-24T15:10:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "OTP rate limiting tweaks"
+  },
+  {
+    "id": "DEP-10094",
+    "service": "checkout-web",
+    "version": "v7.0.21",
+    "previous_version": "v7.0.20",
+    "type": "deploy",
+    "at": "2026-03-25T10:30:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Coupon UI polish"
+  },
+  {
+    "id": "DEP-10095",
+    "service": "auth-service",
+    "version": "v3.21.3",
+    "previous_version": "v3.21.2",
+    "type": "deploy",
+    "at": "2026-03-26T10:20:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Session cookie SameSite fix"
+  },
+  {
+    "id": "DEP-10096",
+    "service": "search-service",
+    "version": "v5.3.5",
+    "previous_version": "v5.3.4",
+    "type": "deploy",
+    "at": "2026-03-26T13:40:00+05:30",
+    "deployed_by": "Vikram Rao",
+    "change_summary": "Ranking model v12"
+  },
+  {
+    "id": "DEP-10097",
+    "service": "checkout-web",
+    "version": "v7.0.22",
+    "previous_version": "v7.0.21",
+    "type": "deploy",
+    "at": "2026-03-27T13:20:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Accessibility fixes"
+  },
+  {
+    "id": "DEP-10098",
+    "service": "orders-service",
+    "version": "v3.20.17",
+    "previous_version": "v3.20.16",
+    "type": "deploy",
+    "at": "2026-03-30T10:05:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Cancellation reason codes"
+  },
+  {
+    "id": "DEP-10099",
+    "service": "notification-service",
+    "version": "v2.11.8",
+    "previous_version": "v2.11.7",
+    "type": "deploy",
+    "at": "2026-03-30T11:30:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "SMS DLT template ids"
+  },
+  {
+    "id": "DEP-10100",
+    "service": "auth-service",
+    "version": "v3.21.4",
+    "previous_version": "v3.21.3",
+    "type": "deploy",
+    "at": "2026-03-30T14:00:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Upgrade Go patch"
+  },
+  {
+    "id": "DEP-10101",
+    "service": "search-service",
+    "version": "v5.3.6",
+    "previous_version": "v5.3.5",
+    "type": "deploy",
+    "at": "2026-03-30T14:45:00+05:30",
+    "deployed_by": "Vikram Rao",
+    "change_summary": "Seller boost rules"
+  },
+  {
+    "id": "DEP-10102",
+    "service": "auth-service",
+    "version": "v3.21.5",
+    "previous_version": "v3.21.4",
+    "type": "deploy",
+    "at": "2026-03-31T16:50:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Upgrade Go patch"
+  },
+  {
+    "id": "DEP-10103",
+    "service": "notification-service",
+    "version": "v2.11.9",
+    "previous_version": "v2.11.8",
+    "type": "deploy",
+    "at": "2026-04-01T10:00:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Quiet hours for push"
+  },
+  {
+    "id": "DEP-10104",
+    "service": "checkout-web",
+    "version": "v7.0.23",
+    "previous_version": "v7.0.22",
+    "type": "deploy",
+    "at": "2026-04-01T11:00:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Payment options reorder"
+  },
+  {
+    "id": "DEP-10105",
+    "service": "orders-service",
+    "version": "v3.20.18",
+    "previous_version": "v3.20.17",
+    "type": "deploy",
+    "at": "2026-04-01T14:00:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Add order source tagging"
+  },
+  {
+    "id": "DEP-10106",
+    "service": "inventory-service",
+    "version": "v2.28.9",
+    "previous_version": "v2.28.8",
+    "type": "deploy",
+    "at": "2026-04-01T16:00:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Stock threshold alerts"
+  },
+  {
+    "id": "DEP-10107",
+    "service": "checkout-web",
+    "version": "v7.0.24",
+    "previous_version": "v7.0.23",
+    "type": "deploy",
+    "at": "2026-04-02T17:40:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "New address form"
+  },
+  {
+    "id": "DEP-10108",
+    "service": "notification-service",
+    "version": "v2.11.10",
+    "previous_version": "v2.11.9",
+    "type": "deploy",
+    "at": "2026-04-02T18:10:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Quiet hours for push"
+  },
+  {
+    "id": "DEP-10109",
+    "service": "checkout-web",
+    "version": "v7.0.25",
+    "previous_version": "v7.0.24",
+    "type": "deploy",
+    "at": "2026-04-06T11:45:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Upgrade Next.js patch"
+  },
+  {
+    "id": "DEP-10110",
+    "service": "auth-service",
+    "version": "v3.21.6",
+    "previous_version": "v3.21.5",
+    "type": "deploy",
+    "at": "2026-04-09T11:45:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Upgrade Go patch"
+  },
+  {
+    "id": "DEP-10111",
+    "service": "orders-service",
+    "version": "v3.20.19",
+    "previous_version": "v3.20.18",
+    "type": "deploy",
+    "at": "2026-04-09T14:40:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Upgrade Spring Kafka"
+  },
+  {
+    "id": "DEP-10112",
+    "service": "checkout-web",
+    "version": "v7.0.26",
+    "previous_version": "v7.0.25",
+    "type": "deploy",
+    "at": "2026-04-10T17:05:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Payment options reorder"
+  },
+  {
+    "id": "DEP-10113",
+    "service": "checkout-web",
+    "version": "v7.0.27",
+    "previous_version": "v7.0.26",
+    "type": "deploy",
+    "at": "2026-04-13T13:00:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Payment options reorder"
+  },
+  {
+    "id": "DEP-10114",
+    "service": "search-service",
+    "version": "v5.4.0",
+    "previous_version": "v5.3.6",
+    "type": "deploy",
+    "at": "2026-04-13T15:40:00+05:30",
+    "deployed_by": "Vikram Rao",
+    "change_summary": "Ranking model v12"
+  },
+  {
+    "id": "DEP-10115",
+    "service": "orders-service",
+    "version": "v3.20.20",
+    "previous_version": "v3.20.19",
+    "type": "deploy",
+    "at": "2026-04-14T10:30:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Cancellation reason codes"
+  },
+  {
+    "id": "DEP-10116",
+    "service": "notification-service",
+    "version": "v2.11.11",
+    "previous_version": "v2.11.10",
+    "type": "deploy",
+    "at": "2026-04-14T12:10:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Template renderer client retries"
+  },
+  {
+    "id": "DEP-10117",
+    "service": "orders-service",
+    "version": "v3.20.21",
+    "previous_version": "v3.20.20",
+    "type": "deploy",
+    "at": "2026-04-15T11:30:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Add order source tagging"
+  },
+  {
+    "id": "DEP-10118",
+    "service": "auth-service",
+    "version": "v3.21.7",
+    "previous_version": "v3.21.6",
+    "type": "deploy",
+    "at": "2026-04-15T15:20:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Device fingerprint v2"
+  },
+  {
+    "id": "DEP-10119",
+    "service": "inventory-service",
+    "version": "v2.28.10",
+    "previous_version": "v2.28.9",
+    "type": "deploy",
+    "at": "2026-04-15T15:40:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "SKU bundle support"
+  },
+  {
+    "id": "DEP-10120",
+    "service": "notification-service",
+    "version": "v2.11.12",
+    "previous_version": "v2.11.11",
+    "type": "deploy",
+    "at": "2026-04-15T18:45:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Quiet hours for push"
+  },
+  {
+    "id": "DEP-10121",
+    "service": "orders-service",
+    "version": "v3.20.22",
+    "previous_version": "v3.20.21",
+    "type": "deploy",
+    "at": "2026-04-16T12:20:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Upgrade Spring Kafka"
+  },
+  {
+    "id": "DEP-10122",
+    "service": "checkout-web",
+    "version": "v7.0.28",
+    "previous_version": "v7.0.27",
+    "type": "deploy",
+    "at": "2026-04-16T14:50:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Cart page performance"
+  },
+  {
+    "id": "DEP-10123",
+    "service": "notification-service",
+    "version": "v2.11.13",
+    "previous_version": "v2.11.12",
+    "type": "deploy",
+    "at": "2026-04-16T17:30:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Email bounce handling"
+  },
+  {
+    "id": "DEP-10124",
+    "service": "checkout-web",
+    "version": "v7.0.29",
+    "previous_version": "v7.0.28",
+    "type": "deploy",
+    "at": "2026-04-20T11:05:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "A/B test: express checkout button"
+  },
+  {
+    "id": "DEP-10125",
+    "service": "search-service",
+    "version": "v5.4.1",
+    "previous_version": "v5.4.0",
+    "type": "deploy",
+    "at": "2026-04-20T11:05:00+05:30",
+    "deployed_by": "Vikram Rao",
+    "change_summary": "Spell correction improvements"
+  },
+  {
+    "id": "DEP-10126",
+    "service": "orders-service",
+    "version": "v3.20.23",
+    "previous_version": "v3.20.22",
+    "type": "deploy",
+    "at": "2026-04-20T18:40:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Order search index tweaks"
+  },
+  {
+    "id": "DEP-10127",
+    "service": "search-service",
+    "version": "v5.4.2",
+    "previous_version": "v5.4.1",
+    "type": "deploy",
+    "at": "2026-04-22T12:40:00+05:30",
+    "deployed_by": "Vikram Rao",
+    "change_summary": "Upgrade Lucene patch"
+  },
+  {
+    "id": "DEP-10128",
+    "service": "orders-service",
+    "version": "v3.20.24",
+    "previous_version": "v3.20.23",
+    "type": "deploy",
+    "at": "2026-04-22T13:05:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Cancellation reason codes"
+  },
+  {
+    "id": "DEP-10129",
+    "service": "checkout-web",
+    "version": "v7.0.30",
+    "previous_version": "v7.0.29",
+    "type": "deploy",
+    "at": "2026-04-23T15:05:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "New address form"
+  },
+  {
+    "id": "DEP-10130",
+    "service": "checkout-web",
+    "version": "v7.0.31",
+    "previous_version": "v7.0.30",
+    "type": "deploy",
+    "at": "2026-04-27T10:40:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "A/B test: express checkout button"
+  },
+  {
+    "id": "DEP-10131",
+    "service": "search-service",
+    "version": "v5.4.3",
+    "previous_version": "v5.4.2",
+    "type": "deploy",
+    "at": "2026-04-27T12:45:00+05:30",
+    "deployed_by": "Vikram Rao",
+    "change_summary": "Spell correction improvements"
+  },
+  {
+    "id": "DEP-10132",
+    "service": "orders-service",
+    "version": "v3.20.25",
+    "previous_version": "v3.20.24",
+    "type": "deploy",
+    "at": "2026-04-27T17:05:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Order search index tweaks"
+  },
+  {
+    "id": "DEP-10133",
+    "service": "auth-service",
+    "version": "v3.21.8",
+    "previous_version": "v3.21.7",
+    "type": "deploy",
+    "at": "2026-04-28T11:05:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Upgrade Go patch"
+  },
+  {
+    "id": "DEP-10134",
+    "service": "orders-service",
+    "version": "v3.20.26",
+    "previous_version": "v3.20.25",
+    "type": "deploy",
+    "at": "2026-04-28T14:10:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Add order source tagging"
+  },
+  {
+    "id": "DEP-10135",
+    "service": "inventory-service",
+    "version": "v2.28.11",
+    "previous_version": "v2.28.10",
+    "type": "deploy",
+    "at": "2026-04-29T12:50:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Batch stock import endpoint"
+  },
+  {
+    "id": "DEP-10136",
+    "service": "checkout-web",
+    "version": "v7.0.32",
+    "previous_version": "v7.0.31",
+    "type": "deploy",
+    "at": "2026-04-29T15:20:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "A/B test: express checkout button"
+  },
+  {
+    "id": "DEP-10137",
+    "service": "notification-service",
+    "version": "v2.11.14",
+    "previous_version": "v2.11.13",
+    "type": "deploy",
+    "at": "2026-04-30T17:05:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Quiet hours for push"
+  },
+  {
+    "id": "DEP-10138",
+    "service": "orders-service",
+    "version": "v3.20.27",
+    "previous_version": "v3.20.26",
+    "type": "deploy",
+    "at": "2026-04-30T18:45:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Improve PENDING order sweeper"
+  },
+  {
+    "id": "DEP-10139",
+    "service": "orders-service",
+    "version": "v3.21.0",
+    "previous_version": "v3.20.27",
+    "type": "deploy",
+    "at": "2026-05-04T16:30:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Improve PENDING order sweeper"
+  },
+  {
+    "id": "DEP-10140",
+    "service": "checkout-web",
+    "version": "v7.0.33",
+    "previous_version": "v7.0.32",
+    "type": "deploy",
+    "at": "2026-05-05T11:40:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "New address form"
+  },
+  {
+    "id": "DEP-10141",
+    "service": "orders-service",
+    "version": "v3.21.1",
+    "previous_version": "v3.21.0",
+    "type": "deploy",
+    "at": "2026-05-05T13:05:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Return window rules update"
+  },
+  {
+    "id": "DEP-10142",
+    "service": "inventory-service",
+    "version": "v2.28.12",
+    "previous_version": "v2.28.11",
+    "type": "deploy",
+    "at": "2026-05-06T10:30:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Upgrade HikariCP patch"
+  },
+  {
+    "id": "DEP-10143",
+    "service": "auth-service",
+    "version": "v3.21.9",
+    "previous_version": "v3.21.8",
+    "type": "deploy",
+    "at": "2026-05-06T11:20:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Upgrade Go patch"
+  },
+  {
+    "id": "DEP-10144",
+    "service": "checkout-web",
+    "version": "v7.0.34",
+    "previous_version": "v7.0.33",
+    "type": "deploy",
+    "at": "2026-05-06T16:20:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Fix mobile Safari layout"
+  },
+  {
+    "id": "DEP-10145",
+    "service": "search-service",
+    "version": "v5.4.4",
+    "previous_version": "v5.4.3",
+    "type": "deploy",
+    "at": "2026-05-07T14:30:00+05:30",
+    "deployed_by": "Vikram Rao",
+    "change_summary": "Seller boost rules"
+  },
+  {
+    "id": "DEP-10146",
+    "service": "notification-service",
+    "version": "v2.11.15",
+    "previous_version": "v2.11.14",
+    "type": "deploy",
+    "at": "2026-05-08T18:50:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "SMS DLT template ids"
+  },
+  {
+    "id": "DEP-10147",
+    "service": "checkout-web",
+    "version": "v7.0.35",
+    "previous_version": "v7.0.34",
+    "type": "deploy",
+    "at": "2026-05-11T12:05:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "A/B test: express checkout button"
+  },
+  {
+    "id": "DEP-10148",
+    "service": "auth-service",
+    "version": "v3.21.10",
+    "previous_version": "v3.21.9",
+    "type": "deploy",
+    "at": "2026-05-11T12:05:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Device fingerprint v2"
+  },
+  {
+    "id": "DEP-10149",
+    "service": "search-service",
+    "version": "v5.4.5",
+    "previous_version": "v5.4.4",
+    "type": "deploy",
+    "at": "2026-05-12T15:40:00+05:30",
+    "deployed_by": "Vikram Rao",
+    "change_summary": "Upgrade Lucene patch"
+  },
+  {
+    "id": "DEP-10150",
+    "service": "notification-service",
+    "version": "v2.11.16",
+    "previous_version": "v2.11.15",
+    "type": "deploy",
+    "at": "2026-05-12T16:45:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Quiet hours for push"
+  },
+  {
+    "id": "DEP-10151",
+    "service": "orders-service",
+    "version": "v3.21.2",
+    "previous_version": "v3.21.1",
+    "type": "deploy",
+    "at": "2026-05-12T17:30:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Cancellation reason codes"
+  },
+  {
+    "id": "DEP-10152",
+    "service": "search-service",
+    "version": "v5.4.6",
+    "previous_version": "v5.4.5",
+    "type": "deploy",
+    "at": "2026-05-13T12:05:00+05:30",
+    "deployed_by": "Vikram Rao",
+    "change_summary": "Filter facet caching"
+  },
+  {
+    "id": "DEP-10153",
+    "service": "notification-service",
+    "version": "v2.11.17",
+    "previous_version": "v2.11.16",
+    "type": "deploy",
+    "at": "2026-05-13T18:05:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Upgrade Go patch"
+  },
+  {
+    "id": "DEP-10154",
+    "service": "orders-service",
+    "version": "v3.21.3",
+    "previous_version": "v3.21.2",
+    "type": "deploy",
+    "at": "2026-05-14T17:05:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Cancellation reason codes"
+  },
+  {
+    "id": "DEP-10155",
+    "service": "orders-service",
+    "version": "v3.21.4",
+    "previous_version": "v3.21.3",
+    "type": "deploy",
+    "at": "2026-05-18T17:00:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Order search index tweaks"
+  },
+  {
+    "id": "DEP-10156",
+    "service": "auth-service",
+    "version": "v3.21.11",
+    "previous_version": "v3.21.10",
+    "type": "deploy",
+    "at": "2026-05-19T13:00:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Session cookie SameSite fix"
+  },
+  {
+    "id": "DEP-10157",
+    "service": "search-service",
+    "version": "v5.4.7",
+    "previous_version": "v5.4.6",
+    "type": "deploy",
+    "at": "2026-05-19T14:20:00+05:30",
+    "deployed_by": "Vikram Rao",
+    "change_summary": "Ranking model v12"
+  },
+  {
+    "id": "DEP-10158",
+    "service": "checkout-web",
+    "version": "v7.0.36",
+    "previous_version": "v7.0.35",
+    "type": "deploy",
+    "at": "2026-05-20T17:50:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Fix mobile Safari layout"
+  },
+  {
+    "id": "DEP-10159",
+    "service": "orders-service",
+    "version": "v3.21.5",
+    "previous_version": "v3.21.4",
+    "type": "deploy",
+    "at": "2026-05-21T15:00:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Order search index tweaks"
+  },
+  {
+    "id": "DEP-10160",
+    "service": "checkout-web",
+    "version": "v7.0.37",
+    "previous_version": "v7.0.36",
+    "type": "deploy",
+    "at": "2026-05-25T14:30:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Fix mobile Safari layout"
+  },
+  {
+    "id": "DEP-10161",
+    "service": "notification-service",
+    "version": "v2.11.18",
+    "previous_version": "v2.11.17",
+    "type": "hotfix",
+    "at": "2026-05-25T15:13:13+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Hotfix during INC-2023: Deployed v2.11.18, which fixes the leak in the FCM push client's retry loop"
+  },
+  {
+    "id": "DEP-10162",
+    "service": "auth-service",
+    "version": "v3.21.12",
+    "previous_version": "v3.21.11",
+    "type": "deploy",
+    "at": "2026-05-25T16:05:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Session cookie SameSite fix"
+  },
+  {
+    "id": "DEP-10163",
+    "service": "search-service",
+    "version": "v5.4.8",
+    "previous_version": "v5.4.7",
+    "type": "deploy",
+    "at": "2026-05-25T16:50:00+05:30",
+    "deployed_by": "Vikram Rao",
+    "change_summary": "Spell correction improvements"
+  },
+  {
+    "id": "DEP-10164",
+    "service": "search-service",
+    "version": "v5.4.9",
+    "previous_version": "v5.4.8",
+    "type": "deploy",
+    "at": "2026-05-26T18:05:00+05:30",
+    "deployed_by": "Vikram Rao",
+    "change_summary": "Ranking model v12"
+  },
+  {
+    "id": "DEP-10165",
+    "service": "search-service",
+    "version": "v5.4.10",
+    "previous_version": "v5.4.9",
+    "type": "deploy",
+    "at": "2026-05-27T12:45:00+05:30",
+    "deployed_by": "Vikram Rao",
+    "change_summary": "Upgrade Lucene patch"
+  },
+  {
+    "id": "DEP-10166",
+    "service": "auth-service",
+    "version": "v3.21.13",
+    "previous_version": "v3.21.12",
+    "type": "deploy",
+    "at": "2026-05-27T13:10:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Device fingerprint v2"
+  },
+  {
+    "id": "DEP-10167",
+    "service": "orders-service",
+    "version": "v3.21.6",
+    "previous_version": "v3.21.5",
+    "type": "deploy",
+    "at": "2026-05-27T14:40:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Upgrade Spring Kafka"
+  },
+  {
+    "id": "DEP-10168",
+    "service": "checkout-web",
+    "version": "v7.0.38",
+    "previous_version": "v7.0.37",
+    "type": "deploy",
+    "at": "2026-05-27T15:10:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Coupon UI polish"
+  },
+  {
+    "id": "DEP-10169",
+    "service": "checkout-web",
+    "version": "v7.0.39",
+    "previous_version": "v7.0.38",
+    "type": "deploy",
+    "at": "2026-05-29T17:20:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Accessibility fixes"
+  },
+  {
+    "id": "DEP-10170",
+    "service": "auth-service",
+    "version": "v3.21.14",
+    "previous_version": "v3.21.13",
+    "type": "deploy",
+    "at": "2026-06-01T11:40:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "OTP rate limiting tweaks"
+  },
+  {
+    "id": "DEP-10171",
+    "service": "checkout-web",
+    "version": "v7.0.40",
+    "previous_version": "v7.0.39",
+    "type": "deploy",
+    "at": "2026-06-01T16:10:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Payment options reorder"
+  },
+  {
+    "id": "DEP-10172",
+    "service": "search-service",
+    "version": "v5.4.11",
+    "previous_version": "v5.4.10",
+    "type": "deploy",
+    "at": "2026-06-01T16:20:00+05:30",
+    "deployed_by": "Vikram Rao",
+    "change_summary": "Upgrade Lucene patch"
+  },
+  {
+    "id": "DEP-10173",
+    "service": "checkout-web",
+    "version": "v7.0.41",
+    "previous_version": "v7.0.40",
+    "type": "deploy",
+    "at": "2026-06-02T16:00:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Cart page performance"
+  },
+  {
+    "id": "DEP-10174",
+    "service": "checkout-web",
+    "version": "v7.0.42",
+    "previous_version": "v7.0.41",
+    "type": "deploy",
+    "at": "2026-06-03T12:20:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Accessibility fixes"
+  },
+  {
+    "id": "DEP-10175",
+    "service": "inventory-service",
+    "version": "v2.28.13",
+    "previous_version": "v2.28.12",
+    "type": "deploy",
+    "at": "2026-06-04T15:50:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Stock threshold alerts"
+  },
+  {
+    "id": "DEP-10176",
+    "service": "checkout-web",
+    "version": "v7.0.43",
+    "previous_version": "v7.0.42",
+    "type": "deploy",
+    "at": "2026-06-08T13:00:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Upgrade Next.js patch"
+  },
+  {
+    "id": "DEP-10177",
+    "service": "auth-service",
+    "version": "v3.21.15",
+    "previous_version": "v3.21.14",
+    "type": "deploy",
+    "at": "2026-06-08T13:00:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Device fingerprint v2"
+  },
+  {
+    "id": "DEP-10178",
+    "service": "search-service",
+    "version": "v5.4.12",
+    "previous_version": "v5.4.11",
+    "type": "deploy",
+    "at": "2026-06-08T16:20:00+05:30",
+    "deployed_by": "Vikram Rao",
+    "change_summary": "Ranking model v12"
+  },
+  {
+    "id": "DEP-10179",
+    "service": "checkout-web",
+    "version": "v7.0.44",
+    "previous_version": "v7.0.43",
+    "type": "deploy",
+    "at": "2026-06-10T12:05:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "New address form"
+  },
+  {
+    "id": "DEP-10180",
+    "service": "notification-service",
+    "version": "v2.11.19",
+    "previous_version": "v2.11.18",
+    "type": "deploy",
+    "at": "2026-06-10T17:00:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Quiet hours for push"
+  },
+  {
+    "id": "DEP-10181",
+    "service": "inventory-service",
+    "version": "v2.28.14",
+    "previous_version": "v2.28.13",
+    "type": "deploy",
+    "at": "2026-06-11T10:10:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Reservation expiry tuning"
+  },
+  {
+    "id": "DEP-10182",
+    "service": "orders-service",
+    "version": "v3.21.7",
+    "previous_version": "v3.21.6",
+    "type": "deploy",
+    "at": "2026-06-11T17:20:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Cancellation reason codes"
+  },
+  {
+    "id": "DEP-10183",
+    "service": "checkout-web",
+    "version": "v7.0.45",
+    "previous_version": "v7.0.44",
+    "type": "deploy",
+    "at": "2026-06-16T11:30:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "A/B test: express checkout button"
+  },
+  {
+    "id": "DEP-10184",
+    "service": "inventory-service",
+    "version": "v2.28.15",
+    "previous_version": "v2.28.14",
+    "type": "deploy",
+    "at": "2026-06-16T18:45:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Warehouse mapping cleanup"
+  },
+  {
+    "id": "DEP-10185",
+    "service": "inventory-service",
+    "version": "v2.28.16",
+    "previous_version": "v2.28.15",
+    "type": "deploy",
+    "at": "2026-06-17T18:20:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Upgrade HikariCP patch"
+  },
+  {
+    "id": "DEP-10186",
+    "service": "auth-service",
+    "version": "v3.21.16",
+    "previous_version": "v3.21.15",
+    "type": "deploy",
+    "at": "2026-06-18T11:30:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Upgrade Go patch"
+  },
+  {
+    "id": "DEP-10187",
+    "service": "orders-service",
+    "version": "v3.21.8",
+    "previous_version": "v3.21.7",
+    "type": "deploy",
+    "at": "2026-06-18T11:50:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Add order source tagging"
+  },
+  {
+    "id": "DEP-10188",
+    "service": "checkout-web",
+    "version": "v7.0.46",
+    "previous_version": "v7.0.45",
+    "type": "deploy",
+    "at": "2026-06-18T12:30:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Coupon UI polish"
+  },
+  {
+    "id": "DEP-10189",
+    "service": "payments-api",
+    "version": "v4.11.3",
+    "previous_version": "v4.11.2",
+    "type": "deploy",
+    "at": "2026-06-19T14:10:00+05:30",
+    "deployed_by": "Priya Sharma",
+    "change_summary": "Fix refund webhook retry backoff"
+  },
+  {
+    "id": "DEP-10190",
+    "service": "checkout-web",
+    "version": "v7.0.47",
+    "previous_version": "v7.0.46",
+    "type": "deploy",
+    "at": "2026-06-19T16:40:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Cart page performance"
+  },
+  {
+    "id": "DEP-10191",
+    "service": "notification-service",
+    "version": "v2.11.20",
+    "previous_version": "v2.11.19",
+    "type": "deploy",
+    "at": "2026-06-22T11:45:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Template renderer client retries"
+  },
+  {
+    "id": "DEP-10192",
+    "service": "orders-service",
+    "version": "v3.21.9",
+    "previous_version": "v3.21.8",
+    "type": "deploy",
+    "at": "2026-06-22T14:10:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Improve PENDING order sweeper"
+  },
+  {
+    "id": "DEP-10193",
+    "service": "checkout-web",
+    "version": "v7.1.0",
+    "previous_version": "v7.0.47",
+    "type": "deploy",
+    "at": "2026-06-22T16:10:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Cart page performance"
+  },
+  {
+    "id": "DEP-10194",
+    "service": "auth-service",
+    "version": "v3.21.17",
+    "previous_version": "v3.21.16",
+    "type": "deploy",
+    "at": "2026-06-22T16:10:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "OTP rate limiting tweaks"
+  },
+  {
+    "id": "DEP-10195",
+    "service": "checkout-web",
+    "version": "v7.1.1",
+    "previous_version": "v7.1.0",
+    "type": "deploy",
+    "at": "2026-06-23T16:30:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "New address form"
+  },
+  {
+    "id": "DEP-10196",
+    "service": "orders-service",
+    "version": "v3.21.10",
+    "previous_version": "v3.21.9",
+    "type": "deploy",
+    "at": "2026-06-23T16:50:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Order timeline API pagination"
+  },
+  {
+    "id": "DEP-10197",
+    "service": "checkout-web",
+    "version": "v7.1.2",
+    "previous_version": "v7.1.1",
+    "type": "deploy",
+    "at": "2026-06-24T12:20:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "A/B test: express checkout button"
+  },
+  {
+    "id": "DEP-10198",
+    "service": "payments-api",
+    "version": "v4.12.0",
+    "previous_version": "v4.11.3",
+    "type": "deploy",
+    "at": "2026-06-25T15:05:00+05:30",
+    "deployed_by": "Priya Sharma",
+    "change_summary": "Add settlementBatchId to PaymentCaptured event"
+  },
+  {
+    "id": "DEP-10199",
+    "service": "checkout-web",
+    "version": "v7.1.3",
+    "previous_version": "v7.1.2",
+    "type": "deploy",
+    "at": "2026-06-25T15:50:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Fix mobile Safari layout"
+  },
+  {
+    "id": "DEP-10200",
+    "service": "payments-api",
+    "version": "v4.11.3",
+    "previous_version": "v4.12.0",
+    "type": "rollback",
+    "at": "2026-06-25T16:02:29+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Rollback during INC-2030: v4.12.0 -> v4.11.3"
+  },
+  {
+    "id": "DEP-10201",
+    "service": "payments-api",
+    "version": "v4.12.1",
+    "previous_version": "v4.11.3",
+    "type": "deploy",
+    "at": "2026-06-26T11:30:00+05:30",
+    "deployed_by": "Priya Sharma",
+    "change_summary": "Fix-forward release after rollback in INC-2030"
+  },
+  {
+    "id": "DEP-10202",
+    "service": "orders-service",
+    "version": "v3.21.11",
+    "previous_version": "v3.21.10",
+    "type": "deploy",
+    "at": "2026-06-30T14:00:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Upgrade Spring Kafka"
+  },
+  {
+    "id": "DEP-10203",
+    "service": "checkout-web",
+    "version": "v7.1.4",
+    "previous_version": "v7.1.3",
+    "type": "deploy",
+    "at": "2026-07-01T15:50:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Accessibility fixes"
+  },
+  {
+    "id": "DEP-10204",
+    "service": "orders-service",
+    "version": "v3.21.12",
+    "previous_version": "v3.21.11",
+    "type": "deploy",
+    "at": "2026-07-02T16:05:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Upgrade Spring Kafka"
+  },
+  {
+    "id": "DEP-10205",
+    "service": "checkout-web",
+    "version": "v7.1.5",
+    "previous_version": "v7.1.4",
+    "type": "deploy",
+    "at": "2026-07-02T16:10:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Upgrade Next.js patch"
+  },
+  {
+    "id": "DEP-10206",
+    "service": "payments-api",
+    "version": "v4.11.3",
+    "previous_version": "v4.12.1",
+    "type": "rollback",
+    "at": "2026-07-03T11:38:53+05:30",
+    "deployed_by": "Priya Sharma",
+    "change_summary": "Rollback during INC-2033: v4.12.1 -> v4.11.3"
+  },
+  {
+    "id": "DEP-10207",
+    "service": "orders-service",
+    "version": "v3.22.0",
+    "previous_version": "v3.21.12",
+    "type": "deploy",
+    "at": "2026-07-03T14:00:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Order search index tweaks"
+  },
+  {
+    "id": "DEP-10208",
+    "service": "payments-api",
+    "version": "v4.12.2",
+    "previous_version": "v4.11.3",
+    "type": "deploy",
+    "at": "2026-07-06T11:30:00+05:30",
+    "deployed_by": "Priya Sharma",
+    "change_summary": "Fix-forward release after rollback in INC-2033"
+  },
+  {
+    "id": "DEP-10209",
+    "service": "payments-api",
+    "version": "v4.12.3",
+    "previous_version": "v4.12.2",
+    "type": "deploy",
+    "at": "2026-07-06T12:50:00+05:30",
+    "deployed_by": "Priya Sharma",
+    "change_summary": "Card BIN lookup cache"
+  },
+  {
+    "id": "DEP-10210",
+    "service": "inventory-service",
+    "version": "v2.28.17",
+    "previous_version": "v2.28.16",
+    "type": "deploy",
+    "at": "2026-07-06T13:30:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Batch stock import endpoint"
+  },
+  {
+    "id": "DEP-10211",
+    "service": "checkout-web",
+    "version": "v7.1.6",
+    "previous_version": "v7.1.5",
+    "type": "deploy",
+    "at": "2026-07-06T16:40:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Payment options reorder"
+  },
+  {
+    "id": "DEP-10212",
+    "service": "checkout-web",
+    "version": "v7.1.7",
+    "previous_version": "v7.1.6",
+    "type": "deploy",
+    "at": "2026-07-07T11:10:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Upgrade Next.js patch"
+  },
+  {
+    "id": "DEP-10213",
+    "service": "inventory-service",
+    "version": "v2.28.18",
+    "previous_version": "v2.28.17",
+    "type": "deploy",
+    "at": "2026-07-07T13:20:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Batch stock import endpoint"
+  },
+  {
+    "id": "DEP-10214",
+    "service": "payments-api",
+    "version": "v4.12.4",
+    "previous_version": "v4.12.3",
+    "type": "deploy",
+    "at": "2026-07-07T16:45:00+05:30",
+    "deployed_by": "Priya Sharma",
+    "change_summary": "Upgrade Spring Boot patch"
+  },
+  {
+    "id": "DEP-10215",
+    "service": "auth-service",
+    "version": "v3.21.18",
+    "previous_version": "v3.21.17",
+    "type": "deploy",
+    "at": "2026-07-07T18:00:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Session cookie SameSite fix"
+  },
+  {
+    "id": "DEP-10216",
+    "service": "auth-service",
+    "version": "v3.21.19",
+    "previous_version": "v3.21.18",
+    "type": "deploy",
+    "at": "2026-07-08T11:10:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Login audit events"
+  },
+  {
+    "id": "DEP-10217",
+    "service": "orders-service",
+    "version": "v3.22.1",
+    "previous_version": "v3.22.0",
+    "type": "deploy",
+    "at": "2026-07-08T15:05:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Improve PENDING order sweeper"
+  },
+  {
+    "id": "DEP-10218",
+    "service": "search-service",
+    "version": "v5.4.13",
+    "previous_version": "v5.4.12",
+    "type": "deploy",
+    "at": "2026-07-08T15:10:00+05:30",
+    "deployed_by": "Vikram Rao",
+    "change_summary": "Filter facet caching"
+  },
+  {
+    "id": "DEP-10219",
+    "service": "payments-api",
+    "version": "v4.12.5",
+    "previous_version": "v4.12.4",
+    "type": "deploy",
+    "at": "2026-07-08T18:05:00+05:30",
+    "deployed_by": "Priya Sharma",
+    "change_summary": "Card BIN lookup cache"
+  },
+  {
+    "id": "DEP-10220",
+    "service": "orders-service",
+    "version": "v3.22.2",
+    "previous_version": "v3.22.1",
+    "type": "deploy",
+    "at": "2026-07-09T11:45:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Improve PENDING order sweeper"
+  },
+  {
+    "id": "DEP-10221",
+    "service": "payments-api",
+    "version": "v4.12.6",
+    "previous_version": "v4.12.5",
+    "type": "deploy",
+    "at": "2026-07-09T16:05:00+05:30",
+    "deployed_by": "Priya Sharma",
+    "change_summary": "Gateway error mapping cleanup"
+  },
+  {
+    "id": "DEP-10222",
+    "service": "search-service",
+    "version": "v5.4.14",
+    "previous_version": "v5.4.13",
+    "type": "deploy",
+    "at": "2026-07-10T18:05:00+05:30",
+    "deployed_by": "Vikram Rao",
+    "change_summary": "Filter facet caching"
+  },
+  {
+    "id": "DEP-10223",
+    "service": "search-service",
+    "version": "v5.4.15",
+    "previous_version": "v5.4.14",
+    "type": "deploy",
+    "at": "2026-07-13T10:10:00+05:30",
+    "deployed_by": "Vikram Rao",
+    "change_summary": "Seller boost rules"
+  },
+  {
+    "id": "DEP-10224",
+    "service": "orders-service",
+    "version": "v3.22.3",
+    "previous_version": "v3.22.2",
+    "type": "deploy",
+    "at": "2026-07-13T12:50:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Order search index tweaks"
+  },
+  {
+    "id": "DEP-10225",
+    "service": "payments-api",
+    "version": "v4.12.7",
+    "previous_version": "v4.12.6",
+    "type": "deploy",
+    "at": "2026-07-13T13:05:00+05:30",
+    "deployed_by": "Priya Sharma",
+    "change_summary": "Reduce log noise in ChargeController"
+  },
+  {
+    "id": "DEP-10226",
+    "service": "payments-api",
+    "version": "v4.12.8",
+    "previous_version": "v4.12.7",
+    "type": "deploy",
+    "at": "2026-07-14T11:10:00+05:30",
+    "deployed_by": "Priya Sharma",
+    "change_summary": "Add payment method metrics"
+  },
+  {
+    "id": "DEP-10227",
+    "service": "checkout-web",
+    "version": "v7.1.8",
+    "previous_version": "v7.1.7",
+    "type": "deploy",
+    "at": "2026-07-14T13:20:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "New address form"
+  },
+  {
+    "id": "DEP-10228",
+    "service": "notification-service",
+    "version": "v2.11.21",
+    "previous_version": "v2.11.20",
+    "type": "deploy",
+    "at": "2026-07-15T18:10:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Quiet hours for push"
+  },
+  {
+    "id": "DEP-10229",
+    "service": "auth-service",
+    "version": "v3.21.20",
+    "previous_version": "v3.21.19",
+    "type": "deploy",
+    "at": "2026-07-16T15:30:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Device fingerprint v2"
+  },
+  {
+    "id": "DEP-10230",
+    "service": "checkout-web",
+    "version": "v7.1.9",
+    "previous_version": "v7.1.8",
+    "type": "deploy",
+    "at": "2026-07-16T16:40:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "New address form"
+  },
+  {
+    "id": "DEP-10231",
+    "service": "auth-service",
+    "version": "v3.21.21",
+    "previous_version": "v3.21.20",
+    "type": "deploy",
+    "at": "2026-07-17T12:40:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Session cookie SameSite fix"
+  },
+  {
+    "id": "DEP-10232",
+    "service": "inventory-service",
+    "version": "v2.28.19",
+    "previous_version": "v2.28.18",
+    "type": "hotfix",
+    "at": "2026-07-17T15:04:08+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Hotfix during INC-2038: Deployed v2.28.19 accepting both field names and ignoring unknown fields"
+  },
+  {
+    "id": "DEP-10233",
+    "service": "orders-service",
+    "version": "v3.22.4",
+    "previous_version": "v3.22.3",
+    "type": "deploy",
+    "at": "2026-07-20T10:50:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Improve PENDING order sweeper"
+  },
+  {
+    "id": "DEP-10234",
+    "service": "orders-service",
+    "version": "v3.22.5",
+    "previous_version": "v3.22.4",
+    "type": "deploy",
+    "at": "2026-07-21T12:45:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Add order source tagging"
+  },
+  {
+    "id": "DEP-10235",
+    "service": "auth-service",
+    "version": "v3.21.22",
+    "previous_version": "v3.21.21",
+    "type": "deploy",
+    "at": "2026-07-21T12:50:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Upgrade Go patch"
+  },
+  {
+    "id": "DEP-10236",
+    "service": "payments-api",
+    "version": "v4.12.9",
+    "previous_version": "v4.12.8",
+    "type": "deploy",
+    "at": "2026-07-21T14:30:00+05:30",
+    "deployed_by": "Priya Sharma",
+    "change_summary": "Card BIN lookup cache"
+  },
+  {
+    "id": "DEP-10237",
+    "service": "checkout-web",
+    "version": "v7.1.10",
+    "previous_version": "v7.1.9",
+    "type": "deploy",
+    "at": "2026-07-22T14:45:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Cart page performance"
+  },
+  {
+    "id": "DEP-10238",
+    "service": "checkout-web",
+    "version": "v7.1.11",
+    "previous_version": "v7.1.10",
+    "type": "deploy",
+    "at": "2026-07-23T10:45:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "New address form"
+  },
+  {
+    "id": "DEP-10239",
+    "service": "search-service",
+    "version": "v5.4.16",
+    "previous_version": "v5.4.15",
+    "type": "deploy",
+    "at": "2026-07-23T11:05:00+05:30",
+    "deployed_by": "Vikram Rao",
+    "change_summary": "Ranking model v12"
+  },
+  {
+    "id": "DEP-10240",
+    "service": "orders-service",
+    "version": "v3.22.6",
+    "previous_version": "v3.22.5",
+    "type": "deploy",
+    "at": "2026-07-23T17:20:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Order search index tweaks"
+  },
+  {
+    "id": "DEP-10241",
+    "service": "payments-api",
+    "version": "v4.12.10",
+    "previous_version": "v4.12.9",
+    "type": "deploy",
+    "at": "2026-07-23T18:20:00+05:30",
+    "deployed_by": "Priya Sharma",
+    "change_summary": "Add payment method metrics"
+  },
+  {
+    "id": "DEP-10242",
+    "service": "checkout-web",
+    "version": "v7.1.12",
+    "previous_version": "v7.1.11",
+    "type": "deploy",
+    "at": "2026-07-24T14:05:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Upgrade Next.js patch"
+  },
+  {
+    "id": "DEP-10243",
+    "service": "auth-service",
+    "version": "v3.21.23",
+    "previous_version": "v3.21.22",
+    "type": "hotfix",
+    "at": "2026-07-26T21:30:15+05:30",
+    "deployed_by": "Fatima Khan",
+    "change_summary": "Hotfix during INC-2041: Hotfixed the remember-me login flow to set a 30-day TTL on 'sess:rm:*' keys"
+  },
+  {
+    "id": "DEP-10244",
+    "service": "inventory-service",
+    "version": "v2.28.20",
+    "previous_version": "v2.28.19",
+    "type": "deploy",
+    "at": "2026-07-27T13:05:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Warehouse mapping cleanup"
+  },
+  {
+    "id": "DEP-10245",
+    "service": "orders-service",
+    "version": "v3.23.0",
+    "previous_version": "v3.22.6",
+    "type": "deploy",
+    "at": "2026-07-27T14:40:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Return window rules update"
+  },
+  {
+    "id": "DEP-10246",
+    "service": "inventory-service",
+    "version": "v2.28.21",
+    "previous_version": "v2.28.20",
+    "type": "deploy",
+    "at": "2026-07-28T18:05:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Reservation expiry tuning"
+  },
+  {
+    "id": "DEP-10247",
+    "service": "inventory-service",
+    "version": "v2.28.22",
+    "previous_version": "v2.28.21",
+    "type": "deploy",
+    "at": "2026-07-29T11:00:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Upgrade HikariCP patch"
+  },
+  {
+    "id": "DEP-10248",
+    "service": "checkout-web",
+    "version": "v7.1.13",
+    "previous_version": "v7.1.12",
+    "type": "deploy",
+    "at": "2026-07-29T17:05:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Payment options reorder"
+  },
+  {
+    "id": "DEP-10249",
+    "service": "search-service",
+    "version": "v5.4.17",
+    "previous_version": "v5.4.16",
+    "type": "deploy",
+    "at": "2026-07-30T11:30:00+05:30",
+    "deployed_by": "Vikram Rao",
+    "change_summary": "Seller boost rules"
+  },
+  {
+    "id": "DEP-10250",
+    "service": "payments-api",
+    "version": "v4.12.11",
+    "previous_version": "v4.12.10",
+    "type": "deploy",
+    "at": "2026-07-30T11:45:00+05:30",
+    "deployed_by": "Priya Sharma",
+    "change_summary": "Upgrade Spring Boot patch"
+  },
+  {
+    "id": "DEP-10251",
+    "service": "inventory-service",
+    "version": "v2.28.23",
+    "previous_version": "v2.28.22",
+    "type": "deploy",
+    "at": "2026-07-30T12:20:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Warehouse mapping cleanup"
+  },
+  {
+    "id": "DEP-10252",
+    "service": "checkout-web",
+    "version": "v7.1.12",
+    "previous_version": "v7.1.13",
+    "type": "rollback",
+    "at": "2026-07-31T19:13:47+05:30",
+    "deployed_by": "Priya Sharma",
+    "change_summary": "Rollback during INC-2043: v7.1.13 -> v7.1.12"
+  },
+  {
+    "id": "DEP-10253",
+    "service": "checkout-web",
+    "version": "v7.1.14",
+    "previous_version": "v7.1.12",
+    "type": "hotfix",
+    "at": "2026-08-01T16:11:19+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Hotfix during INC-2044: Deployed v7.1.14 with a 10k-entry limit on the SSR cache"
+  },
+  {
+    "id": "DEP-10254",
+    "service": "checkout-web",
+    "version": "v7.1.15",
+    "previous_version": "v7.1.14",
+    "type": "deploy",
+    "at": "2026-08-03T11:30:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Fix-forward release after rollback in INC-2043"
+  },
+  {
+    "id": "DEP-10255",
+    "service": "inventory-service",
+    "version": "v2.30.4",
+    "previous_version": "v2.28.23",
+    "type": "deploy",
+    "at": "2026-08-03T12:30:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Warehouse zone API client"
+  },
+  {
+    "id": "DEP-10256",
+    "service": "payments-api",
+    "version": "v4.12.12",
+    "previous_version": "v4.12.11",
+    "type": "deploy",
+    "at": "2026-08-03T13:30:00+05:30",
+    "deployed_by": "Rohan Das",
+    "change_summary": "Upgrade Spring Boot patch"
+  },
+  {
+    "id": "DEP-10257",
+    "service": "checkout-web",
+    "version": "v7.1.16",
+    "previous_version": "v7.1.15",
+    "type": "deploy",
+    "at": "2026-08-03T15:00:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Fix mobile Safari layout"
+  },
+  {
+    "id": "DEP-10258",
+    "service": "checkout-web",
+    "version": "v7.1.17",
+    "previous_version": "v7.1.16",
+    "type": "deploy",
+    "at": "2026-08-04T10:40:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Coupon UI polish"
+  },
+  {
+    "id": "DEP-10259",
+    "service": "payments-api",
+    "version": "v4.13.0",
+    "previous_version": "v4.12.12",
+    "type": "deploy",
+    "at": "2026-08-04T10:50:00+05:30",
+    "deployed_by": "Priya Sharma",
+    "change_summary": "Gateway error mapping cleanup"
+  },
+  {
+    "id": "DEP-10260",
+    "service": "orders-service",
+    "version": "v3.23.1",
+    "previous_version": "v3.23.0",
+    "type": "deploy",
+    "at": "2026-08-04T15:00:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Upgrade Spring Kafka"
+  },
+  {
+    "id": "DEP-10261",
+    "service": "notification-service",
+    "version": "v2.11.22",
+    "previous_version": "v2.11.21",
+    "type": "deploy",
+    "at": "2026-08-04T16:00:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Upgrade Go patch"
+  },
+  {
+    "id": "DEP-10262",
+    "service": "notification-service",
+    "version": "v2.11.23",
+    "previous_version": "v2.11.22",
+    "type": "deploy",
+    "at": "2026-08-05T12:05:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Template renderer client retries"
+  },
+  {
+    "id": "DEP-10263",
+    "service": "inventory-service",
+    "version": "v2.31.0",
+    "previous_version": "v2.30.4",
+    "type": "deploy",
+    "at": "2026-08-05T16:22:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Make warehouseZone required in StockReserved event"
+  },
+  {
+    "id": "DEP-10264",
+    "service": "inventory-service",
+    "version": "v2.30.4",
+    "previous_version": "v2.31.0",
+    "type": "rollback",
+    "at": "2026-08-05T17:07:55+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Rollback during INC-2045: v2.31.0 -> v2.30.4"
+  },
+  {
+    "id": "DEP-10265",
+    "service": "search-service",
+    "version": "v5.4.18",
+    "previous_version": "v5.4.17",
+    "type": "deploy",
+    "at": "2026-08-05T17:45:00+05:30",
+    "deployed_by": "Vikram Rao",
+    "change_summary": "Seller boost rules"
+  },
+  {
+    "id": "DEP-10266",
+    "service": "checkout-web",
+    "version": "v7.1.18",
+    "previous_version": "v7.1.17",
+    "type": "deploy",
+    "at": "2026-08-06T10:45:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Cart page performance"
+  },
+  {
+    "id": "DEP-10267",
+    "service": "orders-service",
+    "version": "v3.23.2",
+    "previous_version": "v3.23.1",
+    "type": "deploy",
+    "at": "2026-08-06T10:45:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Add order source tagging"
+  },
+  {
+    "id": "DEP-10268",
+    "service": "inventory-service",
+    "version": "v2.31.1",
+    "previous_version": "v2.30.4",
+    "type": "deploy",
+    "at": "2026-08-06T11:30:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Fix-forward release after rollback in INC-2045"
+  },
+  {
+    "id": "DEP-10269",
+    "service": "inventory-service",
+    "version": "v2.31.2",
+    "previous_version": "v2.31.1",
+    "type": "deploy",
+    "at": "2026-08-06T15:20:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Warehouse mapping cleanup"
+  },
+  {
+    "id": "DEP-10270",
+    "service": "payments-api",
+    "version": "v4.13.1",
+    "previous_version": "v4.13.0",
+    "type": "deploy",
+    "at": "2026-08-07T10:30:00+05:30",
+    "deployed_by": "Priya Sharma",
+    "change_summary": "Upgrade Spring Boot patch"
+  },
+  {
+    "id": "DEP-10271",
+    "service": "checkout-web",
+    "version": "v7.1.19",
+    "previous_version": "v7.1.18",
+    "type": "deploy",
+    "at": "2026-08-07T16:30:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Upgrade Next.js patch"
+  },
+  {
+    "id": "DEP-10272",
+    "service": "payments-api",
+    "version": "v4.13.0",
+    "previous_version": "v4.13.1",
+    "type": "rollback",
+    "at": "2026-08-09T13:20:47+05:30",
+    "deployed_by": "Vikram Rao",
+    "change_summary": "Rollback during INC-2046: v4.13.1 -> v4.13.0"
+  },
+  {
+    "id": "DEP-10273",
+    "service": "payments-api",
+    "version": "v4.13.2",
+    "previous_version": "v4.13.0",
+    "type": "deploy",
+    "at": "2026-08-10T11:30:00+05:30",
+    "deployed_by": "Priya Sharma",
+    "change_summary": "Fix-forward release after rollback in INC-2046"
+  },
+  {
+    "id": "DEP-10274",
+    "service": "payments-api",
+    "version": "v4.13.3",
+    "previous_version": "v4.13.2",
+    "type": "deploy",
+    "at": "2026-08-10T12:10:00+05:30",
+    "deployed_by": "Priya Sharma",
+    "change_summary": "Add payment method metrics"
+  },
+  {
+    "id": "DEP-10275",
+    "service": "inventory-service",
+    "version": "v2.31.3",
+    "previous_version": "v2.31.2",
+    "type": "deploy",
+    "at": "2026-08-11T14:40:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Stock threshold alerts"
+  },
+  {
+    "id": "DEP-10276",
+    "service": "notification-service",
+    "version": "v2.11.24",
+    "previous_version": "v2.11.23",
+    "type": "deploy",
+    "at": "2026-08-13T15:45:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Email bounce handling"
+  },
+  {
+    "id": "DEP-10277",
+    "service": "search-service",
+    "version": "v5.4.19",
+    "previous_version": "v5.4.18",
+    "type": "deploy",
+    "at": "2026-08-13T15:50:00+05:30",
+    "deployed_by": "Vikram Rao",
+    "change_summary": "Upgrade Lucene patch"
+  },
+  {
+    "id": "DEP-10278",
+    "service": "notification-service",
+    "version": "v2.11.25",
+    "previous_version": "v2.11.24",
+    "type": "deploy",
+    "at": "2026-08-17T11:00:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Email bounce handling"
+  },
+  {
+    "id": "DEP-10279",
+    "service": "inventory-service",
+    "version": "v2.31.4",
+    "previous_version": "v2.31.3",
+    "type": "deploy",
+    "at": "2026-08-17T17:10:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Upgrade HikariCP patch"
+  },
+  {
+    "id": "DEP-10280",
+    "service": "search-service",
+    "version": "v5.4.20",
+    "previous_version": "v5.4.19",
+    "type": "deploy",
+    "at": "2026-08-18T18:40:00+05:30",
+    "deployed_by": "Vikram Rao",
+    "change_summary": "Seller boost rules"
+  },
+  {
+    "id": "DEP-10281",
+    "service": "checkout-web",
+    "version": "v7.1.20",
+    "previous_version": "v7.1.19",
+    "type": "deploy",
+    "at": "2026-08-19T14:40:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Accessibility fixes"
+  },
+  {
+    "id": "DEP-10282",
+    "service": "payments-api",
+    "version": "v4.13.4",
+    "previous_version": "v4.13.3",
+    "type": "deploy",
+    "at": "2026-08-20T14:10:00+05:30",
+    "deployed_by": "Priya Sharma",
+    "change_summary": "Reduce log noise in ChargeController"
+  },
+  {
+    "id": "DEP-10283",
+    "service": "checkout-web",
+    "version": "v7.1.21",
+    "previous_version": "v7.1.20",
+    "type": "deploy",
+    "at": "2026-08-20T16:00:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Coupon UI polish"
+  },
+  {
+    "id": "DEP-10284",
+    "service": "payments-api",
+    "version": "v4.13.5",
+    "previous_version": "v4.13.4",
+    "type": "deploy",
+    "at": "2026-08-21T18:05:00+05:30",
+    "deployed_by": "Rohan Das",
+    "change_summary": "Refund status polling improvements"
+  },
+  {
+    "id": "DEP-10285",
+    "service": "checkout-web",
+    "version": "v7.1.20",
+    "previous_version": "v7.1.21",
+    "type": "rollback",
+    "at": "2026-08-21T18:20:03+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Rollback during INC-2051: v7.1.21 -> v7.1.20"
+  },
+  {
+    "id": "DEP-10286",
+    "service": "inventory-service",
+    "version": "v2.31.5",
+    "previous_version": "v2.31.4",
+    "type": "deploy",
+    "at": "2026-08-21T18:40:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Reservation expiry tuning"
+  },
+  {
+    "id": "DEP-10287",
+    "service": "checkout-web",
+    "version": "v7.1.22",
+    "previous_version": "v7.1.20",
+    "type": "deploy",
+    "at": "2026-08-24T10:10:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "A/B test: express checkout button"
+  },
+  {
+    "id": "DEP-10288",
+    "service": "checkout-web",
+    "version": "v7.1.23",
+    "previous_version": "v7.1.22",
+    "type": "deploy",
+    "at": "2026-08-24T11:30:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Fix-forward release after rollback in INC-2051"
+  },
+  {
+    "id": "DEP-10289",
+    "service": "notification-service",
+    "version": "v2.11.26",
+    "previous_version": "v2.11.25",
+    "type": "deploy",
+    "at": "2026-08-24T17:30:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "SMS DLT template ids"
+  },
+  {
+    "id": "DEP-10290",
+    "service": "checkout-web",
+    "version": "v7.1.24",
+    "previous_version": "v7.1.23",
+    "type": "deploy",
+    "at": "2026-08-25T13:20:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "New address form"
+  },
+  {
+    "id": "DEP-10291",
+    "service": "notification-service",
+    "version": "v2.11.27",
+    "previous_version": "v2.11.26",
+    "type": "deploy",
+    "at": "2026-08-25T13:40:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Upgrade Go patch"
+  },
+  {
+    "id": "DEP-10292",
+    "service": "checkout-web",
+    "version": "v7.3.2",
+    "previous_version": "v7.1.24",
+    "type": "deploy",
+    "at": "2026-08-26T11:40:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Delivery slot picker UI fixes"
+  },
+  {
+    "id": "DEP-10293",
+    "service": "inventory-service",
+    "version": "v2.31.6",
+    "previous_version": "v2.31.5",
+    "type": "deploy",
+    "at": "2026-08-26T14:30:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Stock threshold alerts"
+  },
+  {
+    "id": "DEP-10294",
+    "service": "orders-service",
+    "version": "v3.24.0",
+    "previous_version": "v3.23.2",
+    "type": "deploy",
+    "at": "2026-08-26T16:05:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Order search index tweaks"
+  },
+  {
+    "id": "DEP-10295",
+    "service": "payments-api",
+    "version": "v4.13.6",
+    "previous_version": "v4.13.5",
+    "type": "deploy",
+    "at": "2026-08-26T17:20:00+05:30",
+    "deployed_by": "Rohan Das",
+    "change_summary": "Refund status polling improvements"
+  },
+  {
+    "id": "DEP-10296",
+    "service": "auth-service",
+    "version": "v3.23.0",
+    "previous_version": "v3.21.23",
+    "type": "deploy",
+    "at": "2026-08-27T15:20:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Guest-cart tokens stored in redis-cache"
+  },
+  {
+    "id": "DEP-10297",
+    "service": "checkout-web",
+    "version": "v7.4.0",
+    "previous_version": "v7.3.2",
+    "type": "deploy",
+    "at": "2026-08-28T13:58:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Add deliverySlotId to OrderPlaced event"
+  },
+  {
+    "id": "DEP-10298",
+    "service": "checkout-web",
+    "version": "v7.3.2",
+    "previous_version": "v7.4.0",
+    "type": "rollback",
+    "at": "2026-08-28T14:22:59+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Rollback during INC-2053: v7.4.0 -> v7.3.2"
+  },
+  {
+    "id": "DEP-10299",
+    "service": "inventory-service",
+    "version": "v2.31.7",
+    "previous_version": "v2.31.6",
+    "type": "deploy",
+    "at": "2026-08-28T15:10:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "SKU bundle support"
+  },
+  {
+    "id": "DEP-10300",
+    "service": "auth-service",
+    "version": "v3.23.1",
+    "previous_version": "v3.23.0",
+    "type": "deploy",
+    "at": "2026-08-28T15:20:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "OTP rate limiting tweaks"
+  },
+  {
+    "id": "DEP-10301",
+    "service": "checkout-web",
+    "version": "v7.4.1",
+    "previous_version": "v7.3.2",
+    "type": "deploy",
+    "at": "2026-08-31T11:30:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Fix-forward release after rollback in INC-2053"
+  },
+  {
+    "id": "DEP-10302",
+    "service": "orders-service",
+    "version": "v3.24.1",
+    "previous_version": "v3.24.0",
+    "type": "deploy",
+    "at": "2026-08-31T15:40:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Cancellation reason codes"
+  },
+  {
+    "id": "DEP-10303",
+    "service": "payments-api",
+    "version": "v4.13.7",
+    "previous_version": "v4.13.6",
+    "type": "deploy",
+    "at": "2026-08-31T16:40:00+05:30",
+    "deployed_by": "Priya Sharma",
+    "change_summary": "EMI eligibility rules update"
+  },
+  {
+    "id": "DEP-10304",
+    "service": "notification-service",
+    "version": "v2.11.28",
+    "previous_version": "v2.11.27",
+    "type": "deploy",
+    "at": "2026-09-01T13:10:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Upgrade Go patch"
+  },
+  {
+    "id": "DEP-10305",
+    "service": "search-service",
+    "version": "v5.4.21",
+    "previous_version": "v5.4.20",
+    "type": "deploy",
+    "at": "2026-09-01T14:50:00+05:30",
+    "deployed_by": "Vikram Rao",
+    "change_summary": "Upgrade Lucene patch"
+  },
+  {
+    "id": "DEP-10306",
+    "service": "payments-api",
+    "version": "v4.13.8",
+    "previous_version": "v4.13.7",
+    "type": "deploy",
+    "at": "2026-09-01T17:05:00+05:30",
+    "deployed_by": "Rohan Das",
+    "change_summary": "EMI eligibility rules update"
+  },
+  {
+    "id": "DEP-10307",
+    "service": "auth-service",
+    "version": "v3.23.2",
+    "previous_version": "v3.23.1",
+    "type": "hotfix",
+    "at": "2026-09-02T20:11:26+05:30",
+    "deployed_by": "Fatima Khan",
+    "change_summary": "Hotfix during INC-2055: Hotfixed the new guest-cart token feature to set a 30-day TTL on 'guest:cart:*' keys"
+  },
+  {
+    "id": "DEP-10308",
+    "service": "notification-service",
+    "version": "v2.11.29",
+    "previous_version": "v2.11.28",
+    "type": "deploy",
+    "at": "2026-09-03T18:05:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Template renderer client retries"
+  },
+  {
+    "id": "DEP-10309",
+    "service": "orders-service",
+    "version": "v3.24.2",
+    "previous_version": "v3.24.1",
+    "type": "deploy",
+    "at": "2026-09-03T18:50:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Cancellation reason codes"
+  },
+  {
+    "id": "DEP-10310",
+    "service": "checkout-web",
+    "version": "v7.4.2",
+    "previous_version": "v7.4.1",
+    "type": "deploy",
+    "at": "2026-09-07T18:50:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Cart page performance"
+  },
+  {
+    "id": "DEP-10311",
+    "service": "search-service",
+    "version": "v5.4.22",
+    "previous_version": "v5.4.21",
+    "type": "deploy",
+    "at": "2026-09-08T15:10:00+05:30",
+    "deployed_by": "Vikram Rao",
+    "change_summary": "Spell correction improvements"
+  },
+  {
+    "id": "DEP-10312",
+    "service": "payments-api",
+    "version": "v4.13.9",
+    "previous_version": "v4.13.8",
+    "type": "deploy",
+    "at": "2026-09-08T16:05:00+05:30",
+    "deployed_by": "Priya Sharma",
+    "change_summary": "Refund status polling improvements"
+  },
+  {
+    "id": "DEP-10313",
+    "service": "search-service",
+    "version": "v5.4.23",
+    "previous_version": "v5.4.22",
+    "type": "deploy",
+    "at": "2026-09-09T11:20:00+05:30",
+    "deployed_by": "Vikram Rao",
+    "change_summary": "Filter facet caching"
+  },
+  {
+    "id": "DEP-10314",
+    "service": "notification-service",
+    "version": "v2.11.30",
+    "previous_version": "v2.11.29",
+    "type": "deploy",
+    "at": "2026-09-09T13:40:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Template renderer client retries"
+  },
+  {
+    "id": "DEP-10315",
+    "service": "payments-api",
+    "version": "v4.13.10",
+    "previous_version": "v4.13.9",
+    "type": "deploy",
+    "at": "2026-09-09T14:45:00+05:30",
+    "deployed_by": "Rohan Das",
+    "change_summary": "Gateway error mapping cleanup"
+  },
+  {
+    "id": "DEP-10316",
+    "service": "checkout-web",
+    "version": "v7.4.3",
+    "previous_version": "v7.4.2",
+    "type": "deploy",
+    "at": "2026-09-10T13:50:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "New address form"
+  },
+  {
+    "id": "DEP-10317",
+    "service": "inventory-service",
+    "version": "v2.31.8",
+    "previous_version": "v2.31.7",
+    "type": "deploy",
+    "at": "2026-09-10T16:45:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Warehouse mapping cleanup"
+  },
+  {
+    "id": "DEP-10318",
+    "service": "notification-service",
+    "version": "v2.11.31",
+    "previous_version": "v2.11.30",
+    "type": "deploy",
+    "at": "2026-09-10T17:10:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Email bounce handling"
+  },
+  {
+    "id": "DEP-10319",
+    "service": "orders-service",
+    "version": "v3.24.3",
+    "previous_version": "v3.24.2",
+    "type": "deploy",
+    "at": "2026-09-11T10:50:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Order timeline API pagination"
+  },
+  {
+    "id": "DEP-10320",
+    "service": "checkout-web",
+    "version": "v7.4.4",
+    "previous_version": "v7.4.3",
+    "type": "deploy",
+    "at": "2026-09-11T11:00:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Fix mobile Safari layout"
+  },
+  {
+    "id": "DEP-10321",
+    "service": "payments-api",
+    "version": "v4.13.11",
+    "previous_version": "v4.13.10",
+    "type": "hotfix",
+    "at": "2026-09-11T16:35:08+05:30",
+    "deployed_by": "Priya Sharma",
+    "change_summary": "Hotfix during INC-2058: Shipped hotfix adding an idempotency key to refund calls"
+  },
+  {
+    "id": "DEP-10322",
+    "service": "checkout-web",
+    "version": "v7.4.5",
+    "previous_version": "v7.4.4",
+    "type": "deploy",
+    "at": "2026-09-14T14:05:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "New address form"
+  },
+  {
+    "id": "DEP-10323",
+    "service": "checkout-web",
+    "version": "v7.4.6",
+    "previous_version": "v7.4.5",
+    "type": "deploy",
+    "at": "2026-09-15T13:30:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Coupon UI polish"
+  },
+  {
+    "id": "DEP-10324",
+    "service": "notification-service",
+    "version": "v2.11.32",
+    "previous_version": "v2.11.31",
+    "type": "deploy",
+    "at": "2026-09-16T10:10:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Quiet hours for push"
+  },
+  {
+    "id": "DEP-10325",
+    "service": "payments-api",
+    "version": "v4.13.12",
+    "previous_version": "v4.13.11",
+    "type": "deploy",
+    "at": "2026-09-16T11:20:00+05:30",
+    "deployed_by": "Rohan Das",
+    "change_summary": "Add payment method metrics"
+  },
+  {
+    "id": "DEP-10326",
+    "service": "checkout-web",
+    "version": "v7.4.7",
+    "previous_version": "v7.4.6",
+    "type": "deploy",
+    "at": "2026-09-16T12:45:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "A/B test: express checkout button"
+  },
+  {
+    "id": "DEP-10327",
+    "service": "notification-service",
+    "version": "v2.14.0",
+    "previous_version": "v2.11.32",
+    "type": "deploy",
+    "at": "2026-09-16T14:30:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Add WhatsApp channel (new WhatsAppClient)"
+  },
+  {
+    "id": "DEP-10328",
+    "service": "notification-service",
+    "version": "v2.14.1",
+    "previous_version": "v2.14.0",
+    "type": "deploy",
+    "at": "2026-09-17T17:05:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Email bounce handling"
+  },
+  {
+    "id": "DEP-10329",
+    "service": "payments-api",
+    "version": "v4.13.13",
+    "previous_version": "v4.13.12",
+    "type": "deploy",
+    "at": "2026-09-17T18:10:00+05:30",
+    "deployed_by": "Rohan Das",
+    "change_summary": "Gateway error mapping cleanup"
+  },
+  {
+    "id": "DEP-10330",
+    "service": "search-service",
+    "version": "v5.4.24",
+    "previous_version": "v5.4.23",
+    "type": "deploy",
+    "at": "2026-09-21T17:05:00+05:30",
+    "deployed_by": "Vikram Rao",
+    "change_summary": "Spell correction improvements"
+  },
+  {
+    "id": "DEP-10331",
+    "service": "inventory-service",
+    "version": "v2.31.9",
+    "previous_version": "v2.31.8",
+    "type": "deploy",
+    "at": "2026-09-22T11:10:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Batch stock import endpoint"
+  },
+  {
+    "id": "DEP-10332",
+    "service": "checkout-web",
+    "version": "v7.4.8",
+    "previous_version": "v7.4.7",
+    "type": "deploy",
+    "at": "2026-09-22T13:10:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "A/B test: express checkout button"
+  },
+  {
+    "id": "DEP-10333",
+    "service": "orders-service",
+    "version": "v3.24.4",
+    "previous_version": "v3.24.3",
+    "type": "deploy",
+    "at": "2026-09-22T15:50:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Upgrade Spring Kafka"
+  },
+  {
+    "id": "DEP-10334",
+    "service": "search-service",
+    "version": "v5.4.25",
+    "previous_version": "v5.4.24",
+    "type": "deploy",
+    "at": "2026-09-23T14:45:00+05:30",
+    "deployed_by": "Vikram Rao",
+    "change_summary": "Seller boost rules"
+  },
+  {
+    "id": "DEP-10335",
+    "service": "orders-service",
+    "version": "v3.24.5",
+    "previous_version": "v3.24.4",
+    "type": "deploy",
+    "at": "2026-09-23T15:00:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Cancellation reason codes"
+  },
+  {
+    "id": "DEP-10336",
+    "service": "auth-service",
+    "version": "v3.26.0",
+    "previous_version": "v3.23.2",
+    "type": "deploy",
+    "at": "2026-09-24T12:05:00+05:30",
+    "deployed_by": "Neha Iyer",
+    "change_summary": "Wishlist sync tokens (wl:sync:*) stored in redis-cache"
+  },
+  {
+    "id": "DEP-10337",
+    "service": "checkout-web",
+    "version": "v7.4.9",
+    "previous_version": "v7.4.8",
+    "type": "deploy",
+    "at": "2026-09-24T16:00:00+05:30",
+    "deployed_by": "Ananya Gupta",
+    "change_summary": "Accessibility fixes"
+  },
+  {
+    "id": "DEP-10338",
+    "service": "checkout-web",
+    "version": "v7.4.10",
+    "previous_version": "v7.4.9",
+    "type": "deploy",
+    "at": "2026-09-25T16:45:00+05:30",
+    "deployed_by": "Arjun Mehta",
+    "change_summary": "Accessibility fixes"
+  }
+]

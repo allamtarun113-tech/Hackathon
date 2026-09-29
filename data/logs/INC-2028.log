@@ -1,0 +1,109 @@
+2026-06-17 13:00:00.000  INFO 1 --- [http-nio-8080-exec-188] c.k.search.api.SearchController          : q="kurta" hits=812 latencyMs=274
+2026-06-17 13:00:47.504  INFO 1 --- [http-nio-8080-exec-75] c.k.search.api.SearchController          : q="kurta" hits=812 latencyMs=161
+2026-06-17 13:01:30.540  INFO 1 --- [http-nio-8080-exec-172] c.k.search.api.SearchController          : q="kurta" hits=812 latencyMs=72
+2026-06-17 13:02:18.285  INFO 1 --- [http-nio-8080-exec-158] c.k.search.api.SearchController          : q="kurta" hits=812 latencyMs=196
+2026-06-17 13:03:16.019  INFO 1 --- [http-nio-8080-exec-98] c.k.search.api.SearchController          : q="kurta" hits=812 latencyMs=56
+2026-06-17 13:03:47.740  INFO 1 --- [http-nio-8080-exec-50] c.k.search.api.SearchController          : q="kurta" hits=812 latencyMs=174
+2026-06-17 13:04:35.653  INFO 1 --- [http-nio-8080-exec-71] c.k.search.api.SearchController          : q="kurta" hits=812 latencyMs=88
+2026-06-17 13:05:42.768  INFO 1 --- [http-nio-8080-exec-191] c.k.search.api.SearchController          : q="kurta" hits=812 latencyMs=283
+2026-06-17 13:06:26.123  INFO 1 --- [http-nio-8080-exec-199] c.k.search.api.SearchController          : q="kurta" hits=812 latencyMs=64
+2026-06-17 13:07:32.149  INFO 1 --- [http-nio-8080-exec-1] c.k.search.api.SearchController          : q="kurta" hits=812 latencyMs=61
+2026-06-17 13:08:39.420  INFO 1 --- [http-nio-8080-exec-150] c.k.search.api.SearchController          : q="kurta" hits=812 latencyMs=180
+2026-06-17 13:09:41.251  INFO 1 --- [http-nio-8080-exec-189] c.k.search.api.SearchController          : q="kurta" hits=812 latencyMs=73
+2026-06-17 13:10:35.496  INFO 1 --- [http-nio-8080-exec-134] c.k.search.api.SearchController          : q="kurta" hits=812 latencyMs=172
+2026-06-17 13:11:25.516  INFO 1 --- [http-nio-8080-exec-194] c.k.search.api.SearchController          : q="kurta" hits=812 latencyMs=212
+2026-06-17 13:12:05.662  INFO 1 --- [http-nio-8080-exec-164] c.k.search.api.SearchController          : q="kurta" hits=812 latencyMs=349
+2026-06-17 13:12:41.151  INFO 1 --- [http-nio-8080-exec-65] c.k.search.api.SearchController          : q="kurta" hits=812 latencyMs=191
+2026-06-17 13:13:50.545  INFO 1 --- [http-nio-8080-exec-174] c.k.search.api.SearchController          : q="kurta" hits=812 latencyMs=59
+2026-06-17 13:14:46.069  INFO 1 --- [http-nio-8080-exec-199] c.k.search.api.SearchController          : q="kurta" hits=812 latencyMs=164
+2026-06-17 13:15:50.834  INFO 1 --- [http-nio-8080-exec-165] c.k.search.api.SearchController          : q="kurta" hits=812 latencyMs=176
+2026-06-17 13:16:49.174  WARN 1 --- [http-nio-8080-exec-157] c.k.search.api.SearchController          : Slow query q="diwali lights" shard=7 latencyMs=6802
+2026-06-17 13:17:00.149  WARN 1 --- [search-router] c.k.search.routing.ShardRouter           : Hot shard detected shard=7 qps=4210 (avg 610)
+2026-06-17 13:17:15.794  WARN 1 --- [http-nio-8080-exec-5] c.k.search.api.SearchController          : Slow query q="diwali lights" shard=7 latencyMs=3448
+2026-06-17 13:17:34.586  WARN 1 --- [search-router] c.k.search.routing.ShardRouter           : Hot shard detected shard=7 qps=4210 (avg 610)
+2026-06-17 13:17:51.131  WARN 1 --- [search-router] c.k.search.routing.ShardRouter           : Hot shard detected shard=7 qps=4210 (avg 610)
+2026-06-17 13:18:00.632  WARN 1 --- [http-nio-8080-exec-104] c.k.search.api.SearchController          : Slow query q="diwali lights" shard=7 latencyMs=5429
+2026-06-17 13:18:09.089  WARN 1 --- [search-router] c.k.search.routing.ShardRouter           : Hot shard detected shard=7 qps=4210 (avg 610)
+2026-06-17 13:18:18.205  WARN 1 --- [search-router] c.k.search.routing.ShardRouter           : Hot shard detected shard=7 qps=4210 (avg 610)
+2026-06-17 13:18:33.605  WARN 1 --- [http-nio-8080-exec-49] c.k.search.api.SearchController          : Slow query q="diwali lights" shard=7 latencyMs=3927
+2026-06-17 13:18:47.503  WARN 1 --- [search-router] c.k.search.routing.ShardRouter           : Hot shard detected shard=7 qps=4210 (avg 610)
+2026-06-17 13:18:56.859  WARN 1 --- [http-nio-8080-exec-195] c.k.search.api.SearchController          : Slow query q="diwali lights" shard=7 latencyMs=7502
+2026-06-17 13:19:05.952  WARN 1 --- [search-router] c.k.search.routing.ShardRouter           : Hot shard detected shard=7 qps=4210 (avg 610)
+2026-06-17 13:19:19.836  WARN 1 --- [search-router] c.k.search.routing.ShardRouter           : Hot shard detected shard=7 qps=4210 (avg 610)
+2026-06-17 13:19:33.602  WARN 1 --- [search-router] c.k.search.routing.ShardRouter           : Hot shard detected shard=7 qps=4210 (avg 610)
+2026-06-17 13:19:43.381  WARN 1 --- [search-router] c.k.search.routing.ShardRouter           : Hot shard detected shard=7 qps=4210 (avg 610)
+2026-06-17 13:19:52.079  WARN 1 --- [search-router] c.k.search.routing.ShardRouter           : Hot shard detected shard=7 qps=4210 (avg 610)
+2026-06-17 13:20:10.550  WARN 1 --- [search-router] c.k.search.routing.ShardRouter           : Hot shard detected shard=7 qps=4210 (avg 610)
+2026-06-17 13:20:19.469  WARN 1 --- [http-nio-8080-exec-33] c.k.search.api.SearchController          : Slow query q="diwali lights" shard=7 latencyMs=4684
+2026-06-17 13:20:32.414  WARN 1 --- [http-nio-8080-exec-146] c.k.search.api.SearchController          : Slow query q="diwali lights" shard=7 latencyMs=9448
+2026-06-17 13:20:44.527  WARN 1 --- [http-nio-8080-exec-186] c.k.search.api.SearchController          : Slow query q="diwali lights" shard=7 latencyMs=6954
+2026-06-17 13:21:03.104  WARN 1 --- [search-router] c.k.search.routing.ShardRouter           : Hot shard detected shard=7 qps=4210 (avg 610)
+2026-06-17 13:21:21.258  WARN 1 --- [http-nio-8080-exec-12] c.k.search.api.SearchController          : Slow query q="diwali lights" shard=7 latencyMs=7219
+2026-06-17 13:21:31.891  WARN 1 --- [search-router] c.k.search.routing.ShardRouter           : Hot shard detected shard=7 qps=4210 (avg 610)
+2026-06-17 13:21:47.822  WARN 1 --- [search-router] c.k.search.routing.ShardRouter           : Hot shard detected shard=7 qps=4210 (avg 610)
+2026-06-17 13:22:08.308  WARN 1 --- [search-router] c.k.search.routing.ShardRouter           : Hot shard detected shard=7 qps=4210 (avg 610)
+2026-06-17 13:22:24.563  WARN 1 --- [http-nio-8080-exec-30] c.k.search.api.SearchController          : Slow query q="diwali lights" shard=7 latencyMs=4437
+2026-06-17 13:22:42.207  WARN 1 --- [http-nio-8080-exec-186] c.k.search.api.SearchController          : Slow query q="diwali lights" shard=7 latencyMs=8186
+2026-06-17 13:22:53.507  WARN 1 --- [http-nio-8080-exec-144] c.k.search.api.SearchController          : Slow query q="diwali lights" shard=7 latencyMs=6218
+2026-06-17 13:23:09.640  WARN 1 --- [http-nio-8080-exec-29] c.k.search.api.SearchController          : Slow query q="diwali lights" shard=7 latencyMs=7972
+2026-06-17 13:23:26.377  WARN 1 --- [search-router] c.k.search.routing.ShardRouter           : Hot shard detected shard=7 qps=4210 (avg 610)
+2026-06-17 13:23:41.456  WARN 1 --- [search-router] c.k.search.routing.ShardRouter           : Hot shard detected shard=7 qps=4210 (avg 610)
+2026-06-17 13:23:56.719  WARN 1 --- [http-nio-8080-exec-148] c.k.search.api.SearchController          : Slow query q="diwali lights" shard=7 latencyMs=7616
+2026-06-17 13:24:05.988  WARN 1 --- [http-nio-8080-exec-38] c.k.search.api.SearchController          : Slow query q="diwali lights" shard=7 latencyMs=4456
+2026-06-17 13:24:25.051  WARN 1 --- [http-nio-8080-exec-175] c.k.search.api.SearchController          : Slow query q="diwali lights" shard=7 latencyMs=2986
+2026-06-17 13:24:33.568  WARN 1 --- [http-nio-8080-exec-175] c.k.search.api.SearchController          : Slow query q="diwali lights" shard=7 latencyMs=8824
+2026-06-17 13:24:43.055  WARN 1 --- [search-router] c.k.search.routing.ShardRouter           : Hot shard detected shard=7 qps=4210 (avg 610)
+2026-06-17 13:25:00.065  WARN 1 --- [search-router] c.k.search.routing.ShardRouter           : Hot shard detected shard=7 qps=4210 (avg 610)
+2026-06-17 13:25:18.559  WARN 1 --- [http-nio-8080-exec-173] c.k.search.api.SearchController          : Slow query q="diwali lights" shard=7 latencyMs=9172
+2026-06-17 13:25:40.440  WARN 1 --- [search-router] c.k.search.routing.ShardRouter           : Hot shard detected shard=7 qps=4210 (avg 610)
+2026-06-17 13:26:01.929  WARN 1 --- [search-router] c.k.search.routing.ShardRouter           : Hot shard detected shard=7 qps=4210 (avg 610)
+2026-06-17 13:26:14.961  WARN 1 --- [http-nio-8080-exec-169] c.k.search.api.SearchController          : Slow query q="diwali lights" shard=7 latencyMs=4758
+2026-06-17 13:26:26.166  WARN 1 --- [search-router] c.k.search.routing.ShardRouter           : Hot shard detected shard=7 qps=4210 (avg 610)
+2026-06-17 13:26:38.419  WARN 1 --- [search-router] c.k.search.routing.ShardRouter           : Hot shard detected shard=7 qps=4210 (avg 610)
+2026-06-17 13:26:55.849  WARN 1 --- [search-router] c.k.search.routing.ShardRouter           : Hot shard detected shard=7 qps=4210 (avg 610)
+2026-06-17 13:27:15.768  WARN 1 --- [search-router] c.k.search.routing.ShardRouter           : Hot shard detected shard=7 qps=4210 (avg 610)
+2026-06-17 13:27:32.295  WARN 1 --- [http-nio-8080-exec-64] c.k.search.api.SearchController          : Slow query q="diwali lights" shard=7 latencyMs=6671
+2026-06-17 13:27:45.113  WARN 1 --- [http-nio-8080-exec-35] c.k.search.api.SearchController          : Slow query q="diwali lights" shard=7 latencyMs=7846
+2026-06-17 13:28:04.538  WARN 1 --- [search-router] c.k.search.routing.ShardRouter           : Hot shard detected shard=7 qps=4210 (avg 610)
+2026-06-17 13:28:20.508  WARN 1 --- [http-nio-8080-exec-97] c.k.search.api.SearchController          : Slow query q="diwali lights" shard=7 latencyMs=9775
+2026-06-17 13:28:39.227  WARN 1 --- [search-router] c.k.search.routing.ShardRouter           : Hot shard detected shard=7 qps=4210 (avg 610)
+2026-06-17 13:28:51.781  WARN 1 --- [http-nio-8080-exec-14] c.k.search.api.SearchController          : Slow query q="diwali lights" shard=7 latencyMs=2561
+2026-06-17 13:29:08.306  WARN 1 --- [http-nio-8080-exec-128] c.k.search.api.SearchController          : Slow query q="diwali lights" shard=7 latencyMs=8496
+2026-06-17 13:29:28.129  WARN 1 --- [http-nio-8080-exec-198] c.k.search.api.SearchController          : Slow query q="diwali lights" shard=7 latencyMs=5287
+2026-06-17 13:29:41.050  WARN 1 --- [http-nio-8080-exec-139] c.k.search.api.SearchController          : Slow query q="diwali lights" shard=7 latencyMs=5582
+2026-06-17 13:29:58.144  WARN 1 --- [http-nio-8080-exec-65] c.k.search.api.SearchController          : Slow query q="diwali lights" shard=7 latencyMs=7869
+2026-06-17 13:30:06.670  WARN 1 --- [search-router] c.k.search.routing.ShardRouter           : Hot shard detected shard=7 qps=4210 (avg 610)
+2026-06-17 13:30:15.378  WARN 1 --- [search-router] c.k.search.routing.ShardRouter           : Hot shard detected shard=7 qps=4210 (avg 610)
+2026-06-17 13:30:27.447  WARN 1 --- [http-nio-8080-exec-50] c.k.search.api.SearchController          : Slow query q="diwali lights" shard=7 latencyMs=7778
+2026-06-17 13:30:37.863  WARN 1 --- [search-router] c.k.search.routing.ShardRouter           : Hot shard detected shard=7 qps=4210 (avg 610)
+2026-06-17 13:30:54.458  WARN 1 --- [http-nio-8080-exec-27] c.k.search.api.SearchController          : Slow query q="diwali lights" shard=7 latencyMs=5101
+2026-06-17 13:31:06.409  WARN 1 --- [http-nio-8080-exec-60] c.k.search.api.SearchController          : Slow query q="diwali lights" shard=7 latencyMs=7966
+2026-06-17 13:31:19.114  WARN 1 --- [http-nio-8080-exec-199] c.k.search.api.SearchController          : Slow query q="diwali lights" shard=7 latencyMs=8700
+2026-06-17 13:31:28.758  WARN 1 --- [http-nio-8080-exec-173] c.k.search.api.SearchController          : Slow query q="diwali lights" shard=7 latencyMs=7952
+2026-06-17 13:31:42.245  WARN 1 --- [search-router] c.k.search.routing.ShardRouter           : Hot shard detected shard=7 qps=4210 (avg 610)
+2026-06-17 13:32:01.978  WARN 1 --- [http-nio-8080-exec-192] c.k.search.api.SearchController          : Slow query q="diwali lights" shard=7 latencyMs=9593
+2026-06-17 13:32:15.617  WARN 1 --- [http-nio-8080-exec-160] c.k.search.api.SearchController          : Slow query q="diwali lights" shard=7 latencyMs=8303
+2026-06-17 13:32:26.925  WARN 1 --- [http-nio-8080-exec-43] c.k.search.api.SearchController          : Slow query q="diwali lights" shard=7 latencyMs=3569
+2026-06-17 13:32:44.984  WARN 1 --- [http-nio-8080-exec-73] c.k.search.api.SearchController          : Slow query q="diwali lights" shard=7 latencyMs=2672
+2026-06-17 13:32:55.222  WARN 1 --- [search-router] c.k.search.routing.ShardRouter           : Hot shard detected shard=7 qps=4210 (avg 610)
+2026-06-17 13:33:04.631  WARN 1 --- [http-nio-8080-exec-115] c.k.search.api.SearchController          : Slow query q="diwali lights" shard=7 latencyMs=3900
+2026-06-17 13:33:22.928  WARN 1 --- [search-router] c.k.search.routing.ShardRouter           : Hot shard detected shard=7 qps=4210 (avg 610)
+2026-06-17 13:33:32.221  WARN 1 --- [http-nio-8080-exec-91] c.k.search.api.SearchController          : Slow query q="diwali lights" shard=7 latencyMs=7574
+2026-06-17 13:33:52.206  WARN 1 --- [http-nio-8080-exec-170] c.k.search.api.SearchController          : Slow query q="diwali lights" shard=7 latencyMs=5503
+2026-06-17 13:34:10.471  WARN 1 --- [http-nio-8080-exec-158] c.k.search.api.SearchController          : Slow query q="diwali lights" shard=7 latencyMs=4517
+2026-06-17 13:34:27.483  WARN 1 --- [http-nio-8080-exec-139] c.k.search.api.SearchController          : Slow query q="diwali lights" shard=7 latencyMs=5365
+2026-06-17 13:34:36.583  WARN 1 --- [http-nio-8080-exec-21] c.k.search.api.SearchController          : Slow query q="diwali lights" shard=7 latencyMs=6885
+2026-06-17 13:34:39.000  INFO 1 --- [search-router] c.k.search.routing.ShardRouter           : Rebalanced shard 7 into 7a,7b; qps 2100/2110
+2026-06-17 13:35:12.000  INFO 1 --- [http-nio-8080-exec-43] c.k.search.api.SearchController          : q="kurta" hits=812 latencyMs=276
+2026-06-17 13:36:37.000  INFO 1 --- [http-nio-8080-exec-89] c.k.search.api.SearchController          : q="kurta" hits=812 latencyMs=213
+2026-06-17 13:38:26.000  INFO 1 --- [http-nio-8080-exec-186] c.k.search.api.SearchController          : q="kurta" hits=812 latencyMs=372
+2026-06-17 13:39:57.000  INFO 1 --- [http-nio-8080-exec-114] c.k.search.api.SearchController          : q="kurta" hits=812 latencyMs=348
+2026-06-17 13:41:16.000  INFO 1 --- [http-nio-8080-exec-66] c.k.search.api.SearchController          : q="kurta" hits=812 latencyMs=179
+2026-06-17 13:42:03.000  INFO 1 --- [http-nio-8080-exec-94] c.k.search.api.SearchController          : q="kurta" hits=812 latencyMs=219
+2026-06-17 13:44:00.000  INFO 1 --- [http-nio-8080-exec-192] c.k.search.api.SearchController          : q="kurta" hits=812 latencyMs=117
+2026-06-17 13:45:36.000  INFO 1 --- [http-nio-8080-exec-168] c.k.search.api.SearchController          : q="kurta" hits=812 latencyMs=122
+2026-06-17 13:46:41.000  INFO 1 --- [http-nio-8080-exec-140] c.k.search.api.SearchController          : q="kurta" hits=812 latencyMs=191
+2026-06-17 13:48:05.000  INFO 1 --- [http-nio-8080-exec-120] c.k.search.api.SearchController          : q="kurta" hits=812 latencyMs=169
+2026-06-17 13:49:56.000  INFO 1 --- [http-nio-8080-exec-147] c.k.search.api.SearchController          : q="kurta" hits=812 latencyMs=318
+2026-06-17 13:50:44.000  INFO 1 --- [http-nio-8080-exec-17] c.k.search.api.SearchController          : q="kurta" hits=812 latencyMs=287
+2026-06-17 13:51:53.000  INFO 1 --- [http-nio-8080-exec-36] c.k.search.api.SearchController          : q="kurta" hits=812 latencyMs=101

@@ -1,0 +1,120 @@
+2026-07-31T13:15:00.000Z INFO  [checkout-web] POST /api/checkout 200 330ms cart=81119410
+2026-07-31T13:16:05.203Z INFO  [checkout-web] POST /api/checkout 200 297ms cart=82653093
+2026-07-31T13:16:43.834Z INFO  [checkout-web] POST /api/checkout 200 69ms cart=52093183
+2026-07-31T13:17:31.088Z INFO  [checkout-web] POST /api/checkout 200 69ms cart=21705946
+2026-07-31T13:17:57.173Z INFO  [checkout-web] POST /api/checkout 200 240ms cart=80510778
+2026-07-31T13:18:50.165Z INFO  [checkout-web] POST /api/checkout 200 380ms cart=53463410
+2026-07-31T13:19:49.464Z INFO  [checkout-web] POST /api/checkout 200 116ms cart=18648611
+2026-07-31T13:20:18.045Z INFO  [checkout-web] POST /api/checkout 200 79ms cart=69389440
+2026-07-31T13:21:07.106Z INFO  [checkout-web] POST /api/checkout 200 73ms cart=28864435
+2026-07-31T13:22:11.053Z INFO  [checkout-web] POST /api/checkout 200 355ms cart=98250455
+2026-07-31T13:23:18.958Z INFO  [checkout-web] POST /api/checkout 200 233ms cart=76941647
+2026-07-31T13:24:09.788Z INFO  [checkout-web] POST /api/checkout 200 226ms cart=24792195
+2026-07-31T13:25:06.454Z INFO  [checkout-web] POST /api/checkout 200 326ms cart=14433156
+2026-07-31T13:25:35.311Z INFO  [checkout-web] POST /api/checkout 200 327ms cart=88875527
+2026-07-31T13:26:28.630Z INFO  [checkout-web] POST /api/checkout 200 53ms cart=73431826
+2026-07-31T13:27:02.641Z INFO  [checkout-web] POST /api/checkout 200 322ms cart=28635128
+2026-07-31T13:27:57.633Z INFO  [checkout-web] POST /api/checkout 200 52ms cart=60398037
+2026-07-31T13:28:51.120Z INFO  [checkout-web] POST /api/checkout 200 75ms cart=44096058
+2026-07-31T13:29:39.363Z INFO  [checkout-web] POST /api/checkout 200 190ms cart=86402189
+2026-07-31T13:30:18.830Z INFO  [checkout-web] POST /api/checkout 200 178ms cart=10418906
+2026-07-31T13:30:52.367Z INFO  [checkout-web] POST /api/checkout 200 78ms cart=16800289
+2026-07-31T13:31:30.752Z INFO  [unleash] Toggle 'upi_autopay_banner' updated: enabled=true strategy=gradualRollout rollout=100% by payments-marketing
+2026-07-31T13:31:53.380Z ERROR [checkout-web] TypeError: Cannot read properties of undefined (reading 'mandateLimit')
+    at UpiAutopayBanner.render (/app/.next/server/chunks/9120.js:1:98514)
+2026-07-31T13:32:06.809Z ERROR [checkout-web] POST /api/checkout 500 49ms cart=88472305
+10.42.10.143 - - [31/Jul/2026:19:02:27 +0530] "POST /api/checkout HTTP/2.0" 500 64 "https://www.kartly.in/cart" "Mozilla/5.0"
+2026-07-31T13:32:39.941Z INFO  [unleash] Toggle 'upi_autopay_banner' updated: enabled=true strategy=gradualRollout rollout=100% by payments-marketing
+2026-07-31T13:33:03.324Z ERROR [checkout-web] TypeError: Cannot read properties of undefined (reading 'mandateLimit')
+    at UpiAutopayBanner.render (/app/.next/server/chunks/9120.js:1:94378)
+2026-07-31T13:33:27.306Z ERROR [checkout-web] POST /api/checkout 500 180ms cart=41983218
+10.42.9.96 - - [31/Jul/2026:19:03:39 +0530] "POST /api/checkout HTTP/2.0" 500 64 "https://www.kartly.in/cart" "Mozilla/5.0"
+2026-07-31T13:33:57.448Z INFO  [unleash] Toggle 'upi_autopay_banner' updated: enabled=true strategy=gradualRollout rollout=100% by payments-marketing
+10.42.6.100 - - [31/Jul/2026:19:04:08 +0530] "POST /api/checkout HTTP/2.0" 500 64 "https://www.kartly.in/cart" "Mozilla/5.0"
+2026-07-31T13:34:29.064Z INFO  [unleash] Toggle 'upi_autopay_banner' updated: enabled=true strategy=gradualRollout rollout=100% by payments-marketing
+2026-07-31T13:34:45.296Z ERROR [checkout-web] POST /api/checkout 500 345ms cart=87702124
+2026-07-31T13:35:01.448Z ERROR [checkout-web] POST /api/checkout 500 58ms cart=21250875
+2026-07-31T13:35:16.860Z ERROR [checkout-web] POST /api/checkout 500 332ms cart=20687045
+2026-07-31T13:35:33.004Z INFO  [unleash] Toggle 'upi_autopay_banner' updated: enabled=true strategy=gradualRollout rollout=100% by payments-marketing
+10.42.14.73 - - [31/Jul/2026:19:05:44 +0530] "POST /api/checkout HTTP/2.0" 500 64 "https://www.kartly.in/cart" "Mozilla/5.0"
+2026-07-31T13:36:01.555Z ERROR [checkout-web] TypeError: Cannot read properties of undefined (reading 'mandateLimit')
+    at UpiAutopayBanner.render (/app/.next/server/chunks/9120.js:1:29282)
+10.42.8.77 - - [31/Jul/2026:19:06:16 +0530] "POST /api/checkout HTTP/2.0" 500 64 "https://www.kartly.in/cart" "Mozilla/5.0"
+10.42.3.130 - - [31/Jul/2026:19:06:31 +0530] "POST /api/checkout HTTP/2.0" 500 64 "https://www.kartly.in/cart" "Mozilla/5.0"
+2026-07-31T13:36:57.369Z ERROR [checkout-web] POST /api/checkout 500 358ms cart=75592113
+2026-07-31T13:37:18.264Z ERROR [checkout-web] POST /api/checkout 500 247ms cart=48739408
+2026-07-31T13:37:39.604Z INFO  [unleash] Toggle 'upi_autopay_banner' updated: enabled=true strategy=gradualRollout rollout=100% by payments-marketing
+2026-07-31T13:37:51.100Z INFO  [unleash] Toggle 'upi_autopay_banner' updated: enabled=true strategy=gradualRollout rollout=100% by payments-marketing
+2026-07-31T13:38:05.871Z ERROR [checkout-web] TypeError: Cannot read properties of undefined (reading 'mandateLimit')
+    at UpiAutopayBanner.render (/app/.next/server/chunks/9120.js:1:82357)
+2026-07-31T13:38:22.263Z ERROR [checkout-web] TypeError: Cannot read properties of undefined (reading 'mandateLimit')
+    at UpiAutopayBanner.render (/app/.next/server/chunks/9120.js:1:55994)
+2026-07-31T13:38:34.431Z INFO  [unleash] Toggle 'upi_autopay_banner' updated: enabled=true strategy=gradualRollout rollout=100% by payments-marketing
+2026-07-31T13:38:53.825Z INFO  [unleash] Toggle 'upi_autopay_banner' updated: enabled=true strategy=gradualRollout rollout=100% by payments-marketing
+10.42.3.128 - - [31/Jul/2026:19:09:08 +0530] "POST /api/checkout HTTP/2.0" 500 64 "https://www.kartly.in/cart" "Mozilla/5.0"
+2026-07-31T13:39:23.719Z ERROR [checkout-web] POST /api/checkout 500 266ms cart=22881247
+2026-07-31T13:39:47.090Z ERROR [checkout-web] POST /api/checkout 500 217ms cart=17057012
+2026-07-31T13:40:03.774Z ERROR [checkout-web] POST /api/checkout 500 210ms cart=55525076
+2026-07-31T13:40:28.118Z ERROR [checkout-web] POST /api/checkout 500 334ms cart=83381427
+2026-07-31T13:40:42.299Z ERROR [checkout-web] POST /api/checkout 500 203ms cart=96602413
+2026-07-31T13:41:00.160Z INFO  [unleash] Toggle 'upi_autopay_banner' updated: enabled=true strategy=gradualRollout rollout=100% by payments-marketing
+10.42.2.31 - - [31/Jul/2026:19:11:18 +0530] "POST /api/checkout HTTP/2.0" 500 64 "https://www.kartly.in/cart" "Mozilla/5.0"
+2026-07-31T13:41:43.042Z ERROR [checkout-web] TypeError: Cannot read properties of undefined (reading 'mandateLimit')
+    at UpiAutopayBanner.render (/app/.next/server/chunks/9120.js:1:68269)
+10.42.10.101 - - [31/Jul/2026:19:12:07 +0530] "POST /api/checkout HTTP/2.0" 500 64 "https://www.kartly.in/cart" "Mozilla/5.0"
+2026-07-31T13:42:18.571Z ERROR [checkout-web] TypeError: Cannot read properties of undefined (reading 'mandateLimit')
+    at UpiAutopayBanner.render (/app/.next/server/chunks/9120.js:1:61289)
+2026-07-31T13:42:33.800Z ERROR [checkout-web] POST /api/checkout 500 172ms cart=90344955
+10.42.6.54 - - [31/Jul/2026:19:12:52 +0530] "POST /api/checkout HTTP/2.0" 500 64 "https://www.kartly.in/cart" "Mozilla/5.0"
+2026-07-31T13:43:11.667Z INFO  [unleash] Toggle 'upi_autopay_banner' updated: enabled=true strategy=gradualRollout rollout=100% by payments-marketing
+2026-07-31T13:43:34.153Z ERROR [checkout-web] POST /api/checkout 500 189ms cart=83810817
+2026-07-31T13:43:56.162Z INFO  [unleash] Toggle 'upi_autopay_banner' updated: enabled=true strategy=gradualRollout rollout=100% by payments-marketing
+2026-07-31T13:44:15.891Z ERROR [checkout-web] TypeError: Cannot read properties of undefined (reading 'mandateLimit')
+    at UpiAutopayBanner.render (/app/.next/server/chunks/9120.js:1:49547)
+2026-07-31T13:44:35.076Z INFO  [unleash] Toggle 'upi_autopay_banner' updated: enabled=true strategy=gradualRollout rollout=100% by payments-marketing
+2026-07-31T13:44:45.223Z INFO  [unleash] Toggle 'upi_autopay_banner' updated: enabled=true strategy=gradualRollout rollout=100% by payments-marketing
+2026-07-31T13:45:00.854Z ERROR [checkout-web] POST /api/checkout 500 202ms cart=14024161
+10.42.4.105 - - [31/Jul/2026:19:15:26 +0530] "POST /api/checkout HTTP/2.0" 500 64 "https://www.kartly.in/cart" "Mozilla/5.0"
+2026-07-31T13:45:51.578Z ERROR [checkout-web] POST /api/checkout 500 122ms cart=44142695
+10.42.4.23 - - [31/Jul/2026:19:16:07 +0530] "POST /api/checkout HTTP/2.0" 500 64 "https://www.kartly.in/cart" "Mozilla/5.0"
+2026-07-31T13:46:17.529Z ERROR [checkout-web] POST /api/checkout 500 126ms cart=19068072
+10.42.3.87 - - [31/Jul/2026:19:16:29 +0530] "POST /api/checkout HTTP/2.0" 500 64 "https://www.kartly.in/cart" "Mozilla/5.0"
+10.42.6.115 - - [31/Jul/2026:19:16:52 +0530] "POST /api/checkout HTTP/2.0" 500 64 "https://www.kartly.in/cart" "Mozilla/5.0"
+2026-07-31T13:47:10.360Z ERROR [checkout-web] TypeError: Cannot read properties of undefined (reading 'mandateLimit')
+    at UpiAutopayBanner.render (/app/.next/server/chunks/9120.js:1:90602)
+10.42.7.161 - - [31/Jul/2026:19:17:25 +0530] "POST /api/checkout HTTP/2.0" 500 64 "https://www.kartly.in/cart" "Mozilla/5.0"
+10.42.2.103 - - [31/Jul/2026:19:17:36 +0530] "POST /api/checkout HTTP/2.0" 500 64 "https://www.kartly.in/cart" "Mozilla/5.0"
+2026-07-31T13:47:53.773Z ERROR [checkout-web] TypeError: Cannot read properties of undefined (reading 'mandateLimit')
+    at UpiAutopayBanner.render (/app/.next/server/chunks/9120.js:1:94910)
+2026-07-31T13:48:12.277Z INFO  [unleash] Toggle 'upi_autopay_banner' updated: enabled=true strategy=gradualRollout rollout=100% by payments-marketing
+2026-07-31T13:48:30.310Z ERROR [checkout-web] POST /api/checkout 500 67ms cart=35948327
+10.42.9.214 - - [31/Jul/2026:19:18:53 +0530] "POST /api/checkout HTTP/2.0" 500 64 "https://www.kartly.in/cart" "Mozilla/5.0"
+2026-07-31T13:49:06.281Z ERROR [checkout-web] TypeError: Cannot read properties of undefined (reading 'mandateLimit')
+    at UpiAutopayBanner.render (/app/.next/server/chunks/9120.js:1:22045)
+2026-07-31T13:49:16.853Z INFO  [unleash] Toggle 'upi_autopay_banner' updated: enabled=true strategy=gradualRollout rollout=100% by payments-marketing
+2026-07-31T13:49:36.429Z INFO  [unleash] Toggle 'upi_autopay_banner' updated: enabled=true strategy=gradualRollout rollout=100% by payments-marketing
+2026-07-31T13:49:57.205Z INFO  [unleash] Toggle 'upi_autopay_banner' updated: enabled=true strategy=gradualRollout rollout=100% by payments-marketing
+2026-07-31T13:50:15.605Z INFO  [unleash] Toggle 'upi_autopay_banner' updated: enabled=true strategy=gradualRollout rollout=100% by payments-marketing
+2026-07-31T13:50:29.007Z ERROR [checkout-web] POST /api/checkout 500 190ms cart=19150146
+2026-07-31T13:50:46.788Z INFO  [unleash] Toggle 'upi_autopay_banner' updated: enabled=true strategy=gradualRollout rollout=100% by payments-marketing
+10.42.12.23 - - [31/Jul/2026:19:21:11 +0530] "POST /api/checkout HTTP/2.0" 500 64 "https://www.kartly.in/cart" "Mozilla/5.0"
+2026-07-31T13:51:27.285Z INFO  [unleash] Toggle 'upi_autopay_banner' updated: enabled=true strategy=gradualRollout rollout=100% by payments-marketing
+2026-07-31T13:51:41.009Z ERROR [checkout-web] POST /api/checkout 500 158ms cart=57993271
+2026-07-31T13:52:03.441Z ERROR [checkout-web] TypeError: Cannot read properties of undefined (reading 'mandateLimit')
+    at UpiAutopayBanner.render (/app/.next/server/chunks/9120.js:1:98512)
+2026-07-31T13:52:15.818Z INFO  [unleash] Toggle 'upi_autopay_banner' updated: enabled=true strategy=gradualRollout rollout=100% by payments-marketing
+10.42.12.51 - - [31/Jul/2026:19:22:29 +0530] "POST /api/checkout HTTP/2.0" 500 64 "https://www.kartly.in/cart" "Mozilla/5.0"
+10.42.14.128 - - [31/Jul/2026:19:22:39 +0530] "POST /api/checkout HTTP/2.0" 500 64 "https://www.kartly.in/cart" "Mozilla/5.0"
+2026-07-31T13:52:55.985Z INFO  [unleash] Toggle 'upi_autopay_banner' updated: enabled=true strategy=gradualRollout rollout=100% by payments-marketing
+10.42.10.64 - - [31/Jul/2026:19:23:20 +0530] "POST /api/checkout HTTP/2.0" 500 64 "https://www.kartly.in/cart" "Mozilla/5.0"
+2026-07-31T13:53:21.000Z INFO  [unleash] Toggle 'upi_autopay_banner' updated: enabled=false by @priya.sharma
+2026-07-31T13:54:15.000Z INFO  [checkout-web] POST /api/checkout 200 255ms cart=45900397
+2026-07-31T13:54:58.000Z INFO  [checkout-web] POST /api/checkout 200 379ms cart=47315656
+2026-07-31T13:56:32.000Z INFO  [checkout-web] POST /api/checkout 200 74ms cart=11741879
+2026-07-31T13:58:09.000Z INFO  [checkout-web] POST /api/checkout 200 66ms cart=19904106
+2026-07-31T14:00:01.000Z INFO  [checkout-web] POST /api/checkout 200 180ms cart=40278922
+2026-07-31T14:00:49.000Z INFO  [checkout-web] POST /api/checkout 200 115ms cart=80202100
+2026-07-31T14:01:56.000Z INFO  [checkout-web] POST /api/checkout 200 320ms cart=92687904
+2026-07-31T14:03:09.000Z INFO  [checkout-web] POST /api/checkout 200 117ms cart=52729184
+2026-07-31T14:04:00.000Z INFO  [checkout-web] POST /api/checkout 200 59ms cart=46490556
+2026-07-31T14:05:42.000Z INFO  [checkout-web] POST /api/checkout 200 120ms cart=99316708

@@ -1,0 +1,98 @@
+2026-03-30T10:55:00.000Z INFO  [checkout-web] POST /api/checkout 200 230ms cart=50898854
+2026-03-30T10:56:06.752Z INFO  [checkout-web] POST /api/checkout 200 165ms cart=80765593
+2026-03-30T10:57:13.324Z INFO  [checkout-web] POST /api/checkout 200 286ms cart=33248249
+2026-03-30T10:58:03.386Z INFO  [checkout-web] POST /api/checkout 200 215ms cart=45723266
+2026-03-30T10:59:07.172Z INFO  [checkout-web] POST /api/checkout 200 233ms cart=34941413
+2026-03-30T10:59:57.540Z INFO  [checkout-web] POST /api/checkout 200 348ms cart=33864787
+2026-03-30T11:00:42.049Z INFO  [checkout-web] POST /api/checkout 200 311ms cart=33978745
+2026-03-30T11:01:16.038Z INFO  [checkout-web] POST /api/checkout 200 206ms cart=84871284
+2026-03-30T11:01:44.570Z INFO  [checkout-web] POST /api/checkout 200 180ms cart=58430816
+2026-03-30T11:02:19.793Z INFO  [checkout-web] POST /api/checkout 200 308ms cart=51051648
+2026-03-30T11:03:15.433Z INFO  [checkout-web] POST /api/checkout 200 176ms cart=81849091
+2026-03-30T11:04:01.310Z INFO  [checkout-web] POST /api/checkout 200 74ms cart=91969251
+2026-03-30T11:05:06.263Z INFO  [checkout-web] POST /api/checkout 200 256ms cart=28130722
+2026-03-30T11:06:16.107Z INFO  [checkout-web] POST /api/checkout 200 52ms cart=63098485
+2026-03-30T11:06:59.612Z INFO  [checkout-web] POST /api/checkout 200 99ms cart=89551282
+2026-03-30T11:08:06.198Z INFO  [checkout-web] POST /api/checkout 200 129ms cart=65052570
+2026-03-30T11:08:33.730Z INFO  [checkout-web] POST /api/checkout 200 179ms cart=28907955
+2026-03-30T11:09:39.077Z INFO  [checkout-web] POST /api/checkout 200 132ms cart=48976560
+2026-03-30T11:10:33.544Z INFO  [checkout-web] POST /api/checkout 200 354ms cart=69652287
+10.42.5.87 - - [30/Mar/2026:16:41:41 +0530] "GET /images/p/62977712_800.webp HTTP/2.0" 200 91822 "https://www.kartly.in/" "Mozilla/5.0" x-cache=Miss from cloudfront origin_time=3.18
+ts=2026-03-30T11:11:55.028Z level=warn source=cloudfront msg="cache hit ratio dropped" ratio=0.21
+ts=2026-03-30T11:12:14.756Z level=warn source=cloudfront msg="cache hit ratio dropped" ratio=0.21
+ts=2026-03-30T11:12:32.883Z level=warn source=cloudfront msg="cache hit ratio dropped" ratio=0.21
+ts=2026-03-30T11:12:54.653Z level=warn source=cloudfront msg="cache hit ratio dropped" ratio=0.21
+ts=2026-03-30T11:13:14.921Z level=warn source=cloudfront msg="cache hit ratio dropped" ratio=0.21
+10.42.5.63 - - [30/Mar/2026:16:43:37 +0530] "GET /images/p/60247973_800.webp HTTP/2.0" 200 91822 "https://www.kartly.in/" "Mozilla/5.0" x-cache=Miss from cloudfront origin_time=3.16
+ts=2026-03-30T11:14:00.974Z level=warn source=cloudfront msg="cache hit ratio dropped" ratio=0.21
+ts=2026-03-30T11:14:15.344Z level=warn source=cloudfront msg="cache hit ratio dropped" ratio=0.21
+10.42.2.230 - - [30/Mar/2026:16:44:30 +0530] "GET /images/p/38859543_800.webp HTTP/2.0" 200 91822 "https://www.kartly.in/" "Mozilla/5.0" x-cache=Miss from cloudfront origin_time=3.10
+10.42.6.128 - - [30/Mar/2026:16:44:49 +0530] "GET /images/p/86577040_800.webp HTTP/2.0" 200 91822 "https://www.kartly.in/" "Mozilla/5.0" x-cache=Miss from cloudfront origin_time=3.19
+ts=2026-03-30T11:15:09.980Z level=warn source=cloudfront msg="cache hit ratio dropped" ratio=0.21
+10.42.4.145 - - [30/Mar/2026:16:45:30 +0530] "GET /images/p/12926653_800.webp HTTP/2.0" 200 91822 "https://www.kartly.in/" "Mozilla/5.0" x-cache=Miss from cloudfront origin_time=3.11
+10.42.3.40 - - [30/Mar/2026:16:45:48 +0530] "GET /images/p/40266391_800.webp HTTP/2.0" 200 91822 "https://www.kartly.in/" "Mozilla/5.0" x-cache=Miss from cloudfront origin_time=3.14
+ts=2026-03-30T11:16:13.234Z level=warn source=cloudfront msg="cache hit ratio dropped" ratio=0.21
+10.42.1.240 - - [30/Mar/2026:16:46:35 +0530] "GET /images/p/62755378_800.webp HTTP/2.0" 200 91822 "https://www.kartly.in/" "Mozilla/5.0" x-cache=Miss from cloudfront origin_time=3.12
+ts=2026-03-30T11:16:58.291Z level=warn source=cloudfront msg="cache hit ratio dropped" ratio=0.21
+ts=2026-03-30T11:17:22.885Z level=warn source=cloudfront msg="cache hit ratio dropped" ratio=0.21
+10.42.14.18 - - [30/Mar/2026:16:47:42 +0530] "GET /images/p/57855424_800.webp HTTP/2.0" 200 91822 "https://www.kartly.in/" "Mozilla/5.0" x-cache=Miss from cloudfront origin_time=3.12
+ts=2026-03-30T11:18:07.012Z level=warn source=cloudfront msg="cache hit ratio dropped" ratio=0.21
+10.42.5.187 - - [30/Mar/2026:16:48:27 +0530] "GET /images/p/13154258_800.webp HTTP/2.0" 200 91822 "https://www.kartly.in/" "Mozilla/5.0" x-cache=Miss from cloudfront origin_time=3.15
+10.42.0.214 - - [30/Mar/2026:16:48:45 +0530] "GET /images/p/13329439_800.webp HTTP/2.0" 200 91822 "https://www.kartly.in/" "Mozilla/5.0" x-cache=Miss from cloudfront origin_time=3.15
+10.42.3.169 - - [30/Mar/2026:16:49:04 +0530] "GET /images/p/98663270_800.webp HTTP/2.0" 200 91822 "https://www.kartly.in/" "Mozilla/5.0" x-cache=Miss from cloudfront origin_time=3.19
+10.42.10.88 - - [30/Mar/2026:16:49:27 +0530] "GET /images/p/40315950_800.webp HTTP/2.0" 200 91822 "https://www.kartly.in/" "Mozilla/5.0" x-cache=Miss from cloudfront origin_time=3.17
+10.42.3.105 - - [30/Mar/2026:16:49:42 +0530] "GET /images/p/57061820_800.webp HTTP/2.0" 200 91822 "https://www.kartly.in/" "Mozilla/5.0" x-cache=Miss from cloudfront origin_time=3.15
+10.42.10.49 - - [30/Mar/2026:16:50:03 +0530] "GET /images/p/49547871_800.webp HTTP/2.0" 200 91822 "https://www.kartly.in/" "Mozilla/5.0" x-cache=Miss from cloudfront origin_time=3.16
+ts=2026-03-30T11:20:25.756Z level=warn source=cloudfront msg="cache hit ratio dropped" ratio=0.21
+ts=2026-03-30T11:20:40.792Z level=warn source=cloudfront msg="cache hit ratio dropped" ratio=0.21
+ts=2026-03-30T11:20:52.919Z level=warn source=cloudfront msg="cache hit ratio dropped" ratio=0.21
+ts=2026-03-30T11:21:11.928Z level=warn source=cloudfront msg="cache hit ratio dropped" ratio=0.21
+ts=2026-03-30T11:21:27.024Z level=warn source=cloudfront msg="cache hit ratio dropped" ratio=0.21
+10.42.7.247 - - [30/Mar/2026:16:51:47 +0530] "GET /images/p/53503967_800.webp HTTP/2.0" 200 91822 "https://www.kartly.in/" "Mozilla/5.0" x-cache=Miss from cloudfront origin_time=3.17
+10.42.3.5 - - [30/Mar/2026:16:52:05 +0530] "GET /images/p/60071318_800.webp HTTP/2.0" 200 91822 "https://www.kartly.in/" "Mozilla/5.0" x-cache=Miss from cloudfront origin_time=3.10
+ts=2026-03-30T11:22:24.043Z level=warn source=cloudfront msg="cache hit ratio dropped" ratio=0.21
+ts=2026-03-30T11:22:46.976Z level=warn source=cloudfront msg="cache hit ratio dropped" ratio=0.21
+ts=2026-03-30T11:23:11.487Z level=warn source=cloudfront msg="cache hit ratio dropped" ratio=0.21
+10.42.11.43 - - [30/Mar/2026:16:53:31 +0530] "GET /images/p/80515861_800.webp HTTP/2.0" 200 91822 "https://www.kartly.in/" "Mozilla/5.0" x-cache=Miss from cloudfront origin_time=3.13
+ts=2026-03-30T11:23:55.418Z level=warn source=cloudfront msg="cache hit ratio dropped" ratio=0.21
+ts=2026-03-30T11:24:17.676Z level=warn source=cloudfront msg="cache hit ratio dropped" ratio=0.21
+ts=2026-03-30T11:24:32.522Z level=warn source=cloudfront msg="cache hit ratio dropped" ratio=0.21
+ts=2026-03-30T11:24:51.250Z level=warn source=cloudfront msg="cache hit ratio dropped" ratio=0.21
+10.42.0.162 - - [30/Mar/2026:16:55:15 +0530] "GET /images/p/67763159_800.webp HTTP/2.0" 200 91822 "https://www.kartly.in/" "Mozilla/5.0" x-cache=Miss from cloudfront origin_time=3.12
+ts=2026-03-30T11:25:33.525Z level=warn source=cloudfront msg="cache hit ratio dropped" ratio=0.21
+10.42.8.41 - - [30/Mar/2026:16:55:56 +0530] "GET /images/p/93923118_800.webp HTTP/2.0" 200 91822 "https://www.kartly.in/" "Mozilla/5.0" x-cache=Miss from cloudfront origin_time=3.18
+ts=2026-03-30T11:26:09.101Z level=warn source=cloudfront msg="cache hit ratio dropped" ratio=0.21
+ts=2026-03-30T11:26:24.919Z level=warn source=cloudfront msg="cache hit ratio dropped" ratio=0.21
+10.42.0.36 - - [30/Mar/2026:16:56:38 +0530] "GET /images/p/74282292_800.webp HTTP/2.0" 200 91822 "https://www.kartly.in/" "Mozilla/5.0" x-cache=Miss from cloudfront origin_time=3.12
+ts=2026-03-30T11:26:56.940Z level=warn source=cloudfront msg="cache hit ratio dropped" ratio=0.21
+10.42.2.143 - - [30/Mar/2026:16:57:15 +0530] "GET /images/p/90704103_800.webp HTTP/2.0" 200 91822 "https://www.kartly.in/" "Mozilla/5.0" x-cache=Miss from cloudfront origin_time=3.15
+ts=2026-03-30T11:27:27.011Z level=warn source=cloudfront msg="cache hit ratio dropped" ratio=0.21
+10.42.1.178 - - [30/Mar/2026:16:57:46 +0530] "GET /images/p/89447948_800.webp HTTP/2.0" 200 91822 "https://www.kartly.in/" "Mozilla/5.0" x-cache=Miss from cloudfront origin_time=3.16
+10.42.15.239 - - [30/Mar/2026:16:58:02 +0530] "GET /images/p/68772255_800.webp HTTP/2.0" 200 91822 "https://www.kartly.in/" "Mozilla/5.0" x-cache=Miss from cloudfront origin_time=3.15
+ts=2026-03-30T11:28:13.402Z level=warn source=cloudfront msg="cache hit ratio dropped" ratio=0.21
+ts=2026-03-30T11:28:37.983Z level=warn source=cloudfront msg="cache hit ratio dropped" ratio=0.21
+ts=2026-03-30T11:28:50.294Z level=warn source=cloudfront msg="cache hit ratio dropped" ratio=0.21
+10.42.2.131 - - [30/Mar/2026:16:59:05 +0530] "GET /images/p/22968577_800.webp HTTP/2.0" 200 91822 "https://www.kartly.in/" "Mozilla/5.0" x-cache=Miss from cloudfront origin_time=3.15
+10.42.11.174 - - [30/Mar/2026:16:59:24 +0530] "GET /images/p/55356804_800.webp HTTP/2.0" 200 91822 "https://www.kartly.in/" "Mozilla/5.0" x-cache=Miss from cloudfront origin_time=3.19
+10.42.7.52 - - [30/Mar/2026:16:59:49 +0530] "GET /images/p/87590562_800.webp HTTP/2.0" 200 91822 "https://www.kartly.in/" "Mozilla/5.0" x-cache=Miss from cloudfront origin_time=3.16
+ts=2026-03-30T11:30:08.019Z level=warn source=cloudfront msg="cache hit ratio dropped" ratio=0.21
+10.42.14.191 - - [30/Mar/2026:17:00:20 +0530] "GET /images/p/41966482_800.webp HTTP/2.0" 200 91822 "https://www.kartly.in/" "Mozilla/5.0" x-cache=Miss from cloudfront origin_time=3.17
+10.42.13.157 - - [30/Mar/2026:17:00:41 +0530] "GET /images/p/59965899_800.webp HTTP/2.0" 200 91822 "https://www.kartly.in/" "Mozilla/5.0" x-cache=Miss from cloudfront origin_time=3.13
+10.42.6.102 - - [30/Mar/2026:17:00:57 +0530] "GET /images/p/34159071_800.webp HTTP/2.0" 200 91822 "https://www.kartly.in/" "Mozilla/5.0" x-cache=Miss from cloudfront origin_time=3.15
+10.42.5.5 - - [30/Mar/2026:17:01:14 +0530] "GET /images/p/37637593_800.webp HTTP/2.0" 200 91822 "https://www.kartly.in/" "Mozilla/5.0" x-cache=Miss from cloudfront origin_time=3.14
+ts=2026-03-30T11:31:38.947Z level=warn source=cloudfront msg="cache hit ratio dropped" ratio=0.21
+ts=2026-03-30T11:32:02.262Z level=warn source=cloudfront msg="cache hit ratio dropped" ratio=0.21
+10.42.10.76 - - [30/Mar/2026:17:02:15 +0530] "GET /images/p/20953103_800.webp HTTP/2.0" 200 91822 "https://www.kartly.in/" "Mozilla/5.0" x-cache=Miss from cloudfront origin_time=3.10
+2026-03-30T11:32:29.000Z INFO  [checkout-web] POST /api/checkout 200 159ms cart=89654979
+2026-03-30T11:33:21.000Z INFO  [checkout-web] POST /api/checkout 200 326ms cart=26602108
+2026-03-30T11:35:18.000Z INFO  [checkout-web] POST /api/checkout 200 243ms cart=24493837
+2026-03-30T11:35:59.000Z INFO  [checkout-web] POST /api/checkout 200 276ms cart=47772659
+2026-03-30T11:37:20.000Z INFO  [checkout-web] POST /api/checkout 200 77ms cart=74293052
+2026-03-30T11:38:03.000Z INFO  [checkout-web] POST /api/checkout 200 260ms cart=90486612
+2026-03-30T11:39:08.000Z INFO  [checkout-web] POST /api/checkout 200 59ms cart=86744091
+2026-03-30T11:40:36.000Z INFO  [checkout-web] POST /api/checkout 200 97ms cart=31172795
+2026-03-30T11:42:07.000Z INFO  [checkout-web] POST /api/checkout 200 230ms cart=32064227
+2026-03-30T11:43:33.000Z INFO  [checkout-web] POST /api/checkout 200 362ms cart=43946475
+2026-03-30T11:45:10.000Z INFO  [checkout-web] POST /api/checkout 200 262ms cart=80105074
+2026-03-30T11:46:37.000Z INFO  [checkout-web] POST /api/checkout 200 81ms cart=86674087
+2026-03-30T11:47:57.000Z INFO  [checkout-web] POST /api/checkout 200 161ms cart=49155646

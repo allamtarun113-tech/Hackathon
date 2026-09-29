@@ -1,0 +1,81 @@
+2026-09-29 02:01:00.000  INFO 1 --- [scheduling-1] c.k.inventory.sync.StockSyncJob          : stock-sync-job started partners=14 mode=FULL
+2026-09-29 02:01:22.000  INFO 1 --- [http-nio-8080-exec-118] c.k.inventory.api.ReservationController  : Reserved sku=SKU-52963657 qty=1 latencyMs=284
+2026-09-29 02:02:02.642  INFO 1 --- [http-nio-8080-exec-90] c.k.inventory.api.ReservationController  : Reserved sku=SKU-40904947 qty=1 latencyMs=100
+2026-09-29 02:03:13.006  INFO 1 --- [http-nio-8080-exec-16] c.k.inventory.api.ReservationController  : Reserved sku=SKU-50693173 qty=1 latencyMs=324
+2026-09-29 02:04:05.133  INFO 1 --- [http-nio-8080-exec-65] c.k.inventory.api.ReservationController  : Reserved sku=SKU-56384958 qty=1 latencyMs=176
+2026-09-29 02:04:53.017  INFO 1 --- [http-nio-8080-exec-35] c.k.inventory.api.ReservationController  : Reserved sku=SKU-56587869 qty=1 latencyMs=233
+2026-09-29 02:05:21.441  INFO 1 --- [http-nio-8080-exec-135] c.k.inventory.api.ReservationController  : Reserved sku=SKU-42450551 qty=1 latencyMs=375
+2026-09-29 02:06:01.524  INFO 1 --- [http-nio-8080-exec-16] c.k.inventory.api.ReservationController  : Reserved sku=SKU-67852106 qty=1 latencyMs=274
+2026-09-29 02:06:45.461  INFO 1 --- [http-nio-8080-exec-94] c.k.inventory.api.ReservationController  : Reserved sku=SKU-41638846 qty=1 latencyMs=356
+2026-09-29 02:07:33.628  INFO 1 --- [http-nio-8080-exec-176] c.k.inventory.api.ReservationController  : Reserved sku=SKU-75553655 qty=1 latencyMs=58
+2026-09-29 02:08:18.868  INFO 1 --- [http-nio-8080-exec-179] c.k.inventory.api.ReservationController  : Reserved sku=SKU-78455107 qty=1 latencyMs=327
+2026-09-29 02:09:14.661  INFO 1 --- [http-nio-8080-exec-99] c.k.inventory.api.ReservationController  : Reserved sku=SKU-44487307 qty=1 latencyMs=258
+2026-09-29 02:10:13.701  INFO 1 --- [http-nio-8080-exec-126] c.k.inventory.api.ReservationController  : Reserved sku=SKU-76098604 qty=1 latencyMs=158
+2026-09-29 02:11:08.355  INFO 1 --- [http-nio-8080-exec-184] c.k.inventory.api.ReservationController  : Reserved sku=SKU-45690480 qty=1 latencyMs=314
+2026-09-29 02:12:08.568  INFO 1 --- [http-nio-8080-exec-116] c.k.inventory.api.ReservationController  : Reserved sku=SKU-10908740 qty=1 latencyMs=284
+2026-09-29 02:12:38.902  INFO 1 --- [http-nio-8080-exec-116] c.k.inventory.api.ReservationController  : Reserved sku=SKU-98009372 qty=1 latencyMs=258
+2026-09-29 02:13:23.504  INFO 1 --- [http-nio-8080-exec-97] c.k.inventory.api.ReservationController  : Reserved sku=SKU-11834245 qty=1 latencyMs=87
+2026-09-29 02:14:28.278  INFO 1 --- [http-nio-8080-exec-108] c.k.inventory.api.ReservationController  : Reserved sku=SKU-55907865 qty=1 latencyMs=123
+2026-09-29 02:15:03.545  INFO 1 --- [http-nio-8080-exec-115] c.k.inventory.api.ReservationController  : Reserved sku=SKU-38096172 qty=1 latencyMs=74
+2026-09-29 02:16:11.809  INFO 1 --- [http-nio-8080-exec-194] c.k.inventory.api.ReservationController  : Reserved sku=SKU-28748031 qty=1 latencyMs=251
+2026-09-29 02:17:06.307  WARN 1 --- [http-nio-8080-exec-191] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Connection is not available, request timed out after 30000ms.
+2026-09-29 02:17:14.883 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=40, active=40, idle=0, waiting=164)
+2026-09-29 02:17:21.059 ERROR 1 --- [http-nio-8080-exec-34] c.k.inventory.api.ReservationController  : Reservation failed sku=SKU-88392262 reason=DB_UNAVAILABLE traceId=a9bb66759289ab19
+2026-09-29 02:17:26.242  INFO 1 --- [stock-sync-4] c.k.inventory.sync.StockSyncJob          : stock-sync-job partner=warehouse-1 upserted 4742782 rows (connection held)
+2026-09-29 02:17:33.704  INFO 1 --- [stock-sync-2] c.k.inventory.sync.StockSyncJob          : stock-sync-job partner=warehouse-1 upserted 3672191 rows (connection held)
+2026-09-29 02:17:44.108  WARN 1 --- [http-nio-8080-exec-17] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Connection is not available, request timed out after 30000ms.
+2026-09-29 02:17:48.492  INFO 1 --- [stock-sync-4] c.k.inventory.sync.StockSyncJob          : stock-sync-job partner=warehouse-0 upserted 1869562 rows (connection held)
+2026-09-29 02:17:58.363 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=40, active=40, idle=0, waiting=164)
+2026-09-29 02:18:03.857 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=40, active=40, idle=0, waiting=164)
+2026-09-29 02:18:09.225 ERROR 1 --- [http-nio-8080-exec-11] c.k.inventory.api.ReservationController  : Reservation failed sku=SKU-59643832 reason=DB_UNAVAILABLE traceId=558b45cf0accfc9a
+2026-09-29 02:18:18.209 ERROR 1 --- [http-nio-8080-exec-132] c.k.inventory.api.ReservationController  : Reservation failed sku=SKU-52761428 reason=DB_UNAVAILABLE traceId=7c86b31b457c4dcf
+2026-09-29 02:18:28.500 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=40, active=40, idle=0, waiting=164)
+2026-09-29 02:18:32.157 ERROR 1 --- [http-nio-8080-exec-68] c.k.inventory.api.ReservationController  : Reservation failed sku=SKU-28227013 reason=DB_UNAVAILABLE traceId=0ffd28fdbf35fc08
+2026-09-29 02:18:35.892 ERROR 1 --- [http-nio-8080-exec-22] c.k.inventory.api.ReservationController  : Reservation failed sku=SKU-38375942 reason=DB_UNAVAILABLE traceId=2b38c7436732ca82
+2026-09-29 02:18:42.808  WARN 1 --- [http-nio-8080-exec-58] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Connection is not available, request timed out after 30000ms.
+2026-09-29 02:18:50.163  WARN 1 --- [http-nio-8080-exec-163] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Connection is not available, request timed out after 30000ms.
+2026-09-29 02:18:54.926 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=40, active=40, idle=0, waiting=164)
+2026-09-29 02:18:58.536 ERROR 1 --- [http-nio-8080-exec-66] c.k.inventory.api.ReservationController  : Reservation failed sku=SKU-31403780 reason=DB_UNAVAILABLE traceId=4d5dfa202c26cbec
+2026-09-29 02:19:07.509 ERROR 1 --- [http-nio-8080-exec-48] c.k.inventory.api.ReservationController  : Reservation failed sku=SKU-90062085 reason=DB_UNAVAILABLE traceId=d0f895975f28cb3d
+2026-09-29 02:19:17.460  WARN 1 --- [http-nio-8080-exec-131] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Connection is not available, request timed out after 30000ms.
+2026-09-29 02:19:21.799  INFO 1 --- [stock-sync-2] c.k.inventory.sync.StockSyncJob          : stock-sync-job partner=warehouse-1 upserted 4845627 rows (connection held)
+2026-09-29 02:19:28.662 ERROR 1 --- [http-nio-8080-exec-29] c.k.inventory.api.ReservationController  : Reservation failed sku=SKU-55338582 reason=DB_UNAVAILABLE traceId=50d4e4e6ef08de41
+2026-09-29 02:19:36.511  INFO 1 --- [stock-sync-9] c.k.inventory.sync.StockSyncJob          : stock-sync-job partner=warehouse-4 upserted 1524153 rows (connection held)
+2026-09-29 02:19:42.464  WARN 1 --- [http-nio-8080-exec-75] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Connection is not available, request timed out after 30000ms.
+2026-09-29 02:19:51.864 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=40, active=40, idle=0, waiting=164)
+2026-09-29 02:19:57.363 ERROR 1 --- [http-nio-8080-exec-69] c.k.inventory.api.ReservationController  : Reservation failed sku=SKU-82921362 reason=DB_UNAVAILABLE traceId=3fa8ac69d5003aea
+2026-09-29 02:20:00.982 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=40, active=40, idle=0, waiting=164)
+2026-09-29 02:20:10.448 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=40, active=40, idle=0, waiting=164)
+2026-09-29 02:20:18.840 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=40, active=40, idle=0, waiting=164)
+2026-09-29 02:20:23.027 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=40, active=40, idle=0, waiting=164)
+2026-09-29 02:20:31.539 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=40, active=40, idle=0, waiting=164)
+2026-09-29 02:20:38.417 ERROR 1 --- [http-nio-8080-exec-72] c.k.inventory.api.ReservationController  : Reservation failed sku=SKU-19855520 reason=DB_UNAVAILABLE traceId=180dd26c79b7ef34
+2026-09-29 02:20:42.198 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=40, active=40, idle=0, waiting=164)
+2026-09-29 02:20:46.623  INFO 1 --- [stock-sync-10] c.k.inventory.sync.StockSyncJob          : stock-sync-job partner=warehouse-0 upserted 3175429 rows (connection held)
+2026-09-29 02:20:52.154  INFO 1 --- [stock-sync-7] c.k.inventory.sync.StockSyncJob          : stock-sync-job partner=warehouse-6 upserted 6683057 rows (connection held)
+2026-09-29 02:21:02.013 ERROR 1 --- [http-nio-8080-exec-140] c.k.inventory.api.ReservationController  : Reservation failed sku=SKU-90583503 reason=DB_UNAVAILABLE traceId=d5ebce1a9f76f86f
+2026-09-29 02:21:05.171 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=40, active=40, idle=0, waiting=164)
+2026-09-29 02:21:08.769 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=40, active=40, idle=0, waiting=164)
+2026-09-29 02:21:13.625 ERROR 1 --- [http-nio-8080-exec-127] c.k.inventory.api.ReservationController  : Reservation failed sku=SKU-70126185 reason=DB_UNAVAILABLE traceId=cde129eb85b6987f
+2026-09-29 02:21:16.809 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=40, active=40, idle=0, waiting=164)
+2026-09-29 02:21:24.033 ERROR 1 --- [http-nio-8080-exec-5] c.k.inventory.api.ReservationController  : Reservation failed sku=SKU-53562796 reason=DB_UNAVAILABLE traceId=c518df4a82b82d0b
+2026-09-29 02:21:32.347 ERROR 1 --- [http-nio-8080-exec-35] c.k.inventory.api.ReservationController  : Reservation failed sku=SKU-46391159 reason=DB_UNAVAILABLE traceId=be7aec10b636e0c5
+2026-09-29 02:21:39.408 ERROR 1 --- [http-nio-8080-exec-200] c.k.inventory.api.ReservationController  : Reservation failed sku=SKU-46406722 reason=DB_UNAVAILABLE traceId=2ef0cdc736d9fd50
+2026-09-29 02:21:48.703  WARN 1 --- [http-nio-8080-exec-195] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Connection is not available, request timed out after 30000ms.
+2026-09-29 02:21:55.585  INFO 1 --- [stock-sync-3] c.k.inventory.sync.StockSyncJob          : stock-sync-job partner=warehouse-8 upserted 4743828 rows (connection held)
+2026-09-29 02:22:04.508 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=40, active=40, idle=0, waiting=164)
+2026-09-29 02:22:11.993 ERROR 1 --- [http-nio-8080-exec-122] c.k.inventory.api.ReservationController  : Reservation failed sku=SKU-41319861 reason=DB_UNAVAILABLE traceId=9517249200f4f292
+2026-09-29 02:22:21.422  WARN 1 --- [http-nio-8080-exec-184] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Connection is not available, request timed out after 30000ms.
+2026-09-29 02:22:32.311  WARN 1 --- [http-nio-8080-exec-81] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Connection is not available, request timed out after 30000ms.
+2026-09-29 02:22:38.482  WARN 1 --- [http-nio-8080-exec-160] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Connection is not available, request timed out after 30000ms.
+2026-09-29 02:22:43.000  WARN 1 --- [http-nio-8080-exec-91] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Connection is not available, request timed out after 30000ms.
+2026-09-29 02:22:50.797 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=40, active=40, idle=0, waiting=164)
+2026-09-29 02:22:54.303  INFO 1 --- [stock-sync-1] c.k.inventory.sync.StockSyncJob          : stock-sync-job partner=warehouse-1 upserted 6945311 rows (connection held)
+2026-09-29 02:23:05.038  INFO 1 --- [stock-sync-4] c.k.inventory.sync.StockSyncJob          : stock-sync-job partner=warehouse-1 upserted 1308739 rows (connection held)
+2026-09-29 02:23:13.517 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=40, active=40, idle=0, waiting=164)
+2026-09-29 02:23:19.493 ERROR 1 --- [http-nio-8080-exec-53] c.k.inventory.api.ReservationController  : Reservation failed sku=SKU-70002562 reason=DB_UNAVAILABLE traceId=ee9e51c9c6e1c015
+2026-09-29 02:23:27.681 ERROR 1 --- [http-nio-8080-exec-26] c.k.inventory.api.ReservationController  : Reservation failed sku=SKU-39841085 reason=DB_UNAVAILABLE traceId=f697e915ad477550
+2026-09-29 02:23:38.240  INFO 1 --- [stock-sync-1] c.k.inventory.sync.StockSyncJob          : stock-sync-job partner=warehouse-7 upserted 4085811 rows (connection held)
+2026-09-29 02:23:41.591 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=40, active=40, idle=0, waiting=164)
+2026-09-29 02:23:50.518  WARN 1 --- [http-nio-8080-exec-131] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Connection is not available, request timed out after 30000ms.
+2026-09-29 02:23:54.762 ERROR 1 --- [http-nio-8080-exec-153] c.k.inventory.api.ReservationController  : Reservation failed sku=SKU-90297714 reason=DB_UNAVAILABLE traceId=106142524bcf0b49

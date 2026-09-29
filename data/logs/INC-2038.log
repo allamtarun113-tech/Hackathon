@@ -1,0 +1,114 @@
+2026-07-17 14:15:00.000  INFO 1 --- [http-nio-8080-exec-75] c.k.inventory.api.StockController        : GET /v1/stock/SKU-20783575 200 latencyMs=159
+2026-07-17 14:15:49.294  INFO 1 --- [http-nio-8080-exec-108] c.k.inventory.api.StockController        : GET /v1/stock/SKU-65087794 200 latencyMs=203
+2026-07-17 14:16:29.134  INFO 1 --- [http-nio-8080-exec-107] c.k.inventory.api.StockController        : GET /v1/stock/SKU-90174422 200 latencyMs=266
+2026-07-17 14:16:54.420  INFO 1 --- [http-nio-8080-exec-68] c.k.inventory.api.StockController        : GET /v1/stock/SKU-95174205 200 latencyMs=277
+2026-07-17 14:17:44.985  INFO 1 --- [http-nio-8080-exec-47] c.k.inventory.api.StockController        : GET /v1/stock/SKU-28857069 200 latencyMs=208
+2026-07-17 14:18:33.774  INFO 1 --- [http-nio-8080-exec-159] c.k.inventory.api.StockController        : GET /v1/stock/SKU-27973841 200 latencyMs=375
+2026-07-17 14:19:18.044  INFO 1 --- [http-nio-8080-exec-136] c.k.inventory.api.StockController        : GET /v1/stock/SKU-81959741 200 latencyMs=286
+2026-07-17 14:20:28.180  INFO 1 --- [http-nio-8080-exec-63] c.k.inventory.api.StockController        : GET /v1/stock/SKU-26315200 200 latencyMs=298
+2026-07-17 14:20:56.893  INFO 1 --- [http-nio-8080-exec-159] c.k.inventory.api.StockController        : GET /v1/stock/SKU-98511378 200 latencyMs=379
+2026-07-17 14:21:40.758  INFO 1 --- [http-nio-8080-exec-38] c.k.inventory.api.StockController        : GET /v1/stock/SKU-98057798 200 latencyMs=366
+2026-07-17 14:22:44.764  INFO 1 --- [http-nio-8080-exec-12] c.k.inventory.api.StockController        : GET /v1/stock/SKU-89428315 200 latencyMs=339
+2026-07-17 14:23:36.824  INFO 1 --- [http-nio-8080-exec-69] c.k.inventory.api.StockController        : GET /v1/stock/SKU-86385821 200 latencyMs=369
+2026-07-17 14:24:40.387  INFO 1 --- [http-nio-8080-exec-170] c.k.inventory.api.StockController        : GET /v1/stock/SKU-58361235 200 latencyMs=204
+2026-07-17 14:25:45.465  INFO 1 --- [http-nio-8080-exec-67] c.k.inventory.api.StockController        : GET /v1/stock/SKU-66798444 200 latencyMs=316
+2026-07-17 14:26:43.976  INFO 1 --- [http-nio-8080-exec-134] c.k.inventory.api.StockController        : GET /v1/stock/SKU-48678920 200 latencyMs=377
+2026-07-17 14:27:39.010  INFO 1 --- [http-nio-8080-exec-160] c.k.inventory.api.StockController        : GET /v1/stock/SKU-20734582 200 latencyMs=46
+2026-07-17 14:28:44.550  INFO 1 --- [http-nio-8080-exec-145] c.k.inventory.api.StockController        : GET /v1/stock/SKU-37093402 200 latencyMs=220
+2026-07-17 14:29:35.402  INFO 1 --- [http-nio-8080-exec-93] c.k.inventory.api.StockController        : GET /v1/stock/SKU-48048480 200 latencyMs=115
+2026-07-17 14:30:11.616  INFO 1 --- [http-nio-8080-exec-159] c.k.inventory.api.StockController        : GET /v1/stock/SKU-96401749 200 latencyMs=194
+2026-07-17 14:30:49.862  INFO 1 --- [http-nio-8080-exec-56] c.k.inventory.api.StockController        : GET /v1/stock/SKU-13988951 200 latencyMs=316
+2026-07-17 14:31:22.058 ERROR 1 --- [http-nio-8080-exec-3] c.k.inventory.partner.ShiprocketWebhook  : Failed to parse webhook: Unrecognized field "sku_code" (class ShiprocketEvent), not marked as ignorable
+2026-07-17 14:31:54.712  WARN 1 --- [http-nio-8080-exec-75] c.k.inventory.partner.ShiprocketWebhook  : Returning 400 to partner=shiprocket
+2026-07-17 14:32:17.322  WARN 1 --- [http-nio-8080-exec-33] c.k.inventory.partner.ShiprocketWebhook  : Returning 400 to partner=shiprocket
+2026-07-17 14:32:38.732  WARN 1 --- [http-nio-8080-exec-165] c.k.inventory.partner.ShiprocketWebhook  : Returning 400 to partner=shiprocket
+2026-07-17 14:33:10.407 ERROR 1 --- [http-nio-8080-exec-22] c.k.inventory.partner.ShiprocketWebhook  : Failed to parse webhook: Unrecognized field "sku_code" (class ShiprocketEvent), not marked as ignorable
+2026-07-17 14:33:36.249 ERROR 1 --- [http-nio-8080-exec-2] c.k.inventory.partner.ShiprocketWebhook  : Failed to parse webhook: Unrecognized field "sku_code" (class ShiprocketEvent), not marked as ignorable
+2026-07-17 14:34:13.012  WARN 1 --- [http-nio-8080-exec-145] c.k.inventory.partner.ShiprocketWebhook  : Returning 400 to partner=shiprocket
+2026-07-17 14:34:32.839 ERROR 1 --- [http-nio-8080-exec-110] c.k.inventory.partner.ShiprocketWebhook  : Failed to parse webhook: Unrecognized field "sku_code" (class ShiprocketEvent), not marked as ignorable
+2026-07-17 14:34:49.057  WARN 1 --- [http-nio-8080-exec-96] c.k.inventory.partner.ShiprocketWebhook  : Returning 400 to partner=shiprocket
+2026-07-17 14:35:23.449  WARN 1 --- [http-nio-8080-exec-94] c.k.inventory.partner.ShiprocketWebhook  : Returning 400 to partner=shiprocket
+2026-07-17 14:35:41.404 ERROR 1 --- [http-nio-8080-exec-93] c.k.inventory.partner.ShiprocketWebhook  : Failed to parse webhook: Unrecognized field "sku_code" (class ShiprocketEvent), not marked as ignorable
+2026-07-17 14:36:06.006  WARN 1 --- [http-nio-8080-exec-77] c.k.inventory.partner.ShiprocketWebhook  : Returning 400 to partner=shiprocket
+2026-07-17 14:36:37.951  WARN 1 --- [http-nio-8080-exec-83] c.k.inventory.partner.ShiprocketWebhook  : Returning 400 to partner=shiprocket
+2026-07-17 14:37:03.992  WARN 1 --- [http-nio-8080-exec-72] c.k.inventory.partner.ShiprocketWebhook  : Returning 400 to partner=shiprocket
+2026-07-17 14:37:30.588 ERROR 1 --- [http-nio-8080-exec-109] c.k.inventory.partner.ShiprocketWebhook  : Failed to parse webhook: Unrecognized field "sku_code" (class ShiprocketEvent), not marked as ignorable
+2026-07-17 14:38:01.434  WARN 1 --- [http-nio-8080-exec-194] c.k.inventory.partner.ShiprocketWebhook  : Returning 400 to partner=shiprocket
+2026-07-17 14:38:24.155  WARN 1 --- [http-nio-8080-exec-48] c.k.inventory.partner.ShiprocketWebhook  : Returning 400 to partner=shiprocket
+2026-07-17 14:38:46.120  WARN 1 --- [http-nio-8080-exec-95] c.k.inventory.partner.ShiprocketWebhook  : Returning 400 to partner=shiprocket
+2026-07-17 14:39:07.014  WARN 1 --- [http-nio-8080-exec-4] c.k.inventory.partner.ShiprocketWebhook  : Returning 400 to partner=shiprocket
+2026-07-17 14:39:37.967  WARN 1 --- [http-nio-8080-exec-17] c.k.inventory.partner.ShiprocketWebhook  : Returning 400 to partner=shiprocket
+2026-07-17 14:40:07.468 ERROR 1 --- [http-nio-8080-exec-43] c.k.inventory.partner.ShiprocketWebhook  : Failed to parse webhook: Unrecognized field "sku_code" (class ShiprocketEvent), not marked as ignorable
+2026-07-17 14:40:38.058 ERROR 1 --- [http-nio-8080-exec-118] c.k.inventory.partner.ShiprocketWebhook  : Failed to parse webhook: Unrecognized field "sku_code" (class ShiprocketEvent), not marked as ignorable
+2026-07-17 14:41:01.726 ERROR 1 --- [http-nio-8080-exec-39] c.k.inventory.partner.ShiprocketWebhook  : Failed to parse webhook: Unrecognized field "sku_code" (class ShiprocketEvent), not marked as ignorable
+2026-07-17 14:41:37.741  WARN 1 --- [http-nio-8080-exec-104] c.k.inventory.partner.ShiprocketWebhook  : Returning 400 to partner=shiprocket
+2026-07-17 14:41:59.951 ERROR 1 --- [http-nio-8080-exec-188] c.k.inventory.partner.ShiprocketWebhook  : Failed to parse webhook: Unrecognized field "sku_code" (class ShiprocketEvent), not marked as ignorable
+2026-07-17 14:42:28.022 ERROR 1 --- [http-nio-8080-exec-105] c.k.inventory.partner.ShiprocketWebhook  : Failed to parse webhook: Unrecognized field "sku_code" (class ShiprocketEvent), not marked as ignorable
+2026-07-17 14:42:49.249 ERROR 1 --- [http-nio-8080-exec-48] c.k.inventory.partner.ShiprocketWebhook  : Failed to parse webhook: Unrecognized field "sku_code" (class ShiprocketEvent), not marked as ignorable
+2026-07-17 14:43:08.715  WARN 1 --- [http-nio-8080-exec-130] c.k.inventory.partner.ShiprocketWebhook  : Returning 400 to partner=shiprocket
+2026-07-17 14:43:42.449 ERROR 1 --- [http-nio-8080-exec-184] c.k.inventory.partner.ShiprocketWebhook  : Failed to parse webhook: Unrecognized field "sku_code" (class ShiprocketEvent), not marked as ignorable
+2026-07-17 14:44:07.477 ERROR 1 --- [http-nio-8080-exec-101] c.k.inventory.partner.ShiprocketWebhook  : Failed to parse webhook: Unrecognized field "sku_code" (class ShiprocketEvent), not marked as ignorable
+2026-07-17 14:44:34.379 ERROR 1 --- [http-nio-8080-exec-93] c.k.inventory.partner.ShiprocketWebhook  : Failed to parse webhook: Unrecognized field "sku_code" (class ShiprocketEvent), not marked as ignorable
+2026-07-17 14:45:07.887 ERROR 1 --- [http-nio-8080-exec-147] c.k.inventory.partner.ShiprocketWebhook  : Failed to parse webhook: Unrecognized field "sku_code" (class ShiprocketEvent), not marked as ignorable
+2026-07-17 14:45:38.188 ERROR 1 --- [http-nio-8080-exec-156] c.k.inventory.partner.ShiprocketWebhook  : Failed to parse webhook: Unrecognized field "sku_code" (class ShiprocketEvent), not marked as ignorable
+2026-07-17 14:45:58.611 ERROR 1 --- [http-nio-8080-exec-81] c.k.inventory.partner.ShiprocketWebhook  : Failed to parse webhook: Unrecognized field "sku_code" (class ShiprocketEvent), not marked as ignorable
+2026-07-17 14:46:30.056 ERROR 1 --- [http-nio-8080-exec-82] c.k.inventory.partner.ShiprocketWebhook  : Failed to parse webhook: Unrecognized field "sku_code" (class ShiprocketEvent), not marked as ignorable
+2026-07-17 14:47:02.442  WARN 1 --- [http-nio-8080-exec-87] c.k.inventory.partner.ShiprocketWebhook  : Returning 400 to partner=shiprocket
+2026-07-17 14:47:35.383 ERROR 1 --- [http-nio-8080-exec-127] c.k.inventory.partner.ShiprocketWebhook  : Failed to parse webhook: Unrecognized field "sku_code" (class ShiprocketEvent), not marked as ignorable
+2026-07-17 14:48:07.433 ERROR 1 --- [http-nio-8080-exec-117] c.k.inventory.partner.ShiprocketWebhook  : Failed to parse webhook: Unrecognized field "sku_code" (class ShiprocketEvent), not marked as ignorable
+2026-07-17 14:48:31.186  WARN 1 --- [http-nio-8080-exec-129] c.k.inventory.partner.ShiprocketWebhook  : Returning 400 to partner=shiprocket
+2026-07-17 14:48:49.973  WARN 1 --- [http-nio-8080-exec-83] c.k.inventory.partner.ShiprocketWebhook  : Returning 400 to partner=shiprocket
+2026-07-17 14:49:21.838 ERROR 1 --- [http-nio-8080-exec-151] c.k.inventory.partner.ShiprocketWebhook  : Failed to parse webhook: Unrecognized field "sku_code" (class ShiprocketEvent), not marked as ignorable
+2026-07-17 14:49:38.885 ERROR 1 --- [http-nio-8080-exec-200] c.k.inventory.partner.ShiprocketWebhook  : Failed to parse webhook: Unrecognized field "sku_code" (class ShiprocketEvent), not marked as ignorable
+2026-07-17 14:50:00.343  WARN 1 --- [http-nio-8080-exec-96] c.k.inventory.partner.ShiprocketWebhook  : Returning 400 to partner=shiprocket
+2026-07-17 14:50:21.893  WARN 1 --- [http-nio-8080-exec-180] c.k.inventory.partner.ShiprocketWebhook  : Returning 400 to partner=shiprocket
+2026-07-17 14:50:39.313  WARN 1 --- [http-nio-8080-exec-86] c.k.inventory.partner.ShiprocketWebhook  : Returning 400 to partner=shiprocket
+2026-07-17 14:50:59.437  WARN 1 --- [http-nio-8080-exec-142] c.k.inventory.partner.ShiprocketWebhook  : Returning 400 to partner=shiprocket
+2026-07-17 14:51:24.078  WARN 1 --- [http-nio-8080-exec-194] c.k.inventory.partner.ShiprocketWebhook  : Returning 400 to partner=shiprocket
+2026-07-17 14:51:47.954 ERROR 1 --- [http-nio-8080-exec-185] c.k.inventory.partner.ShiprocketWebhook  : Failed to parse webhook: Unrecognized field "sku_code" (class ShiprocketEvent), not marked as ignorable
+2026-07-17 14:52:16.821  WARN 1 --- [http-nio-8080-exec-40] c.k.inventory.partner.ShiprocketWebhook  : Returning 400 to partner=shiprocket
+2026-07-17 14:52:51.875  WARN 1 --- [http-nio-8080-exec-48] c.k.inventory.partner.ShiprocketWebhook  : Returning 400 to partner=shiprocket
+2026-07-17 14:53:26.893 ERROR 1 --- [http-nio-8080-exec-39] c.k.inventory.partner.ShiprocketWebhook  : Failed to parse webhook: Unrecognized field "sku_code" (class ShiprocketEvent), not marked as ignorable
+2026-07-17 14:53:48.972  WARN 1 --- [http-nio-8080-exec-86] c.k.inventory.partner.ShiprocketWebhook  : Returning 400 to partner=shiprocket
+2026-07-17 14:54:15.965  WARN 1 --- [http-nio-8080-exec-122] c.k.inventory.partner.ShiprocketWebhook  : Returning 400 to partner=shiprocket
+2026-07-17 14:54:42.217 ERROR 1 --- [http-nio-8080-exec-33] c.k.inventory.partner.ShiprocketWebhook  : Failed to parse webhook: Unrecognized field "sku_code" (class ShiprocketEvent), not marked as ignorable
+2026-07-17 14:55:10.225  WARN 1 --- [http-nio-8080-exec-41] c.k.inventory.partner.ShiprocketWebhook  : Returning 400 to partner=shiprocket
+2026-07-17 14:55:44.294 ERROR 1 --- [http-nio-8080-exec-60] c.k.inventory.partner.ShiprocketWebhook  : Failed to parse webhook: Unrecognized field "sku_code" (class ShiprocketEvent), not marked as ignorable
+2026-07-17 14:56:16.852 ERROR 1 --- [http-nio-8080-exec-163] c.k.inventory.partner.ShiprocketWebhook  : Failed to parse webhook: Unrecognized field "sku_code" (class ShiprocketEvent), not marked as ignorable
+2026-07-17 14:56:36.034 ERROR 1 --- [http-nio-8080-exec-18] c.k.inventory.partner.ShiprocketWebhook  : Failed to parse webhook: Unrecognized field "sku_code" (class ShiprocketEvent), not marked as ignorable
+2026-07-17 14:57:00.924  WARN 1 --- [http-nio-8080-exec-8] c.k.inventory.partner.ShiprocketWebhook  : Returning 400 to partner=shiprocket
+2026-07-17 14:57:24.866  WARN 1 --- [http-nio-8080-exec-74] c.k.inventory.partner.ShiprocketWebhook  : Returning 400 to partner=shiprocket
+2026-07-17 14:57:46.594 ERROR 1 --- [http-nio-8080-exec-99] c.k.inventory.partner.ShiprocketWebhook  : Failed to parse webhook: Unrecognized field "sku_code" (class ShiprocketEvent), not marked as ignorable
+2026-07-17 14:58:17.814  WARN 1 --- [http-nio-8080-exec-198] c.k.inventory.partner.ShiprocketWebhook  : Returning 400 to partner=shiprocket
+2026-07-17 14:58:41.622 ERROR 1 --- [http-nio-8080-exec-128] c.k.inventory.partner.ShiprocketWebhook  : Failed to parse webhook: Unrecognized field "sku_code" (class ShiprocketEvent), not marked as ignorable
+2026-07-17 14:59:07.082 ERROR 1 --- [http-nio-8080-exec-64] c.k.inventory.partner.ShiprocketWebhook  : Failed to parse webhook: Unrecognized field "sku_code" (class ShiprocketEvent), not marked as ignorable
+2026-07-17 14:59:32.230  WARN 1 --- [http-nio-8080-exec-24] c.k.inventory.partner.ShiprocketWebhook  : Returning 400 to partner=shiprocket
+2026-07-17 14:59:52.705  WARN 1 --- [http-nio-8080-exec-4] c.k.inventory.partner.ShiprocketWebhook  : Returning 400 to partner=shiprocket
+2026-07-17 15:00:14.336  WARN 1 --- [http-nio-8080-exec-85] c.k.inventory.partner.ShiprocketWebhook  : Returning 400 to partner=shiprocket
+2026-07-17 15:00:50.127 ERROR 1 --- [http-nio-8080-exec-12] c.k.inventory.partner.ShiprocketWebhook  : Failed to parse webhook: Unrecognized field "sku_code" (class ShiprocketEvent), not marked as ignorable
+2026-07-17 15:01:13.169 ERROR 1 --- [http-nio-8080-exec-167] c.k.inventory.partner.ShiprocketWebhook  : Failed to parse webhook: Unrecognized field "sku_code" (class ShiprocketEvent), not marked as ignorable
+2026-07-17 15:01:39.441 ERROR 1 --- [http-nio-8080-exec-142] c.k.inventory.partner.ShiprocketWebhook  : Failed to parse webhook: Unrecognized field "sku_code" (class ShiprocketEvent), not marked as ignorable
+2026-07-17 15:02:07.916 ERROR 1 --- [http-nio-8080-exec-103] c.k.inventory.partner.ShiprocketWebhook  : Failed to parse webhook: Unrecognized field "sku_code" (class ShiprocketEvent), not marked as ignorable
+2026-07-17 15:02:25.189 ERROR 1 --- [http-nio-8080-exec-189] c.k.inventory.partner.ShiprocketWebhook  : Failed to parse webhook: Unrecognized field "sku_code" (class ShiprocketEvent), not marked as ignorable
+2026-07-17 15:02:42.026  WARN 1 --- [http-nio-8080-exec-6] c.k.inventory.partner.ShiprocketWebhook  : Returning 400 to partner=shiprocket
+2026-07-17 15:03:07.262 ERROR 1 --- [http-nio-8080-exec-189] c.k.inventory.partner.ShiprocketWebhook  : Failed to parse webhook: Unrecognized field "sku_code" (class ShiprocketEvent), not marked as ignorable
+2026-07-17 15:03:28.288 ERROR 1 --- [http-nio-8080-exec-93] c.k.inventory.partner.ShiprocketWebhook  : Failed to parse webhook: Unrecognized field "sku_code" (class ShiprocketEvent), not marked as ignorable
+2026-07-17 15:03:53.901 ERROR 1 --- [http-nio-8080-exec-73] c.k.inventory.partner.ShiprocketWebhook  : Failed to parse webhook: Unrecognized field "sku_code" (class ShiprocketEvent), not marked as ignorable
+2026-07-17 15:04:08.000  INFO 1 --- [http-nio-8080-exec-140] c.k.inventory.api.StockController        : GET /v1/stock/SKU-16042387 200 latencyMs=223
+2026-07-17 15:05:08.000  INFO 1 --- [http-nio-8080-exec-26] c.k.inventory.api.StockController        : GET /v1/stock/SKU-25643334 200 latencyMs=124
+2026-07-17 15:06:19.000  INFO 1 --- [http-nio-8080-exec-127] c.k.inventory.api.StockController        : GET /v1/stock/SKU-14824492 200 latencyMs=273
+2026-07-17 15:07:50.000  INFO 1 --- [http-nio-8080-exec-27] c.k.inventory.api.StockController        : GET /v1/stock/SKU-10888113 200 latencyMs=328
+2026-07-17 15:08:39.000  INFO 1 --- [http-nio-8080-exec-6] c.k.inventory.api.StockController        : GET /v1/stock/SKU-76697536 200 latencyMs=52
+2026-07-17 15:09:36.000  INFO 1 --- [http-nio-8080-exec-58] c.k.inventory.api.StockController        : GET /v1/stock/SKU-26471151 200 latencyMs=380
+2026-07-17 15:11:16.000  INFO 1 --- [http-nio-8080-exec-66] c.k.inventory.api.StockController        : GET /v1/stock/SKU-88823088 200 latencyMs=57
+2026-07-17 15:12:09.000  INFO 1 --- [http-nio-8080-exec-195] c.k.inventory.api.StockController        : GET /v1/stock/SKU-22849043 200 latencyMs=191
+2026-07-17 15:13:23.000  INFO 1 --- [http-nio-8080-exec-39] c.k.inventory.api.StockController        : GET /v1/stock/SKU-55825477 200 latencyMs=151
+2026-07-17 15:14:12.000  INFO 1 --- [http-nio-8080-exec-5] c.k.inventory.api.StockController        : GET /v1/stock/SKU-73633552 200 latencyMs=246
+2026-07-17 15:15:28.000  INFO 1 --- [http-nio-8080-exec-31] c.k.inventory.api.StockController        : GET /v1/stock/SKU-41815570 200 latencyMs=148
+2026-07-17 15:17:17.000  INFO 1 --- [http-nio-8080-exec-40] c.k.inventory.api.StockController        : GET /v1/stock/SKU-18610501 200 latencyMs=182
+2026-07-17 15:18:33.000  INFO 1 --- [http-nio-8080-exec-61] c.k.inventory.api.StockController        : GET /v1/stock/SKU-87404792 200 latencyMs=361
+2026-07-17 15:19:37.000  INFO 1 --- [http-nio-8080-exec-57] c.k.inventory.api.StockController        : GET /v1/stock/SKU-20275443 200 latencyMs=323
+2026-07-17 15:21:23.000  INFO 1 --- [http-nio-8080-exec-5] c.k.inventory.api.StockController        : GET /v1/stock/SKU-24975697 200 latencyMs=65
+2026-07-17 15:22:41.000  INFO 1 --- [http-nio-8080-exec-180] c.k.inventory.api.StockController        : GET /v1/stock/SKU-61423834 200 latencyMs=246
+2026-07-17 15:24:10.000  INFO 1 --- [http-nio-8080-exec-57] c.k.inventory.api.StockController        : GET /v1/stock/SKU-41296043 200 latencyMs=149
+2026-07-17 15:25:59.000  INFO 1 --- [http-nio-8080-exec-11] c.k.inventory.api.StockController        : GET /v1/stock/SKU-32342600 200 latencyMs=92

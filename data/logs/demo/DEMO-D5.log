@@ -1,0 +1,82 @@
+{"level":"info","ts":"2026-09-29T10:20:00.000Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"whatsapp","template":"order_shipped","user_id":"u_9551008"}
+{"level":"info","ts":"2026-09-29T10:20:25.942Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"whatsapp","template":"order_shipped","user_id":"u_1218853"}
+{"level":"info","ts":"2026-09-29T10:21:24.560Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"whatsapp","template":"order_shipped","user_id":"u_6706391"}
+{"level":"info","ts":"2026-09-29T10:22:09.840Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"whatsapp","template":"order_shipped","user_id":"u_5526120"}
+{"level":"info","ts":"2026-09-29T10:23:06.713Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"whatsapp","template":"order_shipped","user_id":"u_5571961"}
+{"level":"info","ts":"2026-09-29T10:23:47.130Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"whatsapp","template":"order_shipped","user_id":"u_4980162"}
+{"level":"info","ts":"2026-09-29T10:24:35.733Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"whatsapp","template":"order_shipped","user_id":"u_5173368"}
+{"level":"info","ts":"2026-09-29T10:25:04.643Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"whatsapp","template":"order_shipped","user_id":"u_6057317"}
+{"level":"info","ts":"2026-09-29T10:25:30.304Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"whatsapp","template":"order_shipped","user_id":"u_6132729"}
+{"level":"info","ts":"2026-09-29T10:26:34.480Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"whatsapp","template":"order_shipped","user_id":"u_3630898"}
+{"level":"info","ts":"2026-09-29T10:27:07.625Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"whatsapp","template":"order_shipped","user_id":"u_3813475"}
+{"level":"info","ts":"2026-09-29T10:27:57.372Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"whatsapp","template":"order_shipped","user_id":"u_9298851"}
+{"level":"info","ts":"2026-09-29T10:28:46.472Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"whatsapp","template":"order_shipped","user_id":"u_3934402"}
+{"level":"info","ts":"2026-09-29T10:29:30.418Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"whatsapp","template":"order_shipped","user_id":"u_5665055"}
+{"level":"info","ts":"2026-09-29T10:30:18.557Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"whatsapp","template":"order_shipped","user_id":"u_3316373"}
+{"level":"info","ts":"2026-09-29T10:31:21.580Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"whatsapp","template":"order_shipped","user_id":"u_3550649"}
+{"level":"info","ts":"2026-09-29T10:31:50.015Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"whatsapp","template":"order_shipped","user_id":"u_8239856"}
+{"level":"info","ts":"2026-09-29T10:32:33.801Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"whatsapp","template":"order_shipped","user_id":"u_1203845"}
+{"level":"info","ts":"2026-09-29T10:33:02.493Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"whatsapp","template":"order_shipped","user_id":"u_9979705"}
+{"level":"info","ts":"2026-09-29T10:33:42.591Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"whatsapp","template":"order_shipped","user_id":"u_6908651"}
+{"level":"info","ts":"2026-09-29T10:34:09.786Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"whatsapp","template":"order_shipped","user_id":"u_2225072"}
+{"level":"info","ts":"2026-09-29T10:34:48.133Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"whatsapp","template":"order_shipped","user_id":"u_5422783"}
+{"level":"info","ts":"2026-09-29T10:35:17.694Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"whatsapp","template":"order_shipped","user_id":"u_2671547"}
+{"level":"warn","ts":"2026-09-29T10:36:16.156Z","caller":"runtime/stats.go:31","msg":"goroutine count high","goroutines":176540,"heap_mb":1820}
+{"level":"warn","ts":"2026-09-29T10:36:23.374Z","caller":"whatsapp/client.go:92","msg":"WhatsAppClient reconnect","attempt":1,"open_streams":6644464}
+{"level":"warn","ts":"2026-09-29T10:36:28.681Z","caller":"push/fcm.go:118","msg":"push send slow","latency_ms":9567}
+2026-09-29T10:36:38Z  Warning  OOMKilling   node/ip-10-42-5-54   Memory cgroup out of memory: Killed process 1 (notification-svc) in pod notification-service-jhdtx5vv94-czlf7
+2026-09-29T10:36:46Z  Warning  OOMKilling   node/ip-10-42-2-160   Memory cgroup out of memory: Killed process 1 (notification-svc) in pod notification-service-jhdtx5vv94-b7ftk
+{"level":"warn","ts":"2026-09-29T10:36:51.135Z","caller":"runtime/stats.go:31","msg":"goroutine count high","goroutines":176540,"heap_mb":1820}
+{"level":"warn","ts":"2026-09-29T10:37:00.200Z","caller":"push/fcm.go:118","msg":"push send slow","latency_ms":8533}
+{"level":"warn","ts":"2026-09-29T10:37:09.595Z","caller":"runtime/stats.go:31","msg":"goroutine count high","goroutines":176540,"heap_mb":1820}
+{"level":"warn","ts":"2026-09-29T10:37:13.555Z","caller":"runtime/stats.go:31","msg":"goroutine count high","goroutines":176540,"heap_mb":1820}
+2026-09-29T10:37:24Z  Warning  OOMKilling   node/ip-10-42-9-81   Memory cgroup out of memory: Killed process 1 (notification-svc) in pod notification-service-jhdtx5vv94-kq6m9
+{"level":"warn","ts":"2026-09-29T10:37:33.667Z","caller":"push/fcm.go:118","msg":"push send slow","latency_ms":5519}
+{"level":"warn","ts":"2026-09-29T10:37:39.001Z","caller":"push/fcm.go:118","msg":"push send slow","latency_ms":8044}
+{"level":"warn","ts":"2026-09-29T10:37:47.657Z","caller":"runtime/stats.go:31","msg":"goroutine count high","goroutines":176540,"heap_mb":1820}
+{"level":"warn","ts":"2026-09-29T10:37:57.138Z","caller":"runtime/stats.go:31","msg":"goroutine count high","goroutines":176540,"heap_mb":1820}
+{"level":"warn","ts":"2026-09-29T10:38:02.505Z","caller":"push/fcm.go:118","msg":"push send slow","latency_ms":9514}
+2026-09-29T10:38:13Z  Warning  OOMKilling   node/ip-10-42-2-98   Memory cgroup out of memory: Killed process 1 (notification-svc) in pod notification-service-jhdtx5vv94-czlf7
+{"level":"warn","ts":"2026-09-29T10:38:18.838Z","caller":"runtime/stats.go:31","msg":"goroutine count high","goroutines":176540,"heap_mb":1820}
+2026-09-29T10:38:26Z  Warning  OOMKilling   node/ip-10-42-3-19   Memory cgroup out of memory: Killed process 1 (notification-svc) in pod notification-service-jhdtx5vv94-czlf7
+2026-09-29T10:38:37Z  Warning  OOMKilling   node/ip-10-42-6-180   Memory cgroup out of memory: Killed process 1 (notification-svc) in pod notification-service-jhdtx5vv94-b7ftk
+{"level":"warn","ts":"2026-09-29T10:38:40.553Z","caller":"push/fcm.go:118","msg":"push send slow","latency_ms":4681}
+2026-09-29T10:38:44Z  Warning  OOMKilling   node/ip-10-42-1-54   Memory cgroup out of memory: Killed process 1 (notification-svc) in pod notification-service-jhdtx5vv94-kq6m9
+{"level":"warn","ts":"2026-09-29T10:38:54.784Z","caller":"push/fcm.go:118","msg":"push send slow","latency_ms":6627}
+{"level":"warn","ts":"2026-09-29T10:39:03.471Z","caller":"whatsapp/client.go:92","msg":"WhatsAppClient reconnect","attempt":4,"open_streams":8577945}
+{"level":"warn","ts":"2026-09-29T10:39:13.256Z","caller":"runtime/stats.go:31","msg":"goroutine count high","goroutines":176540,"heap_mb":1820}
+2026-09-29T10:39:21Z  Warning  OOMKilling   node/ip-10-42-2-97   Memory cgroup out of memory: Killed process 1 (notification-svc) in pod notification-service-jhdtx5vv94-b7ftk
+{"level":"warn","ts":"2026-09-29T10:39:24.776Z","caller":"push/fcm.go:118","msg":"push send slow","latency_ms":7575}
+{"level":"warn","ts":"2026-09-29T10:39:33.786Z","caller":"push/fcm.go:118","msg":"push send slow","latency_ms":2833}
+{"level":"warn","ts":"2026-09-29T10:39:39.470Z","caller":"push/fcm.go:118","msg":"push send slow","latency_ms":8073}
+2026-09-29T10:39:42Z  Warning  OOMKilling   node/ip-10-42-9-54   Memory cgroup out of memory: Killed process 1 (notification-svc) in pod notification-service-jhdtx5vv94-kq6m9
+2026-09-29T10:39:53Z  Warning  OOMKilling   node/ip-10-42-7-164   Memory cgroup out of memory: Killed process 1 (notification-svc) in pod notification-service-jhdtx5vv94-b7ftk
+{"level":"warn","ts":"2026-09-29T10:39:58.732Z","caller":"push/fcm.go:118","msg":"push send slow","latency_ms":2783}
+{"level":"warn","ts":"2026-09-29T10:40:04.302Z","caller":"whatsapp/client.go:92","msg":"WhatsAppClient reconnect","attempt":10,"open_streams":9464297}
+2026-09-29T10:40:14Z  Warning  OOMKilling   node/ip-10-42-7-69   Memory cgroup out of memory: Killed process 1 (notification-svc) in pod notification-service-jhdtx5vv94-czlf7
+{"level":"warn","ts":"2026-09-29T10:40:24.149Z","caller":"push/fcm.go:118","msg":"push send slow","latency_ms":3886}
+{"level":"warn","ts":"2026-09-29T10:40:29.788Z","caller":"whatsapp/client.go:92","msg":"WhatsAppClient reconnect","attempt":3,"open_streams":3828614}
+{"level":"warn","ts":"2026-09-29T10:40:38.427Z","caller":"whatsapp/client.go:92","msg":"WhatsAppClient reconnect","attempt":11,"open_streams":7039638}
+{"level":"warn","ts":"2026-09-29T10:40:43.715Z","caller":"runtime/stats.go:31","msg":"goroutine count high","goroutines":176540,"heap_mb":1820}
+2026-09-29T10:40:49Z  Warning  OOMKilling   node/ip-10-42-1-66   Memory cgroup out of memory: Killed process 1 (notification-svc) in pod notification-service-jhdtx5vv94-kq6m9
+{"level":"warn","ts":"2026-09-29T10:40:57.949Z","caller":"push/fcm.go:118","msg":"push send slow","latency_ms":5937}
+{"level":"warn","ts":"2026-09-29T10:41:02.748Z","caller":"runtime/stats.go:31","msg":"goroutine count high","goroutines":176540,"heap_mb":1820}
+2026-09-29T10:41:12Z  Warning  OOMKilling   node/ip-10-42-4-33   Memory cgroup out of memory: Killed process 1 (notification-svc) in pod notification-service-jhdtx5vv94-czlf7
+{"level":"warn","ts":"2026-09-29T10:41:17.869Z","caller":"whatsapp/client.go:92","msg":"WhatsAppClient reconnect","attempt":8,"open_streams":3973711}
+{"level":"warn","ts":"2026-09-29T10:41:26.189Z","caller":"runtime/stats.go:31","msg":"goroutine count high","goroutines":176540,"heap_mb":1820}
+{"level":"warn","ts":"2026-09-29T10:41:32.966Z","caller":"push/fcm.go:118","msg":"push send slow","latency_ms":9141}
+{"level":"warn","ts":"2026-09-29T10:41:38.574Z","caller":"whatsapp/client.go:92","msg":"WhatsAppClient reconnect","attempt":0,"open_streams":2007495}
+{"level":"warn","ts":"2026-09-29T10:41:42.413Z","caller":"runtime/stats.go:31","msg":"goroutine count high","goroutines":176540,"heap_mb":1820}
+{"level":"warn","ts":"2026-09-29T10:41:51.523Z","caller":"push/fcm.go:118","msg":"push send slow","latency_ms":3397}
+{"level":"warn","ts":"2026-09-29T10:41:56.553Z","caller":"whatsapp/client.go:92","msg":"WhatsAppClient reconnect","attempt":5,"open_streams":6532857}
+2026-09-29T10:42:04Z  Warning  OOMKilling   node/ip-10-42-2-104   Memory cgroup out of memory: Killed process 1 (notification-svc) in pod notification-service-jhdtx5vv94-czlf7
+{"level":"warn","ts":"2026-09-29T10:42:07.766Z","caller":"push/fcm.go:118","msg":"push send slow","latency_ms":4609}
+{"level":"warn","ts":"2026-09-29T10:42:14.208Z","caller":"runtime/stats.go:31","msg":"goroutine count high","goroutines":176540,"heap_mb":1820}
+{"level":"warn","ts":"2026-09-29T10:42:17.807Z","caller":"push/fcm.go:118","msg":"push send slow","latency_ms":5069}
+{"level":"warn","ts":"2026-09-29T10:42:23.958Z","caller":"push/fcm.go:118","msg":"push send slow","latency_ms":2896}
+{"level":"warn","ts":"2026-09-29T10:42:27.085Z","caller":"runtime/stats.go:31","msg":"goroutine count high","goroutines":176540,"heap_mb":1820}
+{"level":"warn","ts":"2026-09-29T10:42:38.029Z","caller":"whatsapp/client.go:92","msg":"WhatsAppClient reconnect","attempt":1,"open_streams":5845475}
+{"level":"warn","ts":"2026-09-29T10:42:42.198Z","caller":"whatsapp/client.go:92","msg":"WhatsAppClient reconnect","attempt":0,"open_streams":8078793}
+{"level":"warn","ts":"2026-09-29T10:42:47.759Z","caller":"push/fcm.go:118","msg":"push send slow","latency_ms":3264}
+{"level":"warn","ts":"2026-09-29T10:42:51.274Z","caller":"whatsapp/client.go:92","msg":"WhatsAppClient reconnect","attempt":5,"open_streams":8213682}
+{"level":"warn","ts":"2026-09-29T10:42:57.751Z","caller":"runtime/stats.go:31","msg":"goroutine count high","goroutines":176540,"heap_mb":1820}

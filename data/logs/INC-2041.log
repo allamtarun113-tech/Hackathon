@@ -1,0 +1,105 @@
+{"level":"info","ts":"2026-07-26T15:15:00.000Z","caller":"otp/sender.go:40","msg":"otp sent","channel":"sms","user_id":"u_2342881"}
+{"level":"info","ts":"2026-07-26T15:16:01.974Z","caller":"otp/sender.go:40","msg":"otp sent","channel":"sms","user_id":"u_5243668"}
+{"level":"info","ts":"2026-07-26T15:16:57.412Z","caller":"otp/sender.go:40","msg":"otp sent","channel":"sms","user_id":"u_2165928"}
+{"level":"info","ts":"2026-07-26T15:17:45.995Z","caller":"otp/sender.go:40","msg":"otp sent","channel":"sms","user_id":"u_1963174"}
+{"level":"info","ts":"2026-07-26T15:18:22.336Z","caller":"otp/sender.go:40","msg":"otp sent","channel":"sms","user_id":"u_4193777"}
+{"level":"info","ts":"2026-07-26T15:19:14.975Z","caller":"otp/sender.go:40","msg":"otp sent","channel":"sms","user_id":"u_5152143"}
+{"level":"info","ts":"2026-07-26T15:19:53.415Z","caller":"otp/sender.go:40","msg":"otp sent","channel":"sms","user_id":"u_2873366"}
+{"level":"info","ts":"2026-07-26T15:20:42.828Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_5942731","latency_ms":266}
+{"level":"info","ts":"2026-07-26T15:21:12.260Z","caller":"otp/sender.go:40","msg":"otp sent","channel":"sms","user_id":"u_4099166"}
+{"level":"info","ts":"2026-07-26T15:22:08.602Z","caller":"otp/sender.go:40","msg":"otp sent","channel":"sms","user_id":"u_6967367"}
+{"level":"info","ts":"2026-07-26T15:23:10.580Z","caller":"otp/sender.go:40","msg":"otp sent","channel":"sms","user_id":"u_5580113"}
+{"level":"info","ts":"2026-07-26T15:24:00.415Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_6063210","latency_ms":296}
+{"level":"info","ts":"2026-07-26T15:25:07.280Z","caller":"otp/sender.go:40","msg":"otp sent","channel":"sms","user_id":"u_8990092"}
+{"level":"info","ts":"2026-07-26T15:25:34.139Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_2003648","latency_ms":215}
+{"level":"info","ts":"2026-07-26T15:26:06.128Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_4962446","latency_ms":245}
+{"level":"info","ts":"2026-07-26T15:26:44.931Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_6934837","latency_ms":358}
+{"level":"info","ts":"2026-07-26T15:27:52.572Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_1082623","latency_ms":279}
+{"level":"info","ts":"2026-07-26T15:28:52.446Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_2755271","latency_ms":62}
+{"level":"info","ts":"2026-07-26T15:29:50.621Z","caller":"otp/sender.go:40","msg":"otp sent","channel":"sms","user_id":"u_6994965"}
+{"level":"info","ts":"2026-07-26T15:30:43.823Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_2412014","latency_ms":313}
+{"level":"error","ts":"2026-07-26T15:31:52.229Z","caller":"session/store.go:88","msg":"failed to persist session","error":"OOM command not allowed when used memory > 'maxmemory'.","user_id":"u_3148325"}
+{"level":"warn","ts":"2026-07-26T15:32:17.594Z","caller":"http/login.go:74","msg":"login slow","route":"/v1/login","latency_ms":4599}
+{"level":"error","ts":"2026-07-26T15:32:48.172Z","caller":"http/login.go:79","msg":"login failed","status":500,"error":"session store unavailable","trace_id":"66faa8070200cadc"}
+1:M 26 Jul 2026 21:03:04.086 # used_memory 6.00G reached maxmemory 6gb, no volatile keys left to evict (maxmemory-policy volatile-lru)
+1:M 26 Jul 2026 21:03:18.496 * keyspace db0: keys=24.7M,expires=3.3M
+{"level":"warn","ts":"2026-07-26T15:33:44.315Z","caller":"http/login.go:74","msg":"login slow","route":"/v1/login","latency_ms":9591}
+{"level":"error","ts":"2026-07-26T15:34:12.973Z","caller":"http/login.go:79","msg":"login failed","status":500,"error":"session store unavailable","trace_id":"9659ea201dfc0a05"}
+{"level":"error","ts":"2026-07-26T15:34:27.578Z","caller":"http/login.go:79","msg":"login failed","status":500,"error":"session store unavailable","trace_id":"6fc416ba04e95f05"}
+1:M 26 Jul 2026 21:04:56.766 # used_memory 6.00G reached maxmemory 6gb, no volatile keys left to evict (maxmemory-policy volatile-lru)
+1:M 26 Jul 2026 21:05:28.476 * keyspace db0: keys=24.7M,expires=3.3M
+{"level":"error","ts":"2026-07-26T15:35:56.780Z","caller":"http/login.go:79","msg":"login failed","status":500,"error":"session store unavailable","trace_id":"19200da02030c7bd"}
+{"level":"error","ts":"2026-07-26T15:36:18.982Z","caller":"session/store.go:88","msg":"failed to persist session","error":"OOM command not allowed when used memory > 'maxmemory'.","user_id":"u_1782995"}
+{"level":"error","ts":"2026-07-26T15:36:51.898Z","caller":"session/store.go:88","msg":"failed to persist session","error":"OOM command not allowed when used memory > 'maxmemory'.","user_id":"u_1043721"}
+{"level":"warn","ts":"2026-07-26T15:37:07.967Z","caller":"http/login.go:74","msg":"login slow","route":"/v1/login","latency_ms":9562}
+{"level":"warn","ts":"2026-07-26T15:37:40.645Z","caller":"http/login.go:74","msg":"login slow","route":"/v1/login","latency_ms":6495}
+{"level":"warn","ts":"2026-07-26T15:38:02.887Z","caller":"http/login.go:74","msg":"login slow","route":"/v1/login","latency_ms":5290}
+{"level":"warn","ts":"2026-07-26T15:38:21.547Z","caller":"http/login.go:74","msg":"login slow","route":"/v1/login","latency_ms":8356}
+{"level":"warn","ts":"2026-07-26T15:38:47.536Z","caller":"http/login.go:74","msg":"login slow","route":"/v1/login","latency_ms":8019}
+{"level":"error","ts":"2026-07-26T15:39:07.446Z","caller":"http/login.go:79","msg":"login failed","status":500,"error":"session store unavailable","trace_id":"7ddb5743e4cff409"}
+1:M 26 Jul 2026 21:09:29.585 # used_memory 6.00G reached maxmemory 6gb, no volatile keys left to evict (maxmemory-policy volatile-lru)
+1:M 26 Jul 2026 21:09:53.546 # used_memory 6.00G reached maxmemory 6gb, no volatile keys left to evict (maxmemory-policy volatile-lru)
+{"level":"error","ts":"2026-07-26T15:40:23.320Z","caller":"http/login.go:79","msg":"login failed","status":500,"error":"session store unavailable","trace_id":"c60b5e13b4ab03e6"}
+{"level":"error","ts":"2026-07-26T15:40:54.738Z","caller":"http/login.go:79","msg":"login failed","status":500,"error":"session store unavailable","trace_id":"23abdebeb71f6563"}
+1:M 26 Jul 2026 21:11:23.276 * keyspace db0: keys=24.7M,expires=3.3M
+1:M 26 Jul 2026 21:11:50.575 * keyspace db0: keys=24.7M,expires=3.3M
+1:M 26 Jul 2026 21:12:22.450 # used_memory 6.00G reached maxmemory 6gb, no volatile keys left to evict (maxmemory-policy volatile-lru)
+1:M 26 Jul 2026 21:12:39.989 # used_memory 6.00G reached maxmemory 6gb, no volatile keys left to evict (maxmemory-policy volatile-lru)
+1:M 26 Jul 2026 21:13:05.341 # used_memory 6.00G reached maxmemory 6gb, no volatile keys left to evict (maxmemory-policy volatile-lru)
+1:M 26 Jul 2026 21:13:23.818 * keyspace db0: keys=24.7M,expires=3.3M
+1:M 26 Jul 2026 21:13:51.361 # used_memory 6.00G reached maxmemory 6gb, no volatile keys left to evict (maxmemory-policy volatile-lru)
+{"level":"error","ts":"2026-07-26T15:44:19.572Z","caller":"session/store.go:88","msg":"failed to persist session","error":"OOM command not allowed when used memory > 'maxmemory'.","user_id":"u_6690245"}
+{"level":"warn","ts":"2026-07-26T15:44:51.466Z","caller":"http/login.go:74","msg":"login slow","route":"/v1/login","latency_ms":4414}
+1:M 26 Jul 2026 21:15:17.968 # used_memory 6.00G reached maxmemory 6gb, no volatile keys left to evict (maxmemory-policy volatile-lru)
+{"level":"error","ts":"2026-07-26T15:45:44.020Z","caller":"session/store.go:88","msg":"failed to persist session","error":"OOM command not allowed when used memory > 'maxmemory'.","user_id":"u_1038997"}
+{"level":"error","ts":"2026-07-26T15:46:07.454Z","caller":"http/login.go:79","msg":"login failed","status":500,"error":"session store unavailable","trace_id":"c0eea96945a08f1e"}
+1:M 26 Jul 2026 21:16:23.508 * keyspace db0: keys=24.7M,expires=3.3M
+1:M 26 Jul 2026 21:16:55.300 * keyspace db0: keys=24.7M,expires=3.3M
+{"level":"warn","ts":"2026-07-26T15:47:20.936Z","caller":"http/login.go:74","msg":"login slow","route":"/v1/login","latency_ms":9671}
+{"level":"error","ts":"2026-07-26T15:47:41.851Z","caller":"session/store.go:88","msg":"failed to persist session","error":"OOM command not allowed when used memory > 'maxmemory'.","user_id":"u_1698421"}
+{"level":"error","ts":"2026-07-26T15:48:14.291Z","caller":"session/store.go:88","msg":"failed to persist session","error":"OOM command not allowed when used memory > 'maxmemory'.","user_id":"u_9992346"}
+1:M 26 Jul 2026 21:18:32.909 * keyspace db0: keys=24.7M,expires=3.3M
+{"level":"warn","ts":"2026-07-26T15:48:49.812Z","caller":"http/login.go:74","msg":"login slow","route":"/v1/login","latency_ms":4670}
+1:M 26 Jul 2026 21:19:20.303 # used_memory 6.00G reached maxmemory 6gb, no volatile keys left to evict (maxmemory-policy volatile-lru)
+{"level":"error","ts":"2026-07-26T15:49:41.220Z","caller":"http/login.go:79","msg":"login failed","status":500,"error":"session store unavailable","trace_id":"a7f61cc605aef822"}
+1:M 26 Jul 2026 21:19:59.170 # used_memory 6.00G reached maxmemory 6gb, no volatile keys left to evict (maxmemory-policy volatile-lru)
+{"level":"error","ts":"2026-07-26T15:50:29.046Z","caller":"session/store.go:88","msg":"failed to persist session","error":"OOM command not allowed when used memory > 'maxmemory'.","user_id":"u_2356096"}
+1:M 26 Jul 2026 21:20:54.277 * keyspace db0: keys=24.7M,expires=3.3M
+{"level":"error","ts":"2026-07-26T15:51:25.808Z","caller":"http/login.go:79","msg":"login failed","status":500,"error":"session store unavailable","trace_id":"534d436237d0bd38"}
+{"level":"error","ts":"2026-07-26T15:51:52.464Z","caller":"http/login.go:79","msg":"login failed","status":500,"error":"session store unavailable","trace_id":"f967516a4b41beea"}
+{"level":"error","ts":"2026-07-26T15:52:09.190Z","caller":"session/store.go:88","msg":"failed to persist session","error":"OOM command not allowed when used memory > 'maxmemory'.","user_id":"u_7939251"}
+1:M 26 Jul 2026 21:22:34.302 * keyspace db0: keys=24.7M,expires=3.3M
+{"level":"error","ts":"2026-07-26T15:52:51.808Z","caller":"session/store.go:88","msg":"failed to persist session","error":"OOM command not allowed when used memory > 'maxmemory'.","user_id":"u_8173462"}
+{"level":"error","ts":"2026-07-26T15:53:22.734Z","caller":"session/store.go:88","msg":"failed to persist session","error":"OOM command not allowed when used memory > 'maxmemory'.","user_id":"u_6557511"}
+1:M 26 Jul 2026 21:23:44.323 * keyspace db0: keys=24.7M,expires=3.3M
+{"level":"error","ts":"2026-07-26T15:53:58.932Z","caller":"http/login.go:79","msg":"login failed","status":500,"error":"session store unavailable","trace_id":"61901faf6d951e09"}
+1:M 26 Jul 2026 21:24:13.325 # used_memory 6.00G reached maxmemory 6gb, no volatile keys left to evict (maxmemory-policy volatile-lru)
+1:M 26 Jul 2026 21:24:46.064 * keyspace db0: keys=24.7M,expires=3.3M
+{"level":"error","ts":"2026-07-26T15:55:04.279Z","caller":"session/store.go:88","msg":"failed to persist session","error":"OOM command not allowed when used memory > 'maxmemory'.","user_id":"u_5384943"}
+{"level":"error","ts":"2026-07-26T15:55:28.094Z","caller":"http/login.go:79","msg":"login failed","status":500,"error":"session store unavailable","trace_id":"1c3c30ee4a9374f6"}
+{"level":"error","ts":"2026-07-26T15:55:55.389Z","caller":"http/login.go:79","msg":"login failed","status":500,"error":"session store unavailable","trace_id":"e21b7883c63ce8ce"}
+{"level":"error","ts":"2026-07-26T15:56:24.367Z","caller":"session/store.go:88","msg":"failed to persist session","error":"OOM command not allowed when used memory > 'maxmemory'.","user_id":"u_1945458"}
+{"level":"warn","ts":"2026-07-26T15:56:43.914Z","caller":"http/login.go:74","msg":"login slow","route":"/v1/login","latency_ms":9014}
+1:M 26 Jul 2026 21:27:16.908 * keyspace db0: keys=24.7M,expires=3.3M
+1:M 26 Jul 2026 21:27:39.827 * keyspace db0: keys=24.7M,expires=3.3M
+{"level":"error","ts":"2026-07-26T15:58:04.321Z","caller":"http/login.go:79","msg":"login failed","status":500,"error":"session store unavailable","trace_id":"f3aa3e4f9115702a"}
+{"level":"error","ts":"2026-07-26T15:58:18.380Z","caller":"http/login.go:79","msg":"login failed","status":500,"error":"session store unavailable","trace_id":"3c70023a2249031f"}
+{"level":"warn","ts":"2026-07-26T15:58:49.352Z","caller":"http/login.go:74","msg":"login slow","route":"/v1/login","latency_ms":7936}
+{"level":"error","ts":"2026-07-26T15:59:05.671Z","caller":"session/store.go:88","msg":"failed to persist session","error":"OOM command not allowed when used memory > 'maxmemory'.","user_id":"u_7996698"}
+{"level":"error","ts":"2026-07-26T15:59:27.063Z","caller":"session/store.go:88","msg":"failed to persist session","error":"OOM command not allowed when used memory > 'maxmemory'.","user_id":"u_6275177"}
+{"level":"error","ts":"2026-07-26T15:59:55.781Z","caller":"http/login.go:79","msg":"login failed","status":500,"error":"session store unavailable","trace_id":"7b2a6a05b1bb037d"}
+1:M 26 Jul 2026 21:30:15.000 * keyspace db0: keys=8.2M,expires=8.2M
+{"level":"info","ts":"2026-07-26T16:00:57.000Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_5618012","latency_ms":102}
+{"level":"info","ts":"2026-07-26T16:01:43.000Z","caller":"otp/sender.go:40","msg":"otp sent","channel":"sms","user_id":"u_5214925"}
+{"level":"info","ts":"2026-07-26T16:03:19.000Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_4286332","latency_ms":137}
+{"level":"info","ts":"2026-07-26T16:04:21.000Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_6882306","latency_ms":353}
+{"level":"info","ts":"2026-07-26T16:06:01.000Z","caller":"otp/sender.go:40","msg":"otp sent","channel":"sms","user_id":"u_8172664"}
+{"level":"info","ts":"2026-07-26T16:07:21.000Z","caller":"otp/sender.go:40","msg":"otp sent","channel":"sms","user_id":"u_5602993"}
+{"level":"info","ts":"2026-07-26T16:08:51.000Z","caller":"otp/sender.go:40","msg":"otp sent","channel":"sms","user_id":"u_6355907"}
+{"level":"info","ts":"2026-07-26T16:10:36.000Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_8441799","latency_ms":380}
+{"level":"info","ts":"2026-07-26T16:11:24.000Z","caller":"otp/sender.go:40","msg":"otp sent","channel":"sms","user_id":"u_6546997"}
+{"level":"info","ts":"2026-07-26T16:12:59.000Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_1828897","latency_ms":81}
+{"level":"info","ts":"2026-07-26T16:14:41.000Z","caller":"otp/sender.go:40","msg":"otp sent","channel":"sms","user_id":"u_8796069"}
+{"level":"info","ts":"2026-07-26T16:16:04.000Z","caller":"otp/sender.go:40","msg":"otp sent","channel":"sms","user_id":"u_5462988"}
+{"level":"info","ts":"2026-07-26T16:17:01.000Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_3413489","latency_ms":346}
+{"level":"info","ts":"2026-07-26T16:18:57.000Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_8578575","latency_ms":303}

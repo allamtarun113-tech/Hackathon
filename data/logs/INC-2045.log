@@ -1,0 +1,152 @@
+2026-08-05 16:20:00.000  INFO 1 --- [orders-consumer-3] c.k.orders.consumer.EventHandler         : Processed StockReserved orderId=ORD-90572744 partition=2 offset=6998773
+2026-08-05 16:20:56.180  INFO 1 --- [orders-consumer-2] c.k.orders.consumer.EventHandler         : Processed StockReserved orderId=ORD-80576799 partition=5 offset=6626990
+2026-08-05 16:21:39.942  INFO 1 --- [orders-consumer-8] c.k.orders.consumer.EventHandler         : Processed StockReserved orderId=ORD-57134417 partition=6 offset=9397123
+2026-08-05 16:22:17.638  INFO 1 --- [orders-consumer-5] c.k.orders.consumer.EventHandler         : Processed StockReserved orderId=ORD-57028642 partition=8 offset=9218470
+2026-08-05 16:22:59.915  INFO 1 --- [orders-consumer-5] c.k.orders.consumer.EventHandler         : Processed StockReserved orderId=ORD-97166623 partition=9 offset=8564116
+2026-08-05 16:23:50.224  INFO 1 --- [orders-consumer-7] c.k.orders.consumer.EventHandler         : Processed StockReserved orderId=ORD-70338160 partition=4 offset=2294126
+2026-08-05 16:24:51.785  INFO 1 --- [orders-consumer-10] c.k.orders.consumer.EventHandler         : Processed StockReserved orderId=ORD-28333740 partition=4 offset=8281379
+2026-08-05 16:25:47.950  INFO 1 --- [orders-consumer-0] c.k.orders.consumer.EventHandler         : Processed StockReserved orderId=ORD-60374358 partition=4 offset=6144893
+2026-08-05 16:26:33.188  INFO 1 --- [orders-consumer-2] c.k.orders.consumer.EventHandler         : Processed StockReserved orderId=ORD-84739103 partition=5 offset=6592163
+2026-08-05 16:27:14.081  INFO 1 --- [orders-consumer-10] c.k.orders.consumer.EventHandler         : Processed StockReserved orderId=ORD-37169629 partition=0 offset=6804765
+2026-08-05 16:27:51.533  INFO 1 --- [orders-consumer-11] c.k.orders.consumer.EventHandler         : Processed StockReserved orderId=ORD-31413174 partition=4 offset=4095095
+2026-08-05 16:28:43.865  INFO 1 --- [orders-consumer-8] c.k.orders.consumer.EventHandler         : Processed StockReserved orderId=ORD-40957223 partition=3 offset=7108909
+2026-08-05 16:29:11.506  INFO 1 --- [orders-consumer-9] c.k.orders.consumer.EventHandler         : Processed StockReserved orderId=ORD-87933760 partition=8 offset=6725247
+2026-08-05 16:30:02.620  INFO 1 --- [orders-consumer-11] c.k.orders.consumer.EventHandler         : Processed StockReserved orderId=ORD-30615997 partition=4 offset=3396157
+2026-08-05 16:31:05.792  INFO 1 --- [orders-consumer-7] c.k.orders.consumer.EventHandler         : Processed StockReserved orderId=ORD-38548979 partition=6 offset=2065370
+2026-08-05 16:31:47.292  INFO 1 --- [orders-consumer-8] c.k.orders.consumer.EventHandler         : Processed StockReserved orderId=ORD-47448116 partition=1 offset=7390858
+2026-08-05 16:32:26.545  INFO 1 --- [orders-consumer-8] c.k.orders.consumer.EventHandler         : Processed StockReserved orderId=ORD-68236326 partition=6 offset=6416859
+2026-08-05 16:33:23.716  INFO 1 --- [orders-consumer-10] c.k.orders.consumer.EventHandler         : Processed StockReserved orderId=ORD-80529845 partition=4 offset=8312521
+2026-08-05 16:34:01.148  INFO 1 --- [orders-consumer-5] c.k.orders.consumer.EventHandler         : Processed StockReserved orderId=ORD-11692959 partition=6 offset=8029310
+2026-08-05 16:35:08.472  INFO 1 --- [orders-consumer-5] c.k.orders.consumer.EventHandler         : Processed StockReserved orderId=ORD-43561680 partition=5 offset=9223741
+2026-08-05 16:36:17.515 ERROR 1 --- [orders-consumer-9] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 518
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.StockReserved, expecting com.kartly.events.StockReserved, missing required field warehouseZone
+2026-08-05 16:36:46.341  WARN 1 --- [orders-consumer-6] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-6, groupId=orders-service] Seeking to offset 8851842 for partition inventory.stock-reserved.v2-3
+ts=2026-08-05T11:07:20.035Z level=warn exporter=kafka-lag-exporter group=orders-service topic=inventory.stock-reserved.v2 partition=8 lag=13049
+ts=2026-08-05T11:07:40.836Z level=warn exporter=kafka-lag-exporter group=orders-service topic=inventory.stock-reserved.v2 partition=4 lag=12699
+ts=2026-08-05T11:08:05.210Z level=warn exporter=kafka-lag-exporter group=orders-service topic=inventory.stock-reserved.v2 partition=6 lag=16992
+ts=2026-08-05T11:08:21.587Z level=warn exporter=kafka-lag-exporter group=orders-service topic=inventory.stock-reserved.v2 partition=3 lag=8001
+2026-08-05 16:38:46.381  WARN 1 --- [orders-consumer-3] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-3, groupId=orders-service] Seeking to offset 4605895 for partition inventory.stock-reserved.v2-3
+2026-08-05 16:39:15.811  WARN 1 --- [orders-consumer-11] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-11, groupId=orders-service] Seeking to offset 3635614 for partition inventory.stock-reserved.v2-0
+2026-08-05 16:39:42.213 ERROR 1 --- [orders-consumer-0] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 518
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.StockReserved, expecting com.kartly.events.StockReserved, missing required field warehouseZone
+2026-08-05 16:39:59.198 ERROR 1 --- [orders-consumer-11] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 518
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.StockReserved, expecting com.kartly.events.StockReserved, missing required field warehouseZone
+ts=2026-08-05T11:10:27.180Z level=warn exporter=kafka-lag-exporter group=orders-service topic=inventory.stock-reserved.v2 partition=5 lag=15243
+2026-08-05 16:40:52.522  WARN 1 --- [orders-consumer-0] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-0, groupId=orders-service] Seeking to offset 9514398 for partition inventory.stock-reserved.v2-4
+ts=2026-08-05T11:11:26.794Z level=warn exporter=kafka-lag-exporter group=orders-service topic=inventory.stock-reserved.v2 partition=7 lag=17359
+2026-08-05 16:41:45.399 ERROR 1 --- [orders-consumer-4] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 518
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.StockReserved, expecting com.kartly.events.StockReserved, missing required field warehouseZone
+2026-08-05 16:42:19.932 ERROR 1 --- [orders-consumer-10] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 518
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.StockReserved, expecting com.kartly.events.StockReserved, missing required field warehouseZone
+2026-08-05 16:42:51.166  WARN 1 --- [orders-consumer-4] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-4, groupId=orders-service] Seeking to offset 7589990 for partition inventory.stock-reserved.v2-0
+ts=2026-08-05T11:13:21.920Z level=warn exporter=kafka-lag-exporter group=orders-service topic=inventory.stock-reserved.v2 partition=3 lag=13749
+ts=2026-08-05T11:13:49.272Z level=warn exporter=kafka-lag-exporter group=orders-service topic=inventory.stock-reserved.v2 partition=7 lag=13223
+ts=2026-08-05T11:14:04.295Z level=warn exporter=kafka-lag-exporter group=orders-service topic=inventory.stock-reserved.v2 partition=3 lag=19347
+2026-08-05 16:44:23.557  WARN 1 --- [orders-consumer-5] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-5, groupId=orders-service] Seeking to offset 2953627 for partition inventory.stock-reserved.v2-8
+2026-08-05 16:44:53.541 ERROR 1 --- [orders-consumer-3] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 518
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.StockReserved, expecting com.kartly.events.StockReserved, missing required field warehouseZone
+2026-08-05 16:45:15.576  WARN 1 --- [orders-consumer-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-1, groupId=orders-service] Seeking to offset 6166148 for partition inventory.stock-reserved.v2-9
+ts=2026-08-05T11:15:47.481Z level=warn exporter=kafka-lag-exporter group=orders-service topic=inventory.stock-reserved.v2 partition=4 lag=17866
+2026-08-05 16:46:14.928  WARN 1 --- [orders-consumer-11] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-11, groupId=orders-service] Seeking to offset 1549092 for partition inventory.stock-reserved.v2-5
+ts=2026-08-05T11:16:39.747Z level=warn exporter=kafka-lag-exporter group=orders-service topic=inventory.stock-reserved.v2 partition=0 lag=19619
+2026-08-05 16:47:13.738 ERROR 1 --- [orders-consumer-3] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 518
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.StockReserved, expecting com.kartly.events.StockReserved, missing required field warehouseZone
+ts=2026-08-05T11:17:41.316Z level=warn exporter=kafka-lag-exporter group=orders-service topic=inventory.stock-reserved.v2 partition=3 lag=19598
+2026-08-05 16:47:58.684 ERROR 1 --- [orders-consumer-1] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 518
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.StockReserved, expecting com.kartly.events.StockReserved, missing required field warehouseZone
+2026-08-05 16:48:25.892  WARN 1 --- [orders-consumer-6] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-6, groupId=orders-service] Seeking to offset 9639301 for partition inventory.stock-reserved.v2-6
+2026-08-05 16:48:49.255  WARN 1 --- [orders-consumer-11] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-11, groupId=orders-service] Seeking to offset 9662975 for partition inventory.stock-reserved.v2-9
+2026-08-05 16:49:22.405 ERROR 1 --- [orders-consumer-0] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 518
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.StockReserved, expecting com.kartly.events.StockReserved, missing required field warehouseZone
+ts=2026-08-05T11:19:44.182Z level=warn exporter=kafka-lag-exporter group=orders-service topic=inventory.stock-reserved.v2 partition=1 lag=5431
+ts=2026-08-05T11:20:07.519Z level=warn exporter=kafka-lag-exporter group=orders-service topic=inventory.stock-reserved.v2 partition=1 lag=9919
+2026-08-05 16:50:37.310  WARN 1 --- [orders-consumer-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-1, groupId=orders-service] Seeking to offset 2991344 for partition inventory.stock-reserved.v2-3
+ts=2026-08-05T11:20:53.633Z level=warn exporter=kafka-lag-exporter group=orders-service topic=inventory.stock-reserved.v2 partition=1 lag=8329
+2026-08-05 16:51:23.055 ERROR 1 --- [orders-consumer-1] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 518
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.StockReserved, expecting com.kartly.events.StockReserved, missing required field warehouseZone
+2026-08-05 16:51:52.908  WARN 1 --- [orders-consumer-8] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-8, groupId=orders-service] Seeking to offset 3432014 for partition inventory.stock-reserved.v2-1
+2026-08-05 16:52:28.436  WARN 1 --- [orders-consumer-0] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-0, groupId=orders-service] Seeking to offset 5558108 for partition inventory.stock-reserved.v2-9
+ts=2026-08-05T11:22:44.396Z level=warn exporter=kafka-lag-exporter group=orders-service topic=inventory.stock-reserved.v2 partition=9 lag=16357
+2026-08-05 16:53:06.951 ERROR 1 --- [orders-consumer-10] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 518
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.StockReserved, expecting com.kartly.events.StockReserved, missing required field warehouseZone
+2026-08-05 16:53:31.155 ERROR 1 --- [orders-consumer-9] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 518
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.StockReserved, expecting com.kartly.events.StockReserved, missing required field warehouseZone
+2026-08-05 16:53:47.708  WARN 1 --- [orders-consumer-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-1, groupId=orders-service] Seeking to offset 9586012 for partition inventory.stock-reserved.v2-8
+2026-08-05 16:54:03.982 ERROR 1 --- [orders-consumer-2] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 518
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.StockReserved, expecting com.kartly.events.StockReserved, missing required field warehouseZone
+2026-08-05 16:54:33.450  WARN 1 --- [orders-consumer-3] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-3, groupId=orders-service] Seeking to offset 5142928 for partition inventory.stock-reserved.v2-8
+ts=2026-08-05T11:24:51.904Z level=warn exporter=kafka-lag-exporter group=orders-service topic=inventory.stock-reserved.v2 partition=0 lag=16045
+2026-08-05 16:55:08.246 ERROR 1 --- [orders-consumer-8] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 518
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.StockReserved, expecting com.kartly.events.StockReserved, missing required field warehouseZone
+2026-08-05 16:55:27.876  WARN 1 --- [orders-consumer-5] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-5, groupId=orders-service] Seeking to offset 1490788 for partition inventory.stock-reserved.v2-5
+2026-08-05 16:55:58.461 ERROR 1 --- [orders-consumer-4] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 518
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.StockReserved, expecting com.kartly.events.StockReserved, missing required field warehouseZone
+ts=2026-08-05T11:26:15.616Z level=warn exporter=kafka-lag-exporter group=orders-service topic=inventory.stock-reserved.v2 partition=3 lag=19340
+2026-08-05 16:56:39.723  WARN 1 --- [orders-consumer-5] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-5, groupId=orders-service] Seeking to offset 2553346 for partition inventory.stock-reserved.v2-5
+ts=2026-08-05T11:27:06.267Z level=warn exporter=kafka-lag-exporter group=orders-service topic=inventory.stock-reserved.v2 partition=6 lag=5973
+2026-08-05 16:57:35.231 ERROR 1 --- [orders-consumer-11] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 518
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.StockReserved, expecting com.kartly.events.StockReserved, missing required field warehouseZone
+2026-08-05 16:58:04.385  WARN 1 --- [orders-consumer-4] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-4, groupId=orders-service] Seeking to offset 1633685 for partition inventory.stock-reserved.v2-6
+2026-08-05 16:58:38.566  WARN 1 --- [orders-consumer-5] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-5, groupId=orders-service] Seeking to offset 8357773 for partition inventory.stock-reserved.v2-9
+2026-08-05 16:58:58.460  WARN 1 --- [orders-consumer-7] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-7, groupId=orders-service] Seeking to offset 6517091 for partition inventory.stock-reserved.v2-0
+ts=2026-08-05T11:29:26.450Z level=warn exporter=kafka-lag-exporter group=orders-service topic=inventory.stock-reserved.v2 partition=6 lag=6127
+ts=2026-08-05T11:29:55.294Z level=warn exporter=kafka-lag-exporter group=orders-service topic=inventory.stock-reserved.v2 partition=1 lag=19165
+2026-08-05 17:00:18.263 ERROR 1 --- [orders-consumer-1] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 518
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.StockReserved, expecting com.kartly.events.StockReserved, missing required field warehouseZone
+2026-08-05 17:00:45.098 ERROR 1 --- [orders-consumer-9] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 518
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.StockReserved, expecting com.kartly.events.StockReserved, missing required field warehouseZone
+ts=2026-08-05T11:31:08.315Z level=warn exporter=kafka-lag-exporter group=orders-service topic=inventory.stock-reserved.v2 partition=4 lag=19559
+ts=2026-08-05T11:31:35.580Z level=warn exporter=kafka-lag-exporter group=orders-service topic=inventory.stock-reserved.v2 partition=9 lag=9879
+ts=2026-08-05T11:31:58.183Z level=warn exporter=kafka-lag-exporter group=orders-service topic=inventory.stock-reserved.v2 partition=9 lag=20412
+ts=2026-08-05T11:32:30.605Z level=warn exporter=kafka-lag-exporter group=orders-service topic=inventory.stock-reserved.v2 partition=7 lag=13664
+ts=2026-08-05T11:33:06.416Z level=warn exporter=kafka-lag-exporter group=orders-service topic=inventory.stock-reserved.v2 partition=2 lag=10550
+2026-08-05 17:03:27.793  WARN 1 --- [orders-consumer-8] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-8, groupId=orders-service] Seeking to offset 6864407 for partition inventory.stock-reserved.v2-6
+ts=2026-08-05T11:33:45.227Z level=warn exporter=kafka-lag-exporter group=orders-service topic=inventory.stock-reserved.v2 partition=1 lag=7612
+ts=2026-08-05T11:34:14.520Z level=warn exporter=kafka-lag-exporter group=orders-service topic=inventory.stock-reserved.v2 partition=7 lag=10122
+2026-08-05 17:04:41.366  WARN 1 --- [orders-consumer-3] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-3, groupId=orders-service] Seeking to offset 1554008 for partition inventory.stock-reserved.v2-9
+2026-08-05 17:05:00.512 ERROR 1 --- [orders-consumer-1] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 518
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.StockReserved, expecting com.kartly.events.StockReserved, missing required field warehouseZone
+2026-08-05 17:05:36.059  WARN 1 --- [orders-consumer-6] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-6, groupId=orders-service] Seeking to offset 3466239 for partition inventory.stock-reserved.v2-2
+2026-08-05 17:06:01.122  WARN 1 --- [orders-consumer-9] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-9, groupId=orders-service] Seeking to offset 9475341 for partition inventory.stock-reserved.v2-4
+2026-08-05 17:06:34.915  WARN 1 --- [orders-consumer-7] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-7, groupId=orders-service] Seeking to offset 3385687 for partition inventory.stock-reserved.v2-2
+ts=2026-08-05T11:36:56.677Z level=warn exporter=kafka-lag-exporter group=orders-service topic=inventory.stock-reserved.v2 partition=5 lag=13506
+ts=2026-08-05T11:37:29.514Z level=warn exporter=kafka-lag-exporter group=orders-service topic=inventory.stock-reserved.v2 partition=9 lag=7456
+2026-08-05 17:07:45.230 ERROR 1 --- [orders-consumer-2] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 518
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.StockReserved, expecting com.kartly.events.StockReserved, missing required field warehouseZone
+2026-08-05 17:07:55.000  INFO 1 --- [orders-consumer-2] c.k.orders.consumer.EventHandler         : Processed StockReserved orderId=ORD-42162013 partition=4 offset=4072804
+ts=2026-08-05T11:38:40.000Z level=info exporter=kafka-lag-exporter group=orders-service topic=inventory.stock-reserved.v2 partition=4 lag=0
+2026-08-05 17:09:25.000  INFO 1 --- [orders-consumer-9] c.k.orders.consumer.EventHandler         : Processed StockReserved orderId=ORD-37322475 partition=9 offset=9604470
+2026-08-05 17:10:32.000  INFO 1 --- [orders-consumer-9] c.k.orders.consumer.EventHandler         : Processed StockReserved orderId=ORD-68873586 partition=7 offset=6215697
+2026-08-05 17:11:34.000  INFO 1 --- [orders-consumer-10] c.k.orders.consumer.EventHandler         : Processed StockReserved orderId=ORD-17651603 partition=4 offset=5071232
+2026-08-05 17:12:50.000  INFO 1 --- [orders-consumer-10] c.k.orders.consumer.EventHandler         : Processed StockReserved orderId=ORD-76695815 partition=6 offset=9592366
+2026-08-05 17:13:34.000  INFO 1 --- [orders-consumer-10] c.k.orders.consumer.EventHandler         : Processed StockReserved orderId=ORD-43612936 partition=1 offset=1743362
+2026-08-05 17:14:52.000  INFO 1 --- [orders-consumer-9] c.k.orders.consumer.EventHandler         : Processed StockReserved orderId=ORD-57343708 partition=9 offset=8216621
+2026-08-05 17:15:32.000  INFO 1 --- [orders-consumer-9] c.k.orders.consumer.EventHandler         : Processed StockReserved orderId=ORD-51160371 partition=8 offset=7860619
+2026-08-05 17:16:41.000  INFO 1 --- [orders-consumer-7] c.k.orders.consumer.EventHandler         : Processed StockReserved orderId=ORD-57706573 partition=8 offset=6157145
+2026-08-05 17:18:41.000  INFO 1 --- [orders-consumer-8] c.k.orders.consumer.EventHandler         : Processed StockReserved orderId=ORD-22492928 partition=6 offset=7262237
+2026-08-05 17:19:41.000  INFO 1 --- [orders-consumer-4] c.k.orders.consumer.EventHandler         : Processed StockReserved orderId=ORD-30067008 partition=1 offset=1774515
+2026-08-05 17:20:54.000  INFO 1 --- [orders-consumer-6] c.k.orders.consumer.EventHandler         : Processed StockReserved orderId=ORD-15154524 partition=2 offset=7796314
+2026-08-05 17:22:02.000  INFO 1 --- [orders-consumer-5] c.k.orders.consumer.EventHandler         : Processed StockReserved orderId=ORD-41623440 partition=6 offset=9475135
+2026-08-05 17:22:43.000  INFO 1 --- [orders-consumer-11] c.k.orders.consumer.EventHandler         : Processed StockReserved orderId=ORD-93621241 partition=3 offset=9588286
+2026-08-05 17:24:04.000  INFO 1 --- [orders-consumer-8] c.k.orders.consumer.EventHandler         : Processed StockReserved orderId=ORD-92175543 partition=9 offset=3760846
+2026-08-05 17:25:53.000  INFO 1 --- [orders-consumer-10] c.k.orders.consumer.EventHandler         : Processed StockReserved orderId=ORD-54747676 partition=3 offset=4106466

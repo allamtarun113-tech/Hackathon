@@ -1,0 +1,155 @@
+company: Kartly
+about: Kartly is an Indian online shopping and payments platform (~2M daily active users, peak traffic 19:00-23:00 IST and
+  during the 'Midnight Deals' campaign that runs daily 00:00-03:00 IST).
+services:
+  checkout-web:
+    team: Orders & Checkout
+    owner: arjun
+    runtime: Node.js 20 / Next.js 14
+    namespace: checkout
+    description: Customer-facing cart and checkout frontend + BFF API.
+    depends_on:
+    - payments-api
+    - orders-service
+    - auth-service
+    - s3-assets
+    - unleash
+    dashboard: https://grafana.kartly.internal/d/checkout-web
+  payments-api:
+    team: Payments
+    owner: priya
+    runtime: Java 17 / Spring Boot 3 / HikariCP
+    namespace: payments
+    description: Creates charges, refunds and payment intents.
+    depends_on:
+    - postgres-main
+    - razorpay-gateway
+    - cashfree-gateway
+    - kafka-cluster
+    dashboard: https://grafana.kartly.internal/d/payments-api
+  orders-service:
+    team: Orders & Checkout
+    owner: arjun
+    runtime: Java 17 / Spring Boot 3 / Spring Kafka
+    namespace: orders
+    description: Order lifecycle; consumes payment, stock and checkout events from Kafka.
+    depends_on:
+    - postgres-main
+    - kafka-cluster
+    - schema-registry
+    dashboard: https://grafana.kartly.internal/d/orders-service
+  inventory-service:
+    team: Orders & Checkout
+    owner: arjun
+    runtime: Java 17 / Spring Boot 3 / HikariCP
+    namespace: inventory
+    description: Stock levels and reservations; publishes StockReserved events.
+    depends_on:
+    - postgres-inventory
+    - kafka-cluster
+    - schema-registry
+    dashboard: https://grafana.kartly.internal/d/inventory-service
+  auth-service:
+    team: Identity & Notifications
+    owner: neha
+    runtime: Go 1.22
+    namespace: identity
+    description: Login, OTP, sessions and JWT issuing.
+    depends_on:
+    - redis-cache
+    - postgres-main
+    dashboard: https://grafana.kartly.internal/d/auth-service
+  search-service:
+    team: Search & Discovery
+    owner: vikram
+    runtime: Java 17 / embedded Lucene
+    namespace: search
+    description: Product search; each pod holds an in-memory Lucene index replica.
+    depends_on:
+    - postgres-main
+    - s3-assets
+    dashboard: https://grafana.kartly.internal/d/search-service
+  notification-service:
+    team: Identity & Notifications
+    owner: neha
+    runtime: Go 1.22
+    namespace: notifications
+    description: Sends SMS, email and push; calls template-renderer over mTLS.
+    depends_on:
+    - template-renderer
+    - kafka-cluster
+    - sms-provider
+    dashboard: https://grafana.kartly.internal/d/notification-service
+infrastructure:
+  postgres-main:
+    owner: fatima
+    kind: PostgreSQL 15 (max_connections=500)
+  postgres-inventory:
+    owner: fatima
+    kind: PostgreSQL 15 (max_connections=300)
+  redis-cache:
+    owner: fatima
+    kind: Redis 7 (maxmemory-policy volatile-lru)
+  kafka-cluster:
+    owner: fatima
+    kind: Kafka 3.6, 12 partitions per topic
+  schema-registry:
+    owner: fatima
+    kind: Confluent Schema Registry
+  coredns:
+    owner: fatima
+    kind: Kubernetes cluster DNS
+  unleash:
+    owner: arjun
+    kind: Unleash feature toggles
+  template-renderer:
+    owner: neha
+    kind: Internal HTTPS service (internal CA certs)
+  s3-assets:
+    owner: fatima
+    kind: S3 bucket kartly-static-assets behind CloudFront
+  razorpay-gateway:
+    owner: priya
+    kind: External payment gateway (primary)
+  cashfree-gateway:
+    owner: priya
+    kind: External payment gateway (backup)
+  sms-provider:
+    owner: neha
+    kind: External SMS provider
+scheduled_jobs:
+  recon-job:
+    service: payments-api
+    schedule: daily 02:00 IST
+    description: Nightly payment reconciliation against gateway settlement files.
+  search-reindex-job:
+    service: search-service
+    schedule: weekly Sunday 01:00 IST
+    description: Full rebuild of the product search index.
+  stock-sync-job:
+    service: inventory-service
+    schedule: daily 02:00 IST
+    description: Syncs stock counts from warehouse partners.
+  notification-weekly-restart:
+    service: notification-service
+    schedule: weekly Monday 04:00 IST
+    description: Stop-gap rolling restart (NOTIF-58). Removed after the NOTIF-51 fix shipped in May 2026.
+sales_calendar:
+- name: Republic Day Sale
+  start: '2026-01-25'
+  end: '2026-01-27'
+- name: Holi Sale
+  start: '2026-03-13'
+  end: '2026-03-15'
+- name: Summer Sale
+  start: '2026-05-01'
+  end: '2026-05-03'
+- name: Weekend Sale
+  start: '2026-06-20'
+  end: '2026-06-21'
+- name: Freedom Sale
+  start: '2026-08-14'
+  end: '2026-08-16'
+- name: Festive Sale
+  start: '2026-09-29'
+  end: '2026-10-05'

@@ -1,0 +1,110 @@
+2026-02-03 08:55:00.000  INFO 1 --- [http-nio-8080-exec-54] c.k.orders.api.OrderController           : GET /v1/orders/ORD-99221330 200 source=replica latencyMs=83
+2026-02-03 08:56:08.891  INFO 1 --- [http-nio-8080-exec-96] c.k.orders.api.OrderController           : GET /v1/orders/ORD-75277963 200 source=replica latencyMs=193
+2026-02-03 08:56:44.191  INFO 1 --- [http-nio-8080-exec-5] c.k.orders.api.OrderController           : GET /v1/orders/ORD-65320227 200 source=replica latencyMs=177
+2026-02-03 08:57:30.090  INFO 1 --- [http-nio-8080-exec-15] c.k.orders.api.OrderController           : GET /v1/orders/ORD-56101278 200 source=replica latencyMs=259
+2026-02-03 08:58:00.350  INFO 1 --- [http-nio-8080-exec-52] c.k.orders.api.OrderController           : GET /v1/orders/ORD-81962419 200 source=replica latencyMs=271
+2026-02-03 08:59:09.449  INFO 1 --- [http-nio-8080-exec-165] c.k.orders.api.OrderController           : GET /v1/orders/ORD-24215170 200 source=replica latencyMs=67
+2026-02-03 09:00:19.041  INFO 1 --- [http-nio-8080-exec-151] c.k.orders.api.OrderController           : GET /v1/orders/ORD-98828773 200 source=replica latencyMs=224
+2026-02-03 09:00:50.967  INFO 1 --- [http-nio-8080-exec-17] c.k.orders.api.OrderController           : GET /v1/orders/ORD-57967585 200 source=replica latencyMs=261
+2026-02-03 09:01:34.529  INFO 1 --- [http-nio-8080-exec-140] c.k.orders.api.OrderController           : GET /v1/orders/ORD-62476317 200 source=replica latencyMs=109
+2026-02-03 09:02:08.470  INFO 1 --- [http-nio-8080-exec-115] c.k.orders.api.OrderController           : GET /v1/orders/ORD-56791639 200 source=replica latencyMs=119
+2026-02-03 09:02:49.036  INFO 1 --- [http-nio-8080-exec-181] c.k.orders.api.OrderController           : GET /v1/orders/ORD-53720359 200 source=replica latencyMs=210
+2026-02-03 09:03:37.172  INFO 1 --- [http-nio-8080-exec-171] c.k.orders.api.OrderController           : GET /v1/orders/ORD-86127050 200 source=replica latencyMs=250
+2026-02-03 09:04:08.280  INFO 1 --- [http-nio-8080-exec-111] c.k.orders.api.OrderController           : GET /v1/orders/ORD-23323342 200 source=replica latencyMs=322
+2026-02-03 09:04:58.682  INFO 1 --- [http-nio-8080-exec-25] c.k.orders.api.OrderController           : GET /v1/orders/ORD-84467318 200 source=replica latencyMs=274
+2026-02-03 09:05:40.013  INFO 1 --- [http-nio-8080-exec-193] c.k.orders.api.OrderController           : GET /v1/orders/ORD-88816160 200 source=replica latencyMs=64
+2026-02-03 09:06:38.859  INFO 1 --- [http-nio-8080-exec-31] c.k.orders.api.OrderController           : GET /v1/orders/ORD-71095886 200 source=replica latencyMs=230
+2026-02-03 09:07:46.924  INFO 1 --- [http-nio-8080-exec-184] c.k.orders.api.OrderController           : GET /v1/orders/ORD-70961530 200 source=replica latencyMs=56
+2026-02-03 09:08:16.312  INFO 1 --- [http-nio-8080-exec-74] c.k.orders.api.OrderController           : GET /v1/orders/ORD-72177834 200 source=replica latencyMs=181
+2026-02-03 09:09:11.831  INFO 1 --- [http-nio-8080-exec-162] c.k.orders.api.OrderController           : GET /v1/orders/ORD-77780841 200 source=replica latencyMs=297
+2026-02-03 09:10:19.312  INFO 1 --- [http-nio-8080-exec-150] c.k.orders.api.OrderController           : GET /v1/orders/ORD-95378910 200 source=replica latencyMs=201
+2026-02-03 09:11:18.616  INFO 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : Skipping run: lock 'autocancel' held by orders-service-7c4b9-2kq7x since 06:02
+2026-02-03 09:11:46.873  WARN 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : 4,812 unpaid orders older than 30m pending cancellation
+2026-02-03 09:12:11.719  WARN 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : 4,812 unpaid orders older than 30m pending cancellation
+2026-02-03 09:12:32.424  WARN 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : 4,812 unpaid orders older than 30m pending cancellation
+2026-02-03 09:12:55.945  INFO 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : Skipping run: lock 'autocancel' held by orders-service-7c4b9-2kq7x since 06:02
+2026-02-03 09:13:16.855  WARN 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : 4,812 unpaid orders older than 30m pending cancellation
+2026-02-03 09:13:45.337  WARN 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : 4,812 unpaid orders older than 30m pending cancellation
+2026-02-03 09:14:03.397  INFO 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : Skipping run: lock 'autocancel' held by orders-service-7c4b9-2kq7x since 06:02
+2026-02-03 09:14:27.952  WARN 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : 4,812 unpaid orders older than 30m pending cancellation
+2026-02-03 09:14:49.739  INFO 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : Skipping run: lock 'autocancel' held by orders-service-7c4b9-2kq7x since 06:02
+2026-02-03 09:15:22.447  INFO 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : Skipping run: lock 'autocancel' held by orders-service-7c4b9-2kq7x since 06:02
+2026-02-03 09:15:49.292  INFO 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : Skipping run: lock 'autocancel' held by orders-service-7c4b9-2kq7x since 06:02
+2026-02-03 09:16:19.566  INFO 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : Skipping run: lock 'autocancel' held by orders-service-7c4b9-2kq7x since 06:02
+2026-02-03 09:16:48.993  WARN 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : 4,812 unpaid orders older than 30m pending cancellation
+2026-02-03 09:17:23.533  INFO 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : Skipping run: lock 'autocancel' held by orders-service-7c4b9-2kq7x since 06:02
+2026-02-03 09:17:45.988  INFO 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : Skipping run: lock 'autocancel' held by orders-service-7c4b9-2kq7x since 06:02
+2026-02-03 09:18:12.337  WARN 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : 4,812 unpaid orders older than 30m pending cancellation
+2026-02-03 09:18:45.134  WARN 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : 4,812 unpaid orders older than 30m pending cancellation
+2026-02-03 09:19:08.536  INFO 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : Skipping run: lock 'autocancel' held by orders-service-7c4b9-2kq7x since 06:02
+2026-02-03 09:19:30.685  WARN 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : 4,812 unpaid orders older than 30m pending cancellation
+2026-02-03 09:19:48.619  WARN 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : 4,812 unpaid orders older than 30m pending cancellation
+2026-02-03 09:20:21.645  INFO 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : Skipping run: lock 'autocancel' held by orders-service-7c4b9-2kq7x since 06:02
+2026-02-03 09:20:39.448  WARN 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : 4,812 unpaid orders older than 30m pending cancellation
+2026-02-03 09:21:07.289  INFO 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : Skipping run: lock 'autocancel' held by orders-service-7c4b9-2kq7x since 06:02
+2026-02-03 09:21:30.091  WARN 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : 4,812 unpaid orders older than 30m pending cancellation
+2026-02-03 09:21:50.955  INFO 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : Skipping run: lock 'autocancel' held by orders-service-7c4b9-2kq7x since 06:02
+2026-02-03 09:22:19.061  WARN 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : 4,812 unpaid orders older than 30m pending cancellation
+2026-02-03 09:22:37.751  INFO 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : Skipping run: lock 'autocancel' held by orders-service-7c4b9-2kq7x since 06:02
+2026-02-03 09:23:00.594  WARN 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : 4,812 unpaid orders older than 30m pending cancellation
+2026-02-03 09:23:33.103  WARN 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : 4,812 unpaid orders older than 30m pending cancellation
+2026-02-03 09:24:04.705  INFO 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : Skipping run: lock 'autocancel' held by orders-service-7c4b9-2kq7x since 06:02
+2026-02-03 09:24:21.734  INFO 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : Skipping run: lock 'autocancel' held by orders-service-7c4b9-2kq7x since 06:02
+2026-02-03 09:24:47.792  INFO 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : Skipping run: lock 'autocancel' held by orders-service-7c4b9-2kq7x since 06:02
+2026-02-03 09:25:04.978  INFO 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : Skipping run: lock 'autocancel' held by orders-service-7c4b9-2kq7x since 06:02
+2026-02-03 09:25:28.546  WARN 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : 4,812 unpaid orders older than 30m pending cancellation
+2026-02-03 09:25:47.401  INFO 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : Skipping run: lock 'autocancel' held by orders-service-7c4b9-2kq7x since 06:02
+2026-02-03 09:26:15.533  WARN 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : 4,812 unpaid orders older than 30m pending cancellation
+2026-02-03 09:26:39.770  WARN 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : 4,812 unpaid orders older than 30m pending cancellation
+2026-02-03 09:27:09.192  INFO 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : Skipping run: lock 'autocancel' held by orders-service-7c4b9-2kq7x since 06:02
+2026-02-03 09:27:36.854  INFO 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : Skipping run: lock 'autocancel' held by orders-service-7c4b9-2kq7x since 06:02
+2026-02-03 09:27:59.881  INFO 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : Skipping run: lock 'autocancel' held by orders-service-7c4b9-2kq7x since 06:02
+2026-02-03 09:28:21.750  WARN 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : 4,812 unpaid orders older than 30m pending cancellation
+2026-02-03 09:28:51.856  INFO 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : Skipping run: lock 'autocancel' held by orders-service-7c4b9-2kq7x since 06:02
+2026-02-03 09:29:23.769  WARN 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : 4,812 unpaid orders older than 30m pending cancellation
+2026-02-03 09:29:49.302  INFO 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : Skipping run: lock 'autocancel' held by orders-service-7c4b9-2kq7x since 06:02
+2026-02-03 09:30:21.446  INFO 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : Skipping run: lock 'autocancel' held by orders-service-7c4b9-2kq7x since 06:02
+2026-02-03 09:30:50.493  WARN 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : 4,812 unpaid orders older than 30m pending cancellation
+2026-02-03 09:31:09.762  WARN 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : 4,812 unpaid orders older than 30m pending cancellation
+2026-02-03 09:31:40.897  WARN 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : 4,812 unpaid orders older than 30m pending cancellation
+2026-02-03 09:32:12.065  WARN 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : 4,812 unpaid orders older than 30m pending cancellation
+2026-02-03 09:32:35.291  WARN 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : 4,812 unpaid orders older than 30m pending cancellation
+2026-02-03 09:32:57.827  WARN 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : 4,812 unpaid orders older than 30m pending cancellation
+2026-02-03 09:33:28.500  INFO 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : Skipping run: lock 'autocancel' held by orders-service-7c4b9-2kq7x since 06:02
+2026-02-03 09:33:52.905  INFO 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : Skipping run: lock 'autocancel' held by orders-service-7c4b9-2kq7x since 06:02
+2026-02-03 09:34:13.139  INFO 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : Skipping run: lock 'autocancel' held by orders-service-7c4b9-2kq7x since 06:02
+2026-02-03 09:34:44.158  INFO 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : Skipping run: lock 'autocancel' held by orders-service-7c4b9-2kq7x since 06:02
+2026-02-03 09:35:16.989  WARN 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : 4,812 unpaid orders older than 30m pending cancellation
+2026-02-03 09:35:42.460  WARN 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : 4,812 unpaid orders older than 30m pending cancellation
+2026-02-03 09:36:00.898  WARN 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : 4,812 unpaid orders older than 30m pending cancellation
+2026-02-03 09:36:16.272  INFO 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : Skipping run: lock 'autocancel' held by orders-service-7c4b9-2kq7x since 06:02
+2026-02-03 09:36:35.351  INFO 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : Skipping run: lock 'autocancel' held by orders-service-7c4b9-2kq7x since 06:02
+2026-02-03 09:37:09.261  WARN 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : 4,812 unpaid orders older than 30m pending cancellation
+2026-02-03 09:37:36.258  WARN 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : 4,812 unpaid orders older than 30m pending cancellation
+2026-02-03 09:38:07.362  INFO 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : Skipping run: lock 'autocancel' held by orders-service-7c4b9-2kq7x since 06:02
+2026-02-03 09:38:24.534  WARN 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : 4,812 unpaid orders older than 30m pending cancellation
+2026-02-03 09:38:51.602  WARN 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : 4,812 unpaid orders older than 30m pending cancellation
+2026-02-03 09:39:20.816  INFO 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : Skipping run: lock 'autocancel' held by orders-service-7c4b9-2kq7x since 06:02
+2026-02-03 09:39:50.257  WARN 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : 4,812 unpaid orders older than 30m pending cancellation
+2026-02-03 09:40:15.901  INFO 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : Skipping run: lock 'autocancel' held by orders-service-7c4b9-2kq7x since 06:02
+2026-02-03 09:40:45.684  INFO 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : Skipping run: lock 'autocancel' held by orders-service-7c4b9-2kq7x since 06:02
+2026-02-03 09:41:15.080  INFO 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : Skipping run: lock 'autocancel' held by orders-service-7c4b9-2kq7x since 06:02
+2026-02-03 09:41:48.850  INFO 1 --- [scheduling-1] c.k.orders.jobs.AutoCancelJob            : Skipping run: lock 'autocancel' held by orders-service-7c4b9-2kq7x since 06:02
+2026-02-03 09:41:53.000  INFO 1 --- [http-nio-8080-exec-76] c.k.orders.api.OrderController           : GET /v1/orders/ORD-85430716 200 source=replica latencyMs=280
+2026-02-03 09:42:13.000  INFO 1 --- [http-nio-8080-exec-138] c.k.orders.api.OrderController           : GET /v1/orders/ORD-25291661 200 source=replica latencyMs=128
+2026-02-03 09:43:18.000  INFO 1 --- [http-nio-8080-exec-149] c.k.orders.api.OrderController           : GET /v1/orders/ORD-11211998 200 source=replica latencyMs=197
+2026-02-03 09:44:19.000  INFO 1 --- [http-nio-8080-exec-32] c.k.orders.api.OrderController           : GET /v1/orders/ORD-35064851 200 source=replica latencyMs=123
+2026-02-03 09:46:17.000  INFO 1 --- [http-nio-8080-exec-5] c.k.orders.api.OrderController           : GET /v1/orders/ORD-65887546 200 source=replica latencyMs=151
+2026-02-03 09:47:43.000  INFO 1 --- [http-nio-8080-exec-167] c.k.orders.api.OrderController           : GET /v1/orders/ORD-81312259 200 source=replica latencyMs=45
+2026-02-03 09:48:54.000  INFO 1 --- [http-nio-8080-exec-106] c.k.orders.api.OrderController           : GET /v1/orders/ORD-91147883 200 source=replica latencyMs=297
+2026-02-03 09:50:12.000  INFO 1 --- [http-nio-8080-exec-156] c.k.orders.api.OrderController           : GET /v1/orders/ORD-95732080 200 source=replica latencyMs=276
+2026-02-03 09:51:29.000  INFO 1 --- [http-nio-8080-exec-151] c.k.orders.api.OrderController           : GET /v1/orders/ORD-74369455 200 source=replica latencyMs=55
+2026-02-03 09:52:41.000  INFO 1 --- [http-nio-8080-exec-149] c.k.orders.api.OrderController           : GET /v1/orders/ORD-41116970 200 source=replica latencyMs=359
+2026-02-03 09:53:26.000  INFO 1 --- [http-nio-8080-exec-39] c.k.orders.api.OrderController           : GET /v1/orders/ORD-51763476 200 source=replica latencyMs=260
+2026-02-03 09:54:34.000  INFO 1 --- [http-nio-8080-exec-22] c.k.orders.api.OrderController           : GET /v1/orders/ORD-17544837 200 source=replica latencyMs=226
+2026-02-03 09:55:14.000  INFO 1 --- [http-nio-8080-exec-5] c.k.orders.api.OrderController           : GET /v1/orders/ORD-45820355 200 source=replica latencyMs=88
+2026-02-03 09:56:49.000  INFO 1 --- [http-nio-8080-exec-12] c.k.orders.api.OrderController           : GET /v1/orders/ORD-92677261 200 source=replica latencyMs=343
+2026-02-03 09:58:21.000  INFO 1 --- [http-nio-8080-exec-7] c.k.orders.api.OrderController           : GET /v1/orders/ORD-18563482 200 source=replica latencyMs=358
+2026-02-03 10:00:18.000  INFO 1 --- [http-nio-8080-exec-120] c.k.orders.api.OrderController           : GET /v1/orders/ORD-93969942 200 source=replica latencyMs=79
+2026-02-03 10:01:48.000  INFO 1 --- [http-nio-8080-exec-2] c.k.orders.api.OrderController           : GET /v1/orders/ORD-79649339 200 source=replica latencyMs=300
+2026-02-03 10:02:47.000  INFO 1 --- [http-nio-8080-exec-18] c.k.orders.api.OrderController           : GET /v1/orders/ORD-34201889 200 source=replica latencyMs=174

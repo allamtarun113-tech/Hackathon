@@ -1,0 +1,161 @@
+2026-08-28 13:50:00.000  INFO 1 --- [orders-consumer-7] c.k.orders.consumer.EventHandler         : Processed OrderPlaced orderId=ORD-64265145 partition=8 offset=1907354
+2026-08-28 13:50:50.082  INFO 1 --- [orders-consumer-3] c.k.orders.consumer.EventHandler         : Processed OrderPlaced orderId=ORD-89183683 partition=3 offset=9252004
+2026-08-28 13:51:26.590  INFO 1 --- [orders-consumer-0] c.k.orders.consumer.EventHandler         : Processed OrderPlaced orderId=ORD-69341003 partition=5 offset=5184184
+2026-08-28 13:52:05.729  INFO 1 --- [orders-consumer-0] c.k.orders.consumer.EventHandler         : Processed OrderPlaced orderId=ORD-56453050 partition=9 offset=4362860
+2026-08-28 13:52:41.597  INFO 1 --- [orders-consumer-7] c.k.orders.consumer.EventHandler         : Processed OrderPlaced orderId=ORD-50513134 partition=3 offset=9503102
+2026-08-28 13:53:14.632  INFO 1 --- [orders-consumer-0] c.k.orders.consumer.EventHandler         : Processed OrderPlaced orderId=ORD-32936749 partition=5 offset=3237088
+2026-08-28 13:54:15.696  INFO 1 --- [orders-consumer-11] c.k.orders.consumer.EventHandler         : Processed OrderPlaced orderId=ORD-44250750 partition=2 offset=5711254
+2026-08-28 13:54:41.276  INFO 1 --- [orders-consumer-6] c.k.orders.consumer.EventHandler         : Processed OrderPlaced orderId=ORD-67142305 partition=2 offset=4615820
+2026-08-28 13:55:24.706  INFO 1 --- [orders-consumer-11] c.k.orders.consumer.EventHandler         : Processed OrderPlaced orderId=ORD-93925537 partition=6 offset=6686816
+2026-08-28 13:56:06.048  INFO 1 --- [orders-consumer-6] c.k.orders.consumer.EventHandler         : Processed OrderPlaced orderId=ORD-32725879 partition=3 offset=8771787
+2026-08-28 13:56:43.599  INFO 1 --- [orders-consumer-8] c.k.orders.consumer.EventHandler         : Processed OrderPlaced orderId=ORD-95453594 partition=9 offset=1233843
+2026-08-28 13:57:26.681  INFO 1 --- [orders-consumer-5] c.k.orders.consumer.EventHandler         : Processed OrderPlaced orderId=ORD-55131894 partition=8 offset=7199960
+2026-08-28 13:58:02.555  INFO 1 --- [orders-consumer-5] c.k.orders.consumer.EventHandler         : Processed OrderPlaced orderId=ORD-53680061 partition=5 offset=8559314
+2026-08-28 13:58:32.609  INFO 1 --- [orders-consumer-9] c.k.orders.consumer.EventHandler         : Processed OrderPlaced orderId=ORD-44875432 partition=6 offset=7759153
+2026-08-28 13:59:29.677  INFO 1 --- [orders-consumer-3] c.k.orders.consumer.EventHandler         : Processed OrderPlaced orderId=ORD-58132233 partition=3 offset=5703516
+2026-08-28 14:00:35.124  INFO 1 --- [orders-consumer-6] c.k.orders.consumer.EventHandler         : Processed OrderPlaced orderId=ORD-88121560 partition=9 offset=5841529
+2026-08-28 14:01:41.595  INFO 1 --- [orders-consumer-9] c.k.orders.consumer.EventHandler         : Processed OrderPlaced orderId=ORD-29527632 partition=6 offset=4146478
+2026-08-28 14:02:14.505  INFO 1 --- [orders-consumer-9] c.k.orders.consumer.EventHandler         : Processed OrderPlaced orderId=ORD-44930179 partition=4 offset=5367111
+2026-08-28 14:03:20.535  INFO 1 --- [orders-consumer-2] c.k.orders.consumer.EventHandler         : Processed OrderPlaced orderId=ORD-21684618 partition=7 offset=8833222
+2026-08-28 14:04:09.467  INFO 1 --- [orders-consumer-6] c.k.orders.consumer.EventHandler         : Processed OrderPlaced orderId=ORD-27402203 partition=0 offset=3087222
+2026-08-28 14:04:57.846  INFO 1 --- [orders-consumer-3] c.k.orders.consumer.EventHandler         : Processed OrderPlaced orderId=ORD-16336599 partition=7 offset=9482236
+2026-08-28 14:05:38.250  INFO 1 --- [orders-consumer-10] c.k.orders.consumer.EventHandler         : Processed OrderPlaced orderId=ORD-15389314 partition=4 offset=8331349
+2026-08-28 14:06:09.554 ERROR 1 --- [orders-consumer-9] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 603
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.OrderPlaced, expecting com.kartly.events.OrderPlaced, missing required field deliverySlotId
+2026-08-28 14:06:26.227  WARN 1 --- [orders-consumer-9] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-9, groupId=orders-service] Seeking to offset 3022525 for partition checkout.order-placed.v3-7
+ts=2026-08-28T08:36:41.342Z level=warn exporter=kafka-lag-exporter group=orders-service topic=checkout.order-placed.v3 partition=1 lag=20280
+2026-08-28 14:06:57.387  WARN 1 --- [orders-consumer-5] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-5, groupId=orders-service] Seeking to offset 8148254 for partition checkout.order-placed.v3-1
+2026-08-28 14:07:17.278  WARN 1 --- [orders-consumer-9] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-9, groupId=orders-service] Seeking to offset 2053167 for partition checkout.order-placed.v3-4
+ts=2026-08-28T08:37:26.221Z level=warn exporter=kafka-lag-exporter group=orders-service topic=checkout.order-placed.v3 partition=3 lag=11943
+2026-08-28 14:07:37.222  WARN 1 --- [orders-consumer-3] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-3, groupId=orders-service] Seeking to offset 7630781 for partition checkout.order-placed.v3-4
+2026-08-28 14:07:47.220  WARN 1 --- [orders-consumer-5] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-5, groupId=orders-service] Seeking to offset 1746589 for partition checkout.order-placed.v3-7
+2026-08-28 14:07:56.344 ERROR 1 --- [orders-consumer-10] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 603
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.OrderPlaced, expecting com.kartly.events.OrderPlaced, missing required field deliverySlotId
+2026-08-28 14:08:17.103 ERROR 1 --- [orders-consumer-1] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 603
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.OrderPlaced, expecting com.kartly.events.OrderPlaced, missing required field deliverySlotId
+2026-08-28 14:08:35.705 ERROR 1 --- [orders-consumer-9] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 603
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.OrderPlaced, expecting com.kartly.events.OrderPlaced, missing required field deliverySlotId
+2026-08-28 14:08:54.045  WARN 1 --- [orders-consumer-3] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-3, groupId=orders-service] Seeking to offset 3503624 for partition checkout.order-placed.v3-1
+2026-08-28 14:09:09.963 ERROR 1 --- [orders-consumer-11] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 603
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.OrderPlaced, expecting com.kartly.events.OrderPlaced, missing required field deliverySlotId
+2026-08-28 14:09:26.693  WARN 1 --- [orders-consumer-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-1, groupId=orders-service] Seeking to offset 8181551 for partition checkout.order-placed.v3-0
+2026-08-28 14:09:46.259  WARN 1 --- [orders-consumer-11] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-11, groupId=orders-service] Seeking to offset 1591810 for partition checkout.order-placed.v3-5
+ts=2026-08-28T08:40:04.557Z level=warn exporter=kafka-lag-exporter group=orders-service topic=checkout.order-placed.v3 partition=9 lag=9785
+ts=2026-08-28T08:40:12.614Z level=warn exporter=kafka-lag-exporter group=orders-service topic=checkout.order-placed.v3 partition=7 lag=19537
+2026-08-28 14:10:22.011 ERROR 1 --- [orders-consumer-11] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 603
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.OrderPlaced, expecting com.kartly.events.OrderPlaced, missing required field deliverySlotId
+2026-08-28 14:10:42.742 ERROR 1 --- [orders-consumer-5] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 603
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.OrderPlaced, expecting com.kartly.events.OrderPlaced, missing required field deliverySlotId
+2026-08-28 14:10:53.803  WARN 1 --- [orders-consumer-5] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-5, groupId=orders-service] Seeking to offset 8614080 for partition checkout.order-placed.v3-6
+ts=2026-08-28T08:41:06.040Z level=warn exporter=kafka-lag-exporter group=orders-service topic=checkout.order-placed.v3 partition=7 lag=16103
+2026-08-28 14:11:26.279  WARN 1 --- [orders-consumer-2] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-2, groupId=orders-service] Seeking to offset 9097543 for partition checkout.order-placed.v3-6
+2026-08-28 14:11:37.946 ERROR 1 --- [orders-consumer-0] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 603
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.OrderPlaced, expecting com.kartly.events.OrderPlaced, missing required field deliverySlotId
+ts=2026-08-28T08:41:58.383Z level=warn exporter=kafka-lag-exporter group=orders-service topic=checkout.order-placed.v3 partition=2 lag=19754
+2026-08-28 14:12:07.263  WARN 1 --- [orders-consumer-10] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-10, groupId=orders-service] Seeking to offset 6604377 for partition checkout.order-placed.v3-6
+2026-08-28 14:12:26.597  WARN 1 --- [orders-consumer-5] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-5, groupId=orders-service] Seeking to offset 3263350 for partition checkout.order-placed.v3-3
+2026-08-28 14:12:38.059 ERROR 1 --- [orders-consumer-4] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 603
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.OrderPlaced, expecting com.kartly.events.OrderPlaced, missing required field deliverySlotId
+2026-08-28 14:12:49.377  WARN 1 --- [orders-consumer-5] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-5, groupId=orders-service] Seeking to offset 5138008 for partition checkout.order-placed.v3-6
+ts=2026-08-28T08:43:05.969Z level=warn exporter=kafka-lag-exporter group=orders-service topic=checkout.order-placed.v3 partition=2 lag=5077
+2026-08-28 14:13:24.554  WARN 1 --- [orders-consumer-10] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-10, groupId=orders-service] Seeking to offset 7557606 for partition checkout.order-placed.v3-3
+2026-08-28 14:13:34.212 ERROR 1 --- [orders-consumer-4] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 603
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.OrderPlaced, expecting com.kartly.events.OrderPlaced, missing required field deliverySlotId
+2026-08-28 14:13:42.592 ERROR 1 --- [orders-consumer-10] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 603
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.OrderPlaced, expecting com.kartly.events.OrderPlaced, missing required field deliverySlotId
+2026-08-28 14:13:59.151 ERROR 1 --- [orders-consumer-11] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 603
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.OrderPlaced, expecting com.kartly.events.OrderPlaced, missing required field deliverySlotId
+2026-08-28 14:14:13.207  WARN 1 --- [orders-consumer-6] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-6, groupId=orders-service] Seeking to offset 2463704 for partition checkout.order-placed.v3-7
+ts=2026-08-28T08:44:21.619Z level=warn exporter=kafka-lag-exporter group=orders-service topic=checkout.order-placed.v3 partition=6 lag=15729
+2026-08-28 14:14:39.731 ERROR 1 --- [orders-consumer-9] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 603
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.OrderPlaced, expecting com.kartly.events.OrderPlaced, missing required field deliverySlotId
+2026-08-28 14:14:56.328  WARN 1 --- [orders-consumer-9] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-9, groupId=orders-service] Seeking to offset 8230188 for partition checkout.order-placed.v3-6
+2026-08-28 14:15:06.634  WARN 1 --- [orders-consumer-9] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-9, groupId=orders-service] Seeking to offset 4738969 for partition checkout.order-placed.v3-5
+2026-08-28 14:15:24.555 ERROR 1 --- [orders-consumer-2] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 603
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.OrderPlaced, expecting com.kartly.events.OrderPlaced, missing required field deliverySlotId
+2026-08-28 14:15:36.206 ERROR 1 --- [orders-consumer-4] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 603
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.OrderPlaced, expecting com.kartly.events.OrderPlaced, missing required field deliverySlotId
+ts=2026-08-28T08:45:48.653Z level=warn exporter=kafka-lag-exporter group=orders-service topic=checkout.order-placed.v3 partition=7 lag=9298
+ts=2026-08-28T08:46:05.505Z level=warn exporter=kafka-lag-exporter group=orders-service topic=checkout.order-placed.v3 partition=9 lag=4444
+2026-08-28 14:16:25.194 ERROR 1 --- [orders-consumer-10] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 603
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.OrderPlaced, expecting com.kartly.events.OrderPlaced, missing required field deliverySlotId
+2026-08-28 14:16:37.152  WARN 1 --- [orders-consumer-7] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-7, groupId=orders-service] Seeking to offset 6509171 for partition checkout.order-placed.v3-4
+2026-08-28 14:16:46.321 ERROR 1 --- [orders-consumer-0] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 603
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.OrderPlaced, expecting com.kartly.events.OrderPlaced, missing required field deliverySlotId
+2026-08-28 14:17:06.331 ERROR 1 --- [orders-consumer-10] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 603
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.OrderPlaced, expecting com.kartly.events.OrderPlaced, missing required field deliverySlotId
+ts=2026-08-28T08:47:17.802Z level=warn exporter=kafka-lag-exporter group=orders-service topic=checkout.order-placed.v3 partition=9 lag=13524
+ts=2026-08-28T08:47:37.809Z level=warn exporter=kafka-lag-exporter group=orders-service topic=checkout.order-placed.v3 partition=2 lag=8584
+2026-08-28 14:17:50.874  WARN 1 --- [orders-consumer-11] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-11, groupId=orders-service] Seeking to offset 3297217 for partition checkout.order-placed.v3-2
+2026-08-28 14:18:03.324  WARN 1 --- [orders-consumer-6] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-6, groupId=orders-service] Seeking to offset 5039384 for partition checkout.order-placed.v3-5
+2026-08-28 14:18:17.368  WARN 1 --- [orders-consumer-6] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-6, groupId=orders-service] Seeking to offset 1397901 for partition checkout.order-placed.v3-9
+2026-08-28 14:18:25.455  WARN 1 --- [orders-consumer-4] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-4, groupId=orders-service] Seeking to offset 6179096 for partition checkout.order-placed.v3-9
+ts=2026-08-28T08:48:41.430Z level=warn exporter=kafka-lag-exporter group=orders-service topic=checkout.order-placed.v3 partition=5 lag=6069
+ts=2026-08-28T08:48:58.279Z level=warn exporter=kafka-lag-exporter group=orders-service topic=checkout.order-placed.v3 partition=2 lag=20157
+2026-08-28 14:19:09.880 ERROR 1 --- [orders-consumer-4] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 603
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.OrderPlaced, expecting com.kartly.events.OrderPlaced, missing required field deliverySlotId
+ts=2026-08-28T08:49:30.113Z level=warn exporter=kafka-lag-exporter group=orders-service topic=checkout.order-placed.v3 partition=9 lag=5406
+ts=2026-08-28T08:49:50.094Z level=warn exporter=kafka-lag-exporter group=orders-service topic=checkout.order-placed.v3 partition=3 lag=18224
+2026-08-28 14:20:02.693 ERROR 1 --- [orders-consumer-9] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 603
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.OrderPlaced, expecting com.kartly.events.OrderPlaced, missing required field deliverySlotId
+2026-08-28 14:20:21.175 ERROR 1 --- [orders-consumer-6] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 603
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.OrderPlaced, expecting com.kartly.events.OrderPlaced, missing required field deliverySlotId
+2026-08-28 14:20:42.053  WARN 1 --- [orders-consumer-7] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-7, groupId=orders-service] Seeking to offset 2098791 for partition checkout.order-placed.v3-7
+2026-08-28 14:20:50.230 ERROR 1 --- [orders-consumer-8] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 603
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.OrderPlaced, expecting com.kartly.events.OrderPlaced, missing required field deliverySlotId
+2026-08-28 14:21:04.883 ERROR 1 --- [orders-consumer-1] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 603
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.OrderPlaced, expecting com.kartly.events.OrderPlaced, missing required field deliverySlotId
+ts=2026-08-28T08:51:15.714Z level=warn exporter=kafka-lag-exporter group=orders-service topic=checkout.order-placed.v3 partition=2 lag=17806
+2026-08-28 14:21:34.734 ERROR 1 --- [orders-consumer-10] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 603
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.OrderPlaced, expecting com.kartly.events.OrderPlaced, missing required field deliverySlotId
+2026-08-28 14:21:47.881 ERROR 1 --- [orders-consumer-10] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 603
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.OrderPlaced, expecting com.kartly.events.OrderPlaced, missing required field deliverySlotId
+ts=2026-08-28T08:51:59.346Z level=warn exporter=kafka-lag-exporter group=orders-service topic=checkout.order-placed.v3 partition=2 lag=13514
+2026-08-28 14:22:08.863 ERROR 1 --- [orders-consumer-3] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 603
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.OrderPlaced, expecting com.kartly.events.OrderPlaced, missing required field deliverySlotId
+2026-08-28 14:22:19.217 ERROR 1 --- [orders-consumer-11] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 603
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.OrderPlaced, expecting com.kartly.events.OrderPlaced, missing required field deliverySlotId
+2026-08-28 14:22:33.735  WARN 1 --- [orders-consumer-11] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=orders-consumer-11, groupId=orders-service] Seeking to offset 2907212 for partition checkout.order-placed.v3-3
+2026-08-28 14:22:48.306 ERROR 1 --- [orders-consumer-1] o.s.k.l.KafkaMessageListenerContainer    : Error handler threw an exception
+org.apache.kafka.common.errors.SerializationException: Error deserializing Avro message for id 603
+Caused by: org.apache.avro.AvroTypeException: Found com.kartly.events.OrderPlaced, expecting com.kartly.events.OrderPlaced, missing required field deliverySlotId
+2026-08-28 14:22:59.000  INFO 1 --- [orders-consumer-2] c.k.orders.consumer.EventHandler         : Processed OrderPlaced orderId=ORD-35541090 partition=4 offset=9221393
+ts=2026-08-28T08:53:47.000Z level=info exporter=kafka-lag-exporter group=orders-service topic=checkout.order-placed.v3 partition=8 lag=0
+2026-08-28 14:24:14.000  INFO 1 --- [orders-consumer-3] c.k.orders.consumer.EventHandler         : Processed OrderPlaced orderId=ORD-19976090 partition=5 offset=9158402
+2026-08-28 14:25:56.000  INFO 1 --- [orders-consumer-3] c.k.orders.consumer.EventHandler         : Processed OrderPlaced orderId=ORD-53279246 partition=2 offset=7547306
+2026-08-28 14:27:27.000  INFO 1 --- [orders-consumer-8] c.k.orders.consumer.EventHandler         : Processed OrderPlaced orderId=ORD-14298274 partition=8 offset=1849127
+2026-08-28 14:28:24.000  INFO 1 --- [orders-consumer-7] c.k.orders.consumer.EventHandler         : Processed OrderPlaced orderId=ORD-36458378 partition=2 offset=8308485
+2026-08-28 14:29:06.000  INFO 1 --- [orders-consumer-7] c.k.orders.consumer.EventHandler         : Processed OrderPlaced orderId=ORD-82942403 partition=2 offset=4238726
+2026-08-28 14:30:10.000  INFO 1 --- [orders-consumer-0] c.k.orders.consumer.EventHandler         : Processed OrderPlaced orderId=ORD-19795035 partition=7 offset=2752929
+2026-08-28 14:31:15.000  INFO 1 --- [orders-consumer-5] c.k.orders.consumer.EventHandler         : Processed OrderPlaced orderId=ORD-89968574 partition=2 offset=6210183
+2026-08-28 14:32:00.000  INFO 1 --- [orders-consumer-9] c.k.orders.consumer.EventHandler         : Processed OrderPlaced orderId=ORD-75233526 partition=3 offset=4760583
+2026-08-28 14:33:10.000  INFO 1 --- [orders-consumer-2] c.k.orders.consumer.EventHandler         : Processed OrderPlaced orderId=ORD-86440997 partition=5 offset=6456475
+2026-08-28 14:34:22.000  INFO 1 --- [orders-consumer-4] c.k.orders.consumer.EventHandler         : Processed OrderPlaced orderId=ORD-21751700 partition=1 offset=9267207
+2026-08-28 14:35:38.000  INFO 1 --- [orders-consumer-2] c.k.orders.consumer.EventHandler         : Processed OrderPlaced orderId=ORD-13957981 partition=9 offset=7847923

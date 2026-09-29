@@ -1,0 +1,115 @@
+2026-03-04 15:10:00.000  INFO 1 --- [http-nio-8080-exec-89] c.k.inventory.api.StockController        : GET /v1/stock/SKU-44353472 200 latencyMs=67
+2026-03-04 15:10:34.085  INFO 1 --- [http-nio-8080-exec-18] c.k.inventory.api.StockController        : GET /v1/stock/SKU-26794885 200 latencyMs=60
+2026-03-04 15:11:07.028  INFO 1 --- [http-nio-8080-exec-192] c.k.inventory.api.StockController        : GET /v1/stock/SKU-39573261 200 latencyMs=306
+2026-03-04 15:12:16.395  INFO 1 --- [http-nio-8080-exec-192] c.k.inventory.api.StockController        : GET /v1/stock/SKU-18784465 200 latencyMs=292
+2026-03-04 15:12:42.475  INFO 1 --- [http-nio-8080-exec-142] c.k.inventory.api.StockController        : GET /v1/stock/SKU-73747336 200 latencyMs=70
+2026-03-04 15:13:47.714  INFO 1 --- [http-nio-8080-exec-154] c.k.inventory.api.StockController        : GET /v1/stock/SKU-44076118 200 latencyMs=302
+2026-03-04 15:14:50.588  INFO 1 --- [http-nio-8080-exec-59] c.k.inventory.api.StockController        : GET /v1/stock/SKU-88919035 200 latencyMs=91
+2026-03-04 15:15:59.158  INFO 1 --- [http-nio-8080-exec-182] c.k.inventory.api.StockController        : GET /v1/stock/SKU-89834002 200 latencyMs=264
+2026-03-04 15:16:32.524  INFO 1 --- [http-nio-8080-exec-120] c.k.inventory.api.StockController        : GET /v1/stock/SKU-91936448 200 latencyMs=308
+2026-03-04 15:17:25.504  INFO 1 --- [http-nio-8080-exec-58] c.k.inventory.api.StockController        : GET /v1/stock/SKU-10171764 200 latencyMs=366
+2026-03-04 15:18:24.789  INFO 1 --- [http-nio-8080-exec-33] c.k.inventory.api.StockController        : GET /v1/stock/SKU-66223835 200 latencyMs=255
+2026-03-04 15:19:07.003  INFO 1 --- [http-nio-8080-exec-13] c.k.inventory.api.StockController        : GET /v1/stock/SKU-14278475 200 latencyMs=251
+2026-03-04 15:20:08.031  INFO 1 --- [http-nio-8080-exec-159] c.k.inventory.api.StockController        : GET /v1/stock/SKU-86138294 200 latencyMs=65
+2026-03-04 15:21:06.449  INFO 1 --- [http-nio-8080-exec-150] c.k.inventory.api.StockController        : GET /v1/stock/SKU-33726626 200 latencyMs=84
+2026-03-04 15:22:17.235  INFO 1 --- [http-nio-8080-exec-40] c.k.inventory.api.StockController        : GET /v1/stock/SKU-39388491 200 latencyMs=256
+2026-03-04 15:23:04.088  INFO 1 --- [http-nio-8080-exec-187] c.k.inventory.api.StockController        : GET /v1/stock/SKU-86593402 200 latencyMs=337
+2026-03-04 15:23:58.930  INFO 1 --- [http-nio-8080-exec-104] c.k.inventory.api.StockController        : GET /v1/stock/SKU-46845490 200 latencyMs=270
+2026-03-04 15:25:06.897  INFO 1 --- [http-nio-8080-exec-50] c.k.inventory.api.StockController        : GET /v1/stock/SKU-96315681 200 latencyMs=371
+2026-03-04 15:25:55.036  INFO 1 --- [http-nio-8080-exec-20] c.k.inventory.api.StockController        : GET /v1/stock/SKU-24133831 200 latencyMs=352
+2026-03-04 15:26:58.445 ERROR 1 --- [http-nio-8080-exec-118] c.k.inventory.api.ReservationController  : Stock went negative sku=SKU-67262923 available=-3
+2026-03-04 15:27:52.450  WARN 1 --- [http-nio-8080-exec-8] c.k.inventory.api.ReservationController  : Concurrent reservation detected sku=SKU-37167579 version=41
+2026-03-04 15:28:34.450  WARN 1 --- [http-nio-8080-exec-197] c.k.inventory.api.ReservationController  : Concurrent reservation detected sku=SKU-44817770 version=41
+2026-03-04 15:29:33.141 ERROR 1 --- [http-nio-8080-exec-97] c.k.inventory.api.ReservationController  : Stock went negative sku=SKU-25059898 available=-3
+2026-03-04 15:30:08.875  WARN 1 --- [http-nio-8080-exec-33] c.k.inventory.api.ReservationController  : Concurrent reservation detected sku=SKU-28067803 version=41
+2026-03-04 15:30:45.719 ERROR 1 --- [http-nio-8080-exec-159] c.k.inventory.api.ReservationController  : Stock went negative sku=SKU-33498003 available=-3
+2026-03-04 15:31:32.327 ERROR 1 --- [http-nio-8080-exec-95] c.k.inventory.api.ReservationController  : Stock went negative sku=SKU-80915820 available=-3
+2026-03-04 15:32:39.604 ERROR 1 --- [http-nio-8080-exec-123] c.k.inventory.api.ReservationController  : Stock went negative sku=SKU-92252943 available=-3
+2026-03-04 15:33:46.657 ERROR 1 --- [http-nio-8080-exec-126] c.k.inventory.api.ReservationController  : Stock went negative sku=SKU-89630191 available=-3
+2026-03-04 15:34:28.365 ERROR 1 --- [http-nio-8080-exec-152] c.k.inventory.api.ReservationController  : Stock went negative sku=SKU-99102900 available=-3
+2026-03-04 15:35:02.626  WARN 1 --- [http-nio-8080-exec-96] c.k.inventory.api.ReservationController  : Concurrent reservation detected sku=SKU-59940509 version=41
+2026-03-04 15:35:45.922  WARN 1 --- [http-nio-8080-exec-194] c.k.inventory.api.ReservationController  : Concurrent reservation detected sku=SKU-29846103 version=41
+2026-03-04 15:36:27.750  WARN 1 --- [http-nio-8080-exec-57] c.k.inventory.api.ReservationController  : Concurrent reservation detected sku=SKU-44255111 version=41
+2026-03-04 15:37:04.835 ERROR 1 --- [http-nio-8080-exec-156] c.k.inventory.api.ReservationController  : Stock went negative sku=SKU-41730500 available=-3
+2026-03-04 15:38:09.292  WARN 1 --- [http-nio-8080-exec-19] c.k.inventory.api.ReservationController  : Concurrent reservation detected sku=SKU-49190184 version=41
+2026-03-04 15:39:07.073 ERROR 1 --- [http-nio-8080-exec-67] c.k.inventory.api.ReservationController  : Stock went negative sku=SKU-47514524 available=-3
+2026-03-04 15:39:44.785 ERROR 1 --- [http-nio-8080-exec-65] c.k.inventory.api.ReservationController  : Stock went negative sku=SKU-59144207 available=-3
+2026-03-04 15:40:43.291  WARN 1 --- [http-nio-8080-exec-152] c.k.inventory.api.ReservationController  : Concurrent reservation detected sku=SKU-42357519 version=41
+2026-03-04 15:41:38.442 ERROR 1 --- [http-nio-8080-exec-65] c.k.inventory.api.ReservationController  : Stock went negative sku=SKU-28016569 available=-3
+2026-03-04 15:42:23.788  WARN 1 --- [http-nio-8080-exec-74] c.k.inventory.api.ReservationController  : Concurrent reservation detected sku=SKU-36908048 version=41
+2026-03-04 15:43:32.080  WARN 1 --- [http-nio-8080-exec-4] c.k.inventory.api.ReservationController  : Concurrent reservation detected sku=SKU-64038188 version=41
+2026-03-04 15:44:36.659  WARN 1 --- [http-nio-8080-exec-78] c.k.inventory.api.ReservationController  : Concurrent reservation detected sku=SKU-17100663 version=41
+2026-03-04 15:45:40.616 ERROR 1 --- [http-nio-8080-exec-173] c.k.inventory.api.ReservationController  : Stock went negative sku=SKU-76462948 available=-3
+2026-03-04 15:46:45.089  WARN 1 --- [http-nio-8080-exec-151] c.k.inventory.api.ReservationController  : Concurrent reservation detected sku=SKU-58255661 version=41
+2026-03-04 15:47:39.648 ERROR 1 --- [http-nio-8080-exec-21] c.k.inventory.api.ReservationController  : Stock went negative sku=SKU-39812451 available=-3
+2026-03-04 15:48:18.497  WARN 1 --- [http-nio-8080-exec-168] c.k.inventory.api.ReservationController  : Concurrent reservation detected sku=SKU-19915113 version=41
+2026-03-04 15:49:27.899  WARN 1 --- [http-nio-8080-exec-110] c.k.inventory.api.ReservationController  : Concurrent reservation detected sku=SKU-31754465 version=41
+2026-03-04 15:50:29.877  WARN 1 --- [http-nio-8080-exec-15] c.k.inventory.api.ReservationController  : Concurrent reservation detected sku=SKU-19602287 version=41
+2026-03-04 15:51:03.571  WARN 1 --- [http-nio-8080-exec-57] c.k.inventory.api.ReservationController  : Concurrent reservation detected sku=SKU-67451823 version=41
+2026-03-04 15:51:56.589  WARN 1 --- [http-nio-8080-exec-148] c.k.inventory.api.ReservationController  : Concurrent reservation detected sku=SKU-68847558 version=41
+2026-03-04 15:52:56.156 ERROR 1 --- [http-nio-8080-exec-146] c.k.inventory.api.ReservationController  : Stock went negative sku=SKU-33449908 available=-3
+2026-03-04 15:53:32.076 ERROR 1 --- [http-nio-8080-exec-20] c.k.inventory.api.ReservationController  : Stock went negative sku=SKU-22215829 available=-3
+2026-03-04 15:54:31.294  WARN 1 --- [http-nio-8080-exec-180] c.k.inventory.api.ReservationController  : Concurrent reservation detected sku=SKU-87162451 version=41
+2026-03-04 15:55:11.301  WARN 1 --- [http-nio-8080-exec-39] c.k.inventory.api.ReservationController  : Concurrent reservation detected sku=SKU-56383177 version=41
+2026-03-04 15:56:09.026 ERROR 1 --- [http-nio-8080-exec-166] c.k.inventory.api.ReservationController  : Stock went negative sku=SKU-26493251 available=-3
+2026-03-04 15:56:51.248 ERROR 1 --- [http-nio-8080-exec-195] c.k.inventory.api.ReservationController  : Stock went negative sku=SKU-11559281 available=-3
+2026-03-04 15:57:26.599 ERROR 1 --- [http-nio-8080-exec-162] c.k.inventory.api.ReservationController  : Stock went negative sku=SKU-38851717 available=-3
+2026-03-04 15:58:28.518 ERROR 1 --- [http-nio-8080-exec-141] c.k.inventory.api.ReservationController  : Stock went negative sku=SKU-47202396 available=-3
+2026-03-04 15:59:38.232  WARN 1 --- [http-nio-8080-exec-82] c.k.inventory.api.ReservationController  : Concurrent reservation detected sku=SKU-39580096 version=41
+2026-03-04 16:00:24.168  WARN 1 --- [http-nio-8080-exec-134] c.k.inventory.api.ReservationController  : Concurrent reservation detected sku=SKU-76804831 version=41
+2026-03-04 16:01:02.930 ERROR 1 --- [http-nio-8080-exec-165] c.k.inventory.api.ReservationController  : Stock went negative sku=SKU-13112996 available=-3
+2026-03-04 16:01:38.124  WARN 1 --- [http-nio-8080-exec-60] c.k.inventory.api.ReservationController  : Concurrent reservation detected sku=SKU-58332963 version=41
+2026-03-04 16:02:38.789  WARN 1 --- [http-nio-8080-exec-99] c.k.inventory.api.ReservationController  : Concurrent reservation detected sku=SKU-50955297 version=41
+2026-03-04 16:03:26.769  WARN 1 --- [http-nio-8080-exec-101] c.k.inventory.api.ReservationController  : Concurrent reservation detected sku=SKU-56911428 version=41
+2026-03-04 16:04:35.053 ERROR 1 --- [http-nio-8080-exec-48] c.k.inventory.api.ReservationController  : Stock went negative sku=SKU-32186780 available=-3
+2026-03-04 16:05:31.717 ERROR 1 --- [http-nio-8080-exec-98] c.k.inventory.api.ReservationController  : Stock went negative sku=SKU-70572140 available=-3
+2026-03-04 16:06:31.942 ERROR 1 --- [http-nio-8080-exec-12] c.k.inventory.api.ReservationController  : Stock went negative sku=SKU-10552343 available=-3
+2026-03-04 16:07:08.494  WARN 1 --- [http-nio-8080-exec-114] c.k.inventory.api.ReservationController  : Concurrent reservation detected sku=SKU-48899628 version=41
+2026-03-04 16:08:05.890  WARN 1 --- [http-nio-8080-exec-106] c.k.inventory.api.ReservationController  : Concurrent reservation detected sku=SKU-35083289 version=41
+2026-03-04 16:08:58.857 ERROR 1 --- [http-nio-8080-exec-79] c.k.inventory.api.ReservationController  : Stock went negative sku=SKU-30918089 available=-3
+2026-03-04 16:09:35.348  WARN 1 --- [http-nio-8080-exec-189] c.k.inventory.api.ReservationController  : Concurrent reservation detected sku=SKU-48844999 version=41
+2026-03-04 16:10:20.627  WARN 1 --- [http-nio-8080-exec-84] c.k.inventory.api.ReservationController  : Concurrent reservation detected sku=SKU-57547093 version=41
+2026-03-04 16:11:20.989  WARN 1 --- [http-nio-8080-exec-20] c.k.inventory.api.ReservationController  : Concurrent reservation detected sku=SKU-25090638 version=41
+2026-03-04 16:12:12.968  WARN 1 --- [http-nio-8080-exec-171] c.k.inventory.api.ReservationController  : Concurrent reservation detected sku=SKU-76086702 version=41
+2026-03-04 16:13:18.263  WARN 1 --- [http-nio-8080-exec-55] c.k.inventory.api.ReservationController  : Concurrent reservation detected sku=SKU-17195554 version=41
+2026-03-04 16:14:03.954 ERROR 1 --- [http-nio-8080-exec-122] c.k.inventory.api.ReservationController  : Stock went negative sku=SKU-59920421 available=-3
+2026-03-04 16:14:57.817  WARN 1 --- [http-nio-8080-exec-145] c.k.inventory.api.ReservationController  : Concurrent reservation detected sku=SKU-12200823 version=41
+2026-03-04 16:16:07.752 ERROR 1 --- [http-nio-8080-exec-19] c.k.inventory.api.ReservationController  : Stock went negative sku=SKU-79557575 available=-3
+2026-03-04 16:17:07.113 ERROR 1 --- [http-nio-8080-exec-103] c.k.inventory.api.ReservationController  : Stock went negative sku=SKU-83557099 available=-3
+2026-03-04 16:18:17.421 ERROR 1 --- [http-nio-8080-exec-11] c.k.inventory.api.ReservationController  : Stock went negative sku=SKU-29440244 available=-3
+2026-03-04 16:19:17.888  WARN 1 --- [http-nio-8080-exec-57] c.k.inventory.api.ReservationController  : Concurrent reservation detected sku=SKU-50636574 version=41
+2026-03-04 16:19:56.328 ERROR 1 --- [http-nio-8080-exec-100] c.k.inventory.api.ReservationController  : Stock went negative sku=SKU-56731081 available=-3
+2026-03-04 16:20:32.598  WARN 1 --- [http-nio-8080-exec-24] c.k.inventory.api.ReservationController  : Concurrent reservation detected sku=SKU-29419782 version=41
+2026-03-04 16:21:28.624  WARN 1 --- [http-nio-8080-exec-192] c.k.inventory.api.ReservationController  : Concurrent reservation detected sku=SKU-87275884 version=41
+2026-03-04 16:22:37.317  WARN 1 --- [http-nio-8080-exec-133] c.k.inventory.api.ReservationController  : Concurrent reservation detected sku=SKU-27394077 version=41
+2026-03-04 16:23:34.385 ERROR 1 --- [http-nio-8080-exec-164] c.k.inventory.api.ReservationController  : Stock went negative sku=SKU-63771330 available=-3
+2026-03-04 16:24:12.628  WARN 1 --- [http-nio-8080-exec-159] c.k.inventory.api.ReservationController  : Concurrent reservation detected sku=SKU-61385426 version=41
+2026-03-04 16:25:07.063  WARN 1 --- [http-nio-8080-exec-134] c.k.inventory.api.ReservationController  : Concurrent reservation detected sku=SKU-50698907 version=41
+2026-03-04 16:26:07.194  WARN 1 --- [http-nio-8080-exec-19] c.k.inventory.api.ReservationController  : Concurrent reservation detected sku=SKU-13608367 version=41
+2026-03-04 16:27:08.578  WARN 1 --- [http-nio-8080-exec-156] c.k.inventory.api.ReservationController  : Concurrent reservation detected sku=SKU-90118220 version=41
+2026-03-04 16:28:12.521  WARN 1 --- [http-nio-8080-exec-63] c.k.inventory.api.ReservationController  : Concurrent reservation detected sku=SKU-32884915 version=41
+2026-03-04 16:28:55.812 ERROR 1 --- [http-nio-8080-exec-43] c.k.inventory.api.ReservationController  : Stock went negative sku=SKU-69297802 available=-3
+2026-03-04 16:29:33.774 ERROR 1 --- [http-nio-8080-exec-61] c.k.inventory.api.ReservationController  : Stock went negative sku=SKU-37157401 available=-3
+2026-03-04 16:30:25.008 ERROR 1 --- [http-nio-8080-exec-96] c.k.inventory.api.ReservationController  : Stock went negative sku=SKU-20663798 available=-3
+2026-03-04 16:31:12.000 ERROR 1 --- [http-nio-8080-exec-47] c.k.inventory.api.ReservationController  : Stock went negative sku=SKU-55862811 available=-3
+2026-03-04 16:31:56.480 ERROR 1 --- [http-nio-8080-exec-182] c.k.inventory.api.ReservationController  : Stock went negative sku=SKU-63930905 available=-3
+2026-03-04 16:32:54.240 ERROR 1 --- [http-nio-8080-exec-40] c.k.inventory.api.ReservationController  : Stock went negative sku=SKU-43389923 available=-3
+2026-03-04 16:33:10.000  INFO 1 --- [http-nio-8080-exec-123] c.k.inventory.api.StockController        : GET /v1/stock/SKU-68886631 200 latencyMs=305
+2026-03-04 16:33:42.000  INFO 1 --- [http-nio-8080-exec-53] c.k.inventory.api.StockController        : GET /v1/stock/SKU-68284964 200 latencyMs=120
+2026-03-04 16:34:51.000  INFO 1 --- [http-nio-8080-exec-93] c.k.inventory.api.StockController        : GET /v1/stock/SKU-69838805 200 latencyMs=352
+2026-03-04 16:36:30.000  INFO 1 --- [http-nio-8080-exec-47] c.k.inventory.api.StockController        : GET /v1/stock/SKU-29365501 200 latencyMs=157
+2026-03-04 16:38:08.000  INFO 1 --- [http-nio-8080-exec-122] c.k.inventory.api.StockController        : GET /v1/stock/SKU-97316063 200 latencyMs=222
+2026-03-04 16:39:26.000  INFO 1 --- [http-nio-8080-exec-72] c.k.inventory.api.StockController        : GET /v1/stock/SKU-40057121 200 latencyMs=176
+2026-03-04 16:40:37.000  INFO 1 --- [http-nio-8080-exec-131] c.k.inventory.api.StockController        : GET /v1/stock/SKU-26643385 200 latencyMs=317
+2026-03-04 16:42:24.000  INFO 1 --- [http-nio-8080-exec-71] c.k.inventory.api.StockController        : GET /v1/stock/SKU-50168213 200 latencyMs=315
+2026-03-04 16:43:42.000  INFO 1 --- [http-nio-8080-exec-44] c.k.inventory.api.StockController        : GET /v1/stock/SKU-34969288 200 latencyMs=251
+2026-03-04 16:45:07.000  INFO 1 --- [http-nio-8080-exec-129] c.k.inventory.api.StockController        : GET /v1/stock/SKU-90497975 200 latencyMs=199
+2026-03-04 16:47:03.000  INFO 1 --- [http-nio-8080-exec-98] c.k.inventory.api.StockController        : GET /v1/stock/SKU-81372145 200 latencyMs=172
+2026-03-04 16:48:10.000  INFO 1 --- [http-nio-8080-exec-175] c.k.inventory.api.StockController        : GET /v1/stock/SKU-19054215 200 latencyMs=51
+2026-03-04 16:49:07.000  INFO 1 --- [http-nio-8080-exec-82] c.k.inventory.api.StockController        : GET /v1/stock/SKU-20512931 200 latencyMs=281
+2026-03-04 16:51:06.000  INFO 1 --- [http-nio-8080-exec-147] c.k.inventory.api.StockController        : GET /v1/stock/SKU-97974757 200 latencyMs=256
+2026-03-04 16:52:59.000  INFO 1 --- [http-nio-8080-exec-38] c.k.inventory.api.StockController        : GET /v1/stock/SKU-41585752 200 latencyMs=110
+2026-03-04 16:53:39.000  INFO 1 --- [http-nio-8080-exec-66] c.k.inventory.api.StockController        : GET /v1/stock/SKU-82859120 200 latencyMs=52
+2026-03-04 16:55:33.000  INFO 1 --- [http-nio-8080-exec-52] c.k.inventory.api.StockController        : GET /v1/stock/SKU-89358355 200 latencyMs=328
+2026-03-04 16:56:36.000  INFO 1 --- [http-nio-8080-exec-1] c.k.inventory.api.StockController        : GET /v1/stock/SKU-44083907 200 latencyMs=260
+2026-03-04 16:58:05.000  INFO 1 --- [http-nio-8080-exec-186] c.k.inventory.api.StockController        : GET /v1/stock/SKU-28288901 200 latencyMs=159

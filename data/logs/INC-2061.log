@@ -1,0 +1,118 @@
+2026-09-22 10:00:00.000  INFO 1 --- [http-nio-8080-exec-117] c.k.orders.api.OrderController           : GET /v1/orders/ORD-21309670 200 source=replica latencyMs=268
+2026-09-22 10:00:45.044  INFO 1 --- [http-nio-8080-exec-72] c.k.orders.api.OrderController           : GET /v1/orders/ORD-98375724 200 source=replica latencyMs=250
+2026-09-22 10:01:52.173  INFO 1 --- [http-nio-8080-exec-167] c.k.orders.api.OrderController           : GET /v1/orders/ORD-39204323 200 source=replica latencyMs=337
+2026-09-22 10:02:29.279  INFO 1 --- [http-nio-8080-exec-124] c.k.orders.api.OrderController           : GET /v1/orders/ORD-54650130 200 source=replica latencyMs=283
+2026-09-22 10:03:30.209  INFO 1 --- [http-nio-8080-exec-44] c.k.orders.api.OrderController           : GET /v1/orders/ORD-75818118 200 source=replica latencyMs=274
+2026-09-22 10:04:08.806  INFO 1 --- [http-nio-8080-exec-18] c.k.orders.api.OrderController           : GET /v1/orders/ORD-27702739 200 source=replica latencyMs=207
+2026-09-22 10:04:49.914  INFO 1 --- [http-nio-8080-exec-8] c.k.orders.api.OrderController           : GET /v1/orders/ORD-64586456 200 source=replica latencyMs=214
+2026-09-22 10:05:16.908  INFO 1 --- [http-nio-8080-exec-96] c.k.orders.api.OrderController           : GET /v1/orders/ORD-80202949 200 source=replica latencyMs=121
+2026-09-22 10:06:27.810  INFO 1 --- [http-nio-8080-exec-35] c.k.orders.api.OrderController           : GET /v1/orders/ORD-13723183 200 source=replica latencyMs=65
+2026-09-22 10:07:03.008  INFO 1 --- [http-nio-8080-exec-96] c.k.orders.api.OrderController           : GET /v1/orders/ORD-40435432 200 source=replica latencyMs=183
+2026-09-22 10:08:04.652  INFO 1 --- [http-nio-8080-exec-156] c.k.orders.api.OrderController           : GET /v1/orders/ORD-68866069 200 source=replica latencyMs=286
+2026-09-22 10:08:42.468  INFO 1 --- [http-nio-8080-exec-126] c.k.orders.api.OrderController           : GET /v1/orders/ORD-38938861 200 source=replica latencyMs=379
+2026-09-22 10:09:32.658  INFO 1 --- [http-nio-8080-exec-40] c.k.orders.api.OrderController           : GET /v1/orders/ORD-38619382 200 source=replica latencyMs=324
+2026-09-22 10:10:31.375  INFO 1 --- [http-nio-8080-exec-187] c.k.orders.api.OrderController           : GET /v1/orders/ORD-91137290 200 source=replica latencyMs=341
+2026-09-22 10:11:13.096  INFO 1 --- [http-nio-8080-exec-101] c.k.orders.api.OrderController           : GET /v1/orders/ORD-81870865 200 source=replica latencyMs=236
+2026-09-22 10:12:01.690  INFO 1 --- [http-nio-8080-exec-26] c.k.orders.api.OrderController           : GET /v1/orders/ORD-58492648 200 source=replica latencyMs=46
+2026-09-22 10:12:31.291  INFO 1 --- [http-nio-8080-exec-2] c.k.orders.api.OrderController           : GET /v1/orders/ORD-35786875 200 source=replica latencyMs=291
+2026-09-22 10:13:20.643  INFO 1 --- [http-nio-8080-exec-39] c.k.orders.api.OrderController           : GET /v1/orders/ORD-67520549 200 source=replica latencyMs=338
+2026-09-22 10:13:49.031  INFO 1 --- [http-nio-8080-exec-66] c.k.orders.api.OrderController           : GET /v1/orders/ORD-71133178 200 source=replica latencyMs=362
+2026-09-22 10:14:23.112  INFO 1 --- [http-nio-8080-exec-66] c.k.orders.api.OrderController           : GET /v1/orders/ORD-18947745 200 source=replica latencyMs=71
+2026-09-22 10:15:14.868  INFO 1 --- [http-nio-8080-exec-172] c.k.orders.api.OrderController           : GET /v1/orders/ORD-42960526 200 source=replica latencyMs=212
+2026-09-22 10:15:59.029  INFO 1 --- [http-nio-8080-exec-50] c.k.orders.api.OrderController           : GET /v1/orders/ORD-54435086 200 source=replica latencyMs=131
+2026-09-22 10:17:07.868  WARN 1 --- [http-nio-8080-exec-50] c.k.orders.delivery.SlotCalculator       : Order ORD-69076326 placed 2026-09-21T23:41+05:30 computed promise date using UTC day 2026-09-21
+2026-09-22 10:17:39.338  INFO 1 --- [http-nio-8080-exec-101] c.k.orders.delivery.SlotCalculator       : promise_date=2026-09-23 expected=2026-09-24
+2026-09-22 10:18:18.521  INFO 1 --- [http-nio-8080-exec-101] c.k.orders.delivery.SlotCalculator       : promise_date=2026-09-23 expected=2026-09-24
+2026-09-22 10:18:46.104  WARN 1 --- [http-nio-8080-exec-1] c.k.orders.delivery.SlotCalculator       : Order ORD-41106792 placed 2026-09-21T23:41+05:30 computed promise date using UTC day 2026-09-21
+2026-09-22 10:19:08.076  WARN 1 --- [http-nio-8080-exec-151] c.k.orders.delivery.SlotCalculator       : Order ORD-41592224 placed 2026-09-21T23:41+05:30 computed promise date using UTC day 2026-09-21
+2026-09-22 10:19:38.225  WARN 1 --- [http-nio-8080-exec-37] c.k.orders.delivery.SlotCalculator       : Order ORD-25007513 placed 2026-09-21T23:41+05:30 computed promise date using UTC day 2026-09-21
+2026-09-22 10:19:58.438  WARN 1 --- [http-nio-8080-exec-111] c.k.orders.delivery.SlotCalculator       : Order ORD-47382419 placed 2026-09-21T23:41+05:30 computed promise date using UTC day 2026-09-21
+2026-09-22 10:20:17.361  WARN 1 --- [http-nio-8080-exec-10] c.k.orders.delivery.SlotCalculator       : Order ORD-87037686 placed 2026-09-21T23:41+05:30 computed promise date using UTC day 2026-09-21
+2026-09-22 10:20:45.794  INFO 1 --- [http-nio-8080-exec-137] c.k.orders.delivery.SlotCalculator       : promise_date=2026-09-23 expected=2026-09-24
+2026-09-22 10:21:12.698  INFO 1 --- [http-nio-8080-exec-102] c.k.orders.delivery.SlotCalculator       : promise_date=2026-09-23 expected=2026-09-24
+2026-09-22 10:21:47.418  WARN 1 --- [http-nio-8080-exec-135] c.k.orders.delivery.SlotCalculator       : Order ORD-88560178 placed 2026-09-21T23:41+05:30 computed promise date using UTC day 2026-09-21
+2026-09-22 10:22:08.795  WARN 1 --- [http-nio-8080-exec-168] c.k.orders.delivery.SlotCalculator       : Order ORD-80316161 placed 2026-09-21T23:41+05:30 computed promise date using UTC day 2026-09-21
+2026-09-22 10:22:38.279  WARN 1 --- [http-nio-8080-exec-104] c.k.orders.delivery.SlotCalculator       : Order ORD-18424420 placed 2026-09-21T23:41+05:30 computed promise date using UTC day 2026-09-21
+2026-09-22 10:22:59.815  WARN 1 --- [http-nio-8080-exec-166] c.k.orders.delivery.SlotCalculator       : Order ORD-13077817 placed 2026-09-21T23:41+05:30 computed promise date using UTC day 2026-09-21
+2026-09-22 10:23:32.995  WARN 1 --- [http-nio-8080-exec-175] c.k.orders.delivery.SlotCalculator       : Order ORD-88530455 placed 2026-09-21T23:41+05:30 computed promise date using UTC day 2026-09-21
+2026-09-22 10:23:51.109  INFO 1 --- [http-nio-8080-exec-3] c.k.orders.delivery.SlotCalculator       : promise_date=2026-09-23 expected=2026-09-24
+2026-09-22 10:24:17.545  WARN 1 --- [http-nio-8080-exec-22] c.k.orders.delivery.SlotCalculator       : Order ORD-17636506 placed 2026-09-21T23:41+05:30 computed promise date using UTC day 2026-09-21
+2026-09-22 10:24:41.491  INFO 1 --- [http-nio-8080-exec-27] c.k.orders.delivery.SlotCalculator       : promise_date=2026-09-23 expected=2026-09-24
+2026-09-22 10:25:12.310  WARN 1 --- [http-nio-8080-exec-172] c.k.orders.delivery.SlotCalculator       : Order ORD-85541248 placed 2026-09-21T23:41+05:30 computed promise date using UTC day 2026-09-21
+2026-09-22 10:25:52.208  INFO 1 --- [http-nio-8080-exec-161] c.k.orders.delivery.SlotCalculator       : promise_date=2026-09-23 expected=2026-09-24
+2026-09-22 10:26:16.452  INFO 1 --- [http-nio-8080-exec-185] c.k.orders.delivery.SlotCalculator       : promise_date=2026-09-23 expected=2026-09-24
+2026-09-22 10:26:37.886  INFO 1 --- [http-nio-8080-exec-101] c.k.orders.delivery.SlotCalculator       : promise_date=2026-09-23 expected=2026-09-24
+2026-09-22 10:26:56.454  WARN 1 --- [http-nio-8080-exec-119] c.k.orders.delivery.SlotCalculator       : Order ORD-97492215 placed 2026-09-21T23:41+05:30 computed promise date using UTC day 2026-09-21
+2026-09-22 10:27:29.926  WARN 1 --- [http-nio-8080-exec-183] c.k.orders.delivery.SlotCalculator       : Order ORD-88504675 placed 2026-09-21T23:41+05:30 computed promise date using UTC day 2026-09-21
+2026-09-22 10:27:51.903  INFO 1 --- [http-nio-8080-exec-32] c.k.orders.delivery.SlotCalculator       : promise_date=2026-09-23 expected=2026-09-24
+2026-09-22 10:28:19.514  WARN 1 --- [http-nio-8080-exec-23] c.k.orders.delivery.SlotCalculator       : Order ORD-65320269 placed 2026-09-21T23:41+05:30 computed promise date using UTC day 2026-09-21
+2026-09-22 10:28:41.698  WARN 1 --- [http-nio-8080-exec-28] c.k.orders.delivery.SlotCalculator       : Order ORD-61107836 placed 2026-09-21T23:41+05:30 computed promise date using UTC day 2026-09-21
+2026-09-22 10:29:06.785  WARN 1 --- [http-nio-8080-exec-180] c.k.orders.delivery.SlotCalculator       : Order ORD-82956932 placed 2026-09-21T23:41+05:30 computed promise date using UTC day 2026-09-21
+2026-09-22 10:29:32.874  INFO 1 --- [http-nio-8080-exec-157] c.k.orders.delivery.SlotCalculator       : promise_date=2026-09-23 expected=2026-09-24
+2026-09-22 10:29:53.584  WARN 1 --- [http-nio-8080-exec-151] c.k.orders.delivery.SlotCalculator       : Order ORD-58018636 placed 2026-09-21T23:41+05:30 computed promise date using UTC day 2026-09-21
+2026-09-22 10:30:27.404  WARN 1 --- [http-nio-8080-exec-200] c.k.orders.delivery.SlotCalculator       : Order ORD-19207272 placed 2026-09-21T23:41+05:30 computed promise date using UTC day 2026-09-21
+2026-09-22 10:30:47.050  INFO 1 --- [http-nio-8080-exec-89] c.k.orders.delivery.SlotCalculator       : promise_date=2026-09-23 expected=2026-09-24
+2026-09-22 10:31:23.167  WARN 1 --- [http-nio-8080-exec-158] c.k.orders.delivery.SlotCalculator       : Order ORD-38497466 placed 2026-09-21T23:41+05:30 computed promise date using UTC day 2026-09-21
+2026-09-22 10:31:58.809  WARN 1 --- [http-nio-8080-exec-61] c.k.orders.delivery.SlotCalculator       : Order ORD-14162109 placed 2026-09-21T23:41+05:30 computed promise date using UTC day 2026-09-21
+2026-09-22 10:32:30.146  WARN 1 --- [http-nio-8080-exec-41] c.k.orders.delivery.SlotCalculator       : Order ORD-91621583 placed 2026-09-21T23:41+05:30 computed promise date using UTC day 2026-09-21
+2026-09-22 10:33:01.970  INFO 1 --- [http-nio-8080-exec-144] c.k.orders.delivery.SlotCalculator       : promise_date=2026-09-23 expected=2026-09-24
+2026-09-22 10:33:20.705  INFO 1 --- [http-nio-8080-exec-137] c.k.orders.delivery.SlotCalculator       : promise_date=2026-09-23 expected=2026-09-24
+2026-09-22 10:33:53.305  WARN 1 --- [http-nio-8080-exec-169] c.k.orders.delivery.SlotCalculator       : Order ORD-72626289 placed 2026-09-21T23:41+05:30 computed promise date using UTC day 2026-09-21
+2026-09-22 10:34:20.370  INFO 1 --- [http-nio-8080-exec-152] c.k.orders.delivery.SlotCalculator       : promise_date=2026-09-23 expected=2026-09-24
+2026-09-22 10:34:54.673  INFO 1 --- [http-nio-8080-exec-127] c.k.orders.delivery.SlotCalculator       : promise_date=2026-09-23 expected=2026-09-24
+2026-09-22 10:35:31.751  WARN 1 --- [http-nio-8080-exec-36] c.k.orders.delivery.SlotCalculator       : Order ORD-29063887 placed 2026-09-21T23:41+05:30 computed promise date using UTC day 2026-09-21
+2026-09-22 10:35:54.400  WARN 1 --- [http-nio-8080-exec-155] c.k.orders.delivery.SlotCalculator       : Order ORD-11443600 placed 2026-09-21T23:41+05:30 computed promise date using UTC day 2026-09-21
+2026-09-22 10:36:29.127  WARN 1 --- [http-nio-8080-exec-160] c.k.orders.delivery.SlotCalculator       : Order ORD-27926344 placed 2026-09-21T23:41+05:30 computed promise date using UTC day 2026-09-21
+2026-09-22 10:36:57.582  WARN 1 --- [http-nio-8080-exec-38] c.k.orders.delivery.SlotCalculator       : Order ORD-12515383 placed 2026-09-21T23:41+05:30 computed promise date using UTC day 2026-09-21
+2026-09-22 10:37:34.821  WARN 1 --- [http-nio-8080-exec-94] c.k.orders.delivery.SlotCalculator       : Order ORD-86735630 placed 2026-09-21T23:41+05:30 computed promise date using UTC day 2026-09-21
+2026-09-22 10:37:53.643  INFO 1 --- [http-nio-8080-exec-200] c.k.orders.delivery.SlotCalculator       : promise_date=2026-09-23 expected=2026-09-24
+2026-09-22 10:38:27.380  INFO 1 --- [http-nio-8080-exec-73] c.k.orders.delivery.SlotCalculator       : promise_date=2026-09-23 expected=2026-09-24
+2026-09-22 10:38:56.907  WARN 1 --- [http-nio-8080-exec-142] c.k.orders.delivery.SlotCalculator       : Order ORD-88784317 placed 2026-09-21T23:41+05:30 computed promise date using UTC day 2026-09-21
+2026-09-22 10:39:20.471  INFO 1 --- [http-nio-8080-exec-182] c.k.orders.delivery.SlotCalculator       : promise_date=2026-09-23 expected=2026-09-24
+2026-09-22 10:40:01.426  INFO 1 --- [http-nio-8080-exec-153] c.k.orders.delivery.SlotCalculator       : promise_date=2026-09-23 expected=2026-09-24
+2026-09-22 10:40:32.993  INFO 1 --- [http-nio-8080-exec-107] c.k.orders.delivery.SlotCalculator       : promise_date=2026-09-23 expected=2026-09-24
+2026-09-22 10:41:09.877  INFO 1 --- [http-nio-8080-exec-176] c.k.orders.delivery.SlotCalculator       : promise_date=2026-09-23 expected=2026-09-24
+2026-09-22 10:41:44.820  INFO 1 --- [http-nio-8080-exec-96] c.k.orders.delivery.SlotCalculator       : promise_date=2026-09-23 expected=2026-09-24
+2026-09-22 10:42:20.037  WARN 1 --- [http-nio-8080-exec-190] c.k.orders.delivery.SlotCalculator       : Order ORD-40836091 placed 2026-09-21T23:41+05:30 computed promise date using UTC day 2026-09-21
+2026-09-22 10:42:54.089  WARN 1 --- [http-nio-8080-exec-10] c.k.orders.delivery.SlotCalculator       : Order ORD-40759046 placed 2026-09-21T23:41+05:30 computed promise date using UTC day 2026-09-21
+2026-09-22 10:43:32.504  WARN 1 --- [http-nio-8080-exec-9] c.k.orders.delivery.SlotCalculator       : Order ORD-14418082 placed 2026-09-21T23:41+05:30 computed promise date using UTC day 2026-09-21
+2026-09-22 10:44:05.601  INFO 1 --- [http-nio-8080-exec-53] c.k.orders.delivery.SlotCalculator       : promise_date=2026-09-23 expected=2026-09-24
+2026-09-22 10:44:39.903  INFO 1 --- [http-nio-8080-exec-18] c.k.orders.delivery.SlotCalculator       : promise_date=2026-09-23 expected=2026-09-24
+2026-09-22 10:45:02.757  WARN 1 --- [http-nio-8080-exec-38] c.k.orders.delivery.SlotCalculator       : Order ORD-67015061 placed 2026-09-21T23:41+05:30 computed promise date using UTC day 2026-09-21
+2026-09-22 10:45:41.356  INFO 1 --- [http-nio-8080-exec-5] c.k.orders.delivery.SlotCalculator       : promise_date=2026-09-23 expected=2026-09-24
+2026-09-22 10:46:20.399  WARN 1 --- [http-nio-8080-exec-43] c.k.orders.delivery.SlotCalculator       : Order ORD-46291077 placed 2026-09-21T23:41+05:30 computed promise date using UTC day 2026-09-21
+2026-09-22 10:46:56.436  INFO 1 --- [http-nio-8080-exec-76] c.k.orders.delivery.SlotCalculator       : promise_date=2026-09-23 expected=2026-09-24
+2026-09-22 10:47:31.309  INFO 1 --- [http-nio-8080-exec-156] c.k.orders.delivery.SlotCalculator       : promise_date=2026-09-23 expected=2026-09-24
+2026-09-22 10:48:06.289  INFO 1 --- [http-nio-8080-exec-138] c.k.orders.delivery.SlotCalculator       : promise_date=2026-09-23 expected=2026-09-24
+2026-09-22 10:48:42.307  INFO 1 --- [http-nio-8080-exec-48] c.k.orders.delivery.SlotCalculator       : promise_date=2026-09-23 expected=2026-09-24
+2026-09-22 10:49:04.253  WARN 1 --- [http-nio-8080-exec-119] c.k.orders.delivery.SlotCalculator       : Order ORD-46456569 placed 2026-09-21T23:41+05:30 computed promise date using UTC day 2026-09-21
+2026-09-22 10:49:29.824  INFO 1 --- [http-nio-8080-exec-5] c.k.orders.delivery.SlotCalculator       : promise_date=2026-09-23 expected=2026-09-24
+2026-09-22 10:49:58.080  INFO 1 --- [http-nio-8080-exec-164] c.k.orders.delivery.SlotCalculator       : promise_date=2026-09-23 expected=2026-09-24
+2026-09-22 10:50:23.751  INFO 1 --- [http-nio-8080-exec-43] c.k.orders.delivery.SlotCalculator       : promise_date=2026-09-23 expected=2026-09-24
+2026-09-22 10:50:54.518  WARN 1 --- [http-nio-8080-exec-190] c.k.orders.delivery.SlotCalculator       : Order ORD-45516840 placed 2026-09-21T23:41+05:30 computed promise date using UTC day 2026-09-21
+2026-09-22 10:51:26.941  INFO 1 --- [http-nio-8080-exec-126] c.k.orders.delivery.SlotCalculator       : promise_date=2026-09-23 expected=2026-09-24
+2026-09-22 10:52:06.146  INFO 1 --- [http-nio-8080-exec-4] c.k.orders.delivery.SlotCalculator       : promise_date=2026-09-23 expected=2026-09-24
+2026-09-22 10:52:33.222  WARN 1 --- [http-nio-8080-exec-9] c.k.orders.delivery.SlotCalculator       : Order ORD-94247298 placed 2026-09-21T23:41+05:30 computed promise date using UTC day 2026-09-21
+2026-09-22 10:53:07.468  WARN 1 --- [http-nio-8080-exec-153] c.k.orders.delivery.SlotCalculator       : Order ORD-99027038 placed 2026-09-21T23:41+05:30 computed promise date using UTC day 2026-09-21
+2026-09-22 10:53:25.688  INFO 1 --- [http-nio-8080-exec-63] c.k.orders.delivery.SlotCalculator       : promise_date=2026-09-23 expected=2026-09-24
+2026-09-22 10:53:34.000  INFO 1 --- [http-nio-8080-exec-147] c.k.orders.api.OrderController           : GET /v1/orders/ORD-84638554 200 source=replica latencyMs=137
+2026-09-22 10:54:01.000  INFO 1 --- [http-nio-8080-exec-26] c.k.orders.api.OrderController           : GET /v1/orders/ORD-87670813 200 source=replica latencyMs=96
+2026-09-22 10:55:23.000  INFO 1 --- [http-nio-8080-exec-96] c.k.orders.api.OrderController           : GET /v1/orders/ORD-84677229 200 source=replica latencyMs=341
+2026-09-22 10:56:15.000  INFO 1 --- [http-nio-8080-exec-70] c.k.orders.api.OrderController           : GET /v1/orders/ORD-33460195 200 source=replica latencyMs=93
+2026-09-22 10:58:01.000  INFO 1 --- [http-nio-8080-exec-185] c.k.orders.api.OrderController           : GET /v1/orders/ORD-68088409 200 source=replica latencyMs=288
+2026-09-22 10:59:48.000  INFO 1 --- [http-nio-8080-exec-106] c.k.orders.api.OrderController           : GET /v1/orders/ORD-29268601 200 source=replica latencyMs=299
+2026-09-22 11:00:32.000  INFO 1 --- [http-nio-8080-exec-197] c.k.orders.api.OrderController           : GET /v1/orders/ORD-90374765 200 source=replica latencyMs=308
+2026-09-22 11:01:14.000  INFO 1 --- [http-nio-8080-exec-70] c.k.orders.api.OrderController           : GET /v1/orders/ORD-82343442 200 source=replica latencyMs=309
+2026-09-22 11:02:06.000  INFO 1 --- [http-nio-8080-exec-38] c.k.orders.api.OrderController           : GET /v1/orders/ORD-30755412 200 source=replica latencyMs=179
+2026-09-22 11:03:22.000  INFO 1 --- [http-nio-8080-exec-70] c.k.orders.api.OrderController           : GET /v1/orders/ORD-36241665 200 source=replica latencyMs=299
+2026-09-22 11:05:16.000  INFO 1 --- [http-nio-8080-exec-178] c.k.orders.api.OrderController           : GET /v1/orders/ORD-60819637 200 source=replica latencyMs=193
+2026-09-22 11:06:11.000  INFO 1 --- [http-nio-8080-exec-96] c.k.orders.api.OrderController           : GET /v1/orders/ORD-76738361 200 source=replica latencyMs=248
+2026-09-22 11:07:01.000  INFO 1 --- [http-nio-8080-exec-45] c.k.orders.api.OrderController           : GET /v1/orders/ORD-57708973 200 source=replica latencyMs=329
+2026-09-22 11:08:49.000  INFO 1 --- [http-nio-8080-exec-167] c.k.orders.api.OrderController           : GET /v1/orders/ORD-79457132 200 source=replica latencyMs=46
+2026-09-22 11:10:26.000  INFO 1 --- [http-nio-8080-exec-103] c.k.orders.api.OrderController           : GET /v1/orders/ORD-14119338 200 source=replica latencyMs=154
+2026-09-22 11:12:11.000  INFO 1 --- [http-nio-8080-exec-101] c.k.orders.api.OrderController           : GET /v1/orders/ORD-37162477 200 source=replica latencyMs=54
+2026-09-22 11:13:10.000  INFO 1 --- [http-nio-8080-exec-119] c.k.orders.api.OrderController           : GET /v1/orders/ORD-13017928 200 source=replica latencyMs=157
+2026-09-22 11:14:30.000  INFO 1 --- [http-nio-8080-exec-3] c.k.orders.api.OrderController           : GET /v1/orders/ORD-28905793 200 source=replica latencyMs=267
+2026-09-22 11:16:24.000  INFO 1 --- [http-nio-8080-exec-91] c.k.orders.api.OrderController           : GET /v1/orders/ORD-12891227 200 source=replica latencyMs=268
+2026-09-22 11:17:04.000  INFO 1 --- [http-nio-8080-exec-2] c.k.orders.api.OrderController           : GET /v1/orders/ORD-31101274 200 source=replica latencyMs=278
+2026-09-22 11:18:46.000  INFO 1 --- [http-nio-8080-exec-183] c.k.orders.api.OrderController           : GET /v1/orders/ORD-89706958 200 source=replica latencyMs=162

@@ -1,0 +1,101 @@
+2026-08-01T10:00:00.000Z INFO  [checkout-web] POST /api/checkout 200 366ms cart=34654214
+2026-08-01T10:00:39.936Z INFO  [checkout-web] POST /api/checkout 200 360ms cart=41876295
+2026-08-01T10:01:28.917Z INFO  [checkout-web] POST /api/checkout 200 67ms cart=51703590
+2026-08-01T10:02:36.718Z INFO  [checkout-web] POST /api/checkout 200 197ms cart=80250197
+2026-08-01T10:03:02.008Z INFO  [checkout-web] POST /api/checkout 200 139ms cart=16938937
+2026-08-01T10:03:35.094Z INFO  [checkout-web] POST /api/checkout 200 285ms cart=36525133
+2026-08-01T10:04:00.412Z INFO  [checkout-web] POST /api/checkout 200 111ms cart=39898020
+2026-08-01T10:04:52.093Z INFO  [checkout-web] POST /api/checkout 200 136ms cart=28308857
+2026-08-01T10:05:33.292Z INFO  [checkout-web] POST /api/checkout 200 113ms cart=58867788
+2026-08-01T10:06:09.860Z INFO  [checkout-web] POST /api/checkout 200 295ms cart=76047104
+2026-08-01T10:06:56.042Z INFO  [checkout-web] POST /api/checkout 200 278ms cart=27155467
+2026-08-01T10:07:42.899Z INFO  [checkout-web] POST /api/checkout 200 91ms cart=88669614
+2026-08-01T10:08:36.922Z INFO  [checkout-web] POST /api/checkout 200 114ms cart=96057766
+2026-08-01T10:09:42.828Z INFO  [checkout-web] POST /api/checkout 200 325ms cart=81519083
+2026-08-01T10:10:43.391Z INFO  [checkout-web] POST /api/checkout 200 328ms cart=73398376
+2026-08-01T10:11:41.587Z INFO  [checkout-web] POST /api/checkout 200 129ms cart=42973212
+2026-08-01T10:12:43.430Z INFO  [checkout-web] POST /api/checkout 200 303ms cart=18621557
+2026-08-01T10:13:08.952Z INFO  [checkout-web] POST /api/checkout 200 333ms cart=22659638
+2026-08-01T10:14:09.271Z INFO  [checkout-web] POST /api/checkout 200 221ms cart=16811056
+2026-08-01T10:15:10.139Z INFO  [checkout-web] POST /api/checkout 200 198ms cart=92575993
+2026-08-01T10:15:37.574Z INFO  [checkout-web] POST /api/checkout 200 371ms cart=34845956
+2026-08-01T10:16:23.778Z WARN  [checkout-web] heap used 1.71GB / 1.75GB, ssr-cache entries=1,284,112
+2026-08-01T10:16:40Z  Warning  OOMKilling   node/ip-10-42-6-134   Memory cgroup out of memory: Killed process 1 (node) in pod checkout-web-qtg4knzpmc-slv7k
+2026-08-01T10:17:01.562Z WARN  [checkout-web] heap used 1.71GB / 1.75GB, ssr-cache entries=1,284,112
+2026-08-01T10:17:15Z  Warning  OOMKilling   node/ip-10-42-0-123   Memory cgroup out of memory: Killed process 1 (node) in pod checkout-web-qtg4knzpmc-slv7k
+2026-08-01T10:17:37Z  Warning  OOMKilling   node/ip-10-42-0-21   Memory cgroup out of memory: Killed process 1 (node) in pod checkout-web-qtg4knzpmc-qk5c5
+2026-08-01T10:17:59.065Z WARN  [checkout-web] heap used 1.71GB / 1.75GB, ssr-cache entries=1,284,112
+2026-08-01T10:18:18.449Z WARN  [checkout-web] heap used 1.71GB / 1.75GB, ssr-cache entries=1,284,112
+2026-08-01T10:18:36Z  Warning  OOMKilling   node/ip-10-42-1-41   Memory cgroup out of memory: Killed process 1 (node) in pod checkout-web-qtg4knzpmc-7jrdn
+2026-08-01T10:18:54Z  Warning  OOMKilling   node/ip-10-42-0-199   Memory cgroup out of memory: Killed process 1 (node) in pod checkout-web-qtg4knzpmc-7jrdn
+2026-08-01T10:19:15Z  Warning  OOMKilling   node/ip-10-42-4-133   Memory cgroup out of memory: Killed process 1 (node) in pod checkout-web-qtg4knzpmc-slv7k
+2026-08-01T10:19:30Z  Warning  OOMKilling   node/ip-10-42-1-86   Memory cgroup out of memory: Killed process 1 (node) in pod checkout-web-qtg4knzpmc-7jrdn
+2026-08-01T10:19:47.311Z WARN  [checkout-web] heap used 1.71GB / 1.75GB, ssr-cache entries=1,284,112
+2026-08-01T10:19:56.720Z WARN  [checkout-web] heap used 1.71GB / 1.75GB, ssr-cache entries=1,284,112
+2026-08-01T10:20:16.625Z WARN  [checkout-web] heap used 1.71GB / 1.75GB, ssr-cache entries=1,284,112
+2026-08-01T10:20:37.860Z WARN  [checkout-web] heap used 1.71GB / 1.75GB, ssr-cache entries=1,284,112
+2026-08-01T10:20:52.930Z WARN  [checkout-web] heap used 1.71GB / 1.75GB, ssr-cache entries=1,284,112
+2026-08-01T10:21:14.648Z WARN  [checkout-web] heap used 1.71GB / 1.75GB, ssr-cache entries=1,284,112
+2026-08-01T10:21:26.086Z WARN  [checkout-web] heap used 1.71GB / 1.75GB, ssr-cache entries=1,284,112
+2026-08-01T10:21:37Z  Warning  OOMKilling   node/ip-10-42-6-43   Memory cgroup out of memory: Killed process 1 (node) in pod checkout-web-qtg4knzpmc-qk5c5
+2026-08-01T10:21:50.255Z WARN  [checkout-web] heap used 1.71GB / 1.75GB, ssr-cache entries=1,284,112
+2026-08-01T10:22:11Z  Warning  OOMKilling   node/ip-10-42-2-11   Memory cgroup out of memory: Killed process 1 (node) in pod checkout-web-qtg4knzpmc-qk5c5
+2026-08-01T10:22:23Z  Warning  OOMKilling   node/ip-10-42-1-113   Memory cgroup out of memory: Killed process 1 (node) in pod checkout-web-qtg4knzpmc-7jrdn
+2026-08-01T10:22:36Z  Warning  OOMKilling   node/ip-10-42-5-127   Memory cgroup out of memory: Killed process 1 (node) in pod checkout-web-qtg4knzpmc-7jrdn
+2026-08-01T10:22:49Z  Warning  OOMKilling   node/ip-10-42-6-37   Memory cgroup out of memory: Killed process 1 (node) in pod checkout-web-qtg4knzpmc-7jrdn
+2026-08-01T10:22:59Z  Warning  OOMKilling   node/ip-10-42-0-147   Memory cgroup out of memory: Killed process 1 (node) in pod checkout-web-qtg4knzpmc-7jrdn
+2026-08-01T10:23:13Z  Warning  OOMKilling   node/ip-10-42-2-144   Memory cgroup out of memory: Killed process 1 (node) in pod checkout-web-qtg4knzpmc-qk5c5
+2026-08-01T10:23:34.726Z WARN  [checkout-web] heap used 1.71GB / 1.75GB, ssr-cache entries=1,284,112
+2026-08-01T10:23:52.792Z WARN  [checkout-web] heap used 1.71GB / 1.75GB, ssr-cache entries=1,284,112
+2026-08-01T10:24:09.687Z WARN  [checkout-web] heap used 1.71GB / 1.75GB, ssr-cache entries=1,284,112
+2026-08-01T10:24:22Z  Warning  OOMKilling   node/ip-10-42-1-53   Memory cgroup out of memory: Killed process 1 (node) in pod checkout-web-qtg4knzpmc-qk5c5
+2026-08-01T10:24:35Z  Warning  OOMKilling   node/ip-10-42-6-67   Memory cgroup out of memory: Killed process 1 (node) in pod checkout-web-qtg4knzpmc-slv7k
+2026-08-01T10:24:55Z  Warning  OOMKilling   node/ip-10-42-4-82   Memory cgroup out of memory: Killed process 1 (node) in pod checkout-web-qtg4knzpmc-qk5c5
+2026-08-01T10:25:13.111Z WARN  [checkout-web] heap used 1.71GB / 1.75GB, ssr-cache entries=1,284,112
+2026-08-01T10:25:24.661Z WARN  [checkout-web] heap used 1.71GB / 1.75GB, ssr-cache entries=1,284,112
+2026-08-01T10:25:36.952Z WARN  [checkout-web] heap used 1.71GB / 1.75GB, ssr-cache entries=1,284,112
+2026-08-01T10:25:50.500Z WARN  [checkout-web] heap used 1.71GB / 1.75GB, ssr-cache entries=1,284,112
+2026-08-01T10:26:04Z  Warning  OOMKilling   node/ip-10-42-2-47   Memory cgroup out of memory: Killed process 1 (node) in pod checkout-web-qtg4knzpmc-7jrdn
+2026-08-01T10:26:18.910Z WARN  [checkout-web] heap used 1.71GB / 1.75GB, ssr-cache entries=1,284,112
+2026-08-01T10:26:34.157Z WARN  [checkout-web] heap used 1.71GB / 1.75GB, ssr-cache entries=1,284,112
+2026-08-01T10:26:48Z  Warning  OOMKilling   node/ip-10-42-7-139   Memory cgroup out of memory: Killed process 1 (node) in pod checkout-web-qtg4knzpmc-7jrdn
+2026-08-01T10:27:01.459Z WARN  [checkout-web] heap used 1.71GB / 1.75GB, ssr-cache entries=1,284,112
+2026-08-01T10:27:22Z  Warning  OOMKilling   node/ip-10-42-1-115   Memory cgroup out of memory: Killed process 1 (node) in pod checkout-web-qtg4knzpmc-7jrdn
+2026-08-01T10:27:44.017Z WARN  [checkout-web] heap used 1.71GB / 1.75GB, ssr-cache entries=1,284,112
+2026-08-01T10:28:01.086Z WARN  [checkout-web] heap used 1.71GB / 1.75GB, ssr-cache entries=1,284,112
+2026-08-01T10:28:15.877Z WARN  [checkout-web] heap used 1.71GB / 1.75GB, ssr-cache entries=1,284,112
+2026-08-01T10:28:34Z  Warning  OOMKilling   node/ip-10-42-4-156   Memory cgroup out of memory: Killed process 1 (node) in pod checkout-web-qtg4knzpmc-7jrdn
+2026-08-01T10:28:54Z  Warning  OOMKilling   node/ip-10-42-9-64   Memory cgroup out of memory: Killed process 1 (node) in pod checkout-web-qtg4knzpmc-7jrdn
+2026-08-01T10:29:06.311Z WARN  [checkout-web] heap used 1.71GB / 1.75GB, ssr-cache entries=1,284,112
+2026-08-01T10:29:17.709Z WARN  [checkout-web] heap used 1.71GB / 1.75GB, ssr-cache entries=1,284,112
+2026-08-01T10:29:37.740Z WARN  [checkout-web] heap used 1.71GB / 1.75GB, ssr-cache entries=1,284,112
+2026-08-01T10:29:47Z  Warning  OOMKilling   node/ip-10-42-4-35   Memory cgroup out of memory: Killed process 1 (node) in pod checkout-web-qtg4knzpmc-qk5c5
+2026-08-01T10:30:08.394Z WARN  [checkout-web] heap used 1.71GB / 1.75GB, ssr-cache entries=1,284,112
+2026-08-01T10:30:20Z  Warning  OOMKilling   node/ip-10-42-4-130   Memory cgroup out of memory: Killed process 1 (node) in pod checkout-web-qtg4knzpmc-7jrdn
+2026-08-01T10:30:35Z  Warning  OOMKilling   node/ip-10-42-0-170   Memory cgroup out of memory: Killed process 1 (node) in pod checkout-web-qtg4knzpmc-7jrdn
+2026-08-01T10:30:53Z  Warning  OOMKilling   node/ip-10-42-4-151   Memory cgroup out of memory: Killed process 1 (node) in pod checkout-web-qtg4knzpmc-qk5c5
+2026-08-01T10:31:13.069Z WARN  [checkout-web] heap used 1.71GB / 1.75GB, ssr-cache entries=1,284,112
+2026-08-01T10:31:24Z  Warning  OOMKilling   node/ip-10-42-1-75   Memory cgroup out of memory: Killed process 1 (node) in pod checkout-web-qtg4knzpmc-qk5c5
+2026-08-01T10:31:33.990Z WARN  [checkout-web] heap used 1.71GB / 1.75GB, ssr-cache entries=1,284,112
+2026-08-01T10:31:48.765Z WARN  [checkout-web] heap used 1.71GB / 1.75GB, ssr-cache entries=1,284,112
+2026-08-01T10:32:06.527Z WARN  [checkout-web] heap used 1.71GB / 1.75GB, ssr-cache entries=1,284,112
+2026-08-01T10:32:24.996Z WARN  [checkout-web] heap used 1.71GB / 1.75GB, ssr-cache entries=1,284,112
+2026-08-01T10:32:36Z  Warning  OOMKilling   node/ip-10-42-4-189   Memory cgroup out of memory: Killed process 1 (node) in pod checkout-web-qtg4knzpmc-slv7k
+2026-08-01T10:32:47Z  Warning  OOMKilling   node/ip-10-42-2-101   Memory cgroup out of memory: Killed process 1 (node) in pod checkout-web-qtg4knzpmc-qk5c5
+2026-08-01T10:33:07.715Z WARN  [checkout-web] heap used 1.71GB / 1.75GB, ssr-cache entries=1,284,112
+2026-08-01T10:33:20Z  Warning  OOMKilling   node/ip-10-42-4-155   Memory cgroup out of memory: Killed process 1 (node) in pod checkout-web-qtg4knzpmc-slv7k
+2026-08-01T10:33:28.000Z INFO  [checkout-web] POST /api/checkout 200 83ms cart=17344019
+2026-08-01T10:34:17.000Z INFO  [checkout-web] POST /api/checkout 200 118ms cart=89386523
+2026-08-01T10:36:08.000Z INFO  [checkout-web] POST /api/checkout 200 77ms cart=76817703
+2026-08-01T10:37:06.000Z INFO  [checkout-web] POST /api/checkout 200 366ms cart=89082608
+2026-08-01T10:38:12.000Z INFO  [checkout-web] POST /api/checkout 200 227ms cart=53445987
+2026-08-01T10:39:14.000Z INFO  [checkout-web] POST /api/checkout 200 166ms cart=83347573
+2026-08-01T10:40:41.000Z INFO  [checkout-web] POST /api/checkout 200 340ms cart=67852286
+2026-08-01T10:42:28.000Z INFO  [checkout-web] POST /api/checkout 200 59ms cart=80983195
+2026-08-01T10:43:20.000Z INFO  [checkout-web] POST /api/checkout 200 259ms cart=37736635
+2026-08-01T10:44:50.000Z INFO  [checkout-web] POST /api/checkout 200 322ms cart=70326039
+2026-08-01T10:45:46.000Z INFO  [checkout-web] POST /api/checkout 200 273ms cart=21866049
+2026-08-01T10:46:46.000Z INFO  [checkout-web] POST /api/checkout 200 328ms cart=31702604
+2026-08-01T10:48:31.000Z INFO  [checkout-web] POST /api/checkout 200 95ms cart=55996088
+2026-08-01T10:50:25.000Z INFO  [checkout-web] POST /api/checkout 200 265ms cart=41659698
+2026-08-01T10:52:21.000Z INFO  [checkout-web] POST /api/checkout 200 158ms cart=95670708

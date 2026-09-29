@@ -1,0 +1,151 @@
+2026-07-12 01:50:00.000  INFO 1 --- [http-nio-8080-exec-77] c.k.search.api.SearchController          : q="iphone 15 cover" hits=944 latencyMs=101
+2026-07-12 01:50:30.077  INFO 1 --- [http-nio-8080-exec-36] c.k.search.api.SearchController          : q="iphone 15 cover" hits=944 latencyMs=158
+2026-07-12 01:51:04.836  INFO 1 --- [http-nio-8080-exec-163] c.k.search.api.SearchController          : q="iphone 15 cover" hits=944 latencyMs=333
+2026-07-12 01:51:54.324  INFO 1 --- [http-nio-8080-exec-159] c.k.search.api.SearchController          : q="iphone 15 cover" hits=944 latencyMs=194
+2026-07-12 01:52:48.894  INFO 1 --- [http-nio-8080-exec-118] c.k.search.api.SearchController          : q="iphone 15 cover" hits=944 latencyMs=74
+2026-07-12 01:53:35.502  INFO 1 --- [http-nio-8080-exec-122] c.k.search.api.SearchController          : q="iphone 15 cover" hits=944 latencyMs=279
+2026-07-12 01:54:10.296  INFO 1 --- [http-nio-8080-exec-128] c.k.search.api.SearchController          : q="iphone 15 cover" hits=944 latencyMs=288
+2026-07-12 01:54:39.311  INFO 1 --- [http-nio-8080-exec-119] c.k.search.api.SearchController          : q="iphone 15 cover" hits=944 latencyMs=254
+2026-07-12 01:55:44.927  INFO 1 --- [http-nio-8080-exec-76] c.k.search.api.SearchController          : q="iphone 15 cover" hits=944 latencyMs=335
+2026-07-12 01:56:20.798  INFO 1 --- [http-nio-8080-exec-164] c.k.search.api.SearchController          : q="iphone 15 cover" hits=944 latencyMs=177
+2026-07-12 01:57:03.557  INFO 1 --- [http-nio-8080-exec-21] c.k.search.api.SearchController          : q="iphone 15 cover" hits=944 latencyMs=74
+2026-07-12 01:57:59.020  INFO 1 --- [http-nio-8080-exec-97] c.k.search.api.SearchController          : q="iphone 15 cover" hits=944 latencyMs=258
+2026-07-12 01:58:48.092  INFO 1 --- [http-nio-8080-exec-93] c.k.search.api.SearchController          : q="iphone 15 cover" hits=944 latencyMs=205
+2026-07-12 01:59:15.874  INFO 1 --- [http-nio-8080-exec-153] c.k.search.api.SearchController          : q="iphone 15 cover" hits=944 latencyMs=80
+2026-07-12 01:59:55.014  INFO 1 --- [http-nio-8080-exec-193] c.k.search.api.SearchController          : q="iphone 15 cover" hits=944 latencyMs=293
+2026-07-12 02:01:01.336  INFO 1 --- [http-nio-8080-exec-176] c.k.search.api.SearchController          : q="iphone 15 cover" hits=944 latencyMs=324
+2026-07-12 02:01:52.936  INFO 1 --- [http-nio-8080-exec-6] c.k.search.api.SearchController          : q="iphone 15 cover" hits=944 latencyMs=373
+2026-07-12 02:02:37.415  INFO 1 --- [http-nio-8080-exec-141] c.k.search.api.SearchController          : q="iphone 15 cover" hits=944 latencyMs=193
+2026-07-12 02:03:12.272  INFO 1 --- [http-nio-8080-exec-17] c.k.search.api.SearchController          : q="iphone 15 cover" hits=944 latencyMs=149
+2026-07-12 02:04:00.606  INFO 1 --- [http-nio-8080-exec-181] c.k.search.api.SearchController          : q="iphone 15 cover" hits=944 latencyMs=268
+2026-07-12 02:04:49.657  INFO 1 --- [http-nio-8080-exec-64] c.k.search.api.SearchController          : q="iphone 15 cover" hits=944 latencyMs=286
+2026-07-12 02:05:22.006  INFO 1 --- [http-nio-8080-exec-11] c.k.search.api.SearchController          : q="iphone 15 cover" hits=944 latencyMs=276
+2026-07-12 02:06:14.637  INFO 1 --- [reindex-1] c.k.search.index.IndexRebuilder          : search-reindex-job loading batch 1 of 1 (3.1M docs)
+2026-07-12 02:06:48.792  WARN 1 --- [reindex-1] c.k.search.index.IndexRebuilder          : Heap usage 98% during index build
+java.lang.OutOfMemoryError: Java heap space
+2026-07-11T20:37:23Z  Warning  OOMKilled   pod/search-service-sn4cgvzxwm-pgj4k   Container search-service exceeded memory limit (6Gi)
+2026-07-11T20:37:48Z  Warning  BackOff     pod/search-service-sn4cgvzxwm-pgj4k   Back-off restarting failed container search-service
+    Last State:  Terminated  Reason: OOMKilled  Exit Code: 137
+2026-07-11T20:38:12Z  Warning  OOMKilled   pod/search-service-sn4cgvzxwm-ghqnw   Container search-service exceeded memory limit (6Gi)
+2026-07-11T20:38:40Z  Warning  BackOff     pod/search-service-sn4cgvzxwm-4vqpq   Back-off restarting failed container search-service
+    Last State:  Terminated  Reason: OOMKilled  Exit Code: 137
+2026-07-11T20:39:16Z  Warning  BackOff     pod/search-service-sn4cgvzxwm-4vqpq   Back-off restarting failed container search-service
+    Last State:  Terminated  Reason: OOMKilled  Exit Code: 137
+2026-07-11T20:39:45Z  Warning  OOMKilled   pod/search-service-sn4cgvzxwm-4vqpq   Container search-service exceeded memory limit (6Gi)
+2026-07-12 02:10:01.842  WARN 1 --- [reindex-1] c.k.search.index.IndexRebuilder          : Heap usage 98% during index build
+java.lang.OutOfMemoryError: Java heap space
+2026-07-11T20:40:34Z  Warning  BackOff     pod/search-service-sn4cgvzxwm-4vqpq   Back-off restarting failed container search-service
+    Last State:  Terminated  Reason: OOMKilled  Exit Code: 137
+2026-07-12 02:11:03.784  WARN 1 --- [reindex-1] c.k.search.index.IndexRebuilder          : Heap usage 98% during index build
+java.lang.OutOfMemoryError: Java heap space
+2026-07-12 02:11:20.045  INFO 1 --- [reindex-1] c.k.search.index.IndexRebuilder          : search-reindex-job loading batch 1 of 1 (3.1M docs)
+2026-07-12 02:11:55.786  WARN 1 --- [reindex-1] c.k.search.index.IndexRebuilder          : Heap usage 98% during index build
+java.lang.OutOfMemoryError: Java heap space
+2026-07-12 02:12:26.267  WARN 1 --- [reindex-1] c.k.search.index.IndexRebuilder          : Heap usage 98% during index build
+java.lang.OutOfMemoryError: Java heap space
+2026-07-12 02:13:02.146  WARN 1 --- [reindex-1] c.k.search.index.IndexRebuilder          : Heap usage 98% during index build
+java.lang.OutOfMemoryError: Java heap space
+2026-07-11T20:43:21Z  Warning  OOMKilled   pod/search-service-sn4cgvzxwm-pgj4k   Container search-service exceeded memory limit (6Gi)
+2026-07-12 02:13:38.696  WARN 1 --- [reindex-1] c.k.search.index.IndexRebuilder          : Heap usage 98% during index build
+java.lang.OutOfMemoryError: Java heap space
+2026-07-11T20:44:02Z  Warning  BackOff     pod/search-service-sn4cgvzxwm-4vqpq   Back-off restarting failed container search-service
+    Last State:  Terminated  Reason: OOMKilled  Exit Code: 137
+2026-07-11T20:44:36Z  Warning  BackOff     pod/search-service-sn4cgvzxwm-pgj4k   Back-off restarting failed container search-service
+    Last State:  Terminated  Reason: OOMKilled  Exit Code: 137
+2026-07-12 02:14:59.812  WARN 1 --- [reindex-1] c.k.search.index.IndexRebuilder          : Heap usage 98% during index build
+java.lang.OutOfMemoryError: Java heap space
+2026-07-12 02:15:35.234  INFO 1 --- [reindex-1] c.k.search.index.IndexRebuilder          : search-reindex-job loading batch 1 of 1 (3.1M docs)
+2026-07-12 02:16:01.447  WARN 1 --- [reindex-1] c.k.search.index.IndexRebuilder          : Heap usage 98% during index build
+java.lang.OutOfMemoryError: Java heap space
+2026-07-11T20:46:21Z  Warning  BackOff     pod/search-service-sn4cgvzxwm-ghqnw   Back-off restarting failed container search-service
+    Last State:  Terminated  Reason: OOMKilled  Exit Code: 137
+2026-07-12 02:16:40.137  WARN 1 --- [reindex-1] c.k.search.index.IndexRebuilder          : Heap usage 98% during index build
+java.lang.OutOfMemoryError: Java heap space
+2026-07-12 02:17:14.108  INFO 1 --- [reindex-1] c.k.search.index.IndexRebuilder          : search-reindex-job loading batch 1 of 1 (3.1M docs)
+2026-07-12 02:17:37.503  WARN 1 --- [reindex-1] c.k.search.index.IndexRebuilder          : Heap usage 98% during index build
+java.lang.OutOfMemoryError: Java heap space
+2026-07-11T20:47:55Z  Warning  BackOff     pod/search-service-sn4cgvzxwm-4vqpq   Back-off restarting failed container search-service
+    Last State:  Terminated  Reason: OOMKilled  Exit Code: 137
+2026-07-11T20:48:19Z  Warning  OOMKilled   pod/search-service-sn4cgvzxwm-pgj4k   Container search-service exceeded memory limit (6Gi)
+2026-07-11T20:48:48Z  Warning  BackOff     pod/search-service-sn4cgvzxwm-ghqnw   Back-off restarting failed container search-service
+    Last State:  Terminated  Reason: OOMKilled  Exit Code: 137
+2026-07-11T20:49:23Z  Warning  BackOff     pod/search-service-sn4cgvzxwm-ghqnw   Back-off restarting failed container search-service
+    Last State:  Terminated  Reason: OOMKilled  Exit Code: 137
+2026-07-12 02:19:54.623  INFO 1 --- [reindex-1] c.k.search.index.IndexRebuilder          : search-reindex-job loading batch 1 of 1 (3.1M docs)
+2026-07-12 02:20:27.603  INFO 1 --- [reindex-1] c.k.search.index.IndexRebuilder          : search-reindex-job loading batch 1 of 1 (3.1M docs)
+2026-07-11T20:50:51Z  Warning  BackOff     pod/search-service-sn4cgvzxwm-pgj4k   Back-off restarting failed container search-service
+    Last State:  Terminated  Reason: OOMKilled  Exit Code: 137
+2026-07-11T20:51:13Z  Warning  BackOff     pod/search-service-sn4cgvzxwm-pgj4k   Back-off restarting failed container search-service
+    Last State:  Terminated  Reason: OOMKilled  Exit Code: 137
+2026-07-11T20:51:44Z  Warning  OOMKilled   pod/search-service-sn4cgvzxwm-ghqnw   Container search-service exceeded memory limit (6Gi)
+2026-07-12 02:22:02.481  INFO 1 --- [reindex-1] c.k.search.index.IndexRebuilder          : search-reindex-job loading batch 1 of 1 (3.1M docs)
+2026-07-11T20:52:24Z  Warning  BackOff     pod/search-service-sn4cgvzxwm-4vqpq   Back-off restarting failed container search-service
+    Last State:  Terminated  Reason: OOMKilled  Exit Code: 137
+2026-07-11T20:52:42Z  Warning  BackOff     pod/search-service-sn4cgvzxwm-ghqnw   Back-off restarting failed container search-service
+    Last State:  Terminated  Reason: OOMKilled  Exit Code: 137
+2026-07-12 02:23:02.484  INFO 1 --- [reindex-1] c.k.search.index.IndexRebuilder          : search-reindex-job loading batch 1 of 1 (3.1M docs)
+2026-07-11T20:53:37Z  Warning  BackOff     pod/search-service-sn4cgvzxwm-ghqnw   Back-off restarting failed container search-service
+    Last State:  Terminated  Reason: OOMKilled  Exit Code: 137
+2026-07-11T20:54:05Z  Warning  OOMKilled   pod/search-service-sn4cgvzxwm-ghqnw   Container search-service exceeded memory limit (6Gi)
+2026-07-11T20:54:42Z  Warning  OOMKilled   pod/search-service-sn4cgvzxwm-ghqnw   Container search-service exceeded memory limit (6Gi)
+2026-07-11T20:55:10Z  Warning  OOMKilled   pod/search-service-sn4cgvzxwm-ghqnw   Container search-service exceeded memory limit (6Gi)
+2026-07-12 02:25:41.617  INFO 1 --- [reindex-1] c.k.search.index.IndexRebuilder          : search-reindex-job loading batch 1 of 1 (3.1M docs)
+2026-07-12 02:25:57.640  WARN 1 --- [reindex-1] c.k.search.index.IndexRebuilder          : Heap usage 98% during index build
+java.lang.OutOfMemoryError: Java heap space
+2026-07-12 02:26:27.749  WARN 1 --- [reindex-1] c.k.search.index.IndexRebuilder          : Heap usage 98% during index build
+java.lang.OutOfMemoryError: Java heap space
+2026-07-12 02:26:49.559  INFO 1 --- [reindex-1] c.k.search.index.IndexRebuilder          : search-reindex-job loading batch 1 of 1 (3.1M docs)
+2026-07-11T20:57:05Z  Warning  OOMKilled   pod/search-service-sn4cgvzxwm-ghqnw   Container search-service exceeded memory limit (6Gi)
+2026-07-12 02:27:31.663  WARN 1 --- [reindex-1] c.k.search.index.IndexRebuilder          : Heap usage 98% during index build
+java.lang.OutOfMemoryError: Java heap space
+2026-07-12 02:27:50.574  WARN 1 --- [reindex-1] c.k.search.index.IndexRebuilder          : Heap usage 98% during index build
+java.lang.OutOfMemoryError: Java heap space
+2026-07-11T20:58:26Z  Warning  BackOff     pod/search-service-sn4cgvzxwm-pgj4k   Back-off restarting failed container search-service
+    Last State:  Terminated  Reason: OOMKilled  Exit Code: 137
+2026-07-11T20:58:54Z  Warning  OOMKilled   pod/search-service-sn4cgvzxwm-4vqpq   Container search-service exceeded memory limit (6Gi)
+2026-07-12 02:29:10.631  WARN 1 --- [reindex-1] c.k.search.index.IndexRebuilder          : Heap usage 98% during index build
+java.lang.OutOfMemoryError: Java heap space
+2026-07-12 02:29:36.547  INFO 1 --- [reindex-1] c.k.search.index.IndexRebuilder          : search-reindex-job loading batch 1 of 1 (3.1M docs)
+2026-07-11T21:00:05Z  Warning  BackOff     pod/search-service-sn4cgvzxwm-ghqnw   Back-off restarting failed container search-service
+    Last State:  Terminated  Reason: OOMKilled  Exit Code: 137
+2026-07-12 02:30:40.938  INFO 1 --- [reindex-1] c.k.search.index.IndexRebuilder          : search-reindex-job loading batch 1 of 1 (3.1M docs)
+2026-07-11T21:01:12Z  Warning  OOMKilled   pod/search-service-sn4cgvzxwm-ghqnw   Container search-service exceeded memory limit (6Gi)
+2026-07-11T21:01:49Z  Warning  BackOff     pod/search-service-sn4cgvzxwm-ghqnw   Back-off restarting failed container search-service
+    Last State:  Terminated  Reason: OOMKilled  Exit Code: 137
+2026-07-12 02:32:17.819  INFO 1 --- [reindex-1] c.k.search.index.IndexRebuilder          : search-reindex-job loading batch 1 of 1 (3.1M docs)
+2026-07-12 02:32:47.078  INFO 1 --- [reindex-1] c.k.search.index.IndexRebuilder          : search-reindex-job loading batch 1 of 1 (3.1M docs)
+2026-07-12 02:33:08.710  WARN 1 --- [reindex-1] c.k.search.index.IndexRebuilder          : Heap usage 98% during index build
+java.lang.OutOfMemoryError: Java heap space
+2026-07-11T21:03:36Z  Warning  OOMKilled   pod/search-service-sn4cgvzxwm-pgj4k   Container search-service exceeded memory limit (6Gi)
+2026-07-11T21:04:13Z  Warning  OOMKilled   pod/search-service-sn4cgvzxwm-pgj4k   Container search-service exceeded memory limit (6Gi)
+2026-07-12 02:34:29.487  INFO 1 --- [reindex-1] c.k.search.index.IndexRebuilder          : search-reindex-job loading batch 1 of 1 (3.1M docs)
+2026-07-12 02:35:03.586  WARN 1 --- [reindex-1] c.k.search.index.IndexRebuilder          : Heap usage 98% during index build
+java.lang.OutOfMemoryError: Java heap space
+2026-07-12 02:35:23.711  INFO 1 --- [reindex-1] c.k.search.index.IndexRebuilder          : search-reindex-job loading batch 1 of 1 (3.1M docs)
+2026-07-11T21:05:57Z  Warning  BackOff     pod/search-service-sn4cgvzxwm-4vqpq   Back-off restarting failed container search-service
+    Last State:  Terminated  Reason: OOMKilled  Exit Code: 137
+2026-07-12 02:36:13.544  WARN 1 --- [reindex-1] c.k.search.index.IndexRebuilder          : Heap usage 98% during index build
+java.lang.OutOfMemoryError: Java heap space
+2026-07-12 02:36:38.810  INFO 1 --- [reindex-1] c.k.search.index.IndexRebuilder          : search-reindex-job loading batch 1 of 1 (3.1M docs)
+2026-07-12 02:37:08.540  INFO 1 --- [reindex-1] c.k.search.index.IndexRebuilder          : search-reindex-job loading batch 1 of 1 (3.1M docs)
+2026-07-11T21:07:25Z  Warning  OOMKilled   pod/search-service-sn4cgvzxwm-ghqnw   Container search-service exceeded memory limit (6Gi)
+2026-07-11T21:07:52Z  Warning  BackOff     pod/search-service-sn4cgvzxwm-pgj4k   Back-off restarting failed container search-service
+    Last State:  Terminated  Reason: OOMKilled  Exit Code: 137
+2026-07-11T21:08:16Z  Warning  BackOff     pod/search-service-sn4cgvzxwm-pgj4k   Back-off restarting failed container search-service
+    Last State:  Terminated  Reason: OOMKilled  Exit Code: 137
+2026-07-12 02:38:47.578  INFO 1 --- [reindex-1] c.k.search.index.IndexRebuilder          : search-reindex-job loading batch 1 of 1 (3.1M docs)
+2026-07-12 02:38:50.000  INFO 1 --- [reindex-1] c.k.search.index.IndexRebuilder          : Index build complete in batches of 50000 docs, heap peak 71%
+2026-07-12 02:39:37.000  INFO 1 --- [http-nio-8080-exec-79] c.k.search.api.SearchController          : q="iphone 15 cover" hits=944 latencyMs=237
+2026-07-12 02:40:26.000  INFO 1 --- [http-nio-8080-exec-95] c.k.search.api.SearchController          : q="iphone 15 cover" hits=944 latencyMs=233
+2026-07-12 02:42:23.000  INFO 1 --- [http-nio-8080-exec-15] c.k.search.api.SearchController          : q="iphone 15 cover" hits=944 latencyMs=186
+2026-07-12 02:43:43.000  INFO 1 --- [http-nio-8080-exec-108] c.k.search.api.SearchController          : q="iphone 15 cover" hits=944 latencyMs=193
+2026-07-12 02:45:05.000  INFO 1 --- [http-nio-8080-exec-100] c.k.search.api.SearchController          : q="iphone 15 cover" hits=944 latencyMs=335
+2026-07-12 02:46:55.000  INFO 1 --- [http-nio-8080-exec-52] c.k.search.api.SearchController          : q="iphone 15 cover" hits=944 latencyMs=321
+2026-07-12 02:48:34.000  INFO 1 --- [http-nio-8080-exec-177] c.k.search.api.SearchController          : q="iphone 15 cover" hits=944 latencyMs=322
+2026-07-12 02:49:19.000  INFO 1 --- [http-nio-8080-exec-24] c.k.search.api.SearchController          : q="iphone 15 cover" hits=944 latencyMs=188
+2026-07-12 02:50:05.000  INFO 1 --- [http-nio-8080-exec-76] c.k.search.api.SearchController          : q="iphone 15 cover" hits=944 latencyMs=354
+2026-07-12 02:51:54.000  INFO 1 --- [http-nio-8080-exec-20] c.k.search.api.SearchController          : q="iphone 15 cover" hits=944 latencyMs=186
+2026-07-12 02:53:04.000  INFO 1 --- [http-nio-8080-exec-22] c.k.search.api.SearchController          : q="iphone 15 cover" hits=944 latencyMs=196
+2026-07-12 02:54:10.000  INFO 1 --- [http-nio-8080-exec-135] c.k.search.api.SearchController          : q="iphone 15 cover" hits=944 latencyMs=208
+2026-07-12 02:55:19.000  INFO 1 --- [http-nio-8080-exec-50] c.k.search.api.SearchController          : q="iphone 15 cover" hits=944 latencyMs=143
+2026-07-12 02:56:30.000  INFO 1 --- [http-nio-8080-exec-25] c.k.search.api.SearchController          : q="iphone 15 cover" hits=944 latencyMs=313

@@ -1,0 +1,415 @@
+[
+  {
+    "id": "DEMO-D1",
+    "name": "Known problem repeats",
+    "purpose": "Strong match with the payments-api connection-pool pattern. Agent should say: skip restart and scale-out, deal with recon-job and the pool.",
+    "service": "payments-api",
+    "severity": "SEV1",
+    "alert": {
+      "title": "payments-api p99 latency > 3s and 5xx rate > 5%",
+      "source": "Grafana Alerting",
+      "service": "payments-api",
+      "metric": "http_server_requests_seconds{service=\"payments-api\"} p99, 5xx ratio",
+      "condition": "p99 > 3s AND 5xx_ratio > 5% for 5m",
+      "value": "p99 10.6s, 5xx 13.1%",
+      "fired_at": "2026-09-29T02:44:00+05:30",
+      "dashboard_url": "https://grafana.kartly.internal/d/payments-api"
+    },
+    "log_excerpt": [
+      "2026-09-29 02:38:48.924  INFO 1 --- [http-nio-8080-exec-19] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-41513299 amount=349.00 INR gateway=razorpay latencyMs=266",
+      "2026-09-29 02:39:29.988  INFO 1 --- [http-nio-8080-exec-168] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-16090469 amount=12999.00 INR gateway=razorpay latencyMs=192",
+      "2026-09-29 02:40:36.698  WARN 1 --- [http-nio-8080-exec-132] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Connection is not available, request timed out after 30000ms.",
+      "2026-09-29 02:40:43.414 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=150, active=150, idle=0, waiting=301)",
+      "2026-09-29 02:40:49.602 ERROR 1 --- [http-nio-8080-exec-85] c.k.payments.api.ChargeController      : Charge failed orderId=ORD-96921081 status=503 reason=DB_UNAVAILABLE traceId=ac8cefdda022c400",
+      "10.42.2.47 - - [29/Sep/2026:02:40:58 +0530] \"POST /v1/charges HTTP/1.1\" 503 187 \"-\" \"checkout-web/7.4\" upstream_response_time=30.002",
+      "2026-09-29 02:41:04.251  INFO 1 --- [recon-worker-2] c.k.payments.recon.ReconJobLauncher      : recon-job processed 8990620 rows, holding connection for settlement batch",
+      "2026-09-29 02:41:08.150 ERROR 1 --- [http-nio-8080-exec-84] c.k.payments.api.ChargeController      : Charge failed orderId=ORD-47618552 status=503 reason=DB_UNAVAILABLE traceId=47327bdb11aa8c69",
+      "2026-09-29 02:41:16.832 ERROR 1 --- [http-nio-8080-exec-173] c.k.payments.api.ChargeController      : Charge failed orderId=ORD-26076604 status=503 reason=DB_UNAVAILABLE traceId=ffd37634bfcd3354",
+      "2026-09-29 02:41:19.890 ERROR 1 --- [http-nio-8080-exec-82] c.k.payments.api.ChargeController      : Charge failed orderId=ORD-29972182 status=503 reason=DB_UNAVAILABLE traceId=aacda2301ea886ad",
+      "2026-09-29 02:41:28.001 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=150, active=150, idle=0, waiting=301)",
+      "2026-09-29 02:41:34.221  INFO 1 --- [recon-worker-2] c.k.payments.recon.ReconJobLauncher      : recon-job processed 8003244 rows, holding connection for settlement batch"
+    ],
+    "log_file": "logs/demo/DEMO-D1.log",
+    "expected": {
+      "pattern_id": "P1",
+      "strong_match": true,
+      "likely_cause": "recon-job (02:00) holding many Postgres connections during Midnight Deals traffic, exhausting the HikariCP pool.",
+      "should_avoid": [
+        "restart pods",
+        "scale out payments-api replicas"
+      ],
+      "should_recommend": [
+        "suspend or reschedule recon-job",
+        "check/raise HikariCP pool size"
+      ],
+      "notes": "Month-end recon batch is larger than usual (30,000).",
+      "expected_incident_ids": [
+        "INC-2025",
+        "INC-2037",
+        "INC-2050",
+        "INC-2057"
+      ]
+    }
+  },
+  {
+    "id": "DEMO-D2",
+    "name": "Same pattern, different service",
+    "purpose": "inventory-service has never had this incident, but the error signature and cause match the payments-api pool pattern. Shows the agent transferring knowledge across services.",
+    "service": "inventory-service",
+    "severity": "SEV1",
+    "alert": {
+      "title": "inventory-service p99 latency > 3s, stock reservations failing",
+      "source": "Grafana Alerting",
+      "service": "inventory-service",
+      "metric": "http_server_requests_seconds{service=\"inventory-service\"} p99",
+      "condition": "p99 > 3s for 5m",
+      "value": "p99 7.8s, reservation failures 19.4%",
+      "fired_at": "2026-09-29T02:21:00+05:30",
+      "dashboard_url": "https://grafana.kartly.internal/d/inventory-service"
+    },
+    "log_excerpt": [
+      "2026-09-29 02:15:03.545  INFO 1 --- [http-nio-8080-exec-115] c.k.inventory.api.ReservationController  : Reserved sku=SKU-38096172 qty=1 latencyMs=74",
+      "2026-09-29 02:16:11.809  INFO 1 --- [http-nio-8080-exec-194] c.k.inventory.api.ReservationController  : Reserved sku=SKU-28748031 qty=1 latencyMs=251",
+      "2026-09-29 02:17:06.307  WARN 1 --- [http-nio-8080-exec-191] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Connection is not available, request timed out after 30000ms.",
+      "2026-09-29 02:17:14.883 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=40, active=40, idle=0, waiting=164)",
+      "2026-09-29 02:17:21.059 ERROR 1 --- [http-nio-8080-exec-34] c.k.inventory.api.ReservationController  : Reservation failed sku=SKU-88392262 reason=DB_UNAVAILABLE traceId=a9bb66759289ab19",
+      "2026-09-29 02:17:26.242  INFO 1 --- [stock-sync-4] c.k.inventory.sync.StockSyncJob          : stock-sync-job partner=warehouse-1 upserted 4742782 rows (connection held)",
+      "2026-09-29 02:17:33.704  INFO 1 --- [stock-sync-2] c.k.inventory.sync.StockSyncJob          : stock-sync-job partner=warehouse-1 upserted 3672191 rows (connection held)",
+      "2026-09-29 02:17:44.108  WARN 1 --- [http-nio-8080-exec-17] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Connection is not available, request timed out after 30000ms.",
+      "2026-09-29 02:17:48.492  INFO 1 --- [stock-sync-4] c.k.inventory.sync.StockSyncJob          : stock-sync-job partner=warehouse-0 upserted 1869562 rows (connection held)",
+      "2026-09-29 02:17:58.363 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=40, active=40, idle=0, waiting=164)",
+      "2026-09-29 02:18:03.857 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=40, active=40, idle=0, waiting=164)",
+      "2026-09-29 02:18:09.225 ERROR 1 --- [http-nio-8080-exec-11] c.k.inventory.api.ReservationController  : Reservation failed sku=SKU-59643832 reason=DB_UNAVAILABLE traceId=558b45cf0accfc9a"
+    ],
+    "log_file": "logs/demo/DEMO-D2.log",
+    "expected": {
+      "pattern_id": "P1",
+      "strong_match": true,
+      "likely_cause": "stock-sync-job (02:00) holding database connections while night traffic needs them, exhausting inventory-service's HikariCP pool (pool size 40). Same failure mode as the payments-api recon-job incidents.",
+      "should_avoid": [
+        "restart pods",
+        "scale out replicas (risk of hitting postgres max_connections)"
+      ],
+      "should_recommend": [
+        "pause or reschedule stock-sync-job",
+        "raise inventory-service HikariCP pool size"
+      ],
+      "notes": "No inventory-service incident like this exists in history; the match must come from payments-api incidents.",
+      "expected_incident_ids": [
+        "INC-2025",
+        "INC-2037",
+        "INC-2050",
+        "INC-2057"
+      ]
+    }
+  },
+  {
+    "id": "DEMO-D3",
+    "name": "Look-alike with a different cause",
+    "purpose": "payments-api errors at night look like the pool problem, but logs show gateway timeouts and a healthy pool. Agent must pick the gateway pattern, not the pool pattern.",
+    "service": "payments-api",
+    "severity": "SEV1",
+    "alert": {
+      "title": "payments-api p99 latency > 3s and 5xx rate > 5%",
+      "source": "Grafana Alerting",
+      "service": "payments-api",
+      "metric": "http_server_requests_seconds{service=\"payments-api\"} p99, 5xx ratio",
+      "condition": "p99 > 3s AND 5xx_ratio > 5% for 5m",
+      "value": "p99 10.1s, 5xx 21.7%",
+      "fired_at": "2026-09-29T02:38:00+05:30",
+      "dashboard_url": "https://grafana.kartly.internal/d/payments-api"
+    },
+    "log_excerpt": [
+      "2026-09-29 02:32:47.948  INFO 1 --- [http-nio-8080-exec-49] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-42766365 amount=12999.00 INR gateway=razorpay latencyMs=108",
+      "2026-09-29 02:33:32.736  INFO 1 --- [http-nio-8080-exec-128] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-86045067 amount=12999.00 INR gateway=razorpay latencyMs=210",
+      "2026-09-29 02:34:01.315 ERROR 1 --- [http-nio-8080-exec-107] c.k.payments.gateway.RazorpayClient      : POST https://api.razorpay.com/v1/payments/create read timeout after 10000ms traceId=c429356a0896f4c2",
+      "2026-09-29 02:34:11.093  WARN 1 --- [http-nio-8080-exec-177] c.k.payments.api.ChargeController      : Gateway call failed, returning 504 orderId=ORD-43614251 gateway=razorpay",
+      "2026-09-29 02:34:16.883 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=150, active=17, idle=133, waiting=0)",
+      "10.42.15.129 - - [29/Sep/2026:02:34:22 +0530] \"POST /v1/charges HTTP/1.1\" 504 160 \"-\" \"checkout-web/7.4\" upstream_response_time=10.013",
+      "2026-09-29 02:34:27.345 ERROR 1 --- [http-nio-8080-exec-180] c.k.payments.gateway.RazorpayClient      : POST https://api.razorpay.com/v1/payments/create read timeout after 10000ms traceId=f1d921a3c5bf8599",
+      "2026-09-29 02:34:33.387  WARN 1 --- [http-nio-8080-exec-117] c.k.payments.api.ChargeController      : Gateway call failed, returning 504 orderId=ORD-91618699 gateway=razorpay",
+      "2026-09-29 02:34:37.191 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=150, active=17, idle=133, waiting=0)",
+      "2026-09-29 02:34:42.565 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=150, active=17, idle=133, waiting=0)",
+      "2026-09-29 02:34:52.603 ERROR 1 --- [http-nio-8080-exec-111] c.k.payments.gateway.RazorpayClient      : POST https://api.razorpay.com/v1/payments/create read timeout after 10000ms traceId=e5b982305a4ddf43",
+      "10.42.6.245 - - [29/Sep/2026:02:34:55 +0530] \"POST /v1/charges HTTP/1.1\" 504 160 \"-\" \"checkout-web/7.4\" upstream_response_time=10.017"
+    ],
+    "log_file": "logs/demo/DEMO-D3.log",
+    "expected": {
+      "pattern_id": "P4",
+      "strong_match": true,
+      "likely_cause": "Razorpay gateway timeouts (external). The database pool is healthy (waiting=0), so this is NOT the recon-job pool problem despite the 2 AM timing.",
+      "should_avoid": [
+        "rolling back payments-api",
+        "restart pods",
+        "suspending recon-job (not the cause)"
+      ],
+      "should_recommend": [
+        "switch primary gateway to Cashfree (PAYMENT_GATEWAY_PRIMARY=cashfree)",
+        "check Razorpay status page"
+      ],
+      "notes": "Tests that the agent reads the evidence rather than matching on time of day and service name.",
+      "expected_incident_ids": [
+        "INC-2033",
+        "INC-2046",
+        "INC-2056"
+      ]
+    }
+  },
+  {
+    "id": "DEMO-D4",
+    "name": "Brand-new problem",
+    "purpose": "Nothing like this is in memory. Agent must be honest: low confidence, fall back to runbooks, escalate to Platform.",
+    "service": "checkout-web",
+    "severity": "SEV1",
+    "alert": {
+      "title": "checkout-web 5xx rate > 10% on /api/checkout",
+      "source": "Grafana Alerting",
+      "service": "checkout-web",
+      "metric": "nginx_ingress_controller_requests{service=\"checkout-web\",status=~\"5..\"} ratio",
+      "condition": "5xx_ratio > 10% for 3m",
+      "value": "5xx 36%",
+      "fired_at": "2026-09-29T11:12:00+05:30",
+      "dashboard_url": "https://grafana.kartly.internal/d/checkout-web"
+    },
+    "log_excerpt": [
+      "2026-09-29T05:36:55.951Z INFO  [checkout-web] POST /api/checkout 200 174ms cart=26759841",
+      "2026-09-29T05:37:35.911Z INFO  [checkout-web] POST /api/checkout 200 339ms cart=73718888",
+      "2026-09-29T05:38:09.057Z ERROR [checkout-web] FetchError: request to http://orders-service.orders.svc.cluster.local:8080/v1/orders failed, reason: getaddrinfo EAI_AGAIN orders-service.orders.svc.cluster.local",
+      "2026-09-29T05:38:19.893Z ERROR [checkout-web] POST /api/checkout 500 7324ms cart=71503505",
+      "2026-09-29T05:38:26Z  Warning  Unhealthy   pod/coredns-5d78c9869d-k7r29   Readiness probe failed: HTTP probe failed with statuscode: 503",
+      "[ERROR] plugin/errors: 2 orders-service.orders.svc.cluster.local. A: read udp 10.42.0.17:49871->10.96.0.10:53: i/o timeout",
+      "2026-09-29T05:38:36Z  Warning  Unhealthy   pod/coredns-5d78c9869d-kzdp7   Readiness probe failed: HTTP probe failed with statuscode: 503",
+      "[ERROR] plugin/errors: 2 orders-service.orders.svc.cluster.local. A: read udp 10.42.0.17:52637->10.96.0.10:53: i/o timeout",
+      "2026-09-29T05:38:42.946Z ERROR [checkout-web] POST /api/checkout 500 5731ms cart=17584141",
+      "2026-09-29T05:38:46.216Z ERROR [checkout-web] POST /api/checkout 500 9268ms cart=65474920",
+      "2026-09-29T05:38:53Z  Warning  Unhealthy   pod/coredns-5d78c9869d-dbtxg   Readiness probe failed: HTTP probe failed with statuscode: 503",
+      "[ERROR] plugin/errors: 2 orders-service.orders.svc.cluster.local. A: read udp 10.42.0.17:47030->10.96.0.10:53: i/o timeout"
+    ],
+    "log_file": "logs/demo/DEMO-D4.log",
+    "expected": {
+      "pattern_id": null,
+      "strong_match": false,
+      "likely_cause": "Cluster DNS (CoreDNS) failures - checkout-web cannot resolve orders-service. No similar past incident.",
+      "should_avoid": [
+        "claiming it matches the feature-toggle checkout incidents",
+        "blind restarts of checkout-web"
+      ],
+      "should_recommend": [
+        "say clearly there is no strong match in memory",
+        "check CoreDNS pods",
+        "escalate to Platform (Fatima Khan)"
+      ],
+      "notes": "Checks the agent does not hallucinate a match just because the service and alert title match past checkout incidents.",
+      "expected_incident_ids": []
+    }
+  },
+  {
+    "id": "DEMO-D5",
+    "name": "Restart is actually right here",
+    "purpose": "notification-service memory leak. Unlike the certificate incidents on the same service, a restart DID fix this pattern 4 times. Shows the agent doesn't over-learn 'restarts never work'.",
+    "service": "notification-service",
+    "severity": "SEV3",
+    "alert": {
+      "title": "notification-service memory > 90% of limit",
+      "source": "Grafana Alerting",
+      "service": "notification-service",
+      "metric": "container_memory_working_set_bytes{namespace=\"notifications\"}",
+      "condition": "> 90% of 2Gi for 10m",
+      "value": "memory 93%, push latency p95 7.4s",
+      "fired_at": "2026-09-29T16:10:00+05:30",
+      "dashboard_url": "https://grafana.kartly.internal/d/notification-service"
+    },
+    "log_excerpt": [
+      "{\"level\":\"info\",\"ts\":\"2026-09-29T10:34:48.133Z\",\"caller\":\"sender/dispatch.go:57\",\"msg\":\"notification sent\",\"channel\":\"whatsapp\",\"template\":\"order_shipped\",\"user_id\":\"u_5422783\"}",
+      "{\"level\":\"info\",\"ts\":\"2026-09-29T10:35:17.694Z\",\"caller\":\"sender/dispatch.go:57\",\"msg\":\"notification sent\",\"channel\":\"whatsapp\",\"template\":\"order_shipped\",\"user_id\":\"u_2671547\"}",
+      "{\"level\":\"warn\",\"ts\":\"2026-09-29T10:36:16.156Z\",\"caller\":\"runtime/stats.go:31\",\"msg\":\"goroutine count high\",\"goroutines\":176540,\"heap_mb\":1820}",
+      "{\"level\":\"warn\",\"ts\":\"2026-09-29T10:36:23.374Z\",\"caller\":\"whatsapp/client.go:92\",\"msg\":\"WhatsAppClient reconnect\",\"attempt\":1,\"open_streams\":6644464}",
+      "{\"level\":\"warn\",\"ts\":\"2026-09-29T10:36:28.681Z\",\"caller\":\"push/fcm.go:118\",\"msg\":\"push send slow\",\"latency_ms\":9567}",
+      "2026-09-29T10:36:38Z  Warning  OOMKilling   node/ip-10-42-5-54   Memory cgroup out of memory: Killed process 1 (notification-svc) in pod notification-service-jhdtx5vv94-czlf7",
+      "2026-09-29T10:36:46Z  Warning  OOMKilling   node/ip-10-42-2-160   Memory cgroup out of memory: Killed process 1 (notification-svc) in pod notification-service-jhdtx5vv94-b7ftk",
+      "{\"level\":\"warn\",\"ts\":\"2026-09-29T10:36:51.135Z\",\"caller\":\"runtime/stats.go:31\",\"msg\":\"goroutine count high\",\"goroutines\":176540,\"heap_mb\":1820}",
+      "{\"level\":\"warn\",\"ts\":\"2026-09-29T10:37:00.200Z\",\"caller\":\"push/fcm.go:118\",\"msg\":\"push send slow\",\"latency_ms\":8533}",
+      "{\"level\":\"warn\",\"ts\":\"2026-09-29T10:37:09.595Z\",\"caller\":\"runtime/stats.go:31\",\"msg\":\"goroutine count high\",\"goroutines\":176540,\"heap_mb\":1820}",
+      "{\"level\":\"warn\",\"ts\":\"2026-09-29T10:37:13.555Z\",\"caller\":\"runtime/stats.go:31\",\"msg\":\"goroutine count high\",\"goroutines\":176540,\"heap_mb\":1820}",
+      "2026-09-29T10:37:24Z  Warning  OOMKilling   node/ip-10-42-9-81   Memory cgroup out of memory: Killed process 1 (notification-svc) in pod notification-service-jhdtx5vv94-kq6m9"
+    ],
+    "log_file": "logs/demo/DEMO-D5.log",
+    "expected": {
+      "pattern_id": "P10",
+      "strong_match": true,
+      "likely_cause": "A goroutine leak like NOTIF-51, probably brought back by the new WhatsApp client in notification-service v2.14.0 (deployed ~13 days ago; memory grows for ~10-13 days before alerting).",
+      "should_avoid": [
+        "saying restarts don't help on this service (that was the certificate problem, a different pattern)",
+        "only scaling out"
+      ],
+      "should_recommend": [
+        "rolling restart now as a safe short-term fix (worked in all 4 past incidents)",
+        "check goroutines with pprof",
+        "look at the v2.14.0 WhatsApp client change"
+      ],
+      "notes": "The deploy history shows notification-service v2.14.0 on 2026-09-16 added the WhatsApp channel.",
+      "expected_incident_ids": [
+        "INC-2007",
+        "INC-2013",
+        "INC-2017",
+        "INC-2023"
+      ]
+    }
+  },
+  {
+    "id": "DEMO-D6",
+    "name": "Sale-day capacity",
+    "purpose": "Festive Sale opening night: checkout slow, pods stuck Pending. Five months of sale incidents say: raise the node group limit and pre-scale; manual scaling or restarts make it worse.",
+    "service": "checkout-web",
+    "severity": "SEV1",
+    "alert": {
+      "title": "checkout-web p95 latency > 2s during traffic spike",
+      "source": "Grafana Alerting",
+      "service": "checkout-web",
+      "metric": "http_server_duration_seconds p95, kube_pod_status_phase{phase=\"Pending\",namespace=\"checkout\"}",
+      "condition": "p95 > 2s for 5m",
+      "value": "p95 4.1s, 12 pods Pending",
+      "fired_at": "2026-09-29T20:10:00+05:30",
+      "dashboard_url": "https://grafana.kartly.internal/d/checkout-web"
+    },
+    "log_excerpt": [
+      "2026-09-29T14:34:03.372Z INFO  [checkout-web] POST /api/checkout 200 254ms cart=70856098",
+      "2026-09-29T14:35:12.401Z INFO  [checkout-web] POST /api/checkout 200 358ms cart=35500919",
+      "2026-09-29T14:36:20Z  Normal   ScalingReplicaSet  deployment/checkout-web   Scaled up replica set checkout-web-gtdc5 to 48",
+      "2026-09-29T14:36:28Z  Warning  FailedScheduling   pod/checkout-web-lcz8s9lnrx-k9dn6   0/72 nodes are available: 72 Insufficient cpu. preemption: 0/72 nodes are available: 72 No preemption victims found for incoming pod.",
+      "ts=2026-09-29T14:36:38.943Z level=warn component=cluster-autoscaler msg=\"max node group size reached\" nodegroup=ng-general-b max=72",
+      "2026-09-29T14:36:46.489Z WARN  [checkout-web] POST /api/checkout 200 5787ms cart=74728033 event_loop_lag_ms=70628",
+      "2026-09-29T14:36:54Z  Normal   ScalingReplicaSet  deployment/checkout-web   Scaled up replica set checkout-web-plv5g to 48",
+      "ts=2026-09-29T14:36:58.058Z level=warn component=cluster-autoscaler msg=\"max node group size reached\" nodegroup=ng-general-b max=72",
+      "2026-09-29T14:37:04Z  Warning  FailedScheduling   pod/checkout-web-lcz8s9lnrx-sxvr5   0/72 nodes are available: 72 Insufficient cpu. preemption: 0/72 nodes are available: 72 No preemption victims found for incoming pod.",
+      "ts=2026-09-29T14:37:12.463Z level=warn component=cluster-autoscaler msg=\"max node group size reached\" nodegroup=ng-general-b max=72",
+      "2026-09-29T14:37:18Z  Warning  FailedScheduling   pod/checkout-web-lcz8s9lnrx-k9dn6   0/72 nodes are available: 72 Insufficient cpu. preemption: 0/72 nodes are available: 72 No preemption victims found for incoming pod.",
+      "2026-09-29T14:37:29Z  Warning  FailedScheduling   pod/checkout-web-lcz8s9lnrx-lm65q   0/72 nodes are available: 72 Insufficient cpu. preemption: 0/72 nodes are available: 72 No preemption victims found for incoming pod."
+    ],
+    "log_file": "logs/demo/DEMO-D6.log",
+    "expected": {
+      "pattern_id": "P9",
+      "strong_match": true,
+      "likely_cause": "Festive Sale traffic exceeded the node group ng-general-b limit (72 nodes); new checkout-web pods cannot be scheduled.",
+      "should_avoid": [
+        "manually scaling checkout-web (pods just stay Pending)",
+        "restarting checkout-web (made it worse in January)"
+      ],
+      "should_recommend": [
+        "raise ng-general-b max (e.g. 72 -> 90)",
+        "raise HPA minReplicas for the rest of the sale"
+      ],
+      "notes": "Also a good 'Sameer left in May, but his January fix is still in memory' moment.",
+      "expected_incident_ids": [
+        "INC-2004",
+        "INC-2012",
+        "INC-2019",
+        "INC-2048"
+      ]
+    }
+  },
+  {
+    "id": "DEMO-D7",
+    "name": "Known problem, new trigger",
+    "purpose": "Logins failing because Redis is full - same pattern as 3 past incidents, but a new feature (wishlist sync) is writing the keys without expiry. Agent should point at the pattern AND the new key prefix.",
+    "service": "auth-service",
+    "severity": "SEV2",
+    "alert": {
+      "title": "auth-service login latency p95 > 2s",
+      "source": "Grafana Alerting",
+      "service": "auth-service",
+      "metric": "auth_login_duration_seconds p95",
+      "condition": "p95 > 2s for 5m",
+      "value": "p95 5.9s, login success 69%",
+      "fired_at": "2026-09-29T21:15:00+05:30",
+      "dashboard_url": "https://grafana.kartly.internal/d/auth-service"
+    },
+    "log_excerpt": [
+      "{\"level\":\"info\",\"ts\":\"2026-09-29T15:39:37.085Z\",\"caller\":\"wishlist/sync.go:44\",\"msg\":\"stored sync token\",\"key\":\"wl:sync:u_1119420\"}",
+      "{\"level\":\"info\",\"ts\":\"2026-09-29T15:40:28.249Z\",\"caller\":\"wishlist/sync.go:44\",\"msg\":\"stored sync token\",\"key\":\"wl:sync:u_8729436\"}",
+      "{\"level\":\"error\",\"ts\":\"2026-09-29T15:41:30.563Z\",\"caller\":\"session/store.go:88\",\"msg\":\"failed to persist session\",\"error\":\"OOM command not allowed when used memory > 'maxmemory'.\",\"user_id\":\"u_1437931\"}",
+      "1:M 29 Sep 2026 21:11:36.618 # used_memory 6.00G reached maxmemory 6gb, no volatile keys left to evict (maxmemory-policy volatile-lru)",
+      "{\"level\":\"warn\",\"ts\":\"2026-09-29T15:41:46.714Z\",\"caller\":\"http/login.go:74\",\"msg\":\"login slow\",\"route\":\"/v1/login\",\"latency_ms\":3551}",
+      "1:M 29 Sep 2026 21:11:52.568 * keyspace db0: keys=23.8M,expires=3.9M",
+      "{\"level\":\"error\",\"ts\":\"2026-09-29T15:41:56.671Z\",\"caller\":\"wishlist/sync.go:47\",\"msg\":\"store sync token failed\",\"key\":\"wl:sync:u_5353821\",\"error\":\"OOM command not allowed when used memory > 'maxmemory'.\"}",
+      "1:M 29 Sep 2026 21:12:04.343 # used_memory 6.00G reached maxmemory 6gb, no volatile keys left to evict (maxmemory-policy volatile-lru)",
+      "{\"level\":\"error\",\"ts\":\"2026-09-29T15:42:10.060Z\",\"caller\":\"wishlist/sync.go:47\",\"msg\":\"store sync token failed\",\"key\":\"wl:sync:u_8659579\",\"error\":\"OOM command not allowed when used memory > 'maxmemory'.\"}",
+      "1:M 29 Sep 2026 21:12:14.513 * keyspace db0: keys=23.8M,expires=3.9M",
+      "{\"level\":\"error\",\"ts\":\"2026-09-29T15:42:21.356Z\",\"caller\":\"wishlist/sync.go:47\",\"msg\":\"store sync token failed\",\"key\":\"wl:sync:u_9592809\",\"error\":\"OOM command not allowed when used memory > 'maxmemory'.\"}",
+      "1:M 29 Sep 2026 21:12:30.891 * keyspace db0: keys=23.8M,expires=3.9M"
+    ],
+    "log_file": "logs/demo/DEMO-D7.log",
+    "expected": {
+      "pattern_id": "P2",
+      "strong_match": true,
+      "likely_cause": "redis-cache is full (6GB) because keys are written without expiry; the new 'wl:sync:*' wishlist sync tokens are the likely source.",
+      "should_avoid": [
+        "scaling auth-service pods",
+        "restarting auth-service"
+      ],
+      "should_recommend": [
+        "check redis memory and keyspace (keys vs expires)",
+        "sample 'wl:sync:*' keys for missing TTL",
+        "delete stale keys and add a 30-day TTL"
+      ],
+      "notes": "IDN-340 (lint rule: every Redis SET must have an expiry) is still open in memory - a good follow-up to mention.",
+      "expected_incident_ids": [
+        "INC-2029",
+        "INC-2041",
+        "INC-2055"
+      ]
+    }
+  },
+  {
+    "id": "DEMO-D8",
+    "name": "Knowledge from someone who left",
+    "purpose": "Orders look missing after payment. Sameer (left in May) solved this twice. Agent should switch reads to the primary first, then find the heavy write job.",
+    "service": "orders-service",
+    "severity": "SEV2",
+    "alert": {
+      "title": "orders-service 404 rate on GET /v1/orders > 5%",
+      "source": "Grafana Alerting",
+      "service": "orders-service",
+      "metric": "http_server_requests_seconds_count{service=\"orders-service\",uri=\"/v1/orders/{id}\",status=\"404\"} ratio",
+      "condition": "404_ratio > 5% for 5m",
+      "value": "404s 6.8%",
+      "fired_at": "2026-09-29T13:30:00+05:30",
+      "dashboard_url": "https://grafana.kartly.internal/d/orders-service"
+    },
+    "log_excerpt": [
+      "2026-09-29 13:24:57.099  INFO 1 --- [http-nio-8080-exec-120] c.k.orders.api.OrderController           : GET /v1/orders/ORD-68511530 200 source=replica latencyMs=127",
+      "2026-09-29 13:25:25.178  INFO 1 --- [http-nio-8080-exec-152] c.k.orders.api.OrderController           : GET /v1/orders/ORD-23714966 200 source=replica latencyMs=127",
+      "ts=2026-09-29T07:56:00.421Z level=info job=loyalty-points-backfill namespace=orders msg=\"batch committed\" rows=50000",
+      "2026-09-29 13:26:08.025  WARN 1 --- [replica-health] c.k.orders.db.ReplicaHealthCheck         : postgres-main-replica-1 replication lag 254s (threshold 5s)",
+      "2026-09-29 13:26:15.881  WARN 1 --- [http-nio-8080-exec-113] c.k.orders.api.OrderController           : GET /v1/orders/ORD-12101343 404 order not found source=replica",
+      "2026-09-29 13:26:24.869 ERROR 1 --- [http-nio-8080-exec-158] c.k.orders.api.PaymentStatusController   : Order ORD-90299537 shows PAYMENT_PENDING on replica but CAPTURED on primary",
+      "2026-09-29 13:26:32.739  WARN 1 --- [http-nio-8080-exec-95] c.k.orders.api.OrderController           : GET /v1/orders/ORD-51271790 404 order not found source=replica",
+      "ts=2026-09-29T07:56:37.818Z level=info job=loyalty-points-backfill namespace=orders msg=\"batch committed\" rows=50000",
+      "2026-09-29 13:26:43.805  WARN 1 --- [replica-health] c.k.orders.db.ReplicaHealthCheck         : postgres-main-replica-1 replication lag 254s (threshold 5s)",
+      "ts=2026-09-29T07:56:53.603Z level=info job=loyalty-points-backfill namespace=orders msg=\"batch committed\" rows=50000",
+      "ts=2026-09-29T07:56:58.043Z level=info job=loyalty-points-backfill namespace=orders msg=\"batch committed\" rows=50000",
+      "2026-09-29 13:27:03.843  WARN 1 --- [http-nio-8080-exec-72] c.k.orders.api.OrderController           : GET /v1/orders/ORD-24472836 404 order not found source=replica"
+    ],
+    "log_file": "logs/demo/DEMO-D8.log",
+    "expected": {
+      "pattern_id": "P8",
+      "strong_match": true,
+      "likely_cause": "postgres-main-replica-1 is minutes behind because a heavy write job (loyalty-points-backfill) is flooding WAL; orders-service reads stale data from the replica.",
+      "should_avoid": [
+        "restarting orders-service",
+        "rolling back orders-service"
+      ],
+      "should_recommend": [
+        "switch reads to the primary (DB_READ_FROM_REPLICA=false)",
+        "throttle or pause loyalty-points-backfill"
+      ],
+      "notes": "Sameer's January and May fixes are in memory even though he left on 2026-05-31.",
+      "expected_incident_ids": [
+        "INC-2003",
+        "INC-2011",
+        "INC-2020",
+        "INC-2042"
+      ]
+    }
+  }
+]

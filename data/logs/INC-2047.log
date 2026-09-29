@@ -1,0 +1,112 @@
+2026-08-12 02:55:00.000  INFO 1 --- [http-nio-8080-exec-139] c.k.orders.api.OrderController           : GET /v1/orders/ORD-86046949 200 latencyMs=250
+2026-08-12 02:55:48.734  INFO 1 --- [http-nio-8080-exec-38] c.k.orders.api.OrderController           : GET /v1/orders/ORD-87347381 200 latencyMs=191
+2026-08-12 02:56:32.141  INFO 1 --- [http-nio-8080-exec-190] c.k.orders.api.OrderController           : GET /v1/orders/ORD-28116820 200 latencyMs=293
+2026-08-12 02:57:21.779  INFO 1 --- [http-nio-8080-exec-173] c.k.orders.api.OrderController           : GET /v1/orders/ORD-12666172 200 latencyMs=117
+2026-08-12 02:58:09.603  INFO 1 --- [http-nio-8080-exec-152] c.k.orders.api.OrderController           : GET /v1/orders/ORD-70502318 200 latencyMs=87
+2026-08-12 02:59:03.154  INFO 1 --- [http-nio-8080-exec-162] c.k.orders.api.OrderController           : GET /v1/orders/ORD-82658809 200 latencyMs=188
+2026-08-12 03:00:08.442  INFO 1 --- [http-nio-8080-exec-33] c.k.orders.api.OrderController           : GET /v1/orders/ORD-60046072 200 latencyMs=178
+2026-08-12 03:01:07.112  INFO 1 --- [http-nio-8080-exec-115] c.k.orders.api.OrderController           : GET /v1/orders/ORD-67595134 200 latencyMs=120
+2026-08-12 03:01:37.390  INFO 1 --- [http-nio-8080-exec-145] c.k.orders.api.OrderController           : GET /v1/orders/ORD-98492511 200 latencyMs=77
+2026-08-12 03:02:04.310  INFO 1 --- [http-nio-8080-exec-123] c.k.orders.api.OrderController           : GET /v1/orders/ORD-90063480 200 latencyMs=345
+2026-08-12 03:02:52.449  INFO 1 --- [http-nio-8080-exec-69] c.k.orders.api.OrderController           : GET /v1/orders/ORD-95782299 200 latencyMs=244
+2026-08-12 03:03:43.063  INFO 1 --- [http-nio-8080-exec-72] c.k.orders.api.OrderController           : GET /v1/orders/ORD-65380070 200 latencyMs=64
+2026-08-12 03:04:28.502  INFO 1 --- [http-nio-8080-exec-172] c.k.orders.api.OrderController           : GET /v1/orders/ORD-98081046 200 latencyMs=375
+2026-08-12 03:05:09.121  INFO 1 --- [http-nio-8080-exec-193] c.k.orders.api.OrderController           : GET /v1/orders/ORD-70696910 200 latencyMs=244
+2026-08-12 03:05:44.247  INFO 1 --- [http-nio-8080-exec-131] c.k.orders.api.OrderController           : GET /v1/orders/ORD-91657366 200 latencyMs=366
+2026-08-12 03:06:42.274  INFO 1 --- [http-nio-8080-exec-136] c.k.orders.api.OrderController           : GET /v1/orders/ORD-41995688 200 latencyMs=100
+2026-08-12 03:07:07.756  INFO 1 --- [http-nio-8080-exec-78] c.k.orders.api.OrderController           : GET /v1/orders/ORD-76061977 200 latencyMs=368
+2026-08-12 03:07:32.805  INFO 1 --- [http-nio-8080-exec-11] c.k.orders.api.OrderController           : GET /v1/orders/ORD-68008092 200 latencyMs=339
+2026-08-12 03:08:00.343  INFO 1 --- [http-nio-8080-exec-62] c.k.orders.api.OrderController           : GET /v1/orders/ORD-10889676 200 latencyMs=360
+2026-08-12 03:09:04.072  INFO 1 --- [http-nio-8080-exec-82] c.k.orders.api.OrderController           : GET /v1/orders/ORD-76639993 200 latencyMs=115
+2026-08-12 03:09:54.361  INFO 1 --- [http-nio-8080-exec-190] c.k.orders.api.OrderController           : GET /v1/orders/ORD-29082667 200 latencyMs=373
+2026-08-12 03:10:22.108  INFO 1 --- [http-nio-8080-exec-98] c.k.orders.api.OrderController           : GET /v1/orders/ORD-87846693 200 latencyMs=227
+2026-08-12 03:11:07.041 ERROR 1 --- [http-nio-8080-exec-50] c.k.orders.api.OrderController           : Failed to write audit log: java.io.IOException: No space left on device
+2026-08-11T21:41:25Z  Warning  EvictionThreshold  node/ip-10-42-3-118   ephemeral-storage usage above threshold
+2026-08-12 03:11:47.441 ERROR 1 --- [http-nio-8080-exec-186] c.k.orders.api.OrderController           : Failed to write audit log: java.io.IOException: No space left on device
+2026-08-11T21:41:59Z  Warning  EvictionThreshold  node/ip-10-42-3-118   ephemeral-storage usage above threshold
+2026-08-12 03:12:22.650 ERROR 1 --- [http-nio-8080-exec-188] c.k.orders.api.OrderController           : Failed to write audit log: java.io.IOException: No space left on device
+2026-08-11T21:42:41Z  Warning  EvictionThreshold  node/ip-10-42-3-118   ephemeral-storage usage above threshold
+2026-08-12 03:12:55.925 ERROR 1 --- [http-nio-8080-exec-94] c.k.orders.api.OrderController           : Failed to write audit log: java.io.IOException: No space left on device
+2026-08-12 03:13:08.522 ERROR 1 --- [http-nio-8080-exec-104] c.k.orders.api.OrderController           : Failed to write audit log: java.io.IOException: No space left on device
+2026-08-11T21:43:26Z  Warning  EvictionThreshold  node/ip-10-42-3-118   ephemeral-storage usage above threshold
+2026-08-11T21:43:42Z  Warning  EvictionThreshold  node/ip-10-42-3-118   ephemeral-storage usage above threshold
+2026-08-11T21:43:55Z  Warning  EvictionThreshold  node/ip-10-42-3-118   ephemeral-storage usage above threshold
+2026-08-11T21:44:14Z  Warning  EvictionThreshold  node/ip-10-42-3-118   ephemeral-storage usage above threshold
+2026-08-11T21:44:26Z  Warning  EvictionThreshold  node/ip-10-42-3-118   ephemeral-storage usage above threshold
+2026-08-12 03:14:39.964 ERROR 1 --- [http-nio-8080-exec-11] c.k.orders.api.OrderController           : Failed to write audit log: java.io.IOException: No space left on device
+2026-08-12 03:14:57.397 ERROR 1 --- [http-nio-8080-exec-112] c.k.orders.api.OrderController           : Failed to write audit log: java.io.IOException: No space left on device
+2026-08-11T21:45:15Z  Warning  EvictionThreshold  node/ip-10-42-3-118   ephemeral-storage usage above threshold
+2026-08-11T21:45:36Z  Warning  EvictionThreshold  node/ip-10-42-3-118   ephemeral-storage usage above threshold
+2026-08-12 03:16:00.047 ERROR 1 --- [http-nio-8080-exec-110] c.k.orders.api.OrderController           : Failed to write audit log: java.io.IOException: No space left on device
+2026-08-12 03:16:12.795 ERROR 1 --- [http-nio-8080-exec-76] c.k.orders.api.OrderController           : Failed to write audit log: java.io.IOException: No space left on device
+2026-08-11T21:46:26Z  Warning  EvictionThreshold  node/ip-10-42-3-118   ephemeral-storage usage above threshold
+2026-08-11T21:46:45Z  Warning  EvictionThreshold  node/ip-10-42-3-118   ephemeral-storage usage above threshold
+2026-08-11T21:47:04Z  Warning  EvictionThreshold  node/ip-10-42-3-118   ephemeral-storage usage above threshold
+2026-08-11T21:47:22Z  Warning  EvictionThreshold  node/ip-10-42-3-118   ephemeral-storage usage above threshold
+2026-08-11T21:47:45Z  Warning  EvictionThreshold  node/ip-10-42-3-118   ephemeral-storage usage above threshold
+2026-08-12 03:18:07.851 ERROR 1 --- [http-nio-8080-exec-174] c.k.orders.api.OrderController           : Failed to write audit log: java.io.IOException: No space left on device
+2026-08-11T21:48:17Z  Warning  EvictionThreshold  node/ip-10-42-3-118   ephemeral-storage usage above threshold
+2026-08-12 03:18:36.692 ERROR 1 --- [http-nio-8080-exec-74] c.k.orders.api.OrderController           : Failed to write audit log: java.io.IOException: No space left on device
+2026-08-12 03:18:50.741 ERROR 1 --- [http-nio-8080-exec-78] c.k.orders.api.OrderController           : Failed to write audit log: java.io.IOException: No space left on device
+2026-08-12 03:19:04.546 ERROR 1 --- [http-nio-8080-exec-183] c.k.orders.api.OrderController           : Failed to write audit log: java.io.IOException: No space left on device
+2026-08-11T21:49:24Z  Warning  EvictionThreshold  node/ip-10-42-3-118   ephemeral-storage usage above threshold
+2026-08-11T21:49:34Z  Warning  EvictionThreshold  node/ip-10-42-3-118   ephemeral-storage usage above threshold
+2026-08-12 03:19:55.967 ERROR 1 --- [http-nio-8080-exec-26] c.k.orders.api.OrderController           : Failed to write audit log: java.io.IOException: No space left on device
+2026-08-11T21:50:06Z  Warning  EvictionThreshold  node/ip-10-42-3-118   ephemeral-storage usage above threshold
+2026-08-12 03:20:26.883 ERROR 1 --- [http-nio-8080-exec-57] c.k.orders.api.OrderController           : Failed to write audit log: java.io.IOException: No space left on device
+2026-08-12 03:20:37.016 ERROR 1 --- [http-nio-8080-exec-52] c.k.orders.api.OrderController           : Failed to write audit log: java.io.IOException: No space left on device
+2026-08-12 03:20:55.013 ERROR 1 --- [http-nio-8080-exec-156] c.k.orders.api.OrderController           : Failed to write audit log: java.io.IOException: No space left on device
+2026-08-11T21:51:09Z  Warning  EvictionThreshold  node/ip-10-42-3-118   ephemeral-storage usage above threshold
+2026-08-12 03:21:22.327 ERROR 1 --- [http-nio-8080-exec-158] c.k.orders.api.OrderController           : Failed to write audit log: java.io.IOException: No space left on device
+2026-08-12 03:21:40.956 ERROR 1 --- [http-nio-8080-exec-184] c.k.orders.api.OrderController           : Failed to write audit log: java.io.IOException: No space left on device
+2026-08-12 03:22:00.603 ERROR 1 --- [http-nio-8080-exec-74] c.k.orders.api.OrderController           : Failed to write audit log: java.io.IOException: No space left on device
+2026-08-11T21:52:19Z  Warning  EvictionThreshold  node/ip-10-42-3-118   ephemeral-storage usage above threshold
+2026-08-12 03:22:32.215 ERROR 1 --- [http-nio-8080-exec-122] c.k.orders.api.OrderController           : Failed to write audit log: java.io.IOException: No space left on device
+2026-08-12 03:22:47.357 ERROR 1 --- [http-nio-8080-exec-187] c.k.orders.api.OrderController           : Failed to write audit log: java.io.IOException: No space left on device
+2026-08-11T21:53:07Z  Warning  EvictionThreshold  node/ip-10-42-3-118   ephemeral-storage usage above threshold
+2026-08-11T21:53:17Z  Warning  EvictionThreshold  node/ip-10-42-3-118   ephemeral-storage usage above threshold
+2026-08-11T21:53:36Z  Warning  EvictionThreshold  node/ip-10-42-3-118   ephemeral-storage usage above threshold
+2026-08-12 03:23:53.213 ERROR 1 --- [http-nio-8080-exec-177] c.k.orders.api.OrderController           : Failed to write audit log: java.io.IOException: No space left on device
+2026-08-12 03:24:06.158 ERROR 1 --- [http-nio-8080-exec-129] c.k.orders.api.OrderController           : Failed to write audit log: java.io.IOException: No space left on device
+2026-08-11T21:54:27Z  Warning  EvictionThreshold  node/ip-10-42-3-118   ephemeral-storage usage above threshold
+2026-08-12 03:24:49.432 ERROR 1 --- [http-nio-8080-exec-40] c.k.orders.api.OrderController           : Failed to write audit log: java.io.IOException: No space left on device
+2026-08-12 03:25:07.358 ERROR 1 --- [http-nio-8080-exec-67] c.k.orders.api.OrderController           : Failed to write audit log: java.io.IOException: No space left on device
+2026-08-11T21:55:29Z  Warning  EvictionThreshold  node/ip-10-42-3-118   ephemeral-storage usage above threshold
+2026-08-12 03:25:39.881 ERROR 1 --- [http-nio-8080-exec-158] c.k.orders.api.OrderController           : Failed to write audit log: java.io.IOException: No space left on device
+2026-08-11T21:56:03Z  Warning  EvictionThreshold  node/ip-10-42-3-118   ephemeral-storage usage above threshold
+2026-08-12 03:26:22.129 ERROR 1 --- [http-nio-8080-exec-65] c.k.orders.api.OrderController           : Failed to write audit log: java.io.IOException: No space left on device
+2026-08-11T21:56:37Z  Warning  EvictionThreshold  node/ip-10-42-3-118   ephemeral-storage usage above threshold
+2026-08-12 03:26:47.809 ERROR 1 --- [http-nio-8080-exec-22] c.k.orders.api.OrderController           : Failed to write audit log: java.io.IOException: No space left on device
+2026-08-12 03:27:02.471 ERROR 1 --- [http-nio-8080-exec-87] c.k.orders.api.OrderController           : Failed to write audit log: java.io.IOException: No space left on device
+2026-08-12 03:27:22.233 ERROR 1 --- [http-nio-8080-exec-163] c.k.orders.api.OrderController           : Failed to write audit log: java.io.IOException: No space left on device
+2026-08-12 03:27:32.356 ERROR 1 --- [http-nio-8080-exec-82] c.k.orders.api.OrderController           : Failed to write audit log: java.io.IOException: No space left on device
+2026-08-12 03:27:53.648 ERROR 1 --- [http-nio-8080-exec-16] c.k.orders.api.OrderController           : Failed to write audit log: java.io.IOException: No space left on device
+2026-08-11T21:58:10Z  Warning  EvictionThreshold  node/ip-10-42-3-118   ephemeral-storage usage above threshold
+2026-08-11T21:58:25Z  Warning  EvictionThreshold  node/ip-10-42-3-118   ephemeral-storage usage above threshold
+2026-08-12 03:28:49.033 ERROR 1 --- [http-nio-8080-exec-89] c.k.orders.api.OrderController           : Failed to write audit log: java.io.IOException: No space left on device
+2026-08-12 03:29:03.439 ERROR 1 --- [http-nio-8080-exec-184] c.k.orders.api.OrderController           : Failed to write audit log: java.io.IOException: No space left on device
+2026-08-12 03:29:19.522 ERROR 1 --- [http-nio-8080-exec-128] c.k.orders.api.OrderController           : Failed to write audit log: java.io.IOException: No space left on device
+2026-08-11T21:59:32Z  Warning  EvictionThreshold  node/ip-10-42-3-118   ephemeral-storage usage above threshold
+2026-08-12 03:29:46.167 ERROR 1 --- [http-nio-8080-exec-113] c.k.orders.api.OrderController           : Failed to write audit log: java.io.IOException: No space left on device
+2026-08-11T21:59:55Z  Warning  EvictionThreshold  node/ip-10-42-3-118   ephemeral-storage usage above threshold
+2026-08-12 03:30:14.561 ERROR 1 --- [http-nio-8080-exec-159] c.k.orders.api.OrderController           : Failed to write audit log: java.io.IOException: No space left on device
+2026-08-11T22:00:35Z  Warning  EvictionThreshold  node/ip-10-42-3-118   ephemeral-storage usage above threshold
+2026-08-12 03:30:47.000  INFO 1 --- [http-nio-8080-exec-117] c.k.orders.api.OrderController           : GET /v1/orders/ORD-36133974 200 latencyMs=113
+2026-08-12 03:31:20.000  INFO 1 --- [http-nio-8080-exec-63] c.k.orders.api.OrderController           : GET /v1/orders/ORD-57387575 200 latencyMs=114
+2026-08-12 03:33:12.000  INFO 1 --- [http-nio-8080-exec-161] c.k.orders.api.OrderController           : GET /v1/orders/ORD-97520300 200 latencyMs=49
+2026-08-12 03:34:54.000  INFO 1 --- [http-nio-8080-exec-190] c.k.orders.api.OrderController           : GET /v1/orders/ORD-37434053 200 latencyMs=73
+2026-08-12 03:36:40.000  INFO 1 --- [http-nio-8080-exec-76] c.k.orders.api.OrderController           : GET /v1/orders/ORD-23940844 200 latencyMs=119
+2026-08-12 03:37:53.000  INFO 1 --- [http-nio-8080-exec-42] c.k.orders.api.OrderController           : GET /v1/orders/ORD-86462629 200 latencyMs=351
+2026-08-12 03:38:40.000  INFO 1 --- [http-nio-8080-exec-35] c.k.orders.api.OrderController           : GET /v1/orders/ORD-83751534 200 latencyMs=108
+2026-08-12 03:39:50.000  INFO 1 --- [http-nio-8080-exec-130] c.k.orders.api.OrderController           : GET /v1/orders/ORD-74612780 200 latencyMs=187
+2026-08-12 03:40:46.000  INFO 1 --- [http-nio-8080-exec-124] c.k.orders.api.OrderController           : GET /v1/orders/ORD-40474693 200 latencyMs=106
+2026-08-12 03:41:57.000  INFO 1 --- [http-nio-8080-exec-98] c.k.orders.api.OrderController           : GET /v1/orders/ORD-13672696 200 latencyMs=328
+2026-08-12 03:42:55.000  INFO 1 --- [http-nio-8080-exec-64] c.k.orders.api.OrderController           : GET /v1/orders/ORD-70191325 200 latencyMs=205
+2026-08-12 03:44:31.000  INFO 1 --- [http-nio-8080-exec-94] c.k.orders.api.OrderController           : GET /v1/orders/ORD-66403273 200 latencyMs=294
+2026-08-12 03:45:17.000  INFO 1 --- [http-nio-8080-exec-134] c.k.orders.api.OrderController           : GET /v1/orders/ORD-43612043 200 latencyMs=107
+2026-08-12 03:47:11.000  INFO 1 --- [http-nio-8080-exec-117] c.k.orders.api.OrderController           : GET /v1/orders/ORD-10368670 200 latencyMs=362
+2026-08-12 03:48:24.000  INFO 1 --- [http-nio-8080-exec-168] c.k.orders.api.OrderController           : GET /v1/orders/ORD-99208634 200 latencyMs=313
+2026-08-12 03:49:14.000  INFO 1 --- [http-nio-8080-exec-130] c.k.orders.api.OrderController           : GET /v1/orders/ORD-49629627 200 latencyMs=251
+2026-08-12 03:50:28.000  INFO 1 --- [http-nio-8080-exec-59] c.k.orders.api.OrderController           : GET /v1/orders/ORD-76477017 200 latencyMs=362
+2026-08-12 03:51:41.000  INFO 1 --- [http-nio-8080-exec-115] c.k.orders.api.OrderController           : GET /v1/orders/ORD-31999143 200 latencyMs=148
+2026-08-12 03:52:40.000  INFO 1 --- [http-nio-8080-exec-25] c.k.orders.api.OrderController           : GET /v1/orders/ORD-46443765 200 latencyMs=295

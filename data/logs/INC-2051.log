@@ -1,0 +1,110 @@
+2026-08-21T12:25:00.000Z INFO  [checkout-web] POST /api/checkout 200 181ms cart=63244380
+2026-08-21T12:26:01.536Z INFO  [checkout-web] POST /api/checkout 200 98ms cart=91214860
+2026-08-21T12:26:33.240Z INFO  [checkout-web] POST /api/checkout 200 159ms cart=40645765
+2026-08-21T12:27:30.455Z INFO  [checkout-web] POST /api/checkout 200 92ms cart=77155202
+2026-08-21T12:27:56.217Z INFO  [checkout-web] POST /api/checkout 200 329ms cart=55466981
+2026-08-21T12:28:35.743Z INFO  [checkout-web] POST /api/checkout 200 359ms cart=14007595
+2026-08-21T12:29:20.876Z INFO  [checkout-web] POST /api/checkout 200 181ms cart=40882075
+2026-08-21T12:30:12.349Z INFO  [checkout-web] POST /api/checkout 200 326ms cart=58950155
+2026-08-21T12:31:18.511Z INFO  [checkout-web] POST /api/checkout 200 173ms cart=93345572
+2026-08-21T12:32:21.824Z INFO  [checkout-web] POST /api/checkout 200 370ms cart=49423875
+2026-08-21T12:33:28.710Z INFO  [checkout-web] POST /api/checkout 200 163ms cart=98455158
+2026-08-21T12:34:28.335Z INFO  [checkout-web] POST /api/checkout 200 305ms cart=71442944
+2026-08-21T12:35:02.158Z INFO  [checkout-web] POST /api/checkout 200 53ms cart=40956597
+2026-08-21T12:36:02.484Z INFO  [checkout-web] POST /api/checkout 200 358ms cart=64504978
+2026-08-21T12:36:44.991Z INFO  [checkout-web] POST /api/checkout 200 135ms cart=61444407
+2026-08-21T12:37:33.889Z INFO  [checkout-web] POST /api/checkout 200 288ms cart=53623192
+2026-08-21T12:38:01.802Z INFO  [checkout-web] POST /api/checkout 200 369ms cart=67414527
+2026-08-21T12:38:29.345Z INFO  [checkout-web] POST /api/checkout 200 344ms cart=10754565
+2026-08-21T12:39:07.870Z INFO  [checkout-web] POST /api/checkout 200 170ms cart=60653503
+2026-08-21T12:39:42.346Z INFO  [checkout-web] POST /api/checkout 200 79ms cart=91575805
+2026-08-21T12:40:09.743Z INFO  [checkout-web] POST /api/checkout 200 83ms cart=99161986
+2026-08-21T12:41:16.017Z INFO  [unleash] Toggle 'cod_fee_v2' updated: enabled=true strategy=gradualRollout rollout=100% by finance-ops
+2026-08-21T12:41:27.161Z ERROR [checkout-web] TypeError: Cannot read properties of undefined (reading 'codFee')
+    at PaymentOptions.codSummary (/app/.next/server/chunks/9544.js:1:42831)
+2026-08-21T12:41:35.137Z ERROR [checkout-web] POST /api/checkout 500 359ms cart=92892505
+10.42.11.248 - - [21/Aug/2026:18:11:49 +0530] "POST /api/checkout HTTP/2.0" 500 64 "https://www.kartly.in/cart" "Mozilla/5.0"
+10.42.4.147 - - [21/Aug/2026:18:12:03 +0530] "POST /api/checkout HTTP/2.0" 500 64 "https://www.kartly.in/cart" "Mozilla/5.0"
+2026-08-21T12:42:20.284Z ERROR [checkout-web] TypeError: Cannot read properties of undefined (reading 'codFee')
+    at PaymentOptions.codSummary (/app/.next/server/chunks/9544.js:1:72416)
+2026-08-21T12:42:31.982Z ERROR [checkout-web] TypeError: Cannot read properties of undefined (reading 'codFee')
+    at PaymentOptions.codSummary (/app/.next/server/chunks/9544.js:1:79429)
+2026-08-21T12:42:43.061Z INFO  [unleash] Toggle 'cod_fee_v2' updated: enabled=true strategy=gradualRollout rollout=100% by finance-ops
+2026-08-21T12:42:50.935Z ERROR [checkout-web] TypeError: Cannot read properties of undefined (reading 'codFee')
+    at PaymentOptions.codSummary (/app/.next/server/chunks/9544.js:1:9958)
+2026-08-21T12:43:00.990Z INFO  [unleash] Toggle 'cod_fee_v2' updated: enabled=true strategy=gradualRollout rollout=100% by finance-ops
+2026-08-21T12:43:09.818Z INFO  [unleash] Toggle 'cod_fee_v2' updated: enabled=true strategy=gradualRollout rollout=100% by finance-ops
+2026-08-21T12:43:25.961Z ERROR [checkout-web] POST /api/checkout 500 278ms cart=15958917
+2026-08-21T12:43:39.458Z ERROR [checkout-web] TypeError: Cannot read properties of undefined (reading 'codFee')
+    at PaymentOptions.codSummary (/app/.next/server/chunks/9544.js:1:60308)
+2026-08-21T12:43:48.854Z ERROR [checkout-web] POST /api/checkout 500 345ms cart=73675893
+2026-08-21T12:44:04.418Z ERROR [checkout-web] POST /api/checkout 500 267ms cart=22209733
+2026-08-21T12:44:20.188Z ERROR [checkout-web] TypeError: Cannot read properties of undefined (reading 'codFee')
+    at PaymentOptions.codSummary (/app/.next/server/chunks/9544.js:1:6804)
+2026-08-21T12:44:33.740Z INFO  [unleash] Toggle 'cod_fee_v2' updated: enabled=true strategy=gradualRollout rollout=100% by finance-ops
+2026-08-21T12:44:51.663Z INFO  [unleash] Toggle 'cod_fee_v2' updated: enabled=true strategy=gradualRollout rollout=100% by finance-ops
+10.42.8.211 - - [21/Aug/2026:18:15:08 +0530] "POST /api/checkout HTTP/2.0" 500 64 "https://www.kartly.in/cart" "Mozilla/5.0"
+2026-08-21T12:45:22.712Z ERROR [checkout-web] TypeError: Cannot read properties of undefined (reading 'codFee')
+    at PaymentOptions.codSummary (/app/.next/server/chunks/9544.js:1:89462)
+10.42.7.11 - - [21/Aug/2026:18:15:31 +0530] "POST /api/checkout HTTP/2.0" 500 64 "https://www.kartly.in/cart" "Mozilla/5.0"
+2026-08-21T12:45:50.116Z ERROR [checkout-web] TypeError: Cannot read properties of undefined (reading 'codFee')
+    at PaymentOptions.codSummary (/app/.next/server/chunks/9544.js:1:19163)
+2026-08-21T12:46:06.407Z ERROR [checkout-web] TypeError: Cannot read properties of undefined (reading 'codFee')
+    at PaymentOptions.codSummary (/app/.next/server/chunks/9544.js:1:3779)
+10.42.14.27 - - [21/Aug/2026:18:16:22 +0530] "POST /api/checkout HTTP/2.0" 500 64 "https://www.kartly.in/cart" "Mozilla/5.0"
+2026-08-21T12:46:30.836Z ERROR [checkout-web] POST /api/checkout 500 281ms cart=94056153
+2026-08-21T12:46:38.295Z ERROR [checkout-web] TypeError: Cannot read properties of undefined (reading 'codFee')
+    at PaymentOptions.codSummary (/app/.next/server/chunks/9544.js:1:15536)
+2026-08-21T12:46:56.810Z ERROR [checkout-web] TypeError: Cannot read properties of undefined (reading 'codFee')
+    at PaymentOptions.codSummary (/app/.next/server/chunks/9544.js:1:36459)
+2026-08-21T12:47:05.098Z ERROR [checkout-web] POST /api/checkout 500 107ms cart=26236311
+10.42.7.193 - - [21/Aug/2026:18:17:23 +0530] "POST /api/checkout HTTP/2.0" 500 64 "https://www.kartly.in/cart" "Mozilla/5.0"
+10.42.4.253 - - [21/Aug/2026:18:17:35 +0530] "POST /api/checkout HTTP/2.0" 500 64 "https://www.kartly.in/cart" "Mozilla/5.0"
+2026-08-21T12:47:54.323Z ERROR [checkout-web] POST /api/checkout 500 185ms cart=82704013
+2026-08-21T12:48:09.149Z ERROR [checkout-web] POST /api/checkout 500 245ms cart=83397072
+2026-08-21T12:48:27.897Z INFO  [unleash] Toggle 'cod_fee_v2' updated: enabled=true strategy=gradualRollout rollout=100% by finance-ops
+10.42.10.5 - - [21/Aug/2026:18:18:46 +0530] "POST /api/checkout HTTP/2.0" 500 64 "https://www.kartly.in/cart" "Mozilla/5.0"
+2026-08-21T12:49:02.347Z INFO  [unleash] Toggle 'cod_fee_v2' updated: enabled=true strategy=gradualRollout rollout=100% by finance-ops
+2026-08-21T12:49:18.648Z INFO  [unleash] Toggle 'cod_fee_v2' updated: enabled=true strategy=gradualRollout rollout=100% by finance-ops
+2026-08-21T12:49:25.872Z ERROR [checkout-web] TypeError: Cannot read properties of undefined (reading 'codFee')
+    at PaymentOptions.codSummary (/app/.next/server/chunks/9544.js:1:73503)
+10.42.6.250 - - [21/Aug/2026:18:19:35 +0530] "POST /api/checkout HTTP/2.0" 500 64 "https://www.kartly.in/cart" "Mozilla/5.0"
+2026-08-21T12:49:53.358Z ERROR [checkout-web] TypeError: Cannot read properties of undefined (reading 'codFee')
+    at PaymentOptions.codSummary (/app/.next/server/chunks/9544.js:1:18083)
+2026-08-21T12:50:11.089Z ERROR [checkout-web] POST /api/checkout 500 117ms cart=58181356
+2026-08-21T12:50:19.808Z ERROR [checkout-web] POST /api/checkout 500 199ms cart=14457689
+2026-08-21T12:50:34.159Z INFO  [unleash] Toggle 'cod_fee_v2' updated: enabled=true strategy=gradualRollout rollout=100% by finance-ops
+2026-08-21T12:50:51.190Z INFO  [unleash] Toggle 'cod_fee_v2' updated: enabled=true strategy=gradualRollout rollout=100% by finance-ops
+2026-08-21T12:51:02.235Z INFO  [unleash] Toggle 'cod_fee_v2' updated: enabled=true strategy=gradualRollout rollout=100% by finance-ops
+2026-08-21T12:51:17.817Z ERROR [checkout-web] TypeError: Cannot read properties of undefined (reading 'codFee')
+    at PaymentOptions.codSummary (/app/.next/server/chunks/9544.js:1:47830)
+10.42.7.63 - - [21/Aug/2026:18:21:36 +0530] "POST /api/checkout HTTP/2.0" 500 64 "https://www.kartly.in/cart" "Mozilla/5.0"
+2026-08-21T12:51:47.711Z ERROR [checkout-web] POST /api/checkout 500 154ms cart=80468679
+10.42.6.200 - - [21/Aug/2026:18:22:01 +0530] "POST /api/checkout HTTP/2.0" 500 64 "https://www.kartly.in/cart" "Mozilla/5.0"
+2026-08-21T12:52:19.507Z ERROR [checkout-web] TypeError: Cannot read properties of undefined (reading 'codFee')
+    at PaymentOptions.codSummary (/app/.next/server/chunks/9544.js:1:3099)
+10.42.5.173 - - [21/Aug/2026:18:22:35 +0530] "POST /api/checkout HTTP/2.0" 500 64 "https://www.kartly.in/cart" "Mozilla/5.0"
+10.42.10.26 - - [21/Aug/2026:18:22:53 +0530] "POST /api/checkout HTTP/2.0" 500 64 "https://www.kartly.in/cart" "Mozilla/5.0"
+10.42.2.13 - - [21/Aug/2026:18:23:08 +0530] "POST /api/checkout HTTP/2.0" 500 64 "https://www.kartly.in/cart" "Mozilla/5.0"
+10.42.7.143 - - [21/Aug/2026:18:23:25 +0530] "POST /api/checkout HTTP/2.0" 500 64 "https://www.kartly.in/cart" "Mozilla/5.0"
+2026-08-21T12:53:41.792Z ERROR [checkout-web] TypeError: Cannot read properties of undefined (reading 'codFee')
+    at PaymentOptions.codSummary (/app/.next/server/chunks/9544.js:1:80563)
+10.42.13.21 - - [21/Aug/2026:18:23:53 +0530] "POST /api/checkout HTTP/2.0" 500 64 "https://www.kartly.in/cart" "Mozilla/5.0"
+2026-08-21T12:54:02.369Z ERROR [checkout-web] POST /api/checkout 500 168ms cart=49593789
+10.42.15.66 - - [21/Aug/2026:18:24:19 +0530] "POST /api/checkout HTTP/2.0" 500 64 "https://www.kartly.in/cart" "Mozilla/5.0"
+2026-08-21T12:54:37.736Z ERROR [checkout-web] POST /api/checkout 500 173ms cart=45220850
+2026-08-21T12:54:53.243Z ERROR [checkout-web] TypeError: Cannot read properties of undefined (reading 'codFee')
+    at PaymentOptions.codSummary (/app/.next/server/chunks/9544.js:1:99223)
+2026-08-21T12:55:07.751Z INFO  [unleash] Toggle 'cod_fee_v2' updated: enabled=true strategy=gradualRollout rollout=100% by finance-ops
+10.42.10.249 - - [21/Aug/2026:18:25:24 +0530] "POST /api/checkout HTTP/2.0" 500 64 "https://www.kartly.in/cart" "Mozilla/5.0"
+2026-08-21T12:55:43.729Z INFO  [unleash] Toggle 'cod_fee_v2' updated: enabled=true strategy=gradualRollout rollout=100% by finance-ops
+2026-08-21T12:55:56.000Z INFO  [unleash] Toggle 'cod_fee_v2' updated: enabled=false by @neha.iyer
+2026-08-21T12:56:21.000Z INFO  [checkout-web] POST /api/checkout 200 274ms cart=66929675
+2026-08-21T12:57:20.000Z INFO  [checkout-web] POST /api/checkout 200 212ms cart=85251745
+2026-08-21T12:58:16.000Z INFO  [checkout-web] POST /api/checkout 200 237ms cart=73141754
+2026-08-21T12:59:41.000Z INFO  [checkout-web] POST /api/checkout 200 336ms cart=97963326
+2026-08-21T13:01:14.000Z INFO  [checkout-web] POST /api/checkout 200 95ms cart=48833782
+2026-08-21T13:03:09.000Z INFO  [checkout-web] POST /api/checkout 200 365ms cart=65702826
+2026-08-21T13:04:33.000Z INFO  [checkout-web] POST /api/checkout 200 218ms cart=99902377
+2026-08-21T13:05:53.000Z INFO  [checkout-web] POST /api/checkout 200 224ms cart=10146307
+2026-08-21T13:06:47.000Z INFO  [checkout-web] POST /api/checkout 200 75ms cart=58641383

@@ -1,0 +1,109 @@
+2026-09-14 15:10:00.000  INFO 1 --- [http-nio-8080-exec-46] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-67553183 amount=2499.00 INR gateway=razorpay latencyMs=263
+2026-09-14 15:10:36.292  INFO 1 --- [http-nio-8080-exec-78] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-23549107 amount=24999.00 INR gateway=razorpay latencyMs=261
+2026-09-14 15:11:19.916  INFO 1 --- [http-nio-8080-exec-97] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-83344835 amount=12999.00 INR gateway=razorpay latencyMs=263
+2026-09-14 15:12:20.827  INFO 1 --- [http-nio-8080-exec-134] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-23304578 amount=7499.00 INR gateway=razorpay latencyMs=252
+2026-09-14 15:13:16.987  INFO 1 --- [http-nio-8080-exec-127] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-57570600 amount=349.00 INR gateway=razorpay latencyMs=369
+2026-09-14 15:14:03.457  INFO 1 --- [http-nio-8080-exec-4] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-84570205 amount=2499.00 INR gateway=razorpay latencyMs=72
+2026-09-14 15:14:51.915  INFO 1 --- [http-nio-8080-exec-6] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-40355005 amount=499.00 INR gateway=razorpay latencyMs=373
+2026-09-14 15:16:00.035  INFO 1 --- [http-nio-8080-exec-95] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-12715034 amount=199.00 INR gateway=razorpay latencyMs=365
+2026-09-14 15:16:48.083  INFO 1 --- [http-nio-8080-exec-7] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-30141106 amount=1299.00 INR gateway=razorpay latencyMs=310
+2026-09-14 15:17:25.284  INFO 1 --- [http-nio-8080-exec-114] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-98093264 amount=199.00 INR gateway=razorpay latencyMs=239
+2026-09-14 15:18:00.008  INFO 1 --- [http-nio-8080-exec-164] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-56251203 amount=1299.00 INR gateway=razorpay latencyMs=336
+2026-09-14 15:18:48.258  INFO 1 --- [http-nio-8080-exec-128] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-25274451 amount=349.00 INR gateway=razorpay latencyMs=100
+2026-09-14 15:19:13.879  INFO 1 --- [http-nio-8080-exec-169] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-17529606 amount=499.00 INR gateway=razorpay latencyMs=108
+2026-09-14 15:20:14.232  INFO 1 --- [http-nio-8080-exec-101] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-66288954 amount=2499.00 INR gateway=razorpay latencyMs=244
+2026-09-14 15:20:49.425  INFO 1 --- [http-nio-8080-exec-37] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-92937999 amount=12999.00 INR gateway=razorpay latencyMs=190
+2026-09-14 15:21:47.817  INFO 1 --- [http-nio-8080-exec-47] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-90450907 amount=2499.00 INR gateway=razorpay latencyMs=52
+2026-09-14 15:22:16.719  INFO 1 --- [http-nio-8080-exec-159] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-10598804 amount=499.00 INR gateway=razorpay latencyMs=317
+2026-09-14 15:22:55.161  INFO 1 --- [http-nio-8080-exec-197] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-61542335 amount=24999.00 INR gateway=razorpay latencyMs=101
+2026-09-14 15:23:38.614  INFO 1 --- [http-nio-8080-exec-66] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-79578117 amount=199.00 INR gateway=razorpay latencyMs=253
+2026-09-14 15:24:34.648  INFO 1 --- [http-nio-8080-exec-91] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-82065853 amount=12999.00 INR gateway=razorpay latencyMs=284
+2026-09-14 15:25:01.004  INFO 1 --- [http-nio-8080-exec-63] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-84303168 amount=24999.00 INR gateway=razorpay latencyMs=66
+2026-09-14 15:25:42.776  INFO 1 --- [http-nio-8080-exec-125] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-14819841 amount=24999.00 INR gateway=razorpay latencyMs=218
+2026-09-14 15:26:36.590  WARN 1 --- [refund-worker-6] c.k.payments.refund.RefundService        : Razorpay refunds API 429 Too Many Requests, backing off 30s
+2026-09-14 15:27:15.958  INFO 1 --- [refund-worker-7] c.k.payments.refund.RefundService        : Refund queue depth 18,204
+2026-09-14 15:27:44.085  WARN 1 --- [refund-worker-2] c.k.payments.refund.RefundService        : Razorpay refunds API 429 Too Many Requests, backing off 30s
+2026-09-14 15:28:25.310  INFO 1 --- [refund-worker-9] c.k.payments.refund.RefundService        : Refund queue depth 18,204
+2026-09-14 15:28:56.107  WARN 1 --- [refund-worker-2] c.k.payments.refund.RefundService        : Razorpay refunds API 429 Too Many Requests, backing off 30s
+2026-09-14 15:29:22.598  INFO 1 --- [refund-worker-10] c.k.payments.refund.RefundService        : Refund queue depth 18,204
+2026-09-14 15:30:03.900  WARN 1 --- [refund-worker-3] c.k.payments.refund.RefundService        : Razorpay refunds API 429 Too Many Requests, backing off 30s
+2026-09-14 15:30:31.900  WARN 1 --- [refund-worker-7] c.k.payments.refund.RefundService        : Razorpay refunds API 429 Too Many Requests, backing off 30s
+2026-09-14 15:31:08.955  INFO 1 --- [refund-worker-6] c.k.payments.refund.RefundService        : Refund queue depth 18,204
+2026-09-14 15:31:39.668  INFO 1 --- [refund-worker-0] c.k.payments.refund.RefundService        : Refund queue depth 18,204
+2026-09-14 15:32:25.413  WARN 1 --- [refund-worker-9] c.k.payments.refund.RefundService        : Razorpay refunds API 429 Too Many Requests, backing off 30s
+2026-09-14 15:32:48.976  WARN 1 --- [refund-worker-3] c.k.payments.refund.RefundService        : Razorpay refunds API 429 Too Many Requests, backing off 30s
+2026-09-14 15:33:22.377  INFO 1 --- [refund-worker-2] c.k.payments.refund.RefundService        : Refund queue depth 18,204
+2026-09-14 15:33:46.386  INFO 1 --- [refund-worker-3] c.k.payments.refund.RefundService        : Refund queue depth 18,204
+2026-09-14 15:34:26.961  INFO 1 --- [refund-worker-5] c.k.payments.refund.RefundService        : Refund queue depth 18,204
+2026-09-14 15:34:56.279  WARN 1 --- [refund-worker-0] c.k.payments.refund.RefundService        : Razorpay refunds API 429 Too Many Requests, backing off 30s
+2026-09-14 15:35:36.121  WARN 1 --- [refund-worker-1] c.k.payments.refund.RefundService        : Razorpay refunds API 429 Too Many Requests, backing off 30s
+2026-09-14 15:35:58.752  WARN 1 --- [refund-worker-4] c.k.payments.refund.RefundService        : Razorpay refunds API 429 Too Many Requests, backing off 30s
+2026-09-14 15:36:28.386  INFO 1 --- [refund-worker-1] c.k.payments.refund.RefundService        : Refund queue depth 18,204
+2026-09-14 15:36:55.429  INFO 1 --- [refund-worker-2] c.k.payments.refund.RefundService        : Refund queue depth 18,204
+2026-09-14 15:37:34.492  WARN 1 --- [refund-worker-8] c.k.payments.refund.RefundService        : Razorpay refunds API 429 Too Many Requests, backing off 30s
+2026-09-14 15:37:55.976  INFO 1 --- [refund-worker-9] c.k.payments.refund.RefundService        : Refund queue depth 18,204
+2026-09-14 15:38:32.608  INFO 1 --- [refund-worker-9] c.k.payments.refund.RefundService        : Refund queue depth 18,204
+2026-09-14 15:38:59.218  INFO 1 --- [refund-worker-0] c.k.payments.refund.RefundService        : Refund queue depth 18,204
+2026-09-14 15:39:37.273  WARN 1 --- [refund-worker-7] c.k.payments.refund.RefundService        : Razorpay refunds API 429 Too Many Requests, backing off 30s
+2026-09-14 15:40:22.858  WARN 1 --- [refund-worker-4] c.k.payments.refund.RefundService        : Razorpay refunds API 429 Too Many Requests, backing off 30s
+2026-09-14 15:41:02.031  WARN 1 --- [refund-worker-5] c.k.payments.refund.RefundService        : Razorpay refunds API 429 Too Many Requests, backing off 30s
+2026-09-14 15:41:24.688  INFO 1 --- [refund-worker-11] c.k.payments.refund.RefundService        : Refund queue depth 18,204
+2026-09-14 15:42:09.222  INFO 1 --- [refund-worker-9] c.k.payments.refund.RefundService        : Refund queue depth 18,204
+2026-09-14 15:42:32.089  INFO 1 --- [refund-worker-5] c.k.payments.refund.RefundService        : Refund queue depth 18,204
+2026-09-14 15:43:00.157  WARN 1 --- [refund-worker-3] c.k.payments.refund.RefundService        : Razorpay refunds API 429 Too Many Requests, backing off 30s
+2026-09-14 15:43:34.900  WARN 1 --- [refund-worker-7] c.k.payments.refund.RefundService        : Razorpay refunds API 429 Too Many Requests, backing off 30s
+2026-09-14 15:43:55.086  INFO 1 --- [refund-worker-11] c.k.payments.refund.RefundService        : Refund queue depth 18,204
+2026-09-14 15:44:30.720  WARN 1 --- [refund-worker-11] c.k.payments.refund.RefundService        : Razorpay refunds API 429 Too Many Requests, backing off 30s
+2026-09-14 15:44:51.770  WARN 1 --- [refund-worker-1] c.k.payments.refund.RefundService        : Razorpay refunds API 429 Too Many Requests, backing off 30s
+2026-09-14 15:45:20.726  WARN 1 --- [refund-worker-4] c.k.payments.refund.RefundService        : Razorpay refunds API 429 Too Many Requests, backing off 30s
+2026-09-14 15:46:03.613  WARN 1 --- [refund-worker-10] c.k.payments.refund.RefundService        : Razorpay refunds API 429 Too Many Requests, backing off 30s
+2026-09-14 15:46:45.924  INFO 1 --- [refund-worker-0] c.k.payments.refund.RefundService        : Refund queue depth 18,204
+2026-09-14 15:47:17.509  INFO 1 --- [refund-worker-8] c.k.payments.refund.RefundService        : Refund queue depth 18,204
+2026-09-14 15:47:39.343  WARN 1 --- [refund-worker-5] c.k.payments.refund.RefundService        : Razorpay refunds API 429 Too Many Requests, backing off 30s
+2026-09-14 15:48:04.046  INFO 1 --- [refund-worker-0] c.k.payments.refund.RefundService        : Refund queue depth 18,204
+2026-09-14 15:48:41.436  WARN 1 --- [refund-worker-3] c.k.payments.refund.RefundService        : Razorpay refunds API 429 Too Many Requests, backing off 30s
+2026-09-14 15:49:05.903  WARN 1 --- [refund-worker-2] c.k.payments.refund.RefundService        : Razorpay refunds API 429 Too Many Requests, backing off 30s
+2026-09-14 15:49:47.815  WARN 1 --- [refund-worker-4] c.k.payments.refund.RefundService        : Razorpay refunds API 429 Too Many Requests, backing off 30s
+2026-09-14 15:50:24.420  INFO 1 --- [refund-worker-10] c.k.payments.refund.RefundService        : Refund queue depth 18,204
+2026-09-14 15:51:08.697  INFO 1 --- [refund-worker-5] c.k.payments.refund.RefundService        : Refund queue depth 18,204
+2026-09-14 15:51:31.109  WARN 1 --- [refund-worker-7] c.k.payments.refund.RefundService        : Razorpay refunds API 429 Too Many Requests, backing off 30s
+2026-09-14 15:52:00.371  INFO 1 --- [refund-worker-6] c.k.payments.refund.RefundService        : Refund queue depth 18,204
+2026-09-14 15:52:29.075  INFO 1 --- [refund-worker-0] c.k.payments.refund.RefundService        : Refund queue depth 18,204
+2026-09-14 15:53:06.127  WARN 1 --- [refund-worker-4] c.k.payments.refund.RefundService        : Razorpay refunds API 429 Too Many Requests, backing off 30s
+2026-09-14 15:53:36.361  INFO 1 --- [refund-worker-4] c.k.payments.refund.RefundService        : Refund queue depth 18,204
+2026-09-14 15:53:56.814  INFO 1 --- [refund-worker-2] c.k.payments.refund.RefundService        : Refund queue depth 18,204
+2026-09-14 15:54:20.872  INFO 1 --- [refund-worker-3] c.k.payments.refund.RefundService        : Refund queue depth 18,204
+2026-09-14 15:55:06.478  WARN 1 --- [refund-worker-7] c.k.payments.refund.RefundService        : Razorpay refunds API 429 Too Many Requests, backing off 30s
+2026-09-14 15:55:34.900  WARN 1 --- [refund-worker-6] c.k.payments.refund.RefundService        : Razorpay refunds API 429 Too Many Requests, backing off 30s
+2026-09-14 15:56:15.964  WARN 1 --- [refund-worker-11] c.k.payments.refund.RefundService        : Razorpay refunds API 429 Too Many Requests, backing off 30s
+2026-09-14 15:56:36.269  INFO 1 --- [refund-worker-4] c.k.payments.refund.RefundService        : Refund queue depth 18,204
+2026-09-14 15:57:16.847  INFO 1 --- [refund-worker-10] c.k.payments.refund.RefundService        : Refund queue depth 18,204
+2026-09-14 15:58:02.368  WARN 1 --- [refund-worker-10] c.k.payments.refund.RefundService        : Razorpay refunds API 429 Too Many Requests, backing off 30s
+2026-09-14 15:58:27.451  INFO 1 --- [refund-worker-10] c.k.payments.refund.RefundService        : Refund queue depth 18,204
+2026-09-14 15:58:48.085  WARN 1 --- [refund-worker-11] c.k.payments.refund.RefundService        : Razorpay refunds API 429 Too Many Requests, backing off 30s
+2026-09-14 15:59:15.065  WARN 1 --- [refund-worker-3] c.k.payments.refund.RefundService        : Razorpay refunds API 429 Too Many Requests, backing off 30s
+2026-09-14 15:59:53.641  INFO 1 --- [refund-worker-2] c.k.payments.refund.RefundService        : Refund queue depth 18,204
+2026-09-14 16:00:16.789  WARN 1 --- [refund-worker-6] c.k.payments.refund.RefundService        : Razorpay refunds API 429 Too Many Requests, backing off 30s
+2026-09-14 16:01:01.584  WARN 1 --- [refund-worker-6] c.k.payments.refund.RefundService        : Razorpay refunds API 429 Too Many Requests, backing off 30s
+2026-09-14 16:01:36.941  WARN 1 --- [refund-worker-2] c.k.payments.refund.RefundService        : Razorpay refunds API 429 Too Many Requests, backing off 30s
+2026-09-14 16:02:21.271  INFO 1 --- [refund-worker-5] c.k.payments.refund.RefundService        : Refund queue depth 18,204
+2026-09-14 16:02:41.632  INFO 1 --- [refund-worker-1] c.k.payments.refund.RefundService        : Refund queue depth 18,204
+2026-09-14 16:03:17.499  WARN 1 --- [refund-worker-1] c.k.payments.refund.RefundService        : Razorpay refunds API 429 Too Many Requests, backing off 30s
+2026-09-14 16:04:02.992  WARN 1 --- [refund-worker-10] c.k.payments.refund.RefundService        : Razorpay refunds API 429 Too Many Requests, backing off 30s
+2026-09-14 16:04:44.799  INFO 1 --- [refund-worker-0] c.k.payments.refund.RefundService        : Refund queue depth 18,204
+2026-09-14 16:05:23.253  INFO 1 --- [refund-worker-8] c.k.payments.refund.RefundService        : Refund queue depth 18,204
+2026-09-14 16:06:00.579  WARN 1 --- [refund-worker-3] c.k.payments.refund.RefundService        : Razorpay refunds API 429 Too Many Requests, backing off 30s
+2026-09-14 16:06:22.318  INFO 1 --- [refund-worker-6] c.k.payments.refund.RefundService        : Refund queue depth 18,204
+2026-09-14 16:07:06.427  WARN 1 --- [refund-worker-7] c.k.payments.refund.RefundService        : Razorpay refunds API 429 Too Many Requests, backing off 30s
+2026-09-14 16:07:31.233  INFO 1 --- [refund-worker-3] c.k.payments.refund.RefundService        : Refund queue depth 18,204
+2026-09-14 16:08:01.000  INFO 1 --- [http-nio-8080-exec-97] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-90312134 amount=3999.00 INR gateway=razorpay latencyMs=140
+2026-09-14 16:08:25.000  INFO 1 --- [http-nio-8080-exec-91] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-51450959 amount=349.00 INR gateway=razorpay latencyMs=145
+2026-09-14 16:10:01.000  INFO 1 --- [http-nio-8080-exec-7] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-79303397 amount=7499.00 INR gateway=razorpay latencyMs=181
+2026-09-14 16:11:37.000  INFO 1 --- [http-nio-8080-exec-80] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-59002831 amount=199.00 INR gateway=razorpay latencyMs=151
+2026-09-14 16:12:29.000  INFO 1 --- [http-nio-8080-exec-176] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-51336633 amount=199.00 INR gateway=razorpay latencyMs=127
+2026-09-14 16:13:13.000  INFO 1 --- [http-nio-8080-exec-190] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-82782062 amount=2499.00 INR gateway=razorpay latencyMs=65
+2026-09-14 16:14:57.000  INFO 1 --- [http-nio-8080-exec-101] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-12722059 amount=24999.00 INR gateway=razorpay latencyMs=365
+2026-09-14 16:15:55.000  INFO 1 --- [http-nio-8080-exec-63] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-59984321 amount=349.00 INR gateway=razorpay latencyMs=154
+2026-09-14 16:16:48.000  INFO 1 --- [http-nio-8080-exec-183] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-32483197 amount=899.00 INR gateway=razorpay latencyMs=64
+2026-09-14 16:18:17.000  INFO 1 --- [http-nio-8080-exec-3] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-99034359 amount=1299.00 INR gateway=razorpay latencyMs=355
+2026-09-14 16:19:33.000  INFO 1 --- [http-nio-8080-exec-30] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-75699848 amount=1299.00 INR gateway=razorpay latencyMs=174

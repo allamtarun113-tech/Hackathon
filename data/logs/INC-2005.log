@@ -1,0 +1,107 @@
+2026-01-29T07:50:00.000Z INFO  [checkout-web] POST /api/checkout 200 130ms cart=27820475
+2026-01-29T07:50:37.413Z INFO  [checkout-web] POST /api/checkout 200 141ms cart=91806948
+2026-01-29T07:51:31.884Z INFO  [checkout-web] POST /api/checkout 200 223ms cart=19328166
+2026-01-29T07:52:05.051Z INFO  [checkout-web] POST /api/checkout 200 112ms cart=32398703
+2026-01-29T07:53:02.977Z INFO  [checkout-web] POST /api/checkout 200 146ms cart=98518982
+2026-01-29T07:53:45.343Z INFO  [checkout-web] POST /api/checkout 200 342ms cart=36782948
+2026-01-29T07:54:14.780Z INFO  [checkout-web] POST /api/checkout 200 334ms cart=77438791
+2026-01-29T07:55:24.079Z INFO  [checkout-web] POST /api/checkout 200 325ms cart=11062463
+2026-01-29T07:56:30.656Z INFO  [checkout-web] POST /api/checkout 200 157ms cart=17948518
+2026-01-29T07:57:04.392Z INFO  [checkout-web] POST /api/checkout 200 73ms cart=81440101
+2026-01-29T07:57:52.120Z INFO  [checkout-web] POST /api/checkout 200 342ms cart=63837394
+2026-01-29T07:58:48.809Z INFO  [checkout-web] POST /api/checkout 200 150ms cart=43793319
+2026-01-29T07:59:55.952Z INFO  [checkout-web] POST /api/checkout 200 158ms cart=13774266
+2026-01-29T08:01:00.182Z INFO  [checkout-web] POST /api/checkout 200 338ms cart=70155883
+2026-01-29T08:01:33.871Z INFO  [checkout-web] POST /api/checkout 200 107ms cart=16467603
+2026-01-29T08:02:35.720Z INFO  [checkout-web] POST /api/checkout 200 325ms cart=58971395
+2026-01-29T08:03:23.633Z INFO  [checkout-web] POST /api/checkout 200 324ms cart=26311480
+2026-01-29T08:04:32.817Z INFO  [checkout-web] POST /api/checkout 200 288ms cart=12754926
+2026-01-29T08:05:39.653Z INFO  [checkout-web] POST /api/checkout 200 368ms cart=44168651
+2026-01-29T08:06:14.395Z WARN  [checkout-web] coupon stack applied cart=99840221 coupons=["REPUBLIC20","NEWUSER50","BANK20"] discount_pct=90
+2026-01-29T08:06:34.171Z INFO  [checkout-web] POST /api/checkout 200 46ms cart=27092160
+2026-01-29T08:06:58.479Z WARN  [checkout-web] coupon stack applied cart=22560018 coupons=["REPUBLIC20","NEWUSER50","BANK20"] discount_pct=90
+2026-01-29T08:07:24.026Z INFO  [checkout-web] POST /api/checkout 200 357ms cart=95072304
+2026-01-29T08:07:44.557Z INFO  [checkout-web] POST /api/checkout 200 129ms cart=26475758
+2026-01-29T08:08:06.264Z WARN  [checkout-web] coupon stack applied cart=28700646 coupons=["REPUBLIC20","NEWUSER50","BANK20"] discount_pct=90
+2026-01-29T08:08:18.540Z WARN  [checkout-web] coupon stack applied cart=64992090 coupons=["REPUBLIC20","NEWUSER50","BANK20"] discount_pct=90
+2026-01-29T08:08:31.040Z WARN  [checkout-web] coupon stack applied cart=99837466 coupons=["REPUBLIC20","NEWUSER50","BANK20"] discount_pct=90
+2026-01-29T08:08:49.713Z WARN  [checkout-web] coupon stack applied cart=92180981 coupons=["REPUBLIC20","NEWUSER50","BANK20"] discount_pct=90
+2026-01-29T08:09:07.072Z WARN  [checkout-web] coupon stack applied cart=75621291 coupons=["REPUBLIC20","NEWUSER50","BANK20"] discount_pct=90
+2026-01-29T08:09:29.035Z WARN  [checkout-web] coupon stack applied cart=51226516 coupons=["REPUBLIC20","NEWUSER50","BANK20"] discount_pct=90
+2026-01-29T08:09:40.448Z INFO  [checkout-web] POST /api/checkout 200 281ms cart=97501474
+2026-01-29T08:09:57.219Z INFO  [checkout-web] POST /api/checkout 200 319ms cart=54739275
+2026-01-29T08:10:17.195Z INFO  [checkout-web] POST /api/checkout 200 47ms cart=75544537
+2026-01-29T08:10:36.385Z WARN  [checkout-web] coupon stack applied cart=13108354 coupons=["REPUBLIC20","NEWUSER50","BANK20"] discount_pct=90
+2026-01-29T08:10:48.217Z INFO  [checkout-web] POST /api/checkout 200 238ms cart=54129965
+2026-01-29T08:11:08.937Z WARN  [checkout-web] coupon stack applied cart=96173653 coupons=["REPUBLIC20","NEWUSER50","BANK20"] discount_pct=90
+2026-01-29T08:11:33.631Z INFO  [checkout-web] POST /api/checkout 200 272ms cart=62763550
+2026-01-29T08:11:46.700Z WARN  [checkout-web] coupon stack applied cart=59847712 coupons=["REPUBLIC20","NEWUSER50","BANK20"] discount_pct=90
+2026-01-29T08:12:11.198Z INFO  [checkout-web] POST /api/checkout 200 171ms cart=94029991
+2026-01-29T08:12:22.778Z INFO  [checkout-web] POST /api/checkout 200 172ms cart=12932562
+2026-01-29T08:12:34.992Z INFO  [checkout-web] POST /api/checkout 200 337ms cart=71773508
+2026-01-29T08:12:57.980Z INFO  [checkout-web] POST /api/checkout 200 115ms cart=55916430
+2026-01-29T08:13:15.824Z WARN  [checkout-web] coupon stack applied cart=25766705 coupons=["REPUBLIC20","NEWUSER50","BANK20"] discount_pct=90
+2026-01-29T08:13:30.857Z INFO  [checkout-web] POST /api/checkout 200 168ms cart=65770096
+2026-01-29T08:13:43.697Z WARN  [checkout-web] coupon stack applied cart=49657750 coupons=["REPUBLIC20","NEWUSER50","BANK20"] discount_pct=90
+2026-01-29T08:14:05.399Z WARN  [checkout-web] coupon stack applied cart=40627993 coupons=["REPUBLIC20","NEWUSER50","BANK20"] discount_pct=90
+2026-01-29T08:14:24.563Z WARN  [checkout-web] coupon stack applied cart=56733344 coupons=["REPUBLIC20","NEWUSER50","BANK20"] discount_pct=90
+2026-01-29T08:14:43.069Z WARN  [checkout-web] coupon stack applied cart=25436056 coupons=["REPUBLIC20","NEWUSER50","BANK20"] discount_pct=90
+2026-01-29T08:14:55.322Z INFO  [checkout-web] POST /api/checkout 200 359ms cart=34643056
+2026-01-29T08:15:14.501Z WARN  [checkout-web] coupon stack applied cart=63520091 coupons=["REPUBLIC20","NEWUSER50","BANK20"] discount_pct=90
+2026-01-29T08:15:37.257Z INFO  [checkout-web] POST /api/checkout 200 202ms cart=79776214
+2026-01-29T08:15:52.040Z WARN  [checkout-web] coupon stack applied cart=52396492 coupons=["REPUBLIC20","NEWUSER50","BANK20"] discount_pct=90
+2026-01-29T08:16:06.015Z INFO  [checkout-web] POST /api/checkout 200 209ms cart=32744152
+2026-01-29T08:16:25.938Z WARN  [checkout-web] coupon stack applied cart=93465126 coupons=["REPUBLIC20","NEWUSER50","BANK20"] discount_pct=90
+2026-01-29T08:16:45.651Z WARN  [checkout-web] coupon stack applied cart=84407206 coupons=["REPUBLIC20","NEWUSER50","BANK20"] discount_pct=90
+2026-01-29T08:17:09.708Z INFO  [checkout-web] POST /api/checkout 200 363ms cart=30897027
+2026-01-29T08:17:24.496Z INFO  [checkout-web] POST /api/checkout 200 325ms cart=72199212
+2026-01-29T08:17:47.351Z WARN  [checkout-web] coupon stack applied cart=58996202 coupons=["REPUBLIC20","NEWUSER50","BANK20"] discount_pct=90
+2026-01-29T08:18:13.054Z WARN  [checkout-web] coupon stack applied cart=53962958 coupons=["REPUBLIC20","NEWUSER50","BANK20"] discount_pct=90
+2026-01-29T08:18:31.880Z WARN  [checkout-web] coupon stack applied cart=25950003 coupons=["REPUBLIC20","NEWUSER50","BANK20"] discount_pct=90
+2026-01-29T08:18:53.605Z WARN  [checkout-web] coupon stack applied cart=21328067 coupons=["REPUBLIC20","NEWUSER50","BANK20"] discount_pct=90
+2026-01-29T08:19:14.678Z WARN  [checkout-web] coupon stack applied cart=13424562 coupons=["REPUBLIC20","NEWUSER50","BANK20"] discount_pct=90
+2026-01-29T08:19:30.152Z INFO  [checkout-web] POST /api/checkout 200 87ms cart=76932098
+2026-01-29T08:19:41.246Z WARN  [checkout-web] coupon stack applied cart=82245179 coupons=["REPUBLIC20","NEWUSER50","BANK20"] discount_pct=90
+2026-01-29T08:20:04.151Z INFO  [checkout-web] POST /api/checkout 200 195ms cart=82270212
+2026-01-29T08:20:16.518Z WARN  [checkout-web] coupon stack applied cart=23626809 coupons=["REPUBLIC20","NEWUSER50","BANK20"] discount_pct=90
+2026-01-29T08:20:27.692Z WARN  [checkout-web] coupon stack applied cart=54746046 coupons=["REPUBLIC20","NEWUSER50","BANK20"] discount_pct=90
+2026-01-29T08:20:42.254Z INFO  [checkout-web] POST /api/checkout 200 376ms cart=85918412
+2026-01-29T08:21:04.837Z WARN  [checkout-web] coupon stack applied cart=96096486 coupons=["REPUBLIC20","NEWUSER50","BANK20"] discount_pct=90
+2026-01-29T08:21:17.470Z INFO  [checkout-web] POST /api/checkout 200 236ms cart=45364836
+2026-01-29T08:21:42.798Z INFO  [checkout-web] POST /api/checkout 200 228ms cart=94914015
+2026-01-29T08:21:58.095Z INFO  [checkout-web] POST /api/checkout 200 323ms cart=80555789
+2026-01-29T08:22:19.617Z WARN  [checkout-web] coupon stack applied cart=96996379 coupons=["REPUBLIC20","NEWUSER50","BANK20"] discount_pct=90
+2026-01-29T08:22:43.584Z WARN  [checkout-web] coupon stack applied cart=39804673 coupons=["REPUBLIC20","NEWUSER50","BANK20"] discount_pct=90
+2026-01-29T08:23:07.064Z INFO  [checkout-web] POST /api/checkout 200 64ms cart=23109587
+2026-01-29T08:23:29.879Z INFO  [checkout-web] POST /api/checkout 200 162ms cart=68134166
+2026-01-29T08:23:41.551Z WARN  [checkout-web] coupon stack applied cart=53525882 coupons=["REPUBLIC20","NEWUSER50","BANK20"] discount_pct=90
+2026-01-29T08:24:08.540Z WARN  [checkout-web] coupon stack applied cart=94662534 coupons=["REPUBLIC20","NEWUSER50","BANK20"] discount_pct=90
+2026-01-29T08:24:29.702Z WARN  [checkout-web] coupon stack applied cart=20693831 coupons=["REPUBLIC20","NEWUSER50","BANK20"] discount_pct=90
+2026-01-29T08:24:41.203Z INFO  [checkout-web] POST /api/checkout 200 106ms cart=90279368
+2026-01-29T08:25:06.579Z WARN  [checkout-web] coupon stack applied cart=94296959 coupons=["REPUBLIC20","NEWUSER50","BANK20"] discount_pct=90
+2026-01-29T08:25:30.710Z INFO  [checkout-web] POST /api/checkout 200 324ms cart=48440292
+2026-01-29T08:25:56.337Z INFO  [checkout-web] POST /api/checkout 200 261ms cart=46459164
+2026-01-29T08:26:13.520Z WARN  [checkout-web] coupon stack applied cart=87763389 coupons=["REPUBLIC20","NEWUSER50","BANK20"] discount_pct=90
+2026-01-29T08:26:34.873Z WARN  [checkout-web] coupon stack applied cart=63297956 coupons=["REPUBLIC20","NEWUSER50","BANK20"] discount_pct=90
+2026-01-29T08:26:46.266Z WARN  [checkout-web] coupon stack applied cart=45699575 coupons=["REPUBLIC20","NEWUSER50","BANK20"] discount_pct=90
+2026-01-29T08:27:10.268Z WARN  [checkout-web] coupon stack applied cart=46899283 coupons=["REPUBLIC20","NEWUSER50","BANK20"] discount_pct=90
+2026-01-29T08:27:32.415Z INFO  [checkout-web] POST /api/checkout 200 128ms cart=87324607
+2026-01-29T08:27:46.951Z INFO  [checkout-web] POST /api/checkout 200 67ms cart=88336928
+2026-01-29T08:28:13.489Z INFO  [checkout-web] POST /api/checkout 200 308ms cart=74279738
+2026-01-29T08:28:37.153Z INFO  [checkout-web] POST /api/checkout 200 82ms cart=41964584
+2026-01-29T08:28:58.287Z INFO  [checkout-web] POST /api/checkout 200 90ms cart=48019997
+2026-01-29T08:29:10.000Z INFO  [checkout-web] POST /api/checkout 200 356ms cart=57538541
+2026-01-29T08:29:36.000Z INFO  [checkout-web] POST /api/checkout 200 111ms cart=63893494
+2026-01-29T08:30:27.000Z INFO  [checkout-web] POST /api/checkout 200 265ms cart=55815124
+2026-01-29T08:31:53.000Z INFO  [checkout-web] POST /api/checkout 200 371ms cart=95990064
+2026-01-29T08:33:39.000Z INFO  [checkout-web] POST /api/checkout 200 116ms cart=71282443
+2026-01-29T08:35:10.000Z INFO  [checkout-web] POST /api/checkout 200 155ms cart=11921395
+2026-01-29T08:35:53.000Z INFO  [checkout-web] POST /api/checkout 200 160ms cart=84024474
+2026-01-29T08:36:38.000Z INFO  [checkout-web] POST /api/checkout 200 318ms cart=92476024
+2026-01-29T08:37:42.000Z INFO  [checkout-web] POST /api/checkout 200 144ms cart=31378046
+2026-01-29T08:39:06.000Z INFO  [checkout-web] POST /api/checkout 200 207ms cart=81700271
+2026-01-29T08:40:45.000Z INFO  [checkout-web] POST /api/checkout 200 197ms cart=54841045
+2026-01-29T08:41:43.000Z INFO  [checkout-web] POST /api/checkout 200 350ms cart=60546025
+2026-01-29T08:43:11.000Z INFO  [checkout-web] POST /api/checkout 200 271ms cart=49320035
+2026-01-29T08:44:45.000Z INFO  [checkout-web] POST /api/checkout 200 210ms cart=53754454
+2026-01-29T08:45:46.000Z INFO  [checkout-web] POST /api/checkout 200 356ms cart=20633654

@@ -1,0 +1,128 @@
+2026-09-11 15:40:00.000  INFO 1 --- [refund-worker-9] c.k.payments.refund.RefundService        : Refund issued orderId=ORD-58611537 amount=199.00 INR
+2026-09-11 15:41:01.220  INFO 1 --- [refund-worker-10] c.k.payments.refund.RefundService        : Refund issued orderId=ORD-96189311 amount=2499.00 INR
+2026-09-11 15:41:45.257  INFO 1 --- [refund-worker-4] c.k.payments.refund.RefundService        : Refund issued orderId=ORD-62559334 amount=499.00 INR
+2026-09-11 15:42:49.549  INFO 1 --- [refund-worker-9] c.k.payments.refund.RefundService        : Refund issued orderId=ORD-16440491 amount=3999.00 INR
+2026-09-11 15:43:27.926  INFO 1 --- [refund-worker-1] c.k.payments.refund.RefundService        : Refund issued orderId=ORD-68345972 amount=1299.00 INR
+2026-09-11 15:44:12.686  INFO 1 --- [refund-worker-0] c.k.payments.refund.RefundService        : Refund issued orderId=ORD-68902234 amount=12999.00 INR
+2026-09-11 15:44:57.241  INFO 1 --- [refund-worker-2] c.k.payments.refund.RefundService        : Refund issued orderId=ORD-48767952 amount=3999.00 INR
+2026-09-11 15:45:39.016  INFO 1 --- [refund-worker-7] c.k.payments.refund.RefundService        : Refund issued orderId=ORD-33277600 amount=199.00 INR
+2026-09-11 15:46:40.258  INFO 1 --- [refund-worker-3] c.k.payments.refund.RefundService        : Refund issued orderId=ORD-29173994 amount=199.00 INR
+2026-09-11 15:47:05.364  INFO 1 --- [refund-worker-1] c.k.payments.refund.RefundService        : Refund issued orderId=ORD-10112248 amount=7499.00 INR
+2026-09-11 15:47:44.917  INFO 1 --- [refund-worker-8] c.k.payments.refund.RefundService        : Refund issued orderId=ORD-38769951 amount=1299.00 INR
+2026-09-11 15:48:14.339  INFO 1 --- [refund-worker-9] c.k.payments.refund.RefundService        : Refund issued orderId=ORD-15974135 amount=499.00 INR
+2026-09-11 15:48:41.056  INFO 1 --- [refund-worker-0] c.k.payments.refund.RefundService        : Refund issued orderId=ORD-52851096 amount=3999.00 INR
+2026-09-11 15:49:17.494  INFO 1 --- [refund-worker-0] c.k.payments.refund.RefundService        : Refund issued orderId=ORD-63079927 amount=12999.00 INR
+2026-09-11 15:49:43.470  INFO 1 --- [refund-worker-2] c.k.payments.refund.RefundService        : Refund issued orderId=ORD-25839481 amount=199.00 INR
+2026-09-11 15:50:21.462  INFO 1 --- [refund-worker-0] c.k.payments.refund.RefundService        : Refund issued orderId=ORD-13081065 amount=2499.00 INR
+2026-09-11 15:50:53.880  INFO 1 --- [refund-worker-9] c.k.payments.refund.RefundService        : Refund issued orderId=ORD-35572540 amount=24999.00 INR
+2026-09-11 15:51:46.691  INFO 1 --- [refund-worker-4] c.k.payments.refund.RefundService        : Refund issued orderId=ORD-48242961 amount=899.00 INR
+2026-09-11 15:52:17.729  INFO 1 --- [refund-worker-4] c.k.payments.refund.RefundService        : Refund issued orderId=ORD-45946904 amount=1299.00 INR
+2026-09-11 15:53:13.878  INFO 1 --- [refund-worker-1] c.k.payments.refund.RefundService        : Refund issued orderId=ORD-33010583 amount=24999.00 INR
+2026-09-11 15:54:17.236  INFO 1 --- [refund-worker-8] c.k.payments.refund.RefundService        : Refund issued orderId=ORD-36339393 amount=3999.00 INR
+2026-09-11 15:55:28.091  INFO 1 --- [refund-worker-10] c.k.payments.refund.RefundService        : Refund issued orderId=ORD-81086615 amount=899.00 INR
+2026-09-11 15:56:35.181  WARN 1 --- [refund-worker-6] c.k.payments.refund.RefundService        : Retrying refund after timeout orderId=ORD-93013699 attempt=2
+2026-09-11 15:56:56.201 ERROR 1 --- [refund-audit] c.k.payments.refund.RefundAuditor         : Duplicate refund detected orderId=ORD-62595103 refunds=2
+2026-09-11 15:57:12.850 ERROR 1 --- [refund-audit] c.k.payments.refund.RefundAuditor         : Duplicate refund detected orderId=ORD-91045751 refunds=2
+2026-09-11 15:57:33.891 ERROR 1 --- [refund-audit] c.k.payments.refund.RefundAuditor         : Duplicate refund detected orderId=ORD-39897771 refunds=2
+2026-09-11 15:57:52.223 ERROR 1 --- [refund-audit] c.k.payments.refund.RefundAuditor         : Duplicate refund detected orderId=ORD-59830549 refunds=2
+2026-09-11 15:58:22.695  WARN 1 --- [refund-worker-11] c.k.payments.refund.RefundService        : Retrying refund after timeout orderId=ORD-91667748 attempt=2
+2026-09-11 15:58:50.518  WARN 1 --- [refund-worker-2] c.k.payments.refund.RefundService        : Retrying refund after timeout orderId=ORD-85726141 attempt=2
+2026-09-11 15:59:09.383  WARN 1 --- [refund-worker-9] c.k.payments.refund.RefundService        : Retrying refund after timeout orderId=ORD-27942636 attempt=2
+2026-09-11 15:59:35.324  WARN 1 --- [refund-worker-4] c.k.payments.refund.RefundService        : Retrying refund after timeout orderId=ORD-34021195 attempt=2
+2026-09-11 15:59:49.662 ERROR 1 --- [refund-audit] c.k.payments.refund.RefundAuditor         : Duplicate refund detected orderId=ORD-42512418 refunds=2
+2026-09-11 16:00:03.863 ERROR 1 --- [refund-audit] c.k.payments.refund.RefundAuditor         : Duplicate refund detected orderId=ORD-92763718 refunds=2
+2026-09-11 16:00:20.911 ERROR 1 --- [refund-audit] c.k.payments.refund.RefundAuditor         : Duplicate refund detected orderId=ORD-32820118 refunds=2
+2026-09-11 16:00:48.439  WARN 1 --- [refund-worker-10] c.k.payments.refund.RefundService        : Retrying refund after timeout orderId=ORD-98560996 attempt=2
+2026-09-11 16:01:02.613 ERROR 1 --- [refund-audit] c.k.payments.refund.RefundAuditor         : Duplicate refund detected orderId=ORD-89912404 refunds=2
+2026-09-11 16:01:17.700  WARN 1 --- [refund-worker-10] c.k.payments.refund.RefundService        : Retrying refund after timeout orderId=ORD-68964929 attempt=2
+2026-09-11 16:01:36.992  WARN 1 --- [refund-worker-0] c.k.payments.refund.RefundService        : Retrying refund after timeout orderId=ORD-76915935 attempt=2
+2026-09-11 16:02:06.747  WARN 1 --- [refund-worker-2] c.k.payments.refund.RefundService        : Retrying refund after timeout orderId=ORD-64647268 attempt=2
+2026-09-11 16:02:36.261  WARN 1 --- [refund-worker-10] c.k.payments.refund.RefundService        : Retrying refund after timeout orderId=ORD-29834337 attempt=2
+2026-09-11 16:02:58.365  WARN 1 --- [refund-worker-1] c.k.payments.refund.RefundService        : Retrying refund after timeout orderId=ORD-93845553 attempt=2
+2026-09-11 16:03:28.917 ERROR 1 --- [refund-audit] c.k.payments.refund.RefundAuditor         : Duplicate refund detected orderId=ORD-77539620 refunds=2
+2026-09-11 16:03:56.722 ERROR 1 --- [refund-audit] c.k.payments.refund.RefundAuditor         : Duplicate refund detected orderId=ORD-17343650 refunds=2
+2026-09-11 16:04:21.302  WARN 1 --- [refund-worker-6] c.k.payments.refund.RefundService        : Retrying refund after timeout orderId=ORD-69270108 attempt=2
+2026-09-11 16:04:46.815  WARN 1 --- [refund-worker-2] c.k.payments.refund.RefundService        : Retrying refund after timeout orderId=ORD-39153244 attempt=2
+2026-09-11 16:05:02.330  WARN 1 --- [refund-worker-2] c.k.payments.refund.RefundService        : Retrying refund after timeout orderId=ORD-34622410 attempt=2
+2026-09-11 16:05:23.784  WARN 1 --- [refund-worker-2] c.k.payments.refund.RefundService        : Retrying refund after timeout orderId=ORD-30525554 attempt=2
+2026-09-11 16:05:49.991 ERROR 1 --- [refund-audit] c.k.payments.refund.RefundAuditor         : Duplicate refund detected orderId=ORD-20342562 refunds=2
+2026-09-11 16:06:09.855  WARN 1 --- [refund-worker-7] c.k.payments.refund.RefundService        : Retrying refund after timeout orderId=ORD-29597824 attempt=2
+2026-09-11 16:06:24.010  WARN 1 --- [refund-worker-0] c.k.payments.refund.RefundService        : Retrying refund after timeout orderId=ORD-97595258 attempt=2
+2026-09-11 16:06:55.891 ERROR 1 --- [refund-audit] c.k.payments.refund.RefundAuditor         : Duplicate refund detected orderId=ORD-57376198 refunds=2
+2026-09-11 16:07:10.796  WARN 1 --- [refund-worker-0] c.k.payments.refund.RefundService        : Retrying refund after timeout orderId=ORD-48107591 attempt=2
+2026-09-11 16:07:35.601 ERROR 1 --- [refund-audit] c.k.payments.refund.RefundAuditor         : Duplicate refund detected orderId=ORD-82494974 refunds=2
+2026-09-11 16:07:53.154 ERROR 1 --- [refund-audit] c.k.payments.refund.RefundAuditor         : Duplicate refund detected orderId=ORD-17766020 refunds=2
+2026-09-11 16:08:14.591 ERROR 1 --- [refund-audit] c.k.payments.refund.RefundAuditor         : Duplicate refund detected orderId=ORD-54498546 refunds=2
+2026-09-11 16:08:43.066  WARN 1 --- [refund-worker-5] c.k.payments.refund.RefundService        : Retrying refund after timeout orderId=ORD-77975072 attempt=2
+2026-09-11 16:09:00.481 ERROR 1 --- [refund-audit] c.k.payments.refund.RefundAuditor         : Duplicate refund detected orderId=ORD-15030163 refunds=2
+2026-09-11 16:09:16.161  WARN 1 --- [refund-worker-1] c.k.payments.refund.RefundService        : Retrying refund after timeout orderId=ORD-86560911 attempt=2
+2026-09-11 16:09:42.803  WARN 1 --- [refund-worker-8] c.k.payments.refund.RefundService        : Retrying refund after timeout orderId=ORD-73589375 attempt=2
+2026-09-11 16:10:13.481  WARN 1 --- [refund-worker-4] c.k.payments.refund.RefundService        : Retrying refund after timeout orderId=ORD-67271648 attempt=2
+2026-09-11 16:10:42.821  WARN 1 --- [refund-worker-0] c.k.payments.refund.RefundService        : Retrying refund after timeout orderId=ORD-69419383 attempt=2
+2026-09-11 16:11:00.022  WARN 1 --- [refund-worker-7] c.k.payments.refund.RefundService        : Retrying refund after timeout orderId=ORD-67164437 attempt=2
+2026-09-11 16:11:23.620  WARN 1 --- [refund-worker-9] c.k.payments.refund.RefundService        : Retrying refund after timeout orderId=ORD-32660979 attempt=2
+2026-09-11 16:11:52.344  WARN 1 --- [refund-worker-8] c.k.payments.refund.RefundService        : Retrying refund after timeout orderId=ORD-69349326 attempt=2
+2026-09-11 16:12:19.884 ERROR 1 --- [refund-audit] c.k.payments.refund.RefundAuditor         : Duplicate refund detected orderId=ORD-29136249 refunds=2
+2026-09-11 16:12:36.095 ERROR 1 --- [refund-audit] c.k.payments.refund.RefundAuditor         : Duplicate refund detected orderId=ORD-14601665 refunds=2
+2026-09-11 16:12:57.526  WARN 1 --- [refund-worker-9] c.k.payments.refund.RefundService        : Retrying refund after timeout orderId=ORD-24976389 attempt=2
+2026-09-11 16:13:25.792 ERROR 1 --- [refund-audit] c.k.payments.refund.RefundAuditor         : Duplicate refund detected orderId=ORD-41274040 refunds=2
+2026-09-11 16:13:51.795  WARN 1 --- [refund-worker-9] c.k.payments.refund.RefundService        : Retrying refund after timeout orderId=ORD-17458041 attempt=2
+2026-09-11 16:14:23.641 ERROR 1 --- [refund-audit] c.k.payments.refund.RefundAuditor         : Duplicate refund detected orderId=ORD-51389097 refunds=2
+2026-09-11 16:14:54.623 ERROR 1 --- [refund-audit] c.k.payments.refund.RefundAuditor         : Duplicate refund detected orderId=ORD-48834785 refunds=2
+2026-09-11 16:15:12.883  WARN 1 --- [refund-worker-6] c.k.payments.refund.RefundService        : Retrying refund after timeout orderId=ORD-45472593 attempt=2
+2026-09-11 16:15:32.774  WARN 1 --- [refund-worker-0] c.k.payments.refund.RefundService        : Retrying refund after timeout orderId=ORD-75559973 attempt=2
+2026-09-11 16:16:00.620 ERROR 1 --- [refund-audit] c.k.payments.refund.RefundAuditor         : Duplicate refund detected orderId=ORD-33040972 refunds=2
+2026-09-11 16:16:29.475 ERROR 1 --- [refund-audit] c.k.payments.refund.RefundAuditor         : Duplicate refund detected orderId=ORD-63682172 refunds=2
+2026-09-11 16:16:46.537  WARN 1 --- [refund-worker-1] c.k.payments.refund.RefundService        : Retrying refund after timeout orderId=ORD-18738869 attempt=2
+2026-09-11 16:17:15.581  WARN 1 --- [refund-worker-7] c.k.payments.refund.RefundService        : Retrying refund after timeout orderId=ORD-98509089 attempt=2
+2026-09-11 16:17:29.998 ERROR 1 --- [refund-audit] c.k.payments.refund.RefundAuditor         : Duplicate refund detected orderId=ORD-24565970 refunds=2
+2026-09-11 16:17:48.728  WARN 1 --- [refund-worker-5] c.k.payments.refund.RefundService        : Retrying refund after timeout orderId=ORD-41780872 attempt=2
+2026-09-11 16:18:18.858 ERROR 1 --- [refund-audit] c.k.payments.refund.RefundAuditor         : Duplicate refund detected orderId=ORD-56297710 refunds=2
+2026-09-11 16:18:43.685 ERROR 1 --- [refund-audit] c.k.payments.refund.RefundAuditor         : Duplicate refund detected orderId=ORD-52067654 refunds=2
+2026-09-11 16:19:13.985 ERROR 1 --- [refund-audit] c.k.payments.refund.RefundAuditor         : Duplicate refund detected orderId=ORD-68520672 refunds=2
+2026-09-11 16:19:31.236  WARN 1 --- [refund-worker-10] c.k.payments.refund.RefundService        : Retrying refund after timeout orderId=ORD-80568933 attempt=2
+2026-09-11 16:19:59.277 ERROR 1 --- [refund-audit] c.k.payments.refund.RefundAuditor         : Duplicate refund detected orderId=ORD-16565220 refunds=2
+2026-09-11 16:20:14.640  WARN 1 --- [refund-worker-11] c.k.payments.refund.RefundService        : Retrying refund after timeout orderId=ORD-83840768 attempt=2
+2026-09-11 16:20:37.337  WARN 1 --- [refund-worker-6] c.k.payments.refund.RefundService        : Retrying refund after timeout orderId=ORD-42313720 attempt=2
+2026-09-11 16:20:52.905  WARN 1 --- [refund-worker-4] c.k.payments.refund.RefundService        : Retrying refund after timeout orderId=ORD-23094390 attempt=2
+2026-09-11 16:21:07.552 ERROR 1 --- [refund-audit] c.k.payments.refund.RefundAuditor         : Duplicate refund detected orderId=ORD-83159702 refunds=2
+2026-09-11 16:21:21.078 ERROR 1 --- [refund-audit] c.k.payments.refund.RefundAuditor         : Duplicate refund detected orderId=ORD-50288181 refunds=2
+2026-09-11 16:21:36.831  WARN 1 --- [refund-worker-0] c.k.payments.refund.RefundService        : Retrying refund after timeout orderId=ORD-22439963 attempt=2
+2026-09-11 16:22:00.884 ERROR 1 --- [refund-audit] c.k.payments.refund.RefundAuditor         : Duplicate refund detected orderId=ORD-61109332 refunds=2
+2026-09-11 16:22:30.794  WARN 1 --- [refund-worker-1] c.k.payments.refund.RefundService        : Retrying refund after timeout orderId=ORD-60132216 attempt=2
+2026-09-11 16:22:48.691 ERROR 1 --- [refund-audit] c.k.payments.refund.RefundAuditor         : Duplicate refund detected orderId=ORD-20055693 refunds=2
+2026-09-11 16:23:12.139 ERROR 1 --- [refund-audit] c.k.payments.refund.RefundAuditor         : Duplicate refund detected orderId=ORD-34792847 refunds=2
+2026-09-11 16:23:34.036  WARN 1 --- [refund-worker-4] c.k.payments.refund.RefundService        : Retrying refund after timeout orderId=ORD-78229661 attempt=2
+2026-09-11 16:23:58.000  INFO 1 --- [main] c.k.payments.refund.RefundService        : Refund retries disabled (REFUND_AUTO_RETRY=false)
+2026-09-11 16:24:57.000  INFO 1 --- [refund-worker-5] c.k.payments.refund.RefundService        : Refund issued orderId=ORD-35109766 amount=499.00 INR
+2026-09-11 16:26:16.000  INFO 1 --- [refund-worker-3] c.k.payments.refund.RefundService        : Refund issued orderId=ORD-13056927 amount=24999.00 INR
+2026-09-11 16:27:57.000  INFO 1 --- [refund-worker-2] c.k.payments.refund.RefundService        : Refund issued orderId=ORD-71042895 amount=899.00 INR
+2026-09-11 16:29:05.000  INFO 1 --- [refund-worker-6] c.k.payments.refund.RefundService        : Refund issued orderId=ORD-48902722 amount=7499.00 INR
+2026-09-11 16:30:43.000  INFO 1 --- [refund-worker-10] c.k.payments.refund.RefundService        : Refund issued orderId=ORD-58466801 amount=1299.00 INR
+2026-09-11 16:31:31.000  INFO 1 --- [refund-worker-7] c.k.payments.refund.RefundService        : Refund issued orderId=ORD-13783293 amount=24999.00 INR
+2026-09-11 16:32:35.000  INFO 1 --- [refund-worker-4] c.k.payments.refund.RefundService        : Refund issued orderId=ORD-28888248 amount=24999.00 INR
+2026-09-11 16:33:53.000  INFO 1 --- [refund-worker-10] c.k.payments.refund.RefundService        : Refund issued orderId=ORD-87524161 amount=3999.00 INR
+2026-09-11 16:35:05.000  INFO 1 --- [refund-worker-11] c.k.payments.refund.RefundService        : Refund issued orderId=ORD-38179851 amount=349.00 INR
+2026-09-11 16:36:40.000  INFO 1 --- [refund-worker-0] c.k.payments.refund.RefundService        : Refund issued orderId=ORD-31831233 amount=12999.00 INR
+2026-09-11 16:37:36.000  INFO 1 --- [refund-worker-1] c.k.payments.refund.RefundService        : Refund issued orderId=ORD-28340509 amount=12999.00 INR
+2026-09-11 16:38:47.000  INFO 1 --- [refund-worker-9] c.k.payments.refund.RefundService        : Refund issued orderId=ORD-81552156 amount=7499.00 INR
+2026-09-11 16:40:22.000  INFO 1 --- [refund-worker-11] c.k.payments.refund.RefundService        : Refund issued orderId=ORD-23214240 amount=12999.00 INR
+2026-09-11 16:41:44.000  INFO 1 --- [refund-worker-1] c.k.payments.refund.RefundService        : Refund issued orderId=ORD-10250539 amount=899.00 INR
+2026-09-11 16:42:25.000  INFO 1 --- [refund-worker-9] c.k.payments.refund.RefundService        : Refund issued orderId=ORD-18403892 amount=349.00 INR
+2026-09-11 16:43:52.000  INFO 1 --- [refund-worker-3] c.k.payments.refund.RefundService        : Refund issued orderId=ORD-72094743 amount=24999.00 INR
+2026-09-11 16:45:48.000  INFO 1 --- [refund-worker-8] c.k.payments.refund.RefundService        : Refund issued orderId=ORD-48522686 amount=899.00 INR
+2026-09-11 16:47:00.000  INFO 1 --- [refund-worker-8] c.k.payments.refund.RefundService        : Refund issued orderId=ORD-47428135 amount=1299.00 INR
+2026-09-11 16:48:21.000  INFO 1 --- [refund-worker-11] c.k.payments.refund.RefundService        : Refund issued orderId=ORD-65845693 amount=7499.00 INR
+2026-09-11 16:49:31.000  INFO 1 --- [refund-worker-9] c.k.payments.refund.RefundService        : Refund issued orderId=ORD-51500736 amount=899.00 INR
+2026-09-11 16:51:24.000  INFO 1 --- [refund-worker-0] c.k.payments.refund.RefundService        : Refund issued orderId=ORD-40745646 amount=7499.00 INR
+2026-09-11 16:52:31.000  INFO 1 --- [refund-worker-2] c.k.payments.refund.RefundService        : Refund issued orderId=ORD-53122811 amount=899.00 INR
+2026-09-11 16:54:21.000  INFO 1 --- [refund-worker-8] c.k.payments.refund.RefundService        : Refund issued orderId=ORD-79802066 amount=12999.00 INR
+2026-09-11 16:55:32.000  INFO 1 --- [refund-worker-10] c.k.payments.refund.RefundService        : Refund issued orderId=ORD-83000387 amount=1299.00 INR
+2026-09-11 16:56:43.000  INFO 1 --- [refund-worker-6] c.k.payments.refund.RefundService        : Refund issued orderId=ORD-95978627 amount=899.00 INR
+2026-09-11 16:58:23.000  INFO 1 --- [refund-worker-0] c.k.payments.refund.RefundService        : Refund issued orderId=ORD-73898059 amount=3999.00 INR
+2026-09-11 16:59:52.000  INFO 1 --- [refund-worker-5] c.k.payments.refund.RefundService        : Refund issued orderId=ORD-23231526 amount=12999.00 INR
+2026-09-11 17:01:06.000  INFO 1 --- [refund-worker-1] c.k.payments.refund.RefundService        : Refund issued orderId=ORD-58650358 amount=24999.00 INR
+2026-09-11 17:02:38.000  INFO 1 --- [refund-worker-5] c.k.payments.refund.RefundService        : Refund issued orderId=ORD-98653759 amount=899.00 INR
+2026-09-11 17:04:31.000  INFO 1 --- [refund-worker-1] c.k.payments.refund.RefundService        : Refund issued orderId=ORD-70567427 amount=1299.00 INR
+2026-09-11 17:06:28.000  INFO 1 --- [refund-worker-2] c.k.payments.refund.RefundService        : Refund issued orderId=ORD-92658318 amount=499.00 INR
+2026-09-11 17:08:12.000  INFO 1 --- [refund-worker-1] c.k.payments.refund.RefundService        : Refund issued orderId=ORD-74072440 amount=1299.00 INR

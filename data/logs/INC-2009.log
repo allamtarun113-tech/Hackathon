@@ -1,0 +1,109 @@
+{"level":"info","ts":"2026-02-24T13:20:00.000Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_9398692","latency_ms":74}
+{"level":"info","ts":"2026-02-24T13:20:35.952Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_8791985","latency_ms":362}
+{"level":"info","ts":"2026-02-24T13:21:21.726Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_4370536","latency_ms":188}
+{"level":"info","ts":"2026-02-24T13:22:11.923Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_7442959","latency_ms":103}
+{"level":"info","ts":"2026-02-24T13:23:01.091Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_9613902","latency_ms":331}
+{"level":"info","ts":"2026-02-24T13:24:09.869Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_7124164","latency_ms":277}
+{"level":"info","ts":"2026-02-24T13:24:37.612Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_4698164","latency_ms":79}
+{"level":"info","ts":"2026-02-24T13:25:09.180Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_1332992","latency_ms":373}
+{"level":"info","ts":"2026-02-24T13:25:53.365Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_1946973","latency_ms":220}
+{"level":"info","ts":"2026-02-24T13:26:31.228Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_5294252","latency_ms":147}
+{"level":"info","ts":"2026-02-24T13:27:25.543Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_4100250","latency_ms":370}
+{"level":"info","ts":"2026-02-24T13:28:12.458Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_1485860","latency_ms":297}
+{"level":"info","ts":"2026-02-24T13:28:48.304Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_3487536","latency_ms":102}
+{"level":"info","ts":"2026-02-24T13:29:57.990Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_2490334","latency_ms":65}
+{"level":"info","ts":"2026-02-24T13:30:57.106Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_3154927","latency_ms":354}
+{"level":"info","ts":"2026-02-24T13:31:34.448Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_9061283","latency_ms":215}
+{"level":"info","ts":"2026-02-24T13:32:17.971Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_6717148","latency_ms":289}
+{"level":"info","ts":"2026-02-24T13:32:45.855Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_9044851","latency_ms":187}
+{"level":"info","ts":"2026-02-24T13:33:38.376Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_1192703","latency_ms":347}
+{"level":"info","ts":"2026-02-24T13:34:43.998Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_7656837","latency_ms":93}
+{"level":"info","ts":"2026-02-24T13:35:22.559Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_4233626","latency_ms":66}
+{"level":"warn","ts":"2026-02-24T13:36:22.010Z","caller":"otp/sender.go:58","msg":"otp delivery slow","operator":"airtel","dlr_latency_s":214}
+{"level":"info","ts":"2026-02-24T13:36:44.387Z","caller":"otp/verify.go:33","msg":"otp expired before verify","operator":"airtel","user_id":"u_9815490"}
+{"level":"warn","ts":"2026-02-24T13:37:07.604Z","caller":"otp/sender.go:58","msg":"otp delivery slow","operator":"airtel","dlr_latency_s":92}
+{"level":"info","ts":"2026-02-24T13:37:36.913Z","caller":"otp/verify.go:33","msg":"otp expired before verify","operator":"airtel","user_id":"u_7652256"}
+{"level":"warn","ts":"2026-02-24T13:37:54.629Z","caller":"otp/sender.go:58","msg":"otp delivery slow","operator":"airtel","dlr_latency_s":138}
+{"level":"info","ts":"2026-02-24T13:38:09.995Z","caller":"otp/verify.go:33","msg":"otp expired before verify","operator":"airtel","user_id":"u_3447791"}
+{"level":"info","ts":"2026-02-24T13:38:33.210Z","caller":"otp/verify.go:33","msg":"otp expired before verify","operator":"airtel","user_id":"u_2269868"}
+{"level":"warn","ts":"2026-02-24T13:39:03.139Z","caller":"otp/sender.go:58","msg":"otp delivery slow","operator":"airtel","dlr_latency_s":360}
+{"level":"info","ts":"2026-02-24T13:39:34.104Z","caller":"otp/verify.go:33","msg":"otp expired before verify","operator":"airtel","user_id":"u_6444591"}
+{"level":"info","ts":"2026-02-24T13:39:57.544Z","caller":"otp/verify.go:33","msg":"otp expired before verify","operator":"airtel","user_id":"u_3932548"}
+{"level":"warn","ts":"2026-02-24T13:40:12.815Z","caller":"otp/sender.go:58","msg":"otp delivery slow","operator":"airtel","dlr_latency_s":245}
+{"level":"info","ts":"2026-02-24T13:40:32.307Z","caller":"otp/verify.go:33","msg":"otp expired before verify","operator":"airtel","user_id":"u_2262809"}
+{"level":"warn","ts":"2026-02-24T13:40:51.192Z","caller":"otp/sender.go:58","msg":"otp delivery slow","operator":"airtel","dlr_latency_s":130}
+{"level":"warn","ts":"2026-02-24T13:41:10.570Z","caller":"otp/sender.go:58","msg":"otp delivery slow","operator":"airtel","dlr_latency_s":375}
+{"level":"info","ts":"2026-02-24T13:41:39.257Z","caller":"otp/verify.go:33","msg":"otp expired before verify","operator":"airtel","user_id":"u_4827013"}
+{"level":"warn","ts":"2026-02-24T13:42:09.337Z","caller":"otp/sender.go:58","msg":"otp delivery slow","operator":"airtel","dlr_latency_s":105}
+{"level":"warn","ts":"2026-02-24T13:42:30.522Z","caller":"otp/sender.go:58","msg":"otp delivery slow","operator":"airtel","dlr_latency_s":104}
+{"level":"info","ts":"2026-02-24T13:42:48.926Z","caller":"otp/verify.go:33","msg":"otp expired before verify","operator":"airtel","user_id":"u_1622644"}
+{"level":"warn","ts":"2026-02-24T13:43:08.950Z","caller":"otp/sender.go:58","msg":"otp delivery slow","operator":"airtel","dlr_latency_s":72}
+{"level":"warn","ts":"2026-02-24T13:43:32.873Z","caller":"otp/sender.go:58","msg":"otp delivery slow","operator":"airtel","dlr_latency_s":151}
+{"level":"warn","ts":"2026-02-24T13:43:57.252Z","caller":"otp/sender.go:58","msg":"otp delivery slow","operator":"airtel","dlr_latency_s":211}
+{"level":"info","ts":"2026-02-24T13:44:24.750Z","caller":"otp/verify.go:33","msg":"otp expired before verify","operator":"airtel","user_id":"u_4291749"}
+{"level":"warn","ts":"2026-02-24T13:44:42.693Z","caller":"otp/sender.go:58","msg":"otp delivery slow","operator":"airtel","dlr_latency_s":282}
+{"level":"warn","ts":"2026-02-24T13:45:06.638Z","caller":"otp/sender.go:58","msg":"otp delivery slow","operator":"airtel","dlr_latency_s":126}
+{"level":"info","ts":"2026-02-24T13:45:24.071Z","caller":"otp/verify.go:33","msg":"otp expired before verify","operator":"airtel","user_id":"u_8774001"}
+{"level":"warn","ts":"2026-02-24T13:45:54.133Z","caller":"otp/sender.go:58","msg":"otp delivery slow","operator":"airtel","dlr_latency_s":355}
+{"level":"warn","ts":"2026-02-24T13:46:15.135Z","caller":"otp/sender.go:58","msg":"otp delivery slow","operator":"airtel","dlr_latency_s":84}
+{"level":"warn","ts":"2026-02-24T13:46:34.846Z","caller":"otp/sender.go:58","msg":"otp delivery slow","operator":"airtel","dlr_latency_s":84}
+{"level":"info","ts":"2026-02-24T13:47:04.553Z","caller":"otp/verify.go:33","msg":"otp expired before verify","operator":"airtel","user_id":"u_6174850"}
+{"level":"warn","ts":"2026-02-24T13:47:17.594Z","caller":"otp/sender.go:58","msg":"otp delivery slow","operator":"airtel","dlr_latency_s":161}
+{"level":"warn","ts":"2026-02-24T13:47:47.796Z","caller":"otp/sender.go:58","msg":"otp delivery slow","operator":"airtel","dlr_latency_s":196}
+{"level":"info","ts":"2026-02-24T13:48:12.417Z","caller":"otp/verify.go:33","msg":"otp expired before verify","operator":"airtel","user_id":"u_1327956"}
+{"level":"info","ts":"2026-02-24T13:48:33.201Z","caller":"otp/verify.go:33","msg":"otp expired before verify","operator":"airtel","user_id":"u_7268780"}
+{"level":"info","ts":"2026-02-24T13:49:01.340Z","caller":"otp/verify.go:33","msg":"otp expired before verify","operator":"airtel","user_id":"u_5832674"}
+{"level":"info","ts":"2026-02-24T13:49:26.244Z","caller":"otp/verify.go:33","msg":"otp expired before verify","operator":"airtel","user_id":"u_9587936"}
+{"level":"info","ts":"2026-02-24T13:49:55.440Z","caller":"otp/verify.go:33","msg":"otp expired before verify","operator":"airtel","user_id":"u_1077934"}
+{"level":"info","ts":"2026-02-24T13:50:22.436Z","caller":"otp/verify.go:33","msg":"otp expired before verify","operator":"airtel","user_id":"u_3688958"}
+{"level":"warn","ts":"2026-02-24T13:50:45.617Z","caller":"otp/sender.go:58","msg":"otp delivery slow","operator":"airtel","dlr_latency_s":98}
+{"level":"warn","ts":"2026-02-24T13:51:01.820Z","caller":"otp/sender.go:58","msg":"otp delivery slow","operator":"airtel","dlr_latency_s":354}
+{"level":"info","ts":"2026-02-24T13:51:28.535Z","caller":"otp/verify.go:33","msg":"otp expired before verify","operator":"airtel","user_id":"u_1408175"}
+{"level":"info","ts":"2026-02-24T13:51:49.877Z","caller":"otp/verify.go:33","msg":"otp expired before verify","operator":"airtel","user_id":"u_1887057"}
+{"level":"info","ts":"2026-02-24T13:52:15.651Z","caller":"otp/verify.go:33","msg":"otp expired before verify","operator":"airtel","user_id":"u_1787284"}
+{"level":"warn","ts":"2026-02-24T13:52:37.158Z","caller":"otp/sender.go:58","msg":"otp delivery slow","operator":"airtel","dlr_latency_s":185}
+{"level":"info","ts":"2026-02-24T13:53:00.192Z","caller":"otp/verify.go:33","msg":"otp expired before verify","operator":"airtel","user_id":"u_1067978"}
+{"level":"warn","ts":"2026-02-24T13:53:25.427Z","caller":"otp/sender.go:58","msg":"otp delivery slow","operator":"airtel","dlr_latency_s":213}
+{"level":"warn","ts":"2026-02-24T13:53:39.555Z","caller":"otp/sender.go:58","msg":"otp delivery slow","operator":"airtel","dlr_latency_s":63}
+{"level":"warn","ts":"2026-02-24T13:53:59.329Z","caller":"otp/sender.go:58","msg":"otp delivery slow","operator":"airtel","dlr_latency_s":375}
+{"level":"info","ts":"2026-02-24T13:54:14.248Z","caller":"otp/verify.go:33","msg":"otp expired before verify","operator":"airtel","user_id":"u_1506826"}
+{"level":"warn","ts":"2026-02-24T13:54:33.723Z","caller":"otp/sender.go:58","msg":"otp delivery slow","operator":"airtel","dlr_latency_s":305}
+{"level":"warn","ts":"2026-02-24T13:54:49.410Z","caller":"otp/sender.go:58","msg":"otp delivery slow","operator":"airtel","dlr_latency_s":278}
+{"level":"warn","ts":"2026-02-24T13:55:18.942Z","caller":"otp/sender.go:58","msg":"otp delivery slow","operator":"airtel","dlr_latency_s":89}
+{"level":"info","ts":"2026-02-24T13:55:46.026Z","caller":"otp/verify.go:33","msg":"otp expired before verify","operator":"airtel","user_id":"u_7576893"}
+{"level":"warn","ts":"2026-02-24T13:56:12.138Z","caller":"otp/sender.go:58","msg":"otp delivery slow","operator":"airtel","dlr_latency_s":329}
+{"level":"warn","ts":"2026-02-24T13:56:35.338Z","caller":"otp/sender.go:58","msg":"otp delivery slow","operator":"airtel","dlr_latency_s":66}
+{"level":"warn","ts":"2026-02-24T13:56:55.753Z","caller":"otp/sender.go:58","msg":"otp delivery slow","operator":"airtel","dlr_latency_s":270}
+{"level":"warn","ts":"2026-02-24T13:57:09.771Z","caller":"otp/sender.go:58","msg":"otp delivery slow","operator":"airtel","dlr_latency_s":197}
+{"level":"info","ts":"2026-02-24T13:57:25.526Z","caller":"otp/verify.go:33","msg":"otp expired before verify","operator":"airtel","user_id":"u_3007774"}
+{"level":"warn","ts":"2026-02-24T13:57:52.172Z","caller":"otp/sender.go:58","msg":"otp delivery slow","operator":"airtel","dlr_latency_s":259}
+{"level":"warn","ts":"2026-02-24T13:58:16.182Z","caller":"otp/sender.go:58","msg":"otp delivery slow","operator":"airtel","dlr_latency_s":244}
+{"level":"warn","ts":"2026-02-24T13:58:32.315Z","caller":"otp/sender.go:58","msg":"otp delivery slow","operator":"airtel","dlr_latency_s":243}
+{"level":"info","ts":"2026-02-24T13:58:50.364Z","caller":"otp/verify.go:33","msg":"otp expired before verify","operator":"airtel","user_id":"u_7849277"}
+{"level":"warn","ts":"2026-02-24T13:59:21.247Z","caller":"otp/sender.go:58","msg":"otp delivery slow","operator":"airtel","dlr_latency_s":268}
+{"level":"warn","ts":"2026-02-24T13:59:41.794Z","caller":"otp/sender.go:58","msg":"otp delivery slow","operator":"airtel","dlr_latency_s":70}
+{"level":"info","ts":"2026-02-24T14:00:05.569Z","caller":"otp/verify.go:33","msg":"otp expired before verify","operator":"airtel","user_id":"u_7224359"}
+{"level":"info","ts":"2026-02-24T14:00:29.249Z","caller":"otp/verify.go:33","msg":"otp expired before verify","operator":"airtel","user_id":"u_3606409"}
+{"level":"info","ts":"2026-02-24T14:00:53.583Z","caller":"otp/verify.go:33","msg":"otp expired before verify","operator":"airtel","user_id":"u_8721520"}
+{"level":"info","ts":"2026-02-24T14:01:12.766Z","caller":"otp/verify.go:33","msg":"otp expired before verify","operator":"airtel","user_id":"u_7269946"}
+{"level":"warn","ts":"2026-02-24T14:01:28.065Z","caller":"otp/sender.go:58","msg":"otp delivery slow","operator":"airtel","dlr_latency_s":346}
+{"level":"info","ts":"2026-02-24T14:01:42.836Z","caller":"otp/verify.go:33","msg":"otp expired before verify","operator":"airtel","user_id":"u_6480911"}
+{"level":"info","ts":"2026-02-24T14:02:07.276Z","caller":"otp/verify.go:33","msg":"otp expired before verify","operator":"airtel","user_id":"u_4102364"}
+{"level":"info","ts":"2026-02-24T14:02:26.336Z","caller":"otp/verify.go:33","msg":"otp expired before verify","operator":"airtel","user_id":"u_6438530"}
+{"level":"warn","ts":"2026-02-24T14:02:41.571Z","caller":"otp/sender.go:58","msg":"otp delivery slow","operator":"airtel","dlr_latency_s":95}
+{"level":"info","ts":"2026-02-24T14:02:58.000Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_8108452","latency_ms":307}
+{"level":"info","ts":"2026-02-24T14:03:43.000Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_2702292","latency_ms":345}
+{"level":"info","ts":"2026-02-24T14:05:26.000Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_8725682","latency_ms":182}
+{"level":"info","ts":"2026-02-24T14:07:10.000Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_4221434","latency_ms":128}
+{"level":"info","ts":"2026-02-24T14:08:19.000Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_3789893","latency_ms":237}
+{"level":"info","ts":"2026-02-24T14:09:04.000Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_8808840","latency_ms":361}
+{"level":"info","ts":"2026-02-24T14:10:50.000Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_6835664","latency_ms":233}
+{"level":"info","ts":"2026-02-24T14:12:01.000Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_7372269","latency_ms":291}
+{"level":"info","ts":"2026-02-24T14:13:00.000Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_4690047","latency_ms":219}
+{"level":"info","ts":"2026-02-24T14:13:57.000Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_8856300","latency_ms":84}
+{"level":"info","ts":"2026-02-24T14:14:39.000Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_4028323","latency_ms":269}
+{"level":"info","ts":"2026-02-24T14:15:19.000Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_4075363","latency_ms":113}
+{"level":"info","ts":"2026-02-24T14:17:13.000Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_9970668","latency_ms":307}
+{"level":"info","ts":"2026-02-24T14:19:07.000Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_2097755","latency_ms":64}
+{"level":"info","ts":"2026-02-24T14:20:58.000Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_4150506","latency_ms":223}
+{"level":"info","ts":"2026-02-24T14:22:10.000Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_7624988","latency_ms":226}

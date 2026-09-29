@@ -1,0 +1,102 @@
+2026-04-13 12:00:00.000  INFO 1 --- [http-nio-8080-exec-162] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-55533765 amount=199.00 INR gateway=razorpay latencyMs=65
+2026-04-13 12:00:28.241  INFO 1 --- [http-nio-8080-exec-108] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-57882076 amount=1299.00 INR gateway=razorpay latencyMs=154
+2026-04-13 12:01:38.920  INFO 1 --- [http-nio-8080-exec-186] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-30201789 amount=7499.00 INR gateway=razorpay latencyMs=295
+2026-04-13 12:02:18.807  INFO 1 --- [http-nio-8080-exec-18] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-33224104 amount=199.00 INR gateway=razorpay latencyMs=305
+2026-04-13 12:03:10.239  INFO 1 --- [http-nio-8080-exec-67] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-52514868 amount=349.00 INR gateway=razorpay latencyMs=301
+2026-04-13 12:03:58.463  INFO 1 --- [http-nio-8080-exec-118] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-23834340 amount=3999.00 INR gateway=razorpay latencyMs=216
+2026-04-13 12:05:05.873  INFO 1 --- [http-nio-8080-exec-132] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-42348988 amount=349.00 INR gateway=razorpay latencyMs=240
+2026-04-13 12:05:38.866  INFO 1 --- [http-nio-8080-exec-96] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-61035881 amount=12999.00 INR gateway=razorpay latencyMs=345
+2026-04-13 12:06:10.438  INFO 1 --- [http-nio-8080-exec-31] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-81494597 amount=199.00 INR gateway=razorpay latencyMs=321
+2026-04-13 12:06:45.931  INFO 1 --- [http-nio-8080-exec-160] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-90245454 amount=2499.00 INR gateway=razorpay latencyMs=245
+2026-04-13 12:07:12.615  INFO 1 --- [http-nio-8080-exec-3] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-49432349 amount=899.00 INR gateway=razorpay latencyMs=224
+2026-04-13 12:07:41.549  INFO 1 --- [http-nio-8080-exec-130] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-66422568 amount=499.00 INR gateway=razorpay latencyMs=318
+2026-04-13 12:08:18.620  INFO 1 --- [http-nio-8080-exec-66] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-12914281 amount=7499.00 INR gateway=razorpay latencyMs=116
+2026-04-13 12:08:57.807  INFO 1 --- [http-nio-8080-exec-100] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-93928739 amount=1299.00 INR gateway=razorpay latencyMs=105
+2026-04-13 12:09:59.899  INFO 1 --- [http-nio-8080-exec-123] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-37919033 amount=349.00 INR gateway=razorpay latencyMs=219
+2026-04-13 12:10:36.439  INFO 1 --- [http-nio-8080-exec-6] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-86895101 amount=349.00 INR gateway=razorpay latencyMs=182
+2026-04-13 12:11:13.229  INFO 1 --- [http-nio-8080-exec-22] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-25757134 amount=2499.00 INR gateway=razorpay latencyMs=196
+2026-04-13 12:11:54.349  INFO 1 --- [http-nio-8080-exec-176] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-60238657 amount=3999.00 INR gateway=razorpay latencyMs=162
+2026-04-13 12:12:46.927  INFO 1 --- [http-nio-8080-exec-138] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-60414424 amount=12999.00 INR gateway=razorpay latencyMs=309
+2026-04-13 12:13:25.194  INFO 1 --- [http-nio-8080-exec-5] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-45071759 amount=349.00 INR gateway=razorpay latencyMs=233
+2026-04-13 12:13:52.762  INFO 1 --- [http-nio-8080-exec-117] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-32487891 amount=7499.00 INR gateway=razorpay latencyMs=73
+2026-04-13 12:14:33.345  INFO 1 --- [http-nio-8080-exec-110] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-72227948 amount=899.00 INR gateway=razorpay latencyMs=248
+2026-04-13 12:15:29.003  INFO 1 --- [http-nio-8080-exec-61] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-65376273 amount=7499.00 INR gateway=razorpay latencyMs=254
+2026-04-13 12:16:36.452 ERROR 1 --- [http-nio-8080-exec-169] c.k.payments.gateway.RazorpayClient      : POST https://api.razorpay.com/v1/payments/create returned 401 Unauthorized: The api key provided is invalid
+2026-04-13 12:17:00.256  WARN 1 --- [http-nio-8080-exec-103] c.k.payments.api.ChargeController      : Gateway call failed, returning 502 orderId=ORD-58217107 gateway=razorpay
+2026-04-13 12:17:14.974 ERROR 1 --- [http-nio-8080-exec-159] c.k.payments.gateway.RazorpayClient      : POST https://api.razorpay.com/v1/payments/create returned 401 Unauthorized: The api key provided is invalid
+2026-04-13 12:17:27.325  WARN 1 --- [http-nio-8080-exec-114] c.k.payments.api.ChargeController      : Gateway call failed, returning 502 orderId=ORD-85750945 gateway=razorpay
+2026-04-13 12:17:39.974  WARN 1 --- [http-nio-8080-exec-72] c.k.payments.api.ChargeController      : Gateway call failed, returning 502 orderId=ORD-47975528 gateway=razorpay
+2026-04-13 12:17:56.882  WARN 1 --- [http-nio-8080-exec-185] c.k.payments.api.ChargeController      : Gateway call failed, returning 502 orderId=ORD-40728880 gateway=razorpay
+2026-04-13 12:18:07.039 ERROR 1 --- [http-nio-8080-exec-51] c.k.payments.gateway.RazorpayClient      : POST https://api.razorpay.com/v1/payments/create returned 401 Unauthorized: The api key provided is invalid
+2026-04-13 12:18:25.103 ERROR 1 --- [http-nio-8080-exec-195] c.k.payments.gateway.RazorpayClient      : POST https://api.razorpay.com/v1/payments/create returned 401 Unauthorized: The api key provided is invalid
+2026-04-13 12:18:38.496  WARN 1 --- [http-nio-8080-exec-180] c.k.payments.api.ChargeController      : Gateway call failed, returning 502 orderId=ORD-48436346 gateway=razorpay
+2026-04-13 12:19:01.190  WARN 1 --- [http-nio-8080-exec-179] c.k.payments.api.ChargeController      : Gateway call failed, returning 502 orderId=ORD-78953738 gateway=razorpay
+2026-04-13 12:19:23.518  WARN 1 --- [http-nio-8080-exec-147] c.k.payments.api.ChargeController      : Gateway call failed, returning 502 orderId=ORD-19679315 gateway=razorpay
+2026-04-13 12:19:45.568 ERROR 1 --- [http-nio-8080-exec-188] c.k.payments.gateway.RazorpayClient      : POST https://api.razorpay.com/v1/payments/create returned 401 Unauthorized: The api key provided is invalid
+2026-04-13 12:20:07.627  WARN 1 --- [http-nio-8080-exec-32] c.k.payments.api.ChargeController      : Gateway call failed, returning 502 orderId=ORD-50375318 gateway=razorpay
+2026-04-13 12:20:24.416 ERROR 1 --- [http-nio-8080-exec-32] c.k.payments.gateway.RazorpayClient      : POST https://api.razorpay.com/v1/payments/create returned 401 Unauthorized: The api key provided is invalid
+2026-04-13 12:20:39.320 ERROR 1 --- [http-nio-8080-exec-66] c.k.payments.gateway.RazorpayClient      : POST https://api.razorpay.com/v1/payments/create returned 401 Unauthorized: The api key provided is invalid
+2026-04-13 12:20:50.509  WARN 1 --- [http-nio-8080-exec-56] c.k.payments.api.ChargeController      : Gateway call failed, returning 502 orderId=ORD-25453319 gateway=razorpay
+2026-04-13 12:21:01.145 ERROR 1 --- [http-nio-8080-exec-146] c.k.payments.gateway.RazorpayClient      : POST https://api.razorpay.com/v1/payments/create returned 401 Unauthorized: The api key provided is invalid
+2026-04-13 12:21:16.757 ERROR 1 --- [http-nio-8080-exec-169] c.k.payments.gateway.RazorpayClient      : POST https://api.razorpay.com/v1/payments/create returned 401 Unauthorized: The api key provided is invalid
+2026-04-13 12:21:38.902 ERROR 1 --- [http-nio-8080-exec-174] c.k.payments.gateway.RazorpayClient      : POST https://api.razorpay.com/v1/payments/create returned 401 Unauthorized: The api key provided is invalid
+2026-04-13 12:21:56.944  WARN 1 --- [http-nio-8080-exec-25] c.k.payments.api.ChargeController      : Gateway call failed, returning 502 orderId=ORD-18684707 gateway=razorpay
+2026-04-13 12:22:12.153  WARN 1 --- [http-nio-8080-exec-8] c.k.payments.api.ChargeController      : Gateway call failed, returning 502 orderId=ORD-13568300 gateway=razorpay
+2026-04-13 12:22:22.740  WARN 1 --- [http-nio-8080-exec-127] c.k.payments.api.ChargeController      : Gateway call failed, returning 502 orderId=ORD-72127809 gateway=razorpay
+2026-04-13 12:22:34.438 ERROR 1 --- [http-nio-8080-exec-177] c.k.payments.gateway.RazorpayClient      : POST https://api.razorpay.com/v1/payments/create returned 401 Unauthorized: The api key provided is invalid
+2026-04-13 12:22:57.495  WARN 1 --- [http-nio-8080-exec-168] c.k.payments.api.ChargeController      : Gateway call failed, returning 502 orderId=ORD-85588849 gateway=razorpay
+2026-04-13 12:23:12.163 ERROR 1 --- [http-nio-8080-exec-94] c.k.payments.gateway.RazorpayClient      : POST https://api.razorpay.com/v1/payments/create returned 401 Unauthorized: The api key provided is invalid
+2026-04-13 12:23:31.402 ERROR 1 --- [http-nio-8080-exec-150] c.k.payments.gateway.RazorpayClient      : POST https://api.razorpay.com/v1/payments/create returned 401 Unauthorized: The api key provided is invalid
+2026-04-13 12:23:55.553 ERROR 1 --- [http-nio-8080-exec-40] c.k.payments.gateway.RazorpayClient      : POST https://api.razorpay.com/v1/payments/create returned 401 Unauthorized: The api key provided is invalid
+2026-04-13 12:24:18.457  WARN 1 --- [http-nio-8080-exec-146] c.k.payments.api.ChargeController      : Gateway call failed, returning 502 orderId=ORD-79918655 gateway=razorpay
+2026-04-13 12:24:31.482 ERROR 1 --- [http-nio-8080-exec-95] c.k.payments.gateway.RazorpayClient      : POST https://api.razorpay.com/v1/payments/create returned 401 Unauthorized: The api key provided is invalid
+2026-04-13 12:24:56.366  WARN 1 --- [http-nio-8080-exec-98] c.k.payments.api.ChargeController      : Gateway call failed, returning 502 orderId=ORD-14278567 gateway=razorpay
+2026-04-13 12:25:07.181 ERROR 1 --- [http-nio-8080-exec-174] c.k.payments.gateway.RazorpayClient      : POST https://api.razorpay.com/v1/payments/create returned 401 Unauthorized: The api key provided is invalid
+2026-04-13 12:25:28.080  WARN 1 --- [http-nio-8080-exec-184] c.k.payments.api.ChargeController      : Gateway call failed, returning 502 orderId=ORD-83794801 gateway=razorpay
+2026-04-13 12:25:50.411 ERROR 1 --- [http-nio-8080-exec-63] c.k.payments.gateway.RazorpayClient      : POST https://api.razorpay.com/v1/payments/create returned 401 Unauthorized: The api key provided is invalid
+2026-04-13 12:26:09.475 ERROR 1 --- [http-nio-8080-exec-166] c.k.payments.gateway.RazorpayClient      : POST https://api.razorpay.com/v1/payments/create returned 401 Unauthorized: The api key provided is invalid
+2026-04-13 12:26:33.476  WARN 1 --- [http-nio-8080-exec-158] c.k.payments.api.ChargeController      : Gateway call failed, returning 502 orderId=ORD-94555203 gateway=razorpay
+2026-04-13 12:26:49.352  WARN 1 --- [http-nio-8080-exec-125] c.k.payments.api.ChargeController      : Gateway call failed, returning 502 orderId=ORD-44364419 gateway=razorpay
+2026-04-13 12:27:10.521  WARN 1 --- [http-nio-8080-exec-132] c.k.payments.api.ChargeController      : Gateway call failed, returning 502 orderId=ORD-48086655 gateway=razorpay
+2026-04-13 12:27:27.328 ERROR 1 --- [http-nio-8080-exec-10] c.k.payments.gateway.RazorpayClient      : POST https://api.razorpay.com/v1/payments/create returned 401 Unauthorized: The api key provided is invalid
+2026-04-13 12:27:49.547  WARN 1 --- [http-nio-8080-exec-123] c.k.payments.api.ChargeController      : Gateway call failed, returning 502 orderId=ORD-98725849 gateway=razorpay
+2026-04-13 12:28:10.507 ERROR 1 --- [http-nio-8080-exec-32] c.k.payments.gateway.RazorpayClient      : POST https://api.razorpay.com/v1/payments/create returned 401 Unauthorized: The api key provided is invalid
+2026-04-13 12:28:25.112 ERROR 1 --- [http-nio-8080-exec-68] c.k.payments.gateway.RazorpayClient      : POST https://api.razorpay.com/v1/payments/create returned 401 Unauthorized: The api key provided is invalid
+2026-04-13 12:28:46.168  WARN 1 --- [http-nio-8080-exec-105] c.k.payments.api.ChargeController      : Gateway call failed, returning 502 orderId=ORD-43600698 gateway=razorpay
+2026-04-13 12:29:03.315  WARN 1 --- [http-nio-8080-exec-139] c.k.payments.api.ChargeController      : Gateway call failed, returning 502 orderId=ORD-67807025 gateway=razorpay
+2026-04-13 12:29:22.006  WARN 1 --- [http-nio-8080-exec-191] c.k.payments.api.ChargeController      : Gateway call failed, returning 502 orderId=ORD-22415876 gateway=razorpay
+2026-04-13 12:29:46.242 ERROR 1 --- [http-nio-8080-exec-139] c.k.payments.gateway.RazorpayClient      : POST https://api.razorpay.com/v1/payments/create returned 401 Unauthorized: The api key provided is invalid
+2026-04-13 12:30:09.207  WARN 1 --- [http-nio-8080-exec-168] c.k.payments.api.ChargeController      : Gateway call failed, returning 502 orderId=ORD-66670197 gateway=razorpay
+2026-04-13 12:30:20.011  WARN 1 --- [http-nio-8080-exec-117] c.k.payments.api.ChargeController      : Gateway call failed, returning 502 orderId=ORD-84336768 gateway=razorpay
+2026-04-13 12:30:36.952 ERROR 1 --- [http-nio-8080-exec-3] c.k.payments.gateway.RazorpayClient      : POST https://api.razorpay.com/v1/payments/create returned 401 Unauthorized: The api key provided is invalid
+2026-04-13 12:30:48.721  WARN 1 --- [http-nio-8080-exec-42] c.k.payments.api.ChargeController      : Gateway call failed, returning 502 orderId=ORD-31734697 gateway=razorpay
+2026-04-13 12:31:07.029 ERROR 1 --- [http-nio-8080-exec-140] c.k.payments.gateway.RazorpayClient      : POST https://api.razorpay.com/v1/payments/create returned 401 Unauthorized: The api key provided is invalid
+2026-04-13 12:31:21.471 ERROR 1 --- [http-nio-8080-exec-78] c.k.payments.gateway.RazorpayClient      : POST https://api.razorpay.com/v1/payments/create returned 401 Unauthorized: The api key provided is invalid
+2026-04-13 12:31:42.897 ERROR 1 --- [http-nio-8080-exec-88] c.k.payments.gateway.RazorpayClient      : POST https://api.razorpay.com/v1/payments/create returned 401 Unauthorized: The api key provided is invalid
+2026-04-13 12:31:58.347  WARN 1 --- [http-nio-8080-exec-42] c.k.payments.api.ChargeController      : Gateway call failed, returning 502 orderId=ORD-97541401 gateway=razorpay
+2026-04-13 12:32:17.403 ERROR 1 --- [http-nio-8080-exec-107] c.k.payments.gateway.RazorpayClient      : POST https://api.razorpay.com/v1/payments/create returned 401 Unauthorized: The api key provided is invalid
+2026-04-13 12:32:27.451 ERROR 1 --- [http-nio-8080-exec-118] c.k.payments.gateway.RazorpayClient      : POST https://api.razorpay.com/v1/payments/create returned 401 Unauthorized: The api key provided is invalid
+2026-04-13 12:32:44.144 ERROR 1 --- [http-nio-8080-exec-13] c.k.payments.gateway.RazorpayClient      : POST https://api.razorpay.com/v1/payments/create returned 401 Unauthorized: The api key provided is invalid
+2026-04-13 12:32:54.375  WARN 1 --- [http-nio-8080-exec-90] c.k.payments.api.ChargeController      : Gateway call failed, returning 502 orderId=ORD-61218418 gateway=razorpay
+2026-04-13 12:33:13.309 ERROR 1 --- [http-nio-8080-exec-151] c.k.payments.gateway.RazorpayClient      : POST https://api.razorpay.com/v1/payments/create returned 401 Unauthorized: The api key provided is invalid
+2026-04-13 12:33:23.497  WARN 1 --- [http-nio-8080-exec-38] c.k.payments.api.ChargeController      : Gateway call failed, returning 502 orderId=ORD-23105507 gateway=razorpay
+2026-04-13 12:33:35.070 ERROR 1 --- [http-nio-8080-exec-149] c.k.payments.gateway.RazorpayClient      : POST https://api.razorpay.com/v1/payments/create returned 401 Unauthorized: The api key provided is invalid
+2026-04-13 12:33:59.355  WARN 1 --- [http-nio-8080-exec-177] c.k.payments.api.ChargeController      : Gateway call failed, returning 502 orderId=ORD-16191104 gateway=razorpay
+2026-04-13 12:34:19.078 ERROR 1 --- [http-nio-8080-exec-162] c.k.payments.gateway.RazorpayClient      : POST https://api.razorpay.com/v1/payments/create returned 401 Unauthorized: The api key provided is invalid
+2026-04-13 12:34:37.633  WARN 1 --- [http-nio-8080-exec-9] c.k.payments.api.ChargeController      : Gateway call failed, returning 502 orderId=ORD-72146823 gateway=razorpay
+2026-04-13 12:34:59.769 ERROR 1 --- [http-nio-8080-exec-147] c.k.payments.gateway.RazorpayClient      : POST https://api.razorpay.com/v1/payments/create returned 401 Unauthorized: The api key provided is invalid
+2026-04-13 12:35:17.008  WARN 1 --- [http-nio-8080-exec-112] c.k.payments.api.ChargeController      : Gateway call failed, returning 502 orderId=ORD-65186323 gateway=razorpay
+2026-04-13 12:35:32.126  WARN 1 --- [http-nio-8080-exec-194] c.k.payments.api.ChargeController      : Gateway call failed, returning 502 orderId=ORD-82699527 gateway=razorpay
+2026-04-13 12:35:46.874 ERROR 1 --- [http-nio-8080-exec-126] c.k.payments.gateway.RazorpayClient      : POST https://api.razorpay.com/v1/payments/create returned 401 Unauthorized: The api key provided is invalid
+2026-04-13 12:35:59.611  WARN 1 --- [http-nio-8080-exec-156] c.k.payments.api.ChargeController      : Gateway call failed, returning 502 orderId=ORD-63251026 gateway=razorpay
+2026-04-13 12:36:23.157  WARN 1 --- [http-nio-8080-exec-147] c.k.payments.api.ChargeController      : Gateway call failed, returning 502 orderId=ORD-62718828 gateway=razorpay
+2026-04-13 12:36:43.815 ERROR 1 --- [http-nio-8080-exec-190] c.k.payments.gateway.RazorpayClient      : POST https://api.razorpay.com/v1/payments/create returned 401 Unauthorized: The api key provided is invalid
+2026-04-13 12:36:59.230  WARN 1 --- [http-nio-8080-exec-149] c.k.payments.api.ChargeController      : Gateway call failed, returning 502 orderId=ORD-35451075 gateway=razorpay
+2026-04-13 12:37:08.000  INFO 1 --- [http-nio-8080-exec-42] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-47226846 amount=2499.00 INR gateway=razorpay latencyMs=162
+2026-04-13 12:37:52.000  INFO 1 --- [http-nio-8080-exec-150] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-32138070 amount=499.00 INR gateway=razorpay latencyMs=113
+2026-04-13 12:39:07.000  INFO 1 --- [http-nio-8080-exec-89] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-81824857 amount=499.00 INR gateway=razorpay latencyMs=180
+2026-04-13 12:40:27.000  INFO 1 --- [http-nio-8080-exec-28] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-95225094 amount=24999.00 INR gateway=razorpay latencyMs=250
+2026-04-13 12:42:02.000  INFO 1 --- [http-nio-8080-exec-76] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-34568091 amount=12999.00 INR gateway=razorpay latencyMs=204
+2026-04-13 12:43:58.000  INFO 1 --- [http-nio-8080-exec-15] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-19386449 amount=899.00 INR gateway=razorpay latencyMs=90
+2026-04-13 12:45:33.000  INFO 1 --- [http-nio-8080-exec-20] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-37990430 amount=899.00 INR gateway=razorpay latencyMs=186
+2026-04-13 12:47:12.000  INFO 1 --- [http-nio-8080-exec-26] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-20573732 amount=24999.00 INR gateway=razorpay latencyMs=256

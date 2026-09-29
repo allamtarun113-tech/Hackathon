@@ -1,0 +1,107 @@
+{"level":"info","ts":"2026-08-25T04:50:00.000Z","caller":"http/verify.go:40","msg":"token ok","kid":"k-2026-07","user_id":"u_9152823"}
+{"level":"info","ts":"2026-08-25T04:50:54.944Z","caller":"http/verify.go:40","msg":"token ok","kid":"k-2026-07","user_id":"u_8169116"}
+{"level":"info","ts":"2026-08-25T04:51:44.837Z","caller":"http/verify.go:40","msg":"token ok","kid":"k-2026-07","user_id":"u_4776026"}
+{"level":"info","ts":"2026-08-25T04:52:45.479Z","caller":"http/verify.go:40","msg":"token ok","kid":"k-2026-07","user_id":"u_3443423"}
+{"level":"info","ts":"2026-08-25T04:53:18.851Z","caller":"http/verify.go:40","msg":"token ok","kid":"k-2026-07","user_id":"u_2125489"}
+{"level":"info","ts":"2026-08-25T04:54:24.522Z","caller":"http/verify.go:40","msg":"token ok","kid":"k-2026-07","user_id":"u_9269210"}
+{"level":"info","ts":"2026-08-25T04:55:18.972Z","caller":"http/verify.go:40","msg":"token ok","kid":"k-2026-07","user_id":"u_5601580"}
+{"level":"info","ts":"2026-08-25T04:56:24.833Z","caller":"http/verify.go:40","msg":"token ok","kid":"k-2026-07","user_id":"u_4914824"}
+{"level":"info","ts":"2026-08-25T04:57:02.742Z","caller":"http/verify.go:40","msg":"token ok","kid":"k-2026-07","user_id":"u_2545604"}
+{"level":"info","ts":"2026-08-25T04:57:44.474Z","caller":"http/verify.go:40","msg":"token ok","kid":"k-2026-07","user_id":"u_4529400"}
+{"level":"info","ts":"2026-08-25T04:58:29.671Z","caller":"http/verify.go:40","msg":"token ok","kid":"k-2026-07","user_id":"u_8172354"}
+{"level":"info","ts":"2026-08-25T04:59:22.051Z","caller":"http/verify.go:40","msg":"token ok","kid":"k-2026-07","user_id":"u_2976493"}
+{"level":"info","ts":"2026-08-25T04:59:51.135Z","caller":"http/verify.go:40","msg":"token ok","kid":"k-2026-07","user_id":"u_9815176"}
+{"level":"info","ts":"2026-08-25T05:01:00.381Z","caller":"http/verify.go:40","msg":"token ok","kid":"k-2026-07","user_id":"u_3873238"}
+{"level":"info","ts":"2026-08-25T05:01:40.741Z","caller":"http/verify.go:40","msg":"token ok","kid":"k-2026-07","user_id":"u_8349211"}
+{"level":"info","ts":"2026-08-25T05:02:15.889Z","caller":"http/verify.go:40","msg":"token ok","kid":"k-2026-07","user_id":"u_6319466"}
+{"level":"info","ts":"2026-08-25T05:02:44.413Z","caller":"http/verify.go:40","msg":"token ok","kid":"k-2026-07","user_id":"u_5193323"}
+{"level":"info","ts":"2026-08-25T05:03:15.796Z","caller":"http/verify.go:40","msg":"token ok","kid":"k-2026-07","user_id":"u_2796361"}
+{"level":"info","ts":"2026-08-25T05:03:54.233Z","caller":"http/verify.go:40","msg":"token ok","kid":"k-2026-07","user_id":"u_7323292"}
+{"level":"info","ts":"2026-08-25T05:04:57.849Z","caller":"http/verify.go:40","msg":"token ok","kid":"k-2026-07","user_id":"u_8801841"}
+{"level":"info","ts":"2026-08-25T05:05:44.405Z","caller":"http/verify.go:40","msg":"token ok","kid":"k-2026-07","user_id":"u_7837073"}
+{"level":"warn","ts":"2026-08-25T05:06:54.906Z","caller":"http/verify.go:52","msg":"token rejected","error":"token signed with unknown key id k-2026-08","user_id":"u_6812070"}
+{"level":"info","ts":"2026-08-25T05:07:13.258Z","caller":"jwks/cache.go:22","msg":"jwks cache age","age_minutes":1440}
+{"level":"warn","ts":"2026-08-25T05:07:38.904Z","caller":"http/verify.go:52","msg":"token rejected","error":"token signed with unknown key id k-2026-08","user_id":"u_3985918"}
+{"level":"info","ts":"2026-08-25T05:08:07.262Z","caller":"jwks/cache.go:22","msg":"jwks cache age","age_minutes":1440}
+{"level":"warn","ts":"2026-08-25T05:08:40.244Z","caller":"http/verify.go:52","msg":"token rejected","error":"token signed with unknown key id k-2026-08","user_id":"u_8784621"}
+{"level":"warn","ts":"2026-08-25T05:09:12.118Z","caller":"http/verify.go:52","msg":"token rejected","error":"token signed with unknown key id k-2026-08","user_id":"u_9227807"}
+{"level":"info","ts":"2026-08-25T05:09:28.708Z","caller":"jwks/cache.go:22","msg":"jwks cache age","age_minutes":1440}
+{"level":"warn","ts":"2026-08-25T05:09:44.280Z","caller":"http/verify.go:52","msg":"token rejected","error":"token signed with unknown key id k-2026-08","user_id":"u_6186840"}
+{"level":"info","ts":"2026-08-25T05:10:16.790Z","caller":"jwks/cache.go:22","msg":"jwks cache age","age_minutes":1440}
+{"level":"info","ts":"2026-08-25T05:10:37.912Z","caller":"jwks/cache.go:22","msg":"jwks cache age","age_minutes":1440}
+{"level":"info","ts":"2026-08-25T05:10:54.889Z","caller":"jwks/cache.go:22","msg":"jwks cache age","age_minutes":1440}
+{"level":"info","ts":"2026-08-25T05:11:14.904Z","caller":"jwks/cache.go:22","msg":"jwks cache age","age_minutes":1440}
+{"level":"info","ts":"2026-08-25T05:11:47.379Z","caller":"jwks/cache.go:22","msg":"jwks cache age","age_minutes":1440}
+{"level":"warn","ts":"2026-08-25T05:12:16.536Z","caller":"http/verify.go:52","msg":"token rejected","error":"token signed with unknown key id k-2026-08","user_id":"u_5153188"}
+{"level":"info","ts":"2026-08-25T05:12:49.195Z","caller":"jwks/cache.go:22","msg":"jwks cache age","age_minutes":1440}
+{"level":"info","ts":"2026-08-25T05:13:19.311Z","caller":"jwks/cache.go:22","msg":"jwks cache age","age_minutes":1440}
+{"level":"info","ts":"2026-08-25T05:13:36.826Z","caller":"jwks/cache.go:22","msg":"jwks cache age","age_minutes":1440}
+{"level":"info","ts":"2026-08-25T05:13:59.100Z","caller":"jwks/cache.go:22","msg":"jwks cache age","age_minutes":1440}
+{"level":"info","ts":"2026-08-25T05:14:28.091Z","caller":"jwks/cache.go:22","msg":"jwks cache age","age_minutes":1440}
+{"level":"info","ts":"2026-08-25T05:15:00.710Z","caller":"jwks/cache.go:22","msg":"jwks cache age","age_minutes":1440}
+{"level":"warn","ts":"2026-08-25T05:15:21.163Z","caller":"http/verify.go:52","msg":"token rejected","error":"token signed with unknown key id k-2026-08","user_id":"u_5987482"}
+{"level":"info","ts":"2026-08-25T05:15:53.433Z","caller":"jwks/cache.go:22","msg":"jwks cache age","age_minutes":1440}
+{"level":"info","ts":"2026-08-25T05:16:12.063Z","caller":"jwks/cache.go:22","msg":"jwks cache age","age_minutes":1440}
+{"level":"info","ts":"2026-08-25T05:16:39.279Z","caller":"jwks/cache.go:22","msg":"jwks cache age","age_minutes":1440}
+{"level":"warn","ts":"2026-08-25T05:17:08.636Z","caller":"http/verify.go:52","msg":"token rejected","error":"token signed with unknown key id k-2026-08","user_id":"u_7936145"}
+{"level":"info","ts":"2026-08-25T05:17:27.900Z","caller":"jwks/cache.go:22","msg":"jwks cache age","age_minutes":1440}
+{"level":"warn","ts":"2026-08-25T05:17:58.990Z","caller":"http/verify.go:52","msg":"token rejected","error":"token signed with unknown key id k-2026-08","user_id":"u_3634544"}
+{"level":"info","ts":"2026-08-25T05:18:14.024Z","caller":"jwks/cache.go:22","msg":"jwks cache age","age_minutes":1440}
+{"level":"info","ts":"2026-08-25T05:18:41.511Z","caller":"jwks/cache.go:22","msg":"jwks cache age","age_minutes":1440}
+{"level":"info","ts":"2026-08-25T05:19:06.956Z","caller":"jwks/cache.go:22","msg":"jwks cache age","age_minutes":1440}
+{"level":"info","ts":"2026-08-25T05:19:36.870Z","caller":"jwks/cache.go:22","msg":"jwks cache age","age_minutes":1440}
+{"level":"info","ts":"2026-08-25T05:20:08.507Z","caller":"jwks/cache.go:22","msg":"jwks cache age","age_minutes":1440}
+{"level":"info","ts":"2026-08-25T05:20:26.466Z","caller":"jwks/cache.go:22","msg":"jwks cache age","age_minutes":1440}
+{"level":"info","ts":"2026-08-25T05:20:45.182Z","caller":"jwks/cache.go:22","msg":"jwks cache age","age_minutes":1440}
+{"level":"info","ts":"2026-08-25T05:21:07.953Z","caller":"jwks/cache.go:22","msg":"jwks cache age","age_minutes":1440}
+{"level":"warn","ts":"2026-08-25T05:21:35.788Z","caller":"http/verify.go:52","msg":"token rejected","error":"token signed with unknown key id k-2026-08","user_id":"u_4656524"}
+{"level":"info","ts":"2026-08-25T05:22:07.967Z","caller":"jwks/cache.go:22","msg":"jwks cache age","age_minutes":1440}
+{"level":"warn","ts":"2026-08-25T05:22:31.378Z","caller":"http/verify.go:52","msg":"token rejected","error":"token signed with unknown key id k-2026-08","user_id":"u_7731832"}
+{"level":"info","ts":"2026-08-25T05:22:47.827Z","caller":"jwks/cache.go:22","msg":"jwks cache age","age_minutes":1440}
+{"level":"info","ts":"2026-08-25T05:23:06.731Z","caller":"jwks/cache.go:22","msg":"jwks cache age","age_minutes":1440}
+{"level":"warn","ts":"2026-08-25T05:23:35.820Z","caller":"http/verify.go:52","msg":"token rejected","error":"token signed with unknown key id k-2026-08","user_id":"u_4913300"}
+{"level":"info","ts":"2026-08-25T05:23:56.953Z","caller":"jwks/cache.go:22","msg":"jwks cache age","age_minutes":1440}
+{"level":"info","ts":"2026-08-25T05:24:17.212Z","caller":"jwks/cache.go:22","msg":"jwks cache age","age_minutes":1440}
+{"level":"warn","ts":"2026-08-25T05:24:36.168Z","caller":"http/verify.go:52","msg":"token rejected","error":"token signed with unknown key id k-2026-08","user_id":"u_2313806"}
+{"level":"warn","ts":"2026-08-25T05:24:58.035Z","caller":"http/verify.go:52","msg":"token rejected","error":"token signed with unknown key id k-2026-08","user_id":"u_6544049"}
+{"level":"warn","ts":"2026-08-25T05:25:14.118Z","caller":"http/verify.go:52","msg":"token rejected","error":"token signed with unknown key id k-2026-08","user_id":"u_3460709"}
+{"level":"warn","ts":"2026-08-25T05:25:31.669Z","caller":"http/verify.go:52","msg":"token rejected","error":"token signed with unknown key id k-2026-08","user_id":"u_5031126"}
+{"level":"info","ts":"2026-08-25T05:25:48.116Z","caller":"jwks/cache.go:22","msg":"jwks cache age","age_minutes":1440}
+{"level":"info","ts":"2026-08-25T05:26:05.644Z","caller":"jwks/cache.go:22","msg":"jwks cache age","age_minutes":1440}
+{"level":"warn","ts":"2026-08-25T05:26:27.153Z","caller":"http/verify.go:52","msg":"token rejected","error":"token signed with unknown key id k-2026-08","user_id":"u_9851524"}
+{"level":"warn","ts":"2026-08-25T05:26:42.813Z","caller":"http/verify.go:52","msg":"token rejected","error":"token signed with unknown key id k-2026-08","user_id":"u_9940466"}
+{"level":"info","ts":"2026-08-25T05:27:09.704Z","caller":"jwks/cache.go:22","msg":"jwks cache age","age_minutes":1440}
+{"level":"warn","ts":"2026-08-25T05:27:42.568Z","caller":"http/verify.go:52","msg":"token rejected","error":"token signed with unknown key id k-2026-08","user_id":"u_8056527"}
+{"level":"info","ts":"2026-08-25T05:28:13.138Z","caller":"jwks/cache.go:22","msg":"jwks cache age","age_minutes":1440}
+{"level":"info","ts":"2026-08-25T05:28:31.183Z","caller":"jwks/cache.go:22","msg":"jwks cache age","age_minutes":1440}
+{"level":"info","ts":"2026-08-25T05:28:51.051Z","caller":"jwks/cache.go:22","msg":"jwks cache age","age_minutes":1440}
+{"level":"info","ts":"2026-08-25T05:29:19.402Z","caller":"jwks/cache.go:22","msg":"jwks cache age","age_minutes":1440}
+{"level":"warn","ts":"2026-08-25T05:29:41.747Z","caller":"http/verify.go:52","msg":"token rejected","error":"token signed with unknown key id k-2026-08","user_id":"u_5729021"}
+{"level":"info","ts":"2026-08-25T05:30:07.506Z","caller":"jwks/cache.go:22","msg":"jwks cache age","age_minutes":1440}
+{"level":"info","ts":"2026-08-25T05:30:35.676Z","caller":"jwks/cache.go:22","msg":"jwks cache age","age_minutes":1440}
+{"level":"info","ts":"2026-08-25T05:31:00.320Z","caller":"jwks/cache.go:22","msg":"jwks cache age","age_minutes":1440}
+{"level":"warn","ts":"2026-08-25T05:31:17.636Z","caller":"http/verify.go:52","msg":"token rejected","error":"token signed with unknown key id k-2026-08","user_id":"u_6452476"}
+{"level":"warn","ts":"2026-08-25T05:31:41.233Z","caller":"http/verify.go:52","msg":"token rejected","error":"token signed with unknown key id k-2026-08","user_id":"u_3467863"}
+{"level":"info","ts":"2026-08-25T05:32:13.546Z","caller":"jwks/cache.go:22","msg":"jwks cache age","age_minutes":1440}
+{"level":"warn","ts":"2026-08-25T05:32:44.719Z","caller":"http/verify.go:52","msg":"token rejected","error":"token signed with unknown key id k-2026-08","user_id":"u_4414235"}
+{"level":"info","ts":"2026-08-25T05:32:59.488Z","caller":"jwks/cache.go:22","msg":"jwks cache age","age_minutes":1440}
+{"level":"warn","ts":"2026-08-25T05:33:32.396Z","caller":"http/verify.go:52","msg":"token rejected","error":"token signed with unknown key id k-2026-08","user_id":"u_9808179"}
+{"level":"warn","ts":"2026-08-25T05:33:56.329Z","caller":"http/verify.go:52","msg":"token rejected","error":"token signed with unknown key id k-2026-08","user_id":"u_8988987"}
+{"level":"info","ts":"2026-08-25T05:34:17.182Z","caller":"jwks/cache.go:22","msg":"jwks cache age","age_minutes":1440}
+{"level":"info","ts":"2026-08-25T05:34:38.325Z","caller":"jwks/cache.go:22","msg":"jwks cache age","age_minutes":1440}
+{"level":"warn","ts":"2026-08-25T05:34:57.196Z","caller":"http/verify.go:52","msg":"token rejected","error":"token signed with unknown key id k-2026-08","user_id":"u_8183438"}
+{"level":"info","ts":"2026-08-25T05:35:21.000Z","caller":"jwks/cache.go:30","msg":"jwks refreshed","keys":["k-2026-07","k-2026-08"]}
+{"level":"info","ts":"2026-08-25T05:36:20.000Z","caller":"http/verify.go:40","msg":"token ok","kid":"k-2026-07","user_id":"u_5523313"}
+{"level":"info","ts":"2026-08-25T05:37:09.000Z","caller":"http/verify.go:40","msg":"token ok","kid":"k-2026-07","user_id":"u_7189170"}
+{"level":"info","ts":"2026-08-25T05:37:50.000Z","caller":"http/verify.go:40","msg":"token ok","kid":"k-2026-07","user_id":"u_4857659"}
+{"level":"info","ts":"2026-08-25T05:39:08.000Z","caller":"http/verify.go:40","msg":"token ok","kid":"k-2026-07","user_id":"u_1428066"}
+{"level":"info","ts":"2026-08-25T05:40:47.000Z","caller":"http/verify.go:40","msg":"token ok","kid":"k-2026-07","user_id":"u_4558059"}
+{"level":"info","ts":"2026-08-25T05:41:59.000Z","caller":"http/verify.go:40","msg":"token ok","kid":"k-2026-07","user_id":"u_7533442"}
+{"level":"info","ts":"2026-08-25T05:43:14.000Z","caller":"http/verify.go:40","msg":"token ok","kid":"k-2026-07","user_id":"u_8795373"}
+{"level":"info","ts":"2026-08-25T05:44:19.000Z","caller":"http/verify.go:40","msg":"token ok","kid":"k-2026-07","user_id":"u_1427146"}
+{"level":"info","ts":"2026-08-25T05:46:14.000Z","caller":"http/verify.go:40","msg":"token ok","kid":"k-2026-07","user_id":"u_6335397"}
+{"level":"info","ts":"2026-08-25T05:47:08.000Z","caller":"http/verify.go:40","msg":"token ok","kid":"k-2026-07","user_id":"u_3999989"}
+{"level":"info","ts":"2026-08-25T05:47:52.000Z","caller":"http/verify.go:40","msg":"token ok","kid":"k-2026-07","user_id":"u_7075237"}
+{"level":"info","ts":"2026-08-25T05:49:04.000Z","caller":"http/verify.go:40","msg":"token ok","kid":"k-2026-07","user_id":"u_5207507"}
+{"level":"info","ts":"2026-08-25T05:50:16.000Z","caller":"http/verify.go:40","msg":"token ok","kid":"k-2026-07","user_id":"u_8841664"}
+{"level":"info","ts":"2026-08-25T05:51:45.000Z","caller":"http/verify.go:40","msg":"token ok","kid":"k-2026-07","user_id":"u_2501595"}

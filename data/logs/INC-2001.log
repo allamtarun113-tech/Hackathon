@@ -1,0 +1,106 @@
+2026-01-08 15:00:00.000  INFO 1 --- [http-nio-8080-exec-69] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=76
+2026-01-08 15:00:26.682  INFO 1 --- [http-nio-8080-exec-144] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=195
+2026-01-08 15:01:13.145  INFO 1 --- [http-nio-8080-exec-131] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=270
+2026-01-08 15:01:47.169  INFO 1 --- [http-nio-8080-exec-3] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=312
+2026-01-08 15:02:39.373  INFO 1 --- [http-nio-8080-exec-78] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=209
+2026-01-08 15:03:15.825  INFO 1 --- [http-nio-8080-exec-56] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=230
+2026-01-08 15:03:55.496  INFO 1 --- [http-nio-8080-exec-169] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=294
+2026-01-08 15:04:42.317  INFO 1 --- [http-nio-8080-exec-17] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=93
+2026-01-08 15:05:10.583  INFO 1 --- [http-nio-8080-exec-31] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=222
+2026-01-08 15:05:50.498  INFO 1 --- [http-nio-8080-exec-118] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=113
+2026-01-08 15:06:20.944  INFO 1 --- [http-nio-8080-exec-107] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=224
+2026-01-08 15:07:18.727  INFO 1 --- [http-nio-8080-exec-18] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=258
+2026-01-08 15:08:26.157  INFO 1 --- [http-nio-8080-exec-191] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=297
+2026-01-08 15:09:27.554  INFO 1 --- [http-nio-8080-exec-37] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=176
+2026-01-08 15:09:53.675  INFO 1 --- [http-nio-8080-exec-173] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=243
+2026-01-08 15:10:32.681  INFO 1 --- [http-nio-8080-exec-58] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=298
+2026-01-08 15:11:24.742  INFO 1 --- [http-nio-8080-exec-31] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=199
+2026-01-08 15:12:13.893  INFO 1 --- [http-nio-8080-exec-94] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=121
+2026-01-08 15:13:02.208  INFO 1 --- [http-nio-8080-exec-120] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=323
+2026-01-08 15:13:37.665  INFO 1 --- [http-nio-8080-exec-172] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=195
+2026-01-08 15:14:19.178  INFO 1 --- [http-nio-8080-exec-70] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=116
+2026-01-08 15:15:19.390  INFO 1 --- [http-nio-8080-exec-67] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=317
+2026-01-08 15:16:05.501  WARN 1 --- [http-nio-8080-exec-170] c.k.search.api.SearchController          : q="mobile" hits=0 synonyms=v118 latencyMs=70
+2026-01-08 15:16:17.314  INFO 1 --- [config-watcher] c.k.search.synonyms.SynonymLoader         : Loaded synonyms v118 (4,212 rules, 3 cyclic)
+2026-01-08 15:16:38.890  INFO 1 --- [config-watcher] c.k.search.synonyms.SynonymLoader         : Loaded synonyms v118 (4,212 rules, 3 cyclic)
+2026-01-08 15:16:59.277  INFO 1 --- [config-watcher] c.k.search.synonyms.SynonymLoader         : Loaded synonyms v118 (4,212 rules, 3 cyclic)
+2026-01-08 15:17:12.274  WARN 1 --- [http-nio-8080-exec-68] c.k.search.api.SearchController          : q="mobile" hits=0 synonyms=v118 latencyMs=66
+2026-01-08 15:17:24.525  INFO 1 --- [config-watcher] c.k.search.synonyms.SynonymLoader         : Loaded synonyms v118 (4,212 rules, 3 cyclic)
+2026-01-08 15:17:41.589  INFO 1 --- [config-watcher] c.k.search.synonyms.SynonymLoader         : Loaded synonyms v118 (4,212 rules, 3 cyclic)
+2026-01-08 15:17:53.958  INFO 1 --- [config-watcher] c.k.search.synonyms.SynonymLoader         : Loaded synonyms v118 (4,212 rules, 3 cyclic)
+2026-01-08 15:18:21.323  WARN 1 --- [http-nio-8080-exec-169] c.k.search.api.SearchController          : q="mobile" hits=0 synonyms=v118 latencyMs=90
+2026-01-08 15:18:46.274  INFO 1 --- [config-watcher] c.k.search.synonyms.SynonymLoader         : Loaded synonyms v118 (4,212 rules, 3 cyclic)
+2026-01-08 15:18:59.340  WARN 1 --- [http-nio-8080-exec-175] c.k.search.api.SearchController          : q="mobile" hits=0 synonyms=v118 latencyMs=88
+2026-01-08 15:19:11.516  INFO 1 --- [config-watcher] c.k.search.synonyms.SynonymLoader         : Loaded synonyms v118 (4,212 rules, 3 cyclic)
+2026-01-08 15:19:27.347  INFO 1 --- [config-watcher] c.k.search.synonyms.SynonymLoader         : Loaded synonyms v118 (4,212 rules, 3 cyclic)
+2026-01-08 15:19:45.153  INFO 1 --- [config-watcher] c.k.search.synonyms.SynonymLoader         : Loaded synonyms v118 (4,212 rules, 3 cyclic)
+2026-01-08 15:20:11.798  INFO 1 --- [config-watcher] c.k.search.synonyms.SynonymLoader         : Loaded synonyms v118 (4,212 rules, 3 cyclic)
+2026-01-08 15:20:25.363  INFO 1 --- [config-watcher] c.k.search.synonyms.SynonymLoader         : Loaded synonyms v118 (4,212 rules, 3 cyclic)
+2026-01-08 15:20:42.526  INFO 1 --- [config-watcher] c.k.search.synonyms.SynonymLoader         : Loaded synonyms v118 (4,212 rules, 3 cyclic)
+2026-01-08 15:21:08.798  INFO 1 --- [config-watcher] c.k.search.synonyms.SynonymLoader         : Loaded synonyms v118 (4,212 rules, 3 cyclic)
+2026-01-08 15:21:32.003  INFO 1 --- [config-watcher] c.k.search.synonyms.SynonymLoader         : Loaded synonyms v118 (4,212 rules, 3 cyclic)
+2026-01-08 15:21:52.123  WARN 1 --- [http-nio-8080-exec-18] c.k.search.api.SearchController          : q="mobile" hits=0 synonyms=v118 latencyMs=313
+2026-01-08 15:22:19.603  WARN 1 --- [http-nio-8080-exec-65] c.k.search.api.SearchController          : q="mobile" hits=0 synonyms=v118 latencyMs=143
+2026-01-08 15:22:44.484  WARN 1 --- [http-nio-8080-exec-125] c.k.search.api.SearchController          : q="mobile" hits=0 synonyms=v118 latencyMs=148
+2026-01-08 15:23:11.703  INFO 1 --- [config-watcher] c.k.search.synonyms.SynonymLoader         : Loaded synonyms v118 (4,212 rules, 3 cyclic)
+2026-01-08 15:23:26.810  WARN 1 --- [http-nio-8080-exec-102] c.k.search.api.SearchController          : q="mobile" hits=0 synonyms=v118 latencyMs=267
+2026-01-08 15:23:44.147  WARN 1 --- [http-nio-8080-exec-120] c.k.search.api.SearchController          : q="mobile" hits=0 synonyms=v118 latencyMs=323
+2026-01-08 15:23:57.411  WARN 1 --- [http-nio-8080-exec-36] c.k.search.api.SearchController          : q="mobile" hits=0 synonyms=v118 latencyMs=252
+2026-01-08 15:24:22.557  WARN 1 --- [http-nio-8080-exec-174] c.k.search.api.SearchController          : q="mobile" hits=0 synonyms=v118 latencyMs=77
+2026-01-08 15:24:40.065  WARN 1 --- [http-nio-8080-exec-90] c.k.search.api.SearchController          : q="mobile" hits=0 synonyms=v118 latencyMs=192
+2026-01-08 15:25:00.653  WARN 1 --- [http-nio-8080-exec-87] c.k.search.api.SearchController          : q="mobile" hits=0 synonyms=v118 latencyMs=121
+2026-01-08 15:25:17.740  WARN 1 --- [http-nio-8080-exec-79] c.k.search.api.SearchController          : q="mobile" hits=0 synonyms=v118 latencyMs=107
+2026-01-08 15:25:33.894  WARN 1 --- [http-nio-8080-exec-174] c.k.search.api.SearchController          : q="mobile" hits=0 synonyms=v118 latencyMs=75
+2026-01-08 15:25:52.163  WARN 1 --- [http-nio-8080-exec-103] c.k.search.api.SearchController          : q="mobile" hits=0 synonyms=v118 latencyMs=137
+2026-01-08 15:26:07.560  WARN 1 --- [http-nio-8080-exec-177] c.k.search.api.SearchController          : q="mobile" hits=0 synonyms=v118 latencyMs=66
+2026-01-08 15:26:31.428  INFO 1 --- [config-watcher] c.k.search.synonyms.SynonymLoader         : Loaded synonyms v118 (4,212 rules, 3 cyclic)
+2026-01-08 15:26:49.222  WARN 1 --- [http-nio-8080-exec-146] c.k.search.api.SearchController          : q="mobile" hits=0 synonyms=v118 latencyMs=168
+2026-01-08 15:27:07.043  WARN 1 --- [http-nio-8080-exec-148] c.k.search.api.SearchController          : q="mobile" hits=0 synonyms=v118 latencyMs=353
+2026-01-08 15:27:21.762  WARN 1 --- [http-nio-8080-exec-18] c.k.search.api.SearchController          : q="mobile" hits=0 synonyms=v118 latencyMs=284
+2026-01-08 15:27:37.817  WARN 1 --- [http-nio-8080-exec-199] c.k.search.api.SearchController          : q="mobile" hits=0 synonyms=v118 latencyMs=302
+2026-01-08 15:27:50.860  INFO 1 --- [config-watcher] c.k.search.synonyms.SynonymLoader         : Loaded synonyms v118 (4,212 rules, 3 cyclic)
+2026-01-08 15:28:16.997  WARN 1 --- [http-nio-8080-exec-53] c.k.search.api.SearchController          : q="mobile" hits=0 synonyms=v118 latencyMs=258
+2026-01-08 15:28:30.893  INFO 1 --- [config-watcher] c.k.search.synonyms.SynonymLoader         : Loaded synonyms v118 (4,212 rules, 3 cyclic)
+2026-01-08 15:28:58.866  INFO 1 --- [config-watcher] c.k.search.synonyms.SynonymLoader         : Loaded synonyms v118 (4,212 rules, 3 cyclic)
+2026-01-08 15:29:24.994  WARN 1 --- [http-nio-8080-exec-37] c.k.search.api.SearchController          : q="mobile" hits=0 synonyms=v118 latencyMs=274
+2026-01-08 15:29:36.333  INFO 1 --- [config-watcher] c.k.search.synonyms.SynonymLoader         : Loaded synonyms v118 (4,212 rules, 3 cyclic)
+2026-01-08 15:30:02.941  INFO 1 --- [config-watcher] c.k.search.synonyms.SynonymLoader         : Loaded synonyms v118 (4,212 rules, 3 cyclic)
+2026-01-08 15:30:15.296  WARN 1 --- [http-nio-8080-exec-192] c.k.search.api.SearchController          : q="mobile" hits=0 synonyms=v118 latencyMs=204
+2026-01-08 15:30:38.495  INFO 1 --- [config-watcher] c.k.search.synonyms.SynonymLoader         : Loaded synonyms v118 (4,212 rules, 3 cyclic)
+2026-01-08 15:31:00.615  INFO 1 --- [config-watcher] c.k.search.synonyms.SynonymLoader         : Loaded synonyms v118 (4,212 rules, 3 cyclic)
+2026-01-08 15:31:27.258  WARN 1 --- [http-nio-8080-exec-105] c.k.search.api.SearchController          : q="mobile" hits=0 synonyms=v118 latencyMs=173
+2026-01-08 15:31:47.456  INFO 1 --- [config-watcher] c.k.search.synonyms.SynonymLoader         : Loaded synonyms v118 (4,212 rules, 3 cyclic)
+2026-01-08 15:32:05.497  INFO 1 --- [config-watcher] c.k.search.synonyms.SynonymLoader         : Loaded synonyms v118 (4,212 rules, 3 cyclic)
+2026-01-08 15:32:23.302  INFO 1 --- [config-watcher] c.k.search.synonyms.SynonymLoader         : Loaded synonyms v118 (4,212 rules, 3 cyclic)
+2026-01-08 15:32:49.889  WARN 1 --- [http-nio-8080-exec-80] c.k.search.api.SearchController          : q="mobile" hits=0 synonyms=v118 latencyMs=127
+2026-01-08 15:33:04.894  WARN 1 --- [http-nio-8080-exec-160] c.k.search.api.SearchController          : q="mobile" hits=0 synonyms=v118 latencyMs=201
+2026-01-08 15:33:21.405  INFO 1 --- [config-watcher] c.k.search.synonyms.SynonymLoader         : Loaded synonyms v118 (4,212 rules, 3 cyclic)
+2026-01-08 15:33:37.692  INFO 1 --- [config-watcher] c.k.search.synonyms.SynonymLoader         : Loaded synonyms v118 (4,212 rules, 3 cyclic)
+2026-01-08 15:33:56.939  INFO 1 --- [config-watcher] c.k.search.synonyms.SynonymLoader         : Loaded synonyms v118 (4,212 rules, 3 cyclic)
+2026-01-08 15:34:09.910  INFO 1 --- [config-watcher] c.k.search.synonyms.SynonymLoader         : Loaded synonyms v118 (4,212 rules, 3 cyclic)
+2026-01-08 15:34:31.266  WARN 1 --- [http-nio-8080-exec-44] c.k.search.api.SearchController          : q="mobile" hits=0 synonyms=v118 latencyMs=213
+2026-01-08 15:34:43.747  INFO 1 --- [config-watcher] c.k.search.synonyms.SynonymLoader         : Loaded synonyms v118 (4,212 rules, 3 cyclic)
+2026-01-08 15:35:10.707  WARN 1 --- [http-nio-8080-exec-61] c.k.search.api.SearchController          : q="mobile" hits=0 synonyms=v118 latencyMs=301
+2026-01-08 15:35:35.830  INFO 1 --- [config-watcher] c.k.search.synonyms.SynonymLoader         : Loaded synonyms v118 (4,212 rules, 3 cyclic)
+2026-01-08 15:35:52.455  WARN 1 --- [http-nio-8080-exec-129] c.k.search.api.SearchController          : q="mobile" hits=0 synonyms=v118 latencyMs=331
+2026-01-08 15:36:09.817  WARN 1 --- [http-nio-8080-exec-87] c.k.search.api.SearchController          : q="mobile" hits=0 synonyms=v118 latencyMs=160
+2026-01-08 15:36:26.880  WARN 1 --- [http-nio-8080-exec-85] c.k.search.api.SearchController          : q="mobile" hits=0 synonyms=v118 latencyMs=248
+2026-01-08 15:36:52.468  INFO 1 --- [config-watcher] c.k.search.synonyms.SynonymLoader         : Loaded synonyms v118 (4,212 rules, 3 cyclic)
+2026-01-08 15:37:09.352  INFO 1 --- [config-watcher] c.k.search.synonyms.SynonymLoader         : Loaded synonyms v118 (4,212 rules, 3 cyclic)
+2026-01-08 15:37:22.441  INFO 1 --- [config-watcher] c.k.search.synonyms.SynonymLoader         : Loaded synonyms v118 (4,212 rules, 3 cyclic)
+2026-01-08 15:37:34.400  INFO 1 --- [config-watcher] c.k.search.synonyms.SynonymLoader         : Loaded synonyms v118 (4,212 rules, 3 cyclic)
+2026-01-08 15:37:56.043  INFO 1 --- [config-watcher] c.k.search.synonyms.SynonymLoader         : Loaded synonyms v118 (4,212 rules, 3 cyclic)
+2026-01-08 15:38:12.929  INFO 1 --- [config-watcher] c.k.search.synonyms.SynonymLoader         : Loaded synonyms v118 (4,212 rules, 3 cyclic)
+2026-01-08 15:38:39.068  WARN 1 --- [http-nio-8080-exec-73] c.k.search.api.SearchController          : q="mobile" hits=0 synonyms=v118 latencyMs=337
+2026-01-08 15:39:06.950  INFO 1 --- [config-watcher] c.k.search.synonyms.SynonymLoader         : Loaded synonyms v118 (4,212 rules, 3 cyclic)
+2026-01-08 15:39:10.000  INFO 1 --- [http-nio-8080-exec-172] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=136
+2026-01-08 15:39:49.000  INFO 1 --- [http-nio-8080-exec-113] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=189
+2026-01-08 15:40:50.000  INFO 1 --- [http-nio-8080-exec-111] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=65
+2026-01-08 15:42:21.000  INFO 1 --- [http-nio-8080-exec-78] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=120
+2026-01-08 15:43:27.000  INFO 1 --- [http-nio-8080-exec-2] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=77
+2026-01-08 15:44:21.000  INFO 1 --- [http-nio-8080-exec-3] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=77
+2026-01-08 15:45:25.000  INFO 1 --- [http-nio-8080-exec-136] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=187
+2026-01-08 15:47:12.000  INFO 1 --- [http-nio-8080-exec-34] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=286
+2026-01-08 15:48:44.000  INFO 1 --- [http-nio-8080-exec-102] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=347
+2026-01-08 15:49:52.000  INFO 1 --- [http-nio-8080-exec-162] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=290
+2026-01-08 15:50:51.000  INFO 1 --- [http-nio-8080-exec-93] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=339

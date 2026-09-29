@@ -1,0 +1,111 @@
+2026-08-30 11:55:00.000  INFO 1 --- [http-nio-8080-exec-140] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=111
+2026-08-30 11:55:55.885  INFO 1 --- [http-nio-8080-exec-180] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=249
+2026-08-30 11:57:03.576  INFO 1 --- [http-nio-8080-exec-149] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=191
+2026-08-30 11:57:37.674  INFO 1 --- [http-nio-8080-exec-187] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=143
+2026-08-30 11:58:43.443  INFO 1 --- [http-nio-8080-exec-175] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=265
+2026-08-30 11:59:21.962  INFO 1 --- [http-nio-8080-exec-13] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=294
+2026-08-30 12:00:25.410  INFO 1 --- [http-nio-8080-exec-67] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=318
+2026-08-30 12:01:34.861  INFO 1 --- [http-nio-8080-exec-53] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=124
+2026-08-30 12:02:19.144  INFO 1 --- [http-nio-8080-exec-47] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=320
+2026-08-30 12:02:49.153  INFO 1 --- [http-nio-8080-exec-154] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=167
+2026-08-30 12:03:41.061  INFO 1 --- [http-nio-8080-exec-87] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=143
+2026-08-30 12:04:08.221  INFO 1 --- [http-nio-8080-exec-145] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=60
+2026-08-30 12:05:03.905  INFO 1 --- [http-nio-8080-exec-104] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=343
+2026-08-30 12:06:10.143  INFO 1 --- [http-nio-8080-exec-95] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=233
+2026-08-30 12:06:36.905  INFO 1 --- [http-nio-8080-exec-71] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=160
+2026-08-30 12:07:39.455  INFO 1 --- [http-nio-8080-exec-9] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=263
+2026-08-30 12:08:33.217  INFO 1 --- [http-nio-8080-exec-170] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=217
+2026-08-30 12:09:31.322  INFO 1 --- [http-nio-8080-exec-163] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=85
+2026-08-30 12:10:18.968  INFO 1 --- [http-nio-8080-exec-87] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=174
+2026-08-30 12:11:15.999  WARN 1 --- [price-consumer-1] c.k.search.index.PriceUpdateConsumer     : Dropped PriceChanged event sku=SKU-13797093: consumer paused (rebalancing)
+2026-08-30 12:11:37.098  INFO 1 --- [http-nio-8080-exec-93] c.k.search.api.SearchController          : q="air fryer" hits=311 stale_prices=27
+2026-08-30 12:12:04.719  INFO 1 --- [http-nio-8080-exec-121] c.k.search.api.SearchController          : q="air fryer" hits=311 stale_prices=27
+2026-08-30 12:12:26.655  WARN 1 --- [price-consumer-1] c.k.search.index.PriceUpdateConsumer     : Dropped PriceChanged event sku=SKU-81158892: consumer paused (rebalancing)
+2026-08-30 12:12:46.505  WARN 1 --- [price-consumer-1] c.k.search.index.PriceUpdateConsumer     : Dropped PriceChanged event sku=SKU-84686017: consumer paused (rebalancing)
+2026-08-30 12:13:19.216  WARN 1 --- [price-consumer-1] c.k.search.index.PriceUpdateConsumer     : Dropped PriceChanged event sku=SKU-64085122: consumer paused (rebalancing)
+2026-08-30 12:13:52.203  INFO 1 --- [http-nio-8080-exec-19] c.k.search.api.SearchController          : q="air fryer" hits=311 stale_prices=27
+2026-08-30 12:14:18.913  WARN 1 --- [price-consumer-1] c.k.search.index.PriceUpdateConsumer     : Dropped PriceChanged event sku=SKU-28152406: consumer paused (rebalancing)
+2026-08-30 12:14:50.250  INFO 1 --- [http-nio-8080-exec-113] c.k.search.api.SearchController          : q="air fryer" hits=311 stale_prices=27
+2026-08-30 12:15:28.578  WARN 1 --- [price-consumer-1] c.k.search.index.PriceUpdateConsumer     : Dropped PriceChanged event sku=SKU-68492194: consumer paused (rebalancing)
+2026-08-30 12:15:52.442  INFO 1 --- [http-nio-8080-exec-192] c.k.search.api.SearchController          : q="air fryer" hits=311 stale_prices=27
+2026-08-30 12:16:29.200  WARN 1 --- [price-consumer-1] c.k.search.index.PriceUpdateConsumer     : Dropped PriceChanged event sku=SKU-68282207: consumer paused (rebalancing)
+2026-08-30 12:16:51.548  INFO 1 --- [http-nio-8080-exec-114] c.k.search.api.SearchController          : q="air fryer" hits=311 stale_prices=27
+2026-08-30 12:17:30.746  INFO 1 --- [http-nio-8080-exec-156] c.k.search.api.SearchController          : q="air fryer" hits=311 stale_prices=27
+2026-08-30 12:17:59.540  WARN 1 --- [price-consumer-1] c.k.search.index.PriceUpdateConsumer     : Dropped PriceChanged event sku=SKU-10679552: consumer paused (rebalancing)
+2026-08-30 12:18:33.677  WARN 1 --- [price-consumer-1] c.k.search.index.PriceUpdateConsumer     : Dropped PriceChanged event sku=SKU-76571491: consumer paused (rebalancing)
+2026-08-30 12:19:01.932  WARN 1 --- [price-consumer-1] c.k.search.index.PriceUpdateConsumer     : Dropped PriceChanged event sku=SKU-58604032: consumer paused (rebalancing)
+2026-08-30 12:19:25.494  WARN 1 --- [price-consumer-1] c.k.search.index.PriceUpdateConsumer     : Dropped PriceChanged event sku=SKU-70100284: consumer paused (rebalancing)
+2026-08-30 12:19:47.653  INFO 1 --- [http-nio-8080-exec-134] c.k.search.api.SearchController          : q="air fryer" hits=311 stale_prices=27
+2026-08-30 12:20:05.204  INFO 1 --- [http-nio-8080-exec-193] c.k.search.api.SearchController          : q="air fryer" hits=311 stale_prices=27
+2026-08-30 12:20:42.900  WARN 1 --- [price-consumer-1] c.k.search.index.PriceUpdateConsumer     : Dropped PriceChanged event sku=SKU-96981629: consumer paused (rebalancing)
+2026-08-30 12:21:04.772  INFO 1 --- [http-nio-8080-exec-156] c.k.search.api.SearchController          : q="air fryer" hits=311 stale_prices=27
+2026-08-30 12:21:26.828  WARN 1 --- [price-consumer-1] c.k.search.index.PriceUpdateConsumer     : Dropped PriceChanged event sku=SKU-98250700: consumer paused (rebalancing)
+2026-08-30 12:22:02.052  INFO 1 --- [http-nio-8080-exec-55] c.k.search.api.SearchController          : q="air fryer" hits=311 stale_prices=27
+2026-08-30 12:22:22.721  WARN 1 --- [price-consumer-1] c.k.search.index.PriceUpdateConsumer     : Dropped PriceChanged event sku=SKU-53009512: consumer paused (rebalancing)
+2026-08-30 12:22:42.268  INFO 1 --- [http-nio-8080-exec-34] c.k.search.api.SearchController          : q="air fryer" hits=311 stale_prices=27
+2026-08-30 12:23:12.215  WARN 1 --- [price-consumer-1] c.k.search.index.PriceUpdateConsumer     : Dropped PriceChanged event sku=SKU-91849181: consumer paused (rebalancing)
+2026-08-30 12:23:43.339  WARN 1 --- [price-consumer-1] c.k.search.index.PriceUpdateConsumer     : Dropped PriceChanged event sku=SKU-36572372: consumer paused (rebalancing)
+2026-08-30 12:24:08.641  INFO 1 --- [http-nio-8080-exec-106] c.k.search.api.SearchController          : q="air fryer" hits=311 stale_prices=27
+2026-08-30 12:24:37.556  INFO 1 --- [http-nio-8080-exec-66] c.k.search.api.SearchController          : q="air fryer" hits=311 stale_prices=27
+2026-08-30 12:25:15.411  INFO 1 --- [http-nio-8080-exec-161] c.k.search.api.SearchController          : q="air fryer" hits=311 stale_prices=27
+2026-08-30 12:25:51.891  INFO 1 --- [http-nio-8080-exec-197] c.k.search.api.SearchController          : q="air fryer" hits=311 stale_prices=27
+2026-08-30 12:26:27.305  INFO 1 --- [http-nio-8080-exec-63] c.k.search.api.SearchController          : q="air fryer" hits=311 stale_prices=27
+2026-08-30 12:26:53.446  WARN 1 --- [price-consumer-1] c.k.search.index.PriceUpdateConsumer     : Dropped PriceChanged event sku=SKU-98782135: consumer paused (rebalancing)
+2026-08-30 12:27:14.573  INFO 1 --- [http-nio-8080-exec-126] c.k.search.api.SearchController          : q="air fryer" hits=311 stale_prices=27
+2026-08-30 12:27:48.022  INFO 1 --- [http-nio-8080-exec-82] c.k.search.api.SearchController          : q="air fryer" hits=311 stale_prices=27
+2026-08-30 12:28:24.771  WARN 1 --- [price-consumer-1] c.k.search.index.PriceUpdateConsumer     : Dropped PriceChanged event sku=SKU-57886384: consumer paused (rebalancing)
+2026-08-30 12:28:53.482  INFO 1 --- [http-nio-8080-exec-41] c.k.search.api.SearchController          : q="air fryer" hits=311 stale_prices=27
+2026-08-30 12:29:30.240  WARN 1 --- [price-consumer-1] c.k.search.index.PriceUpdateConsumer     : Dropped PriceChanged event sku=SKU-63428381: consumer paused (rebalancing)
+2026-08-30 12:29:54.712  INFO 1 --- [http-nio-8080-exec-94] c.k.search.api.SearchController          : q="air fryer" hits=311 stale_prices=27
+2026-08-30 12:30:32.219  WARN 1 --- [price-consumer-1] c.k.search.index.PriceUpdateConsumer     : Dropped PriceChanged event sku=SKU-40358647: consumer paused (rebalancing)
+2026-08-30 12:30:50.431  INFO 1 --- [http-nio-8080-exec-130] c.k.search.api.SearchController          : q="air fryer" hits=311 stale_prices=27
+2026-08-30 12:31:20.603  WARN 1 --- [price-consumer-1] c.k.search.index.PriceUpdateConsumer     : Dropped PriceChanged event sku=SKU-75292165: consumer paused (rebalancing)
+2026-08-30 12:31:55.914  WARN 1 --- [price-consumer-1] c.k.search.index.PriceUpdateConsumer     : Dropped PriceChanged event sku=SKU-34832521: consumer paused (rebalancing)
+2026-08-30 12:32:21.546  INFO 1 --- [http-nio-8080-exec-177] c.k.search.api.SearchController          : q="air fryer" hits=311 stale_prices=27
+2026-08-30 12:32:51.371  WARN 1 --- [price-consumer-1] c.k.search.index.PriceUpdateConsumer     : Dropped PriceChanged event sku=SKU-62131372: consumer paused (rebalancing)
+2026-08-30 12:33:14.902  INFO 1 --- [http-nio-8080-exec-71] c.k.search.api.SearchController          : q="air fryer" hits=311 stale_prices=27
+2026-08-30 12:33:46.472  WARN 1 --- [price-consumer-1] c.k.search.index.PriceUpdateConsumer     : Dropped PriceChanged event sku=SKU-39410084: consumer paused (rebalancing)
+2026-08-30 12:34:23.163  INFO 1 --- [http-nio-8080-exec-162] c.k.search.api.SearchController          : q="air fryer" hits=311 stale_prices=27
+2026-08-30 12:34:51.669  INFO 1 --- [http-nio-8080-exec-132] c.k.search.api.SearchController          : q="air fryer" hits=311 stale_prices=27
+2026-08-30 12:35:20.198  INFO 1 --- [http-nio-8080-exec-72] c.k.search.api.SearchController          : q="air fryer" hits=311 stale_prices=27
+2026-08-30 12:35:53.827  INFO 1 --- [http-nio-8080-exec-168] c.k.search.api.SearchController          : q="air fryer" hits=311 stale_prices=27
+2026-08-30 12:36:27.787  WARN 1 --- [price-consumer-1] c.k.search.index.PriceUpdateConsumer     : Dropped PriceChanged event sku=SKU-65769156: consumer paused (rebalancing)
+2026-08-30 12:37:00.155  INFO 1 --- [http-nio-8080-exec-147] c.k.search.api.SearchController          : q="air fryer" hits=311 stale_prices=27
+2026-08-30 12:37:20.085  INFO 1 --- [http-nio-8080-exec-18] c.k.search.api.SearchController          : q="air fryer" hits=311 stale_prices=27
+2026-08-30 12:37:47.843  WARN 1 --- [price-consumer-1] c.k.search.index.PriceUpdateConsumer     : Dropped PriceChanged event sku=SKU-18512553: consumer paused (rebalancing)
+2026-08-30 12:38:16.812  WARN 1 --- [price-consumer-1] c.k.search.index.PriceUpdateConsumer     : Dropped PriceChanged event sku=SKU-58929699: consumer paused (rebalancing)
+2026-08-30 12:38:36.752  INFO 1 --- [http-nio-8080-exec-198] c.k.search.api.SearchController          : q="air fryer" hits=311 stale_prices=27
+2026-08-30 12:38:55.929  WARN 1 --- [price-consumer-1] c.k.search.index.PriceUpdateConsumer     : Dropped PriceChanged event sku=SKU-22097105: consumer paused (rebalancing)
+2026-08-30 12:39:20.371  WARN 1 --- [price-consumer-1] c.k.search.index.PriceUpdateConsumer     : Dropped PriceChanged event sku=SKU-74489728: consumer paused (rebalancing)
+2026-08-30 12:39:55.369  WARN 1 --- [price-consumer-1] c.k.search.index.PriceUpdateConsumer     : Dropped PriceChanged event sku=SKU-63648420: consumer paused (rebalancing)
+2026-08-30 12:40:24.667  WARN 1 --- [price-consumer-1] c.k.search.index.PriceUpdateConsumer     : Dropped PriceChanged event sku=SKU-36775021: consumer paused (rebalancing)
+2026-08-30 12:40:59.124  INFO 1 --- [http-nio-8080-exec-99] c.k.search.api.SearchController          : q="air fryer" hits=311 stale_prices=27
+2026-08-30 12:41:34.597  WARN 1 --- [price-consumer-1] c.k.search.index.PriceUpdateConsumer     : Dropped PriceChanged event sku=SKU-66476322: consumer paused (rebalancing)
+2026-08-30 12:42:02.985  WARN 1 --- [price-consumer-1] c.k.search.index.PriceUpdateConsumer     : Dropped PriceChanged event sku=SKU-43191036: consumer paused (rebalancing)
+2026-08-30 12:42:28.435  INFO 1 --- [http-nio-8080-exec-35] c.k.search.api.SearchController          : q="air fryer" hits=311 stale_prices=27
+2026-08-30 12:43:04.686  INFO 1 --- [http-nio-8080-exec-132] c.k.search.api.SearchController          : q="air fryer" hits=311 stale_prices=27
+2026-08-30 12:43:26.648  INFO 1 --- [http-nio-8080-exec-106] c.k.search.api.SearchController          : q="air fryer" hits=311 stale_prices=27
+2026-08-30 12:43:58.482  WARN 1 --- [price-consumer-1] c.k.search.index.PriceUpdateConsumer     : Dropped PriceChanged event sku=SKU-38952047: consumer paused (rebalancing)
+2026-08-30 12:44:21.090  WARN 1 --- [price-consumer-1] c.k.search.index.PriceUpdateConsumer     : Dropped PriceChanged event sku=SKU-27591442: consumer paused (rebalancing)
+2026-08-30 12:44:45.688  INFO 1 --- [http-nio-8080-exec-46] c.k.search.api.SearchController          : q="air fryer" hits=311 stale_prices=27
+2026-08-30 12:45:07.976  WARN 1 --- [price-consumer-1] c.k.search.index.PriceUpdateConsumer     : Dropped PriceChanged event sku=SKU-38848129: consumer paused (rebalancing)
+2026-08-30 12:45:30.331  WARN 1 --- [price-consumer-1] c.k.search.index.PriceUpdateConsumer     : Dropped PriceChanged event sku=SKU-98029748: consumer paused (rebalancing)
+2026-08-30 12:46:03.206  WARN 1 --- [price-consumer-1] c.k.search.index.PriceUpdateConsumer     : Dropped PriceChanged event sku=SKU-95655236: consumer paused (rebalancing)
+2026-08-30 12:46:20.000  INFO 1 --- [http-nio-8080-exec-42] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=198
+2026-08-30 12:47:00.000  INFO 1 --- [http-nio-8080-exec-26] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=351
+2026-08-30 12:48:50.000  INFO 1 --- [http-nio-8080-exec-4] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=332
+2026-08-30 12:50:13.000  INFO 1 --- [http-nio-8080-exec-54] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=180
+2026-08-30 12:52:02.000  INFO 1 --- [http-nio-8080-exec-187] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=358
+2026-08-30 12:53:53.000  INFO 1 --- [http-nio-8080-exec-23] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=379
+2026-08-30 12:55:53.000  INFO 1 --- [http-nio-8080-exec-189] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=89
+2026-08-30 12:57:34.000  INFO 1 --- [http-nio-8080-exec-151] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=248
+2026-08-30 12:59:29.000  INFO 1 --- [http-nio-8080-exec-134] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=265
+2026-08-30 13:00:53.000  INFO 1 --- [http-nio-8080-exec-112] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=263
+2026-08-30 13:02:18.000  INFO 1 --- [http-nio-8080-exec-169] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=325
+2026-08-30 13:03:48.000  INFO 1 --- [http-nio-8080-exec-68] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=230
+2026-08-30 13:05:16.000  INFO 1 --- [http-nio-8080-exec-68] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=250
+2026-08-30 13:06:10.000  INFO 1 --- [http-nio-8080-exec-34] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=354
+2026-08-30 13:07:20.000  INFO 1 --- [http-nio-8080-exec-30] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=145
+2026-08-30 13:09:01.000  INFO 1 --- [http-nio-8080-exec-199] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=71
+2026-08-30 13:09:44.000  INFO 1 --- [http-nio-8080-exec-73] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=88
+2026-08-30 13:11:42.000  INFO 1 --- [http-nio-8080-exec-19] c.k.search.api.SearchController          : q="bedsheet" hits=2204 latencyMs=343

@@ -1,0 +1,105 @@
+{"level":"info","ts":"2026-04-07T12:55:00.000Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_6798320","latency_ms":175}
+{"level":"info","ts":"2026-04-07T12:55:54.409Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_6727316","latency_ms":334}
+{"level":"info","ts":"2026-04-07T12:56:48.746Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_7292033","latency_ms":99}
+{"level":"info","ts":"2026-04-07T12:57:47.706Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_7541811","latency_ms":296}
+{"level":"info","ts":"2026-04-07T12:58:58.596Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_5099028","latency_ms":204}
+{"level":"info","ts":"2026-04-07T13:00:05.808Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_4856414","latency_ms":260}
+{"level":"info","ts":"2026-04-07T13:00:52.255Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_6186870","latency_ms":155}
+{"level":"info","ts":"2026-04-07T13:01:30.757Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_1857002","latency_ms":103}
+{"level":"info","ts":"2026-04-07T13:02:23.095Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_4409691","latency_ms":342}
+{"level":"info","ts":"2026-04-07T13:03:32.676Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_9477176","latency_ms":348}
+{"level":"info","ts":"2026-04-07T13:04:25.962Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_8623089","latency_ms":51}
+{"level":"info","ts":"2026-04-07T13:05:10.150Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_4626352","latency_ms":347}
+{"level":"info","ts":"2026-04-07T13:05:45.362Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_8763379","latency_ms":283}
+{"level":"info","ts":"2026-04-07T13:06:21.023Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_1158964","latency_ms":364}
+{"level":"info","ts":"2026-04-07T13:06:48.131Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_8267709","latency_ms":304}
+{"level":"info","ts":"2026-04-07T13:07:40.666Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_2246227","latency_ms":93}
+{"level":"info","ts":"2026-04-07T13:08:36.448Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_7899432","latency_ms":305}
+{"level":"info","ts":"2026-04-07T13:09:42.513Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_1019505","latency_ms":222}
+{"level":"info","ts":"2026-04-07T13:10:28.283Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_7779356","latency_ms":67}
+{"EdgeStartTimestamp":"2026-04-07T13:11:35.537Z","ClientRequestPath":"/v1/login","EdgeResponseStatus":403,"SecurityAction":"block","SecurityRuleID":"100215","SecurityRuleDescription":"XSS - JSON body","ClientCountry":"in"}
+{"EdgeStartTimestamp":"2026-04-07T13:11:46.850Z","ClientRequestPath":"/v1/otp/verify","EdgeResponseStatus":403,"SecurityAction":"block","SecurityRuleID":"100215","SecurityRuleDescription":"XSS - JSON body","ClientCountry":"in"}
+ts=2026-04-07T13:12:14.062Z level=warn source=support-desk msg="spike in 'cannot login' tickets" count=140
+{"level":"info","ts":"2026-04-07T13:12:27.426Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_9879904","latency_ms":334}
+{"EdgeStartTimestamp":"2026-04-07T13:12:53.274Z","ClientRequestPath":"/v1/otp/verify","EdgeResponseStatus":403,"SecurityAction":"block","SecurityRuleID":"100215","SecurityRuleDescription":"XSS - JSON body","ClientCountry":"in"}
+ts=2026-04-07T13:13:20.686Z level=warn source=support-desk msg="spike in 'cannot login' tickets" count=140
+{"EdgeStartTimestamp":"2026-04-07T13:13:47.313Z","ClientRequestPath":"/v1/login","EdgeResponseStatus":403,"SecurityAction":"block","SecurityRuleID":"100215","SecurityRuleDescription":"XSS - JSON body","ClientCountry":"in"}
+{"EdgeStartTimestamp":"2026-04-07T13:14:12.993Z","ClientRequestPath":"/v1/otp/verify","EdgeResponseStatus":403,"SecurityAction":"block","SecurityRuleID":"100215","SecurityRuleDescription":"XSS - JSON body","ClientCountry":"in"}
+{"level":"info","ts":"2026-04-07T13:14:32.094Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_4544028","latency_ms":251}
+{"EdgeStartTimestamp":"2026-04-07T13:14:57.065Z","ClientRequestPath":"/v1/login","EdgeResponseStatus":403,"SecurityAction":"block","SecurityRuleID":"100215","SecurityRuleDescription":"XSS - JSON body","ClientCountry":"in"}
+{"EdgeStartTimestamp":"2026-04-07T13:15:14.413Z","ClientRequestPath":"/v1/otp/verify","EdgeResponseStatus":403,"SecurityAction":"block","SecurityRuleID":"100215","SecurityRuleDescription":"XSS - JSON body","ClientCountry":"in"}
+{"EdgeStartTimestamp":"2026-04-07T13:15:34.628Z","ClientRequestPath":"/v1/otp/verify","EdgeResponseStatus":403,"SecurityAction":"block","SecurityRuleID":"100215","SecurityRuleDescription":"XSS - JSON body","ClientCountry":"in"}
+{"EdgeStartTimestamp":"2026-04-07T13:15:57.940Z","ClientRequestPath":"/v1/otp/verify","EdgeResponseStatus":403,"SecurityAction":"block","SecurityRuleID":"100215","SecurityRuleDescription":"XSS - JSON body","ClientCountry":"in"}
+ts=2026-04-07T13:16:18.451Z level=warn source=support-desk msg="spike in 'cannot login' tickets" count=140
+{"EdgeStartTimestamp":"2026-04-07T13:16:44.078Z","ClientRequestPath":"/v1/login","EdgeResponseStatus":403,"SecurityAction":"block","SecurityRuleID":"100215","SecurityRuleDescription":"XSS - JSON body","ClientCountry":"in"}
+ts=2026-04-07T13:17:09.977Z level=warn source=support-desk msg="spike in 'cannot login' tickets" count=140
+{"level":"info","ts":"2026-04-07T13:17:24.335Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_3831446","latency_ms":288}
+{"level":"info","ts":"2026-04-07T13:17:48.233Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_8017750","latency_ms":257}
+ts=2026-04-07T13:18:03.315Z level=warn source=support-desk msg="spike in 'cannot login' tickets" count=140
+{"EdgeStartTimestamp":"2026-04-07T13:18:15.902Z","ClientRequestPath":"/v1/login","EdgeResponseStatus":403,"SecurityAction":"block","SecurityRuleID":"100215","SecurityRuleDescription":"XSS - JSON body","ClientCountry":"in"}
+{"EdgeStartTimestamp":"2026-04-07T13:18:32.768Z","ClientRequestPath":"/v1/otp/verify","EdgeResponseStatus":403,"SecurityAction":"block","SecurityRuleID":"100215","SecurityRuleDescription":"XSS - JSON body","ClientCountry":"in"}
+{"level":"info","ts":"2026-04-07T13:18:52.749Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_3079659","latency_ms":332}
+{"EdgeStartTimestamp":"2026-04-07T13:19:08.624Z","ClientRequestPath":"/v1/otp/verify","EdgeResponseStatus":403,"SecurityAction":"block","SecurityRuleID":"100215","SecurityRuleDescription":"XSS - JSON body","ClientCountry":"in"}
+{"EdgeStartTimestamp":"2026-04-07T13:19:26.385Z","ClientRequestPath":"/v1/login","EdgeResponseStatus":403,"SecurityAction":"block","SecurityRuleID":"100215","SecurityRuleDescription":"XSS - JSON body","ClientCountry":"in"}
+{"level":"info","ts":"2026-04-07T13:19:49.838Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_5563249","latency_ms":71}
+ts=2026-04-07T13:20:08.265Z level=warn source=support-desk msg="spike in 'cannot login' tickets" count=140
+{"level":"info","ts":"2026-04-07T13:20:26.381Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_5940320","latency_ms":148}
+{"EdgeStartTimestamp":"2026-04-07T13:20:48.069Z","ClientRequestPath":"/v1/login","EdgeResponseStatus":403,"SecurityAction":"block","SecurityRuleID":"100215","SecurityRuleDescription":"XSS - JSON body","ClientCountry":"in"}
+{"level":"info","ts":"2026-04-07T13:21:08.130Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_6885348","latency_ms":132}
+{"EdgeStartTimestamp":"2026-04-07T13:21:26.174Z","ClientRequestPath":"/v1/login","EdgeResponseStatus":403,"SecurityAction":"block","SecurityRuleID":"100215","SecurityRuleDescription":"XSS - JSON body","ClientCountry":"in"}
+{"EdgeStartTimestamp":"2026-04-07T13:21:42.980Z","ClientRequestPath":"/v1/login","EdgeResponseStatus":403,"SecurityAction":"block","SecurityRuleID":"100215","SecurityRuleDescription":"XSS - JSON body","ClientCountry":"in"}
+{"level":"info","ts":"2026-04-07T13:22:06.659Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_2595068","latency_ms":111}
+{"level":"info","ts":"2026-04-07T13:22:34.336Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_3300055","latency_ms":362}
+ts=2026-04-07T13:22:52.125Z level=warn source=support-desk msg="spike in 'cannot login' tickets" count=140
+{"level":"info","ts":"2026-04-07T13:23:13.336Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_5937512","latency_ms":103}
+{"level":"info","ts":"2026-04-07T13:23:26.192Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_3329727","latency_ms":79}
+{"EdgeStartTimestamp":"2026-04-07T13:23:51.287Z","ClientRequestPath":"/v1/otp/verify","EdgeResponseStatus":403,"SecurityAction":"block","SecurityRuleID":"100215","SecurityRuleDescription":"XSS - JSON body","ClientCountry":"in"}
+ts=2026-04-07T13:24:17.815Z level=warn source=support-desk msg="spike in 'cannot login' tickets" count=140
+{"EdgeStartTimestamp":"2026-04-07T13:24:35.588Z","ClientRequestPath":"/v1/otp/verify","EdgeResponseStatus":403,"SecurityAction":"block","SecurityRuleID":"100215","SecurityRuleDescription":"XSS - JSON body","ClientCountry":"in"}
+{"level":"info","ts":"2026-04-07T13:24:48.968Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_9586959","latency_ms":317}
+{"EdgeStartTimestamp":"2026-04-07T13:25:13.750Z","ClientRequestPath":"/v1/login","EdgeResponseStatus":403,"SecurityAction":"block","SecurityRuleID":"100215","SecurityRuleDescription":"XSS - JSON body","ClientCountry":"in"}
+{"level":"info","ts":"2026-04-07T13:25:27.348Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_7015568","latency_ms":199}
+{"EdgeStartTimestamp":"2026-04-07T13:25:51.596Z","ClientRequestPath":"/v1/otp/verify","EdgeResponseStatus":403,"SecurityAction":"block","SecurityRuleID":"100215","SecurityRuleDescription":"XSS - JSON body","ClientCountry":"in"}
+{"EdgeStartTimestamp":"2026-04-07T13:26:06.809Z","ClientRequestPath":"/v1/otp/verify","EdgeResponseStatus":403,"SecurityAction":"block","SecurityRuleID":"100215","SecurityRuleDescription":"XSS - JSON body","ClientCountry":"in"}
+ts=2026-04-07T13:26:30.179Z level=warn source=support-desk msg="spike in 'cannot login' tickets" count=140
+ts=2026-04-07T13:26:52.696Z level=warn source=support-desk msg="spike in 'cannot login' tickets" count=140
+{"level":"info","ts":"2026-04-07T13:27:19.308Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_3997204","latency_ms":203}
+{"level":"info","ts":"2026-04-07T13:27:38.708Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_3361686","latency_ms":82}
+{"EdgeStartTimestamp":"2026-04-07T13:28:04.516Z","ClientRequestPath":"/v1/otp/verify","EdgeResponseStatus":403,"SecurityAction":"block","SecurityRuleID":"100215","SecurityRuleDescription":"XSS - JSON body","ClientCountry":"in"}
+{"EdgeStartTimestamp":"2026-04-07T13:28:26.368Z","ClientRequestPath":"/v1/otp/verify","EdgeResponseStatus":403,"SecurityAction":"block","SecurityRuleID":"100215","SecurityRuleDescription":"XSS - JSON body","ClientCountry":"in"}
+{"EdgeStartTimestamp":"2026-04-07T13:28:41.801Z","ClientRequestPath":"/v1/otp/verify","EdgeResponseStatus":403,"SecurityAction":"block","SecurityRuleID":"100215","SecurityRuleDescription":"XSS - JSON body","ClientCountry":"in"}
+ts=2026-04-07T13:28:56.479Z level=warn source=support-desk msg="spike in 'cannot login' tickets" count=140
+ts=2026-04-07T13:29:15.834Z level=warn source=support-desk msg="spike in 'cannot login' tickets" count=140
+ts=2026-04-07T13:29:28.062Z level=warn source=support-desk msg="spike in 'cannot login' tickets" count=140
+{"EdgeStartTimestamp":"2026-04-07T13:29:49.279Z","ClientRequestPath":"/v1/otp/verify","EdgeResponseStatus":403,"SecurityAction":"block","SecurityRuleID":"100215","SecurityRuleDescription":"XSS - JSON body","ClientCountry":"in"}
+{"EdgeStartTimestamp":"2026-04-07T13:30:15.371Z","ClientRequestPath":"/v1/otp/verify","EdgeResponseStatus":403,"SecurityAction":"block","SecurityRuleID":"100215","SecurityRuleDescription":"XSS - JSON body","ClientCountry":"in"}
+ts=2026-04-07T13:30:34.638Z level=warn source=support-desk msg="spike in 'cannot login' tickets" count=140
+ts=2026-04-07T13:30:46.462Z level=warn source=support-desk msg="spike in 'cannot login' tickets" count=140
+ts=2026-04-07T13:31:09.267Z level=warn source=support-desk msg="spike in 'cannot login' tickets" count=140
+{"EdgeStartTimestamp":"2026-04-07T13:31:23.807Z","ClientRequestPath":"/v1/otp/verify","EdgeResponseStatus":403,"SecurityAction":"block","SecurityRuleID":"100215","SecurityRuleDescription":"XSS - JSON body","ClientCountry":"in"}
+{"EdgeStartTimestamp":"2026-04-07T13:31:48.363Z","ClientRequestPath":"/v1/login","EdgeResponseStatus":403,"SecurityAction":"block","SecurityRuleID":"100215","SecurityRuleDescription":"XSS - JSON body","ClientCountry":"in"}
+{"EdgeStartTimestamp":"2026-04-07T13:32:04.324Z","ClientRequestPath":"/v1/login","EdgeResponseStatus":403,"SecurityAction":"block","SecurityRuleID":"100215","SecurityRuleDescription":"XSS - JSON body","ClientCountry":"in"}
+{"level":"info","ts":"2026-04-07T13:32:29.557Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_3396034","latency_ms":172}
+{"EdgeStartTimestamp":"2026-04-07T13:32:51.823Z","ClientRequestPath":"/v1/otp/verify","EdgeResponseStatus":403,"SecurityAction":"block","SecurityRuleID":"100215","SecurityRuleDescription":"XSS - JSON body","ClientCountry":"in"}
+{"EdgeStartTimestamp":"2026-04-07T13:33:13.761Z","ClientRequestPath":"/v1/login","EdgeResponseStatus":403,"SecurityAction":"block","SecurityRuleID":"100215","SecurityRuleDescription":"XSS - JSON body","ClientCountry":"in"}
+{"EdgeStartTimestamp":"2026-04-07T13:33:39.380Z","ClientRequestPath":"/v1/otp/verify","EdgeResponseStatus":403,"SecurityAction":"block","SecurityRuleID":"100215","SecurityRuleDescription":"XSS - JSON body","ClientCountry":"in"}
+{"EdgeStartTimestamp":"2026-04-07T13:33:57.244Z","ClientRequestPath":"/v1/login","EdgeResponseStatus":403,"SecurityAction":"block","SecurityRuleID":"100215","SecurityRuleDescription":"XSS - JSON body","ClientCountry":"in"}
+{"EdgeStartTimestamp":"2026-04-07T13:34:08.572Z","ClientRequestPath":"/v1/otp/verify","EdgeResponseStatus":403,"SecurityAction":"block","SecurityRuleID":"100215","SecurityRuleDescription":"XSS - JSON body","ClientCountry":"in"}
+{"EdgeStartTimestamp":"2026-04-07T13:34:34.742Z","ClientRequestPath":"/v1/otp/verify","EdgeResponseStatus":403,"SecurityAction":"block","SecurityRuleID":"100215","SecurityRuleDescription":"XSS - JSON body","ClientCountry":"in"}
+ts=2026-04-07T13:34:51.267Z level=warn source=support-desk msg="spike in 'cannot login' tickets" count=140
+{"EdgeStartTimestamp":"2026-04-07T13:35:08.209Z","ClientRequestPath":"/v1/otp/verify","EdgeResponseStatus":403,"SecurityAction":"block","SecurityRuleID":"100215","SecurityRuleDescription":"XSS - JSON body","ClientCountry":"in"}
+{"EdgeStartTimestamp":"2026-04-07T13:35:21.000Z","ClientRequestPath":"/v1/login","EdgeResponseStatus":200,"SecurityAction":"log","SecurityRuleID":"100215","ClientCountry":"in"}
+{"level":"info","ts":"2026-04-07T13:35:50.000Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_6886890","latency_ms":371}
+{"level":"info","ts":"2026-04-07T13:37:37.000Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_6227201","latency_ms":59}
+{"level":"info","ts":"2026-04-07T13:38:51.000Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_5494265","latency_ms":66}
+{"level":"info","ts":"2026-04-07T13:39:36.000Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_9691652","latency_ms":310}
+{"level":"info","ts":"2026-04-07T13:40:34.000Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_9913004","latency_ms":335}
+{"level":"info","ts":"2026-04-07T13:42:31.000Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_8414494","latency_ms":190}
+{"level":"info","ts":"2026-04-07T13:43:24.000Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_7770360","latency_ms":287}
+{"level":"info","ts":"2026-04-07T13:45:18.000Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_6118914","latency_ms":357}
+{"level":"info","ts":"2026-04-07T13:46:54.000Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_7989513","latency_ms":173}
+{"level":"info","ts":"2026-04-07T13:47:56.000Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_4661166","latency_ms":187}
+{"level":"info","ts":"2026-04-07T13:49:14.000Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_4276263","latency_ms":274}
+{"level":"info","ts":"2026-04-07T13:51:06.000Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_2232435","latency_ms":316}
+{"level":"info","ts":"2026-04-07T13:51:53.000Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_8148563","latency_ms":156}
+{"level":"info","ts":"2026-04-07T13:52:57.000Z","caller":"http/login.go:61","msg":"login ok","user_id":"u_8555778","latency_ms":302}

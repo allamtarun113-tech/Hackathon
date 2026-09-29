@@ -1,0 +1,107 @@
+2026-08-09 12:55:00.000  INFO 1 --- [http-nio-8080-exec-197] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-22927950 amount=2499.00 INR gateway=razorpay latencyMs=77
+2026-08-09 12:55:47.121  INFO 1 --- [http-nio-8080-exec-72] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-50657565 amount=199.00 INR gateway=razorpay latencyMs=326
+2026-08-09 12:56:12.819  INFO 1 --- [http-nio-8080-exec-146] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-24361580 amount=199.00 INR gateway=razorpay latencyMs=259
+2026-08-09 12:57:12.971  INFO 1 --- [http-nio-8080-exec-18] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-26727483 amount=24999.00 INR gateway=razorpay latencyMs=194
+2026-08-09 12:57:43.590  INFO 1 --- [http-nio-8080-exec-54] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-15716010 amount=349.00 INR gateway=razorpay latencyMs=182
+2026-08-09 12:58:51.492  INFO 1 --- [http-nio-8080-exec-197] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-23414043 amount=349.00 INR gateway=razorpay latencyMs=73
+2026-08-09 12:59:26.931  INFO 1 --- [http-nio-8080-exec-132] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-68421007 amount=1299.00 INR gateway=razorpay latencyMs=169
+2026-08-09 13:00:05.544  INFO 1 --- [http-nio-8080-exec-187] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-54724018 amount=199.00 INR gateway=razorpay latencyMs=83
+2026-08-09 13:00:57.141  INFO 1 --- [http-nio-8080-exec-86] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-55661009 amount=349.00 INR gateway=razorpay latencyMs=354
+2026-08-09 13:02:04.910  INFO 1 --- [http-nio-8080-exec-142] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-80234965 amount=1299.00 INR gateway=razorpay latencyMs=318
+2026-08-09 13:02:42.836  INFO 1 --- [http-nio-8080-exec-17] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-49134022 amount=199.00 INR gateway=razorpay latencyMs=73
+2026-08-09 13:03:48.894  INFO 1 --- [http-nio-8080-exec-33] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-27093578 amount=7499.00 INR gateway=razorpay latencyMs=64
+2026-08-09 13:04:44.683  INFO 1 --- [http-nio-8080-exec-157] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-45226656 amount=3999.00 INR gateway=razorpay latencyMs=55
+2026-08-09 13:05:44.723  INFO 1 --- [http-nio-8080-exec-49] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-53691629 amount=499.00 INR gateway=razorpay latencyMs=276
+2026-08-09 13:06:19.663  INFO 1 --- [http-nio-8080-exec-3] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-69973136 amount=899.00 INR gateway=razorpay latencyMs=138
+2026-08-09 13:07:22.919  INFO 1 --- [http-nio-8080-exec-174] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-44915207 amount=899.00 INR gateway=razorpay latencyMs=296
+2026-08-09 13:08:12.220  INFO 1 --- [http-nio-8080-exec-101] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-75792021 amount=349.00 INR gateway=razorpay latencyMs=278
+2026-08-09 13:09:09.367  INFO 1 --- [http-nio-8080-exec-45] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-67268807 amount=199.00 INR gateway=razorpay latencyMs=179
+2026-08-09 13:09:40.967  INFO 1 --- [http-nio-8080-exec-127] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-15813678 amount=12999.00 INR gateway=razorpay latencyMs=352
+2026-08-09 13:10:34.452  INFO 1 --- [http-nio-8080-exec-179] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-46554873 amount=1299.00 INR gateway=razorpay latencyMs=66
+2026-08-09 13:11:13.831 ERROR 1 --- [http-nio-8080-exec-61] c.k.payments.gateway.RazorpayClient      : POST https://api.razorpay.com/v1/payments/create read timeout after 10000ms traceId=a3d086d43046f468
+2026-08-09 13:11:39.663  WARN 1 --- [http-nio-8080-exec-47] c.k.payments.api.ChargeController      : Gateway call failed, returning 504 orderId=ORD-77164657 gateway=razorpay
+2026-08-09 13:11:55.608 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=150, active=18, idle=132, waiting=0)
+10.42.0.52 - - [09/Aug/2026:13:12:24 +0530] "POST /v1/charges HTTP/1.1" 504 160 "-" "checkout-web/7.3" upstream_response_time=10.019
+2026-08-09 13:12:48.839 ERROR 1 --- [http-nio-8080-exec-50] c.k.payments.gateway.RazorpayClient      : POST https://api.razorpay.com/v1/payments/create read timeout after 10000ms traceId=e3e37679b885f5b3
+2026-08-09 13:13:04.368  WARN 1 --- [http-nio-8080-exec-129] c.k.payments.api.ChargeController      : Gateway call failed, returning 504 orderId=ORD-63391615 gateway=razorpay
+2026-08-09 13:13:18.797  WARN 1 --- [http-nio-8080-exec-173] c.k.payments.api.ChargeController      : Gateway call failed, returning 504 orderId=ORD-22082830 gateway=razorpay
+2026-08-09 13:13:40.556 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=150, active=18, idle=132, waiting=0)
+2026-08-09 13:14:04.490 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=150, active=18, idle=132, waiting=0)
+2026-08-09 13:14:27.843 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=150, active=18, idle=132, waiting=0)
+10.42.2.226 - - [09/Aug/2026:13:14:44 +0530] "POST /v1/charges HTTP/1.1" 504 160 "-" "checkout-web/7.3" upstream_response_time=10.011
+2026-08-09 13:14:59.111 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=150, active=18, idle=132, waiting=0)
+2026-08-09 13:15:30.489  WARN 1 --- [http-nio-8080-exec-198] c.k.payments.api.ChargeController      : Gateway call failed, returning 504 orderId=ORD-25851250 gateway=razorpay
+2026-08-09 13:15:49.869 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=150, active=18, idle=132, waiting=0)
+2026-08-09 13:16:17.480 ERROR 1 --- [http-nio-8080-exec-185] c.k.payments.gateway.RazorpayClient      : POST https://api.razorpay.com/v1/payments/create read timeout after 10000ms traceId=7c0988fa75ac4759
+2026-08-09 13:16:49.089  WARN 1 --- [http-nio-8080-exec-173] c.k.payments.api.ChargeController      : Gateway call failed, returning 504 orderId=ORD-12049480 gateway=razorpay
+10.42.4.83 - - [09/Aug/2026:13:17:20 +0530] "POST /v1/charges HTTP/1.1" 504 160 "-" "checkout-web/7.3" upstream_response_time=10.011
+2026-08-09 13:17:35.800  WARN 1 --- [http-nio-8080-exec-153] c.k.payments.api.ChargeController      : Gateway call failed, returning 504 orderId=ORD-19321955 gateway=razorpay
+10.42.1.132 - - [09/Aug/2026:13:17:57 +0530] "POST /v1/charges HTTP/1.1" 504 160 "-" "checkout-web/7.3" upstream_response_time=10.014
+2026-08-09 13:18:13.021 ERROR 1 --- [http-nio-8080-exec-138] c.k.payments.gateway.RazorpayClient      : POST https://api.razorpay.com/v1/payments/create read timeout after 10000ms traceId=5af1af3116bcb525
+2026-08-09 13:18:29.656  WARN 1 --- [http-nio-8080-exec-83] c.k.payments.api.ChargeController      : Gateway call failed, returning 504 orderId=ORD-48572230 gateway=razorpay
+2026-08-09 13:18:57.354 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=150, active=18, idle=132, waiting=0)
+2026-08-09 13:19:31.068  WARN 1 --- [http-nio-8080-exec-35] c.k.payments.api.ChargeController      : Gateway call failed, returning 504 orderId=ORD-46658618 gateway=razorpay
+10.42.8.43 - - [09/Aug/2026:13:19:55 +0530] "POST /v1/charges HTTP/1.1" 504 160 "-" "checkout-web/7.3" upstream_response_time=10.014
+2026-08-09 13:20:11.557 ERROR 1 --- [http-nio-8080-exec-85] c.k.payments.gateway.RazorpayClient      : POST https://api.razorpay.com/v1/payments/create read timeout after 10000ms traceId=4468e33527c9ebd7
+2026-08-09 13:20:26.777 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=150, active=18, idle=132, waiting=0)
+10.42.2.37 - - [09/Aug/2026:13:20:49 +0530] "POST /v1/charges HTTP/1.1" 504 160 "-" "checkout-web/7.3" upstream_response_time=10.019
+2026-08-09 13:21:19.384 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=150, active=18, idle=132, waiting=0)
+2026-08-09 13:21:47.504  WARN 1 --- [http-nio-8080-exec-184] c.k.payments.api.ChargeController      : Gateway call failed, returning 504 orderId=ORD-13565090 gateway=razorpay
+10.42.0.18 - - [09/Aug/2026:13:22:14 +0530] "POST /v1/charges HTTP/1.1" 504 160 "-" "checkout-web/7.3" upstream_response_time=10.018
+2026-08-09 13:22:28.829  WARN 1 --- [http-nio-8080-exec-31] c.k.payments.api.ChargeController      : Gateway call failed, returning 504 orderId=ORD-42526968 gateway=razorpay
+2026-08-09 13:22:55.368 ERROR 1 --- [http-nio-8080-exec-198] c.k.payments.gateway.RazorpayClient      : POST https://api.razorpay.com/v1/payments/create read timeout after 10000ms traceId=ec27566fcf87c742
+10.42.10.97 - - [09/Aug/2026:13:23:21 +0530] "POST /v1/charges HTTP/1.1" 504 160 "-" "checkout-web/7.3" upstream_response_time=10.014
+10.42.2.3 - - [09/Aug/2026:13:23:42 +0530] "POST /v1/charges HTTP/1.1" 504 160 "-" "checkout-web/7.3" upstream_response_time=10.017
+2026-08-09 13:23:56.936 ERROR 1 --- [http-nio-8080-exec-193] c.k.payments.gateway.RazorpayClient      : POST https://api.razorpay.com/v1/payments/create read timeout after 10000ms traceId=1f6453a9c5732af9
+2026-08-09 13:24:14.694  WARN 1 --- [http-nio-8080-exec-31] c.k.payments.api.ChargeController      : Gateway call failed, returning 504 orderId=ORD-76412701 gateway=razorpay
+2026-08-09 13:24:36.369 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=150, active=18, idle=132, waiting=0)
+2026-08-09 13:25:07.886 ERROR 1 --- [http-nio-8080-exec-171] c.k.payments.gateway.RazorpayClient      : POST https://api.razorpay.com/v1/payments/create read timeout after 10000ms traceId=2aee5a1297dcfdb2
+2026-08-09 13:25:22.038 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=150, active=18, idle=132, waiting=0)
+2026-08-09 13:25:48.561 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=150, active=18, idle=132, waiting=0)
+2026-08-09 13:26:10.595 ERROR 1 --- [http-nio-8080-exec-177] c.k.payments.gateway.RazorpayClient      : POST https://api.razorpay.com/v1/payments/create read timeout after 10000ms traceId=9ee5a02a4b0cbe64
+2026-08-09 13:26:42.810 ERROR 1 --- [http-nio-8080-exec-148] c.k.payments.gateway.RazorpayClient      : POST https://api.razorpay.com/v1/payments/create read timeout after 10000ms traceId=2c668f129d7f06e9
+2026-08-09 13:27:13.703  WARN 1 --- [http-nio-8080-exec-120] c.k.payments.api.ChargeController      : Gateway call failed, returning 504 orderId=ORD-82982399 gateway=razorpay
+2026-08-09 13:27:40.133 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=150, active=18, idle=132, waiting=0)
+2026-08-09 13:28:13.155 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=150, active=18, idle=132, waiting=0)
+2026-08-09 13:28:40.967 ERROR 1 --- [http-nio-8080-exec-134] c.k.payments.gateway.RazorpayClient      : POST https://api.razorpay.com/v1/payments/create read timeout after 10000ms traceId=007b16445921a83a
+2026-08-09 13:29:04.996 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=150, active=18, idle=132, waiting=0)
+2026-08-09 13:29:37.099 ERROR 1 --- [http-nio-8080-exec-84] c.k.payments.gateway.RazorpayClient      : POST https://api.razorpay.com/v1/payments/create read timeout after 10000ms traceId=2abd0a038b82b29c
+2026-08-09 13:30:06.214  WARN 1 --- [http-nio-8080-exec-51] c.k.payments.api.ChargeController      : Gateway call failed, returning 504 orderId=ORD-54815435 gateway=razorpay
+10.42.1.53 - - [09/Aug/2026:13:30:25 +0530] "POST /v1/charges HTTP/1.1" 504 160 "-" "checkout-web/7.3" upstream_response_time=10.016
+2026-08-09 13:30:52.487 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=150, active=18, idle=132, waiting=0)
+2026-08-09 13:31:08.235  WARN 1 --- [http-nio-8080-exec-89] c.k.payments.api.ChargeController      : Gateway call failed, returning 504 orderId=ORD-60891106 gateway=razorpay
+2026-08-09 13:31:30.442  WARN 1 --- [http-nio-8080-exec-19] c.k.payments.api.ChargeController      : Gateway call failed, returning 504 orderId=ORD-47875914 gateway=razorpay
+2026-08-09 13:31:59.622  WARN 1 --- [http-nio-8080-exec-199] c.k.payments.api.ChargeController      : Gateway call failed, returning 504 orderId=ORD-66131859 gateway=razorpay
+2026-08-09 13:32:23.625  WARN 1 --- [http-nio-8080-exec-98] c.k.payments.api.ChargeController      : Gateway call failed, returning 504 orderId=ORD-87993419 gateway=razorpay
+2026-08-09 13:32:39.061 ERROR 1 --- [http-nio-8080-exec-149] c.k.payments.gateway.RazorpayClient      : POST https://api.razorpay.com/v1/payments/create read timeout after 10000ms traceId=42ba7a4817e5ecae
+10.42.10.52 - - [09/Aug/2026:13:33:02 +0530] "POST /v1/charges HTTP/1.1" 504 160 "-" "checkout-web/7.3" upstream_response_time=10.011
+2026-08-09 13:33:34.594  WARN 1 --- [http-nio-8080-exec-122] c.k.payments.api.ChargeController      : Gateway call failed, returning 504 orderId=ORD-67533113 gateway=razorpay
+2026-08-09 13:34:03.634 ERROR 1 --- [http-nio-8080-exec-5] c.k.payments.gateway.RazorpayClient      : POST https://api.razorpay.com/v1/payments/create read timeout after 10000ms traceId=f549fa298c689542
+2026-08-09 13:34:33.375 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=150, active=18, idle=132, waiting=0)
+2026-08-09 13:34:48.740  WARN 1 --- [http-nio-8080-exec-69] c.k.payments.api.ChargeController      : Gateway call failed, returning 504 orderId=ORD-48559341 gateway=razorpay
+10.42.4.147 - - [09/Aug/2026:13:35:13 +0530] "POST /v1/charges HTTP/1.1" 504 160 "-" "checkout-web/7.3" upstream_response_time=10.014
+2026-08-09 13:35:30.623 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=150, active=18, idle=132, waiting=0)
+2026-08-09 13:35:55.479 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=150, active=18, idle=132, waiting=0)
+2026-08-09 13:36:12.190 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=150, active=18, idle=132, waiting=0)
+10.42.4.102 - - [09/Aug/2026:13:36:45 +0530] "POST /v1/charges HTTP/1.1" 504 160 "-" "checkout-web/7.3" upstream_response_time=10.017
+2026-08-09 13:37:10.156 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=150, active=18, idle=132, waiting=0)
+10.42.6.29 - - [09/Aug/2026:13:37:30 +0530] "POST /v1/charges HTTP/1.1" 504 160 "-" "checkout-web/7.3" upstream_response_time=10.015
+2026-08-09 13:38:02.081 ERROR 1 --- [http-nio-8080-exec-122] c.k.payments.gateway.RazorpayClient      : POST https://api.razorpay.com/v1/payments/create read timeout after 10000ms traceId=1b67768a182e96fc
+2026-08-09 13:38:34.770 ERROR 1 --- [http-nio-8080-exec-79] c.k.payments.gateway.RazorpayClient      : POST https://api.razorpay.com/v1/payments/create read timeout after 10000ms traceId=438c2b12b5780123
+2026-08-09 13:38:56.501 ERROR 1 --- [http-nio-8080-exec-170] c.k.payments.gateway.RazorpayClient      : POST https://api.razorpay.com/v1/payments/create read timeout after 10000ms traceId=04761792c6f84b15
+10.42.5.232 - - [09/Aug/2026:13:39:13 +0530] "POST /v1/charges HTTP/1.1" 504 160 "-" "checkout-web/7.3" upstream_response_time=10.016
+2026-08-09 13:39:46.723 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=150, active=18, idle=132, waiting=0)
+10.42.11.250 - - [09/Aug/2026:13:40:05 +0530] "POST /v1/charges HTTP/1.1" 504 160 "-" "checkout-web/7.3" upstream_response_time=10.012
+2026-08-09 13:40:25.088  WARN 1 --- [http-nio-8080-exec-194] c.k.payments.api.ChargeController      : Gateway call failed, returning 504 orderId=ORD-15300056 gateway=razorpay
+2026-08-09 13:40:49.584 DEBUG 1 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Pool stats (total=150, active=18, idle=132, waiting=0)
+2026-08-09 13:41:11.000  INFO 1 --- [config-watcher] c.k.payments.gateway.GatewayRouter       : PAYMENT_GATEWAY_PRIMARY changed razorpay -> cashfree
+2026-08-09 13:42:04.000  INFO 1 --- [http-nio-8080-exec-91] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-94208512 amount=24999.00 INR gateway=cashfree latencyMs=273
+2026-08-09 13:42:46.000  INFO 1 --- [http-nio-8080-exec-38] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-90036259 amount=3999.00 INR gateway=razorpay latencyMs=300
+2026-08-09 13:44:42.000  INFO 1 --- [http-nio-8080-exec-93] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-93433607 amount=899.00 INR gateway=razorpay latencyMs=73
+2026-08-09 13:45:53.000  INFO 1 --- [http-nio-8080-exec-198] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-46006615 amount=24999.00 INR gateway=razorpay latencyMs=301
+2026-08-09 13:47:45.000  INFO 1 --- [http-nio-8080-exec-105] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-71946245 amount=199.00 INR gateway=razorpay latencyMs=142
+2026-08-09 13:49:25.000  INFO 1 --- [http-nio-8080-exec-60] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-68489567 amount=499.00 INR gateway=razorpay latencyMs=298
+2026-08-09 13:51:09.000  INFO 1 --- [http-nio-8080-exec-69] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-97571672 amount=349.00 INR gateway=razorpay latencyMs=344
+2026-08-09 13:52:27.000  INFO 1 --- [http-nio-8080-exec-5] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-44369166 amount=499.00 INR gateway=razorpay latencyMs=193
+2026-08-09 13:54:01.000  INFO 1 --- [http-nio-8080-exec-172] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-21751741 amount=3999.00 INR gateway=razorpay latencyMs=104
+2026-08-09 13:54:53.000  INFO 1 --- [http-nio-8080-exec-157] c.k.payments.api.ChargeController      : Charge authorized orderId=ORD-65113735 amount=199.00 INR gateway=razorpay latencyMs=196

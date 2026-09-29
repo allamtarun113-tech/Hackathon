@@ -1,0 +1,78 @@
+2026-09-29 13:10:00.000  INFO 1 --- [http-nio-8080-exec-104] c.k.orders.api.OrderController           : GET /v1/orders/ORD-64571673 200 source=replica latencyMs=91
+2026-09-29 13:10:34.440  INFO 1 --- [http-nio-8080-exec-45] c.k.orders.api.OrderController           : GET /v1/orders/ORD-29180516 200 source=replica latencyMs=57
+2026-09-29 13:11:01.756  INFO 1 --- [http-nio-8080-exec-64] c.k.orders.api.OrderController           : GET /v1/orders/ORD-17620943 200 source=replica latencyMs=77
+2026-09-29 13:11:27.558  INFO 1 --- [http-nio-8080-exec-128] c.k.orders.api.OrderController           : GET /v1/orders/ORD-63677841 200 source=replica latencyMs=121
+2026-09-29 13:12:22.657  INFO 1 --- [http-nio-8080-exec-148] c.k.orders.api.OrderController           : GET /v1/orders/ORD-29608593 200 source=replica latencyMs=196
+2026-09-29 13:13:01.141  INFO 1 --- [http-nio-8080-exec-118] c.k.orders.api.OrderController           : GET /v1/orders/ORD-83149887 200 source=replica latencyMs=338
+2026-09-29 13:14:07.736  INFO 1 --- [http-nio-8080-exec-173] c.k.orders.api.OrderController           : GET /v1/orders/ORD-28596320 200 source=replica latencyMs=273
+2026-09-29 13:14:42.430  INFO 1 --- [http-nio-8080-exec-104] c.k.orders.api.OrderController           : GET /v1/orders/ORD-95754970 200 source=replica latencyMs=102
+2026-09-29 13:15:34.264  INFO 1 --- [http-nio-8080-exec-64] c.k.orders.api.OrderController           : GET /v1/orders/ORD-87958837 200 source=replica latencyMs=244
+2026-09-29 13:16:24.251  INFO 1 --- [http-nio-8080-exec-31] c.k.orders.api.OrderController           : GET /v1/orders/ORD-21511476 200 source=replica latencyMs=55
+2026-09-29 13:17:12.087  INFO 1 --- [http-nio-8080-exec-66] c.k.orders.api.OrderController           : GET /v1/orders/ORD-73458906 200 source=replica latencyMs=320
+2026-09-29 13:18:10.164  INFO 1 --- [http-nio-8080-exec-88] c.k.orders.api.OrderController           : GET /v1/orders/ORD-83725234 200 source=replica latencyMs=170
+2026-09-29 13:19:16.167  INFO 1 --- [http-nio-8080-exec-49] c.k.orders.api.OrderController           : GET /v1/orders/ORD-18860848 200 source=replica latencyMs=133
+2026-09-29 13:20:15.246  INFO 1 --- [http-nio-8080-exec-118] c.k.orders.api.OrderController           : GET /v1/orders/ORD-89051482 200 source=replica latencyMs=150
+2026-09-29 13:21:18.061  INFO 1 --- [http-nio-8080-exec-194] c.k.orders.api.OrderController           : GET /v1/orders/ORD-29366116 200 source=replica latencyMs=221
+2026-09-29 13:21:46.001  INFO 1 --- [http-nio-8080-exec-178] c.k.orders.api.OrderController           : GET /v1/orders/ORD-80497843 200 source=replica latencyMs=201
+2026-09-29 13:22:32.264  INFO 1 --- [http-nio-8080-exec-96] c.k.orders.api.OrderController           : GET /v1/orders/ORD-24672302 200 source=replica latencyMs=107
+2026-09-29 13:23:29.171  INFO 1 --- [http-nio-8080-exec-155] c.k.orders.api.OrderController           : GET /v1/orders/ORD-78520576 200 source=replica latencyMs=195
+2026-09-29 13:24:11.611  INFO 1 --- [http-nio-8080-exec-107] c.k.orders.api.OrderController           : GET /v1/orders/ORD-42004338 200 source=replica latencyMs=247
+2026-09-29 13:24:57.099  INFO 1 --- [http-nio-8080-exec-120] c.k.orders.api.OrderController           : GET /v1/orders/ORD-68511530 200 source=replica latencyMs=127
+2026-09-29 13:25:25.178  INFO 1 --- [http-nio-8080-exec-152] c.k.orders.api.OrderController           : GET /v1/orders/ORD-23714966 200 source=replica latencyMs=127
+ts=2026-09-29T07:56:00.421Z level=info job=loyalty-points-backfill namespace=orders msg="batch committed" rows=50000
+2026-09-29 13:26:08.025  WARN 1 --- [replica-health] c.k.orders.db.ReplicaHealthCheck         : postgres-main-replica-1 replication lag 254s (threshold 5s)
+2026-09-29 13:26:15.881  WARN 1 --- [http-nio-8080-exec-113] c.k.orders.api.OrderController           : GET /v1/orders/ORD-12101343 404 order not found source=replica
+2026-09-29 13:26:24.869 ERROR 1 --- [http-nio-8080-exec-158] c.k.orders.api.PaymentStatusController   : Order ORD-90299537 shows PAYMENT_PENDING on replica but CAPTURED on primary
+2026-09-29 13:26:32.739  WARN 1 --- [http-nio-8080-exec-95] c.k.orders.api.OrderController           : GET /v1/orders/ORD-51271790 404 order not found source=replica
+ts=2026-09-29T07:56:37.818Z level=info job=loyalty-points-backfill namespace=orders msg="batch committed" rows=50000
+2026-09-29 13:26:43.805  WARN 1 --- [replica-health] c.k.orders.db.ReplicaHealthCheck         : postgres-main-replica-1 replication lag 254s (threshold 5s)
+ts=2026-09-29T07:56:53.603Z level=info job=loyalty-points-backfill namespace=orders msg="batch committed" rows=50000
+ts=2026-09-29T07:56:58.043Z level=info job=loyalty-points-backfill namespace=orders msg="batch committed" rows=50000
+2026-09-29 13:27:03.843  WARN 1 --- [http-nio-8080-exec-72] c.k.orders.api.OrderController           : GET /v1/orders/ORD-24472836 404 order not found source=replica
+2026-09-29 13:27:09.102 ERROR 1 --- [http-nio-8080-exec-12] c.k.orders.api.PaymentStatusController   : Order ORD-21177434 shows PAYMENT_PENDING on replica but CAPTURED on primary
+ts=2026-09-29T07:57:12.922Z level=info job=loyalty-points-backfill namespace=orders msg="batch committed" rows=50000
+ts=2026-09-29T07:57:23.045Z level=info job=loyalty-points-backfill namespace=orders msg="batch committed" rows=50000
+2026-09-29 13:27:33.988  WARN 1 --- [http-nio-8080-exec-103] c.k.orders.api.OrderController           : GET /v1/orders/ORD-41818777 404 order not found source=replica
+2026-09-29 13:27:40.430  WARN 1 --- [http-nio-8080-exec-167] c.k.orders.api.OrderController           : GET /v1/orders/ORD-63996262 404 order not found source=replica
+2026-09-29 13:27:46.361  WARN 1 --- [http-nio-8080-exec-150] c.k.orders.api.OrderController           : GET /v1/orders/ORD-76075363 404 order not found source=replica
+ts=2026-09-29T07:57:56.472Z level=info job=loyalty-points-backfill namespace=orders msg="batch committed" rows=50000
+2026-09-29 13:28:02.514  WARN 1 --- [http-nio-8080-exec-122] c.k.orders.api.OrderController           : GET /v1/orders/ORD-74608714 404 order not found source=replica
+2026-09-29 13:28:07.228  WARN 1 --- [http-nio-8080-exec-54] c.k.orders.api.OrderController           : GET /v1/orders/ORD-57521154 404 order not found source=replica
+ts=2026-09-29T07:58:16.240Z level=info job=loyalty-points-backfill namespace=orders msg="batch committed" rows=50000
+ts=2026-09-29T07:58:20.910Z level=info job=loyalty-points-backfill namespace=orders msg="batch committed" rows=50000
+ts=2026-09-29T07:58:30.231Z level=info job=loyalty-points-backfill namespace=orders msg="batch committed" rows=50000
+2026-09-29 13:28:35.134  WARN 1 --- [replica-health] c.k.orders.db.ReplicaHealthCheck         : postgres-main-replica-1 replication lag 254s (threshold 5s)
+2026-09-29 13:28:43.815  WARN 1 --- [http-nio-8080-exec-11] c.k.orders.api.OrderController           : GET /v1/orders/ORD-11160223 404 order not found source=replica
+2026-09-29 13:28:52.374  WARN 1 --- [replica-health] c.k.orders.db.ReplicaHealthCheck         : postgres-main-replica-1 replication lag 254s (threshold 5s)
+2026-09-29 13:28:59.038  WARN 1 --- [http-nio-8080-exec-114] c.k.orders.api.OrderController           : GET /v1/orders/ORD-46289726 404 order not found source=replica
+2026-09-29 13:29:07.021 ERROR 1 --- [http-nio-8080-exec-1] c.k.orders.api.PaymentStatusController   : Order ORD-16110181 shows PAYMENT_PENDING on replica but CAPTURED on primary
+2026-09-29 13:29:12.538  WARN 1 --- [http-nio-8080-exec-187] c.k.orders.api.OrderController           : GET /v1/orders/ORD-87951008 404 order not found source=replica
+2026-09-29 13:29:22.568  WARN 1 --- [replica-health] c.k.orders.db.ReplicaHealthCheck         : postgres-main-replica-1 replication lag 254s (threshold 5s)
+ts=2026-09-29T07:59:30.651Z level=info job=loyalty-points-backfill namespace=orders msg="batch committed" rows=50000
+2026-09-29 13:29:35.526  WARN 1 --- [replica-health] c.k.orders.db.ReplicaHealthCheck         : postgres-main-replica-1 replication lag 254s (threshold 5s)
+2026-09-29 13:29:43.849  WARN 1 --- [replica-health] c.k.orders.db.ReplicaHealthCheck         : postgres-main-replica-1 replication lag 254s (threshold 5s)
+ts=2026-09-29T07:59:50.948Z level=info job=loyalty-points-backfill namespace=orders msg="batch committed" rows=50000
+2026-09-29 13:29:54.707 ERROR 1 --- [http-nio-8080-exec-192] c.k.orders.api.PaymentStatusController   : Order ORD-50898128 shows PAYMENT_PENDING on replica but CAPTURED on primary
+2026-09-29 13:30:03.338 ERROR 1 --- [http-nio-8080-exec-137] c.k.orders.api.PaymentStatusController   : Order ORD-29993288 shows PAYMENT_PENDING on replica but CAPTURED on primary
+ts=2026-09-29T08:00:10.805Z level=info job=loyalty-points-backfill namespace=orders msg="batch committed" rows=50000
+2026-09-29 13:30:15.383  WARN 1 --- [replica-health] c.k.orders.db.ReplicaHealthCheck         : postgres-main-replica-1 replication lag 254s (threshold 5s)
+2026-09-29 13:30:25.914  WARN 1 --- [http-nio-8080-exec-47] c.k.orders.api.OrderController           : GET /v1/orders/ORD-67577807 404 order not found source=replica
+2026-09-29 13:30:30.708  WARN 1 --- [replica-health] c.k.orders.db.ReplicaHealthCheck         : postgres-main-replica-1 replication lag 254s (threshold 5s)
+2026-09-29 13:30:41.616  WARN 1 --- [http-nio-8080-exec-174] c.k.orders.api.OrderController           : GET /v1/orders/ORD-22623879 404 order not found source=replica
+2026-09-29 13:30:47.418  WARN 1 --- [replica-health] c.k.orders.db.ReplicaHealthCheck         : postgres-main-replica-1 replication lag 254s (threshold 5s)
+ts=2026-09-29T08:00:57.451Z level=info job=loyalty-points-backfill namespace=orders msg="batch committed" rows=50000
+2026-09-29 13:31:03.973  WARN 1 --- [http-nio-8080-exec-152] c.k.orders.api.OrderController           : GET /v1/orders/ORD-38964561 404 order not found source=replica
+2026-09-29 13:31:07.967  WARN 1 --- [http-nio-8080-exec-140] c.k.orders.api.OrderController           : GET /v1/orders/ORD-10399242 404 order not found source=replica
+ts=2026-09-29T08:01:17.800Z level=info job=loyalty-points-backfill namespace=orders msg="batch committed" rows=50000
+2026-09-29 13:31:23.097  WARN 1 --- [http-nio-8080-exec-198] c.k.orders.api.OrderController           : GET /v1/orders/ORD-35816484 404 order not found source=replica
+2026-09-29 13:31:29.709 ERROR 1 --- [http-nio-8080-exec-30] c.k.orders.api.PaymentStatusController   : Order ORD-99794249 shows PAYMENT_PENDING on replica but CAPTURED on primary
+2026-09-29 13:31:39.286  WARN 1 --- [http-nio-8080-exec-13] c.k.orders.api.OrderController           : GET /v1/orders/ORD-11298414 404 order not found source=replica
+2026-09-29 13:31:49.841  WARN 1 --- [http-nio-8080-exec-149] c.k.orders.api.OrderController           : GET /v1/orders/ORD-29933664 404 order not found source=replica
+2026-09-29 13:31:59.115 ERROR 1 --- [http-nio-8080-exec-99] c.k.orders.api.PaymentStatusController   : Order ORD-33729474 shows PAYMENT_PENDING on replica but CAPTURED on primary
+2026-09-29 13:32:08.558  WARN 1 --- [http-nio-8080-exec-138] c.k.orders.api.OrderController           : GET /v1/orders/ORD-61132311 404 order not found source=replica
+2026-09-29 13:32:17.171  WARN 1 --- [http-nio-8080-exec-1] c.k.orders.api.OrderController           : GET /v1/orders/ORD-94393500 404 order not found source=replica
+2026-09-29 13:32:25.941 ERROR 1 --- [http-nio-8080-exec-187] c.k.orders.api.PaymentStatusController   : Order ORD-95849718 shows PAYMENT_PENDING on replica but CAPTURED on primary
+2026-09-29 13:32:34.737  WARN 1 --- [http-nio-8080-exec-13] c.k.orders.api.OrderController           : GET /v1/orders/ORD-36422474 404 order not found source=replica
+ts=2026-09-29T08:02:41.993Z level=info job=loyalty-points-backfill namespace=orders msg="batch committed" rows=50000
+ts=2026-09-29T08:02:47.761Z level=info job=loyalty-points-backfill namespace=orders msg="batch committed" rows=50000
+ts=2026-09-29T08:02:57.499Z level=info job=loyalty-points-backfill namespace=orders msg="batch committed" rows=50000

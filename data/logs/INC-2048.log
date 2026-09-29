@@ -1,0 +1,97 @@
+2026-08-15T04:30:00.000Z INFO  [checkout-web] POST /api/checkout 200 311ms cart=84705794
+2026-08-15T04:30:42.428Z INFO  [checkout-web] POST /api/checkout 200 76ms cart=13893117
+2026-08-15T04:31:07.735Z INFO  [checkout-web] POST /api/checkout 200 259ms cart=39586432
+2026-08-15T04:32:13.613Z INFO  [checkout-web] POST /api/checkout 200 241ms cart=78050753
+2026-08-15T04:33:13.128Z INFO  [checkout-web] POST /api/checkout 200 225ms cart=10842541
+2026-08-15T04:34:20.016Z INFO  [checkout-web] POST /api/checkout 200 68ms cart=86235304
+2026-08-15T04:35:20.861Z INFO  [checkout-web] POST /api/checkout 200 331ms cart=17302120
+2026-08-15T04:36:24.183Z INFO  [checkout-web] POST /api/checkout 200 358ms cart=61584430
+2026-08-15T04:37:05.855Z INFO  [checkout-web] POST /api/checkout 200 323ms cart=38831411
+2026-08-15T04:37:33.233Z INFO  [checkout-web] POST /api/checkout 200 156ms cart=69200813
+2026-08-15T04:38:13.179Z INFO  [checkout-web] POST /api/checkout 200 196ms cart=67319293
+2026-08-15T04:38:39.777Z INFO  [checkout-web] POST /api/checkout 200 369ms cart=30421947
+2026-08-15T04:39:38.496Z INFO  [checkout-web] POST /api/checkout 200 313ms cart=48099887
+2026-08-15T04:40:32.560Z INFO  [checkout-web] POST /api/checkout 200 171ms cart=17264637
+2026-08-15T04:40:58.108Z INFO  [checkout-web] POST /api/checkout 200 136ms cart=76280027
+2026-08-15T04:41:54.089Z INFO  [checkout-web] POST /api/checkout 200 350ms cart=76429554
+2026-08-15T04:42:29.305Z INFO  [checkout-web] POST /api/checkout 200 151ms cart=63913485
+2026-08-15T04:43:12.258Z INFO  [checkout-web] POST /api/checkout 200 278ms cart=62933258
+2026-08-15T04:43:48.128Z INFO  [checkout-web] POST /api/checkout 200 364ms cart=35778315
+2026-08-15T04:44:44.184Z INFO  [checkout-web] POST /api/checkout 200 304ms cart=17377025
+2026-08-15T04:45:47.203Z INFO  [checkout-web] POST /api/checkout 200 207ms cart=97770586
+2026-08-15T04:46:24Z  Normal   ScalingReplicaSet  deployment/checkout-web   Scaled up replica set checkout-web-pwd86 to 42
+2026-08-15T04:46:38Z  Warning  FailedScheduling   pod/checkout-web-tnc49gf94f-2k5bb   0/60 nodes are available: 60 Insufficient cpu. preemption: 0/60 nodes are available: 60 No preemption victims found for incoming pod.
+ts=2026-08-15T04:46:50.586Z level=warn component=cluster-autoscaler msg="max node group size reached" nodegroup=ng-general-b max=60
+2026-08-15T04:47:03.196Z WARN  [checkout-web] POST /api/checkout 200 6762ms cart=56217787 event_loop_lag_ms=29445
+ts=2026-08-15T04:47:10.545Z level=warn component=cluster-autoscaler msg="max node group size reached" nodegroup=ng-general-b max=60
+2026-08-15T04:47:25.384Z WARN  [checkout-web] POST /api/checkout 200 5257ms cart=80243002 event_loop_lag_ms=42221
+ts=2026-08-15T04:47:37.579Z level=warn component=cluster-autoscaler msg="max node group size reached" nodegroup=ng-general-b max=60
+2026-08-15T04:47:49.380Z WARN  [checkout-web] POST /api/checkout 200 2896ms cart=77376825 event_loop_lag_ms=76753
+ts=2026-08-15T04:47:57.152Z level=warn component=cluster-autoscaler msg="max node group size reached" nodegroup=ng-general-b max=60
+2026-08-15T04:48:06Z  Warning  FailedScheduling   pod/checkout-web-tnc49gf94f-2k5bb   0/60 nodes are available: 60 Insufficient cpu. preemption: 0/60 nodes are available: 60 No preemption victims found for incoming pod.
+2026-08-15T04:48:16Z  Warning  FailedScheduling   pod/checkout-web-tnc49gf94f-2k5bb   0/60 nodes are available: 60 Insufficient cpu. preemption: 0/60 nodes are available: 60 No preemption victims found for incoming pod.
+2026-08-15T04:48:23Z  Normal   ScalingReplicaSet  deployment/checkout-web   Scaled up replica set checkout-web-tr5bw to 42
+ts=2026-08-15T04:48:31.389Z level=warn component=cluster-autoscaler msg="max node group size reached" nodegroup=ng-general-b max=60
+2026-08-15T04:48:43Z  Warning  FailedScheduling   pod/checkout-web-tnc49gf94f-9ws6v   0/60 nodes are available: 60 Insufficient cpu. preemption: 0/60 nodes are available: 60 No preemption victims found for incoming pod.
+2026-08-15T04:48:58Z  Warning  FailedScheduling   pod/checkout-web-tnc49gf94f-2k5bb   0/60 nodes are available: 60 Insufficient cpu. preemption: 0/60 nodes are available: 60 No preemption victims found for incoming pod.
+2026-08-15T04:49:04Z  Normal   ScalingReplicaSet  deployment/checkout-web   Scaled up replica set checkout-web-c24kr to 42
+2026-08-15T04:49:20Z  Warning  FailedScheduling   pod/checkout-web-tnc49gf94f-2k5bb   0/60 nodes are available: 60 Insufficient cpu. preemption: 0/60 nodes are available: 60 No preemption victims found for incoming pod.
+ts=2026-08-15T04:49:26.786Z level=warn component=cluster-autoscaler msg="max node group size reached" nodegroup=ng-general-b max=60
+2026-08-15T04:49:37Z  Warning  FailedScheduling   pod/checkout-web-tnc49gf94f-2k5bb   0/60 nodes are available: 60 Insufficient cpu. preemption: 0/60 nodes are available: 60 No preemption victims found for incoming pod.
+2026-08-15T04:49:48Z  Normal   ScalingReplicaSet  deployment/checkout-web   Scaled up replica set checkout-web-kffqd to 42
+ts=2026-08-15T04:50:02.145Z level=warn component=cluster-autoscaler msg="max node group size reached" nodegroup=ng-general-b max=60
+2026-08-15T04:50:16Z  Warning  FailedScheduling   pod/checkout-web-tnc49gf94f-w4ddp   0/60 nodes are available: 60 Insufficient cpu. preemption: 0/60 nodes are available: 60 No preemption victims found for incoming pod.
+2026-08-15T04:50:27Z  Normal   ScalingReplicaSet  deployment/checkout-web   Scaled up replica set checkout-web-ktl5n to 42
+ts=2026-08-15T04:50:36.343Z level=warn component=cluster-autoscaler msg="max node group size reached" nodegroup=ng-general-b max=60
+2026-08-15T04:50:47Z  Normal   ScalingReplicaSet  deployment/checkout-web   Scaled up replica set checkout-web-k7hmp to 42
+2026-08-15T04:50:55.896Z WARN  [checkout-web] POST /api/checkout 200 5964ms cart=21852488 event_loop_lag_ms=48547
+2026-08-15T04:51:05.142Z WARN  [checkout-web] POST /api/checkout 200 9394ms cart=15296274 event_loop_lag_ms=49658
+2026-08-15T04:51:10Z  Normal   ScalingReplicaSet  deployment/checkout-web   Scaled up replica set checkout-web-nfjzf to 42
+2026-08-15T04:51:20Z  Normal   ScalingReplicaSet  deployment/checkout-web   Scaled up replica set checkout-web-4jqqh to 42
+2026-08-15T04:51:35Z  Normal   ScalingReplicaSet  deployment/checkout-web   Scaled up replica set checkout-web-84lmc to 42
+2026-08-15T04:51:45Z  Warning  FailedScheduling   pod/checkout-web-tnc49gf94f-2k5bb   0/60 nodes are available: 60 Insufficient cpu. preemption: 0/60 nodes are available: 60 No preemption victims found for incoming pod.
+2026-08-15T04:51:56.073Z WARN  [checkout-web] POST /api/checkout 200 7832ms cart=24663595 event_loop_lag_ms=8446
+ts=2026-08-15T04:52:11.516Z level=warn component=cluster-autoscaler msg="max node group size reached" nodegroup=ng-general-b max=60
+2026-08-15T04:52:24Z  Warning  FailedScheduling   pod/checkout-web-tnc49gf94f-w4ddp   0/60 nodes are available: 60 Insufficient cpu. preemption: 0/60 nodes are available: 60 No preemption victims found for incoming pod.
+ts=2026-08-15T04:52:30.552Z level=warn component=cluster-autoscaler msg="max node group size reached" nodegroup=ng-general-b max=60
+ts=2026-08-15T04:52:45.108Z level=warn component=cluster-autoscaler msg="max node group size reached" nodegroup=ng-general-b max=60
+2026-08-15T04:52:55Z  Warning  FailedScheduling   pod/checkout-web-tnc49gf94f-9ws6v   0/60 nodes are available: 60 Insufficient cpu. preemption: 0/60 nodes are available: 60 No preemption victims found for incoming pod.
+2026-08-15T04:53:05.117Z WARN  [checkout-web] POST /api/checkout 200 2831ms cart=94321014 event_loop_lag_ms=11589
+2026-08-15T04:53:10Z  Normal   ScalingReplicaSet  deployment/checkout-web   Scaled up replica set checkout-web-vm7rx to 42
+ts=2026-08-15T04:53:19.093Z level=warn component=cluster-autoscaler msg="max node group size reached" nodegroup=ng-general-b max=60
+2026-08-15T04:53:31Z  Warning  FailedScheduling   pod/checkout-web-tnc49gf94f-w4ddp   0/60 nodes are available: 60 Insufficient cpu. preemption: 0/60 nodes are available: 60 No preemption victims found for incoming pod.
+2026-08-15T04:53:39Z  Normal   ScalingReplicaSet  deployment/checkout-web   Scaled up replica set checkout-web-ffzbr to 42
+2026-08-15T04:53:51Z  Warning  FailedScheduling   pod/checkout-web-tnc49gf94f-2k5bb   0/60 nodes are available: 60 Insufficient cpu. preemption: 0/60 nodes are available: 60 No preemption victims found for incoming pod.
+2026-08-15T04:54:04Z  Warning  FailedScheduling   pod/checkout-web-tnc49gf94f-w4ddp   0/60 nodes are available: 60 Insufficient cpu. preemption: 0/60 nodes are available: 60 No preemption victims found for incoming pod.
+2026-08-15T04:54:15.422Z WARN  [checkout-web] POST /api/checkout 200 5278ms cart=17475972 event_loop_lag_ms=40803
+2026-08-15T04:54:28Z  Warning  FailedScheduling   pod/checkout-web-tnc49gf94f-w4ddp   0/60 nodes are available: 60 Insufficient cpu. preemption: 0/60 nodes are available: 60 No preemption victims found for incoming pod.
+2026-08-15T04:54:39Z  Normal   ScalingReplicaSet  deployment/checkout-web   Scaled up replica set checkout-web-wqk8v to 42
+2026-08-15T04:54:49Z  Normal   ScalingReplicaSet  deployment/checkout-web   Scaled up replica set checkout-web-jbl9x to 42
+2026-08-15T04:54:58.661Z WARN  [checkout-web] POST /api/checkout 200 5329ms cart=57421993 event_loop_lag_ms=37834
+ts=2026-08-15T04:55:09.170Z level=warn component=cluster-autoscaler msg="max node group size reached" nodegroup=ng-general-b max=60
+2026-08-15T04:55:22Z  Warning  FailedScheduling   pod/checkout-web-tnc49gf94f-2k5bb   0/60 nodes are available: 60 Insufficient cpu. preemption: 0/60 nodes are available: 60 No preemption victims found for incoming pod.
+2026-08-15T04:55:37.912Z WARN  [checkout-web] POST /api/checkout 200 9541ms cart=25232853 event_loop_lag_ms=69453
+ts=2026-08-15T04:55:46.341Z level=warn component=cluster-autoscaler msg="max node group size reached" nodegroup=ng-general-b max=60
+2026-08-15T04:55:56Z  Warning  FailedScheduling   pod/checkout-web-tnc49gf94f-w4ddp   0/60 nodes are available: 60 Insufficient cpu. preemption: 0/60 nodes are available: 60 No preemption victims found for incoming pod.
+2026-08-15T04:56:05Z  Warning  FailedScheduling   pod/checkout-web-tnc49gf94f-2k5bb   0/60 nodes are available: 60 Insufficient cpu. preemption: 0/60 nodes are available: 60 No preemption victims found for incoming pod.
+2026-08-15T04:56:21Z  Warning  FailedScheduling   pod/checkout-web-tnc49gf94f-w4ddp   0/60 nodes are available: 60 Insufficient cpu. preemption: 0/60 nodes are available: 60 No preemption victims found for incoming pod.
+2026-08-15T04:56:36.117Z WARN  [checkout-web] POST /api/checkout 200 8924ms cart=80295952 event_loop_lag_ms=86799
+2026-08-15T04:56:42.018Z WARN  [checkout-web] POST /api/checkout 200 7918ms cart=69566595 event_loop_lag_ms=31577
+ts=2026-08-15T04:56:47.354Z level=warn component=cluster-autoscaler msg="max node group size reached" nodegroup=ng-general-b max=60
+2026-08-15T04:56:54Z  Normal   ScalingReplicaSet  deployment/checkout-web   Scaled up replica set checkout-web-qj6zj to 42
+ts=2026-08-15T04:57:03.676Z level=warn component=cluster-autoscaler msg="max node group size reached" nodegroup=ng-general-b max=60
+2026-08-15T04:57:13Z  Normal   ScalingReplicaSet  deployment/checkout-web   Scaled up replica set checkout-web-wh87z to 42
+2026-08-15T04:57:19Z  Warning  FailedScheduling   pod/checkout-web-tnc49gf94f-w4ddp   0/60 nodes are available: 60 Insufficient cpu. preemption: 0/60 nodes are available: 60 No preemption victims found for incoming pod.
+2026-08-15T04:57:33Z  Normal   ScalingReplicaSet  deployment/checkout-web   Scaled up replica set checkout-web-g7xwg to 42
+ts=2026-08-15T04:57:39.149Z level=warn component=cluster-autoscaler msg="max node group size reached" nodegroup=ng-general-b max=60
+2026-08-15T04:57:49.059Z WARN  [checkout-web] POST /api/checkout 200 5614ms cart=90701162 event_loop_lag_ms=46974
+2026-08-15T04:57:59Z  Normal   ScalingReplicaSet  deployment/checkout-web   Scaled up replica set checkout-web-545x8 to 42
+ts=2026-08-15T04:58:11.000Z level=info component=cluster-autoscaler msg="scale-up" nodegroup=ng-general-b from=60 to=72
+2026-08-15T04:58:31Z  Normal   Scheduled   pod/checkout-web-tnc49gf94f-w4ddp   Successfully assigned checkout/checkout-web-tnc49gf94f-w4ddp to ip-10-42-0-14.ap-south-1.compute.internal
+2026-08-15T04:59:13.000Z INFO  [checkout-web] POST /api/checkout 200 102ms cart=37393832
+2026-08-15T05:01:09.000Z INFO  [checkout-web] POST /api/checkout 200 272ms cart=78161122
+2026-08-15T05:02:57.000Z INFO  [checkout-web] POST /api/checkout 200 220ms cart=23461572
+2026-08-15T05:04:54.000Z INFO  [checkout-web] POST /api/checkout 200 301ms cart=18897020
+2026-08-15T05:06:17.000Z INFO  [checkout-web] POST /api/checkout 200 115ms cart=87996277
+2026-08-15T05:08:04.000Z INFO  [checkout-web] POST /api/checkout 200 347ms cart=62503115
+2026-08-15T05:09:43.000Z INFO  [checkout-web] POST /api/checkout 200 304ms cart=84628014

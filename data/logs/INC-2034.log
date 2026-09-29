@@ -1,0 +1,132 @@
+2026-07-06 03:50:00.000  INFO 1 --- [http-nio-8080-exec-17] c.k.orders.api.OrderController           : GET /v1/orders/ORD-78401734 200 source=replica latencyMs=303
+2026-07-06 03:50:34.580  INFO 1 --- [http-nio-8080-exec-5] c.k.orders.api.OrderController           : GET /v1/orders/ORD-66981151 200 source=replica latencyMs=259
+2026-07-06 03:51:01.990  INFO 1 --- [http-nio-8080-exec-155] c.k.orders.api.OrderController           : GET /v1/orders/ORD-71578674 200 source=replica latencyMs=93
+2026-07-06 03:51:58.806  INFO 1 --- [http-nio-8080-exec-153] c.k.orders.api.OrderController           : GET /v1/orders/ORD-46935648 200 source=replica latencyMs=143
+2026-07-06 03:52:36.398  INFO 1 --- [http-nio-8080-exec-30] c.k.orders.api.OrderController           : GET /v1/orders/ORD-59477991 200 source=replica latencyMs=48
+2026-07-06 03:53:43.540  INFO 1 --- [http-nio-8080-exec-4] c.k.orders.api.OrderController           : GET /v1/orders/ORD-31370610 200 source=replica latencyMs=212
+2026-07-06 03:54:38.276  INFO 1 --- [http-nio-8080-exec-160] c.k.orders.api.OrderController           : GET /v1/orders/ORD-46323556 200 source=replica latencyMs=92
+2026-07-06 03:55:33.831  INFO 1 --- [http-nio-8080-exec-122] c.k.orders.api.OrderController           : GET /v1/orders/ORD-28222788 200 source=replica latencyMs=192
+2026-07-06 03:56:19.374  INFO 1 --- [http-nio-8080-exec-2] c.k.orders.api.OrderController           : GET /v1/orders/ORD-74261762 200 source=replica latencyMs=339
+2026-07-06 03:56:50.328  INFO 1 --- [http-nio-8080-exec-121] c.k.orders.api.OrderController           : GET /v1/orders/ORD-43268642 200 source=replica latencyMs=99
+2026-07-06 03:57:23.841  INFO 1 --- [http-nio-8080-exec-94] c.k.orders.api.OrderController           : GET /v1/orders/ORD-12674332 200 source=replica latencyMs=81
+2026-07-06 03:58:13.008  INFO 1 --- [http-nio-8080-exec-54] c.k.orders.api.OrderController           : GET /v1/orders/ORD-74556021 200 source=replica latencyMs=172
+2026-07-06 03:58:41.233  INFO 1 --- [http-nio-8080-exec-39] c.k.orders.api.OrderController           : GET /v1/orders/ORD-80492257 200 source=replica latencyMs=361
+2026-07-06 03:59:28.806  INFO 1 --- [http-nio-8080-exec-128] c.k.orders.api.OrderController           : GET /v1/orders/ORD-56375477 200 source=replica latencyMs=268
+2026-07-06 04:00:01.911  INFO 1 --- [http-nio-8080-exec-135] c.k.orders.api.OrderController           : GET /v1/orders/ORD-95259402 200 source=replica latencyMs=91
+2026-07-06 04:00:51.087  INFO 1 --- [http-nio-8080-exec-101] c.k.orders.api.OrderController           : GET /v1/orders/ORD-47503455 200 source=replica latencyMs=366
+2026-07-06 04:01:34.227  INFO 1 --- [http-nio-8080-exec-106] c.k.orders.api.OrderController           : GET /v1/orders/ORD-36813172 200 source=replica latencyMs=372
+2026-07-06 04:02:07.068  INFO 1 --- [http-nio-8080-exec-42] c.k.orders.api.OrderController           : GET /v1/orders/ORD-55837805 200 source=replica latencyMs=181
+2026-07-06 04:03:00.970  INFO 1 --- [http-nio-8080-exec-38] c.k.orders.api.OrderController           : GET /v1/orders/ORD-73115705 200 source=replica latencyMs=69
+2026-07-06 04:03:45.076  INFO 1 --- [http-nio-8080-exec-42] c.k.orders.api.OrderController           : GET /v1/orders/ORD-35401991 200 source=replica latencyMs=171
+2026-07-06 04:04:27.671  INFO 1 --- [http-nio-8080-exec-79] c.k.orders.api.OrderController           : GET /v1/orders/ORD-84040618 200 source=replica latencyMs=227
+2026-07-06 04:05:08.042  INFO 1 --- [http-nio-8080-exec-198] c.k.orders.api.OrderController           : GET /v1/orders/ORD-14951742 200 source=replica latencyMs=112
+WARNING:  database "kartly" must be vacuumed within 38412119 transactions
+ts=2026-07-05T22:36:35.023Z level=warn exporter=postgres-exporter metric=pg_database_xid_age value=1620000000
+WARNING:  database "kartly" must be vacuumed within 38412119 transactions
+WARNING:  database "kartly" must be vacuumed within 38412119 transactions
+ts=2026-07-05T22:38:27.842Z level=warn exporter=postgres-exporter metric=pg_database_xid_age value=1620000000
+WARNING:  database "kartly" must be vacuumed within 38412119 transactions
+ts=2026-07-05T22:40:12.478Z level=warn exporter=postgres-exporter metric=pg_database_xid_age value=1620000000
+ts=2026-07-05T22:41:12.423Z level=warn exporter=postgres-exporter metric=pg_database_xid_age value=1620000000
+WARNING:  database "kartly" must be vacuumed within 38412119 transactions
+ts=2026-07-05T22:42:47.996Z level=warn exporter=postgres-exporter metric=pg_database_xid_age value=1620000000
+WARNING:  database "kartly" must be vacuumed within 38412119 transactions
+ts=2026-07-05T22:44:12.983Z level=warn exporter=postgres-exporter metric=pg_database_xid_age value=1620000000
+ts=2026-07-05T22:45:11.765Z level=warn exporter=postgres-exporter metric=pg_database_xid_age value=1620000000
+ts=2026-07-05T22:46:04.244Z level=warn exporter=postgres-exporter metric=pg_database_xid_age value=1620000000
+ts=2026-07-05T22:47:00.785Z level=warn exporter=postgres-exporter metric=pg_database_xid_age value=1620000000
+ts=2026-07-05T22:47:46.275Z level=warn exporter=postgres-exporter metric=pg_database_xid_age value=1620000000
+ts=2026-07-05T22:48:36.853Z level=warn exporter=postgres-exporter metric=pg_database_xid_age value=1620000000
+WARNING:  database "kartly" must be vacuumed within 38412119 transactions
+WARNING:  database "kartly" must be vacuumed within 38412119 transactions
+ts=2026-07-05T22:50:38.189Z level=warn exporter=postgres-exporter metric=pg_database_xid_age value=1620000000
+ts=2026-07-05T22:51:35.088Z level=warn exporter=postgres-exporter metric=pg_database_xid_age value=1620000000
+WARNING:  database "kartly" must be vacuumed within 38412119 transactions
+ts=2026-07-05T22:53:20.616Z level=warn exporter=postgres-exporter metric=pg_database_xid_age value=1620000000
+ts=2026-07-05T22:54:09.575Z level=warn exporter=postgres-exporter metric=pg_database_xid_age value=1620000000
+WARNING:  database "kartly" must be vacuumed within 38412119 transactions
+WARNING:  database "kartly" must be vacuumed within 38412119 transactions
+ts=2026-07-05T22:56:33.179Z level=warn exporter=postgres-exporter metric=pg_database_xid_age value=1620000000
+ts=2026-07-05T22:57:15.992Z level=warn exporter=postgres-exporter metric=pg_database_xid_age value=1620000000
+ts=2026-07-05T22:57:50.707Z level=warn exporter=postgres-exporter metric=pg_database_xid_age value=1620000000
+ts=2026-07-05T22:58:29.469Z level=warn exporter=postgres-exporter metric=pg_database_xid_age value=1620000000
+WARNING:  database "kartly" must be vacuumed within 38412119 transactions
+ts=2026-07-05T23:00:17.798Z level=warn exporter=postgres-exporter metric=pg_database_xid_age value=1620000000
+WARNING:  database "kartly" must be vacuumed within 38412119 transactions
+WARNING:  database "kartly" must be vacuumed within 38412119 transactions
+ts=2026-07-05T23:02:20.285Z level=warn exporter=postgres-exporter metric=pg_database_xid_age value=1620000000
+ts=2026-07-05T23:03:02.992Z level=warn exporter=postgres-exporter metric=pg_database_xid_age value=1620000000
+ts=2026-07-05T23:03:43.157Z level=warn exporter=postgres-exporter metric=pg_database_xid_age value=1620000000
+ts=2026-07-05T23:04:18.751Z level=warn exporter=postgres-exporter metric=pg_database_xid_age value=1620000000
+ts=2026-07-05T23:05:17.085Z level=warn exporter=postgres-exporter metric=pg_database_xid_age value=1620000000
+WARNING:  database "kartly" must be vacuumed within 38412119 transactions
+ts=2026-07-05T23:06:54.206Z level=warn exporter=postgres-exporter metric=pg_database_xid_age value=1620000000
+ts=2026-07-05T23:07:32.767Z level=warn exporter=postgres-exporter metric=pg_database_xid_age value=1620000000
+WARNING:  database "kartly" must be vacuumed within 38412119 transactions
+WARNING:  database "kartly" must be vacuumed within 38412119 transactions
+WARNING:  database "kartly" must be vacuumed within 38412119 transactions
+WARNING:  database "kartly" must be vacuumed within 38412119 transactions
+WARNING:  database "kartly" must be vacuumed within 38412119 transactions
+WARNING:  database "kartly" must be vacuumed within 38412119 transactions
+ts=2026-07-05T23:12:16.457Z level=warn exporter=postgres-exporter metric=pg_database_xid_age value=1620000000
+ts=2026-07-05T23:12:44.548Z level=warn exporter=postgres-exporter metric=pg_database_xid_age value=1620000000
+ts=2026-07-05T23:13:30.446Z level=warn exporter=postgres-exporter metric=pg_database_xid_age value=1620000000
+WARNING:  database "kartly" must be vacuumed within 38412119 transactions
+WARNING:  database "kartly" must be vacuumed within 38412119 transactions
+ts=2026-07-05T23:15:42.100Z level=warn exporter=postgres-exporter metric=pg_database_xid_age value=1620000000
+WARNING:  database "kartly" must be vacuumed within 38412119 transactions
+ts=2026-07-05T23:17:15.905Z level=warn exporter=postgres-exporter metric=pg_database_xid_age value=1620000000
+WARNING:  database "kartly" must be vacuumed within 38412119 transactions
+WARNING:  database "kartly" must be vacuumed within 38412119 transactions
+ts=2026-07-05T23:19:29.427Z level=warn exporter=postgres-exporter metric=pg_database_xid_age value=1620000000
+ts=2026-07-05T23:20:09.391Z level=warn exporter=postgres-exporter metric=pg_database_xid_age value=1620000000
+WARNING:  database "kartly" must be vacuumed within 38412119 transactions
+ts=2026-07-05T23:21:36.206Z level=warn exporter=postgres-exporter metric=pg_database_xid_age value=1620000000
+ts=2026-07-05T23:22:26.246Z level=warn exporter=postgres-exporter metric=pg_database_xid_age value=1620000000
+WARNING:  database "kartly" must be vacuumed within 38412119 transactions
+WARNING:  database "kartly" must be vacuumed within 38412119 transactions
+WARNING:  database "kartly" must be vacuumed within 38412119 transactions
+ts=2026-07-05T23:25:19.004Z level=warn exporter=postgres-exporter metric=pg_database_xid_age value=1620000000
+ts=2026-07-05T23:26:20.018Z level=warn exporter=postgres-exporter metric=pg_database_xid_age value=1620000000
+ts=2026-07-05T23:27:02.719Z level=warn exporter=postgres-exporter metric=pg_database_xid_age value=1620000000
+WARNING:  database "kartly" must be vacuumed within 38412119 transactions
+WARNING:  database "kartly" must be vacuumed within 38412119 transactions
+ts=2026-07-05T23:29:46.614Z level=warn exporter=postgres-exporter metric=pg_database_xid_age value=1620000000
+WARNING:  database "kartly" must be vacuumed within 38412119 transactions
+WARNING:  database "kartly" must be vacuumed within 38412119 transactions
+WARNING:  database "kartly" must be vacuumed within 38412119 transactions
+WARNING:  database "kartly" must be vacuumed within 38412119 transactions
+ts=2026-07-05T23:33:41.447Z level=warn exporter=postgres-exporter metric=pg_database_xid_age value=1620000000
+2026-07-06 05:03:43.000  INFO 1 --- [http-nio-8080-exec-28] c.k.orders.api.OrderController           : GET /v1/orders/ORD-90787090 200 source=replica latencyMs=342
+2026-07-06 05:04:43.000  INFO 1 --- [http-nio-8080-exec-28] c.k.orders.api.OrderController           : GET /v1/orders/ORD-40274162 200 source=replica latencyMs=183
+2026-07-06 05:06:42.000  INFO 1 --- [http-nio-8080-exec-177] c.k.orders.api.OrderController           : GET /v1/orders/ORD-87874159 200 source=replica latencyMs=249
+2026-07-06 05:07:25.000  INFO 1 --- [http-nio-8080-exec-171] c.k.orders.api.OrderController           : GET /v1/orders/ORD-34567854 200 source=replica latencyMs=329
+2026-07-06 05:08:51.000  INFO 1 --- [http-nio-8080-exec-9] c.k.orders.api.OrderController           : GET /v1/orders/ORD-62066835 200 source=replica latencyMs=365
+2026-07-06 05:09:56.000  INFO 1 --- [http-nio-8080-exec-25] c.k.orders.api.OrderController           : GET /v1/orders/ORD-38419954 200 source=replica latencyMs=134
+2026-07-06 05:10:45.000  INFO 1 --- [http-nio-8080-exec-102] c.k.orders.api.OrderController           : GET /v1/orders/ORD-77113306 200 source=replica latencyMs=212
+2026-07-06 05:12:24.000  INFO 1 --- [http-nio-8080-exec-146] c.k.orders.api.OrderController           : GET /v1/orders/ORD-62598265 200 source=replica latencyMs=236
+2026-07-06 05:13:35.000  INFO 1 --- [http-nio-8080-exec-184] c.k.orders.api.OrderController           : GET /v1/orders/ORD-58743267 200 source=replica latencyMs=73
+2026-07-06 05:14:42.000  INFO 1 --- [http-nio-8080-exec-158] c.k.orders.api.OrderController           : GET /v1/orders/ORD-42998088 200 source=replica latencyMs=189
+2026-07-06 05:15:50.000  INFO 1 --- [http-nio-8080-exec-135] c.k.orders.api.OrderController           : GET /v1/orders/ORD-51365628 200 source=replica latencyMs=292
+2026-07-06 05:17:30.000  INFO 1 --- [http-nio-8080-exec-160] c.k.orders.api.OrderController           : GET /v1/orders/ORD-61311286 200 source=replica latencyMs=88
+2026-07-06 05:18:21.000  INFO 1 --- [http-nio-8080-exec-151] c.k.orders.api.OrderController           : GET /v1/orders/ORD-90372897 200 source=replica latencyMs=319
+2026-07-06 05:20:08.000  INFO 1 --- [http-nio-8080-exec-12] c.k.orders.api.OrderController           : GET /v1/orders/ORD-79678438 200 source=replica latencyMs=184
+2026-07-06 05:21:09.000  INFO 1 --- [http-nio-8080-exec-39] c.k.orders.api.OrderController           : GET /v1/orders/ORD-67570835 200 source=replica latencyMs=119
+2026-07-06 05:22:20.000  INFO 1 --- [http-nio-8080-exec-93] c.k.orders.api.OrderController           : GET /v1/orders/ORD-72105836 200 source=replica latencyMs=285
+2026-07-06 05:23:51.000  INFO 1 --- [http-nio-8080-exec-88] c.k.orders.api.OrderController           : GET /v1/orders/ORD-42434380 200 source=replica latencyMs=280
+2026-07-06 05:25:49.000  INFO 1 --- [http-nio-8080-exec-167] c.k.orders.api.OrderController           : GET /v1/orders/ORD-33321114 200 source=replica latencyMs=273
+2026-07-06 05:27:16.000  INFO 1 --- [http-nio-8080-exec-137] c.k.orders.api.OrderController           : GET /v1/orders/ORD-60095539 200 source=replica latencyMs=84
+2026-07-06 05:27:57.000  INFO 1 --- [http-nio-8080-exec-189] c.k.orders.api.OrderController           : GET /v1/orders/ORD-82620225 200 source=replica latencyMs=81
+2026-07-06 05:29:33.000  INFO 1 --- [http-nio-8080-exec-14] c.k.orders.api.OrderController           : GET /v1/orders/ORD-94330828 200 source=replica latencyMs=338
+2026-07-06 05:30:44.000  INFO 1 --- [http-nio-8080-exec-124] c.k.orders.api.OrderController           : GET /v1/orders/ORD-73512931 200 source=replica latencyMs=87
+2026-07-06 05:32:08.000  INFO 1 --- [http-nio-8080-exec-159] c.k.orders.api.OrderController           : GET /v1/orders/ORD-14057388 200 source=replica latencyMs=336
+2026-07-06 05:34:03.000  INFO 1 --- [http-nio-8080-exec-112] c.k.orders.api.OrderController           : GET /v1/orders/ORD-85526410 200 source=replica latencyMs=301
+2026-07-06 05:35:30.000  INFO 1 --- [http-nio-8080-exec-175] c.k.orders.api.OrderController           : GET /v1/orders/ORD-41856284 200 source=replica latencyMs=331
+2026-07-06 05:37:18.000  INFO 1 --- [http-nio-8080-exec-76] c.k.orders.api.OrderController           : GET /v1/orders/ORD-39179464 200 source=replica latencyMs=161
+2026-07-06 05:38:02.000  INFO 1 --- [http-nio-8080-exec-25] c.k.orders.api.OrderController           : GET /v1/orders/ORD-41801913 200 source=replica latencyMs=217
+2026-07-06 05:38:56.000  INFO 1 --- [http-nio-8080-exec-89] c.k.orders.api.OrderController           : GET /v1/orders/ORD-34385077 200 source=replica latencyMs=127
+2026-07-06 05:40:13.000  INFO 1 --- [http-nio-8080-exec-70] c.k.orders.api.OrderController           : GET /v1/orders/ORD-82479210 200 source=replica latencyMs=371
+2026-07-06 05:41:07.000  INFO 1 --- [http-nio-8080-exec-159] c.k.orders.api.OrderController           : GET /v1/orders/ORD-56300389 200 source=replica latencyMs=82
+2026-07-06 05:41:55.000  INFO 1 --- [http-nio-8080-exec-88] c.k.orders.api.OrderController           : GET /v1/orders/ORD-82913030 200 source=replica latencyMs=140
+2026-07-06 05:42:38.000  INFO 1 --- [http-nio-8080-exec-100] c.k.orders.api.OrderController           : GET /v1/orders/ORD-41689642 200 source=replica latencyMs=309
+2026-07-06 05:44:13.000  INFO 1 --- [http-nio-8080-exec-85] c.k.orders.api.OrderController           : GET /v1/orders/ORD-81364922 200 source=replica latencyMs=372

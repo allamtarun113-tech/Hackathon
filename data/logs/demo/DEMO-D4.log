@@ -1,0 +1,102 @@
+2026-09-29T05:22:00.000Z INFO  [checkout-web] POST /api/checkout 200 195ms cart=97258938
+2026-09-29T05:23:08.491Z INFO  [checkout-web] POST /api/checkout 200 325ms cart=53045806
+2026-09-29T05:23:45.456Z INFO  [checkout-web] POST /api/checkout 200 171ms cart=14543952
+2026-09-29T05:24:20.741Z INFO  [checkout-web] POST /api/checkout 200 163ms cart=44545791
+2026-09-29T05:25:29.356Z INFO  [checkout-web] POST /api/checkout 200 293ms cart=69875286
+2026-09-29T05:26:39.673Z INFO  [checkout-web] POST /api/checkout 200 182ms cart=94229320
+2026-09-29T05:27:49.949Z INFO  [checkout-web] POST /api/checkout 200 176ms cart=56875128
+2026-09-29T05:28:17.556Z INFO  [checkout-web] POST /api/checkout 200 189ms cart=38692436
+2026-09-29T05:28:54.653Z INFO  [checkout-web] POST /api/checkout 200 239ms cart=27202088
+2026-09-29T05:29:26.168Z INFO  [checkout-web] POST /api/checkout 200 80ms cart=11754723
+2026-09-29T05:30:35.491Z INFO  [checkout-web] POST /api/checkout 200 348ms cart=60267764
+2026-09-29T05:31:23.631Z INFO  [checkout-web] POST /api/checkout 200 231ms cart=77472922
+2026-09-29T05:32:07.808Z INFO  [checkout-web] POST /api/checkout 200 109ms cart=65372602
+2026-09-29T05:33:10.757Z INFO  [checkout-web] POST /api/checkout 200 155ms cart=36622933
+2026-09-29T05:33:39.978Z INFO  [checkout-web] POST /api/checkout 200 247ms cart=14636578
+2026-09-29T05:34:40.091Z INFO  [checkout-web] POST /api/checkout 200 69ms cart=14522569
+2026-09-29T05:35:05.613Z INFO  [checkout-web] POST /api/checkout 200 125ms cart=17776439
+2026-09-29T05:35:50.763Z INFO  [checkout-web] POST /api/checkout 200 285ms cart=77939022
+2026-09-29T05:36:16.996Z INFO  [checkout-web] POST /api/checkout 200 355ms cart=87223962
+2026-09-29T05:36:55.951Z INFO  [checkout-web] POST /api/checkout 200 174ms cart=26759841
+2026-09-29T05:37:35.911Z INFO  [checkout-web] POST /api/checkout 200 339ms cart=73718888
+2026-09-29T05:38:09.057Z ERROR [checkout-web] FetchError: request to http://orders-service.orders.svc.cluster.local:8080/v1/orders failed, reason: getaddrinfo EAI_AGAIN orders-service.orders.svc.cluster.local
+2026-09-29T05:38:19.893Z ERROR [checkout-web] POST /api/checkout 500 7324ms cart=71503505
+2026-09-29T05:38:26Z  Warning  Unhealthy   pod/coredns-5d78c9869d-k7r29   Readiness probe failed: HTTP probe failed with statuscode: 503
+[ERROR] plugin/errors: 2 orders-service.orders.svc.cluster.local. A: read udp 10.42.0.17:49871->10.96.0.10:53: i/o timeout
+2026-09-29T05:38:36Z  Warning  Unhealthy   pod/coredns-5d78c9869d-kzdp7   Readiness probe failed: HTTP probe failed with statuscode: 503
+[ERROR] plugin/errors: 2 orders-service.orders.svc.cluster.local. A: read udp 10.42.0.17:52637->10.96.0.10:53: i/o timeout
+2026-09-29T05:38:42.946Z ERROR [checkout-web] POST /api/checkout 500 5731ms cart=17584141
+2026-09-29T05:38:46.216Z ERROR [checkout-web] POST /api/checkout 500 9268ms cart=65474920
+2026-09-29T05:38:53Z  Warning  Unhealthy   pod/coredns-5d78c9869d-dbtxg   Readiness probe failed: HTTP probe failed with statuscode: 503
+[ERROR] plugin/errors: 2 orders-service.orders.svc.cluster.local. A: read udp 10.42.0.17:47030->10.96.0.10:53: i/o timeout
+2026-09-29T05:39:02.060Z ERROR [checkout-web] FetchError: request to http://orders-service.orders.svc.cluster.local:8080/v1/orders failed, reason: getaddrinfo EAI_AGAIN orders-service.orders.svc.cluster.local
+2026-09-29T05:39:07.900Z ERROR [checkout-web] POST /api/checkout 500 4684ms cart=28863859
+2026-09-29T05:39:17Z  Warning  Unhealthy   pod/coredns-5d78c9869d-77drk   Readiness probe failed: HTTP probe failed with statuscode: 503
+[ERROR] plugin/errors: 2 orders-service.orders.svc.cluster.local. A: read udp 10.42.0.17:54888->10.96.0.10:53: i/o timeout
+2026-09-29T05:39:20.888Z ERROR [checkout-web] FetchError: request to http://orders-service.orders.svc.cluster.local:8080/v1/orders failed, reason: getaddrinfo EAI_AGAIN orders-service.orders.svc.cluster.local
+2026-09-29T05:39:26.287Z ERROR [checkout-web] POST /api/checkout 500 4710ms cart=96884552
+2026-09-29T05:39:35Z  Warning  Unhealthy   pod/coredns-5d78c9869d-8p59g   Readiness probe failed: HTTP probe failed with statuscode: 503
+[ERROR] plugin/errors: 2 orders-service.orders.svc.cluster.local. A: read udp 10.42.0.17:55718->10.96.0.10:53: i/o timeout
+2026-09-29T05:39:38.553Z ERROR [checkout-web] POST /api/checkout 500 8314ms cart=41475925
+2026-09-29T05:39:42.376Z ERROR [checkout-web] POST /api/checkout 500 6947ms cart=54226482
+2026-09-29T05:39:49.169Z ERROR [checkout-web] FetchError: request to http://orders-service.orders.svc.cluster.local:8080/v1/orders failed, reason: getaddrinfo EAI_AGAIN orders-service.orders.svc.cluster.local
+2026-09-29T05:39:58.874Z ERROR [checkout-web] FetchError: request to http://orders-service.orders.svc.cluster.local:8080/v1/orders failed, reason: getaddrinfo EAI_AGAIN orders-service.orders.svc.cluster.local
+2026-09-29T05:40:04Z  Warning  Unhealthy   pod/coredns-5d78c9869d-24bjw   Readiness probe failed: HTTP probe failed with statuscode: 503
+[ERROR] plugin/errors: 2 orders-service.orders.svc.cluster.local. A: read udp 10.42.0.17:32945->10.96.0.10:53: i/o timeout
+2026-09-29T05:40:07.855Z ERROR [checkout-web] POST /api/checkout 500 5923ms cart=75653859
+2026-09-29T05:40:10Z  Warning  Unhealthy   pod/coredns-5d78c9869d-8k64v   Readiness probe failed: HTTP probe failed with statuscode: 503
+[ERROR] plugin/errors: 2 orders-service.orders.svc.cluster.local. A: read udp 10.42.0.17:53837->10.96.0.10:53: i/o timeout
+2026-09-29T05:40:21.908Z ERROR [checkout-web] POST /api/checkout 500 5003ms cart=28941504
+2026-09-29T05:40:32Z  Warning  Unhealthy   pod/coredns-5d78c9869d-8lp64   Readiness probe failed: HTTP probe failed with statuscode: 503
+[ERROR] plugin/errors: 2 orders-service.orders.svc.cluster.local. A: read udp 10.42.0.17:42439->10.96.0.10:53: i/o timeout
+2026-09-29T05:40:39.099Z ERROR [checkout-web] FetchError: request to http://orders-service.orders.svc.cluster.local:8080/v1/orders failed, reason: getaddrinfo EAI_AGAIN orders-service.orders.svc.cluster.local
+2026-09-29T05:40:44.996Z ERROR [checkout-web] FetchError: request to http://orders-service.orders.svc.cluster.local:8080/v1/orders failed, reason: getaddrinfo EAI_AGAIN orders-service.orders.svc.cluster.local
+2026-09-29T05:40:48.181Z ERROR [checkout-web] POST /api/checkout 500 8761ms cart=87843091
+2026-09-29T05:40:58.022Z ERROR [checkout-web] FetchError: request to http://orders-service.orders.svc.cluster.local:8080/v1/orders failed, reason: getaddrinfo EAI_AGAIN orders-service.orders.svc.cluster.local
+2026-09-29T05:41:06Z  Warning  Unhealthy   pod/coredns-5d78c9869d-fqczv   Readiness probe failed: HTTP probe failed with statuscode: 503
+[ERROR] plugin/errors: 2 orders-service.orders.svc.cluster.local. A: read udp 10.42.0.17:50753->10.96.0.10:53: i/o timeout
+2026-09-29T05:41:09.217Z ERROR [checkout-web] POST /api/checkout 500 9157ms cart=14667937
+2026-09-29T05:41:19.611Z ERROR [checkout-web] POST /api/checkout 500 4665ms cart=45284976
+2026-09-29T05:41:23.954Z ERROR [checkout-web] POST /api/checkout 500 6373ms cart=40856889
+2026-09-29T05:41:34Z  Warning  Unhealthy   pod/coredns-5d78c9869d-w5jwl   Readiness probe failed: HTTP probe failed with statuscode: 503
+[ERROR] plugin/errors: 2 orders-service.orders.svc.cluster.local. A: read udp 10.42.0.17:57599->10.96.0.10:53: i/o timeout
+2026-09-29T05:41:44.094Z ERROR [checkout-web] FetchError: request to http://orders-service.orders.svc.cluster.local:8080/v1/orders failed, reason: getaddrinfo EAI_AGAIN orders-service.orders.svc.cluster.local
+2026-09-29T05:41:50.974Z ERROR [checkout-web] POST /api/checkout 500 9701ms cart=14000259
+2026-09-29T05:41:59.466Z ERROR [checkout-web] FetchError: request to http://orders-service.orders.svc.cluster.local:8080/v1/orders failed, reason: getaddrinfo EAI_AGAIN orders-service.orders.svc.cluster.local
+2026-09-29T05:42:06Z  Warning  Unhealthy   pod/coredns-5d78c9869d-hvzvs   Readiness probe failed: HTTP probe failed with statuscode: 503
+[ERROR] plugin/errors: 2 orders-service.orders.svc.cluster.local. A: read udp 10.42.0.17:34657->10.96.0.10:53: i/o timeout
+2026-09-29T05:42:12.574Z ERROR [checkout-web] FetchError: request to http://orders-service.orders.svc.cluster.local:8080/v1/orders failed, reason: getaddrinfo EAI_AGAIN orders-service.orders.svc.cluster.local
+2026-09-29T05:42:15Z  Warning  Unhealthy   pod/coredns-5d78c9869d-8dkk4   Readiness probe failed: HTTP probe failed with statuscode: 503
+[ERROR] plugin/errors: 2 orders-service.orders.svc.cluster.local. A: read udp 10.42.0.17:53880->10.96.0.10:53: i/o timeout
+2026-09-29T05:42:22Z  Warning  Unhealthy   pod/coredns-5d78c9869d-8hpwp   Readiness probe failed: HTTP probe failed with statuscode: 503
+[ERROR] plugin/errors: 2 orders-service.orders.svc.cluster.local. A: read udp 10.42.0.17:44719->10.96.0.10:53: i/o timeout
+2026-09-29T05:42:32.335Z ERROR [checkout-web] FetchError: request to http://orders-service.orders.svc.cluster.local:8080/v1/orders failed, reason: getaddrinfo EAI_AGAIN orders-service.orders.svc.cluster.local
+2026-09-29T05:42:38Z  Warning  Unhealthy   pod/coredns-5d78c9869d-546nx   Readiness probe failed: HTTP probe failed with statuscode: 503
+[ERROR] plugin/errors: 2 orders-service.orders.svc.cluster.local. A: read udp 10.42.0.17:52152->10.96.0.10:53: i/o timeout
+2026-09-29T05:42:42.940Z ERROR [checkout-web] FetchError: request to http://orders-service.orders.svc.cluster.local:8080/v1/orders failed, reason: getaddrinfo EAI_AGAIN orders-service.orders.svc.cluster.local
+2026-09-29T05:42:52.930Z ERROR [checkout-web] FetchError: request to http://orders-service.orders.svc.cluster.local:8080/v1/orders failed, reason: getaddrinfo EAI_AGAIN orders-service.orders.svc.cluster.local
+2026-09-29T05:42:58.417Z ERROR [checkout-web] FetchError: request to http://orders-service.orders.svc.cluster.local:8080/v1/orders failed, reason: getaddrinfo EAI_AGAIN orders-service.orders.svc.cluster.local
+2026-09-29T05:43:08Z  Warning  Unhealthy   pod/coredns-5d78c9869d-ps2q4   Readiness probe failed: HTTP probe failed with statuscode: 503
+[ERROR] plugin/errors: 2 orders-service.orders.svc.cluster.local. A: read udp 10.42.0.17:48755->10.96.0.10:53: i/o timeout
+2026-09-29T05:43:16.353Z ERROR [checkout-web] FetchError: request to http://orders-service.orders.svc.cluster.local:8080/v1/orders failed, reason: getaddrinfo EAI_AGAIN orders-service.orders.svc.cluster.local
+2026-09-29T05:43:19.617Z ERROR [checkout-web] FetchError: request to http://orders-service.orders.svc.cluster.local:8080/v1/orders failed, reason: getaddrinfo EAI_AGAIN orders-service.orders.svc.cluster.local
+2026-09-29T05:43:28.783Z ERROR [checkout-web] POST /api/checkout 500 4480ms cart=29522402
+2026-09-29T05:43:39Z  Warning  Unhealthy   pod/coredns-5d78c9869d-mcsfp   Readiness probe failed: HTTP probe failed with statuscode: 503
+[ERROR] plugin/errors: 2 orders-service.orders.svc.cluster.local. A: read udp 10.42.0.17:35857->10.96.0.10:53: i/o timeout
+2026-09-29T05:43:45Z  Warning  Unhealthy   pod/coredns-5d78c9869d-wx6pj   Readiness probe failed: HTTP probe failed with statuscode: 503
+[ERROR] plugin/errors: 2 orders-service.orders.svc.cluster.local. A: read udp 10.42.0.17:58598->10.96.0.10:53: i/o timeout
+2026-09-29T05:43:53Z  Warning  Unhealthy   pod/coredns-5d78c9869d-nsq5z   Readiness probe failed: HTTP probe failed with statuscode: 503
+[ERROR] plugin/errors: 2 orders-service.orders.svc.cluster.local. A: read udp 10.42.0.17:50138->10.96.0.10:53: i/o timeout
+2026-09-29T05:43:56.383Z ERROR [checkout-web] POST /api/checkout 500 7758ms cart=66679422
+2026-09-29T05:44:04.219Z ERROR [checkout-web] FetchError: request to http://orders-service.orders.svc.cluster.local:8080/v1/orders failed, reason: getaddrinfo EAI_AGAIN orders-service.orders.svc.cluster.local
+2026-09-29T05:44:07Z  Warning  Unhealthy   pod/coredns-5d78c9869d-nwvl6   Readiness probe failed: HTTP probe failed with statuscode: 503
+[ERROR] plugin/errors: 2 orders-service.orders.svc.cluster.local. A: read udp 10.42.0.17:54605->10.96.0.10:53: i/o timeout
+2026-09-29T05:44:17Z  Warning  Unhealthy   pod/coredns-5d78c9869d-lqgrd   Readiness probe failed: HTTP probe failed with statuscode: 503
+[ERROR] plugin/errors: 2 orders-service.orders.svc.cluster.local. A: read udp 10.42.0.17:56501->10.96.0.10:53: i/o timeout
+2026-09-29T05:44:27.255Z ERROR [checkout-web] POST /api/checkout 500 7728ms cart=67198789
+2026-09-29T05:44:34.303Z ERROR [checkout-web] FetchError: request to http://orders-service.orders.svc.cluster.local:8080/v1/orders failed, reason: getaddrinfo EAI_AGAIN orders-service.orders.svc.cluster.local
+2026-09-29T05:44:38Z  Warning  Unhealthy   pod/coredns-5d78c9869d-ltnpd   Readiness probe failed: HTTP probe failed with statuscode: 503
+[ERROR] plugin/errors: 2 orders-service.orders.svc.cluster.local. A: read udp 10.42.0.17:39931->10.96.0.10:53: i/o timeout
+2026-09-29T05:44:45.618Z ERROR [checkout-web] POST /api/checkout 500 7133ms cart=72387677
+2026-09-29T05:44:55Z  Warning  Unhealthy   pod/coredns-5d78c9869d-xrlpt   Readiness probe failed: HTTP probe failed with statuscode: 503
+[ERROR] plugin/errors: 2 orders-service.orders.svc.cluster.local. A: read udp 10.42.0.17:49568->10.96.0.10:53: i/o timeout

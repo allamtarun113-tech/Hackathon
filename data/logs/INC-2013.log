@@ -1,0 +1,98 @@
+{"level":"info","ts":"2026-03-23T05:25:00.000Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"push","template":"price_drop","user_id":"u_7531187"}
+{"level":"info","ts":"2026-03-23T05:25:37.930Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"push","template":"price_drop","user_id":"u_4934173"}
+{"level":"info","ts":"2026-03-23T05:26:26.175Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"push","template":"price_drop","user_id":"u_5350290"}
+{"level":"info","ts":"2026-03-23T05:26:54.185Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"push","template":"price_drop","user_id":"u_3654031"}
+{"level":"info","ts":"2026-03-23T05:27:44.414Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"push","template":"price_drop","user_id":"u_3633249"}
+{"level":"info","ts":"2026-03-23T05:28:47.463Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"push","template":"price_drop","user_id":"u_4699080"}
+{"level":"info","ts":"2026-03-23T05:29:21.415Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"push","template":"price_drop","user_id":"u_9816567"}
+{"level":"info","ts":"2026-03-23T05:30:20.711Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"push","template":"price_drop","user_id":"u_1307938"}
+{"level":"info","ts":"2026-03-23T05:31:23.202Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"push","template":"price_drop","user_id":"u_5157251"}
+{"level":"info","ts":"2026-03-23T05:32:06.203Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"push","template":"price_drop","user_id":"u_6463378"}
+{"level":"info","ts":"2026-03-23T05:33:10.158Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"push","template":"price_drop","user_id":"u_7566271"}
+{"level":"info","ts":"2026-03-23T05:33:55.063Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"push","template":"price_drop","user_id":"u_8768978"}
+{"level":"info","ts":"2026-03-23T05:34:25.331Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"push","template":"price_drop","user_id":"u_5900333"}
+{"level":"info","ts":"2026-03-23T05:35:13.399Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"push","template":"price_drop","user_id":"u_4418375"}
+{"level":"info","ts":"2026-03-23T05:36:03.525Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"push","template":"price_drop","user_id":"u_6060801"}
+{"level":"info","ts":"2026-03-23T05:37:04.537Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"push","template":"price_drop","user_id":"u_7225602"}
+{"level":"info","ts":"2026-03-23T05:37:57.702Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"push","template":"price_drop","user_id":"u_2754975"}
+{"level":"info","ts":"2026-03-23T05:38:37.263Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"push","template":"price_drop","user_id":"u_1253694"}
+{"level":"info","ts":"2026-03-23T05:39:40.394Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"push","template":"price_drop","user_id":"u_4965290"}
+{"level":"info","ts":"2026-03-23T05:40:41.206Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"push","template":"price_drop","user_id":"u_7427501"}
+{"level":"warn","ts":"2026-03-23T05:41:44.319Z","caller":"runtime/stats.go:31","msg":"goroutine count high","goroutines":171904,"heap_mb":1790}
+{"level":"warn","ts":"2026-03-23T05:41:55.452Z","caller":"push/fcm.go:118","msg":"push send slow","latency_ms":3889}
+2026-03-23T05:42:14Z  Warning  OOMKilling   node/ip-10-42-7-57   Memory cgroup out of memory: Killed process 1 (notification-svc) in pod notification-service-n5545fkpbs-wdtfh
+{"level":"warn","ts":"2026-03-23T05:42:28.151Z","caller":"runtime/stats.go:31","msg":"goroutine count high","goroutines":171904,"heap_mb":1790}
+{"level":"warn","ts":"2026-03-23T05:42:40.682Z","caller":"runtime/stats.go:31","msg":"goroutine count high","goroutines":171904,"heap_mb":1790}
+{"level":"warn","ts":"2026-03-23T05:42:57.845Z","caller":"runtime/stats.go:31","msg":"goroutine count high","goroutines":171904,"heap_mb":1790}
+{"level":"warn","ts":"2026-03-23T05:43:07.491Z","caller":"push/fcm.go:118","msg":"push send slow","latency_ms":3756}
+{"level":"warn","ts":"2026-03-23T05:43:23.508Z","caller":"runtime/stats.go:31","msg":"goroutine count high","goroutines":171904,"heap_mb":1790}
+2026-03-23T05:43:37Z  Warning  OOMKilling   node/ip-10-42-8-32   Memory cgroup out of memory: Killed process 1 (notification-svc) in pod notification-service-n5545fkpbs-wdtfh
+{"level":"warn","ts":"2026-03-23T05:43:51.285Z","caller":"push/fcm.go:118","msg":"push send slow","latency_ms":8274}
+{"level":"warn","ts":"2026-03-23T05:44:07.389Z","caller":"push/fcm.go:118","msg":"push send slow","latency_ms":2985}
+{"level":"warn","ts":"2026-03-23T05:44:24.889Z","caller":"runtime/stats.go:31","msg":"goroutine count high","goroutines":171904,"heap_mb":1790}
+{"level":"warn","ts":"2026-03-23T05:44:35.488Z","caller":"runtime/stats.go:31","msg":"goroutine count high","goroutines":171904,"heap_mb":1790}
+2026-03-23T05:44:44Z  Warning  OOMKilling   node/ip-10-42-1-191   Memory cgroup out of memory: Killed process 1 (notification-svc) in pod notification-service-n5545fkpbs-sjcgw
+2026-03-23T05:45:00Z  Warning  OOMKilling   node/ip-10-42-0-166   Memory cgroup out of memory: Killed process 1 (notification-svc) in pod notification-service-n5545fkpbs-sjcgw
+2026-03-23T05:45:17Z  Warning  OOMKilling   node/ip-10-42-2-52   Memory cgroup out of memory: Killed process 1 (notification-svc) in pod notification-service-n5545fkpbs-sjcgw
+{"level":"warn","ts":"2026-03-23T05:45:29.864Z","caller":"runtime/stats.go:31","msg":"goroutine count high","goroutines":171904,"heap_mb":1790}
+{"level":"warn","ts":"2026-03-23T05:45:48.744Z","caller":"runtime/stats.go:31","msg":"goroutine count high","goroutines":171904,"heap_mb":1790}
+{"level":"warn","ts":"2026-03-23T05:46:03.791Z","caller":"runtime/stats.go:31","msg":"goroutine count high","goroutines":171904,"heap_mb":1790}
+{"level":"warn","ts":"2026-03-23T05:46:18.481Z","caller":"push/fcm.go:118","msg":"push send slow","latency_ms":5938}
+2026-03-23T05:46:35Z  Warning  OOMKilling   node/ip-10-42-1-65   Memory cgroup out of memory: Killed process 1 (notification-svc) in pod notification-service-n5545fkpbs-wdtfh
+{"level":"warn","ts":"2026-03-23T05:46:47.830Z","caller":"push/fcm.go:118","msg":"push send slow","latency_ms":3299}
+{"level":"warn","ts":"2026-03-23T05:47:05.159Z","caller":"push/fcm.go:118","msg":"push send slow","latency_ms":3111}
+{"level":"warn","ts":"2026-03-23T05:47:12.516Z","caller":"runtime/stats.go:31","msg":"goroutine count high","goroutines":171904,"heap_mb":1790}
+{"level":"warn","ts":"2026-03-23T05:47:20.418Z","caller":"push/fcm.go:118","msg":"push send slow","latency_ms":3802}
+2026-03-23T05:47:28Z  Warning  OOMKilling   node/ip-10-42-4-98   Memory cgroup out of memory: Killed process 1 (notification-svc) in pod notification-service-n5545fkpbs-sjcgw
+{"level":"warn","ts":"2026-03-23T05:47:39.334Z","caller":"push/fcm.go:118","msg":"push send slow","latency_ms":6469}
+2026-03-23T05:47:56Z  Warning  OOMKilling   node/ip-10-42-3-18   Memory cgroup out of memory: Killed process 1 (notification-svc) in pod notification-service-n5545fkpbs-77bjn
+2026-03-23T05:48:03Z  Warning  OOMKilling   node/ip-10-42-1-41   Memory cgroup out of memory: Killed process 1 (notification-svc) in pod notification-service-n5545fkpbs-sjcgw
+{"level":"warn","ts":"2026-03-23T05:48:16.245Z","caller":"push/fcm.go:118","msg":"push send slow","latency_ms":3608}
+{"level":"warn","ts":"2026-03-23T05:48:29.506Z","caller":"runtime/stats.go:31","msg":"goroutine count high","goroutines":171904,"heap_mb":1790}
+{"level":"warn","ts":"2026-03-23T05:48:36.969Z","caller":"push/fcm.go:118","msg":"push send slow","latency_ms":9783}
+{"level":"warn","ts":"2026-03-23T05:48:55.771Z","caller":"push/fcm.go:118","msg":"push send slow","latency_ms":5529}
+{"level":"warn","ts":"2026-03-23T05:49:09.358Z","caller":"push/fcm.go:118","msg":"push send slow","latency_ms":4580}
+2026-03-23T05:49:16Z  Warning  OOMKilling   node/ip-10-42-6-128   Memory cgroup out of memory: Killed process 1 (notification-svc) in pod notification-service-n5545fkpbs-77bjn
+{"level":"warn","ts":"2026-03-23T05:49:29.508Z","caller":"runtime/stats.go:31","msg":"goroutine count high","goroutines":171904,"heap_mb":1790}
+{"level":"warn","ts":"2026-03-23T05:49:37.941Z","caller":"runtime/stats.go:31","msg":"goroutine count high","goroutines":171904,"heap_mb":1790}
+{"level":"warn","ts":"2026-03-23T05:49:49.384Z","caller":"push/fcm.go:118","msg":"push send slow","latency_ms":8688}
+2026-03-23T05:50:06Z  Warning  OOMKilling   node/ip-10-42-6-43   Memory cgroup out of memory: Killed process 1 (notification-svc) in pod notification-service-n5545fkpbs-77bjn
+2026-03-23T05:50:18Z  Warning  OOMKilling   node/ip-10-42-2-122   Memory cgroup out of memory: Killed process 1 (notification-svc) in pod notification-service-n5545fkpbs-sjcgw
+2026-03-23T05:50:32Z  Warning  OOMKilling   node/ip-10-42-5-137   Memory cgroup out of memory: Killed process 1 (notification-svc) in pod notification-service-n5545fkpbs-sjcgw
+{"level":"warn","ts":"2026-03-23T05:50:48.505Z","caller":"runtime/stats.go:31","msg":"goroutine count high","goroutines":171904,"heap_mb":1790}
+{"level":"warn","ts":"2026-03-23T05:51:02.677Z","caller":"runtime/stats.go:31","msg":"goroutine count high","goroutines":171904,"heap_mb":1790}
+{"level":"warn","ts":"2026-03-23T05:51:20.870Z","caller":"push/fcm.go:118","msg":"push send slow","latency_ms":7131}
+{"level":"warn","ts":"2026-03-23T05:51:33.904Z","caller":"runtime/stats.go:31","msg":"goroutine count high","goroutines":171904,"heap_mb":1790}
+2026-03-23T05:51:50Z  Warning  OOMKilling   node/ip-10-42-9-163   Memory cgroup out of memory: Killed process 1 (notification-svc) in pod notification-service-n5545fkpbs-sjcgw
+2026-03-23T05:52:01Z  Warning  OOMKilling   node/ip-10-42-6-94   Memory cgroup out of memory: Killed process 1 (notification-svc) in pod notification-service-n5545fkpbs-sjcgw
+{"level":"warn","ts":"2026-03-23T05:52:19.709Z","caller":"push/fcm.go:118","msg":"push send slow","latency_ms":6465}
+2026-03-23T05:52:28Z  Warning  OOMKilling   node/ip-10-42-5-21   Memory cgroup out of memory: Killed process 1 (notification-svc) in pod notification-service-n5545fkpbs-wdtfh
+{"level":"warn","ts":"2026-03-23T05:52:40.103Z","caller":"runtime/stats.go:31","msg":"goroutine count high","goroutines":171904,"heap_mb":1790}
+2026-03-23T05:52:48Z  Warning  OOMKilling   node/ip-10-42-0-150   Memory cgroup out of memory: Killed process 1 (notification-svc) in pod notification-service-n5545fkpbs-wdtfh
+{"level":"warn","ts":"2026-03-23T05:53:02.313Z","caller":"push/fcm.go:118","msg":"push send slow","latency_ms":3120}
+{"level":"warn","ts":"2026-03-23T05:53:12.217Z","caller":"push/fcm.go:118","msg":"push send slow","latency_ms":7448}
+2026-03-23T05:53:25Z  Warning  OOMKilling   node/ip-10-42-1-180   Memory cgroup out of memory: Killed process 1 (notification-svc) in pod notification-service-n5545fkpbs-wdtfh
+{"level":"warn","ts":"2026-03-23T05:53:43.958Z","caller":"push/fcm.go:118","msg":"push send slow","latency_ms":3808}
+2026-03-23T05:53:58Z  Warning  OOMKilling   node/ip-10-42-0-96   Memory cgroup out of memory: Killed process 1 (notification-svc) in pod notification-service-n5545fkpbs-77bjn
+2026-03-23T05:54:09Z  Warning  OOMKilling   node/ip-10-42-8-135   Memory cgroup out of memory: Killed process 1 (notification-svc) in pod notification-service-n5545fkpbs-77bjn
+2026-03-23T05:54:26Z  Warning  OOMKilling   node/ip-10-42-3-18   Memory cgroup out of memory: Killed process 1 (notification-svc) in pod notification-service-n5545fkpbs-sjcgw
+{"level":"warn","ts":"2026-03-23T05:54:37.138Z","caller":"runtime/stats.go:31","msg":"goroutine count high","goroutines":171904,"heap_mb":1790}
+{"level":"warn","ts":"2026-03-23T05:54:51.330Z","caller":"runtime/stats.go:31","msg":"goroutine count high","goroutines":171904,"heap_mb":1790}
+{"level":"warn","ts":"2026-03-23T05:55:01.643Z","caller":"push/fcm.go:118","msg":"push send slow","latency_ms":4933}
+2026-03-23T05:55:09Z  Warning  OOMKilling   node/ip-10-42-4-86   Memory cgroup out of memory: Killed process 1 (notification-svc) in pod notification-service-n5545fkpbs-wdtfh
+{"level":"warn","ts":"2026-03-23T05:55:21.736Z","caller":"push/fcm.go:118","msg":"push send slow","latency_ms":8324}
+{"level":"warn","ts":"2026-03-23T05:55:33.197Z","caller":"runtime/stats.go:31","msg":"goroutine count high","goroutines":171904,"heap_mb":1790}
+{"level":"warn","ts":"2026-03-23T05:55:40.385Z","caller":"push/fcm.go:118","msg":"push send slow","latency_ms":3055}
+{"level":"warn","ts":"2026-03-23T05:55:49.002Z","caller":"runtime/stats.go:31","msg":"goroutine count high","goroutines":171904,"heap_mb":1790}
+{"level":"info","ts":"2026-03-23T05:55:52.000Z","caller":"runtime/stats.go:31","msg":"runtime stats","goroutines":1987,"heap_mb":212}
+{"level":"info","ts":"2026-03-23T05:56:47.000Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"push","template":"price_drop","user_id":"u_1483842"}
+{"level":"info","ts":"2026-03-23T05:57:45.000Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"push","template":"price_drop","user_id":"u_3744942"}
+{"level":"info","ts":"2026-03-23T05:58:29.000Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"push","template":"price_drop","user_id":"u_4867906"}
+{"level":"info","ts":"2026-03-23T06:00:20.000Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"push","template":"price_drop","user_id":"u_4013411"}
+{"level":"info","ts":"2026-03-23T06:01:57.000Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"push","template":"price_drop","user_id":"u_5332045"}
+{"level":"info","ts":"2026-03-23T06:02:45.000Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"push","template":"price_drop","user_id":"u_5007589"}
+{"level":"info","ts":"2026-03-23T06:04:40.000Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"push","template":"price_drop","user_id":"u_8091967"}
+{"level":"info","ts":"2026-03-23T06:06:39.000Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"push","template":"price_drop","user_id":"u_6792232"}
+{"level":"info","ts":"2026-03-23T06:07:50.000Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"push","template":"price_drop","user_id":"u_5251143"}
+{"level":"info","ts":"2026-03-23T06:09:10.000Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"push","template":"price_drop","user_id":"u_2390498"}
+{"level":"info","ts":"2026-03-23T06:10:44.000Z","caller":"sender/dispatch.go:57","msg":"notification sent","channel":"push","template":"price_drop","user_id":"u_2215588"}

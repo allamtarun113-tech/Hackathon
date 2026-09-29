@@ -1,0 +1,193 @@
+2026-04-28 01:10:00.000  INFO 1 --- [http-nio-8080-exec-33] c.k.orders.api.OrderController           : GET /v1/orders/ORD-69242492 200 source=replica latencyMs=267
+2026-04-28 01:10:43.127  INFO 1 --- [http-nio-8080-exec-105] c.k.orders.api.OrderController           : GET /v1/orders/ORD-71956318 200 source=replica latencyMs=256
+2026-04-28 01:11:36.437  INFO 1 --- [http-nio-8080-exec-43] c.k.orders.api.OrderController           : GET /v1/orders/ORD-18886180 200 source=replica latencyMs=59
+2026-04-28 01:12:21.828  INFO 1 --- [http-nio-8080-exec-85] c.k.orders.api.OrderController           : GET /v1/orders/ORD-14066259 200 source=replica latencyMs=112
+2026-04-28 01:13:15.601  INFO 1 --- [http-nio-8080-exec-103] c.k.orders.api.OrderController           : GET /v1/orders/ORD-60454592 200 source=replica latencyMs=75
+2026-04-28 01:14:25.285  INFO 1 --- [http-nio-8080-exec-49] c.k.orders.api.OrderController           : GET /v1/orders/ORD-58174028 200 source=replica latencyMs=65
+2026-04-28 01:15:29.447  INFO 1 --- [http-nio-8080-exec-144] c.k.orders.api.OrderController           : GET /v1/orders/ORD-81270831 200 source=replica latencyMs=164
+2026-04-28 01:16:25.210  INFO 1 --- [http-nio-8080-exec-17] c.k.orders.api.OrderController           : GET /v1/orders/ORD-94485164 200 source=replica latencyMs=283
+2026-04-28 01:16:53.674  INFO 1 --- [http-nio-8080-exec-93] c.k.orders.api.OrderController           : GET /v1/orders/ORD-32405896 200 source=replica latencyMs=241
+2026-04-28 01:17:42.520  INFO 1 --- [http-nio-8080-exec-61] c.k.orders.api.OrderController           : GET /v1/orders/ORD-82835458 200 source=replica latencyMs=219
+2026-04-28 01:18:20.048  INFO 1 --- [http-nio-8080-exec-61] c.k.orders.api.OrderController           : GET /v1/orders/ORD-71696314 200 source=replica latencyMs=58
+2026-04-28 01:19:01.426  INFO 1 --- [http-nio-8080-exec-163] c.k.orders.api.OrderController           : GET /v1/orders/ORD-25077658 200 source=replica latencyMs=48
+2026-04-28 01:19:47.758  INFO 1 --- [http-nio-8080-exec-176] c.k.orders.api.OrderController           : GET /v1/orders/ORD-80881664 200 source=replica latencyMs=136
+2026-04-28 01:20:32.638  INFO 1 --- [http-nio-8080-exec-194] c.k.orders.api.OrderController           : GET /v1/orders/ORD-61996066 200 source=replica latencyMs=143
+2026-04-28 01:21:33.979  INFO 1 --- [http-nio-8080-exec-68] c.k.orders.api.OrderController           : GET /v1/orders/ORD-42730821 200 source=replica latencyMs=105
+2026-04-28 01:22:40.321  INFO 1 --- [http-nio-8080-exec-189] c.k.orders.api.OrderController           : GET /v1/orders/ORD-49980102 200 source=replica latencyMs=320
+2026-04-28 01:23:11.204  INFO 1 --- [http-nio-8080-exec-182] c.k.orders.api.OrderController           : GET /v1/orders/ORD-44818692 200 source=replica latencyMs=337
+2026-04-28 01:24:04.695  INFO 1 --- [http-nio-8080-exec-199] c.k.orders.api.OrderController           : GET /v1/orders/ORD-21004955 200 source=replica latencyMs=212
+2026-04-28 01:24:37.000  INFO 1 --- [http-nio-8080-exec-186] c.k.orders.api.OrderController           : GET /v1/orders/ORD-85595404 200 source=replica latencyMs=112
+2026-04-28 01:25:47.567  INFO 1 --- [http-nio-8080-exec-158] c.k.orders.api.OrderController           : GET /v1/orders/ORD-14133112 200 source=replica latencyMs=229
+2026-04-28 01:26:30.467 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:26:58.618 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:27:30.861 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:27:56.092 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:28:25.649 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:28:57.338 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:29:31.627 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:30:09.620 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:30:37.952 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:31:17.728 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:31:41.695 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:32:01.920 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:32:41.254 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:33:23.400 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:33:44.836 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:34:10.946 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:34:32.476 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:35:11.407 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:35:44.772 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:36:06.457 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:36:43.296 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:37:06.818 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:37:30.915 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:37:59.664 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:38:23.468 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:38:50.426 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:39:22.292 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:40:01.551 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:40:37.041 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:41:10.106 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:41:48.049 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:42:22.265 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:42:42.571 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:43:02.295 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:43:33.712 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:44:12.305 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:44:51.305 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:45:31.213 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:46:03.160 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:46:23.052 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:46:49.512 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:47:24.339 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:47:51.700 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:48:29.772 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:49:08.411 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:49:28.379 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:50:02.140 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:50:23.630 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:50:55.977 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:51:31.561 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:51:51.725 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:52:22.595 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:53:02.731 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:53:39.089 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:54:18.424 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:54:52.339 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:55:33.846 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:56:02.766 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:56:45.154 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:57:06.736 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:57:30.379 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:57:55.400 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:58:26.138 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:59:03.496 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 01:59:31.576 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 02:00:01.772 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 02:00:35.174 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 02:01:01.513 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 02:01:28.437 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 02:01:56.134 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 02:02:38.306 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 02:03:16.759 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 02:03:45.155 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 02:04:13.657 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 02:04:33.948 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 02:05:07.423 ERROR 1 --- [kafka-producer-network-thread | orders] o.a.k.c.p.internals.Sender            : Got error produce response: NOT_ENOUGH_REPLICAS_AFTER_APPEND
+[kafka-broker-2] ERROR Error while appending records to orders.events-4 in dir /var/lib/kafka (kafka.server.LogDirFailureChannel) java.io.IOException: No space left on device
+2026-04-28 02:05:11.000  INFO 1 --- [http-nio-8080-exec-175] c.k.orders.api.OrderController           : GET /v1/orders/ORD-89420374 200 source=replica latencyMs=335
+2026-04-28 02:05:35.000  INFO 1 --- [http-nio-8080-exec-25] c.k.orders.api.OrderController           : GET /v1/orders/ORD-27489367 200 source=replica latencyMs=151
+2026-04-28 02:06:15.000  INFO 1 --- [http-nio-8080-exec-70] c.k.orders.api.OrderController           : GET /v1/orders/ORD-13623966 200 source=replica latencyMs=141
+2026-04-28 02:07:57.000  INFO 1 --- [http-nio-8080-exec-130] c.k.orders.api.OrderController           : GET /v1/orders/ORD-64855459 200 source=replica latencyMs=104
+2026-04-28 02:09:29.000  INFO 1 --- [http-nio-8080-exec-24] c.k.orders.api.OrderController           : GET /v1/orders/ORD-38511683 200 source=replica latencyMs=91
+2026-04-28 02:10:42.000  INFO 1 --- [http-nio-8080-exec-166] c.k.orders.api.OrderController           : GET /v1/orders/ORD-64162592 200 source=replica latencyMs=268
+2026-04-28 02:12:32.000  INFO 1 --- [http-nio-8080-exec-47] c.k.orders.api.OrderController           : GET /v1/orders/ORD-81633867 200 source=replica latencyMs=124
+2026-04-28 02:13:41.000  INFO 1 --- [http-nio-8080-exec-55] c.k.orders.api.OrderController           : GET /v1/orders/ORD-74548298 200 source=replica latencyMs=193
+2026-04-28 02:15:25.000  INFO 1 --- [http-nio-8080-exec-145] c.k.orders.api.OrderController           : GET /v1/orders/ORD-49596976 200 source=replica latencyMs=146
+2026-04-28 02:16:24.000  INFO 1 --- [http-nio-8080-exec-137] c.k.orders.api.OrderController           : GET /v1/orders/ORD-66298952 200 source=replica latencyMs=354
+2026-04-28 02:18:21.000  INFO 1 --- [http-nio-8080-exec-59] c.k.orders.api.OrderController           : GET /v1/orders/ORD-77184573 200 source=replica latencyMs=298
+2026-04-28 02:19:03.000  INFO 1 --- [http-nio-8080-exec-117] c.k.orders.api.OrderController           : GET /v1/orders/ORD-31681795 200 source=replica latencyMs=174
+2026-04-28 02:20:38.000  INFO 1 --- [http-nio-8080-exec-79] c.k.orders.api.OrderController           : GET /v1/orders/ORD-72551887 200 source=replica latencyMs=185
+2026-04-28 02:21:54.000  INFO 1 --- [http-nio-8080-exec-75] c.k.orders.api.OrderController           : GET /v1/orders/ORD-65654724 200 source=replica latencyMs=229
+2026-04-28 02:22:55.000  INFO 1 --- [http-nio-8080-exec-135] c.k.orders.api.OrderController           : GET /v1/orders/ORD-25494205 200 source=replica latencyMs=108
+2026-04-28 02:24:54.000  INFO 1 --- [http-nio-8080-exec-67] c.k.orders.api.OrderController           : GET /v1/orders/ORD-36908362 200 source=replica latencyMs=342
+2026-04-28 02:26:25.000  INFO 1 --- [http-nio-8080-exec-139] c.k.orders.api.OrderController           : GET /v1/orders/ORD-32379944 200 source=replica latencyMs=340
+2026-04-28 02:28:20.000  INFO 1 --- [http-nio-8080-exec-136] c.k.orders.api.OrderController           : GET /v1/orders/ORD-11376198 200 source=replica latencyMs=253
+2026-04-28 02:29:00.000  INFO 1 --- [http-nio-8080-exec-148] c.k.orders.api.OrderController           : GET /v1/orders/ORD-88557470 200 source=replica latencyMs=257
+2026-04-28 02:30:05.000  INFO 1 --- [http-nio-8080-exec-1] c.k.orders.api.OrderController           : GET /v1/orders/ORD-70864861 200 source=replica latencyMs=297
+2026-04-28 02:30:51.000  INFO 1 --- [http-nio-8080-exec-200] c.k.orders.api.OrderController           : GET /v1/orders/ORD-24567152 200 source=replica latencyMs=263
