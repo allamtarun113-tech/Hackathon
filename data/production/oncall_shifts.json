@@ -1,0 +1,6482 @@
+[
+  {
+    "shift_id": "SHIFT-0001",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-PRIYA",
+    "role": "primary",
+    "starts_at": "2026-07-01T00:00:00+05:30",
+    "ends_at": "2026-07-01T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0002",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ARJUN",
+    "role": "secondary",
+    "starts_at": "2026-07-01T08:00:00+05:30",
+    "ends_at": "2026-07-01T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0003",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-NEHA",
+    "role": "platform",
+    "starts_at": "2026-07-01T16:00:00+05:30",
+    "ends_at": "2026-07-02T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0004",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ROHAN",
+    "role": "primary",
+    "starts_at": "2026-07-02T00:00:00+05:30",
+    "ends_at": "2026-07-02T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0005",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-FATIMA",
+    "role": "secondary",
+    "starts_at": "2026-07-02T08:00:00+05:30",
+    "ends_at": "2026-07-02T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0006",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-VIKRAM",
+    "role": "platform",
+    "starts_at": "2026-07-02T16:00:00+05:30",
+    "ends_at": "2026-07-03T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0007",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-KARTHIK",
+    "role": "primary",
+    "starts_at": "2026-07-03T00:00:00+05:30",
+    "ends_at": "2026-07-03T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0008",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ANANYA",
+    "role": "secondary",
+    "starts_at": "2026-07-03T08:00:00+05:30",
+    "ends_at": "2026-07-03T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0009",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-MEERA",
+    "role": "platform",
+    "starts_at": "2026-07-03T16:00:00+05:30",
+    "ends_at": "2026-07-04T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0010",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-DEV",
+    "role": "primary",
+    "starts_at": "2026-07-04T00:00:00+05:30",
+    "ends_at": "2026-07-04T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0011",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ISHITA",
+    "role": "secondary",
+    "starts_at": "2026-07-04T08:00:00+05:30",
+    "ends_at": "2026-07-04T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0012",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-RAHUL",
+    "role": "platform",
+    "starts_at": "2026-07-04T16:00:00+05:30",
+    "ends_at": "2026-07-05T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0013",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ZOYA",
+    "role": "primary",
+    "starts_at": "2026-07-05T00:00:00+05:30",
+    "ends_at": "2026-07-05T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0014",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-NIKHIL",
+    "role": "secondary",
+    "starts_at": "2026-07-05T08:00:00+05:30",
+    "ends_at": "2026-07-05T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0015",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-SANA",
+    "role": "platform",
+    "starts_at": "2026-07-05T16:00:00+05:30",
+    "ends_at": "2026-07-06T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0016",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ADITYA",
+    "role": "primary",
+    "starts_at": "2026-07-06T00:00:00+05:30",
+    "ends_at": "2026-07-06T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0017",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-PRIYA",
+    "role": "secondary",
+    "starts_at": "2026-07-06T08:00:00+05:30",
+    "ends_at": "2026-07-06T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0018",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ARJUN",
+    "role": "platform",
+    "starts_at": "2026-07-06T16:00:00+05:30",
+    "ends_at": "2026-07-07T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0019",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-NEHA",
+    "role": "primary",
+    "starts_at": "2026-07-07T00:00:00+05:30",
+    "ends_at": "2026-07-07T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0020",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ROHAN",
+    "role": "secondary",
+    "starts_at": "2026-07-07T08:00:00+05:30",
+    "ends_at": "2026-07-07T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0021",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-FATIMA",
+    "role": "platform",
+    "starts_at": "2026-07-07T16:00:00+05:30",
+    "ends_at": "2026-07-08T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0022",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-VIKRAM",
+    "role": "primary",
+    "starts_at": "2026-07-08T00:00:00+05:30",
+    "ends_at": "2026-07-08T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0023",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-KARTHIK",
+    "role": "secondary",
+    "starts_at": "2026-07-08T08:00:00+05:30",
+    "ends_at": "2026-07-08T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0024",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ANANYA",
+    "role": "platform",
+    "starts_at": "2026-07-08T16:00:00+05:30",
+    "ends_at": "2026-07-09T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0025",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-MEERA",
+    "role": "primary",
+    "starts_at": "2026-07-09T00:00:00+05:30",
+    "ends_at": "2026-07-09T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0026",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-DEV",
+    "role": "secondary",
+    "starts_at": "2026-07-09T08:00:00+05:30",
+    "ends_at": "2026-07-09T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0027",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ISHITA",
+    "role": "platform",
+    "starts_at": "2026-07-09T16:00:00+05:30",
+    "ends_at": "2026-07-10T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0028",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-RAHUL",
+    "role": "primary",
+    "starts_at": "2026-07-10T00:00:00+05:30",
+    "ends_at": "2026-07-10T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0029",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ZOYA",
+    "role": "secondary",
+    "starts_at": "2026-07-10T08:00:00+05:30",
+    "ends_at": "2026-07-10T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0030",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-NIKHIL",
+    "role": "platform",
+    "starts_at": "2026-07-10T16:00:00+05:30",
+    "ends_at": "2026-07-11T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0031",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-SANA",
+    "role": "primary",
+    "starts_at": "2026-07-11T00:00:00+05:30",
+    "ends_at": "2026-07-11T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0032",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ADITYA",
+    "role": "secondary",
+    "starts_at": "2026-07-11T08:00:00+05:30",
+    "ends_at": "2026-07-11T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0033",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-PRIYA",
+    "role": "platform",
+    "starts_at": "2026-07-11T16:00:00+05:30",
+    "ends_at": "2026-07-12T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0034",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ARJUN",
+    "role": "primary",
+    "starts_at": "2026-07-12T00:00:00+05:30",
+    "ends_at": "2026-07-12T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0035",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-NEHA",
+    "role": "secondary",
+    "starts_at": "2026-07-12T08:00:00+05:30",
+    "ends_at": "2026-07-12T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0036",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ROHAN",
+    "role": "platform",
+    "starts_at": "2026-07-12T16:00:00+05:30",
+    "ends_at": "2026-07-13T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0037",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-FATIMA",
+    "role": "primary",
+    "starts_at": "2026-07-13T00:00:00+05:30",
+    "ends_at": "2026-07-13T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0038",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-VIKRAM",
+    "role": "secondary",
+    "starts_at": "2026-07-13T08:00:00+05:30",
+    "ends_at": "2026-07-13T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0039",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-KARTHIK",
+    "role": "platform",
+    "starts_at": "2026-07-13T16:00:00+05:30",
+    "ends_at": "2026-07-14T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0040",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ANANYA",
+    "role": "primary",
+    "starts_at": "2026-07-14T00:00:00+05:30",
+    "ends_at": "2026-07-14T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0041",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-MEERA",
+    "role": "secondary",
+    "starts_at": "2026-07-14T08:00:00+05:30",
+    "ends_at": "2026-07-14T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0042",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-DEV",
+    "role": "platform",
+    "starts_at": "2026-07-14T16:00:00+05:30",
+    "ends_at": "2026-07-15T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0043",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ISHITA",
+    "role": "primary",
+    "starts_at": "2026-07-15T00:00:00+05:30",
+    "ends_at": "2026-07-15T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0044",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-RAHUL",
+    "role": "secondary",
+    "starts_at": "2026-07-15T08:00:00+05:30",
+    "ends_at": "2026-07-15T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0045",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ZOYA",
+    "role": "platform",
+    "starts_at": "2026-07-15T16:00:00+05:30",
+    "ends_at": "2026-07-16T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0046",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-NIKHIL",
+    "role": "primary",
+    "starts_at": "2026-07-16T00:00:00+05:30",
+    "ends_at": "2026-07-16T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0047",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-SANA",
+    "role": "secondary",
+    "starts_at": "2026-07-16T08:00:00+05:30",
+    "ends_at": "2026-07-16T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0048",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ADITYA",
+    "role": "platform",
+    "starts_at": "2026-07-16T16:00:00+05:30",
+    "ends_at": "2026-07-17T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0049",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-PRIYA",
+    "role": "primary",
+    "starts_at": "2026-07-17T00:00:00+05:30",
+    "ends_at": "2026-07-17T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0050",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ARJUN",
+    "role": "secondary",
+    "starts_at": "2026-07-17T08:00:00+05:30",
+    "ends_at": "2026-07-17T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0051",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-NEHA",
+    "role": "platform",
+    "starts_at": "2026-07-17T16:00:00+05:30",
+    "ends_at": "2026-07-18T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0052",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ROHAN",
+    "role": "primary",
+    "starts_at": "2026-07-18T00:00:00+05:30",
+    "ends_at": "2026-07-18T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0053",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-FATIMA",
+    "role": "secondary",
+    "starts_at": "2026-07-18T08:00:00+05:30",
+    "ends_at": "2026-07-18T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0054",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-VIKRAM",
+    "role": "platform",
+    "starts_at": "2026-07-18T16:00:00+05:30",
+    "ends_at": "2026-07-19T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0055",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-KARTHIK",
+    "role": "primary",
+    "starts_at": "2026-07-19T00:00:00+05:30",
+    "ends_at": "2026-07-19T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0056",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ANANYA",
+    "role": "secondary",
+    "starts_at": "2026-07-19T08:00:00+05:30",
+    "ends_at": "2026-07-19T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0057",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-MEERA",
+    "role": "platform",
+    "starts_at": "2026-07-19T16:00:00+05:30",
+    "ends_at": "2026-07-20T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0058",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-DEV",
+    "role": "primary",
+    "starts_at": "2026-07-20T00:00:00+05:30",
+    "ends_at": "2026-07-20T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0059",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ISHITA",
+    "role": "secondary",
+    "starts_at": "2026-07-20T08:00:00+05:30",
+    "ends_at": "2026-07-20T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0060",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-RAHUL",
+    "role": "platform",
+    "starts_at": "2026-07-20T16:00:00+05:30",
+    "ends_at": "2026-07-21T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0061",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ZOYA",
+    "role": "primary",
+    "starts_at": "2026-07-21T00:00:00+05:30",
+    "ends_at": "2026-07-21T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0062",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-NIKHIL",
+    "role": "secondary",
+    "starts_at": "2026-07-21T08:00:00+05:30",
+    "ends_at": "2026-07-21T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0063",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-SANA",
+    "role": "platform",
+    "starts_at": "2026-07-21T16:00:00+05:30",
+    "ends_at": "2026-07-22T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0064",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ADITYA",
+    "role": "primary",
+    "starts_at": "2026-07-22T00:00:00+05:30",
+    "ends_at": "2026-07-22T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0065",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-PRIYA",
+    "role": "secondary",
+    "starts_at": "2026-07-22T08:00:00+05:30",
+    "ends_at": "2026-07-22T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0066",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ARJUN",
+    "role": "platform",
+    "starts_at": "2026-07-22T16:00:00+05:30",
+    "ends_at": "2026-07-23T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0067",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-NEHA",
+    "role": "primary",
+    "starts_at": "2026-07-23T00:00:00+05:30",
+    "ends_at": "2026-07-23T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0068",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ROHAN",
+    "role": "secondary",
+    "starts_at": "2026-07-23T08:00:00+05:30",
+    "ends_at": "2026-07-23T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0069",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-FATIMA",
+    "role": "platform",
+    "starts_at": "2026-07-23T16:00:00+05:30",
+    "ends_at": "2026-07-24T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0070",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-VIKRAM",
+    "role": "primary",
+    "starts_at": "2026-07-24T00:00:00+05:30",
+    "ends_at": "2026-07-24T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0071",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-KARTHIK",
+    "role": "secondary",
+    "starts_at": "2026-07-24T08:00:00+05:30",
+    "ends_at": "2026-07-24T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0072",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ANANYA",
+    "role": "platform",
+    "starts_at": "2026-07-24T16:00:00+05:30",
+    "ends_at": "2026-07-25T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0073",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-MEERA",
+    "role": "primary",
+    "starts_at": "2026-07-25T00:00:00+05:30",
+    "ends_at": "2026-07-25T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0074",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-DEV",
+    "role": "secondary",
+    "starts_at": "2026-07-25T08:00:00+05:30",
+    "ends_at": "2026-07-25T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0075",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ISHITA",
+    "role": "platform",
+    "starts_at": "2026-07-25T16:00:00+05:30",
+    "ends_at": "2026-07-26T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0076",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-RAHUL",
+    "role": "primary",
+    "starts_at": "2026-07-26T00:00:00+05:30",
+    "ends_at": "2026-07-26T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0077",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ZOYA",
+    "role": "secondary",
+    "starts_at": "2026-07-26T08:00:00+05:30",
+    "ends_at": "2026-07-26T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0078",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-NIKHIL",
+    "role": "platform",
+    "starts_at": "2026-07-26T16:00:00+05:30",
+    "ends_at": "2026-07-27T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0079",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-SANA",
+    "role": "primary",
+    "starts_at": "2026-07-27T00:00:00+05:30",
+    "ends_at": "2026-07-27T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0080",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ADITYA",
+    "role": "secondary",
+    "starts_at": "2026-07-27T08:00:00+05:30",
+    "ends_at": "2026-07-27T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0081",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-PRIYA",
+    "role": "platform",
+    "starts_at": "2026-07-27T16:00:00+05:30",
+    "ends_at": "2026-07-28T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0082",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ARJUN",
+    "role": "primary",
+    "starts_at": "2026-07-28T00:00:00+05:30",
+    "ends_at": "2026-07-28T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0083",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-NEHA",
+    "role": "secondary",
+    "starts_at": "2026-07-28T08:00:00+05:30",
+    "ends_at": "2026-07-28T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0084",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ROHAN",
+    "role": "platform",
+    "starts_at": "2026-07-28T16:00:00+05:30",
+    "ends_at": "2026-07-29T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0085",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-FATIMA",
+    "role": "primary",
+    "starts_at": "2026-07-29T00:00:00+05:30",
+    "ends_at": "2026-07-29T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0086",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-VIKRAM",
+    "role": "secondary",
+    "starts_at": "2026-07-29T08:00:00+05:30",
+    "ends_at": "2026-07-29T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0087",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-KARTHIK",
+    "role": "platform",
+    "starts_at": "2026-07-29T16:00:00+05:30",
+    "ends_at": "2026-07-30T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0088",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ANANYA",
+    "role": "primary",
+    "starts_at": "2026-07-30T00:00:00+05:30",
+    "ends_at": "2026-07-30T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0089",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-MEERA",
+    "role": "secondary",
+    "starts_at": "2026-07-30T08:00:00+05:30",
+    "ends_at": "2026-07-30T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0090",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-DEV",
+    "role": "platform",
+    "starts_at": "2026-07-30T16:00:00+05:30",
+    "ends_at": "2026-07-31T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0091",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ISHITA",
+    "role": "primary",
+    "starts_at": "2026-07-31T00:00:00+05:30",
+    "ends_at": "2026-07-31T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0092",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-RAHUL",
+    "role": "secondary",
+    "starts_at": "2026-07-31T08:00:00+05:30",
+    "ends_at": "2026-07-31T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0093",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ZOYA",
+    "role": "platform",
+    "starts_at": "2026-07-31T16:00:00+05:30",
+    "ends_at": "2026-08-01T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0094",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-NIKHIL",
+    "role": "primary",
+    "starts_at": "2026-08-01T00:00:00+05:30",
+    "ends_at": "2026-08-01T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0095",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-SANA",
+    "role": "secondary",
+    "starts_at": "2026-08-01T08:00:00+05:30",
+    "ends_at": "2026-08-01T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0096",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ADITYA",
+    "role": "platform",
+    "starts_at": "2026-08-01T16:00:00+05:30",
+    "ends_at": "2026-08-02T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0097",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-PRIYA",
+    "role": "primary",
+    "starts_at": "2026-08-02T00:00:00+05:30",
+    "ends_at": "2026-08-02T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0098",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ARJUN",
+    "role": "secondary",
+    "starts_at": "2026-08-02T08:00:00+05:30",
+    "ends_at": "2026-08-02T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0099",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-NEHA",
+    "role": "platform",
+    "starts_at": "2026-08-02T16:00:00+05:30",
+    "ends_at": "2026-08-03T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0100",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ROHAN",
+    "role": "primary",
+    "starts_at": "2026-08-03T00:00:00+05:30",
+    "ends_at": "2026-08-03T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0101",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-FATIMA",
+    "role": "secondary",
+    "starts_at": "2026-08-03T08:00:00+05:30",
+    "ends_at": "2026-08-03T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0102",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-VIKRAM",
+    "role": "platform",
+    "starts_at": "2026-08-03T16:00:00+05:30",
+    "ends_at": "2026-08-04T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0103",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-KARTHIK",
+    "role": "primary",
+    "starts_at": "2026-08-04T00:00:00+05:30",
+    "ends_at": "2026-08-04T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0104",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ANANYA",
+    "role": "secondary",
+    "starts_at": "2026-08-04T08:00:00+05:30",
+    "ends_at": "2026-08-04T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0105",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-MEERA",
+    "role": "platform",
+    "starts_at": "2026-08-04T16:00:00+05:30",
+    "ends_at": "2026-08-05T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0106",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-DEV",
+    "role": "primary",
+    "starts_at": "2026-08-05T00:00:00+05:30",
+    "ends_at": "2026-08-05T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0107",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ISHITA",
+    "role": "secondary",
+    "starts_at": "2026-08-05T08:00:00+05:30",
+    "ends_at": "2026-08-05T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0108",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-RAHUL",
+    "role": "platform",
+    "starts_at": "2026-08-05T16:00:00+05:30",
+    "ends_at": "2026-08-06T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0109",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ZOYA",
+    "role": "primary",
+    "starts_at": "2026-08-06T00:00:00+05:30",
+    "ends_at": "2026-08-06T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0110",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-NIKHIL",
+    "role": "secondary",
+    "starts_at": "2026-08-06T08:00:00+05:30",
+    "ends_at": "2026-08-06T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0111",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-SANA",
+    "role": "platform",
+    "starts_at": "2026-08-06T16:00:00+05:30",
+    "ends_at": "2026-08-07T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0112",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ADITYA",
+    "role": "primary",
+    "starts_at": "2026-08-07T00:00:00+05:30",
+    "ends_at": "2026-08-07T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0113",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-PRIYA",
+    "role": "secondary",
+    "starts_at": "2026-08-07T08:00:00+05:30",
+    "ends_at": "2026-08-07T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0114",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ARJUN",
+    "role": "platform",
+    "starts_at": "2026-08-07T16:00:00+05:30",
+    "ends_at": "2026-08-08T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0115",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-NEHA",
+    "role": "primary",
+    "starts_at": "2026-08-08T00:00:00+05:30",
+    "ends_at": "2026-08-08T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0116",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ROHAN",
+    "role": "secondary",
+    "starts_at": "2026-08-08T08:00:00+05:30",
+    "ends_at": "2026-08-08T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0117",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-FATIMA",
+    "role": "platform",
+    "starts_at": "2026-08-08T16:00:00+05:30",
+    "ends_at": "2026-08-09T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0118",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-VIKRAM",
+    "role": "primary",
+    "starts_at": "2026-08-09T00:00:00+05:30",
+    "ends_at": "2026-08-09T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0119",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-KARTHIK",
+    "role": "secondary",
+    "starts_at": "2026-08-09T08:00:00+05:30",
+    "ends_at": "2026-08-09T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0120",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ANANYA",
+    "role": "platform",
+    "starts_at": "2026-08-09T16:00:00+05:30",
+    "ends_at": "2026-08-10T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0121",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-MEERA",
+    "role": "primary",
+    "starts_at": "2026-08-10T00:00:00+05:30",
+    "ends_at": "2026-08-10T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0122",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-DEV",
+    "role": "secondary",
+    "starts_at": "2026-08-10T08:00:00+05:30",
+    "ends_at": "2026-08-10T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0123",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ISHITA",
+    "role": "platform",
+    "starts_at": "2026-08-10T16:00:00+05:30",
+    "ends_at": "2026-08-11T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0124",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-RAHUL",
+    "role": "primary",
+    "starts_at": "2026-08-11T00:00:00+05:30",
+    "ends_at": "2026-08-11T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0125",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ZOYA",
+    "role": "secondary",
+    "starts_at": "2026-08-11T08:00:00+05:30",
+    "ends_at": "2026-08-11T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0126",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-NIKHIL",
+    "role": "platform",
+    "starts_at": "2026-08-11T16:00:00+05:30",
+    "ends_at": "2026-08-12T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0127",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-SANA",
+    "role": "primary",
+    "starts_at": "2026-08-12T00:00:00+05:30",
+    "ends_at": "2026-08-12T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0128",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ADITYA",
+    "role": "secondary",
+    "starts_at": "2026-08-12T08:00:00+05:30",
+    "ends_at": "2026-08-12T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0129",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-PRIYA",
+    "role": "platform",
+    "starts_at": "2026-08-12T16:00:00+05:30",
+    "ends_at": "2026-08-13T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0130",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ARJUN",
+    "role": "primary",
+    "starts_at": "2026-08-13T00:00:00+05:30",
+    "ends_at": "2026-08-13T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0131",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-NEHA",
+    "role": "secondary",
+    "starts_at": "2026-08-13T08:00:00+05:30",
+    "ends_at": "2026-08-13T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0132",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ROHAN",
+    "role": "platform",
+    "starts_at": "2026-08-13T16:00:00+05:30",
+    "ends_at": "2026-08-14T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0133",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-FATIMA",
+    "role": "primary",
+    "starts_at": "2026-08-14T00:00:00+05:30",
+    "ends_at": "2026-08-14T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0134",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-VIKRAM",
+    "role": "secondary",
+    "starts_at": "2026-08-14T08:00:00+05:30",
+    "ends_at": "2026-08-14T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0135",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-KARTHIK",
+    "role": "platform",
+    "starts_at": "2026-08-14T16:00:00+05:30",
+    "ends_at": "2026-08-15T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0136",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ANANYA",
+    "role": "primary",
+    "starts_at": "2026-08-15T00:00:00+05:30",
+    "ends_at": "2026-08-15T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0137",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-MEERA",
+    "role": "secondary",
+    "starts_at": "2026-08-15T08:00:00+05:30",
+    "ends_at": "2026-08-15T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0138",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-DEV",
+    "role": "platform",
+    "starts_at": "2026-08-15T16:00:00+05:30",
+    "ends_at": "2026-08-16T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0139",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ISHITA",
+    "role": "primary",
+    "starts_at": "2026-08-16T00:00:00+05:30",
+    "ends_at": "2026-08-16T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0140",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-RAHUL",
+    "role": "secondary",
+    "starts_at": "2026-08-16T08:00:00+05:30",
+    "ends_at": "2026-08-16T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0141",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ZOYA",
+    "role": "platform",
+    "starts_at": "2026-08-16T16:00:00+05:30",
+    "ends_at": "2026-08-17T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0142",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-NIKHIL",
+    "role": "primary",
+    "starts_at": "2026-08-17T00:00:00+05:30",
+    "ends_at": "2026-08-17T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0143",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-SANA",
+    "role": "secondary",
+    "starts_at": "2026-08-17T08:00:00+05:30",
+    "ends_at": "2026-08-17T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0144",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ADITYA",
+    "role": "platform",
+    "starts_at": "2026-08-17T16:00:00+05:30",
+    "ends_at": "2026-08-18T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0145",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-PRIYA",
+    "role": "primary",
+    "starts_at": "2026-08-18T00:00:00+05:30",
+    "ends_at": "2026-08-18T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0146",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ARJUN",
+    "role": "secondary",
+    "starts_at": "2026-08-18T08:00:00+05:30",
+    "ends_at": "2026-08-18T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0147",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-NEHA",
+    "role": "platform",
+    "starts_at": "2026-08-18T16:00:00+05:30",
+    "ends_at": "2026-08-19T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0148",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ROHAN",
+    "role": "primary",
+    "starts_at": "2026-08-19T00:00:00+05:30",
+    "ends_at": "2026-08-19T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0149",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-FATIMA",
+    "role": "secondary",
+    "starts_at": "2026-08-19T08:00:00+05:30",
+    "ends_at": "2026-08-19T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0150",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-VIKRAM",
+    "role": "platform",
+    "starts_at": "2026-08-19T16:00:00+05:30",
+    "ends_at": "2026-08-20T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0151",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-KARTHIK",
+    "role": "primary",
+    "starts_at": "2026-08-20T00:00:00+05:30",
+    "ends_at": "2026-08-20T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0152",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ANANYA",
+    "role": "secondary",
+    "starts_at": "2026-08-20T08:00:00+05:30",
+    "ends_at": "2026-08-20T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0153",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-MEERA",
+    "role": "platform",
+    "starts_at": "2026-08-20T16:00:00+05:30",
+    "ends_at": "2026-08-21T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0154",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-DEV",
+    "role": "primary",
+    "starts_at": "2026-08-21T00:00:00+05:30",
+    "ends_at": "2026-08-21T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0155",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ISHITA",
+    "role": "secondary",
+    "starts_at": "2026-08-21T08:00:00+05:30",
+    "ends_at": "2026-08-21T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0156",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-RAHUL",
+    "role": "platform",
+    "starts_at": "2026-08-21T16:00:00+05:30",
+    "ends_at": "2026-08-22T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0157",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ZOYA",
+    "role": "primary",
+    "starts_at": "2026-08-22T00:00:00+05:30",
+    "ends_at": "2026-08-22T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0158",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-NIKHIL",
+    "role": "secondary",
+    "starts_at": "2026-08-22T08:00:00+05:30",
+    "ends_at": "2026-08-22T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0159",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-SANA",
+    "role": "platform",
+    "starts_at": "2026-08-22T16:00:00+05:30",
+    "ends_at": "2026-08-23T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0160",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ADITYA",
+    "role": "primary",
+    "starts_at": "2026-08-23T00:00:00+05:30",
+    "ends_at": "2026-08-23T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0161",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-PRIYA",
+    "role": "secondary",
+    "starts_at": "2026-08-23T08:00:00+05:30",
+    "ends_at": "2026-08-23T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0162",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ARJUN",
+    "role": "platform",
+    "starts_at": "2026-08-23T16:00:00+05:30",
+    "ends_at": "2026-08-24T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0163",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-NEHA",
+    "role": "primary",
+    "starts_at": "2026-08-24T00:00:00+05:30",
+    "ends_at": "2026-08-24T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0164",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ROHAN",
+    "role": "secondary",
+    "starts_at": "2026-08-24T08:00:00+05:30",
+    "ends_at": "2026-08-24T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0165",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-FATIMA",
+    "role": "platform",
+    "starts_at": "2026-08-24T16:00:00+05:30",
+    "ends_at": "2026-08-25T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0166",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-VIKRAM",
+    "role": "primary",
+    "starts_at": "2026-08-25T00:00:00+05:30",
+    "ends_at": "2026-08-25T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0167",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-KARTHIK",
+    "role": "secondary",
+    "starts_at": "2026-08-25T08:00:00+05:30",
+    "ends_at": "2026-08-25T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0168",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ANANYA",
+    "role": "platform",
+    "starts_at": "2026-08-25T16:00:00+05:30",
+    "ends_at": "2026-08-26T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0169",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-MEERA",
+    "role": "primary",
+    "starts_at": "2026-08-26T00:00:00+05:30",
+    "ends_at": "2026-08-26T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0170",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-DEV",
+    "role": "secondary",
+    "starts_at": "2026-08-26T08:00:00+05:30",
+    "ends_at": "2026-08-26T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0171",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ISHITA",
+    "role": "platform",
+    "starts_at": "2026-08-26T16:00:00+05:30",
+    "ends_at": "2026-08-27T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0172",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-RAHUL",
+    "role": "primary",
+    "starts_at": "2026-08-27T00:00:00+05:30",
+    "ends_at": "2026-08-27T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0173",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ZOYA",
+    "role": "secondary",
+    "starts_at": "2026-08-27T08:00:00+05:30",
+    "ends_at": "2026-08-27T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0174",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-NIKHIL",
+    "role": "platform",
+    "starts_at": "2026-08-27T16:00:00+05:30",
+    "ends_at": "2026-08-28T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0175",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-SANA",
+    "role": "primary",
+    "starts_at": "2026-08-28T00:00:00+05:30",
+    "ends_at": "2026-08-28T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0176",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ADITYA",
+    "role": "secondary",
+    "starts_at": "2026-08-28T08:00:00+05:30",
+    "ends_at": "2026-08-28T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0177",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-PRIYA",
+    "role": "platform",
+    "starts_at": "2026-08-28T16:00:00+05:30",
+    "ends_at": "2026-08-29T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0178",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ARJUN",
+    "role": "primary",
+    "starts_at": "2026-08-29T00:00:00+05:30",
+    "ends_at": "2026-08-29T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0179",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-NEHA",
+    "role": "secondary",
+    "starts_at": "2026-08-29T08:00:00+05:30",
+    "ends_at": "2026-08-29T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0180",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ROHAN",
+    "role": "platform",
+    "starts_at": "2026-08-29T16:00:00+05:30",
+    "ends_at": "2026-08-30T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0181",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-FATIMA",
+    "role": "primary",
+    "starts_at": "2026-08-30T00:00:00+05:30",
+    "ends_at": "2026-08-30T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0182",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-VIKRAM",
+    "role": "secondary",
+    "starts_at": "2026-08-30T08:00:00+05:30",
+    "ends_at": "2026-08-30T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0183",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-KARTHIK",
+    "role": "platform",
+    "starts_at": "2026-08-30T16:00:00+05:30",
+    "ends_at": "2026-08-31T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0184",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ANANYA",
+    "role": "primary",
+    "starts_at": "2026-08-31T00:00:00+05:30",
+    "ends_at": "2026-08-31T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0185",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-MEERA",
+    "role": "secondary",
+    "starts_at": "2026-08-31T08:00:00+05:30",
+    "ends_at": "2026-08-31T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0186",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-DEV",
+    "role": "platform",
+    "starts_at": "2026-08-31T16:00:00+05:30",
+    "ends_at": "2026-09-01T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0187",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ISHITA",
+    "role": "primary",
+    "starts_at": "2026-09-01T00:00:00+05:30",
+    "ends_at": "2026-09-01T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0188",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-RAHUL",
+    "role": "secondary",
+    "starts_at": "2026-09-01T08:00:00+05:30",
+    "ends_at": "2026-09-01T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0189",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ZOYA",
+    "role": "platform",
+    "starts_at": "2026-09-01T16:00:00+05:30",
+    "ends_at": "2026-09-02T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0190",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-NIKHIL",
+    "role": "primary",
+    "starts_at": "2026-09-02T00:00:00+05:30",
+    "ends_at": "2026-09-02T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0191",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-SANA",
+    "role": "secondary",
+    "starts_at": "2026-09-02T08:00:00+05:30",
+    "ends_at": "2026-09-02T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0192",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ADITYA",
+    "role": "platform",
+    "starts_at": "2026-09-02T16:00:00+05:30",
+    "ends_at": "2026-09-03T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0193",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-PRIYA",
+    "role": "primary",
+    "starts_at": "2026-09-03T00:00:00+05:30",
+    "ends_at": "2026-09-03T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0194",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ARJUN",
+    "role": "secondary",
+    "starts_at": "2026-09-03T08:00:00+05:30",
+    "ends_at": "2026-09-03T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0195",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-NEHA",
+    "role": "platform",
+    "starts_at": "2026-09-03T16:00:00+05:30",
+    "ends_at": "2026-09-04T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0196",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ROHAN",
+    "role": "primary",
+    "starts_at": "2026-09-04T00:00:00+05:30",
+    "ends_at": "2026-09-04T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0197",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-FATIMA",
+    "role": "secondary",
+    "starts_at": "2026-09-04T08:00:00+05:30",
+    "ends_at": "2026-09-04T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0198",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-VIKRAM",
+    "role": "platform",
+    "starts_at": "2026-09-04T16:00:00+05:30",
+    "ends_at": "2026-09-05T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0199",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-KARTHIK",
+    "role": "primary",
+    "starts_at": "2026-09-05T00:00:00+05:30",
+    "ends_at": "2026-09-05T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0200",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ANANYA",
+    "role": "secondary",
+    "starts_at": "2026-09-05T08:00:00+05:30",
+    "ends_at": "2026-09-05T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0201",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-MEERA",
+    "role": "platform",
+    "starts_at": "2026-09-05T16:00:00+05:30",
+    "ends_at": "2026-09-06T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0202",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-DEV",
+    "role": "primary",
+    "starts_at": "2026-09-06T00:00:00+05:30",
+    "ends_at": "2026-09-06T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0203",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ISHITA",
+    "role": "secondary",
+    "starts_at": "2026-09-06T08:00:00+05:30",
+    "ends_at": "2026-09-06T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0204",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-RAHUL",
+    "role": "platform",
+    "starts_at": "2026-09-06T16:00:00+05:30",
+    "ends_at": "2026-09-07T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0205",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ZOYA",
+    "role": "primary",
+    "starts_at": "2026-09-07T00:00:00+05:30",
+    "ends_at": "2026-09-07T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0206",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-NIKHIL",
+    "role": "secondary",
+    "starts_at": "2026-09-07T08:00:00+05:30",
+    "ends_at": "2026-09-07T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0207",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-SANA",
+    "role": "platform",
+    "starts_at": "2026-09-07T16:00:00+05:30",
+    "ends_at": "2026-09-08T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0208",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ADITYA",
+    "role": "primary",
+    "starts_at": "2026-09-08T00:00:00+05:30",
+    "ends_at": "2026-09-08T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0209",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-PRIYA",
+    "role": "secondary",
+    "starts_at": "2026-09-08T08:00:00+05:30",
+    "ends_at": "2026-09-08T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0210",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ARJUN",
+    "role": "platform",
+    "starts_at": "2026-09-08T16:00:00+05:30",
+    "ends_at": "2026-09-09T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0211",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-NEHA",
+    "role": "primary",
+    "starts_at": "2026-09-09T00:00:00+05:30",
+    "ends_at": "2026-09-09T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0212",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ROHAN",
+    "role": "secondary",
+    "starts_at": "2026-09-09T08:00:00+05:30",
+    "ends_at": "2026-09-09T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0213",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-FATIMA",
+    "role": "platform",
+    "starts_at": "2026-09-09T16:00:00+05:30",
+    "ends_at": "2026-09-10T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0214",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-VIKRAM",
+    "role": "primary",
+    "starts_at": "2026-09-10T00:00:00+05:30",
+    "ends_at": "2026-09-10T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0215",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-KARTHIK",
+    "role": "secondary",
+    "starts_at": "2026-09-10T08:00:00+05:30",
+    "ends_at": "2026-09-10T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0216",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ANANYA",
+    "role": "platform",
+    "starts_at": "2026-09-10T16:00:00+05:30",
+    "ends_at": "2026-09-11T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0217",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-MEERA",
+    "role": "primary",
+    "starts_at": "2026-09-11T00:00:00+05:30",
+    "ends_at": "2026-09-11T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0218",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-DEV",
+    "role": "secondary",
+    "starts_at": "2026-09-11T08:00:00+05:30",
+    "ends_at": "2026-09-11T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0219",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ISHITA",
+    "role": "platform",
+    "starts_at": "2026-09-11T16:00:00+05:30",
+    "ends_at": "2026-09-12T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0220",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-RAHUL",
+    "role": "primary",
+    "starts_at": "2026-09-12T00:00:00+05:30",
+    "ends_at": "2026-09-12T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0221",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ZOYA",
+    "role": "secondary",
+    "starts_at": "2026-09-12T08:00:00+05:30",
+    "ends_at": "2026-09-12T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0222",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-NIKHIL",
+    "role": "platform",
+    "starts_at": "2026-09-12T16:00:00+05:30",
+    "ends_at": "2026-09-13T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0223",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-SANA",
+    "role": "primary",
+    "starts_at": "2026-09-13T00:00:00+05:30",
+    "ends_at": "2026-09-13T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0224",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ADITYA",
+    "role": "secondary",
+    "starts_at": "2026-09-13T08:00:00+05:30",
+    "ends_at": "2026-09-13T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0225",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-PRIYA",
+    "role": "platform",
+    "starts_at": "2026-09-13T16:00:00+05:30",
+    "ends_at": "2026-09-14T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0226",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ARJUN",
+    "role": "primary",
+    "starts_at": "2026-09-14T00:00:00+05:30",
+    "ends_at": "2026-09-14T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0227",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-NEHA",
+    "role": "secondary",
+    "starts_at": "2026-09-14T08:00:00+05:30",
+    "ends_at": "2026-09-14T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0228",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ROHAN",
+    "role": "platform",
+    "starts_at": "2026-09-14T16:00:00+05:30",
+    "ends_at": "2026-09-15T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0229",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-FATIMA",
+    "role": "primary",
+    "starts_at": "2026-09-15T00:00:00+05:30",
+    "ends_at": "2026-09-15T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0230",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-VIKRAM",
+    "role": "secondary",
+    "starts_at": "2026-09-15T08:00:00+05:30",
+    "ends_at": "2026-09-15T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0231",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-KARTHIK",
+    "role": "platform",
+    "starts_at": "2026-09-15T16:00:00+05:30",
+    "ends_at": "2026-09-16T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0232",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ANANYA",
+    "role": "primary",
+    "starts_at": "2026-09-16T00:00:00+05:30",
+    "ends_at": "2026-09-16T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0233",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-MEERA",
+    "role": "secondary",
+    "starts_at": "2026-09-16T08:00:00+05:30",
+    "ends_at": "2026-09-16T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0234",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-DEV",
+    "role": "platform",
+    "starts_at": "2026-09-16T16:00:00+05:30",
+    "ends_at": "2026-09-17T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0235",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ISHITA",
+    "role": "primary",
+    "starts_at": "2026-09-17T00:00:00+05:30",
+    "ends_at": "2026-09-17T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0236",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-RAHUL",
+    "role": "secondary",
+    "starts_at": "2026-09-17T08:00:00+05:30",
+    "ends_at": "2026-09-17T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0237",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ZOYA",
+    "role": "platform",
+    "starts_at": "2026-09-17T16:00:00+05:30",
+    "ends_at": "2026-09-18T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0238",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-NIKHIL",
+    "role": "primary",
+    "starts_at": "2026-09-18T00:00:00+05:30",
+    "ends_at": "2026-09-18T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0239",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-SANA",
+    "role": "secondary",
+    "starts_at": "2026-09-18T08:00:00+05:30",
+    "ends_at": "2026-09-18T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0240",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ADITYA",
+    "role": "platform",
+    "starts_at": "2026-09-18T16:00:00+05:30",
+    "ends_at": "2026-09-19T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0241",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-PRIYA",
+    "role": "primary",
+    "starts_at": "2026-09-19T00:00:00+05:30",
+    "ends_at": "2026-09-19T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0242",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ARJUN",
+    "role": "secondary",
+    "starts_at": "2026-09-19T08:00:00+05:30",
+    "ends_at": "2026-09-19T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0243",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-NEHA",
+    "role": "platform",
+    "starts_at": "2026-09-19T16:00:00+05:30",
+    "ends_at": "2026-09-20T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0244",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ROHAN",
+    "role": "primary",
+    "starts_at": "2026-09-20T00:00:00+05:30",
+    "ends_at": "2026-09-20T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0245",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-FATIMA",
+    "role": "secondary",
+    "starts_at": "2026-09-20T08:00:00+05:30",
+    "ends_at": "2026-09-20T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0246",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-VIKRAM",
+    "role": "platform",
+    "starts_at": "2026-09-20T16:00:00+05:30",
+    "ends_at": "2026-09-21T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0247",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-KARTHIK",
+    "role": "primary",
+    "starts_at": "2026-09-21T00:00:00+05:30",
+    "ends_at": "2026-09-21T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0248",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ANANYA",
+    "role": "secondary",
+    "starts_at": "2026-09-21T08:00:00+05:30",
+    "ends_at": "2026-09-21T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0249",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-MEERA",
+    "role": "platform",
+    "starts_at": "2026-09-21T16:00:00+05:30",
+    "ends_at": "2026-09-22T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0250",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-DEV",
+    "role": "primary",
+    "starts_at": "2026-09-22T00:00:00+05:30",
+    "ends_at": "2026-09-22T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0251",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ISHITA",
+    "role": "secondary",
+    "starts_at": "2026-09-22T08:00:00+05:30",
+    "ends_at": "2026-09-22T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0252",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-RAHUL",
+    "role": "platform",
+    "starts_at": "2026-09-22T16:00:00+05:30",
+    "ends_at": "2026-09-23T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0253",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ZOYA",
+    "role": "primary",
+    "starts_at": "2026-09-23T00:00:00+05:30",
+    "ends_at": "2026-09-23T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0254",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-NIKHIL",
+    "role": "secondary",
+    "starts_at": "2026-09-23T08:00:00+05:30",
+    "ends_at": "2026-09-23T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0255",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-SANA",
+    "role": "platform",
+    "starts_at": "2026-09-23T16:00:00+05:30",
+    "ends_at": "2026-09-24T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0256",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ADITYA",
+    "role": "primary",
+    "starts_at": "2026-09-24T00:00:00+05:30",
+    "ends_at": "2026-09-24T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0257",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-PRIYA",
+    "role": "secondary",
+    "starts_at": "2026-09-24T08:00:00+05:30",
+    "ends_at": "2026-09-24T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0258",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ARJUN",
+    "role": "platform",
+    "starts_at": "2026-09-24T16:00:00+05:30",
+    "ends_at": "2026-09-25T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0259",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-NEHA",
+    "role": "primary",
+    "starts_at": "2026-09-25T00:00:00+05:30",
+    "ends_at": "2026-09-25T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0260",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ROHAN",
+    "role": "secondary",
+    "starts_at": "2026-09-25T08:00:00+05:30",
+    "ends_at": "2026-09-25T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0261",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-FATIMA",
+    "role": "platform",
+    "starts_at": "2026-09-25T16:00:00+05:30",
+    "ends_at": "2026-09-26T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0262",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-VIKRAM",
+    "role": "primary",
+    "starts_at": "2026-09-26T00:00:00+05:30",
+    "ends_at": "2026-09-26T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0263",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-KARTHIK",
+    "role": "secondary",
+    "starts_at": "2026-09-26T08:00:00+05:30",
+    "ends_at": "2026-09-26T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0264",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ANANYA",
+    "role": "platform",
+    "starts_at": "2026-09-26T16:00:00+05:30",
+    "ends_at": "2026-09-27T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0265",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-MEERA",
+    "role": "primary",
+    "starts_at": "2026-09-27T00:00:00+05:30",
+    "ends_at": "2026-09-27T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0266",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-DEV",
+    "role": "secondary",
+    "starts_at": "2026-09-27T08:00:00+05:30",
+    "ends_at": "2026-09-27T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0267",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ISHITA",
+    "role": "platform",
+    "starts_at": "2026-09-27T16:00:00+05:30",
+    "ends_at": "2026-09-28T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0268",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-RAHUL",
+    "role": "primary",
+    "starts_at": "2026-09-28T00:00:00+05:30",
+    "ends_at": "2026-09-28T08:00:00+05:30",
+    "service_ids": [
+      "checkout-web",
+      "inventory-service",
+      "notification-service",
+      "recommendations-service",
+      "returns-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0269",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ZOYA",
+    "role": "secondary",
+    "starts_at": "2026-09-28T08:00:00+05:30",
+    "ends_at": "2026-09-28T16:00:00+05:30",
+    "service_ids": [
+      "payments-api",
+      "auth-service",
+      "pricing-service",
+      "shipping-service",
+      "catalog-service"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "shift_id": "SHIFT-0270",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-NIKHIL",
+    "role": "platform",
+    "starts_at": "2026-09-28T16:00:00+05:30",
+    "ends_at": "2026-09-29T00:00:00+05:30",
+    "service_ids": [
+      "orders-service",
+      "search-service",
+      "cart-service",
+      "fraud-service",
+      "api-gateway"
+    ],
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  }
+]

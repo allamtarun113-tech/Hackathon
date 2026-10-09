@@ -1,0 +1,141 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+env:
+  UV_VERSION: "0.9.22"
+
+jobs:
+  backend:
+    name: Backend lint, types, unit tests, guardrails, audit
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+        with:
+          version: ${{ env.UV_VERSION }}
+          enable-cache: true
+          cache-dependency-glob: backend/uv.lock
+      - run: uv sync --frozen --extra dev --python 3.12
+      - name: Exported requirements match uv.lock (run `make lock` if this fails)
+        shell: bash
+        run: |
+          strip() { grep -v '^#'; }
+          diff -u <(strip < requirements.txt) \
+            <(uv export --frozen --no-dev --no-emit-project --format requirements-txt -q | strip)
+          diff -u <(strip < requirements-dev.txt) \
+            <(uv export --frozen --extra dev --no-emit-project --format requirements-txt -q | strip)
+      - run: uv run --frozen ruff check .
+      - run: uv run --frozen ruff format --check .
+      - run: uv run --frozen mypy app evals
+      - run: uv run --frozen pytest -m "not integration"
+      - name: Guardrail suite (200 cases, must all pass)
+        run: uv run --frozen pagermind-eval guardrails --fail-under 1.0
+      - name: Workflow dataset is up to date with its generator
+        run: uv run --frozen pagermind-eval workflow generate --check
+      - name: Dependency vulnerability scan
+        run: |
+          uv export --frozen --no-dev --no-emit-project --format requirements-txt > /tmp/requirements.txt
+          uvx pip-audit --strict --disable-pip -r /tmp/requirements.txt
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: guardrail-report
+          path: backend/evals/reports/
+
+  integration:
+    name: Migrations from empty + Postgres integration tests
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:15-alpine
+        env:
+          POSTGRES_PASSWORD: postgres
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd "pg_isready -U postgres" --health-interval 5s --health-timeout 5s --health-retries 20
+    defaults:
+      run:
+        working-directory: backend
+    env:
+      TEST_DATABASE_URL: postgresql://postgres:postgres@localhost:5432/postgres
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+        with:
+          version: ${{ env.UV_VERSION }}
+          enable-cache: true
+          cache-dependency-glob: backend/uv.lock
+      - run: uv sync --frozen --extra dev --python 3.12
+      - name: Integration tests (each session migrates a brand-new database)
+        run: uv run --frozen pytest -m integration -v
+      - name: Workflow evaluation (365 cases, scripted models, must all pass)
+        env:
+          WORKFLOW_EVAL_DATABASE_URL: postgresql://postgres:postgres@localhost:5432/postgres
+        run: uv run --frozen pagermind-eval workflow run --fail-under 1.0
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: workflow-evaluation-report
+          path: backend/evals/reports/workflow-*
+
+  dataset:
+    name: Dataset validation
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+        with:
+          version: ${{ env.UV_VERSION }}
+      - run: uv sync --frozen --project backend --python 3.12
+      - run: uv run --frozen --project backend python scripts/validate_dataset.py
+      - run: uv run --frozen --project backend python scripts/validate_architecture_data.py
+
+  frontend:
+    name: Frontend lint, types, build, audit
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: frontend
+    env:
+      NEXT_PUBLIC_API_BASE_URL: https://api.example.invalid
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - run: npm ci
+      - run: npm run lint
+      - run: npm run typecheck
+      - run: npm run build
+      - run: npm audit --audit-level=high --omit=dev
+
+  image:
+    name: Backend image builds from the lockfile
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: docker/setup-buildx-action@v3
+      - uses: docker/build-push-action@v6
+        with:
+          context: .
+          file: backend/Dockerfile
+          push: false
+          tags: pagermind-api:ci
+          cache-from: type=gha
+          cache-to: type=gha,mode=max

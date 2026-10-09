@@ -1,0 +1,3242 @@
+[
+  {
+    "health_snapshot_id": "HLT-0001",
+    "checked_at": "2026-09-30T00:00:00+05:30",
+    "overall_status": "degraded",
+    "dependencies": {
+      "groq": {
+        "status": "rate_limited",
+        "latency_ms": 220
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 640
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 55
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0002",
+    "checked_at": "2026-09-30T00:12:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 221
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 641
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 56
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0003",
+    "checked_at": "2026-09-30T00:24:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 222
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 642
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 57
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0004",
+    "checked_at": "2026-09-30T00:36:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 223
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 643
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 58
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0005",
+    "checked_at": "2026-09-30T00:48:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 224
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 644
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 59
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0006",
+    "checked_at": "2026-09-30T01:00:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 225
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 645
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 60
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0007",
+    "checked_at": "2026-09-30T01:12:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 226
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 646
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 61
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0008",
+    "checked_at": "2026-09-30T01:24:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 227
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 647
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 62
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0009",
+    "checked_at": "2026-09-30T01:36:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 228
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 648
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 63
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0010",
+    "checked_at": "2026-09-30T01:48:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 229
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 649
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 64
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0011",
+    "checked_at": "2026-09-30T02:00:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 230
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 650
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 65
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0012",
+    "checked_at": "2026-09-30T02:12:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 231
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 651
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 66
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0013",
+    "checked_at": "2026-09-30T02:24:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 232
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 652
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 67
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0014",
+    "checked_at": "2026-09-30T02:36:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 233
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 653
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 68
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0015",
+    "checked_at": "2026-09-30T02:48:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 234
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 654
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 69
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0016",
+    "checked_at": "2026-09-30T03:00:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 235
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 655
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 70
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0017",
+    "checked_at": "2026-09-30T03:12:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 236
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 656
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 71
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0018",
+    "checked_at": "2026-09-30T03:24:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 237
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 657
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 72
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0019",
+    "checked_at": "2026-09-30T03:36:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 238
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 658
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 73
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0020",
+    "checked_at": "2026-09-30T03:48:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 239
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 659
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 74
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0021",
+    "checked_at": "2026-09-30T04:00:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 240
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 660
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 75
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0022",
+    "checked_at": "2026-09-30T04:12:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 241
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 661
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 76
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0023",
+    "checked_at": "2026-09-30T04:24:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 242
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 662
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 77
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0024",
+    "checked_at": "2026-09-30T04:36:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 243
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 663
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 78
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0025",
+    "checked_at": "2026-09-30T04:48:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 244
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 664
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 79
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0026",
+    "checked_at": "2026-09-30T05:00:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 245
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 665
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 80
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0027",
+    "checked_at": "2026-09-30T05:12:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 246
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 666
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 81
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0028",
+    "checked_at": "2026-09-30T05:24:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 247
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 667
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 82
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0029",
+    "checked_at": "2026-09-30T05:36:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 248
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 668
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 83
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0030",
+    "checked_at": "2026-09-30T05:48:00+05:30",
+    "overall_status": "degraded",
+    "dependencies": {
+      "groq": {
+        "status": "rate_limited",
+        "latency_ms": 249
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 669
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 84
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0031",
+    "checked_at": "2026-09-30T06:00:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 250
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 670
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 85
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0032",
+    "checked_at": "2026-09-30T06:12:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 251
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 671
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 86
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0033",
+    "checked_at": "2026-09-30T06:24:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 252
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 672
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 87
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0034",
+    "checked_at": "2026-09-30T06:36:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 253
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 673
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 88
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0035",
+    "checked_at": "2026-09-30T06:48:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 254
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 674
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 89
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0036",
+    "checked_at": "2026-09-30T07:00:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 255
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 675
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 55
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0037",
+    "checked_at": "2026-09-30T07:12:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 256
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 676
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 56
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0038",
+    "checked_at": "2026-09-30T07:24:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 257
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 677
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 57
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0039",
+    "checked_at": "2026-09-30T07:36:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 258
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 678
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 58
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0040",
+    "checked_at": "2026-09-30T07:48:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 259
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 679
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 59
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0041",
+    "checked_at": "2026-09-30T08:00:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 260
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 680
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 60
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0042",
+    "checked_at": "2026-09-30T08:12:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 261
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 681
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 61
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0043",
+    "checked_at": "2026-09-30T08:24:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 262
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 682
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 62
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0044",
+    "checked_at": "2026-09-30T08:36:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 263
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 683
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 63
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0045",
+    "checked_at": "2026-09-30T08:48:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 264
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 684
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 64
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0046",
+    "checked_at": "2026-09-30T09:00:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 265
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 685
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 65
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0047",
+    "checked_at": "2026-09-30T09:12:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 266
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 686
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 66
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0048",
+    "checked_at": "2026-09-30T09:24:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 267
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 687
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 67
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0049",
+    "checked_at": "2026-09-30T09:36:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 268
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 688
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 68
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0050",
+    "checked_at": "2026-09-30T09:48:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 269
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 689
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 69
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0051",
+    "checked_at": "2026-09-30T10:00:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 270
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 690
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 70
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0052",
+    "checked_at": "2026-09-30T10:12:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 271
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 691
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 71
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0053",
+    "checked_at": "2026-09-30T10:24:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 272
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 692
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 72
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0054",
+    "checked_at": "2026-09-30T10:36:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 273
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 693
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 73
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0055",
+    "checked_at": "2026-09-30T10:48:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 274
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 694
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 74
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0056",
+    "checked_at": "2026-09-30T11:00:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 275
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 695
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 75
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0057",
+    "checked_at": "2026-09-30T11:12:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 276
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 696
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 76
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0058",
+    "checked_at": "2026-09-30T11:24:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 277
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 697
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 77
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0059",
+    "checked_at": "2026-09-30T11:36:00+05:30",
+    "overall_status": "degraded",
+    "dependencies": {
+      "groq": {
+        "status": "rate_limited",
+        "latency_ms": 278
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 698
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 78
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0060",
+    "checked_at": "2026-09-30T11:48:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 279
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 699
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 79
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0061",
+    "checked_at": "2026-09-30T12:00:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 280
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 700
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 80
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0062",
+    "checked_at": "2026-09-30T12:12:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 281
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 701
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 81
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0063",
+    "checked_at": "2026-09-30T12:24:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 282
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 702
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 82
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0064",
+    "checked_at": "2026-09-30T12:36:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 283
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 703
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 83
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0065",
+    "checked_at": "2026-09-30T12:48:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 284
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 704
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 84
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0066",
+    "checked_at": "2026-09-30T13:00:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 285
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 705
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 85
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0067",
+    "checked_at": "2026-09-30T13:12:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 286
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 706
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 86
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0068",
+    "checked_at": "2026-09-30T13:24:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 287
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 707
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 87
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0069",
+    "checked_at": "2026-09-30T13:36:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 288
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 708
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 88
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0070",
+    "checked_at": "2026-09-30T13:48:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 289
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 709
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 89
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0071",
+    "checked_at": "2026-09-30T14:00:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 290
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 710
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 55
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0072",
+    "checked_at": "2026-09-30T14:12:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 291
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 711
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 56
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0073",
+    "checked_at": "2026-09-30T14:24:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 292
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 712
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 57
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0074",
+    "checked_at": "2026-09-30T14:36:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 293
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 713
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 58
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0075",
+    "checked_at": "2026-09-30T14:48:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 294
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 714
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 59
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0076",
+    "checked_at": "2026-09-30T15:00:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 295
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 715
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 60
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0077",
+    "checked_at": "2026-09-30T15:12:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 296
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 716
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 61
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0078",
+    "checked_at": "2026-09-30T15:24:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 297
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 717
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 62
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0079",
+    "checked_at": "2026-09-30T15:36:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 298
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 718
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 63
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0080",
+    "checked_at": "2026-09-30T15:48:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 299
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 719
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 64
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0081",
+    "checked_at": "2026-09-30T16:00:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 300
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 720
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 65
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0082",
+    "checked_at": "2026-09-30T16:12:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 301
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 721
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 66
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0083",
+    "checked_at": "2026-09-30T16:24:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 302
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 722
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 67
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0084",
+    "checked_at": "2026-09-30T16:36:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 303
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 723
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 68
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0085",
+    "checked_at": "2026-09-30T16:48:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 304
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 724
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 69
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0086",
+    "checked_at": "2026-09-30T17:00:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 305
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 725
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 70
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0087",
+    "checked_at": "2026-09-30T17:12:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 306
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 726
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 71
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0088",
+    "checked_at": "2026-09-30T17:24:00+05:30",
+    "overall_status": "degraded",
+    "dependencies": {
+      "groq": {
+        "status": "rate_limited",
+        "latency_ms": 307
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 727
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 72
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0089",
+    "checked_at": "2026-09-30T17:36:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 308
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 728
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 73
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0090",
+    "checked_at": "2026-09-30T17:48:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 309
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 729
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 74
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0091",
+    "checked_at": "2026-09-30T18:00:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 220
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 730
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 75
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0092",
+    "checked_at": "2026-09-30T18:12:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 221
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 731
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 76
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0093",
+    "checked_at": "2026-09-30T18:24:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 222
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 732
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 77
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0094",
+    "checked_at": "2026-09-30T18:36:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 223
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 733
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 78
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0095",
+    "checked_at": "2026-09-30T18:48:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 224
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 734
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 79
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0096",
+    "checked_at": "2026-09-30T19:00:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 225
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 735
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 80
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0097",
+    "checked_at": "2026-09-30T19:12:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 226
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 736
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 81
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0098",
+    "checked_at": "2026-09-30T19:24:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 227
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 737
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 82
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0099",
+    "checked_at": "2026-09-30T19:36:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 228
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 738
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 83
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0100",
+    "checked_at": "2026-09-30T19:48:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 229
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 739
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 84
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0101",
+    "checked_at": "2026-09-30T20:00:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 230
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 740
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 85
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0102",
+    "checked_at": "2026-09-30T20:12:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 231
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 741
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 86
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0103",
+    "checked_at": "2026-09-30T20:24:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 232
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 742
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 87
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0104",
+    "checked_at": "2026-09-30T20:36:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 233
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 743
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 88
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0105",
+    "checked_at": "2026-09-30T20:48:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 234
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 744
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 89
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0106",
+    "checked_at": "2026-09-30T21:00:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 235
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 745
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 55
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0107",
+    "checked_at": "2026-09-30T21:12:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 236
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 746
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 56
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0108",
+    "checked_at": "2026-09-30T21:24:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 237
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 747
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 57
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0109",
+    "checked_at": "2026-09-30T21:36:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 238
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 748
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 58
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0110",
+    "checked_at": "2026-09-30T21:48:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 239
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 749
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 59
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0111",
+    "checked_at": "2026-09-30T22:00:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 240
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 750
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 60
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0112",
+    "checked_at": "2026-09-30T22:12:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 241
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 751
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 61
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0113",
+    "checked_at": "2026-09-30T22:24:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 242
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 752
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 62
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0114",
+    "checked_at": "2026-09-30T22:36:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 243
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 753
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 63
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0115",
+    "checked_at": "2026-09-30T22:48:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 244
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 754
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 64
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0116",
+    "checked_at": "2026-09-30T23:00:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 245
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 755
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 65
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0117",
+    "checked_at": "2026-09-30T23:12:00+05:30",
+    "overall_status": "degraded",
+    "dependencies": {
+      "groq": {
+        "status": "rate_limited",
+        "latency_ms": 246
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 756
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 66
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0118",
+    "checked_at": "2026-09-30T23:24:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 247
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 757
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 67
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0119",
+    "checked_at": "2026-09-30T23:36:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 248
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 758
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 68
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "health_snapshot_id": "HLT-0120",
+    "checked_at": "2026-09-30T23:48:00+05:30",
+    "overall_status": "healthy",
+    "dependencies": {
+      "groq": {
+        "status": "healthy",
+        "latency_ms": 249
+      },
+      "hindsight": {
+        "status": "healthy",
+        "latency_ms": 759
+      },
+      "supabase": {
+        "status": "healthy",
+        "latency_ms": 69
+      }
+    },
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  }
+]

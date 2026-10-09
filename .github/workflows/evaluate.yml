@@ -1,0 +1,58 @@
+name: Evaluate
+
+# Live evaluation against a disposable Hindsight bank. Costs real API usage, so it
+# runs nightly and on demand rather than on every push.
+on:
+  schedule:
+    - cron: "30 20 * * *" # 02:00 IST
+  workflow_dispatch:
+    inputs:
+      repetitions:
+        description: "Repetitions per scenario (5 = 1,000 results)"
+        default: "5"
+      limit:
+        description: "Limit scenarios (blank = all 100)"
+        default: ""
+
+jobs:
+  evaluate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    defaults:
+      run:
+        working-directory: backend
+    env:
+      APP_ENV: test
+      DATABASE_URL: ${{ secrets.DATABASE_URL }}
+      SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+      SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+      HINDSIGHT_API_KEY: ${{ secrets.HINDSIGHT_API_KEY }}
+      GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+      LANGFUSE_PUBLIC_KEY: ${{ secrets.LANGFUSE_PUBLIC_KEY }}
+      LANGFUSE_SECRET_KEY: ${{ secrets.LANGFUSE_SECRET_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+        with:
+          version: "0.9.22"
+          enable-cache: true
+          cache-dependency-glob: backend/uv.lock
+      - run: uv sync --frozen --python 3.12
+      - name: Load evaluation cases
+        run: uv run --frozen pagermind-import evaluation
+      - name: Run evaluation
+        run: |
+          ARGS="--repetitions ${{ github.event.inputs.repetitions || '5' }} --enforce-targets"
+          if [ -n "${{ github.event.inputs.limit }}" ]; then ARGS="$ARGS --limit ${{ github.event.inputs.limit }}"; fi
+          uv run --frozen pagermind-eval run $ARGS
+      - name: Live workflow evaluation (real Groq + disposable Hindsight bank)
+        if: vars.PAGERMIND_EVAL_BANK_ID != ''
+        env:
+          EVAL_BANK_ID: ${{ vars.PAGERMIND_EVAL_BANK_ID }}
+          WORKFLOW_EVAL_DATABASE_URL: ${{ secrets.WORKFLOW_EVAL_DATABASE_URL }}
+        run: uv run --frozen pagermind-eval workflow run --mode live --bank-id "$EVAL_BANK_ID" --fail-under 0.9
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: evaluation-report
+          path: backend/evals/reports/

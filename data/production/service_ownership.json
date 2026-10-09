@@ -1,0 +1,332 @@
+[
+  {
+    "ownership_id": "OWN-CHECKOUT-WEB",
+    "org_id": "ORG-KARTLY",
+    "service_id": "checkout-web",
+    "team_id": "TEAM-ORDERS-CHECKOUT",
+    "primary_owner_user_id": "USR-ARJUN",
+    "escalation_policy": [
+      "USR-ARJUN",
+      "USR-FATIMA",
+      "USR-KARTHIK"
+    ],
+    "effective_from": "2026-01-01T00:00:00+05:30",
+    "effective_to": null,
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "ownership_id": "OWN-PAYMENTS-API",
+    "org_id": "ORG-KARTLY",
+    "service_id": "payments-api",
+    "team_id": "TEAM-PAYMENTS",
+    "primary_owner_user_id": "USR-PRIYA",
+    "escalation_policy": [
+      "USR-PRIYA",
+      "USR-FATIMA",
+      "USR-KARTHIK"
+    ],
+    "effective_from": "2026-01-01T00:00:00+05:30",
+    "effective_to": null,
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "ownership_id": "OWN-ORDERS-SERVICE",
+    "org_id": "ORG-KARTLY",
+    "service_id": "orders-service",
+    "team_id": "TEAM-ORDERS-CHECKOUT",
+    "primary_owner_user_id": "USR-ARJUN",
+    "escalation_policy": [
+      "USR-ARJUN",
+      "USR-FATIMA",
+      "USR-KARTHIK"
+    ],
+    "effective_from": "2026-01-01T00:00:00+05:30",
+    "effective_to": null,
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "ownership_id": "OWN-INVENTORY-SERVICE",
+    "org_id": "ORG-KARTLY",
+    "service_id": "inventory-service",
+    "team_id": "TEAM-ORDERS-CHECKOUT",
+    "primary_owner_user_id": "USR-ARJUN",
+    "escalation_policy": [
+      "USR-ARJUN",
+      "USR-FATIMA",
+      "USR-KARTHIK"
+    ],
+    "effective_from": "2026-01-01T00:00:00+05:30",
+    "effective_to": null,
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "ownership_id": "OWN-AUTH-SERVICE",
+    "org_id": "ORG-KARTLY",
+    "service_id": "auth-service",
+    "team_id": "TEAM-IDENTITY-NOTIFICATIONS",
+    "primary_owner_user_id": "USR-NEHA",
+    "escalation_policy": [
+      "USR-NEHA",
+      "USR-FATIMA",
+      "USR-KARTHIK"
+    ],
+    "effective_from": "2026-01-01T00:00:00+05:30",
+    "effective_to": null,
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "ownership_id": "OWN-SEARCH-SERVICE",
+    "org_id": "ORG-KARTLY",
+    "service_id": "search-service",
+    "team_id": "TEAM-SEARCH-DISCOVERY",
+    "primary_owner_user_id": "USR-VIKRAM",
+    "escalation_policy": [
+      "USR-VIKRAM",
+      "USR-FATIMA",
+      "USR-KARTHIK"
+    ],
+    "effective_from": "2026-01-01T00:00:00+05:30",
+    "effective_to": null,
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "ownership_id": "OWN-NOTIFICATION-SERVICE",
+    "org_id": "ORG-KARTLY",
+    "service_id": "notification-service",
+    "team_id": "TEAM-IDENTITY-NOTIFICATIONS",
+    "primary_owner_user_id": "USR-NEHA",
+    "escalation_policy": [
+      "USR-NEHA",
+      "USR-FATIMA",
+      "USR-KARTHIK"
+    ],
+    "effective_from": "2026-01-01T00:00:00+05:30",
+    "effective_to": null,
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "ownership_id": "OWN-PRICING-SERVICE",
+    "org_id": "ORG-KARTLY",
+    "service_id": "pricing-service",
+    "team_id": "TEAM-PRICING-PROMOTIONS",
+    "primary_owner_user_id": "USR-MEERA",
+    "escalation_policy": [
+      "USR-MEERA",
+      "USR-FATIMA",
+      "USR-KARTHIK"
+    ],
+    "effective_from": "2026-01-01T00:00:00+05:30",
+    "effective_to": null,
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "ownership_id": "OWN-CART-SERVICE",
+    "org_id": "ORG-KARTLY",
+    "service_id": "cart-service",
+    "team_id": "TEAM-CART",
+    "primary_owner_user_id": "USR-DEV",
+    "escalation_policy": [
+      "USR-DEV",
+      "USR-FATIMA",
+      "USR-KARTHIK"
+    ],
+    "effective_from": "2026-01-01T00:00:00+05:30",
+    "effective_to": null,
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "ownership_id": "OWN-RECOMMENDATIONS-SERVICE",
+    "org_id": "ORG-KARTLY",
+    "service_id": "recommendations-service",
+    "team_id": "TEAM-PERSONALIZATION",
+    "primary_owner_user_id": "USR-ISHITA",
+    "escalation_policy": [
+      "USR-ISHITA",
+      "USR-FATIMA",
+      "USR-KARTHIK"
+    ],
+    "effective_from": "2026-01-01T00:00:00+05:30",
+    "effective_to": null,
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "ownership_id": "OWN-SHIPPING-SERVICE",
+    "org_id": "ORG-KARTLY",
+    "service_id": "shipping-service",
+    "team_id": "TEAM-FULFILMENT",
+    "primary_owner_user_id": "USR-RAHUL",
+    "escalation_policy": [
+      "USR-RAHUL",
+      "USR-FATIMA",
+      "USR-KARTHIK"
+    ],
+    "effective_from": "2026-01-01T00:00:00+05:30",
+    "effective_to": null,
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "ownership_id": "OWN-FRAUD-SERVICE",
+    "org_id": "ORG-KARTLY",
+    "service_id": "fraud-service",
+    "team_id": "TEAM-RISK",
+    "primary_owner_user_id": "USR-ZOYA",
+    "escalation_policy": [
+      "USR-ZOYA",
+      "USR-FATIMA",
+      "USR-KARTHIK"
+    ],
+    "effective_from": "2026-01-01T00:00:00+05:30",
+    "effective_to": null,
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "ownership_id": "OWN-RETURNS-SERVICE",
+    "org_id": "ORG-KARTLY",
+    "service_id": "returns-service",
+    "team_id": "TEAM-POST-PURCHASE",
+    "primary_owner_user_id": "USR-NIKHIL",
+    "escalation_policy": [
+      "USR-NIKHIL",
+      "USR-FATIMA",
+      "USR-KARTHIK"
+    ],
+    "effective_from": "2026-01-01T00:00:00+05:30",
+    "effective_to": null,
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "ownership_id": "OWN-CATALOG-SERVICE",
+    "org_id": "ORG-KARTLY",
+    "service_id": "catalog-service",
+    "team_id": "TEAM-CATALOG",
+    "primary_owner_user_id": "USR-SANA",
+    "escalation_policy": [
+      "USR-SANA",
+      "USR-FATIMA",
+      "USR-KARTHIK"
+    ],
+    "effective_from": "2026-01-01T00:00:00+05:30",
+    "effective_to": null,
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "ownership_id": "OWN-API-GATEWAY",
+    "org_id": "ORG-KARTLY",
+    "service_id": "api-gateway",
+    "team_id": "TEAM-EDGE-PLATFORM",
+    "primary_owner_user_id": "USR-ADITYA",
+    "escalation_policy": [
+      "USR-ADITYA",
+      "USR-FATIMA",
+      "USR-KARTHIK"
+    ],
+    "effective_from": "2026-01-01T00:00:00+05:30",
+    "effective_to": null,
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  }
+]

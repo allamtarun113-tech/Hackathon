@@ -1,0 +1,5202 @@
+[
+  {
+    "checkpoint_id": "CHK-0001",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0001",
+    "thread_id": "CONV-0001",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "payments-api",
+      "signature": "2026-09-29 02:40:36.698  WARN 1 --- [http-nio-8080-exec-132] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Connection is not available, request timed out after 30000ms.",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-29T03:03:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0002",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0002",
+    "thread_id": "CONV-0002",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "inventory-service",
+      "signature": "2026-09-29 02:17:06.307  WARN 1 --- [http-nio-8080-exec-191] com.zaxxer.hikari.pool.HikariPool       : HikariPool-1 - Connection is not available, request timed out after 30000ms.",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-29T02:40:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0003",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0003",
+    "thread_id": "CONV-0003",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "payments-api",
+      "signature": "2026-09-29 02:34:01.315 ERROR 1 --- [http-nio-8080-exec-107] c.k.payments.gateway.RazorpayClient      : POST https://api.razorpay.com/v1/payments/create read timeout after 10000ms traceId=c429356a0896f4c2",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-29T02:57:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0004",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0004",
+    "thread_id": "CONV-0004",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "checkout-web",
+      "signature": "2026-09-29T05:38:09.057Z ERROR [checkout-web] FetchError: request to http://orders-service.orders.svc.cluster.local:8080/v1/orders failed, reason: getaddrinfo EAI_AGAIN orders-service.orders.svc.cluster.local",
+      "strong_match": false,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-29T11:31:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0005",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0005",
+    "thread_id": "CONV-0005",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "notification-service",
+      "signature": "goroutine count high",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-29T16:29:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0006",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0006",
+    "thread_id": "CONV-0006",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "checkout-web",
+      "signature": "2026-09-29T14:36:28Z  Warning  FailedScheduling   pod/checkout-web-lcz8s9lnrx-k9dn6   0/72 nodes are available: 72 Insufficient cpu. preemption: 0/72 nodes are available: 72 No preemption victims found for incoming pod.",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-29T20:29:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0007",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0007",
+    "thread_id": "CONV-0007",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "auth-service",
+      "signature": "failed to persist session",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-29T21:34:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0008",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0008",
+    "thread_id": "CONV-0008",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "orders-service",
+      "signature": "2026-09-29 13:26:08.025  WARN 1 --- [replica-health] c.k.orders.db.ReplicaHealthCheck         : postgres-main-replica-1 replication lag 254s (threshold 5s)",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-29T13:49:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0009",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0009",
+    "thread_id": "CONV-0009",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "catalog-service",
+      "signature": "read replica lag above 180 seconds; record missing on replica but present on primary",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T08:28:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0010",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0010",
+    "thread_id": "CONV-0010",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "returns-service",
+      "signature": "carrier quote rejected with 429; retry-after budget exhausted",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T08:37:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0011",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0011",
+    "thread_id": "CONV-0011",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "pricing-service",
+      "signature": "request executor queue full; active threads equal configured maximum",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T08:46:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0012",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0012",
+    "thread_id": "CONV-0012",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "shipping-service",
+      "signature": "upstream provider read timeout after 10000ms; circuit breaker open",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T08:55:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0013",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0013",
+    "thread_id": "CONV-0013",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "checkout-web",
+      "signature": "edge security rule blocked valid request body; origin request volume dropped",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T09:04:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0014",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0014",
+    "thread_id": "CONV-0014",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "inventory-service",
+      "signature": "consumer lag above one million; partition processing time exceeds poll interval",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T09:13:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0015",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0015",
+    "thread_id": "CONV-0015",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "fraud-service",
+      "signature": "artifact checksum mismatch; runtime rejected incompatible feature schema",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T09:22:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0016",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0016",
+    "thread_id": "CONV-0016",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "checkout-web",
+      "signature": "request panic after feature variant enabled for one hundred percent of traffic",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T09:31:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0017",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0017",
+    "thread_id": "CONV-0017",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "recommendations-service",
+      "signature": "online feature lookup deadline exceeded; feature vector incomplete",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T09:40:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0018",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0018",
+    "thread_id": "CONV-0018",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "payments-api",
+      "signature": "token rejected: issued-at time is in the future; node clock offset above threshold",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T09:49:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0019",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0019",
+    "thread_id": "CONV-0019",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "inventory-service",
+      "signature": "event deserialization failed: required field missing; consumer partition paused",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T09:58:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0020",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0020",
+    "thread_id": "CONV-0020",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "notification-service",
+      "signature": "worker count continuously increasing; memory above ninety percent; OOM kill imminent",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:07:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0021",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0021",
+    "thread_id": "CONV-0021",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "catalog-service",
+      "signature": "object storage access denied for workload identity; HTTP status 403",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:16:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0022",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0022",
+    "thread_id": "CONV-0022",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "api-gateway",
+      "signature": "retry budget exhausted; concurrent requests rising while success rate falls",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:25:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0023",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0023",
+    "thread_id": "CONV-0023",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "shipping-service",
+      "signature": "x509 certificate has expired or is not yet valid during internal TLS handshake",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:34:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0024",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0024",
+    "thread_id": "CONV-0024",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "checkout-web",
+      "signature": "redis hot key exceeded operation budget; command latency above 2000ms",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:43:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0025",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0025",
+    "thread_id": "CONV-0025",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "shipping-service",
+      "signature": "database connection leak detected; borrowed connection not returned by worker",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:52:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0026",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0026",
+    "thread_id": "CONV-0026",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "pricing-service",
+      "signature": "OOM command not allowed; maxmemory reached and too few keys have expiry",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T11:01:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0027",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0027",
+    "thread_id": "CONV-0027",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "cart-service",
+      "signature": "pod scheduling failed: insufficient cpu; cluster autoscaler maximum size reached",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T11:10:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0028",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0028",
+    "thread_id": "CONV-0028",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "auth-service",
+      "signature": "risk evaluation deadline exceeded; rule graph evaluations increased tenfold",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T11:19:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0029",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0029",
+    "thread_id": "CONV-0029",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "catalog-service",
+      "signature": "ephemeral storage usage above limit; node reports DiskPressure",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T11:28:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0030",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0030",
+    "thread_id": "CONV-0030",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "recommendations-service",
+      "signature": "container OOMKilled during full index rebuild; working set exceeded limit",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T11:37:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0031",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0031",
+    "thread_id": "CONV-0031",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "cart-service",
+      "signature": "price version mismatch between cache and source; promotion epoch is stale",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T11:46:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0032",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0032",
+    "thread_id": "CONV-0032",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "api-gateway",
+      "signature": "local rate limit rejected normal traffic; remaining tokens zero unexpectedly",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T11:55:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0033",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0033",
+    "thread_id": "CONV-0033",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "inventory-service",
+      "signature": "connection pool acquisition timed out; active equals maximum and waiting is rising",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T12:04:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0034",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0034",
+    "thread_id": "CONV-0034",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "returns-service",
+      "signature": "read replica lag above 180 seconds; record missing on replica but present on primary",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T12:13:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0035",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0035",
+    "thread_id": "CONV-0035",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "shipping-service",
+      "signature": "carrier quote rejected with 429; retry-after budget exhausted",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T12:22:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0036",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0036",
+    "thread_id": "CONV-0036",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "payments-api",
+      "signature": "request executor queue full; active threads equal configured maximum",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T12:31:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0037",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0037",
+    "thread_id": "CONV-0037",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "notification-service",
+      "signature": "upstream provider read timeout after 10000ms; circuit breaker open",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T12:40:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0038",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0038",
+    "thread_id": "CONV-0038",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "auth-service",
+      "signature": "edge security rule blocked valid request body; origin request volume dropped",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T12:49:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0039",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0039",
+    "thread_id": "CONV-0039",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "shipping-service",
+      "signature": "consumer lag above one million; partition processing time exceeds poll interval",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T12:58:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0040",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0040",
+    "thread_id": "CONV-0040",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "search-service",
+      "signature": "artifact checksum mismatch; runtime rejected incompatible feature schema",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T13:07:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0041",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0041",
+    "thread_id": "CONV-0041",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "cart-service",
+      "signature": "request panic after feature variant enabled for one hundred percent of traffic",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T13:16:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0042",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0042",
+    "thread_id": "CONV-0042",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "fraud-service",
+      "signature": "online feature lookup deadline exceeded; feature vector incomplete",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T13:25:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0043",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0043",
+    "thread_id": "CONV-0043",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "fraud-service",
+      "signature": "token rejected: issued-at time is in the future; node clock offset above threshold",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T13:34:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0044",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0044",
+    "thread_id": "CONV-0044",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "inventory-service",
+      "signature": "event deserialization failed: required field missing; consumer partition paused",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T13:43:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0045",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0045",
+    "thread_id": "CONV-0045",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "recommendations-service",
+      "signature": "worker count continuously increasing; memory above ninety percent; OOM kill imminent",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T13:52:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0046",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0046",
+    "thread_id": "CONV-0046",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "recommendations-service",
+      "signature": "object storage access denied for workload identity; HTTP status 403",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T14:01:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0047",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0047",
+    "thread_id": "CONV-0047",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "shipping-service",
+      "signature": "retry budget exhausted; concurrent requests rising while success rate falls",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T14:10:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0048",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0048",
+    "thread_id": "CONV-0048",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "notification-service",
+      "signature": "x509 certificate has expired or is not yet valid during internal TLS handshake",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T14:19:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0049",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0049",
+    "thread_id": "CONV-0049",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "auth-service",
+      "signature": "redis hot key exceeded operation budget; command latency above 2000ms",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T14:28:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0050",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0050",
+    "thread_id": "CONV-0050",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "returns-service",
+      "signature": "database connection leak detected; borrowed connection not returned by worker",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T14:37:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0051",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0051",
+    "thread_id": "CONV-0051",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "fraud-service",
+      "signature": "OOM command not allowed; maxmemory reached and too few keys have expiry",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T14:46:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0052",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0052",
+    "thread_id": "CONV-0052",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "checkout-web",
+      "signature": "pod scheduling failed: insufficient cpu; cluster autoscaler maximum size reached",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T14:55:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0053",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0053",
+    "thread_id": "CONV-0053",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "fraud-service",
+      "signature": "risk evaluation deadline exceeded; rule graph evaluations increased tenfold",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T15:04:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0054",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0054",
+    "thread_id": "CONV-0054",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "recommendations-service",
+      "signature": "ephemeral storage usage above limit; node reports DiskPressure",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T15:13:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0055",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0055",
+    "thread_id": "CONV-0055",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "recommendations-service",
+      "signature": "container OOMKilled during full index rebuild; working set exceeded limit",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T15:22:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0056",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0056",
+    "thread_id": "CONV-0056",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "pricing-service",
+      "signature": "price version mismatch between cache and source; promotion epoch is stale",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T15:31:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0057",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0057",
+    "thread_id": "CONV-0057",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "checkout-web",
+      "signature": "local rate limit rejected normal traffic; remaining tokens zero unexpectedly",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T15:40:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0058",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0058",
+    "thread_id": "CONV-0058",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "pricing-service",
+      "signature": "connection pool acquisition timed out; active equals maximum and waiting is rising",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T15:49:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0059",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0059",
+    "thread_id": "CONV-0059",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "catalog-service",
+      "signature": "read replica lag above 180 seconds; record missing on replica but present on primary",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T15:58:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0060",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0060",
+    "thread_id": "CONV-0060",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "shipping-service",
+      "signature": "carrier quote rejected with 429; retry-after budget exhausted",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T16:07:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0061",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0061",
+    "thread_id": "CONV-0061",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "pricing-service",
+      "signature": "request executor queue full; active threads equal configured maximum",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T16:16:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0062",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0062",
+    "thread_id": "CONV-0062",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "shipping-service",
+      "signature": "upstream provider read timeout after 10000ms; circuit breaker open",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T16:25:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0063",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0063",
+    "thread_id": "CONV-0063",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "api-gateway",
+      "signature": "edge security rule blocked valid request body; origin request volume dropped",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T16:34:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0064",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0064",
+    "thread_id": "CONV-0064",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "catalog-service",
+      "signature": "consumer lag above one million; partition processing time exceeds poll interval",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T16:43:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0065",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0065",
+    "thread_id": "CONV-0065",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "recommendations-service",
+      "signature": "artifact checksum mismatch; runtime rejected incompatible feature schema",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T16:52:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0066",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0066",
+    "thread_id": "CONV-0066",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "pricing-service",
+      "signature": "request panic after feature variant enabled for one hundred percent of traffic",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T17:01:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0067",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0067",
+    "thread_id": "CONV-0067",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "recommendations-service",
+      "signature": "online feature lookup deadline exceeded; feature vector incomplete",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T17:10:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0068",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0068",
+    "thread_id": "CONV-0068",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "checkout-web",
+      "signature": "novel allocator epoch mismatch code=NVM-060; no historical signature",
+      "strong_match": false,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T17:19:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0069",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0069",
+    "thread_id": "CONV-0069",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "payments-api",
+      "signature": "novel allocator epoch mismatch code=NVM-061; no historical signature",
+      "strong_match": false,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T17:28:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0070",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0070",
+    "thread_id": "CONV-0070",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "orders-service",
+      "signature": "novel allocator epoch mismatch code=NVM-062; no historical signature",
+      "strong_match": false,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T17:37:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0071",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0071",
+    "thread_id": "CONV-0071",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "inventory-service",
+      "signature": "novel allocator epoch mismatch code=NVM-063; no historical signature",
+      "strong_match": false,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T17:46:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0072",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0072",
+    "thread_id": "CONV-0072",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "auth-service",
+      "signature": "novel allocator epoch mismatch code=NVM-064; no historical signature",
+      "strong_match": false,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T17:55:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0073",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0073",
+    "thread_id": "CONV-0073",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "search-service",
+      "signature": "novel allocator epoch mismatch code=NVM-065; no historical signature",
+      "strong_match": false,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T18:04:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0074",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0074",
+    "thread_id": "CONV-0074",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "notification-service",
+      "signature": "novel allocator epoch mismatch code=NVM-066; no historical signature",
+      "strong_match": false,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T18:13:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0075",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0075",
+    "thread_id": "CONV-0075",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "pricing-service",
+      "signature": "novel allocator epoch mismatch code=NVM-067; no historical signature",
+      "strong_match": false,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T18:22:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0076",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0076",
+    "thread_id": "CONV-0076",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "cart-service",
+      "signature": "novel allocator epoch mismatch code=NVM-068; no historical signature",
+      "strong_match": false,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T18:31:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0077",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0077",
+    "thread_id": "CONV-0077",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "recommendations-service",
+      "signature": "novel allocator epoch mismatch code=NVM-069; no historical signature",
+      "strong_match": false,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T18:40:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0078",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0078",
+    "thread_id": "CONV-0078",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "shipping-service",
+      "signature": "novel allocator epoch mismatch code=NVM-070; no historical signature",
+      "strong_match": false,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T18:49:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0079",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0079",
+    "thread_id": "CONV-0079",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "fraud-service",
+      "signature": "novel allocator epoch mismatch code=NVM-071; no historical signature",
+      "strong_match": false,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T18:58:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0080",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0080",
+    "thread_id": "CONV-0080",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "returns-service",
+      "signature": "novel allocator epoch mismatch code=NVM-072; no historical signature",
+      "strong_match": false,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T19:07:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0081",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0081",
+    "thread_id": "CONV-0081",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "catalog-service",
+      "signature": "novel allocator epoch mismatch code=NVM-073; no historical signature",
+      "strong_match": false,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T19:16:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0082",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0082",
+    "thread_id": "CONV-0082",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "checkout-web",
+      "signature": "local rate limit rejected normal traffic; remaining tokens zero unexpectedly",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T19:25:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0083",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0083",
+    "thread_id": "CONV-0083",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "returns-service",
+      "signature": "connection pool acquisition timed out; active equals maximum and waiting is rising",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T19:34:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0084",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0084",
+    "thread_id": "CONV-0084",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "orders-service",
+      "signature": "read replica lag above 180 seconds; record missing on replica but present on primary",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T19:43:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0085",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0085",
+    "thread_id": "CONV-0085",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "returns-service",
+      "signature": "carrier quote rejected with 429; retry-after budget exhausted",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T19:52:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0086",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0086",
+    "thread_id": "CONV-0086",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "inventory-service",
+      "signature": "request executor queue full; active threads equal configured maximum",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T20:01:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0087",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0087",
+    "thread_id": "CONV-0087",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "shipping-service",
+      "signature": "upstream provider read timeout after 10000ms; circuit breaker open",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T20:10:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0088",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0088",
+    "thread_id": "CONV-0088",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "checkout-web",
+      "signature": "edge security rule blocked valid request body; origin request volume dropped",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T20:19:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0089",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0089",
+    "thread_id": "CONV-0089",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "orders-service",
+      "signature": "consumer lag above one million; partition processing time exceeds poll interval",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T20:28:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0090",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0090",
+    "thread_id": "CONV-0090",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "fraud-service",
+      "signature": "artifact checksum mismatch; runtime rejected incompatible feature schema",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T20:37:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0091",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0091",
+    "thread_id": "CONV-0091",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "recommendations-service",
+      "signature": "request panic after feature variant enabled for one hundred percent of traffic",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T20:46:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0092",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0092",
+    "thread_id": "CONV-0092",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "recommendations-service",
+      "signature": "online feature lookup deadline exceeded; feature vector incomplete",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T20:55:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0093",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0093",
+    "thread_id": "CONV-0093",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "api-gateway",
+      "signature": "token rejected: issued-at time is in the future; node clock offset above threshold",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T21:04:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0094",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0094",
+    "thread_id": "CONV-0094",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "inventory-service",
+      "signature": "event deserialization failed: required field missing; consumer partition paused",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T21:13:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0095",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0095",
+    "thread_id": "CONV-0095",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "shipping-service",
+      "signature": "worker count continuously increasing; memory above ninety percent; OOM kill imminent",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T21:22:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0096",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0096",
+    "thread_id": "CONV-0096",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "catalog-service",
+      "signature": "object storage access denied for workload identity; HTTP status 403",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T21:31:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0097",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0097",
+    "thread_id": "CONV-0097",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "checkout-web",
+      "signature": "retry budget exhausted; concurrent requests rising while success rate falls",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T21:40:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0098",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0098",
+    "thread_id": "CONV-0098",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "fraud-service",
+      "signature": "x509 certificate has expired or is not yet valid during internal TLS handshake",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T21:49:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0099",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0099",
+    "thread_id": "CONV-0099",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "checkout-web",
+      "signature": "redis hot key exceeded operation budget; command latency above 2000ms",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T21:58:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0100",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0100",
+    "thread_id": "CONV-0100",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "pricing-service",
+      "signature": "database connection leak detected; borrowed connection not returned by worker",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T22:07:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "evaluation"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0101",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0101",
+    "thread_id": "CONV-0101",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "fraud-service",
+      "signature": "OOM command not allowed; maxmemory reached and too few keys have expiry",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T09:18:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0102",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0102",
+    "thread_id": "CONV-0102",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "inventory-service",
+      "signature": "consumer lag above one million; partition processing time exceeds poll interval",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T09:19:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0103",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0103",
+    "thread_id": "CONV-0103",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "cart-service",
+      "signature": "request panic after feature variant enabled for one hundred percent of traffic",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T09:20:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0104",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0104",
+    "thread_id": "CONV-0104",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "returns-service",
+      "signature": "database connection leak detected; borrowed connection not returned by worker",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T09:21:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0105",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0105",
+    "thread_id": "CONV-0105",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "returns-service",
+      "signature": "event deserialization failed: required field missing; consumer partition paused",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T09:22:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0106",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0106",
+    "thread_id": "CONV-0106",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "checkout-web",
+      "signature": "pod scheduling failed: insufficient cpu; cluster autoscaler maximum size reached",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T09:23:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0107",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0107",
+    "thread_id": "CONV-0107",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "auth-service",
+      "signature": "OOM command not allowed; maxmemory reached and too few keys have expiry",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T09:24:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0108",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0108",
+    "thread_id": "CONV-0108",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "api-gateway",
+      "signature": "retry budget exhausted; concurrent requests rising while success rate falls",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T09:25:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0109",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0109",
+    "thread_id": "CONV-0109",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "cart-service",
+      "signature": "isolated adapter fault token=inc-2070 operation aborted",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T09:26:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0110",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0110",
+    "thread_id": "CONV-0110",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "returns-service",
+      "signature": "isolated shard fault token=inc-2374 operation aborted",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T09:27:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0111",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0111",
+    "thread_id": "CONV-0111",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "shipping-service",
+      "signature": "carrier quote rejected with 429; retry-after budget exhausted",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T09:28:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0112",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0112",
+    "thread_id": "CONV-0112",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "payments-api",
+      "signature": "token rejected: issued-at time is in the future; node clock offset above threshold",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T09:29:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0113",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0113",
+    "thread_id": "CONV-0113",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "catalog-service",
+      "signature": "event deserialization failed: required field missing; consumer partition paused",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T09:30:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0114",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0114",
+    "thread_id": "CONV-0114",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "orders-service",
+      "signature": "isolated shard fault token=inc-2394 operation aborted",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T09:31:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0115",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0115",
+    "thread_id": "CONV-0115",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "checkout-web",
+      "signature": "retry budget exhausted; concurrent requests rising while success rate falls",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T09:32:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0116",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0116",
+    "thread_id": "CONV-0116",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "api-gateway",
+      "signature": "isolated scheduler fault token=inc-2286 operation aborted",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T09:33:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0117",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0117",
+    "thread_id": "CONV-0117",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "payments-api",
+      "signature": "isolated route fault token=inc-2378 operation aborted",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T09:34:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0118",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0118",
+    "thread_id": "CONV-0118",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "inventory-service",
+      "signature": "connection pool acquisition timed out; active equals maximum and waiting is rising",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T09:35:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0119",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0119",
+    "thread_id": "CONV-0119",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "returns-service",
+      "signature": "event deserialization failed: required field missing; consumer partition paused",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T09:36:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0120",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0120",
+    "thread_id": "CONV-0120",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "payments-api",
+      "signature": "token rejected: issued-at time is in the future; node clock offset above threshold",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T09:37:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0121",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0121",
+    "thread_id": "CONV-0121",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "returns-service",
+      "signature": "read replica lag above 180 seconds; record missing on replica but present on primary",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T09:38:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0122",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0122",
+    "thread_id": "CONV-0122",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "notification-service",
+      "signature": "worker count continuously increasing; memory above ninety percent; OOM kill imminent",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T09:39:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0123",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0123",
+    "thread_id": "CONV-0123",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "notification-service",
+      "signature": "worker count continuously increasing; memory above ninety percent; OOM kill imminent",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T09:40:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0124",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0124",
+    "thread_id": "CONV-0124",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "search-service",
+      "signature": "ephemeral storage usage above limit; node reports DiskPressure",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T09:41:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0125",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0125",
+    "thread_id": "CONV-0125",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "notification-service",
+      "signature": "upstream provider read timeout after 10000ms; circuit breaker open",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T09:42:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0126",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0126",
+    "thread_id": "CONV-0126",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "shipping-service",
+      "signature": "isolated worker fault token=inc-2102 operation aborted",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T09:43:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0127",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0127",
+    "thread_id": "CONV-0127",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "pricing-service",
+      "signature": "OOM command not allowed; maxmemory reached and too few keys have expiry",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T09:44:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0128",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0128",
+    "thread_id": "CONV-0128",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "pricing-service",
+      "signature": "price version mismatch between cache and source; promotion epoch is stale",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T09:45:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0129",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0129",
+    "thread_id": "CONV-0129",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "search-service",
+      "signature": "ephemeral storage usage above limit; node reports DiskPressure",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T09:46:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0130",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0130",
+    "thread_id": "CONV-0130",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "shipping-service",
+      "signature": "consumer lag above one million; partition processing time exceeds poll interval",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T09:47:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0131",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0131",
+    "thread_id": "CONV-0131",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "checkout-web",
+      "signature": "request panic after feature variant enabled for one hundred percent of traffic",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T09:48:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0132",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0132",
+    "thread_id": "CONV-0132",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "returns-service",
+      "signature": "isolated shard fault token=inc-2254 operation aborted",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T09:49:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0133",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0133",
+    "thread_id": "CONV-0133",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "payments-api",
+      "signature": "isolated route fault token=inc-2318 operation aborted",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T09:50:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0134",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0134",
+    "thread_id": "CONV-0134",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "search-service",
+      "signature": "isolated worker fault token=inc-2322 operation aborted",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T09:51:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0135",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0135",
+    "thread_id": "CONV-0135",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "fraud-service",
+      "signature": "isolated route fault token=inc-2118 operation aborted",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T09:52:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0136",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0136",
+    "thread_id": "CONV-0136",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "payments-api",
+      "signature": "connection pool acquisition timed out; active equals maximum and waiting is rising",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T09:53:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0137",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0137",
+    "thread_id": "CONV-0137",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "fraud-service",
+      "signature": "artifact checksum mismatch; runtime rejected incompatible feature schema",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T09:54:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0138",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0138",
+    "thread_id": "CONV-0138",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "catalog-service",
+      "signature": "isolated adapter fault token=inc-2450 operation aborted",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T09:55:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0139",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0139",
+    "thread_id": "CONV-0139",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "cart-service",
+      "signature": "pod scheduling failed: insufficient cpu; cluster autoscaler maximum size reached",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T09:56:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0140",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0140",
+    "thread_id": "CONV-0140",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "inventory-service",
+      "signature": "consumer lag above one million; partition processing time exceeds poll interval",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T09:57:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0141",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0141",
+    "thread_id": "CONV-0141",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "inventory-service",
+      "signature": "request executor queue full; active threads equal configured maximum",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T09:58:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0142",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0142",
+    "thread_id": "CONV-0142",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "cart-service",
+      "signature": "OOM command not allowed; maxmemory reached and too few keys have expiry",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T09:59:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0143",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0143",
+    "thread_id": "CONV-0143",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "search-service",
+      "signature": "container OOMKilled during full index rebuild; working set exceeded limit",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0144",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0144",
+    "thread_id": "CONV-0144",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "pricing-service",
+      "signature": "isolated shard fault token=inc-2114 operation aborted",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:01:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0145",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0145",
+    "thread_id": "CONV-0145",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "api-gateway",
+      "signature": "ephemeral storage usage above limit; node reports DiskPressure",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:02:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0146",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0146",
+    "thread_id": "CONV-0146",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "inventory-service",
+      "signature": "isolated adapter fault token=inc-2410 operation aborted",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:03:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0147",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0147",
+    "thread_id": "CONV-0147",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "fraud-service",
+      "signature": "token rejected: issued-at time is in the future; node clock offset above threshold",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:04:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0148",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0148",
+    "thread_id": "CONV-0148",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "payments-api",
+      "signature": "connection pool acquisition timed out; active equals maximum and waiting is rising",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:05:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0149",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0149",
+    "thread_id": "CONV-0149",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "api-gateway",
+      "signature": "ephemeral storage usage above limit; node reports DiskPressure",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:06:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0150",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0150",
+    "thread_id": "CONV-0150",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "recommendations-service",
+      "signature": "object storage access denied for workload identity; HTTP status 403",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:07:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0151",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0151",
+    "thread_id": "CONV-0151",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "payments-api",
+      "signature": "risk evaluation deadline exceeded; rule graph evaluations increased tenfold",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:08:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0152",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0152",
+    "thread_id": "CONV-0152",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "search-service",
+      "signature": "artifact checksum mismatch; runtime rejected incompatible feature schema",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:09:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0153",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0153",
+    "thread_id": "CONV-0153",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "checkout-web",
+      "signature": "local rate limit rejected normal traffic; remaining tokens zero unexpectedly",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:10:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0154",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0154",
+    "thread_id": "CONV-0154",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "pricing-service",
+      "signature": "request executor queue full; active threads equal configured maximum",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:11:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0155",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0155",
+    "thread_id": "CONV-0155",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "checkout-web",
+      "signature": "2026-01-29T08:06:14.395Z WARN  [checkout-web] coupon stack applied cart=99840221 coupons=[\"REPUBLIC20\",\"NEWUSER50\",\"BANK20\"] discount_pct=90",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:12:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0156",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0156",
+    "thread_id": "CONV-0156",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "auth-service",
+      "signature": "edge security rule blocked valid request body; origin request volume dropped",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:13:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0157",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0157",
+    "thread_id": "CONV-0157",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "pricing-service",
+      "signature": "isolated shard fault token=inc-2474 operation aborted",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:14:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0158",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0158",
+    "thread_id": "CONV-0158",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "auth-service",
+      "signature": "edge security rule blocked valid request body; origin request volume dropped",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:15:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0159",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0159",
+    "thread_id": "CONV-0159",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "fraud-service",
+      "signature": "online feature lookup deadline exceeded; feature vector incomplete",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:16:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0160",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0160",
+    "thread_id": "CONV-0160",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "catalog-service",
+      "signature": "object storage access denied for workload identity; HTTP status 403",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:17:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0161",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0161",
+    "thread_id": "CONV-0161",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "orders-service",
+      "signature": "consumer lag above one million; partition processing time exceeds poll interval",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:18:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0162",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0162",
+    "thread_id": "CONV-0162",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "orders-service",
+      "signature": "event deserialization failed: required field missing; consumer partition paused",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:19:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0163",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0163",
+    "thread_id": "CONV-0163",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "checkout-web",
+      "signature": "carrier quote rejected with 429; retry-after budget exhausted",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:20:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0164",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0164",
+    "thread_id": "CONV-0164",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "pricing-service",
+      "signature": "read replica lag above 180 seconds; record missing on replica but present on primary",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:21:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0165",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0165",
+    "thread_id": "CONV-0165",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "notification-service",
+      "signature": "worker count continuously increasing; memory above ninety percent; OOM kill imminent",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:22:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0166",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0166",
+    "thread_id": "CONV-0166",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "notification-service",
+      "signature": "isolated route fault token=inc-2338 operation aborted",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:23:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0167",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0167",
+    "thread_id": "CONV-0167",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "notification-service",
+      "signature": "worker count continuously increasing; memory above ninety percent; OOM kill imminent",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:24:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0168",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0168",
+    "thread_id": "CONV-0168",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "returns-service",
+      "signature": "isolated shard fault token=inc-2194 operation aborted",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:25:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0169",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0169",
+    "thread_id": "CONV-0169",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "inventory-service",
+      "signature": "2026-03-04 15:26:58.445 ERROR 1 --- [http-nio-8080-exec-118] c.k.inventory.api.ReservationController  : Stock went negative sku=SKU-67262923 available=-3",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:26:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0170",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0170",
+    "thread_id": "CONV-0170",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "cart-service",
+      "signature": "OOM command not allowed; maxmemory reached and too few keys have expiry",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:27:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0171",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0171",
+    "thread_id": "CONV-0171",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "api-gateway",
+      "signature": "ephemeral storage usage above limit; node reports DiskPressure",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:28:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0172",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0172",
+    "thread_id": "CONV-0172",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "orders-service",
+      "signature": "2026-03-11 14:01:38.729  WARN 1 --- [replica-health] c.k.orders.db.ReplicaHealthCheck         : postgres-main-replica-1 replication lag 288s (threshold 5s)",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:29:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0173",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0173",
+    "thread_id": "CONV-0173",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "returns-service",
+      "signature": "isolated shard fault token=inc-2434 operation aborted",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:30:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0174",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0174",
+    "thread_id": "CONV-0174",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "pricing-service",
+      "signature": "read replica lag above 180 seconds; record missing on replica but present on primary",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:31:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0175",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0175",
+    "thread_id": "CONV-0175",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "api-gateway",
+      "signature": "isolated scheduler fault token=inc-2346 operation aborted",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:32:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0176",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0176",
+    "thread_id": "CONV-0176",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "payments-api",
+      "signature": "upstream provider read timeout after 10000ms; circuit breaker open",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:33:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0177",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0177",
+    "thread_id": "CONV-0177",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "recommendations-service",
+      "signature": "ephemeral storage usage above limit; node reports DiskPressure",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:34:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0178",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0178",
+    "thread_id": "CONV-0178",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "orders-service",
+      "signature": "request executor queue full; active threads equal configured maximum",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:35:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0179",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0179",
+    "thread_id": "CONV-0179",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "returns-service",
+      "signature": "object storage access denied for workload identity; HTTP status 403",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:36:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0180",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0180",
+    "thread_id": "CONV-0180",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "checkout-web",
+      "signature": "2026-03-30T11:09:39.077Z INFO  [checkout-web] POST /api/checkout 200 132ms cart=48976560",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:37:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0181",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0181",
+    "thread_id": "CONV-0181",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "shipping-service",
+      "signature": "isolated worker fault token=inc-2162 operation aborted",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:38:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0182",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0182",
+    "thread_id": "CONV-0182",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "notification-service",
+      "signature": "isolated route fault token=inc-2098 operation aborted",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:39:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0183",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0183",
+    "thread_id": "CONV-0183",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "recommendations-service",
+      "signature": "worker count continuously increasing; memory above ninety percent; OOM kill imminent",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:40:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0184",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0184",
+    "thread_id": "CONV-0184",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "api-gateway",
+      "signature": "x509 certificate has expired or is not yet valid during internal TLS handshake",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:41:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0185",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0185",
+    "thread_id": "CONV-0185",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "returns-service",
+      "signature": "carrier quote rejected with 429; retry-after budget exhausted",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:42:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0186",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0186",
+    "thread_id": "CONV-0186",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "recommendations-service",
+      "signature": "object storage access denied for workload identity; HTTP status 403",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:43:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0187",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0187",
+    "thread_id": "CONV-0187",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "pricing-service",
+      "signature": "isolated shard fault token=inc-2234 operation aborted",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:44:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0188",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0188",
+    "thread_id": "CONV-0188",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "orders-service",
+      "signature": "read replica lag above 180 seconds; record missing on replica but present on primary",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:45:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0189",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0189",
+    "thread_id": "CONV-0189",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "auth-service",
+      "signature": "local rate limit rejected normal traffic; remaining tokens zero unexpectedly",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:46:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0190",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0190",
+    "thread_id": "CONV-0190",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "catalog-service",
+      "signature": "container OOMKilled during full index rebuild; working set exceeded limit",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:47:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0191",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0191",
+    "thread_id": "CONV-0191",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "payments-api",
+      "signature": "isolated route fault token=inc-2438 operation aborted",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:48:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0192",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0192",
+    "thread_id": "CONV-0192",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "api-gateway",
+      "signature": "edge security rule blocked valid request body; origin request volume dropped",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:49:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0193",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0193",
+    "thread_id": "CONV-0193",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "api-gateway",
+      "signature": "edge security rule blocked valid request body; origin request volume dropped",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:50:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0194",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0194",
+    "thread_id": "CONV-0194",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "search-service",
+      "signature": "ephemeral storage usage above limit; node reports DiskPressure",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:51:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0195",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0195",
+    "thread_id": "CONV-0195",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "recommendations-service",
+      "signature": "container OOMKilled during full index rebuild; working set exceeded limit",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:52:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0196",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0196",
+    "thread_id": "CONV-0196",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "cart-service",
+      "signature": "OOM command not allowed; maxmemory reached and too few keys have expiry",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:53:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0197",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0197",
+    "thread_id": "CONV-0197",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "search-service",
+      "signature": "artifact checksum mismatch; runtime rejected incompatible feature schema",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:54:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0198",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0198",
+    "thread_id": "CONV-0198",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "fraud-service",
+      "signature": "OOM command not allowed; maxmemory reached and too few keys have expiry",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:55:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0199",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0199",
+    "thread_id": "CONV-0199",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "auth-service",
+      "signature": "OOM command not allowed; maxmemory reached and too few keys have expiry",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:56:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  },
+  {
+    "checkpoint_id": "CHK-0200",
+    "org_id": "ORG-KARTLY",
+    "conversation_id": "CONV-0200",
+    "thread_id": "CONV-0200",
+    "checkpoint_version": 8,
+    "last_node": "learn",
+    "step_count": 8,
+    "status": "complete",
+    "state": {
+      "service": "pricing-service",
+      "signature": "connection pool acquisition timed out; active equals maximum and waiting is rising",
+      "strong_match": true,
+      "resolved": true,
+      "message_count": 6
+    },
+    "created_at": "2026-09-30T10:57:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "development"
+    }
+  }
+]

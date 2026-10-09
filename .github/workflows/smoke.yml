@@ -1,0 +1,28 @@
+name: Post-deploy smoke test
+
+on:
+  workflow_dispatch:
+    inputs:
+      full:
+        description: "Also run one real diagnosis"
+        type: boolean
+        default: false
+  deployment_status:
+
+jobs:
+  smoke:
+    if: github.event_name == 'workflow_dispatch' || github.event.deployment_status.state == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install "httpx==0.28.1"
+      - name: Smoke test
+        env:
+          API_URL: ${{ vars.PAGERMIND_API_URL }}
+          WEB_URL: ${{ vars.PAGERMIND_WEB_URL }}
+        run: |
+          python backend/scripts/smoke_test.py --api "$API_URL" --web "$WEB_URL" \
+            ${{ github.event.inputs.full == 'true' && '--full' || '' }}

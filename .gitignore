@@ -1,17 +1,31 @@
-# secrets - never commit
+# Secrets: never commit
 .env
-.streamlit/secrets.toml
+.env.*
+!.env.example
 
-# python
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
 .venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
 
-# local state
-.pagermind_state/
+# Node / Next.js
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+playwright-report/
+test-results/
 
+# Generated evaluation output
+backend/evals/reports/
+
+# OS / editors
 .DS_Store
-
-# submission content (kept local)
-submission_content/
-*.pdf
+.idea/
+.vscode/

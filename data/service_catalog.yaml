@@ -80,6 +80,94 @@ services:
     - kafka-cluster
     - sms-provider
     dashboard: https://grafana.kartly.internal/d/notification-service
+  pricing-service:
+    team: Pricing & Promotions
+    owner: meera
+    runtime: Java 21 / Spring Boot 3 / Caffeine
+    namespace: pricing
+    description: Computes prices, promotions, coupons and sale adjustments.
+    depends_on:
+    - postgres-main
+    - redis-cache
+    - kafka-cluster
+    dashboard: https://grafana.kartly.internal/d/pricing-service
+  cart-service:
+    team: Cart
+    owner: dev
+    runtime: Go 1.22
+    namespace: cart
+    description: Stores active carts and validates cart-level constraints.
+    depends_on:
+    - redis-cache
+    - pricing-service
+    - inventory-service
+    dashboard: https://grafana.kartly.internal/d/cart-service
+  recommendations-service:
+    team: Personalization
+    owner: ishita
+    runtime: Python 3.12 / FastAPI
+    namespace: recommendations
+    description: Produces personalized product and ranking recommendations.
+    depends_on:
+    - feature-store
+    - kafka-cluster
+    - s3-assets
+    dashboard: https://grafana.kartly.internal/d/recommendations-service
+  shipping-service:
+    team: Fulfilment
+    owner: rahul
+    runtime: Kotlin 2 / Spring Boot 3
+    namespace: shipping
+    description: Selects carriers, calculates delivery estimates and creates shipments.
+    depends_on:
+    - postgres-main
+    - carrier-gateway
+    - kafka-cluster
+    dashboard: https://grafana.kartly.internal/d/shipping-service
+  fraud-service:
+    team: Risk
+    owner: zoya
+    runtime: Go 1.22
+    namespace: fraud
+    description: Scores payment and account activity using rules and online features.
+    depends_on:
+    - feature-store
+    - redis-cache
+    - kafka-cluster
+    dashboard: https://grafana.kartly.internal/d/fraud-service
+  returns-service:
+    team: Post-purchase
+    owner: nikhil
+    runtime: Java 21 / Spring Boot 3
+    namespace: returns
+    description: Manages return eligibility, pickups, inspections and refund requests.
+    depends_on:
+    - postgres-main
+    - orders-service
+    - shipping-service
+    dashboard: https://grafana.kartly.internal/d/returns-service
+  catalog-service:
+    team: Catalog
+    owner: sana
+    runtime: Java 21 / Spring Boot 3
+    namespace: catalog
+    description: Owns product metadata, categories and catalog change events.
+    depends_on:
+    - postgres-main
+    - kafka-cluster
+    - s3-assets
+    dashboard: https://grafana.kartly.internal/d/catalog-service
+  api-gateway:
+    team: Edge Platform
+    owner: aditya
+    runtime: Envoy 1.31 / Lua
+    namespace: edge
+    description: Public API ingress, authentication, routing and rate limiting.
+    depends_on:
+    - auth-service
+    - redis-cache
+    - coredns
+    dashboard: https://grafana.kartly.internal/d/api-gateway
 infrastructure:
   postgres-main:
     owner: fatima
@@ -117,6 +205,12 @@ infrastructure:
   sms-provider:
     owner: neha
     kind: External SMS provider
+  feature-store:
+    owner: ishita
+    kind: Redis-compatible online feature store
+  carrier-gateway:
+    owner: rahul
+    kind: External multi-carrier shipping gateway
 scheduled_jobs:
   recon-job:
     service: payments-api

@@ -1,0 +1,117 @@
+name: Deploy
+
+# Production promotion happens only from here, and only after CI succeeded on main.
+# Render and Vercel auto-deploys are disabled (render.yaml autoDeploy: false, vercel.json git.deploymentEnabled: false).
+#
+#   CI green on main
+#     -> apply Supabase migrations
+#     -> deploy API + worker on Render (deploy hooks pinned to the commit) and wait for readiness
+#     -> build a Vercel preview of the same commit
+#     -> smoke test API + preview
+#     -> promote the preview to production -> smoke test production
+
+on:
+  workflow_run:
+    workflows: [CI]
+    types: [completed]
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-production
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  migrate:
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
+      - uses: supabase/setup-cli@v1
+        with:
+          version: 2.20.5
+      - name: Apply pending migrations
+        env:
+          SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
+          SUPABASE_DB_PASSWORD: ${{ secrets.SUPABASE_DB_PASSWORD }}
+        run: |
+          supabase link --project-ref "${{ vars.SUPABASE_PROJECT_REF }}" --password "$SUPABASE_DB_PASSWORD"
+          supabase db push --password "$SUPABASE_DB_PASSWORD"
+
+  backend:
+    needs: migrate
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+      - name: Trigger Render deploys for this commit
+        env:
+          SHA: ${{ github.event.workflow_run.head_sha || github.sha }}
+        run: |
+          curl --fail -sS -X POST "${{ secrets.RENDER_API_DEPLOY_HOOK }}&ref=$SHA"
+          curl --fail -sS -X POST "${{ secrets.RENDER_WORKER_DEPLOY_HOOK }}&ref=$SHA"
+      - name: Wait for API readiness
+        run: |
+          for attempt in $(seq 1 60); do
+            if curl --fail -sS "${{ vars.PAGERMIND_API_URL }}/health/ready"; then exit 0; fi
+            sleep 10
+          done
+          echo "API did not become ready" && exit 1
+
+  frontend-preview:
+    needs: backend
+    runs-on: ubuntu-latest
+    environment: production
+    outputs:
+      url: ${{ steps.deploy.outputs.url }}
+    defaults:
+      run:
+        working-directory: frontend
+    env:
+      VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+      VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm install --global vercel@39
+      - run: vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
+      - run: vercel build --prod --token=${{ secrets.VERCEL_TOKEN }}
+      - id: deploy
+        name: Deploy prebuilt output as a preview (not yet production)
+        run: echo "url=$(vercel deploy --prebuilt --token=${{ secrets.VERCEL_TOKEN }})" >> "$GITHUB_OUTPUT"
+
+  smoke:
+    needs: frontend-preview
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install "httpx==0.28.1"
+      - name: Smoke test API + preview
+        run: python backend/scripts/smoke_test.py --api "${{ vars.PAGERMIND_API_URL }}" --web "${{ needs.frontend-preview.outputs.url }}"
+
+  promote:
+    needs: [frontend-preview, smoke]
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: npm install --global vercel@39 && pip install "httpx==0.28.1"
+      - name: Promote the smoke-tested preview to production
+        run: vercel promote "${{ needs.frontend-preview.outputs.url }}" --yes --token=${{ secrets.VERCEL_TOKEN }} --scope=${{ secrets.VERCEL_ORG_ID }}
+      - name: Smoke test production
+        run: python backend/scripts/smoke_test.py --api "${{ vars.PAGERMIND_API_URL }}" --web "${{ vars.PAGERMIND_WEB_URL }}"

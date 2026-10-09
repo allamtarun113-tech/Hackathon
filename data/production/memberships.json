@@ -1,0 +1,274 @@
+[
+  {
+    "membership_id": "MEM-PRIYA",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-PRIYA",
+    "team_id": "TEAM-PAYMENTS",
+    "membership_role": "member",
+    "created_at": "2021-03-15T09:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "membership_id": "MEM-ARJUN",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ARJUN",
+    "team_id": "TEAM-ORDERS-CHECKOUT",
+    "membership_role": "member",
+    "created_at": "2022-07-01T09:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "membership_id": "MEM-NEHA",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-NEHA",
+    "team_id": "TEAM-IDENTITY-NOTIFICATIONS",
+    "membership_role": "member",
+    "created_at": "2023-01-09T09:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "membership_id": "MEM-ROHAN",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ROHAN",
+    "team_id": "TEAM-PAYMENTS",
+    "membership_role": "member",
+    "created_at": "2026-08-03T09:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "membership_id": "MEM-FATIMA",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-FATIMA",
+    "team_id": "TEAM-PLATFORM",
+    "membership_role": "member",
+    "created_at": "2020-11-02T09:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "membership_id": "MEM-VIKRAM",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-VIKRAM",
+    "team_id": "TEAM-SEARCH-DISCOVERY",
+    "membership_role": "member",
+    "created_at": "2022-02-14T09:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "membership_id": "MEM-KARTHIK",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-KARTHIK",
+    "team_id": "TEAM-PLATFORM",
+    "membership_role": "member",
+    "created_at": "2024-06-10T09:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "membership_id": "MEM-ANANYA",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ANANYA",
+    "team_id": "TEAM-ORDERS-CHECKOUT",
+    "membership_role": "member",
+    "created_at": "2025-02-17T09:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "membership_id": "MEM-SAMEER",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-SAMEER",
+    "team_id": "TEAM-PLATFORM",
+    "membership_role": "member",
+    "created_at": "2019-08-01T09:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "membership_id": "MEM-MEERA",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-MEERA",
+    "team_id": "TEAM-PRICING-PROMOTIONS",
+    "membership_role": "member",
+    "created_at": "2023-04-03T09:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "membership_id": "MEM-DEV",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-DEV",
+    "team_id": "TEAM-CART",
+    "membership_role": "member",
+    "created_at": "2023-04-03T09:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "membership_id": "MEM-ISHITA",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ISHITA",
+    "team_id": "TEAM-PERSONALIZATION",
+    "membership_role": "member",
+    "created_at": "2023-04-03T09:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "membership_id": "MEM-RAHUL",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-RAHUL",
+    "team_id": "TEAM-FULFILMENT",
+    "membership_role": "member",
+    "created_at": "2023-04-03T09:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "membership_id": "MEM-ZOYA",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ZOYA",
+    "team_id": "TEAM-RISK",
+    "membership_role": "member",
+    "created_at": "2023-04-03T09:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "membership_id": "MEM-NIKHIL",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-NIKHIL",
+    "team_id": "TEAM-POST-PURCHASE",
+    "membership_role": "member",
+    "created_at": "2023-04-03T09:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "membership_id": "MEM-SANA",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-SANA",
+    "team_id": "TEAM-CATALOG",
+    "membership_role": "member",
+    "created_at": "2023-04-03T09:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "membership_id": "MEM-ADITYA",
+    "org_id": "ORG-KARTLY",
+    "user_id": "USR-ADITYA",
+    "team_id": "TEAM-EDGE-PLATFORM",
+    "membership_role": "member",
+    "created_at": "2023-04-03T09:00:00+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  }
+]

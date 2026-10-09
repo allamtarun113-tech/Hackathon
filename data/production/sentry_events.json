@@ -1,0 +1,722 @@
+[
+  {
+    "event_id": "SENTRY-0001",
+    "trace_id": "TRACE-0005",
+    "request_id": "REQ-0005",
+    "component": "groq",
+    "error_type": "RateLimitError",
+    "handled": true,
+    "retry_succeeded": true,
+    "occurred_at": "2026-09-29T16:11:22+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "event_id": "SENTRY-0002",
+    "trace_id": "TRACE-0010",
+    "request_id": "REQ-0010",
+    "component": "hindsight",
+    "error_type": "UpstreamTimeout",
+    "handled": true,
+    "retry_succeeded": true,
+    "occurred_at": "2026-09-30T08:19:22+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "event_id": "SENTRY-0003",
+    "trace_id": "TRACE-0015",
+    "request_id": "REQ-0015",
+    "component": "supabase",
+    "error_type": "ConnectionPoolTimeout",
+    "handled": true,
+    "retry_succeeded": false,
+    "occurred_at": "2026-09-30T09:04:22+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "event_id": "SENTRY-0004",
+    "trace_id": "TRACE-0020",
+    "request_id": "REQ-0020",
+    "component": "fastapi",
+    "error_type": "ValidationError",
+    "handled": true,
+    "retry_succeeded": true,
+    "occurred_at": "2026-09-30T09:49:22+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "event_id": "SENTRY-0005",
+    "trace_id": "TRACE-0025",
+    "request_id": "REQ-0025",
+    "component": "groq",
+    "error_type": "RateLimitError",
+    "handled": true,
+    "retry_succeeded": true,
+    "occurred_at": "2026-09-30T10:34:22+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "event_id": "SENTRY-0006",
+    "trace_id": "TRACE-0030",
+    "request_id": "REQ-0030",
+    "component": "hindsight",
+    "error_type": "UpstreamTimeout",
+    "handled": true,
+    "retry_succeeded": true,
+    "occurred_at": "2026-09-30T11:19:22+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "event_id": "SENTRY-0007",
+    "trace_id": "TRACE-0035",
+    "request_id": "REQ-0035",
+    "component": "supabase",
+    "error_type": "ConnectionPoolTimeout",
+    "handled": true,
+    "retry_succeeded": false,
+    "occurred_at": "2026-09-30T12:04:22+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "event_id": "SENTRY-0008",
+    "trace_id": "TRACE-0040",
+    "request_id": "REQ-0040",
+    "component": "fastapi",
+    "error_type": "ValidationError",
+    "handled": true,
+    "retry_succeeded": true,
+    "occurred_at": "2026-09-30T12:49:22+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "event_id": "SENTRY-0009",
+    "trace_id": "TRACE-0045",
+    "request_id": "REQ-0045",
+    "component": "groq",
+    "error_type": "RateLimitError",
+    "handled": true,
+    "retry_succeeded": true,
+    "occurred_at": "2026-09-30T13:34:22+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "event_id": "SENTRY-0010",
+    "trace_id": "TRACE-0050",
+    "request_id": "REQ-0050",
+    "component": "hindsight",
+    "error_type": "UpstreamTimeout",
+    "handled": true,
+    "retry_succeeded": true,
+    "occurred_at": "2026-09-30T14:19:22+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "event_id": "SENTRY-0011",
+    "trace_id": "TRACE-0055",
+    "request_id": "REQ-0055",
+    "component": "supabase",
+    "error_type": "ConnectionPoolTimeout",
+    "handled": true,
+    "retry_succeeded": false,
+    "occurred_at": "2026-09-30T15:04:22+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "event_id": "SENTRY-0012",
+    "trace_id": "TRACE-0060",
+    "request_id": "REQ-0060",
+    "component": "fastapi",
+    "error_type": "ValidationError",
+    "handled": true,
+    "retry_succeeded": true,
+    "occurred_at": "2026-09-30T15:49:22+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "event_id": "SENTRY-0013",
+    "trace_id": "TRACE-0065",
+    "request_id": "REQ-0065",
+    "component": "groq",
+    "error_type": "RateLimitError",
+    "handled": true,
+    "retry_succeeded": true,
+    "occurred_at": "2026-09-30T16:34:22+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "event_id": "SENTRY-0014",
+    "trace_id": "TRACE-0070",
+    "request_id": "REQ-0070",
+    "component": "hindsight",
+    "error_type": "UpstreamTimeout",
+    "handled": true,
+    "retry_succeeded": true,
+    "occurred_at": "2026-09-30T17:19:22+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "event_id": "SENTRY-0015",
+    "trace_id": "TRACE-0075",
+    "request_id": "REQ-0075",
+    "component": "supabase",
+    "error_type": "ConnectionPoolTimeout",
+    "handled": true,
+    "retry_succeeded": false,
+    "occurred_at": "2026-09-30T18:04:22+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "event_id": "SENTRY-0016",
+    "trace_id": "TRACE-0080",
+    "request_id": "REQ-0080",
+    "component": "fastapi",
+    "error_type": "ValidationError",
+    "handled": true,
+    "retry_succeeded": true,
+    "occurred_at": "2026-09-30T18:49:22+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "event_id": "SENTRY-0017",
+    "trace_id": "TRACE-0085",
+    "request_id": "REQ-0085",
+    "component": "groq",
+    "error_type": "RateLimitError",
+    "handled": true,
+    "retry_succeeded": true,
+    "occurred_at": "2026-09-30T19:34:22+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "event_id": "SENTRY-0018",
+    "trace_id": "TRACE-0090",
+    "request_id": "REQ-0090",
+    "component": "hindsight",
+    "error_type": "UpstreamTimeout",
+    "handled": true,
+    "retry_succeeded": true,
+    "occurred_at": "2026-09-30T20:19:22+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "event_id": "SENTRY-0019",
+    "trace_id": "TRACE-0095",
+    "request_id": "REQ-0095",
+    "component": "supabase",
+    "error_type": "ConnectionPoolTimeout",
+    "handled": true,
+    "retry_succeeded": false,
+    "occurred_at": "2026-09-30T21:04:22+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "event_id": "SENTRY-0020",
+    "trace_id": "TRACE-0100",
+    "request_id": "REQ-0100",
+    "component": "fastapi",
+    "error_type": "ValidationError",
+    "handled": true,
+    "retry_succeeded": true,
+    "occurred_at": "2026-09-30T21:49:22+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "event_id": "SENTRY-0021",
+    "trace_id": "TRACE-0105",
+    "request_id": "REQ-0105",
+    "component": "groq",
+    "error_type": "RateLimitError",
+    "handled": true,
+    "retry_succeeded": true,
+    "occurred_at": "2026-09-30T09:04:22+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "event_id": "SENTRY-0022",
+    "trace_id": "TRACE-0110",
+    "request_id": "REQ-0110",
+    "component": "hindsight",
+    "error_type": "UpstreamTimeout",
+    "handled": true,
+    "retry_succeeded": true,
+    "occurred_at": "2026-09-30T09:09:22+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "event_id": "SENTRY-0023",
+    "trace_id": "TRACE-0115",
+    "request_id": "REQ-0115",
+    "component": "supabase",
+    "error_type": "ConnectionPoolTimeout",
+    "handled": true,
+    "retry_succeeded": false,
+    "occurred_at": "2026-09-30T09:14:22+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "event_id": "SENTRY-0024",
+    "trace_id": "TRACE-0120",
+    "request_id": "REQ-0120",
+    "component": "fastapi",
+    "error_type": "ValidationError",
+    "handled": true,
+    "retry_succeeded": true,
+    "occurred_at": "2026-09-30T09:19:22+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "event_id": "SENTRY-0025",
+    "trace_id": "TRACE-0125",
+    "request_id": "REQ-0125",
+    "component": "groq",
+    "error_type": "RateLimitError",
+    "handled": true,
+    "retry_succeeded": true,
+    "occurred_at": "2026-09-30T09:24:22+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "event_id": "SENTRY-0026",
+    "trace_id": "TRACE-0130",
+    "request_id": "REQ-0130",
+    "component": "hindsight",
+    "error_type": "UpstreamTimeout",
+    "handled": true,
+    "retry_succeeded": true,
+    "occurred_at": "2026-09-30T09:29:22+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "event_id": "SENTRY-0027",
+    "trace_id": "TRACE-0135",
+    "request_id": "REQ-0135",
+    "component": "supabase",
+    "error_type": "ConnectionPoolTimeout",
+    "handled": true,
+    "retry_succeeded": false,
+    "occurred_at": "2026-09-30T09:34:22+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "event_id": "SENTRY-0028",
+    "trace_id": "TRACE-0140",
+    "request_id": "REQ-0140",
+    "component": "fastapi",
+    "error_type": "ValidationError",
+    "handled": true,
+    "retry_succeeded": true,
+    "occurred_at": "2026-09-30T09:39:22+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "event_id": "SENTRY-0029",
+    "trace_id": "TRACE-0145",
+    "request_id": "REQ-0145",
+    "component": "groq",
+    "error_type": "RateLimitError",
+    "handled": true,
+    "retry_succeeded": true,
+    "occurred_at": "2026-09-30T09:44:22+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "event_id": "SENTRY-0030",
+    "trace_id": "TRACE-0150",
+    "request_id": "REQ-0150",
+    "component": "hindsight",
+    "error_type": "UpstreamTimeout",
+    "handled": true,
+    "retry_succeeded": true,
+    "occurred_at": "2026-09-30T09:49:22+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "event_id": "SENTRY-0031",
+    "trace_id": "TRACE-0155",
+    "request_id": "REQ-0155",
+    "component": "supabase",
+    "error_type": "ConnectionPoolTimeout",
+    "handled": true,
+    "retry_succeeded": false,
+    "occurred_at": "2026-09-30T09:54:22+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "event_id": "SENTRY-0032",
+    "trace_id": "TRACE-0160",
+    "request_id": "REQ-0160",
+    "component": "fastapi",
+    "error_type": "ValidationError",
+    "handled": true,
+    "retry_succeeded": true,
+    "occurred_at": "2026-09-30T09:59:22+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "event_id": "SENTRY-0033",
+    "trace_id": "TRACE-0165",
+    "request_id": "REQ-0165",
+    "component": "groq",
+    "error_type": "RateLimitError",
+    "handled": true,
+    "retry_succeeded": true,
+    "occurred_at": "2026-09-30T10:04:22+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "event_id": "SENTRY-0034",
+    "trace_id": "TRACE-0170",
+    "request_id": "REQ-0170",
+    "component": "hindsight",
+    "error_type": "UpstreamTimeout",
+    "handled": true,
+    "retry_succeeded": true,
+    "occurred_at": "2026-09-30T10:09:22+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "event_id": "SENTRY-0035",
+    "trace_id": "TRACE-0175",
+    "request_id": "REQ-0175",
+    "component": "supabase",
+    "error_type": "ConnectionPoolTimeout",
+    "handled": true,
+    "retry_succeeded": false,
+    "occurred_at": "2026-09-30T10:14:22+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "event_id": "SENTRY-0036",
+    "trace_id": "TRACE-0180",
+    "request_id": "REQ-0180",
+    "component": "fastapi",
+    "error_type": "ValidationError",
+    "handled": true,
+    "retry_succeeded": true,
+    "occurred_at": "2026-09-30T10:19:22+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "event_id": "SENTRY-0037",
+    "trace_id": "TRACE-0185",
+    "request_id": "REQ-0185",
+    "component": "groq",
+    "error_type": "RateLimitError",
+    "handled": true,
+    "retry_succeeded": true,
+    "occurred_at": "2026-09-30T10:24:22+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "event_id": "SENTRY-0038",
+    "trace_id": "TRACE-0190",
+    "request_id": "REQ-0190",
+    "component": "hindsight",
+    "error_type": "UpstreamTimeout",
+    "handled": true,
+    "retry_succeeded": true,
+    "occurred_at": "2026-09-30T10:29:22+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "event_id": "SENTRY-0039",
+    "trace_id": "TRACE-0195",
+    "request_id": "REQ-0195",
+    "component": "supabase",
+    "error_type": "ConnectionPoolTimeout",
+    "handled": true,
+    "retry_succeeded": false,
+    "occurred_at": "2026-09-30T10:34:22+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  },
+  {
+    "event_id": "SENTRY-0040",
+    "trace_id": "TRACE-0200",
+    "request_id": "REQ-0200",
+    "component": "fastapi",
+    "error_type": "ValidationError",
+    "handled": true,
+    "retry_succeeded": true,
+    "occurred_at": "2026-09-30T10:39:22+05:30",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "observability-fixture"
+    }
+  }
+]

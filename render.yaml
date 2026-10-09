@@ -1,0 +1,72 @@
+# Render Blueprint: FastAPI API + memory worker. The Next.js frontend deploys to Vercel.
+# autoDeploy is off: .github/workflows/deploy.yml triggers deploy hooks only after CI passes.
+# Secrets marked `sync: false` are entered in the Render dashboard and never committed.
+
+envVarGroups:
+  - name: pagermind-backend
+    envVars:
+      - key: APP_ENV
+        value: production
+      - key: LOG_LEVEL
+        value: INFO
+      - key: HINDSIGHT_BASE_URL
+        value: https://api.hindsight.vectorize.io
+      - key: HINDSIGHT_BANK_ID
+        value: pagermind-incidents
+      - key: GROQ_PRIMARY_MODEL
+        value: openai/gpt-oss-120b
+      - key: GROQ_FALLBACK_MODEL
+        value: qwen/qwen3-32b
+      - key: LANGFUSE_HOST
+        value: https://cloud.langfuse.com
+      - key: DATABASE_URL
+        sync: false
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_SERVICE_ROLE_KEY
+        sync: false
+      - key: HINDSIGHT_API_KEY
+        sync: false
+      - key: HINDSIGHT_WEBHOOK_SECRET
+        sync: false
+      - key: GROQ_API_KEY
+        sync: false
+      - key: LANGFUSE_PUBLIC_KEY
+        sync: false
+      - key: LANGFUSE_SECRET_KEY
+        sync: false
+      - key: SENTRY_DSN
+        sync: false
+      - key: OPERATOR_TOKEN
+        sync: false # long random string; required by resolve / review / internal reads
+
+services:
+  - type: web
+    name: pagermind-api
+    runtime: docker
+    dockerfilePath: ./backend/Dockerfile
+    dockerContext: .
+    plan: starter
+    region: singapore
+    healthCheckPath: /health/ready
+    autoDeploy: false
+    envVars:
+      - fromGroup: pagermind-backend
+      - key: TRUSTED_PROXY_HOPS
+        value: "1" # Render's proxy appends the client address to X-Forwarded-For
+      - key: CORS_ALLOWED_ORIGINS
+        sync: false # e.g. https://pagermind.vercel.app
+      - key: HINDSIGHT_WEBHOOK_URL
+        sync: false # e.g. https://pagermind-api.onrender.com/webhooks/hindsight
+
+  - type: worker
+    name: pagermind-memory-worker
+    runtime: docker
+    dockerfilePath: ./backend/Dockerfile
+    dockerContext: .
+    dockerCommand: python -m app.workers.memory_worker
+    plan: starter
+    region: singapore
+    autoDeploy: false
+    envVars:
+      - fromGroup: pagermind-backend

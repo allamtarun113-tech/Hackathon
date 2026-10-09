@@ -1,0 +1,25 @@
+# Supabase CLI configuration for local development (`supabase start`).
+# Hosted projects are linked with `supabase link --project-ref <ref>`.
+
+project_id = "pagermind"
+
+[db]
+port = 54322
+major_version = 15
+
+[api]
+enabled = true
+port = 54321
+schemas = ["public", "storage"]
+max_rows = 1000
+
+[storage]
+enabled = true
+file_size_limit = "5MiB"
+
+[auth]
+enabled = false
+
+[studio]
+enabled = true
+port = 54323

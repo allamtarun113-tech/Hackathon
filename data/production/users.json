@@ -1,0 +1,325 @@
+[
+  {
+    "user_id": "USR-PRIYA",
+    "org_id": "ORG-KARTLY",
+    "engineer_id": "priya",
+    "display_name": "Priya Sharma",
+    "email": "priya@kartly.example",
+    "role": "admin",
+    "status": "active",
+    "joined_at": "2021-03-15T09:00:00+05:30",
+    "deactivated_at": null,
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "user_id": "USR-ARJUN",
+    "org_id": "ORG-KARTLY",
+    "engineer_id": "arjun",
+    "display_name": "Arjun Mehta",
+    "email": "arjun@kartly.example",
+    "role": "engineer",
+    "status": "active",
+    "joined_at": "2022-07-01T09:00:00+05:30",
+    "deactivated_at": null,
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "user_id": "USR-NEHA",
+    "org_id": "ORG-KARTLY",
+    "engineer_id": "neha",
+    "display_name": "Neha Iyer",
+    "email": "neha@kartly.example",
+    "role": "engineer",
+    "status": "active",
+    "joined_at": "2023-01-09T09:00:00+05:30",
+    "deactivated_at": null,
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "user_id": "USR-ROHAN",
+    "org_id": "ORG-KARTLY",
+    "engineer_id": "rohan",
+    "display_name": "Rohan Das",
+    "email": "rohan@kartly.example",
+    "role": "engineer",
+    "status": "active",
+    "joined_at": "2026-08-03T09:00:00+05:30",
+    "deactivated_at": null,
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "user_id": "USR-FATIMA",
+    "org_id": "ORG-KARTLY",
+    "engineer_id": "fatima",
+    "display_name": "Fatima Khan",
+    "email": "fatima@kartly.example",
+    "role": "engineer",
+    "status": "active",
+    "joined_at": "2020-11-02T09:00:00+05:30",
+    "deactivated_at": null,
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "user_id": "USR-VIKRAM",
+    "org_id": "ORG-KARTLY",
+    "engineer_id": "vikram",
+    "display_name": "Vikram Rao",
+    "email": "vikram@kartly.example",
+    "role": "engineer",
+    "status": "active",
+    "joined_at": "2022-02-14T09:00:00+05:30",
+    "deactivated_at": null,
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "user_id": "USR-KARTHIK",
+    "org_id": "ORG-KARTLY",
+    "engineer_id": "karthik",
+    "display_name": "Karthik Nair",
+    "email": "karthik@kartly.example",
+    "role": "engineer",
+    "status": "active",
+    "joined_at": "2024-06-10T09:00:00+05:30",
+    "deactivated_at": null,
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "user_id": "USR-ANANYA",
+    "org_id": "ORG-KARTLY",
+    "engineer_id": "ananya",
+    "display_name": "Ananya Gupta",
+    "email": "ananya@kartly.example",
+    "role": "engineer",
+    "status": "active",
+    "joined_at": "2025-02-17T09:00:00+05:30",
+    "deactivated_at": null,
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "user_id": "USR-SAMEER",
+    "org_id": "ORG-KARTLY",
+    "engineer_id": "sameer",
+    "display_name": "Sameer Joshi",
+    "email": "sameer@kartly.example",
+    "role": "admin",
+    "status": "inactive",
+    "joined_at": "2019-08-01T09:00:00+05:30",
+    "deactivated_at": "2026-05-31",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "user_id": "USR-MEERA",
+    "org_id": "ORG-KARTLY",
+    "engineer_id": "meera",
+    "display_name": "Meera Kulkarni",
+    "email": "meera@kartly.example",
+    "role": "admin",
+    "status": "active",
+    "joined_at": "2023-04-03T09:00:00+05:30",
+    "deactivated_at": null,
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "user_id": "USR-DEV",
+    "org_id": "ORG-KARTLY",
+    "engineer_id": "dev",
+    "display_name": "Dev Patel",
+    "email": "dev@kartly.example",
+    "role": "engineer",
+    "status": "active",
+    "joined_at": "2023-04-03T09:00:00+05:30",
+    "deactivated_at": null,
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "user_id": "USR-ISHITA",
+    "org_id": "ORG-KARTLY",
+    "engineer_id": "ishita",
+    "display_name": "Ishita Sen",
+    "email": "ishita@kartly.example",
+    "role": "engineer",
+    "status": "active",
+    "joined_at": "2023-04-03T09:00:00+05:30",
+    "deactivated_at": null,
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "user_id": "USR-RAHUL",
+    "org_id": "ORG-KARTLY",
+    "engineer_id": "rahul",
+    "display_name": "Rahul Verma",
+    "email": "rahul@kartly.example",
+    "role": "engineer",
+    "status": "active",
+    "joined_at": "2023-04-03T09:00:00+05:30",
+    "deactivated_at": null,
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "user_id": "USR-ZOYA",
+    "org_id": "ORG-KARTLY",
+    "engineer_id": "zoya",
+    "display_name": "Zoya Ali",
+    "email": "zoya@kartly.example",
+    "role": "admin",
+    "status": "active",
+    "joined_at": "2023-04-03T09:00:00+05:30",
+    "deactivated_at": null,
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "user_id": "USR-NIKHIL",
+    "org_id": "ORG-KARTLY",
+    "engineer_id": "nikhil",
+    "display_name": "Nikhil Rao",
+    "email": "nikhil@kartly.example",
+    "role": "engineer",
+    "status": "active",
+    "joined_at": "2023-04-03T09:00:00+05:30",
+    "deactivated_at": null,
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "user_id": "USR-SANA",
+    "org_id": "ORG-KARTLY",
+    "engineer_id": "sana",
+    "display_name": "Sana Mirza",
+    "email": "sana@kartly.example",
+    "role": "admin",
+    "status": "active",
+    "joined_at": "2023-04-03T09:00:00+05:30",
+    "deactivated_at": null,
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  },
+  {
+    "user_id": "USR-ADITYA",
+    "org_id": "ORG-KARTLY",
+    "engineer_id": "aditya",
+    "display_name": "Aditya Bose",
+    "email": "aditya@kartly.example",
+    "role": "engineer",
+    "status": "active",
+    "joined_at": "2023-04-03T09:00:00+05:30",
+    "deactivated_at": null,
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-architecture-data-v1",
+      "seed": 20261002,
+      "schema_version": "1.0",
+      "review_status": "generated-needs-domain-review",
+      "split": "production-seed"
+    }
+  }
+]

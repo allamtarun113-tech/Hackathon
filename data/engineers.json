@@ -80,5 +80,117 @@
     "left": "2026-05-31",
     "slack": "@sameer.joshi",
     "preference": "Left Kartly on 2026-05-31. Was the go-to person for database and Kubernetes problems."
+  },
+  {
+    "id": "meera",
+    "name": "Meera Kulkarni",
+    "role": "Staff Engineer",
+    "team": "Pricing & Promotions",
+    "joined": "2023-04-03",
+    "slack": "@meera.kulkarni",
+    "preference": "Wants concise evidence, a safe first action and a rollback command.",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-production-corpus-v1",
+      "review_status": "generated"
+    }
+  },
+  {
+    "id": "dev",
+    "name": "Dev Patel",
+    "role": "Senior Software Engineer",
+    "team": "Cart",
+    "joined": "2023-04-03",
+    "slack": "@dev.patel",
+    "preference": "Wants concise evidence, a safe first action and a rollback command.",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-production-corpus-v1",
+      "review_status": "generated"
+    }
+  },
+  {
+    "id": "ishita",
+    "name": "Ishita Sen",
+    "role": "Staff ML Engineer",
+    "team": "Personalization",
+    "joined": "2023-04-03",
+    "slack": "@ishita.sen",
+    "preference": "Wants concise evidence, a safe first action and a rollback command.",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-production-corpus-v1",
+      "review_status": "generated"
+    }
+  },
+  {
+    "id": "rahul",
+    "name": "Rahul Verma",
+    "role": "Senior Software Engineer",
+    "team": "Fulfilment",
+    "joined": "2023-04-03",
+    "slack": "@rahul.verma",
+    "preference": "Wants concise evidence, a safe first action and a rollback command.",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-production-corpus-v1",
+      "review_status": "generated"
+    }
+  },
+  {
+    "id": "zoya",
+    "name": "Zoya Ali",
+    "role": "Staff Engineer",
+    "team": "Risk",
+    "joined": "2023-04-03",
+    "slack": "@zoya.ali",
+    "preference": "Wants concise evidence, a safe first action and a rollback command.",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-production-corpus-v1",
+      "review_status": "generated"
+    }
+  },
+  {
+    "id": "nikhil",
+    "name": "Nikhil Rao",
+    "role": "Senior Software Engineer",
+    "team": "Post-purchase",
+    "joined": "2023-04-03",
+    "slack": "@nikhil.rao",
+    "preference": "Wants concise evidence, a safe first action and a rollback command.",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-production-corpus-v1",
+      "review_status": "generated"
+    }
+  },
+  {
+    "id": "sana",
+    "name": "Sana Mirza",
+    "role": "Staff Engineer",
+    "team": "Catalog",
+    "joined": "2023-04-03",
+    "slack": "@sana.mirza",
+    "preference": "Wants concise evidence, a safe first action and a rollback command.",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-production-corpus-v1",
+      "review_status": "generated"
+    }
+  },
+  {
+    "id": "aditya",
+    "name": "Aditya Bose",
+    "role": "Senior SRE",
+    "team": "Edge Platform",
+    "joined": "2023-04-03",
+    "slack": "@aditya.bose",
+    "preference": "Wants concise evidence, a safe first action and a rollback command.",
+    "data_provenance": {
+      "kind": "synthetic",
+      "generator": "pagermind-production-corpus-v1",
+      "review_status": "generated"
+    }
   }
 ]
