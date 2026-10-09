@@ -51,7 +51,7 @@ jobs:
           EVAL_BANK_ID: ${{ vars.PAGERMIND_EVAL_BANK_ID }}
           WORKFLOW_EVAL_DATABASE_URL: ${{ secrets.WORKFLOW_EVAL_DATABASE_URL }}
         run: uv run --frozen pagermind-eval workflow run --mode live --bank-id "$EVAL_BANK_ID" --fail-under 0.9
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v6
         if: always()
         with:
           name: evaluation-report
