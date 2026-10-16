@@ -4,7 +4,7 @@
 # from uv.lock with --frozen (the build fails if the lockfile is out of date).
 # Refresh digests deliberately (Dependabot opens PRs for both images).
 
-FROM ghcr.io/astral-sh/uv:0.9.22@sha256:2320e6c239737dc73cccce393a8bb89eba2383d17018ee91a59773df802c20e6 AS uv
+FROM ghcr.io/astral-sh/uv:0.13.1@sha256:4a1f3666816dafadd20ceb71eac9a7d56d7ef30279f7d64048519ab901ada336 AS uv
 
 FROM python:3.12-slim@sha256:f77ac9e44ae96ef2c90b8053ea08c31f8be030f824196b0ae4db6d462c84e51f AS build
 COPY --from=uv /uv /usr/local/bin/uv
