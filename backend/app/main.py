@@ -8,6 +8,14 @@ Run with:  uvicorn --factory app.main:create_app
 
 from __future__ import annotations
 
+import asyncio
+import sys
+
+# psycopg's async pool is incompatible with Windows' default ProactorEventLoop.
+# Switch to SelectorEventLoop on Windows before any event loop is started.
+if sys.platform == "win32":
+    asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
+
 from collections.abc import AsyncIterator, Awaitable, Callable
 from contextlib import asynccontextmanager
 

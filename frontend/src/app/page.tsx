@@ -5,7 +5,6 @@ import { useEffect, useRef, useState } from "react";
 import { Composer } from "@/components/Composer";
 import { EngineerPicker } from "@/components/EngineerPicker";
 import { LearningLoop, replayMessage, type AlertSnapshot, type LoopProgress } from "@/components/LearningLoop";
-import { MemoryReviewQueue } from "@/components/MemoryReviewQueue";
 import { ResolveIncidentForm } from "@/components/ResolveIncidentForm";
 import { TurnView } from "@/components/TurnView";
 import { useIncidentChat } from "@/hooks/useIncidentChat";
@@ -22,7 +21,6 @@ export default function Workspace() {
     bottom.current?.scrollIntoView({ behavior: "smooth", block: "end" });
   }, [chat.turns.length]);
 
-  // Before the replay, alert A is whatever the live conversation answered first; after it, the frozen snapshot.
   const firstAnswered = chat.turns.find((turn) => turn.result);
   const replayed = loop.alertA !== null;
   const liveAlert: AlertSnapshot | null = firstAnswered?.result
@@ -50,44 +48,76 @@ export default function Workspace() {
     <div className="workspace">
       <header className="topbar">
         <div className="brand">
-          <span className="logo" aria-hidden>
-            ◎
-          </span>
+          <div className="logo-icon">P</div>
           <div>
-            <h1>PagerMind</h1>
-            <p className="muted small">Shared on-call workspace with incident memory</p>
+            <h1 style={{ fontSize: "15px", marginBottom: 0 }}>PagerMind</h1>
+            <p className="muted small" style={{ fontSize: "11px", margin: 0 }}>AI-powered incident intelligence</p>
           </div>
         </div>
         <div className="topbar-actions">
-          {chat.incidentId && <span className="chip mono">{chat.incidentId}</span>}
+          {chat.incidentId && (
+            <div className="incident-chip">
+              <span className="dot-live" />
+              {chat.incidentId}
+            </div>
+          )}
           <EngineerPicker value={engineerId} onChange={setEngineerId} />
-          <button type="button" className="secondary" onClick={newIncident} disabled={chat.turns.length === 0}>
-            New incident
+          <button
+            id="new-incident-btn"
+            type="button"
+            className="secondary small"
+            onClick={newIncident}
+            disabled={chat.turns.length === 0}
+          >
+            + New
           </button>
         </div>
       </header>
 
       <main className="thread">
-        <LearningLoop
-          alertA={alertA}
-          progress={loop}
-          resultB={replayed ? (firstAnswered?.result ?? null) : null}
-          replayed={replayed}
-          busy={chat.busy}
-          onReplay={replay}
-        />
-
-        {chat.turns.length === 0 && (
-          <section className="empty card">
-            <h2>What is failing?</h2>
-            <p className="muted">
-              Describe the alert and paste the key error lines, or attach a log file. PagerMind compares a plain
-              model answer with one grounded in your team&apos;s past incidents, shows the evidence, and learns from
-              your feedback and resolutions.
-            </p>
-          </section>
+        {/* Workflow progress panel — shown only when there's an incident in progress */}
+        {alertA && (
+          <LearningLoop
+            alertA={alertA}
+            progress={loop}
+            resultB={replayed ? (firstAnswered?.result ?? null) : null}
+            replayed={replayed}
+            busy={chat.busy}
+            onReplay={replay}
+          />
         )}
 
+        {/* Empty / welcome state */}
+        {chat.turns.length === 0 && (
+          <div className="welcome-card">
+            <div className="empty-icon">🔍</div>
+            <h2>What's failing?</h2>
+            <p>
+              Select your role, then describe the incident below. PagerMind searches your team's
+              past incidents and compares AI answers — with and without historical memory.
+            </p>
+            <div className="welcome-steps">
+              <div className="welcome-step">
+                <div className="welcome-step-num">1</div>
+                Select your role
+              </div>
+              <div className="welcome-step">
+                <div className="welcome-step-num">2</div>
+                Describe the incident
+              </div>
+              <div className="welcome-step">
+                <div className="welcome-step-num">3</div>
+                Review AI recommendations
+              </div>
+              <div className="welcome-step">
+                <div className="welcome-step-num">4</div>
+                Resolve &amp; save to memory
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* Chat turns */}
         {chat.turns.map((turn) => (
           <TurnView
             key={turn.id}
@@ -97,31 +127,38 @@ export default function Workspace() {
             onFeedback={
               replayed
                 ? undefined
-                : (stepId, outcome) => setLoop((current) => ({ ...current, feedback: [...current.feedback, { stepId, outcome }] }))
+                : (stepId, outcome) =>
+                    setLoop((current) => ({ ...current, feedback: [...current.feedback, { stepId, outcome }] }))
             }
           />
         ))}
 
-        {chat.incidentId && engineerId && !chat.busy && (
-          <ResolveIncidentForm
-            key={chat.incidentId}
-            incidentId={chat.incidentId}
-            engineerId={engineerId}
-            onResolved={replayed ? undefined : (resolved) => setLoop((current) => ({ ...current, resolved }))}
-          />
+        {/* Resolve form — only once AI has answered and is no longer busy */}
+        {chat.incidentId && engineerId && !chat.busy && chat.turns.some((t) => t.result) && (
+          <>
+            <div className="section-divider">Resolve Incident</div>
+            <ResolveIncidentForm
+              key={chat.incidentId}
+              incidentId={chat.incidentId}
+              engineerId={engineerId}
+              onResolved={replayed ? undefined : (resolved) => setLoop((current) => ({ ...current, resolved }))}
+            />
+          </>
         )}
-        <MemoryReviewQueue />
+
         <div ref={bottom} />
       </main>
 
       <footer className="composer-dock">
-        <Composer
-          engineerId={engineerId}
-          conversationId={chat.conversationId}
-          busy={chat.busy}
-          onSend={(message, fileIds) => void chat.send(message, fileIds)}
-          onCancel={chat.cancel}
-        />
+        <div className="composer-wrap">
+          <Composer
+            engineerId={engineerId}
+            conversationId={chat.conversationId}
+            busy={chat.busy}
+            onSend={(message, fileIds) => void chat.send(message, fileIds)}
+            onCancel={chat.cancel}
+          />
+        </div>
       </footer>
     </div>
   );

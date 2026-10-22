@@ -29,3 +29,6 @@ backend/evals/reports/
 .DS_Store
 .idea/
 .vscode/
+
+# Local tool state
+.code-in/

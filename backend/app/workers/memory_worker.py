@@ -16,6 +16,13 @@ Run with:  python -m app.workers.memory_worker
 from __future__ import annotations
 
 import asyncio
+import sys
+
+# psycopg's async pool is incompatible with Windows' default ProactorEventLoop.
+# Switch to SelectorEventLoop on Windows before any event loop is started.
+if sys.platform == "win32":
+    asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
+
 import contextlib
 import signal
 import socket
@@ -303,8 +310,10 @@ async def main() -> None:
     )
 
     loop = asyncio.get_running_loop()
-    for sig in (signal.SIGINT, signal.SIGTERM):
-        loop.add_signal_handler(sig, worker.stop)
+    # signal handlers via loop.add_signal_handler are not supported on Windows
+    if sys.platform != "win32":
+        for sig in (signal.SIGINT, signal.SIGTERM):
+            loop.add_signal_handler(sig, worker.stop)
     try:
         await worker.run()
     finally:

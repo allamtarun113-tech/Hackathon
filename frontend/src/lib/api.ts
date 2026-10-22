@@ -28,13 +28,27 @@ export class ApiError extends Error {
 async function request<T>(path: string, init?: RequestInit): Promise<T> {
   const response = await fetch(`${API_BASE}${path}`, init);
   if (!response.ok) {
-    const body = (await response.json().catch(() => null)) as ApiErrorBody | null;
-    throw new ApiError(
-      body?.error.message ?? `Request failed (${response.status})`,
-      response.status,
-      body?.error.code ?? "http_error",
-      body?.error.request_id,
-    );
+    const raw = (await response.json().catch(() => null)) as any;
+    let message = `Request failed (${response.status})`;
+    let code = "http_error";
+    let requestId: string | null = null;
+
+    if (raw) {
+      if (typeof raw.error?.message === "string") {
+        message = raw.error.message;
+        code = raw.error.code ?? code;
+        requestId = raw.error.request_id ?? null;
+      } else if (typeof raw.detail === "string") {
+        message = raw.detail;
+      } else if (Array.isArray(raw.detail)) {
+        message = raw.detail
+          .map((d: any) => (d.msg ? `${d.loc && d.loc.length > 1 ? d.loc.slice(1).join(".") + ": " : ""}${d.msg}` : JSON.stringify(d)))
+          .join(", ");
+      } else if (typeof raw.message === "string") {
+        message = raw.message;
+      }
+    }
+    throw new ApiError(message, response.status, code, requestId);
   }
   return (await response.json()) as T;
 }
@@ -118,8 +132,13 @@ export async function* streamChat(
 ): AsyncGenerator<StreamEvent> {
   const response = await fetch(`${API_BASE}/chat`, { ...json(body), signal });
   if (!response.ok || !response.body) {
-    const error = (await response.json().catch(() => null)) as ApiErrorBody | null;
-    throw new ApiError(error?.error.message ?? "Chat request failed", response.status, error?.error.code ?? "http_error");
+    const raw = (await response.json().catch(() => null)) as any;
+    const msg =
+      raw?.error?.message ??
+      (typeof raw?.detail === "string" ? raw.detail : null) ??
+      (Array.isArray(raw?.detail) ? raw.detail.map((d: any) => d.msg ?? JSON.stringify(d)).join(", ") : null) ??
+      "Chat request failed";
+    throw new ApiError(msg, response.status, raw?.error?.code ?? "http_error");
   }
 
   const reader = response.body.pipeThrough(new TextDecoderStream()).getReader();
